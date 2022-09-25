@@ -10,17 +10,12 @@ import app.revanced.patcher.patch.impl.ResourcePatch
 import app.revanced.patches.youtube.layout.sponsorblock.annotations.SponsorBlockCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceIdMappingProviderResourcePatch
-import app.revanced.patches.youtube.misc.settings.bytecode.patch.SettingsPatch
-import app.revanced.patches.youtube.misc.settings.framework.components.impl.Preference
-import app.revanced.patches.youtube.misc.settings.framework.components.impl.StringResource
-import app.revanced.util.resources.ResourceUtils
-import app.revanced.util.resources.ResourceUtils.Settings.mergeStrings
-import app.revanced.util.resources.ResourceUtils.copyResources
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
+import java.nio.file.Files
 
 @Name("sponsorblock-resource-patch")
 @SponsorBlockCompatibility
-@DependsOn([FixLocaleConfigErrorPatch::class, SettingsPatch::class, ResourceIdMappingProviderResourcePatch::class])
+@DependsOn([FixLocaleConfigErrorPatch::class, ResourceIdMappingProviderResourcePatch::class])
 @Version("0.0.1")
 class SponsorBlockResourcePatch : ResourcePatch() {
     companion object {
@@ -28,89 +23,78 @@ class SponsorBlockResourcePatch : ResourcePatch() {
     }
 
     override fun execute(data: ResourceData): PatchResult {
-        val youtubePackage = "com.google.android.youtube"
-        SettingsPatch.addPreference(
-            Preference(
-                StringResource("sb_settings", "SponsorBlock"),
-                Preference.Intent(
-                    youtubePackage,
-                    "sponsorblock_settings",
-                    "com.google.android.libraries.social.licenses.LicenseActivity"
-                ),
-                StringResource("revanced_sponsorblock_settings_summary", "SponsorBlock related settings"),
-            )
-        )
         val classLoader = this.javaClass.classLoader
-
-        /*
-         merge SponsorBlock strings to main strings
-         */
-        data.mergeStrings("sponsorblock/host/values/strings.xml")
 
         /*
          merge SponsorBlock drawables to main drawables
          */
+        val drawables = "drawable" to arrayOf(
+            "ic_sb_adjust",
+            "ic_sb_compare",
+            "ic_sb_edit",
+            "ic_sb_logo",
+            "ic_sb_publish",
+            "ic_sb_voting"
+        )
 
-        arrayOf(
-            ResourceUtils.ResourceGroup(
-                "layout",
-                "inline_sponsor_overlay.xml",
-                "new_segment.xml",
-                "skip_sponsor_button.xml"
-            ),
-            ResourceUtils.ResourceGroup(
-                // required resource for back button, because when the base APK is used, this resource will not exist
-                "drawable",
-                "ic_sb_adjust.xml",
-                "ic_sb_compare.xml",
-                "ic_sb_edit.xml",
-                "ic_sb_logo.xml",
-                "ic_sb_publish.xml",
-                "ic_sb_voting.xml"
-            ),
-            ResourceUtils.ResourceGroup(
-                // required resource for back button, because when the base APK is used, this resource will not exist
-                "drawable-xxxhdpi", "quantum_ic_skip_next_white_24.png"
-            )
-        ).forEach { resourceGroup ->
-            data.copyResources("sponsorblock", resourceGroup)
+        val layouts = "layout" to arrayOf(
+            "inline_sponsor_overlay", "new_segment", "skip_sponsor_button"
+        )
+
+        // collect resources
+        val xmlResources = arrayOf(drawables, layouts)
+
+        // write resources
+        xmlResources.forEach { (path, resourceNames) ->
+            resourceNames.forEach { name ->
+                val relativePath = "$path/$name.xml"
+
+                Files.copy(
+                    classLoader.getResourceAsStream("sponsorblock/$relativePath")!!,
+                    data["res"].resolve(relativePath).toPath()
+                )
+            }
         }
 
         /*
         merge xml nodes from the host to their real xml files
          */
 
+        // collect all host resources
+        val hostingXmlResources = mapOf("layout" to arrayOf("youtube_controls_layout"))
+
         // copy nodes from host resources to their real xml files
-        val hostingResourceStream =
-            classLoader.getResourceAsStream("sponsorblock/host/layout/youtube_controls_layout.xml")!!
+        hostingXmlResources.forEach { (path, resources) ->
+            resources.forEach { resource ->
+                val hostingResourceStream = classLoader.getResourceAsStream("sponsorblock/host/$path/$resource.xml")!!
 
-        val targetXmlEditor = data.xmlEditor["res/layout/youtube_controls_layout.xml"]
-        "RelativeLayout".copyXmlNode(
-            data.xmlEditor[hostingResourceStream],
-            targetXmlEditor
-        ).also {
-            val children = targetXmlEditor.file.getElementsByTagName("RelativeLayout").item(0).childNodes
+                val targetXmlEditor = data.xmlEditor["res/$path/$resource.xml"]
+                "RelativeLayout".copyXmlNode(
+                    data.xmlEditor[hostingResourceStream],
+                    targetXmlEditor
+                ).also {
+                    val children = targetXmlEditor.file.getElementsByTagName("RelativeLayout").item(0).childNodes
 
-            // Replace the startOf with the voting button view so that the button does not overlap
-            for (i in 1 until children.length) {
-                val view = children.item(i)
+                    // Replace the startOf with the voting button view so that the button does not overlap
+                    for (i in 1 until children.length) {
+                        val view = children.item(i)
 
-                // Replace the attribute for a specific node only
-                if (!(view.hasAttributes() && view.attributes.getNamedItem("android:id").nodeValue.endsWith("live_chat_overlay_button"))) continue
+                        // Replace the attribute for a specific node only
+                        if (!(view.hasAttributes() && view.attributes.getNamedItem("android:id").nodeValue.endsWith("player_video_heading"))) continue
 
-                // voting button id from the voting button view from the youtube_controls_layout.xml host file
-                val votingButtonId = "@+id/voting_button"
+                        // voting button id from the voting button view from the youtube_controls_layout.xml host file
+                        val SBButtonId = "@+id/sponsorblock_button"
 
-                view.attributes.getNamedItem("android:layout_toStartOf").nodeValue = votingButtonId
+                        view.attributes.getNamedItem("android:layout_toStartOf").nodeValue = SBButtonId
 
-                break
+                        break
+                    }
+                }.close() // close afterwards
             }
-        }.close() // close afterwards
-
+        }
         reelButtonGroupResourceId = ResourceIdMappingProviderResourcePatch.resourceMappings.single {
             it.type == "id" && it.name == "reel_persistent_edu_button_group"
         }.id
-
         return PatchResultSuccess()
     }
 }

@@ -13,9 +13,6 @@ import app.revanced.patches.youtube.misc.microg.annotations.MicroGPatchCompatibi
 import app.revanced.patches.youtube.misc.microg.shared.Constants.BASE_MICROG_PACKAGE_NAME
 import app.revanced.patches.youtube.misc.microg.shared.Constants.REVANCED_PACKAGE_NAME
 import app.revanced.patches.youtube.misc.settings.resource.patch.SettingsResourcePatch
-import app.revanced.patches.youtube.misc.settings.bytecode.patch.SettingsPatch
-import app.revanced.patches.youtube.misc.settings.framework.components.impl.Preference
-import app.revanced.patches.youtube.misc.settings.framework.components.impl.StringResource
 
 @Name("microg-resource-patch")
 @DependsOn([FixLocaleConfigErrorPatch::class, SettingsResourcePatch::class])
@@ -24,14 +21,35 @@ import app.revanced.patches.youtube.misc.settings.framework.components.impl.Stri
 @Version("0.0.1")
 class MicroGResourcePatch : ResourcePatch() {
     override fun execute(data: ResourceData): PatchResult {
-        SettingsPatch.addPreference(
-            Preference(
-                StringResource("microg_settings", "MicroG Settings"),
-                Preference.Intent("$BASE_MICROG_PACKAGE_NAME.android.gms", "", "org.microg.gms.ui.SettingsActivity"),
-                StringResource("microg_settings_summary", "Settings for MicroG"),
+
+        val xfile = data["res/xml/revanced_prefs.xml"]
+        xfile.writeText(
+                xfile.readText()
+                        .replace(
+                                "<PreferenceCategory android:layout_height=\"fill_parent\" android:title=\"@string/revanced_settings\" />",
+                                "<PreferenceCategory android:title=\"@string/microg_settings\">\n        TEMP1\n    <PreferenceCategory android:layout_height=\"fill_parent\" android:title=\"@string/revanced_settings\" />"
+                        ).replace(
+                                "TEMP1",
+                                "<PreferenceScreen android:title=\"@string/microg_notification_settings\" android:summary=\"@string/microg_notification_settings_summary\">\n            TEMP2"
+                        ).replace(
+                                "TEMP2",
+                                "<intent android:targetPackage=\"com.mgoogle.android.gms\" android:targetClass=\"org.microg.gms.ui.SettingsActivity\" />\n        TEMP3"
+                        ).replace(
+                                "TEMP3",
+                                "</PreferenceScreen>\n    TEMP4"
+                        ).replace(
+                                "TEMP4",
+                                "</PreferenceCategory>"
+                        )
+        )
+
+        val settingsFragment = data["res/xml/settings_fragment.xml"]
+        settingsFragment.writeText(
+            settingsFragment.readText().replace(
+                "android:targetPackage=\"com.google.android.youtube",
+                "android:targetPackage=\"$REVANCED_PACKAGE_NAME"
             )
         )
-        SettingsPatch.renameIntentsTargetPackage(REVANCED_PACKAGE_NAME)
 
         val manifest = data["AndroidManifest.xml"]
         manifest.writeText(

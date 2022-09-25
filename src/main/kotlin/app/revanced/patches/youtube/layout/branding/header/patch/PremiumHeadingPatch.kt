@@ -16,7 +16,6 @@ import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 import kotlin.io.path.exists
 
-@Patch
 @DependsOn([FixLocaleConfigErrorPatch::class])
 @Name("premium-heading")
 @Description("Shows premium branding on the home screen.")

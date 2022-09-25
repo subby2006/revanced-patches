@@ -15,7 +15,7 @@ import app.revanced.patches.youtube.interaction.swipecontrols.annotation.SwipeCo
 @SwipeControlsCompatibility
 @Version("0.0.1")
 object SwipeControlsHostActivityFingerprint : MethodFingerprint(
-    customFingerprint = { methodDef ->
+    null, null, null, null, null, { methodDef ->
         methodDef.definingClass == "Lapp/revanced/integrations/swipecontrols/SwipeControlsHostActivity;" && methodDef.name == "<init>"
     }
 )

@@ -55,6 +55,7 @@ class SponsorBlockBytecodePatch : BytecodePatch(
         AppendTimeFingerprint,
         PlayerInitFingerprint,
         PlayerOverlaysLayoutInitFingerprint,
+        WatchWhileActivityFingerprint,
         ShortsPlayerConstructorFingerprint,
         StartVideoInformerFingerprint
     )
@@ -251,6 +252,15 @@ class SponsorBlockBytecodePatch : BytecodePatch(
             "invoke-static {v$initInstanceRegister}, Lapp/revanced/integrations/sponsorblock/PlayerController;->onCreate(Ljava/lang/Object;)V"
         )
 
+        // show a dialog for sponsor block
+        val watchWhileActivityResult = WatchWhileActivityFingerprint.result!!
+        val watchWhileActivityInstance = 1
+        watchWhileActivityResult.mutableMethod.addInstructions(
+            watchWhileActivityResult.scanResult.patternScanResult!!.startIndex, """
+                    invoke-static {v$watchWhileActivityInstance}, Lapp/revanced/integrations/sponsorblock/dialog/Dialogs;->showDialogsAtStartup(Landroid/app/Activity;)V
+            """
+        )
+
         // initialize the sponsorblock view
         PlayerOverlaysLayoutInitFingerprint.result!!.mutableMethod.addInstruction(
             6, // after inflating the view
@@ -331,7 +341,7 @@ class SponsorBlockBytecodePatch : BytecodePatch(
         startVideoInformerMethod.addInstructions(
             0, """
             const/4 v0, 0x0
-            sput-boolean v0, Lapp/revanced/integrations/settings/SettingsEnum;->shorts_playing:Z
+            sput-boolean v0, Lapp/revanced/integrations/sponsorblock/PlayerController;->shorts_playing:Z
         """
         )
 
@@ -340,7 +350,7 @@ class SponsorBlockBytecodePatch : BytecodePatch(
         shortsPlayerConstructorMethod.addInstructions(
             0, """
             const/4 v0, 0x1
-            sput-boolean v0, Lapp/revanced/integrations/settings/SettingsEnum;->shorts_playing:Z
+            sput-boolean v0, Lapp/revanced/integrations/sponsorblock/PlayerController;->shorts_playing:Z
         """
         )
 

@@ -15,7 +15,7 @@ import app.revanced.patches.youtube.interaction.swipecontrols.annotation.SwipeCo
 @SwipeControlsCompatibility
 @Version("0.0.1")
 object WatchWhileActivityFingerprint : MethodFingerprint(
-    customFingerprint = { methodDef ->
+    null, null, null, null, null, { methodDef ->
         methodDef.definingClass.endsWith("WatchWhileActivity;") && methodDef.name == "<init>"
     }
 )

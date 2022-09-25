@@ -9,7 +9,6 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.impl.ResourcePatch
 import app.revanced.patches.music.misc.microg.annotations.MusicMicroGPatchCompatibility
 import app.revanced.patches.music.misc.microg.shared.Constants.BASE_MICROG_PACKAGE_NAME
-import app.revanced.patches.music.misc.microg.shared.Constants.REVANCED_MUSIC_APP_NAME
 import app.revanced.patches.music.misc.microg.shared.Constants.REVANCED_MUSIC_PACKAGE_NAME
 
 @Name("music-microg-resource-patch")
@@ -24,10 +23,6 @@ class MusicMicroGResourcePatch : ResourcePatch() {
         data["AndroidManifest.xml"].writeText(
             manifest.replace(
                 "package=\"com.google.android.apps.youtube.music", "package=\"$REVANCED_MUSIC_PACKAGE_NAME"
-            ).replace(
-                "android:label=\"@string/app_name", "android:label=\"$REVANCED_MUSIC_APP_NAME"
-            ).replace(
-                "android:label=\"@string/app_launcher_name", "android:label=\"$REVANCED_MUSIC_APP_NAME"
             ).replace(
                 "android:authorities=\"com.google.android.apps.youtube.music", "android:authorities=\"$REVANCED_MUSIC_PACKAGE_NAME"
             ).replace(

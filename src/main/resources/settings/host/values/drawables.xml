@@ -1,0 +1,3 @@
+<resources>
+    <item type="drawable" name="revanced_splash_bg">@color/yt_white1</item>
+</resources>

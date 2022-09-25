@@ -13,12 +13,9 @@ import app.revanced.patcher.patch.impl.BytecodePatch
 import app.revanced.patches.youtube.layout.playerpopuppanels.annotations.PlayerPopupPanelsCompatibility
 import app.revanced.patches.youtube.layout.playerpopuppanels.fingerprints.EngagementPanelControllerFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
-import app.revanced.patches.youtube.misc.settings.bytecode.patch.SettingsPatch
-import app.revanced.patches.youtube.misc.settings.framework.components.impl.StringResource
-import app.revanced.patches.youtube.misc.settings.framework.components.impl.SwitchPreference
 
 @Patch
-@DependsOn([IntegrationsPatch::class, SettingsPatch::class])
+@DependsOn([IntegrationsPatch::class])
 @Name("disable-auto-player-popup-panels")
 @Description("Disable automatic popup panels (playlist or live chat) on video player.")
 @PlayerPopupPanelsCompatibility
@@ -29,16 +26,6 @@ class PlayerPopupPanelsPatch : BytecodePatch(
     )
 ) {
     override fun execute(data: BytecodeData): PatchResult {
-        SettingsPatch.PreferenceScreen.LAYOUT.addPreferences(
-            SwitchPreference(
-                "revanced_player_popup_panels_enabled",
-                StringResource("revanced_player_popup_panels_title", "Disable player popup panels"),
-                false,
-                StringResource("revanced_player_popup_panels_summary_on", "Player popup panels are enabled"),
-                StringResource("revanced_player_popup_panels_summary_off", "Player popup panels are disabled")
-            )
-        )
-
         val engagementPanelControllerMethod = EngagementPanelControllerFingerprint.result!!.mutableMethod
 
         engagementPanelControllerMethod.addInstructions(

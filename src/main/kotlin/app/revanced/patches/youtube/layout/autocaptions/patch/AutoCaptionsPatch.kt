@@ -15,12 +15,9 @@ import app.revanced.patches.youtube.layout.autocaptions.fingerprints.StartVideoI
 import app.revanced.patches.youtube.layout.autocaptions.fingerprints.SubtitleButtonControllerFingerprint
 import app.revanced.patches.youtube.layout.autocaptions.fingerprints.SubtitleTrackFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
-import app.revanced.patches.youtube.misc.settings.bytecode.patch.SettingsPatch
-import app.revanced.patches.youtube.misc.settings.framework.components.impl.StringResource
-import app.revanced.patches.youtube.misc.settings.framework.components.impl.SwitchPreference
 
 @Patch
-@DependsOn([IntegrationsPatch::class, SettingsPatch::class])
+@DependsOn([IntegrationsPatch::class])
 @Name("disable-auto-captions")
 @Description("Disable forced captions from being automatically enabled.")
 @AutoCaptionsCompatibility
@@ -31,16 +28,6 @@ class AutoCaptionsPatch : BytecodePatch(
     )
 ) {
     override fun execute(data: BytecodeData): PatchResult {
-        SettingsPatch.PreferenceScreen.LAYOUT.addPreferences(
-            SwitchPreference(
-                "revanced_autocaptions_enabled",
-                StringResource("revanced_autocaptions_enabled_title", "Disable auto-captions"),
-                false,
-                StringResource("revanced_autocaptions_summary_on", "Auto-captions are disabled"),
-                StringResource("revanced_autocaptions_summary_off", "Auto-captions are enabled")
-            )
-        )
-
         val startVideoInformerMethod = StartVideoInformerFingerprint.result!!.mutableMethod
 
         startVideoInformerMethod.addInstructions(
@@ -65,12 +52,12 @@ class AutoCaptionsPatch : BytecodePatch(
             0, """
             invoke-static {}, Lapp/revanced/integrations/patches/DisableAutoCaptionsPatch;->autoCaptionsEnabled()Z
             move-result v0
-            if-eqz v0, :auto_captions_enabled
+            if-eqz v0, :forced_captions
             sget-boolean v0, Lapp/revanced/integrations/patches/DisableAutoCaptionsPatch;->captionsButtonDisabled:Z
-            if-nez v0, :auto_captions_enabled
+            if-nez v0, :forced_captions
             const/4 v0, 0x1
             return v0
-            :auto_captions_enabled
+            :forced_captions
             nop
         """
         )

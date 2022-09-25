@@ -66,3 +66,4 @@ class SwipeControlsBytecodePatch : BytecodePatch(
         return PatchResultSuccess()
     }
 }
+

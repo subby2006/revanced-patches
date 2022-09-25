@@ -19,13 +19,10 @@ import app.revanced.patches.youtube.layout.tabletminiplayer.fingerprints.MiniPla
 import app.revanced.patches.youtube.layout.tabletminiplayer.fingerprints.MiniPlayerOverrideNoContextFingerprint
 import app.revanced.patches.youtube.layout.tabletminiplayer.fingerprints.MiniPlayerResponseModelSizeCheckFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
-import app.revanced.patches.youtube.misc.settings.bytecode.patch.SettingsPatch
-import app.revanced.patches.youtube.misc.settings.framework.components.impl.StringResource
-import app.revanced.patches.youtube.misc.settings.framework.components.impl.SwitchPreference
 import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 
 @Patch
-@DependsOn([IntegrationsPatch::class, SettingsPatch::class])
+@DependsOn([IntegrationsPatch::class])
 @Name("tablet-mini-player")
 @Description("Enables the tablet mini player layout.")
 @TabletMiniPlayerCompatibility
@@ -37,14 +34,6 @@ class TabletMiniPlayerPatch : BytecodePatch(
     )
 ) {
     override fun execute(data: BytecodeData): PatchResult {
-        SettingsPatch.PreferenceScreen.LAYOUT.addPreferences(SwitchPreference(
-            "revanced_tablet_miniplayer",
-            StringResource("revanced_tablet_miniplayer_title", "Enable the tablet Mini-player"),
-            false,
-            StringResource("revanced_tablet_miniplayer_summary_on", "Tablet Mini-player is enabled"),
-            StringResource("revanced_tablet_miniplayer_summary_off", "Tablet Mini-player is disabled")
-        ))
-
         // first resolve the fingerprints via the parent fingerprint
         val miniPlayerClass = MiniPlayerDimensionsCalculatorFingerprint.result!!.classDef
 

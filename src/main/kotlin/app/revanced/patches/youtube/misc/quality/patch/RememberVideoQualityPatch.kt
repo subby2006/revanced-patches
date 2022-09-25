@@ -33,8 +33,6 @@ class RememberVideoQualityPatch : BytecodePatch(
     )
 ) {
     override fun execute(data: BytecodeData): PatchResult {
-        //TODO: include setting to skip remembering the new quality
-
         val setterMethod = VideoQualitySetterFingerprint.result!!
 
         VideoUserQualityChangeFingerprint.resolve(data, setterMethod.classDef)

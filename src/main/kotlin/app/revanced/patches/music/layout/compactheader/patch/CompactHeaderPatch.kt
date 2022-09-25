@@ -13,7 +13,7 @@ import app.revanced.patches.music.layout.compactheader.annotations.CompactHeader
 import app.revanced.patches.music.layout.compactheader.fingerprints.CompactHeaderConstructorFingerprint
 import org.jf.dexlib2.builder.instruction.BuilderInstruction11x
 
-@Patch(false)
+@Patch
 @Name("compact-header")
 @Description("Hides the music category bar at the top of the homepage.")
 @CompactHeaderCompatibility

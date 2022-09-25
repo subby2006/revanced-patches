@@ -15,5 +15,9 @@ import app.revanced.patches.youtube.layout.returnyoutubedislike.annotations.Retu
 @ReturnYouTubeDislikeCompatibility
 @Version("0.0.1")
 object TextComponentSpecParentFingerprint : MethodFingerprint(
-    strings = listOf("TextComponentSpec: No converter for extension: ")
+    null,
+    null,
+    null,
+    null,
+    listOf("TextComponentSpec: No converter for extension: ")
 )

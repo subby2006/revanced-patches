@@ -14,9 +14,9 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.impl.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patches.youtube.layout.castbutton.patch.HideCastButtonPatch
-import app.revanced.patches.youtube.misc.clientspoof.patch.ClientSpoofPatch
 import app.revanced.patches.youtube.misc.microg.annotations.MicroGPatchCompatibility
 import app.revanced.patches.youtube.misc.microg.fingerprints.*
+import app.revanced.patches.youtube.layout.sponsorblock.bytecode.fingerprints.WatchWhileActivityFingerprint
 import app.revanced.patches.youtube.misc.microg.patch.resource.MicroGResourcePatch
 import app.revanced.patches.youtube.misc.microg.patch.resource.enum.StringReplaceMode
 import app.revanced.patches.youtube.misc.microg.shared.Constants.BASE_MICROG_PACKAGE_NAME
@@ -33,11 +33,10 @@ import org.jf.dexlib2.immutable.reference.ImmutableStringReference
     [
         MicroGResourcePatch::class,
         HideCastButtonPatch::class,
-        ClientSpoofPatch::class
     ]
 )
 @Name("microg-support")
-@Description("Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG.")
+@Description("Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG")
 @MicroGPatchCompatibility
 @Version("0.0.1")
 class MicroGBytecodePatch : BytecodePatch(
@@ -49,6 +48,7 @@ class MicroGBytecodePatch : BytecodePatch(
         CastDynamiteModuleV2Fingerprint,
         CastContextFetchFingerprint,
         PrimeFingerprint,
+		WatchWhileActivityFingerprint
     )
 ) {
     override fun execute(data: BytecodeData): PatchResult {
@@ -117,6 +117,14 @@ class MicroGBytecodePatch : BytecodePatch(
                 }
             }
         }
+
+        val watchWhileActivityResult = WatchWhileActivityFingerprint.result!!.mutableMethod
+
+        watchWhileActivityResult.addInstructions(
+            0, """
+            invoke-static {}, Lapp/revanced/integrations/settingsmenu/ReVancedSettingsFragment;->checkMicroG()V
+        """
+        )
 
         return PatchResultSuccess()
     }

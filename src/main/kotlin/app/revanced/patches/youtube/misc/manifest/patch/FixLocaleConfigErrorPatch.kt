@@ -28,7 +28,8 @@ class FixLocaleConfigErrorPatch : ResourcePatch() {
             // by replacing the attributes name
             val attribute = "android:localeConfig"
             applicationNode.setAttribute("localeConfig", applicationNode.getAttribute(attribute))
-            applicationNode.removeAttribute(attribute)
+            applicationNode.removeAttribute("android:localeConfig")
+
         }
 
         return PatchResultSuccess()

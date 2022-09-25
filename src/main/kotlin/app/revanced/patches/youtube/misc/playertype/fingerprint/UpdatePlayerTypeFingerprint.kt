@@ -22,7 +22,8 @@ import org.jf.dexlib2.Opcode
 object UpdatePlayerTypeFingerprint : MethodFingerprint(
     "V",
     AccessFlags.PUBLIC or AccessFlags.FINAL,
-    opcodes = listOf(
+    null,
+    listOf(
         Opcode.INVOKE_VIRTUAL,
         Opcode.IGET_OBJECT,
         Opcode.IF_NE,

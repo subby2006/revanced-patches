@@ -26,5 +26,7 @@ object AutoRepeatFingerprint : MethodFingerprint(
     "V",
     AccessFlags.PUBLIC or AccessFlags.FINAL,
     listOf(),
+    null,
+    null,
     customFingerprint = { methodDef -> methodDef.implementation!!.instructions.count() == 3 && methodDef.annotations.isEmpty()}
 )

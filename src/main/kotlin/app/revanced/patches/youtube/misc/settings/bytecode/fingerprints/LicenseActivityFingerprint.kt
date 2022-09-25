@@ -2,6 +2,7 @@ package app.revanced.patches.youtube.misc.settings.bytecode.fingerprints
 
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
+import app.revanced.patcher.fingerprint.method.annotation.DirectPatternScanMethod
 import app.revanced.patcher.fingerprint.method.annotation.MatchingMethod
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patches.youtube.misc.settings.annotations.SettingsCompatibility
@@ -12,10 +13,10 @@ import app.revanced.patches.youtube.misc.settings.annotations.SettingsCompatibil
 @MatchingMethod(
     "Lcom/google/android/libraries/social/licenses/LicenseActivity;", "onCreate"
 )
+@DirectPatternScanMethod
 @SettingsCompatibility
 @Version("0.0.1")
 object LicenseActivityFingerprint : MethodFingerprint(
-    customFingerprint = { methodDef ->
-        methodDef.definingClass.endsWith("LicenseActivity;") && methodDef.name == "onCreate"
-    }
+    "V",
+    strings = listOf("third_party_licenses")
 )
