@@ -10,6 +10,7 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.impl.ResourcePatch
 import app.revanced.patches.youtube.misc.overlaybuttons.annotation.OverlayButtonsCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
+import app.revanced.util.resources.ResourceUtils.copyXmlNode
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 
@@ -45,6 +46,21 @@ class OverlayButtonsResourcePatch : ResourcePatch() {
                 )
             }
         }
+
+        /*
+         * Copy preference fragments
+         */
+
+        data.copyXmlNode("overlaybuttons/host", "layout/youtube_controls_bottom_ui_container.xml", "android.support.constraint.ConstraintLayout")
+
+        val container = data["res/layout/youtube_controls_bottom_ui_container.xml"]
+        container.writeText(
+            container.readText()
+			.replace(
+                "yt:layout_constraintRight_toLeftOf=\"@id/fullscreen_button",
+                "yt:layout_constraintRight_toLeftOf=\"@+id/copy_button"
+            )
+        )
 
         return PatchResultSuccess()
     }

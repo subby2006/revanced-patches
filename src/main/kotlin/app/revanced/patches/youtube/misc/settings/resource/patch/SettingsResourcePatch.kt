@@ -115,28 +115,11 @@ class SettingsResourcePatch : ResourcePatch() {
                 "yt_outline_screen_full_white_24"
         )
 
-        val layouts = "layout" to arrayOf(
-                "youtube_controls_bottom_ui_container"
-        )
-
         val xmlResources = arrayOf(drawablexxxhdpi)
-        val xmlResources2 = arrayOf(layouts)
 
         xmlResources.forEach { (path, resourceNames) ->
             resourceNames.forEach { name ->
                 val relativePath = "$path/$name.png"
-
-                Files.copy(
-                        classLoader.getResourceAsStream("settings/$relativePath")!!,
-                        data["res"].resolve(relativePath).toPath(),
-                        StandardCopyOption.REPLACE_EXISTING
-                )
-            }
-        }
-
-        xmlResources2.forEach { (path, resourceNames) ->
-            resourceNames.forEach { name ->
-                val relativePath = "$path/$name.xml"
 
                 Files.copy(
                         classLoader.getResourceAsStream("settings/$relativePath")!!,
