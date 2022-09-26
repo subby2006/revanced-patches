@@ -11,13 +11,14 @@ import app.revanced.patcher.patch.impl.BytecodePatch
 import app.revanced.patches.music.misc.microg.annotations.MusicMicroGPatchCompatibility
 import app.revanced.patches.music.misc.microg.fingerprints.*
 import app.revanced.patches.music.misc.microg.patch.resource.MusicMicroGResourcePatch
+import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.patches.music.misc.microg.shared.Constants.MUSIC_PACKAGE_NAME
 import app.revanced.patches.music.misc.microg.shared.Constants.REVANCED_MUSIC_PACKAGE_NAME
 import app.revanced.patches.youtube.misc.microg.shared.Constants
 import app.revanced.util.microg.MicroGBytecodeHelper
 
 @Patch
-@DependsOn([MusicMicroGResourcePatch::class])
+@DependsOn([MusicMicroGResourcePatch::class, ResourceMappingResourcePatch::class])
 @Name("music-microg-support")
 @Description("Allows YouTube Music ReVanced to run without root and under a different package name.")
 @MusicMicroGPatchCompatibility

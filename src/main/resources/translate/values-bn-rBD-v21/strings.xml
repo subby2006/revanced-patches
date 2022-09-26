@@ -16,7 +16,8 @@
     <string name="color_choose_category">ক্যাটাগরি নির্বাচন করুন</string>
     <string name="color_invalid">ভুল hex কোড</string>
     <string name="color_reset">রঙ রিসেট</string>
-    <string name="diff_segments">প্রতিটি সেগমেন্ট এর জন্য কি করা যেতে পারে</string>
+    <string name="diff_segments">প্রতিটি সেগমেন্ট এর জন্য কি করা যেতে পারে</string>	
+    <string name="downloader_not_installed_warning">ইনস্টল করা হয়নি। অনুগ্রহপূর্বক ইনস্টল করুন।</string>
     <string name="enable_sb">স্পন্সর ব্লক চালু করুন</string>
     <string name="enable_sb_sum">ইউটিউব ভিডিও এর বিরক্তিকর অংশ গুলো বাদ দেয়ার জন্য ক্রাউড সোর্স সিস্টেম হলো স্পন্সর ব্লক</string>
     <string name="enable_segmadding">নতুন সেগমেন্ট চালু করুন</string>
@@ -131,7 +132,11 @@
     <string name="new_segment_title">নতুন স্পনসর ব্লক সেগমেন্ট</string>
     <string name="pref_subtitles_scale_normal">সাধারণ</string>
     <string name="reset">রিসেট</string>
-    <string name="revanced_ad_settings_title">এড সেটিং</string>
+    <string name="revanced_ad_settings_title">এ্যাড সেটিং</string>
+    <string name="revanced_ad_settings_summary">এ্যাড সম্পর্কিত সেটিং</string>
+    <string name="revanced_auto_captions_summary_off">"০% ভলিয়ামে ক্যাপশন সয়ংক্রিয়ভাবে চালু হয়নি"</string>
+    <string name="revanced_auto_captions_summary_on">০% ভলিয়ামে ক্যাপশন সয়ংক্রিয়ভাবে চালু হয়েছে</string>
+    <string name="revanced_auto_captions_title">অটো ক্যাপশন</string>
     <string name="revanced_auto_repeat_button_summary_off">প্লেয়ার ওভারলেতে অটো-রিপিট বোতাম দেখাবে না। অটো রিপিট নিয়ন্ত্রণ করতে নীচের টগলটি ব্যবহার করুন</string>
     <string name="revanced_auto_repeat_button_summary_on">প্লেয়ার এর উপরে অটো রিপিট বাটন প্রদর্শন</string>
     <string name="revanced_auto_repeat_button_title">অটো রিপিট বাটন</string>
@@ -144,22 +149,47 @@
     <string name="revanced_branding_watermark_summary_off">ভিডিও ওয়াটার মার্ক গোপন করা</string>
     <string name="revanced_branding_watermark_summary_on">ভিডিও ওয়াটার মার্ক প্রদর্শন</string>
     <string name="revanced_branding_watermark_title">ভিডিও ওয়াটার মার্ক</string>
+    <string name="revanced_buffer_summary">ভিডিও বাফারিংএর জন্য কাস্টম সেটিং</string>
     <string name="revanced_buffer_title">বাফার সেটিংস</string>
+    <string name="revanced_button_location_entry_both">উভয়ই</string>
+    <string name="revanced_button_location_entry_buttoncontainer">প্লেয়ারের নীচে</string>
+    <string name="revanced_button_location_entry_none">গোপন করা</string>
+    <string name="revanced_button_location_entry_player">প্লেয়ারে</string>
     <string name="revanced_cast_button_summary_off">কাস্ট বাটন গোপন করুন</string>
     <string name="revanced_cast_button_summary_on">কাস্ট বাটন প্রদর্শন</string>
     <string name="revanced_cast_button_title">কাস্ট বাটন</string>
+    <string name="revanced_codec_override_title">কোডেক অগ্রাহ্য করা হয়েছে</string>
     <string name="revanced_copy_video_url_summary_off">প্লেয়ার এর উপরে লিংক কপির বাটন গোপন করা হয়েছে</string>
     <string name="revanced_copy_video_url_summary_on">প্লেয়ার এর উপরে লিংক কপির বাটন প্রদর্শন করা হয়েছে</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">প্লেয়ার এর উপরে টাইম স্ট্যাম্প সহ লিংক কপির বাটন গোপন করা হয়েছে</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">প্লেয়ার এর উপরে টাইম স্ট্যাম্প সহ লিংক কপির বাটন প্রদর্শন করা হয়েছে</string>
     <string name="revanced_copy_video_url_timestamp_title">টাইম স্ট্যাম্প সহ লিংক কপি</string>
     <string name="revanced_copy_video_url_title">কপি লিঙ্ক বাটন</string>
+    <string name="revanced_download_video_summary_off">ডাউনলোড বাটন গোপন করা হয়েছে</string>
+    <string name="revanced_download_video_summary_on">ডাউনলোড বাটন প্রদর্শন করা হয়েছে</string>
+    <string name="revanced_download_video_title">ডাউনলোড বাটন</string>
+    <string name="revanced_downloads_package_name_summary">"NewPipe বা Powertube এর মতো ডাউনলোডারের প্যাকেজ নাম"</string>
+    <string name="revanced_downloads_package_name_title">ডাউনলোডারের প্যাকেজ নাম</string>
+    <string name="revanced_downloads_summary">ডাউনলোডার সেট করুন</string>
+    <string name="revanced_downloads_title">ডাউনলোড সেটিংস</string>
+    <string name="revanced_disable_new_layout_summary_off">ইউটিউবের লে-আউট আপনার গুগল একাউন্টের স্টাটাস ফলো করবে</string>
+    <string name="revanced_disable_new_layout_summary_on">নতুন লে-আউট জোরপূর্বক নিস্ক্রিয় করতে ইউটিউব ভার্সন ট্রিক করুন</string>
+    <string name="revanced_disable_new_layout_title">নতুন লে-আউট নিস্ক্রিয় করুন (পরীক্ষামূলক)</string>
     <string name="revanced_create_button_summary_off">ক্রিয়েট বাটন গোপন</string>
     <string name="revanced_create_button_summary_on">ক্রিয়েট বাটন প্রদর্শন</string>
     <string name="revanced_create_button_title">তৈরির বাটন</string>
     <string name="revanced_custom_playback_speed">কাস্টম প্লেব্যাক গতি</string>
     <string name="revanced_custom_playback_speed_off">কাস্টম প্লেব্যাক গতি বন্ধ করা হয়েছে</string>
     <string name="revanced_custom_playback_speed_on">কাস্টম প্লেব্যাক গতি চালু করা হয়েছে</string>
+    <string name="revanced_debug_summary_off">অতিরিক্ত ডিবাগ লগিং নিষ্ক্রিয় করা হয়েছে</string>
+    <string name="revanced_debug_summary_on">অতিরিক্ত ডিবাগ লগিং সক্রিয় করা হয়েছে</string>
+    <string name="revanced_disable_auto_captions_summary_off">ক্যাপশন প্রয়োগ করা হলে ভিডিও চলার সময় ক্যাপশন সক্রিয় করা হয়</string>
+    <string name="revanced_disable_auto_captions_summary_on">"ক্যাপশন প্রয়োগ করা হলে ভিডিও চলার সময় ক্যাপশন সক্রিয় করা হয় না"</string>
+    <string name="revanced_disable_auto_captions_title">সয়ংক্রিয় ক্যাপশন নিষ্ক্রিয় করুন</string>
+    <string name="revanced_experimental_flag">পরীক্ষামূলক ফ্ল্যাগ</string>
+    <string name="revanced_force_fullscreen_rotation_summary_off">ফুল স্ক্রিন রোটেশন ইউটিউবের ডিফল্ট নীতি অনুসরণ করে</string>
+    <string name="revanced_force_fullscreen_rotation_summary_on">ফুল স্ক্রিন রোটেশন চালু করতে ইউটিউবের ভার্সন ট্রিক করা হয়</string>
+    <string name="revanced_force_fullscreen_rotation_title">ফুল স্ক্রিন রোটেশন চালু করুন (পরীক্ষামূলক))</string>
     <string name="revanced_hdr_full_brightness_summary_off">HDR ল্যান্ডস্কেপ ভিডিওতে ভিডিওর উজ্জ্বলতা সর্বোচ্চ সেট করা হয়েছে</string>
     <string name="revanced_hdr_full_brightness_summary_on">ভিডিও উজ্জ্বলতা HDR ল্যান্ডস্কেপে আপনার ডিভাইসের উজ্জ্বলতা অনুসরণ করবে</string>
     <string name="revanced_hdr_full_brightness_title">HDR ভিডিও উজ্জ্বলতা ওভাররাইড করুন</string>
@@ -169,12 +199,16 @@
     <string name="revanced_info_cards_summary_off">তথ্য কার্ড লুকায়িত</string>
     <string name="revanced_info_cards_summary_on">তথ্য কার্ড দেখানো হয়েছে</string>
     <string name="revanced_info_cards_title">তথ্য কার্ড</string>
+    <string name="revanced_interactions_summary">ইন্টারঅ্যাকশন সম্পর্কি সেটিংস</string>
+    <string name="revanced_interactions_title">ইন্টারঅ্যাকশন সেটিংস</string>
+    <string name="revanced_layout_settings_summary">লেআউট সম্পর্কিত সেটিংস</string>
     <string name="revanced_layout_settings_title">লেআউট সেটিংস</string>
     <string name="revanced_maximum_buffer_summary">প্লেয়ার বাফার করার জন্য মিডিয়ার সর্বোচ্চ সময় (মিলি সেকেন্ডে) ডিফল্ট: ১২০০০০</string>
     <string name="revanced_maximum_buffer_title">সর্বোচ্চ বাফার</string>
     <string name="revanced_minimized_playback">ব্যাকগ্রাউন্ড প্লেব্যাক</string>
     <string name="revanced_minimized_playback_off">বব্যাকগ্রাউন্ড প্লেব্যাক বন্ধ</string>
     <string name="revanced_minimized_playback_on">ব্যাকগ্রাউন্ড প্লেব্যাক চালু</string>
+    <string name="revanced_misc_summary">বিবিধ প্যাচসমূহ</string>
     <string name="revanced_misc_title">বিবিধ</string>
     <string name="revanced_new_actionbar_summary_off">অ্যাপের সার্চ বারের স্টাইল</string>
     <string name="revanced_new_actionbar_summary_on">জোরপূর্বক বড় সার্চ বার</string>
@@ -182,17 +216,37 @@
     <string name="revanced_old_style_quality_settings_summary_off">ডিফল্ট ভিডিও কোয়ালিটি সেটিংস ব্যাবহার হচ্ছে</string>
     <string name="revanced_old_style_quality_settings_summary_on">পূর্বের ভিডিও কোয়ালিটি সেটিংস ব্যাবহার হচ্ছে</string>
     <string name="revanced_old_style_quality_settings_title">কোয়ালিটি সেটিংস স্টাইল</string>
-    <string name="revanced_playback_start_summary">"মিডিয়ার সময়কাল যা প্লেব্যাক শুরু বা পুনরায় শুরু করার জন্য বাফার করা আবশ্যক একটি ব্যবহারকারীর ক্রিয়া অনুসরণ করে চাওয়া (মিলিসেকেন্ডে)
-        ডিফল্ট: 2500"</string>
-    <string name="revanced_playback_start_title">প্লেবেক শুরু</string>
+    <string name="revanced_override_premium_header_summary_off">বর্তমান হেডার: ডিফল্ট হেডার</string>
+    <string name="revanced_override_premium_header_summary_on">বর্তমান হেডার: প্রিমিয়াম হেডার</string>
+    <string name="revanced_override_premium_header_title">প্রিমিয়াম হেডার</string>
+    <string name="revanced_playback_start_summary">"প্লেব্যাক এর জন্য সর্বোচ্চ বাফারিং সময়"</string>
+    <string name="revanced_playback_start_title">প্লেব্যাক এর জন্য সর্বোচ্চ বাফারিং</string>
+    <string name="revanced_player_popup_panels_title">প্লেয়ার পপ-আপ প্যানেলসমূহ নিষ্ক্রিয় করুন</string>
+    <string name="revanced_player_popup_panels_summary_on">প্লেয়ার পপ-আপ প্যানেলসমূহ সক্রিয়</string>
+    <string name="revanced_player_popup_panels_summary_off">প্লেয়ার পপ-আপ প্যানেলসমূহ নিষ্ক্রিয়</string>
+    <string name="revanced_pref_save_video_quality_title">ভিডিও কোয়ালিটি সংরক্ষণ করুন</string>
+    <string name="revanced_pref_save_video_quality_summary_on">যখনই আপনি ভিডিও কোয়ালিটি পরিবর্তন করবেন তখন ভিডিও কোয়ালিটি সংরক্ষণ করবে</string>
+    <string name="revanced_pref_save_video_quality_summary_off">যখনই আপনি ভিডিও কোয়ালিটি পরিবর্তন করবেন তখন ভিডিও কোয়ালিটি সংরক্ষণ করবে না</string>
+    <string name="revanced_preferred_video_quality_mobile_summary">সেলুলার নেটওয়ার্কের জন্য পছন্দের ভিডিও রেজুলেশন নির্বাচন করুন</string>
+    <string name="revanced_preferred_video_quality_mobile_title">সেলুলারে পছন্দের ভিডিও কোয়ালিটি</string>
+    <string name="revanced_preferred_video_quality_wifi_summary">ওয়াইফাই নেটওয়ার্কের জন্য  পছন্দের ভিডিও রেজুলেশন নির্বাচন করুন</string>
+    <string name="revanced_preferred_video_quality_wifi_title">ওয়াইফাইয়ে পছন্দের ভিডিও কোয়ালিটি</string>
     <string name="revanced_preferred_video_speed_summary">আপনার ভিডিও স্পিড বাছুন</string>
     <string name="revanced_preferred_video_speed_title">ভিডিও স্পীড নির্বাচন করুন</string>
-    <string name="revanced_rebuffer_summary">"রিবাফারের পরে পুনরায় শুরু করার জন্য প্লেব্যাকের জন্য বাফার করা আবশ্যক মিডিয়ার সময়কাল (মিলিসেকেন্ডে)। একটি রিবাফার সংজ্ঞায়িত করা হয় ব্যবহারকারীর ক্রিয়াকলাপের পরিবর্তে বাফার হ্রাসের কারণে
-        ডিফল্ট: ৫০০০"</string>
-    <string name="revanced_rebuffer_title">রি বাফার</string>
+    <string name="revanced_reboot_warning_fullscreen">"ইউটিউব ভার্সন ট্রিক করুন এবং এটিকে সার্ভার পাশে আপডেট করতে চেষ্টা করুন ।
+কখনো কখনো এটি উদ্দেশ্য অনুযায়ী কাজ নাও করতে পারে।
+কিছু ক্ষেত্রে, ReVanced পুনঃরায় ইনস্টল করতে প্রয়োজন হতে পারে।
+আপনি কি নিশ্চিত আপনি চালিয়ে যেতে চান?"</string>
+    <string name="revanced_reboot_warning_ryd">"লাইক বাটনের সাথে একত্র হয়ে নতুন লে-আউটে ডিজলাইক সংখ্যা দেখাবে।
+যাইহোক, এটি এখনো একটি পরীক্ষামূলক ফিচার, লাইক কাউন্ট সঠিকভাবে নাও দেখাতে পারে।
+আপনি কি নিশ্চিত আপনি চালিয়ে যেতে চান?"</string>
+    <string name="revanced_rebuffer_summary">"রিবাফারের পরে পুনরায় শুরু করার জন্য প্লেব্যাকের সর্বোচ্চ বাফার সময়কাল।"</string>
+    <string name="revanced_rebuffer_title">রিবাফারের পরে প্লেব্যাকের জন্য সর্বোচ্চ বাফার</string>
     <string name="revanced_reel_summary_off">ঘটনা গুলি গোপন হয়েছে</string>
     <string name="revanced_reel_summary_on">ঘটনা গুলি প্রদর্শন হয়েছে</string>
     <string name="revanced_reel_title">ইউটিউব ঘটনা</string>
+    <string name="revanced_ryd_new_layout_title">RYD ঠিক করুন (নতুন লে-আউট)</string>
+    <string name="revanced_ryd_new_layout_summary">নতুন লে-আউটে ডিজলাইক সংখ্যা দেখান</string>
     <string name="revanced_ryd_attribution_summary">এখানে RYD এর এপিআই ব্যাবহার হয়েছে। বিস্তারিত জানতে এখানে ক্লিক করুন https://returnyoutubedislike.com</string>
     <string name="revanced_ryd_attribution_title">ইউটিউব এর ডিজলাইক ফিরানো</string>
     <string name="revanced_ryd_settings_summary">RYD এর এপিআই ব্যাবহার করুন</string>
@@ -206,6 +260,9 @@
     <string name="revanced_shorts_button_summary_off">শর্টস বাটন গোপন</string>
     <string name="revanced_shorts_button_summary_on">শর্টস বাটন প্রদর্শন করুন</string>
     <string name="revanced_shorts_button_title">শর্টস বাটন</string>
+    <string name="revanced_suggested_actions_summary_off">প্রস্তাবিত কাজ প্রদর্শন</string>
+    <string name="revanced_suggested_actions_summary_on">প্রস্তাবিত কাজ গোপন করা</string>
+    <string name="revanced_suggested_actions_title">প্রস্তাবিত কাজসমূহ</string>
     <string name="revanced_suggestion_summary_off">শেষ পাতা গোপন করা</string>
     <string name="revanced_suggestion_summary_on">শেষ পাতা প্রদর্শন</string>
     <string name="revanced_suggestion_title">শেষ পাতা</string>
@@ -230,6 +287,7 @@
     <string name="revanced_swipe_tablet_summary_off">টেবিল স্টাইল বন্ধ আছে</string>
     <string name="revanced_swipe_tablet_summary_on">টেবিল স্টাইল চালু আছে। উদাহরণ স্বরূপ শুধু সাজেশন করা ভিডিও তে এটি কাজ করবে</string>
     <string name="revanced_swipe_tablet_title">টেবিল স্টাইল</string>
+    <string name="revanced_swipe_summary">সাউন্ড ও উজ্জ্বলতা নিয়ন্ত্রণ</string>
     <string name="revanced_swipe_title">সোয়াইপ কন্ট্রোল</string>
     <string name="revanced_swipe_volume_summary_off">সাউন্ডের জন্য সোয়াইপ কন্ট্রোল বন্ধ আছে</string>
     <string name="revanced_swipe_volume_summary_on">সাউন্ডের জন্য সোয়াইপ কন্ট্রোল চালু আছে।</string>
@@ -260,7 +318,13 @@
     <string name="revanced_zoom_to_fit_vertical_summary_off">ডায়নামিক প্লেয়ার স্বয়ংক্রিয়ভাবে সংজ্ঞায়িত করা হয়</string>
     <string name="revanced_zoom_to_fit_vertical_summary_on">গতিশীল প্লেয়ার বর্গাকার এবং উল্লম্ব ভিডিওতে বাধ্য করা হয়</string>
     <string name="revanced_zoom_to_fit_vertical_title">ডাইনামিক প্লেয়ার</string>
-    <string name="sb_guidelines_popup_already_read">অলরেডি রিড হয়েছে</string>
+    <string name="rvx_dialog_message">"As of YouTube v17.33.xx, auto-rotate in fullscreen follows the system's auto-rotate toggle state.
+So tricked the YouTube version to v17.32.39 to bypass the auto-rotate issue in fullscreen
+Accordingly in the app information, the YouTube version is displayed as v17.32.39
+
+আপনি যদি এটি নিষ্ক্রিয় করতে চান, বন্ধ করতে নিম্নলিখিত পদ্ধতি সেট করুন:"</string>
+    <string name="rvx_dialog_title">ReVanced এক্সটেনডেড</string>
+    <string name="sb_guidelines_popup_already_read">অলরেডি পড়া হয়েছে</string>
     <string name="sb_guidelines_popup_content">যেকোন সেগমেন্ট জমা দেওয়ার আগে SponsorBlock নির্দেশিকা পড়ার পরামর্শ দেওয়া হয়</string>
     <string name="sb_guidelines_popup_open">আমাকে দেখান</string>
     <string name="sb_guidelines_popup_title">এইগুলো হলো গাইডলাইন</string>
@@ -312,12 +376,17 @@
     <string name="stats_self_saved_sum">তাহলো &lt;b>%s&lt;/b>.</string>
     <string name="stats_submissions">সাবমিশন: &lt;b>%s&lt;/b></string>
     <string name="stats_username">আপনার ইউজার নেম: &lt;b>%s&lt;/b></string>
-    <string name="stats_username_change">Apnar ইউজার নেম পরিবর্তনের জন্য এখানে ক্লিক করুন</string>
+    <string name="stats_username_change">আপনার ইউজার নেম পরিবর্তনের জন্য এখানে ক্লিক করুন</string>
     <string name="stats_username_change_unknown_error" formatted="false">ইউজারনেম পরিবর্তন সফল হয়নি: স্ট্যাটাস:%d%s</string>
     <string name="stats_username_changed">ইউজার নেম পরিবর্তন সফল হয়েছে</string>
-    <string name="submit_failed_duplicate">সেগমেন্ট সাবমিট করা যাচ্ছে না। পূর্বেই ছিলো।</string>
-    <string name="submit_failed_forbidden">সেগমেন্ট সাবমিট করা যাচ্ছে না</string>
-    <string name="submit_failed_rate_limit">সেগমেন্ট সাবমিট করা যাচ্ছে না। রেট লিমিটেড (একই আইপি থেকে অনেক গুলো রিকোয়েস্ট)</string>
+    <string name="submit_failed_duplicate">সেগমেন্ট সাবমিট করা যাচ্ছে না।
+পূর্বেই ছিলো।</string>
+    <string name="submit_failed_forbidden">"সেগমেন্ট সাবমিট করা যাচ্ছে না
+	
+"%s</string>
+    <string name="submit_failed_rate_limit">"সেগমেন্ট সাবমিট করা যাচ্ছে না। 
+রেট সীমাবদ্ধ (একই আইপি থেকে অনেক গুলো রিকোয়েস্ট)"</string>
+    <string name="submit_failed_invalid">সেগমেন্ট সেট করা যাবে না: %s</string>
     <string name="submit_failed_unknown_error" formatted="false">সেগমেন্ট সাবমিট করা যাচ্ছে না: স্ট্যাটাস:%d%s</string>
     <string name="submit_started">সেগমেন্ট সাবমিট করা হচ্ছে…</string>
     <string name="submit_succeeded">সেগমেন্ট সাবমিট করা সফল হয়েছে</string>
@@ -328,7 +397,7 @@
 
 %s"</string>
     <string name="vote_failed_rate_limit">"সেগমেন্ট এর জন্য ভোট করা যাচ্ছে না। 
-রেট লিমিটেড। (একই আইপি থেকে অনেক গুলো রিকোয়েস্ট)"</string>
+রেট সীমাবদ্ধ। (একই আইপি থেকে অনেক গুলো রিকোয়েস্ট)"</string>
     <string name="vote_failed_unknown_error" formatted="false">সেগমেন্ট এর জন্য ভোট করা যাচ্ছে না: স্ট্যাটাস:%d%s</string>
     <string name="vote_no_segments">ভোট করার জন্য কোনো সেগমেন্ট নেই</string>
     <string name="vote_started">সেগমেন্ট এর জন্য ভোটিং…</string>

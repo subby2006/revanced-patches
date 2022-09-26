@@ -5,11 +5,13 @@ import app.revanced.extensions.startsWithAny
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
+import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.data.impl.ResourceData
 import app.revanced.patcher.patch.*
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.impl.ResourcePatch
 import app.revanced.patches.music.layout.branding.annotations.CustomBrandingMusicCompatibility
+import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.FileInputStream
@@ -19,6 +21,7 @@ import java.nio.file.StandardCopyOption
 import org.w3c.dom.Element
 
 @Patch
+@DependsOn([ResourceMappingResourcePatch::class])
 @Name("custom-branding-music")
 @Description("Changes the YouTube Music launcher icon and name to your choice (defaults to ReVanced Red).")
 @CustomBrandingMusicCompatibility
