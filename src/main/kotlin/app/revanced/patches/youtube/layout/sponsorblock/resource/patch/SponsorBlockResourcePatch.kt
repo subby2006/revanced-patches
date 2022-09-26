@@ -9,13 +9,13 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.impl.ResourcePatch
 import app.revanced.patches.youtube.layout.sponsorblock.annotations.SponsorBlockCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
-import app.revanced.patches.youtube.misc.mapping.patch.ResourceIdMappingProviderResourcePatch
+import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
 import java.nio.file.Files
 
 @Name("sponsorblock-resource-patch")
 @SponsorBlockCompatibility
-@DependsOn([FixLocaleConfigErrorPatch::class, ResourceIdMappingProviderResourcePatch::class])
+@DependsOn([FixLocaleConfigErrorPatch::class, ResourceMappingResourcePatch::class])
 @Version("0.0.1")
 class SponsorBlockResourcePatch : ResourcePatch() {
     companion object {
@@ -92,7 +92,7 @@ class SponsorBlockResourcePatch : ResourcePatch() {
                 }.close() // close afterwards
             }
         }
-        reelButtonGroupResourceId = ResourceIdMappingProviderResourcePatch.resourceMappings.single {
+        reelButtonGroupResourceId = ResourceMappingResourcePatch.resourceMappings.single {
             it.type == "id" && it.name == "reel_persistent_edu_button_group"
         }.id
         return PatchResultSuccess()

@@ -24,7 +24,7 @@ import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensi
 import app.revanced.patches.youtube.ad.general.bytecode.utils.MethodUtils.createMutableMethod
 import app.revanced.patches.youtube.ad.general.resource.patch.GeneralResourceAdsPatch
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
-import app.revanced.patches.youtube.misc.mapping.patch.ResourceIdMappingProviderResourcePatch
+import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import org.jf.dexlib2.Opcode
 import org.jf.dexlib2.builder.MutableMethodImplementation
 import org.jf.dexlib2.builder.instruction.*
@@ -40,7 +40,7 @@ import org.jf.dexlib2.iface.reference.StringReference
 import org.jf.dexlib2.immutable.reference.ImmutableMethodReference
 
 @Patch
-@DependsOn([ResourceIdMappingProviderResourcePatch::class, IntegrationsPatch::class, GeneralResourceAdsPatch::class])
+@DependsOn([ResourceMappingResourcePatch::class, IntegrationsPatch::class, GeneralResourceAdsPatch::class])
 @Name("general-ads")
 @Description("Removes general ads.")
 @GeneralAdsCompatibility
@@ -60,7 +60,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
         "promoted_video_item_land",
         "promoted_video_item_full_bleed",
     ).map { name ->
-        ResourceIdMappingProviderResourcePatch.resourceMappings.single { it.name == name }.id
+        ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
 
     private val stringReferences = arrayOf(

@@ -13,7 +13,7 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.impl.BytecodePatch
 import app.revanced.patcher.util.smali.toInstruction
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
-import app.revanced.patches.youtube.misc.mapping.patch.ResourceIdMappingProviderResourcePatch
+import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.patches.youtube.misc.settings.annotations.SettingsCompatibility
 import app.revanced.patches.youtube.misc.settings.bytecode.fingerprints.LicenseActivityFingerprint
 import app.revanced.patches.youtube.misc.settings.bytecode.fingerprints.ReVancedSettingsActivityFingerprint
@@ -26,7 +26,7 @@ import org.jf.dexlib2.util.MethodUtil
     [
         IntegrationsPatch::class,
         SettingsResourcePatch::class,
-        ResourceIdMappingProviderResourcePatch::class
+        ResourceMappingResourcePatch::class
     ]
 )
 @Name("settings")
@@ -92,7 +92,7 @@ class SettingsPatch : BytecodePatch(
     }
 
     internal companion object {
-        val appearanceStringId = ResourceIdMappingProviderResourcePatch.resourceMappings.find {
+        val appearanceStringId = ResourceMappingResourcePatch.resourceMappings.find {
             it.type == "string" && it.name == "app_theme_appearance_dark"
         }!!.id
     }

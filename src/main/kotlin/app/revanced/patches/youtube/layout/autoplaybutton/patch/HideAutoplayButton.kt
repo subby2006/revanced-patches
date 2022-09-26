@@ -15,14 +15,14 @@ import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patches.youtube.layout.autoplaybutton.annotations.AutoplayButtonCompatibility
 import app.revanced.patches.youtube.layout.autoplaybutton.fingerprints.LayoutConstructorFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
-import app.revanced.patches.youtube.misc.mapping.patch.ResourceIdMappingProviderResourcePatch
+import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import org.jf.dexlib2.iface.instruction.Instruction
 import org.jf.dexlib2.iface.instruction.ReferenceInstruction
 import org.jf.dexlib2.iface.instruction.WideLiteralInstruction
 import org.jf.dexlib2.iface.reference.MethodReference
 
 @Patch
-@DependsOn([ResourceIdMappingProviderResourcePatch::class, IntegrationsPatch::class])
+@DependsOn([ResourceMappingResourcePatch::class, IntegrationsPatch::class])
 @Name("hide-autoplay-button")
 @Description("Hides the autoplay button in the video player.")
 @AutoplayButtonCompatibility
@@ -38,7 +38,7 @@ class HideAutoplayButton : BytecodePatch(
         val layoutGenMethodInstructions = layoutGenMethod.implementation!!.instructions
 
         // resolve the offsets such as ...
-        val autoNavPreviewStubId = ResourceIdMappingProviderResourcePatch.resourceMappings.single {
+        val autoNavPreviewStubId = ResourceMappingResourcePatch.resourceMappings.single {
             it.name == "autonav_preview_stub"
         }.id
         // where to insert the branch instructions and ...

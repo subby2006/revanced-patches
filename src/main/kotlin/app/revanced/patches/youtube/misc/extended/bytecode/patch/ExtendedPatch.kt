@@ -22,7 +22,7 @@ import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensi
 import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensions.insertBlocks
 import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensions.toDescriptor
 import app.revanced.patches.youtube.ad.general.bytecode.utils.MethodUtils.createMutableMethod
-import app.revanced.patches.youtube.misc.mapping.patch.ResourceIdMappingProviderResourcePatch
+import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.patches.youtube.misc.settings.resource.patch.SettingsResourcePatch
 import org.jf.dexlib2.Opcode
 import org.jf.dexlib2.builder.MutableMethodImplementation
@@ -43,7 +43,7 @@ import org.jf.dexlib2.immutable.reference.ImmutableMethodReference
     [
         IntegrationsPatch::class,
         SettingsResourcePatch::class,
-        ResourceIdMappingProviderResourcePatch::class
+        ResourceMappingResourcePatch::class
     ]
 )
 @Name("extended")
@@ -59,7 +59,7 @@ class ExtendedPatch : BytecodePatch() {
         "ytPremiumWordmarkHeader",
         "Theme.YouTube.Light"
     ).map { name ->
-        ResourceIdMappingProviderResourcePatch.resourceMappings.single { it.name == name }.id
+        ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
 
     override fun execute(data: BytecodeData): PatchResult {
