@@ -27,42 +27,42 @@ The unofficial Patch bundle provided by ReVanced Extended
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
-| `swipe-controls` | Adds volume and brightness swipe controls. | 17.37.35 |
-| `overlay-buttons` | Add overlay buttons for YouTube - copy, copy with timestamp, repeat, download. | 17.37.35 |
-| `seekbar-tapping` | Enables tap-to-seek on the seekbar of the video player. | 17.37.35 |
-| `disable-create-button` | Hides the create button in the navigation bar. | 17.37.35 |
+| `swipe-controls` | Adds volume and brightness swipe controls. | 17.38.35 |
+| `overlay-buttons` | Add overlay buttons for YouTube - copy, copy with timestamp, repeat, download. | 17.38.35 |
+| `seekbar-tapping` | Enables tap-to-seek on the seekbar of the video player. | 17.38.35 |
+| `disable-create-button` | Hides the create button in the navigation bar. | 17.38.35 |
 | `hide-cast-button` | Hides the cast button in the video player. | all |
-| `return-youtube-dislike` | Shows the dislike count of videos using the Return YouTube Dislike API. | 17.37.35 |
-| `hide-autoplay-button` | Hides the autoplay button in the video player. | 17.37.35 |
+| `return-youtube-dislike` | Shows the dislike count of videos using the Return YouTube Dislike API. | 17.38.35 |
+| `hide-autoplay-button` | Hides the autoplay button in the video player. | 17.38.35 |
 | `custom-branding-red` | Changes the YouTube launcher icon and name to your choice (defaults to ReVanced Red). | all |
 | `custom-branding-blue` | Changes the YouTube launcher icon and name to your choice (defaults to ReVanced Blue). | all |
 | `amoled` | Enables pure black theme. | all |
 | `materialyou` | Enables MaterialYou theme for Android 12+. | all |
 | `remove-playerbutton-background` | Disable Player Button Overlay Background. | all |
-| `hide-pip-notification` | Disable pip notification when you first launch pip mode. | 17.37.35 |
-| `extended` | Add ReVanced Extended Features. | 17.37.35 |
-| `old-quality-layout` | Enables the original quality flyout menu. | 17.37.35 |
-| `hide-shorts-button` | Hides the shorts button on the navigation bar. | 17.37.35 |
-| `hide-watermark` | Hides creator's watermarks on videos. | 17.37.35 |
-| `sponsorblock` | Integrate SponsorBlock. | 17.37.35 |
-| `enable-wide-searchbar` | Replaces the search icon with a wide search bar. This will hide the YouTube logo when active. | 17.37.35 |
-| `tablet-mini-player` | Enables the tablet mini player layout. | 17.37.35 |
-| `disable-auto-captions` | Disable forced captions from being automatically enabled. | 17.37.35 |
-| `minimized-playback` | Enables minimized and background playback. | 17.37.35 |
+| `hide-pip-notification` | Disable pip notification when you first launch pip mode. | 17.38.35 |
+| `extended` | Add ReVanced Extended Features. | 17.38.35 |
+| `old-quality-layout` | Enables the original quality flyout menu. | 17.38.35 |
+| `hide-shorts-button` | Hides the shorts button on the navigation bar. | 17.38.35 |
+| `hide-watermark` | Hides creator's watermarks on videos. | 17.38.35 |
+| `sponsorblock` | Integrate SponsorBlock. | 17.38.35 |
+| `enable-wide-searchbar` | Replaces the search icon with a wide search bar. This will hide the YouTube logo when active. | 17.38.35 |
+| `tablet-mini-player` | Enables the tablet mini player layout. | 17.38.35 |
+| `disable-auto-captions` | Disable forced captions from being automatically enabled. | 17.38.35 |
+| `minimized-playback` | Enables minimized and background playback. | 17.38.35 |
 | `client-spoof` | Spoofs the YouTube or Vanced client to prevent playback issues. | all |
-| `client-spoof-v2` | Spoof the YouTube client version to prevent fullscreen rotation issue. | 17.37.35 |
+| `client-spoof-v2` | Spoof the YouTube client version to prevent fullscreen rotation issue. | 17.38.35 |
 | `translations` | Add Crowdin Translations. | all |
-| `custom-video-buffer` | Lets you change the buffers of videos. | 17.37.35 |
-| `always-autorepeat` | Always repeats the playing video again. | 17.37.35 |
-| `microg-support` | Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG. | 17.37.35 |
+| `custom-video-buffer` | Lets you change the buffers of videos. | 17.38.35 |
+| `always-autorepeat` | Always repeats the playing video again. | 17.38.35 |
+| `microg-support` | Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG. | 17.38.35 |
 | `settings` | Adds settings for ReVanced to YouTube. | all |
-| `custom-playback-speed` | Adds more video playback speed options. | 17.37.35 |
+| `custom-playback-speed` | Adds more video playback speed options. | 17.38.35 |
 | `optimize-resource` | Makes the brightness of HDR videos follow the system default. | all |
-| `remember-video-quality` | Adds the ability to remember the video quality you chose in the video quality flyout. | 17.37.35 |
-| `default-video-speed` | Adds the ability to set default video speed. | 17.37.35 |
-| `video-ads` | Removes ads in the video player. | 17.37.35 |
-| `general-ads` | Removes general ads. | 17.37.35 |
-| `hide-infocard-suggestions` | Hides infocards in videos. | 17.37.35 |
+| `remember-video-quality` | Adds the ability to remember the video quality you chose in the video quality flyout. | 17.38.35 |
+| `default-video-speed` | Adds the ability to set default video speed. | 17.38.35 |
+| `video-ads` | Removes ads in the video player. | 17.38.35 |
+| `general-ads` | Removes general ads. | 17.38.35 |
+| `hide-infocard-suggestions` | Hides infocards in videos. | 17.38.35 |
 </details>
 
 ### 📦 `com.vanced.android.youtube`
@@ -121,7 +121,7 @@ Example:
           "17.32.39",
           "17.34.36",
           "17.36.39",
-          "17.37.35"
+          "17.38.35"
         ]
       }
     ]
