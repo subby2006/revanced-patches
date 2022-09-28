@@ -44,6 +44,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `old-quality-layout` | Enables the original quality flyout menu. | 17.38.35 |
 | `hide-shorts-button` | Hides the shorts button on the navigation bar. | 17.38.35 |
 | `hide-watermark` | Hides creator's watermarks on videos. | 17.38.35 |
+| `hide-email-address` | Hides the email address in the account switcher. | 17.38.35 |
 | `sponsorblock` | Integrate SponsorBlock. | 17.38.35 |
 | `enable-wide-searchbar` | Replaces the search icon with a wide search bar. This will hide the YouTube logo when active. | 17.38.35 |
 | `tablet-mini-player` | Enables the tablet mini player layout. | 17.38.35 |

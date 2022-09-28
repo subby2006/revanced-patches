@@ -54,6 +54,7 @@
         <SwitchPreference android:title="@string/revanced_tablet_miniplayer_title" android:key="revanced_tablet_miniplayer" android:defaultValue="false" android:summaryOn="@string/revanced_tablet_miniplayer_summary_on" android:summaryOff="@string/revanced_tablet_miniplayer_summary_off" />
         <SwitchPreference android:title="@string/revanced_disable_auto_captions_title" android:key="revanced_autocaptions_enabled" android:defaultValue="false" android:summaryOn="@string/revanced_disable_auto_captions_summary_on" android:summaryOff="@string/revanced_disable_auto_captions_summary_off" />
         <SwitchPreference android:title="@string/revanced_player_popup_panels_title" android:key="revanced_player_popup_panels_enabled" android:defaultValue="false" android:summaryOn="@string/revanced_player_popup_panels_summary_on" android:summaryOff="@string/revanced_player_popup_panels_summary_off" />
+        <SwitchPreference android:title="@string/revanced_hide_email_address_title" android:key="revanced_hide_email_address" android:defaultValue="true" android:summaryOn="@string/revanced_hide_email_address_summary_on" android:summaryOff="@string/revanced_hide_email_address_summary_off" />
     </PreferenceScreen>
     <PreferenceScreen android:title="@string/revanced_misc_title" android:key="misc" android:summary="@string/revanced_misc_summary">
         <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_misc_title" />

@@ -1,3 +1,31 @@
+## [2.71.2](https://github.com/revanced/revanced-patches/compare/v2.71.1...v2.71.2) (2022-09-28)
+
+
+### Bug Fixes
+
+* **hide-email-address:** invalid instruction offsets ([#654](https://github.com/revanced/revanced-patches/issues/654)) ([1a3db44](https://github.com/revanced/revanced-patches/commit/1a3db44b5bd9628b7b25cc113a3a53bf8a85bd2b))
+
+## [2.71.1](https://github.com/revanced/revanced-patches/compare/v2.71.0...v2.71.1) (2022-09-28)
+
+
+### Bug Fixes
+
+* **disable-auto-player-popup-panels:** swap switch toggle state description ([#653](https://github.com/revanced/revanced-patches/issues/653)) ([f881301](https://github.com/revanced/revanced-patches/commit/f88130143689c7a63fd67df3dff37caec5db9548))
+
+# [2.71.0](https://github.com/revanced/revanced-patches/compare/v2.70.0...v2.71.0) (2022-09-28)
+
+
+### Features
+
+* `hide-email-address` patch ([#578](https://github.com/revanced/revanced-patches/issues/578)) ([82cb632](https://github.com/revanced/revanced-patches/commit/82cb6321beace1e5feed248d3f3d6ae56cf0d96b))
+
+# [2.70.0](https://github.com/revanced/revanced-patches/compare/v2.69.4...v2.70.0) (2022-09-28)
+
+
+### Features
+
+* `monochrome-icon` patch ([#643](https://github.com/revanced/revanced-patches/issues/643)) ([127c8e5](https://github.com/revanced/revanced-patches/commit/127c8e54e54709c2716029044ae337ad53daafad))
+
 ## [2.69.4](https://github.com/revanced/revanced-patches/compare/v2.69.3...v2.69.4) (2022-09-27)
 
 
