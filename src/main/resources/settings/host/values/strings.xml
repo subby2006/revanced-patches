@@ -224,9 +224,9 @@ Is it ready to submit?"</string>
     <string name="revanced_override_premium_header_title">Premium Header</string>
     <string name="revanced_playback_start_summary">Maximum size of a buffer for playback</string>
     <string name="revanced_playback_start_title">Maximum buffer for playback</string>
-    <string name="revanced_player_popup_panels_title">Disable player popup panels</string>
-    <string name="revanced_player_popup_panels_summary_on">Player popup panels are enabled</string>
+    <string name="revanced_player_popup_panels_title">Player popup panels</string>
     <string name="revanced_player_popup_panels_summary_off">Player popup panels are disabled</string>
+    <string name="revanced_player_popup_panels_summary_on">Player popup panels are enabled</string>
     <string name="revanced_pref_save_video_quality_title">Save video quality</string>
     <string name="revanced_pref_save_video_quality_summary_on">Save the video quality value whenever you change the video quality</string>
     <string name="revanced_pref_save_video_quality_summary_off">Does not save video quality values even when changing video quality</string>
