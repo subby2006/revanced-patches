@@ -221,7 +221,7 @@
     <string name="revanced_override_premium_header_title">প্রিমিয়াম হেডার</string>
     <string name="revanced_playback_start_summary">"প্লেব্যাক এর জন্য সর্বোচ্চ বাফারিং সময়"</string>
     <string name="revanced_playback_start_title">প্লেব্যাক এর জন্য সর্বোচ্চ বাফারিং</string>
-    <string name="revanced_player_popup_panels_title">প্লেয়ার পপ-আপ প্যানেলসমূহ নিষ্ক্রিয় করুন</string>
+    <string name="revanced_player_popup_panels_title">প্লেয়ার পপ আপ প্যানেল</string>
     <string name="revanced_player_popup_panels_summary_on">প্লেয়ার পপ-আপ প্যানেলসমূহ সক্রিয়</string>
     <string name="revanced_player_popup_panels_summary_off">প্লেয়ার পপ-আপ প্যানেলসমূহ নিষ্ক্রিয়</string>
     <string name="revanced_pref_save_video_quality_title">ভিডিও কোয়ালিটি সংরক্ষণ করুন</string>

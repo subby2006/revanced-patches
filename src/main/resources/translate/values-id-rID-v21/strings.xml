@@ -223,7 +223,7 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_playback_start_title">Mulai pemutaran</string>
     <string name="revanced_player_popup_panels_summary_off">Panel popup pemutar dinonaktifkan</string>
     <string name="revanced_player_popup_panels_summary_on">Panel popup pemutar diaktifkan</string>
-    <string name="revanced_player_popup_panels_title">Nonaktifkan panel popup pemutar</string>
+    <string name="revanced_player_popup_panels_title">Panel popup pemutar</string>
     <string name="revanced_pref_save_video_quality_summary_off">Tidak menyimpan nilai kualitas video bahkan saat mengubah kualitas video</string>
     <string name="revanced_pref_save_video_quality_summary_on">Simpan nilai kualitas video setiap kali anda mengubah kualitas video</string>
     <string name="revanced_pref_save_video_quality_title">Simpan kualitas video</string>

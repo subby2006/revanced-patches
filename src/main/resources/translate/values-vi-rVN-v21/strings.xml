@@ -221,7 +221,7 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_override_premium_header_title">Tiêu đề tuỳ chỉnh</string>
     <string name="revanced_playback_start_summary">Thời lượng tối đa mà video được đệm sau một hành động, chẳng hạn như khi bắt đầu video hoặc tua đi (tính bằng mili giây)</string>
     <string name="revanced_playback_start_title">Thời lượng video được đệm tối đa</string>
-    <string name="revanced_player_popup_panels_title">Vô hiệu hoá Gợi ý bật lên của trình phát</string>
+    <string name="revanced_player_popup_panels_title">Gợi ý bật lên của trình phát</string>
     <string name="revanced_player_popup_panels_summary_on">Gợi ý bật lên của trình phát được kích hoạt</string>
     <string name="revanced_player_popup_panels_summary_off">Gợi ý bật lên của trình phát bị vô hiệu hoá</string>
     <string name="revanced_pref_save_video_quality_title">Lưu chất lượng video</string>

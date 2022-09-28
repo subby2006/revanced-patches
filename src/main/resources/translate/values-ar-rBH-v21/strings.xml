@@ -218,7 +218,7 @@
     <string name="revanced_override_premium_header_title">Premium Header</string>
     <string name="revanced_playback_start_summary">المدة التي يجب تحميلها مسبقًا من الفيديو لكي يبدأ أو يستأنف بعد إجراء المستخدم مثل تقديم الفيديو، (بالمللي ثانية)  الافتراضي: 2500</string>
     <string name="revanced_playback_start_title">بداية التشغيل</string>
-    <string name="revanced_player_popup_panels_title">تعطيل لوحات المشغل المنبثقة</string>
+    <string name="revanced_player_popup_panels_title">لوحات المشغل المنبثقة</string>
     <string name="revanced_player_popup_panels_summary_on">تم تمكين لوحات المشغل المنبثقة</string>
     <string name="revanced_player_popup_panels_summary_off">تم تعطيل لوحات المشغل المنبثقة</string>
     <string name="revanced_pref_save_video_quality_title">حفظ جودة الفيديو</string>

@@ -212,7 +212,7 @@
     <string name="revanced_override_premium_header_title">프리미엄 헤더</string>
     <string name="revanced_playback_start_summary">영상을 일시정지한 후 다시 재생하기 전에 미리 버퍼링할 영상의 길이로, 기본값은 2500밀리초입니다</string>
     <string name="revanced_playback_start_title">일시정지 후 버퍼링</string>
-    <string name="revanced_player_popup_panels_title">플레이어 팝업 패널 비활성화</string>
+    <string name="revanced_player_popup_panels_title">플레이어 팝업 패널</string>
     <string name="revanced_player_popup_panels_summary_off">플레이어 팝업 패널을 비활성화합니다</string>
     <string name="revanced_player_popup_panels_summary_on">플레이어 팝업 패널을 활성화합니다</string>
     <string name="revanced_pref_save_video_quality_summary_off">비디오 품질을 변경하더라도 영상 화질 값을 저장하지 않습니다</string>

@@ -226,7 +226,7 @@
 
 По умолчанию: 2500</string>
     <string name="revanced_playback_start_title">Начало воспроизведения</string>
-    <string name="revanced_player_popup_panels_title">Отключить всплывающие панели плеера</string>
+    <string name="revanced_player_popup_panels_title">Всплывающие панели проигрывателя</string>
     <string name="revanced_player_popup_panels_summary_on">Всплывающие панели плеера отключены</string>
     <string name="revanced_player_popup_panels_summary_off">Всплывающие панели плеера включены</string>
     <string name="revanced_pref_save_video_quality_title">Сохранить качество видео</string>
