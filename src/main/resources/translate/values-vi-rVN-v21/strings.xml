@@ -42,7 +42,7 @@
     <string name="general_skiptoast_sum">Nhấn để xem một ví dụ về thông báo ngắn</string>
     <string name="general_time_without_sb">Hiển thị thời gian không có phân đoạn</string>
     <string name="general_time_without_sb_sum">Thời gian này hiển thị trong dấu ngoặc bên cạnh thời gian hiện tại. Nó cho biết tổng độ dài của video trừ đi các phân đoạn.</string>
-    <string name="general_uuid">ID người dùng độc nhất của bạn</string>
+    <string name="general_uuid">ID người dùng riêng tư của bạn</string>
     <string name="general_uuid_sum">Mã ID này nên được giữ riêng tư. Nó giống như mật khẩu và không nên được chia sẻ với bất kỳ ai. Nếu ai đó có nó, họ có thể mạo danh bạn</string>
     <string name="general_whitelisting">Danh sách kênh cho phép</string>
     <string name="general_whitelisting_sum">Sử dụng nút Phân đoạn bên dưới trình phát để thêm kênh vào danh sách cho phép</string>
@@ -193,6 +193,9 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_hdr_full_brightness_summary_off">Độ sáng HDR tự động bị vô hiệu hoá</string>
     <string name="revanced_hdr_full_brightness_summary_on">Độ sáng HDR tự động được kích hoạt</string>
     <string name="revanced_hdr_full_brightness_title">Kích hoạt Độ sáng HDR tự động</string>
+    <string name="revanced_hide_email_address_summary_off">Địa chỉ email đã ẩn</string>
+    <string name="revanced_hide_email_address_summary_on">Địa chỉ email được hiển thị</string>
+    <string name="revanced_hide_email_address_title">Địa chỉ email</string>
     <string name="revanced_home_ads_summary_off">Quảng cáo trên Trang chủ đã ẩn</string>
     <string name="revanced_home_ads_summary_on">Quảng cáo trên Trang chủ được hiển thị</string>
     <string name="revanced_home_ads_title">Loại bỏ Quảng cáo trên Trang chủ</string>
@@ -222,8 +225,8 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_playback_start_summary">Thời lượng tối đa mà video được đệm sau một hành động, chẳng hạn như khi bắt đầu video hoặc tua đi (tính bằng mili giây)</string>
     <string name="revanced_playback_start_title">Thời lượng video được đệm tối đa</string>
     <string name="revanced_player_popup_panels_title">Gợi ý bật lên của trình phát</string>
-    <string name="revanced_player_popup_panels_summary_on">Gợi ý bật lên của trình phát được kích hoạt</string>
     <string name="revanced_player_popup_panels_summary_off">Gợi ý bật lên của trình phát bị vô hiệu hoá</string>
+    <string name="revanced_player_popup_panels_summary_on">Gợi ý bật lên của trình phát được kích hoạt</string>
     <string name="revanced_pref_save_video_quality_title">Lưu chất lượng video</string>
     <string name="revanced_pref_save_video_quality_summary_on">Lưu lại chất lượng video đã chọn bất cứ khi nào bạn thay đổi chất lượng video</string>
     <string name="revanced_pref_save_video_quality_summary_off">Không lưu chất lượng video đã chọn ngay cả khi bạn thay đổi chất lượng video</string>
@@ -350,7 +353,7 @@ Nếu bạn muốn tắt tính năng này, hãy đặt tùy chọn sau thành T�
     <string name="segments_subscribe_sum">Khi có lời nhắc ngắn hãy thích, đăng ký, theo dõi hoặc tương tác với họ trên bất kỳ nền tảng miễn phí hoặc trả phí nào</string>
     <string name="settings_export_failed">Xuất cài đặt thất bại</string>
     <string name="settings_ie">Nhập / Xuất cài đặt</string>
-    <string name="settings_ie_sum">Đây là toàn bộ thiết đặt của bạn và có thể áp dụng trên phần mở rộng của máy tính dưới dạng JSON. Nó bao gồm cả ID người dùng của bạn, vì thế hãy thận trọng khi chia sẻ nó.</string>
+    <string name="settings_ie_sum">Đây là toàn bộ thiết đặt cấu hình của bạn và có thể áp dụng trong tiện ích mở rộng của máy tính dưới dạng JSON. Nó bao gồm cả ID người dùng của bạn, vì thế hãy thận trọng khi chia sẻ nó.</string>
     <string name="settings_import_failed">Nhập cài đặt thất bại</string>
     <string name="settings_import_successful">Cài đặt đã được nhập thành công</string>
     <string name="skip_automatically">Tự động bỏ qua</string>
