@@ -184,6 +184,9 @@
     <string name="revanced_hdr_full_brightness_summary_off">가로 화면에서 HDR 영상 밝기가 기기의 현재 밝기로 자동 설정됩니다</string>
     <string name="revanced_hdr_full_brightness_summary_on">가로 화면에서 HDR 영상 밝기가 최대로 자동 설정됩니다</string>
     <string name="revanced_hdr_full_brightness_title">HDR 영상 최대 밝기 설정</string>
+    <string name="revanced_hide_email_address_summary_off">이메일 주소를 숨깁니다</string>
+    <string name="revanced_hide_email_address_summary_on">이메일 주소를 보여줍니다</string>
+    <string name="revanced_hide_email_address_title">이메일 주소</string>
     <string name="revanced_home_ads_summary_off">홈 화면 광고를 모두 숨깁니다</string>
     <string name="revanced_home_ads_summary_on">홈 화면 광고를 모두 보여줍니다</string>
     <string name="revanced_home_ads_title">홈 화면 광고 설정 (실험적 기능)</string>
