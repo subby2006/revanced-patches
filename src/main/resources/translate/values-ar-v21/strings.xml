@@ -108,7 +108,7 @@
     <string name="microg_notification_settings">إعدادات الإشعارات</string>
     <string name="microg_notification_settings_summary">"1. يحتاج تسجيل جهاز Google و Google Cloud Messaging إلى تمكينهما للحصول على للإشعارات.  2. يحتاج ReVanced إلى أن يظهر كمسجل تحت المراسلة السحابية.  3. يجب عدم قطع الإتصال في المراسلة السحابية."</string>
     <string name="microg_settings">إعدادات MicroG</string>
-    <string name="minutes">دقائق</string>
+    <string name="minutes">دقيقة</string>
     <string name="new_segment_choose_category">اختيار فئة المقطع</string>
     <string name="new_segment_confirm_content" formatted="false">"\"المقطع يستمر من %02d:%02d إلى %02d:%02d (%d دقيقة %02d ثانية) هل هو جاهز للإرسال؟\""</string>
     <string name="new_segment_confirm_title">هل الأوقات صحيحة؟</string>
@@ -190,6 +190,9 @@
     <string name="revanced_hdr_full_brightness_summary_off">تم تعطيل سطوع HDR التلقائي</string>
     <string name="revanced_hdr_full_brightness_summary_on">تم تمكين سطوع HDR التلقائي</string>
     <string name="revanced_hdr_full_brightness_title">تمكين سطوع HDR التلقائي</string>
+    <string name="revanced_hide_email_address_summary_off">تم إخفاء عنوان البريد الإلكتروني</string>
+    <string name="revanced_hide_email_address_summary_on">تم إظهار عنوان البريد الإلكتروني</string>
+    <string name="revanced_hide_email_address_title">عنوان البريد الالكتروني</string>
     <string name="revanced_home_ads_summary_off">تم إخفاء إعلانات الصفحة الرئيسية</string>
     <string name="revanced_home_ads_summary_on">يتم عرض إعلانات الصفحة الرئيسية</string>
     <string name="revanced_home_ads_title">إزالة إعلانات الصفحة الرئيسية</string>
@@ -219,8 +222,8 @@
     <string name="revanced_playback_start_summary">المدة التي يجب تحميلها مسبقًا من الفيديو لكي يبدأ أو يستأنف بعد إجراء المستخدم مثل تقديم الفيديو، (بالمللي ثانية)  الافتراضي: 2500</string>
     <string name="revanced_playback_start_title">بداية التشغيل</string>
     <string name="revanced_player_popup_panels_title">لوحات المشغل المنبثقة</string>
-    <string name="revanced_player_popup_panels_summary_on">تم تمكين لوحات المشغل المنبثقة</string>
     <string name="revanced_player_popup_panels_summary_off">تم تعطيل لوحات المشغل المنبثقة</string>
+    <string name="revanced_player_popup_panels_summary_on">تم تمكين لوحات المشغل المنبثقة</string>
     <string name="revanced_pref_save_video_quality_title">حفظ جودة الفيديو</string>
     <string name="revanced_pref_save_video_quality_summary_on">الاحتفاظ بقيمة جودة الفيديو كلما قمت بتغيير جودة الفيديو</string>
     <string name="revanced_pref_save_video_quality_summary_off">لا يحتفظ بقيمة جودة الفيديو حتى عند تغيير جودة الفيديو</string>
@@ -310,7 +313,7 @@
     <string name="revanced_zoom_to_fit_vertical_summary_off">تم تحديد المشغل الديناميكي تلقائيًا</string>
     <string name="revanced_zoom_to_fit_vertical_summary_on">تم فرض المشغل الديناميكي على مقاطع الفيديو المربعة والرأسية</string>
     <string name="revanced_zoom_to_fit_vertical_title">مشغل ديناميكي</string>
-    <string name="rvx_dialog_message">"اعتبارًا من الإصدار 17.33.xx من YouTube ، يتبع التدوير التلقائي في وضع ملء الشاشة حالة تبديل التدوير التلقائي للنظام. لذلك تم خداع إصدار YouTube إلى الإصدار 17.32.39 لتجاوز مشكلة التدوير التلقائي في وضع ملء الشاشة وفقًا لمعلومات التطبيق ،  يتم عرض الإصدار كـ v17.32.39 إذا كنت تريد تعطيل هذا ، فقم بتعيين ما يلي على OFF: "</string>
+    <string name="rvx_dialog_message">"اعتبارًا من الإصدار 17.33.xx من YouTube ، يتبع التدوير التلقائي في وضع ملء الشاشة حالة تبديل التدوير التلقائي للنظام. لذلك تم خداع إصدار YouTube إلى الإصدار 17.32.39 لتجاوز مشكلة التدوير التلقائي في وضع ملء الشاشة وفقًا لمعلومات التطبيق ،  يتم عرض الإصدار كـ v17.32.39 إذا كنت تريد تعطيل هذا ، فقم بتعيين ما يلي على إِيقاف: "</string>
     <string name="rvx_dialog_title">ReVanced Extended</string>
     <string name="sb_guidelines_popup_already_read">تمت قراءتها</string>
     <string name="sb_guidelines_popup_content">"من المستحسن قراءة الإرشادات لمانع الرعاة قبل تقديم أي مقطع"</string>
@@ -338,7 +341,7 @@
     <string name="segments_subscribe_sum">عندما يكون هناك تذكير قصير للإعجاب بالمقطع أو الاشتراك بالقناة أو المتابعة أو التفاعل معهم على أي منصة مجانية أو مدفوعة</string>
     <string name="settings_export_failed">فشل تصدير الإعدادات</string>
     <string name="settings_ie">إستيراد/تصدير الإعدادات</string>
-    <string name="settings_ie_sum">يتم تخزين جميع إعداداتك بتنسيق JSON ومتوافقة مع المكون الإضافي لسطح المكتب. يتضمن هذا معرف المستخدم الخاص بك، لذا فكر مرتين قبل مشاركة هذا.</string>
+    <string name="settings_ie_sum">يتم تخزين جميع إعداداتك بتنسيق JSON المتوافق مع المكون الإضافي لسطح المكتب. يتضمن هذا معرف المستخدم الفريد الخاص بك، لِذا فكر مرتين قبل مشاركته.</string>
     <string name="settings_import_failed">فشل استيراد الإعدادات</string>
     <string name="settings_import_successful">تم استيراد الإعدادات بنجاح</string>
     <string name="skip_automatically">التخطي تلقائياً</string>
