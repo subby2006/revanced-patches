@@ -24,10 +24,6 @@ class TranslationsPatch : ResourcePatch() {
     override fun execute(data: ResourceData): PatchResult {
 
         val revanced_translations = "translate" to arrayOf(
-                "ar-rBH-v21",
-                "ar-rEG-v21",
-                "ar-rSA-v21",
-                "ar-rYE-v21",
                 "ar-v21",
                 "as-rIN-v21",
                 "az-rAZ-v21",
