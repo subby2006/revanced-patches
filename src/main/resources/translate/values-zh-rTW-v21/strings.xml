@@ -172,7 +172,7 @@
     <string name="revanced_downloads_package_name_title">下載器 Package 名稱</string>
     <string name="revanced_downloads_summary">設定下載器</string>
     <string name="revanced_downloads_title">下載設定</string>
-    <string name="revanced_disable_new_layout_summary_off">YourRube Layout 將遵循您的 Google 帳戶狀態</string>
+    <string name="revanced_disable_new_layout_summary_off">YouTube 佈局會跟隨你的 Google 帳號狀態</string>
     <string name="revanced_disable_new_layout_summary_on">向 YouTube 回報舊版本以強制停用新佈局</string>
     <string name="revanced_disable_new_layout_title">停用新佈局（實驗性）</string>
     <string name="revanced_create_button_summary_off">建立按鈕已隱藏</string>
@@ -193,6 +193,9 @@
     <string name="revanced_hdr_full_brightness_summary_off">自動 HDR 亮度已停用</string>
     <string name="revanced_hdr_full_brightness_summary_on">自動 HDR 亮度已啟用</string>
     <string name="revanced_hdr_full_brightness_title">啟用自動 HDR 亮度</string>
+    <string name="revanced_hide_email_address_summary_off">Email 地址已隱藏</string>
+    <string name="revanced_hide_email_address_summary_on">Email 已可見</string>
+    <string name="revanced_hide_email_address_title">Email 地址</string>
     <string name="revanced_home_ads_summary_off">家庭廣告已隱藏</string>
     <string name="revanced_home_ads_summary_on">首頁廣告已顯示</string>
     <string name="revanced_home_ads_title">移除首頁廣告</string>
@@ -222,8 +225,8 @@
     <string name="revanced_playback_start_summary">播放緩衝區的最大大小</string>
     <string name="revanced_playback_start_title">播放的最大緩衝區</string>
     <string name="revanced_player_popup_panels_title">播放器彈出面板</string>
-    <string name="revanced_player_popup_panels_summary_on">播放器彈出面板已啟用</string>
     <string name="revanced_player_popup_panels_summary_off">播放器彈出面板被停用</string>
+    <string name="revanced_player_popup_panels_summary_on">播放器彈出面板已啟用</string>
     <string name="revanced_pref_save_video_quality_title">記憶影片品質</string>
     <string name="revanced_pref_save_video_quality_summary_on">更改影片品質時記憶影片品質設定</string>
     <string name="revanced_pref_save_video_quality_summary_off">即使更改影片品質也不記憶影片品質設定</string>
@@ -350,7 +353,7 @@
     <string name="segments_subscribe_sum">當在任何免費或付費平台上出現按讚、訂閱、關注或與他們互動的簡短提醒時</string>
     <string name="settings_export_failed">無法匯出設定</string>
     <string name="settings_ie">匯入/匯出設定</string>
-    <string name="settings_ie_sum">這是您在 適用於桌面擴充套件JSON的整個配置。包括您的用戶 ID，因此請務必明智地分享。</string>
+    <string name="settings_ie_sum">這是你所有的設定值，可用於桌面擴充套件的JSON，並包含你的使用者ID，請謹慎分享此檔案</string>
     <string name="settings_import_failed">匯入設定失敗</string>
     <string name="settings_import_successful">設定已成功匯入</string>
     <string name="skip_automatically">自動跳過</string>
