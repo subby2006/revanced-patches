@@ -100,9 +100,6 @@
     <string name="litho_shorts_shelf">Eliminación de Shorts</string>
     <string name="litho_shorts_shelf_off">Eliminación de repisa de Shorts desactivada</string>
     <string name="litho_shorts_shelf_on">Eliminación de repisa de Shorts activada</string>
-    <string name="litho_suggested">Eliminación de Sugerencias para ti</string>
-    <string name="litho_suggested_off">La eliminación de Sugerencias para ti está desactivada</string>
-    <string name="litho_suggested_on">La eliminación de Sugerencias para ti está activada</string>
     <string name="microg_not_installed_notice">Please install MicroG</string>
     <string name="microg_not_installed_warning">MicroG is not found</string>
     <string name="microg_notification_settings">Ajustes de notificaciones</string>

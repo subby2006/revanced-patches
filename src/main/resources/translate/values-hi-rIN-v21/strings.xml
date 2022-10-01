@@ -99,9 +99,6 @@
     <string name="litho_shorts_shelf">शॉर्ट्स शेल्फ हटाना</string>
     <string name="litho_shorts_shelf_off">शॉर्ट्स शेल्फ़ निकालना बंद है</string>
     <string name="litho_shorts_shelf_on">शॉर्ट्स शेल्फ़ निकालना चालू है</string>
-    <string name="litho_suggested">आपको हटाने का सुझाव</string>
-    <string name="litho_suggested_off">आपके लिए सुझाया गया निष्कासन बंद है</string>
-    <string name="litho_suggested_on">आपके लिए सुझाया गया निष्कासन चालू है</string>
     <string name="microg_notification_settings">नोटिफिकेशन सेटिंग्स</string>
     <string name="microg_notification_settings_summary">"1. सूचनाओं के लिए Google डिवाइस पंजीकरण और क्लाउड मैसेजिंग को सक्षम करने की आवश्यकता है।
 2. ReVanced को Cloud Messaging के तहत पंजीकृत के रूप में दिखाया जाना चाहिए।

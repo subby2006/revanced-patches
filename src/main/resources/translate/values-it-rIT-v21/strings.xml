@@ -99,9 +99,6 @@
     <string name="litho_shorts_shelf">Rimozione Shelf Shorts</string>
     <string name="litho_shorts_shelf_off">La rimozione dei Shelf Shorts è disattivata</string>
     <string name="litho_shorts_shelf_on">La rimozione dei Shelf Shorts è attivata</string>
-    <string name="litho_suggested">Rimozione Suggeriti per te</string>
-    <string name="litho_suggested_off">Rimozione Suggeriti per te è disattivata</string>
-    <string name="litho_suggested_on">Rimozione Suggeriti per te è attivata</string>
     <string name="microg_notification_settings">Impostazioni notifiche</string>
     <string name="microg_notification_settings_summary">"1. La registrazione del dispositivo Google e Cloud Messaging devono essere abilitati per le notifiche.
 2. ReVanced deve essere visualizzato come registrato in Cloud Messaging.

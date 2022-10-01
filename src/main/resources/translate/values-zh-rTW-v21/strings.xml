@@ -100,9 +100,6 @@
     <string name="litho_shorts_shelf">隱藏 shorts 模塊</string>
     <string name="litho_shorts_shelf_off">shorts 模塊已顯示</string>
     <string name="litho_shorts_shelf_on">shorts 模塊已隱藏</string>
-    <string name="litho_suggested">移除個人建議</string>
-    <string name="litho_suggested_off">個人建議已顯示</string>
-    <string name="litho_suggested_on">個人建議已隱藏</string>
     <string name="microg_not_installed_notice">請安裝 MicroG</string>
     <string name="microg_not_installed_warning">未找到 MicroG</string>
     <string name="microg_notification_settings">通知設定</string>

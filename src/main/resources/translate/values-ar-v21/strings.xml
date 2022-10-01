@@ -100,9 +100,6 @@
     <string name="litho_shorts_shelf">إزالة الفيديوهات القصيرة (Shorts)</string>
     <string name="litho_shorts_shelf_off">يتم عرض قسم الفيديوهات القصيرة</string>
     <string name="litho_shorts_shelf_on">تم إخفاء قسم الفيديوهات القصيرة</string>
-    <string name="litho_suggested">إزالة الاقتراحات الشخصية</string>
-    <string name="litho_suggested_off">يتم عرض الاقتراحات الشخصية</string>
-    <string name="litho_suggested_on">تم إخفاء الاقتراحات الشخصية</string>
     <string name="microg_not_installed_notice">الرجاء تثبيت MicroG</string>
     <string name="microg_not_installed_warning">لم يتم العثور على MicroG</string>
     <string name="microg_notification_settings">إعدادات الإشعارات</string>

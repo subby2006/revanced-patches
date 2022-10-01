@@ -99,9 +99,6 @@
     <string name="litho_shorts_shelf">Remoção da prateleira de Shorts</string>
     <string name="litho_shorts_shelf_off">A remoção da prateleira de Shorts está desligada</string>
     <string name="litho_shorts_shelf_on">A remoção da prateleira de Shorts está ligada</string>
-    <string name="litho_suggested">Remoção de sugeridos para você</string>
-    <string name="litho_suggested_off">A remoção de sugeridos para você está desligada</string>
-    <string name="litho_suggested_on">A remoção de sugeridos para você está ligada</string>
     <string name="microg_notification_settings">Configurações de notificação</string>
     <string name="microg_notification_settings_summary">"1. O registro do dispositivo do Google e o Cloud Messaging precisam ser ativados para as notificações.
 2. Reforço precisa ser mostrado como registrado na Cloud Messaging.

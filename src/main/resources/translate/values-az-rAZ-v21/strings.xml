@@ -99,9 +99,6 @@
     <string name="litho_shorts_shelf">Şort Rəflərin çıxarılması</string>
     <string name="litho_shorts_shelf_off">Şort Rəflərin çıxarılması söndürülüb</string>
     <string name="litho_shorts_shelf_on">Şort Rəflərin çıxarılması aktivdir</string>
-    <string name="litho_suggested">Silmək üçün təklif olunur</string>
-    <string name="litho_suggested_off">Sizə təklif edilən silmə deaktiv edilib</string>
-    <string name="litho_suggested_on">Sizə təklif edilən silmə aktivdir</string>
     <string name="microg_notification_settings">MicroG Bildiriş parametrləri</string>
     <string name="microg_notification_settings_summary">"1. Bildirişlər üçün Google cihazının qeydiyyatı və Bulud Mesajlaşması aktivləşdirilməlidir.
 2. ReVanced Cloud Messaging altında qeydiyyatdan keçdiyi kimi göstərilməlidir.

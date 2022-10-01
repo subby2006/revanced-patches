@@ -99,9 +99,6 @@
     <string name="litho_shorts_shelf">Shorts 搁架移除</string>
     <string name="litho_shorts_shelf_off">Shorts 搁架移除已禁用</string>
     <string name="litho_shorts_shelf_on">Shorts 搁架移除已启用</string>
-    <string name="litho_suggested">个性化推荐移除</string>
-    <string name="litho_suggested_off">个性化推荐移除已禁用</string>
-    <string name="litho_suggested_on">个性化推荐移除已启用</string>
     <string name="microg_notification_settings">通知设置</string>
     <string name="microg_notification_settings_summary">"1. Google 设备注册和 Google 云端推送需要被打开以接收通知。
 2. ReVanced 需要在 GCM 下显示已注册。

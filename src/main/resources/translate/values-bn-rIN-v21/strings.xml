@@ -99,9 +99,6 @@
     <string name="litho_shorts_shelf">শর্ট শেলফ সরানো</string>
     <string name="litho_shorts_shelf_off">শর্ট শেলফ সরানো বন্ধ হয়েছে</string>
     <string name="litho_shorts_shelf_on">শর্ট শেলফ সরানো চালু হয়েছে</string>
-    <string name="litho_suggested">সাজেশন সরানো</string>
-    <string name="litho_suggested_off">সাজেশন সরানো বন্ধ হয়েছে</string>
-    <string name="litho_suggested_on">সাজেশন সরানো চালু হয়েছে</string>
     <string name="microg_notification_settings">নোটিফিকেশন সেটিংস</string>
     <string name="microg_notification_settings_summary">"1. বিজ্ঞপ্তিগুলির জন্য Google ডিভাইস নিবন্ধন এবং ক্লাউড মেসেজিং সক্ষম করতে হবে৷
 

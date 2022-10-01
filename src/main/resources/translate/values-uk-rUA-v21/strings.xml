@@ -99,9 +99,6 @@
     <string name="litho_shorts_shelf">Видалення вкладки коротких відео</string>
     <string name="litho_shorts_shelf_off">Видалення вкладки коротких відео вимкнуто</string>
     <string name="litho_shorts_shelf_on">Видалення вкладки коротких відео увімкнуто</string>
-    <string name="litho_suggested">Видалення персональних рекомендацій</string>
-    <string name="litho_suggested_off">Видалення персональних рекомендацій вимкнуто</string>
-    <string name="litho_suggested_on">Видалення персональних рекомендацій увімкнуто</string>
     <string name="microg_notification_settings">Налаштування повідомлень</string>
     <string name="microg_notification_settings_summary">"1. Для повідомлень необхідно увімкнути регистрацію пристроїв Google і Google Cloud Messaging.
 2. ReVanced необходно вказати як зарегистрированний додаток у Gcm.

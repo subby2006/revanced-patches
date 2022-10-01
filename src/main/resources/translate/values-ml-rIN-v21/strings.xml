@@ -99,9 +99,6 @@
     <string name="litho_shorts_shelf">Shorts Shelf removal</string>
     <string name="litho_shorts_shelf_off">Shorts Shelf removal is turned off</string>
     <string name="litho_shorts_shelf_on">Shorts Shelf removal is turned on</string>
-    <string name="litho_suggested">Suggested for you removal</string>
-    <string name="litho_suggested_off">Suggested for you removal is turned off</string>
-    <string name="litho_suggested_on">Suggested for you removal is turned on</string>
     <string name="microg_notification_settings">Notification settings</string>
     <string name="microg_notification_settings_summary">"1. Google device registration and Cloud Messaging need to be enabled for notifications.
 2. ReVanced needs to be shown as registered under Cloud Messaging.

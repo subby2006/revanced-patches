@@ -1,11 +1,13 @@
 package app.revanced.patches.youtube.misc.extended.bytecode.patch
 
-import app.revanced.extensions.injectHideCall
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.impl.BytecodeData
 import app.revanced.patcher.extensions.addInstructions
+import app.revanced.patcher.extensions.instruction
+import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
+import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
@@ -14,21 +16,16 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.impl.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import app.revanced.patcher.util.smali.toInstructions
-import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
+import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.youtube.misc.extended.annotation.ExtendedCompatibility
-import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensions.addMethod
 import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensions.findMutableMethodOf
-import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensions.insertBlocks
 import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensions.toDescriptor
-import app.revanced.patches.youtube.ad.general.bytecode.utils.MethodUtils.createMutableMethod
+import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.patches.youtube.misc.settings.resource.patch.SettingsResourcePatch
 import org.jf.dexlib2.Opcode
-import org.jf.dexlib2.builder.MutableMethodImplementation
-import org.jf.dexlib2.builder.instruction.*
-import org.jf.dexlib2.iface.MethodImplementation
-import org.jf.dexlib2.iface.instruction.ReferenceInstruction
+import org.jf.dexlib2.builder.instruction.BuilderInstruction10x
+import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 import org.jf.dexlib2.iface.instruction.formats.Instruction21c
 import org.jf.dexlib2.iface.instruction.formats.Instruction22c
 import org.jf.dexlib2.iface.instruction.formats.Instruction31i
@@ -36,7 +33,6 @@ import org.jf.dexlib2.iface.instruction.formats.Instruction35c
 import org.jf.dexlib2.iface.reference.FieldReference
 import org.jf.dexlib2.iface.reference.MethodReference
 import org.jf.dexlib2.iface.reference.StringReference
-import org.jf.dexlib2.immutable.reference.ImmutableMethodReference
 
 @Patch
 @DependsOn(

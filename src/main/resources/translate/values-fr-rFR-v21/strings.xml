@@ -99,9 +99,6 @@
     <string name="litho_shorts_shelf">Shorts Shelf removal</string>
     <string name="litho_shorts_shelf_off">Shorts Shelf removal is turned off</string>
     <string name="litho_shorts_shelf_on">Shorts Shelf removal is turned on</string>
-    <string name="litho_suggested">Suggéré pour votre suppression</string>
-    <string name="litho_suggested_off">Suggéré pour votre suppression est désactivé</string>
-    <string name="litho_suggested_on">Suggéré pour votre surpression est activée</string>
     <string name="microg_notification_settings">Paramètre de notifications</string>
     <string name="microg_notification_settings_summary">"1. L’enregistrement de l’appareil Google et la messagerie Cloud doivent être activés pour les notifications.
 2. ReVanced doit être affiché comme enregistré sous Messagerie Cloud.

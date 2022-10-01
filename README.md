@@ -9,17 +9,17 @@ The unofficial Patch bundle provided by ReVanced Extended
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
-| `minimized-playback-music` | Enables minimized playback on Kids music. | 5.25.51 |
-| `tasteBuilder-remover` | Removes the "Tell us which artists you like" card from the home screen. | 5.25.51 |
-| `hide-get-premium` | Removes all "Get Premium" evidences from the avatar menu. | 5.25.51 |
+| `minimized-playback-music` | Enables minimized playback on Kids music. | 5.26.52 |
+| `tasteBuilder-remover` | Removes the "Tell us which artists you like" card from the home screen. | 5.26.52 |
+| `hide-get-premium` | Removes all "Get Premium" evidences from the avatar menu. | 5.26.52 |
 | `custom-branding-music` | Changes the YouTube Music launcher icon and name to your choice (defaults to ReVanced Red). | all |
-| `compact-header` | Hides the music category bar at the top of the homepage. | 5.25.51 |
-| `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. | 5.25.51 |
-| `background-play` | Enables playing music in the background. | 5.25.51 |
-| `music-microg-support` | Allows YouTube Music ReVanced to run without root and under a different package name. | 5.25.51 |
-| `music-video-ads` | Removes ads in the music player. | 5.25.51 |
-| `codecs-unlock` | Adds more audio codec options. The new audio codecs usually result in better audio quality. | 5.25.51 |
-| `exclusive-audio-playback` | Enables the option to play music without video. | 5.25.51 |
+| `compact-header` | Hides the music category bar at the top of the homepage. | 5.26.52 |
+| `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. | 5.26.52 |
+| `background-play` | Enables playing music in the background. | 5.26.52 |
+| `music-microg-support` | Allows YouTube Music ReVanced to run without root and under a different package name. | 5.26.52 |
+| `music-video-ads` | Removes ads in the music player. | 5.26.52 |
+| `codecs-unlock` | Adds more audio codec options. The new audio codecs usually result in better audio quality. | 5.26.52 |
+| `exclusive-audio-playback` | Enables the option to play music without video. | 5.26.52 |
 </details>
 
 ### 📦 `com.google.android.youtube`
@@ -34,6 +34,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `hide-cast-button` | Hides the cast button in the video player. | all |
 | `return-youtube-dislike` | Shows the dislike count of videos using the Return YouTube Dislike API. | 17.38.35 |
 | `hide-autoplay-button` | Hides the autoplay button in the video player. | 17.38.35 |
+| `disable-startup-shorts-player` | Disables playing YouTube Shorts when launching YouTube. | 17.38.35 |
 | `custom-branding-red` | Changes the YouTube launcher icon and name to your choice (defaults to ReVanced Red). | all |
 | `custom-branding-blue` | Changes the YouTube launcher icon and name to your choice (defaults to ReVanced Blue). | all |
 | `amoled` | Enables pure black theme. | all |
@@ -58,7 +59,8 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `microg-support` | Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG. | 17.38.35 |
 | `settings` | Adds settings for ReVanced to YouTube. | all |
 | `custom-playback-speed` | Adds more video playback speed options. | 17.38.35 |
-| `optimize-resource` | Makes the brightness of HDR videos follow the system default. | all |
+| `hdr-auto-brightness` | Makes the brightness of HDR videos follow the system default. | 17.38.35 |
+| `optimize-resource` | Optimize resources to make your app lightweight, Add missing translations to YouTube. | all |
 | `remember-video-quality` | Adds the ability to remember the video quality you chose in the video quality flyout. | 17.38.35 |
 | `default-video-speed` | Adds the ability to set default video speed. | 17.38.35 |
 | `video-ads` | Removes ads in the video player. | 17.38.35 |

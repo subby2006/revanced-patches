@@ -100,9 +100,6 @@
     <string name="litho_shorts_shelf">Loại bỏ Thẻ Shorts</string>
     <string name="litho_shorts_shelf_off">Thẻ Shorts được hiển thị</string>
     <string name="litho_shorts_shelf_on">Thẻ Shorts đã ẩn</string>
-    <string name="litho_suggested">Loại bỏ Đề xuất cá nhân</string>
-    <string name="litho_suggested_off">Đề xuất cá nhân được hiển thị</string>
-    <string name="litho_suggested_on">Đề xuất cá nhân đã ẩn</string>
     <string name="microg_not_installed_notice">Vui lòng cài đặt MicroG</string>
     <string name="microg_not_installed_warning">MicroG chưa được cài đặt</string>
     <string name="microg_notification_settings">Cài đặt Thông báo</string>
@@ -224,9 +221,9 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_override_premium_header_title">Tiêu đề tuỳ chỉnh</string>
     <string name="revanced_playback_start_summary">Thời lượng tối đa mà video được đệm sau một hành động, chẳng hạn như khi bắt đầu video hoặc tua đi (tính bằng mili giây)</string>
     <string name="revanced_playback_start_title">Thời lượng video được đệm tối đa</string>
-    <string name="revanced_player_popup_panels_title">Gợi ý bật lên của trình phát</string>
-    <string name="revanced_player_popup_panels_summary_off">Gợi ý bật lên của trình phát bị vô hiệu hoá</string>
-    <string name="revanced_player_popup_panels_summary_on">Gợi ý bật lên của trình phát được kích hoạt</string>
+    <string name="revanced_player_popup_panels_title">Bảng đa năng bật lên theo trình phát</string>
+    <string name="revanced_player_popup_panels_summary_off">Bảng đa năng bật lên theo trình phát bị vô hiệu hoá</string>
+    <string name="revanced_player_popup_panels_summary_on">Bảng đa năng bật lên theo trình phát được kích hoạt</string>
     <string name="revanced_pref_save_video_quality_title">Lưu chất lượng video</string>
     <string name="revanced_pref_save_video_quality_summary_on">Lưu lại chất lượng video đã chọn bất cứ khi nào bạn thay đổi chất lượng video</string>
     <string name="revanced_pref_save_video_quality_summary_off">Không lưu chất lượng video đã chọn ngay cả khi bạn thay đổi chất lượng video</string>

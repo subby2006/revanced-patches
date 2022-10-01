@@ -100,9 +100,6 @@
     <string name="litho_shorts_shelf">쇼츠 선반 제거</string>
     <string name="litho_shorts_shelf_off">YouTube Shorts 선반을 보여줍니다</string>
     <string name="litho_shorts_shelf_on">YouTube Shorts 선반을 숨깁니다</string>
-    <string name="litho_suggested">당신을 위한 추천 제거</string>
-    <string name="litho_suggested_off">추천 섹션을 보여줍니다</string>
-    <string name="litho_suggested_on">추천 섹션을 숨깁니다</string>
     <string name="microg_not_installed_notice">MicroG를 먼저 설치해주세요</string>
     <string name="microg_not_installed_warning">MicroG가 설치되지 않았습니다</string>
     <string name="microg_notification_settings">알림 설정</string>
