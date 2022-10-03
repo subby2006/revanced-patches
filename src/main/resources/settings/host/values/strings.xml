@@ -129,7 +129,7 @@ Is it ready to submit?"</string>
     <string name="new_segment_title">New SponsorBlock segment</string>
     <string name="pref_subtitles_scale_normal">Normal</string>
     <string name="reset">Reset</string>
-    <string name="revanced_ad_settings_title">Ads</string>
+    <string name="revanced_ad_settings_title">Ads settings</string>
     <string name="revanced_ad_settings_summary">Ad related settings</string>
     <string name="revanced_auto_captions_summary_off">"Captions aren't enabled automatically at 0% volume"</string>
     <string name="revanced_auto_captions_summary_on">Captions are enabled automatically at 0% volume</string>
@@ -152,6 +152,10 @@ Is it ready to submit?"</string>
     <string name="revanced_button_location_entry_buttoncontainer">Under player</string>
     <string name="revanced_button_location_entry_none">Hidden</string>
     <string name="revanced_button_location_entry_player">In player</string>
+    <string name="revanced_button_container_summary">Hides the component of the button container</string>
+    <string name="revanced_button_container_title">Hide button container (Experimental)</string>
+    <string name="revanced_button_container_warning_summary">"this feature does not fully support new layout!
+- Implemented by OxrxL"</string>	
     <string name="revanced_cast_button_summary_off">Cast Button is hidden</string>
     <string name="revanced_cast_button_summary_on">Cast Button is shown</string>
     <string name="revanced_cast_button_title">Cast Button</string>
@@ -185,6 +189,9 @@ Is it ready to submit?"</string>
     <string name="revanced_disable_auto_captions_summary_on">"Captions aren't enabled when playing a video with captioning is enforced"</string>
     <string name="revanced_disable_auto_captions_title">Disable Auto captions</string>
     <string name="revanced_experimental_flag">Experimental Flags</string>
+    <string name="revanced_extended_settings">ReVanced Extended settings</string>
+    <string name="revanced_extended_summary">Extended related settings</string>
+    <string name="revanced_extended_title">Extended settings</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">Fullscreen rotation follows default YouTube policy</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Trick the YouTube version to enable fullscreen rotation</string>
     <string name="revanced_force_fullscreen_rotation_title">Enable Fullscreen Rotation (Experimental)</string>
@@ -243,6 +250,8 @@ Is it ready to submit?"</string>
     <string name="revanced_old_style_quality_settings_summary_off">New quality settings are shown</string>
     <string name="revanced_old_style_quality_settings_summary_on">Old quality settings are shown</string>
     <string name="revanced_old_style_quality_settings_title">Use old quality layout</string>
+    <string name="revanced_overlaybutton_summary">Overlay Button related settings</string>
+    <string name="revanced_overlaybutton_title">Overlay button settings</string>
     <string name="revanced_override_premium_header_summary_off">Current Header: Default Header</string>
     <string name="revanced_override_premium_header_summary_on">Current Header: Premium Header</string>
     <string name="revanced_override_premium_header_title">Premium Header</string>
@@ -338,6 +347,7 @@ Are you sure you want to continue though?"</string>
     <string name="revanced_video_quality_mobile_error">Failed to change default mobile data quality</string>
     <string name="revanced_video_quality_wifi">Changing default Wi-Fi quality to:</string>
     <string name="revanced_video_quality_wifi_error">Failed to change default WI-FI quality</string>
+    <string name="revanced_video_settings_summary">Video related settings</string>
     <string name="revanced_video_settings_title">Video settings</string>
     <string name="revanced_videoadwhitelisting_summary_off">Video ad whitelisting is turned off</string>
     <string name="revanced_videoadwhitelisting_summary_on">Video ad whitelisting is turned on. Use the ADS button under the player to whitelist a channel</string>
