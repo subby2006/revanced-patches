@@ -15,13 +15,11 @@ import app.revanced.patcher.util.smali.toInstruction
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.patches.youtube.misc.settings.annotations.SettingsCompatibility
-import app.revanced.patches.youtube.misc.settings.bytecode.fingerprints.LicenseActivityFingerprint
-import app.revanced.patches.youtube.misc.settings.bytecode.fingerprints.ReVancedSettingsActivityFingerprint
 import app.revanced.patches.youtube.misc.settings.bytecode.fingerprints.ThemeSetterFingerprint
 import app.revanced.patches.youtube.misc.settings.resource.patch.SettingsResourcePatch
 import org.jf.dexlib2.util.MethodUtil
 
-//@Patch
+@Patch
 @DependsOn(
     [
         IntegrationsPatch::class,
@@ -34,10 +32,10 @@ import org.jf.dexlib2.util.MethodUtil
 @SettingsCompatibility
 @Version("0.0.1")
 class SettingsPatch : BytecodePatch(
-    listOf(LicenseActivityFingerprint, ReVancedSettingsActivityFingerprint, ThemeSetterFingerprint)
+    listOf(ThemeSetterFingerprint)
 ) {
     override fun execute(data: BytecodeData): PatchResult {
-        /*
+
         val themeSetterResult = ThemeSetterFingerprint.result!!
 
         val setThemeInstruction =
@@ -57,7 +55,7 @@ class SettingsPatch : BytecodePatch(
                 setThemeInstruction
             )
         }
-
+        /*
         try {
             val licenseActivityResult = LicenseActivityFingerprint.result!!
             val settingsResult = ReVancedSettingsActivityFingerprint.result!!
