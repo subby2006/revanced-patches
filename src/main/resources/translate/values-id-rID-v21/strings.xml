@@ -257,6 +257,9 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_shorts_button_summary_off">Tombol shorts disembunyikan</string>
     <string name="revanced_shorts_button_summary_on">Tombol shorts ditampilkan</string>
     <string name="revanced_shorts_button_title">Tombol shorts</string>
+    <string name="revanced_startup_shorts_player_summary_off">Pemutar shorts dinonaktifkan saat memulai aplikasi</string>
+    <string name="revanced_startup_shorts_player_summary_on">Pemutar shorts diaktifkan saat memulai aplikasi</string>
+    <string name="revanced_startup_shorts_player_title">Pemutar shorts saat memulai aplikasi</string>
     <string name="revanced_suggested_actions_summary_off">Tindakan yang disarankan ditampilkan</string>
     <string name="revanced_suggested_actions_summary_on">Tindakan yang disarankan disembunyikan</string>
     <string name="revanced_suggested_actions_title">Tindakan yang disarankan</string>
