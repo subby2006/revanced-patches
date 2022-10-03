@@ -27,6 +27,7 @@
         <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_interactions_title" />
         <PreferenceScreen android:title="@string/revanced_swipe_title" android:key="revanced_swipe_controls" android:summary="@string/revanced_swipe_summary">
             <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_swipe_title" />
+            <SwitchPreference android:title="@string/revanced_swipe_auto_brightness_title" android:key="revanced_enable_swipe_auto_brightness" android:defaultValue="true" android:summaryOn="@string/revanced_swipe_auto_brightness_summary_on" android:summaryOff="@string/revanced_swipe_auto_brightness_summary_off" />
             <SwitchPreference android:title="@string/revanced_swipe_brightness_title" android:key="revanced_enable_swipe_brightness" android:defaultValue="true" android:summaryOn="@string/revanced_swipe_brightness_summary_on" android:summaryOff="@string/revanced_swipe_brightness_summary_off" />
             <SwitchPreference android:title="@string/revanced_swipe_volume_title" android:key="revanced_enable_swipe_volume" android:defaultValue="true" android:summaryOn="@string/revanced_swipe_volume_summary_on" android:summaryOff="@string/revanced_swipe_volume_summary_off" />
             <SwitchPreference android:title="@string/revanced_swipe_pts_title" android:key="revanced_enable_press_to_swipe" android:defaultValue="false" android:summaryOn="@string/revanced_swipe_pts_summary_on" android:summaryOff="@string/revanced_swipe_pts_summary_off" />

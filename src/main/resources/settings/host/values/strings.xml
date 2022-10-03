@@ -297,6 +297,9 @@ Are you sure you want to continue though?"</string>
     <string name="revanced_suggestion_summary_off">End screens are hidden</string>
     <string name="revanced_suggestion_summary_on">End screens are shown</string>
     <string name="revanced_suggestion_title">End screens</string>
+    <string name="revanced_swipe_auto_brightness_summary_off">Auto-brightness by swiping is disabled</string>
+    <string name="revanced_swipe_auto_brightness_summary_on">Auto-brightness by swiping is enabled</string>
+    <string name="revanced_swipe_auto_brightness_title">Auto-brightness by swiping</string>
     <string name="revanced_swipe_brightness_summary_off">Brightness swipe is disabled</string>
     <string name="revanced_swipe_brightness_summary_on">Brightness swipe is enabled</string>
     <string name="revanced_swipe_brightness_title">Enable brightness gesture</string>
