@@ -190,6 +190,9 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_hdr_full_brightness_summary_off">Kecerahan video diatur ke maksimal pada video lanskap HDR</string>
     <string name="revanced_hdr_full_brightness_summary_on">Kecerahan video akan mengikuti kecerahan perangkat anda pada video lanskap HDR</string>
     <string name="revanced_hdr_full_brightness_title">Ganti kecerahan video HDR</string>
+    <string name="revanced_hide_email_address_summary_off">Alamat email disembunyikan</string>
+    <string name="revanced_hide_email_address_summary_on">Alamat email ditampilkan</string>
+    <string name="revanced_hide_email_address_title">Alamat email</string>
     <string name="revanced_home_ads_summary_off">Iklan beranda disembunyikan</string>
     <string name="revanced_home_ads_summary_on">Iklan beranda ditampilkan</string>
     <string name="revanced_home_ads_title">Iklan beranda</string>

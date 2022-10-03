@@ -53,8 +53,8 @@
     <string name="litho_comments_off">Penghapusan komentar dinonaktifkan (khusus komentar/perangkat baru)</string>
     <string name="litho_comments_on">Penghapusan komentar diaktifkan (khusus komentar/perangkat baru)</string>
     <string name="litho_community_guidelines">Penghapusan pedoman komunitas</string>
-    <string name="litho_community_guidelines_off">Penghapusan pedoman komunitas dinonaktifkan</string>
-    <string name="litho_community_guidelines_on">Penghapusan pedoman komunitas diaktifkan</string>
+    <string name="litho_community_guidelines_off">Penghapusan Pedoman komunitas dinonaktifkan</string>
+    <string name="litho_community_guidelines_on">Penghapusan Pedoman komunitas diaktifkan</string>
     <string name="litho_community_posts">Penghapusan postingan komunitas</string>
     <string name="litho_community_posts_off">Penghapusan postingan komunitas dinonaktifkan</string>
     <string name="litho_community_posts_on">Penghapusan postingan komunitas diaktifkan</string>
@@ -260,6 +260,9 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_shorts_button_summary_off">Tombol shorts disembunyikan</string>
     <string name="revanced_shorts_button_summary_on">Tombol shorts ditampilkan</string>
     <string name="revanced_shorts_button_title">Tombol shorts</string>
+    <string name="revanced_startup_shorts_player_summary_off">Pemutar shorts dinonaktifkan saat memulai aplikasi</string>
+    <string name="revanced_startup_shorts_player_summary_on">Pemutar shorts diaktifkan saat memulai aplikasi</string>
+    <string name="revanced_startup_shorts_player_title">Pemutar shorts saat memulai aplikasi</string>
     <string name="revanced_suggested_actions_summary_off">Tindakan yang disarankan ditampilkan</string>
     <string name="revanced_suggested_actions_summary_on">Tindakan yang disarankan disembunyikan</string>
     <string name="revanced_suggested_actions_title">Tindakan yang disarankan</string>
