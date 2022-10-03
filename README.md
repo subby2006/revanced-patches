@@ -60,6 +60,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `settings` | Adds settings for ReVanced to YouTube. | all |
 | `custom-playback-speed` | Adds more video playback speed options. | 17.38.35 |
 | `hdr-auto-brightness` | Makes the brightness of HDR videos follow the system default. | 17.38.35 |
+| `hide-button-container` | Removes button container. | 17.38.35 |
 | `optimize-resource` | Optimize resources to make your app lightweight, Add missing translations to YouTube. | all |
 | `remember-video-quality` | Adds the ability to remember the video quality you chose in the video quality flyout. | 17.38.35 |
 | `default-video-speed` | Adds the ability to set default video speed. | 17.38.35 |
