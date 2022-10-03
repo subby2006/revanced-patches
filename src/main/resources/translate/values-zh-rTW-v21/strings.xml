@@ -42,7 +42,7 @@
     <string name="general_skiptoast_sum">點此預覽提示範例</string>
     <string name="general_time_without_sb">顯示不包含片段的時間</string>
     <string name="general_time_without_sb_sum">此時間顯示在目前時間旁邊的括號中。顯示總影片時長減去片段後的時間。</string>
-    <string name="general_uuid">您的唯一用戶 ID</string>
+    <string name="general_uuid">你的使用者名稱</string>
     <string name="general_uuid_sum">這應該保密。就像密碼一樣不應該與任何人共享。如果任何人取得這個ID，他們可以冒充你</string>
     <string name="general_whitelisting">頻道白名單</string>
     <string name="general_whitelisting_sum">使用播放器下方的片段按鈕將頻道列入白名單</string>
@@ -60,7 +60,7 @@
     <string name="litho_community_posts_on">社群貼文已隱藏</string>
     <string name="litho_compact_banner">移除緊湊橫幅</string>
     <string name="litho_compact_banner_off">緊湊橫幅已顯示</string>
-    <string name="litho_compact_banner_on">緊湊的橫幅被隱藏</string>
+    <string name="litho_compact_banner_on">緊湊橫幅已隱藏</string>
     <string name="litho_compact_movie">移除電影區塊</string>
     <string name="litho_compact_movie_off">電影區塊已顯示</string>
     <string name="litho_compact_movie_on">電影區塊已隱藏</string>
@@ -110,9 +110,9 @@
     <string name="minutes">分鐘</string>
     <string name="new_segment_choose_category">選擇分段類別</string>
     <string name="new_segment_confirm_content" formatted="false">"該段從 %02d:%02d 持續到 %02d:%02d (%d 分 %02d 秒)
-準備好提交了嗎？"</string>
+準備好送出了嗎？"</string>
     <string name="new_segment_confirm_title">時間是否正確？</string>
-    <string name="new_segment_disabled_category">"您已在設定中停用此類別，啟用該項方能提交"</string>
+    <string name="new_segment_disabled_category">"您已在設定中停用此類別，啟用該項方能送出"</string>
     <string name="new_segment_edit_by_hand_content">您要編輯片段開始或結束的時間嗎？</string>
     <string name="new_segment_edit_by_hand_parse_error">給定的時間無效</string>
     <string name="new_segment_edit_by_hand_saved">完成</string>
@@ -137,9 +137,9 @@
     <string name="revanced_auto_repeat_button_summary_off">自動重複按鈕已隱藏</string>
     <string name="revanced_auto_repeat_button_summary_on">自動重複按鈕已顯示</string>
     <string name="revanced_auto_repeat_button_title">自動重複按鈕</string>
-    <string name="revanced_auto_repeat_summary_off">已停用始終自動重複</string>
-    <string name="revanced_auto_repeat_summary_on">已啟用始終自動重複</string>
-    <string name="revanced_auto_repeat_title">始終自動重複</string>
+    <string name="revanced_auto_repeat_summary_off">已停用永遠自動重複</string>
+    <string name="revanced_auto_repeat_summary_on">已啟用永遠自動重複</string>
+    <string name="revanced_auto_repeat_title">永遠自動重複</string>
     <string name="revanced_autoplay_button_summary_off">自動播放按鈕已隱藏</string>
     <string name="revanced_autoplay_button_summary_on">自動播放按鈕已顯示</string>
     <string name="revanced_autoplay_button_title">自動播放按鈕</string>
@@ -160,7 +160,7 @@
     <string name="revanced_copy_video_url_summary_on">複製連結按鈕已顯示</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">帶有時間戳的複製連結按鈕已隱藏</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">帶有時間戳的複製連結按鈕已顯示</string>
-    <string name="revanced_copy_video_url_timestamp_title">複製帶有時間戳的連結按鈕</string>
+    <string name="revanced_copy_video_url_timestamp_title">帶有時間戳的複製連結按鈕</string>
     <string name="revanced_copy_video_url_title">複製連結按鈕</string>
     <string name="revanced_download_video_summary_off">下載按鈕已隱藏</string>
     <string name="revanced_download_video_summary_on">下載按鈕已顯示</string>
@@ -169,7 +169,7 @@
     <string name="revanced_downloads_package_name_title">下載器 Package 名稱</string>
     <string name="revanced_downloads_summary">設定下載器</string>
     <string name="revanced_downloads_title">下載設定</string>
-    <string name="revanced_disable_new_layout_summary_off">YouTube 佈局會跟隨你的 Google 帳號狀態</string>
+    <string name="revanced_disable_new_layout_summary_off">YouTube 佈局會依據你的 Google 帳號狀態而啟用</string>
     <string name="revanced_disable_new_layout_summary_on">向 YouTube 回報舊版本以強制停用新佈局</string>
     <string name="revanced_disable_new_layout_title">停用新佈局（實驗性）</string>
     <string name="revanced_create_button_summary_off">建立按鈕已隱藏</string>
@@ -178,8 +178,8 @@
     <string name="revanced_custom_playback_speed">自訂播放速度</string>
     <string name="revanced_custom_playback_speed_off">自訂播放速度已停用</string>
     <string name="revanced_custom_playback_speed_on">自訂播放速度已啟用</string>
-    <string name="revanced_debug_summary_off">額外的除蟲日誌被停用</string>
-    <string name="revanced_debug_summary_on">額外的除蟲日誌記錄已啟用</string>
+    <string name="revanced_debug_summary_off">額外的除蟲日誌已停用</string>
+    <string name="revanced_debug_summary_on">額外的除蟲日誌已啟用</string>
     <string name="revanced_disable_auto_captions_summary_off">強制播放帶字幕的影片時啟用字幕</string>
     <string name="revanced_disable_auto_captions_summary_on">"強制播放帶字幕的影片時不啟用字幕"</string>
     <string name="revanced_disable_auto_captions_title">停用自動字幕</string>
@@ -191,8 +191,32 @@
     <string name="revanced_hdr_full_brightness_summary_on">自動 HDR 亮度已啟用</string>
     <string name="revanced_hdr_full_brightness_title">啟用自動 HDR 亮度</string>
     <string name="revanced_hide_email_address_summary_off">Email 地址已隱藏</string>
-    <string name="revanced_hide_email_address_summary_on">Email 已可見</string>
+    <string name="revanced_hide_email_address_summary_on">Email 地址已顯示</string>
     <string name="revanced_hide_email_address_title">Email 地址</string>
+    <string name="revanced_hide_player_live_chat_button_title">隱藏直播聊天室按鈕</string>
+    <string name="revanced_hide_player_live_chat_button_off">直播聊天室按鈕已顯示</string>
+    <string name="revanced_hide_player_live_chat_button_on">直播聊天室按鈕已隱藏</string>
+    <string name="revanced_hide_player_report_button_title">隱藏檢舉按鈕</string>
+    <string name="revanced_hide_player_report_button_summary_off">檢舉按鈕已顯示</string>
+    <string name="revanced_hide_player_report_button_summary_on">檢舉按鈕已隱藏</string>
+    <string name="revanced_hide_player_create_short_button_title">隱藏建立 Short 按鈕</string>
+    <string name="revanced_hide_player_create_short_button_summary_off">建立 Short 按鈕已顯示</string>
+    <string name="revanced_hide_player_create_short_button_summary_on">建立 Short 按鈕已隱藏</string>
+    <string name="revanced_hide_player_thanks_button_title">隱藏感謝按鈕</string>
+    <string name="revanced_hide_player_thanks_button_summary_off">感謝按鈕已顯示</string>
+    <string name="revanced_hide_player_thanks_button_summary_on">感謝按鈕已隱藏</string>
+    <string name="revanced_hide_player_create_clip_button_title">隱藏剪輯片段按鈕</string>
+    <string name="revanced_hide_player_create_clip_button_summary_off">剪輯片段按鈕已顯示</string>
+    <string name="revanced_hide_player_create_clip_button_summary_on">剪輯片段按鈕已隱藏</string>
+    <string name="revanced_hide_player_download_button_title">隱藏下載按鈕</string>
+    <string name="revanced_hide_player_download_button_summary_off">下載按鈕已顯示</string>
+    <string name="revanced_hide_player_download_button_summary_on">下載按鈕已隱藏</string>
+    <string name="revanced_hide_player_spoiler_comment_title">隱藏劇透回應</string>
+    <string name="revanced_hide_player_spoiler_comment_summary_off">劇透回應已顯示</string>
+    <string name="revanced_hide_player_spoiler_comment_summary_on">劇透回應已隱藏</string>
+    <string name="revanced_hide_player_external_comment_box_title">Hide external comment box</string>
+    <string name="revanced_hide_player_external_comment_box_summary_off">External comment box is shown</string>
+    <string name="revanced_hide_player_external_comment_box_summary_on">External comment box is hidden</string>
     <string name="revanced_home_ads_summary_off">家庭廣告已隱藏</string>
     <string name="revanced_home_ads_summary_on">首頁廣告已顯示</string>
     <string name="revanced_home_ads_title">移除首頁廣告</string>
@@ -213,16 +237,16 @@
     <string name="revanced_new_actionbar_summary_off">寬搜尋欄已停用</string>
     <string name="revanced_new_actionbar_summary_on">寬搜尋欄已啟用</string>
     <string name="revanced_new_actionbar_title">寬搜尋欄</string>
-    <string name="revanced_old_style_quality_settings_summary_off">顯示新的品質設定</string>
-    <string name="revanced_old_style_quality_settings_summary_on">顯示舊的品質設定</string>
-    <string name="revanced_old_style_quality_settings_title">使用舊的品質設定</string>
+    <string name="revanced_old_style_quality_settings_summary_off">顯示新版品質設定</string>
+    <string name="revanced_old_style_quality_settings_summary_on">顯示舊版品質設定</string>
+    <string name="revanced_old_style_quality_settings_title">使用舊版品質設定</string>
     <string name="revanced_override_premium_header_summary_off">目前標題：預設標誌</string>
     <string name="revanced_override_premium_header_summary_on">目前標題： Premium 標誌</string>
     <string name="revanced_override_premium_header_title">Premium 標誌</string>
     <string name="revanced_playback_start_summary">播放緩衝區的最大大小</string>
     <string name="revanced_playback_start_title">播放的最大緩衝區</string>
     <string name="revanced_player_popup_panels_title">播放器彈出面板</string>
-    <string name="revanced_player_popup_panels_summary_off">播放器彈出面板被停用</string>
+    <string name="revanced_player_popup_panels_summary_off">播放器彈出面板已停用</string>
     <string name="revanced_player_popup_panels_summary_on">播放器彈出面板已啟用</string>
     <string name="revanced_pref_save_video_quality_title">記憶影片品質</string>
     <string name="revanced_pref_save_video_quality_summary_on">更改影片品質時記憶影片品質設定</string>
@@ -241,25 +265,28 @@
 但由於這仍然是一個實驗性功能，因此可能無法準確顯示喜歡的數量。
 你確定要繼續嗎？"</string>
     <string name="revanced_rebuffer_summary">重新緩衝後播放緩衝區的最大大小</string>
-    <string name="revanced_rebuffer_title">重新緩衝後播放的最大緩衝</string>
-    <string name="revanced_reel_summary_off">故事被隱藏</string>
-    <string name="revanced_reel_summary_on">顯示故事</string>
+    <string name="revanced_rebuffer_title">重新緩衝後播放的最大緩衝區</string>
+    <string name="revanced_reel_summary_off">故事已隱藏</string>
+    <string name="revanced_reel_summary_on">故事已顯示</string>
     <string name="revanced_reel_title">YouTube 故事</string>
     <string name="revanced_ryd_new_layout_title">修復 RYD（新佈局）</string>
-    <string name="revanced_ryd_new_layout_summary">在新佈局中顯示不喜歡計數</string>
+    <string name="revanced_ryd_new_layout_summary">在新佈局中顯示不喜歡的計數器</string>
     <string name="revanced_ryd_attribution_summary">此整合使用來自 https://returnyoutubedislike.com 的 Return YouTube Dislike API。點按以了解更多訊息</string>
     <string name="revanced_ryd_attribution_title">Return YouTube Dislike 套件</string>
     <string name="revanced_ryd_settings_summary">Return YouTube Dislike 設定</string>
     <string name="revanced_ryd_settings_title">Return YouTube Dislike</string>
-    <string name="revanced_ryd_summary">開啟此選項以查看不喜歡的數量</string>
+    <string name="revanced_ryd_summary">開啟此選項以檢視不喜歡的數量</string>
     <string name="revanced_ryd_title">啟用 Return YouTube Dislike</string>
     <string name="revanced_seekbar_tapping">啟用進度條點擊</string>
     <string name="revanced_seekbar_tapping_off">進度條點擊已停用</string>
     <string name="revanced_seekbar_tapping_on">進度條點擊已啟用</string>
-    <string name="revanced_settings">重新設定</string>
+    <string name="revanced_settings">Revanced 設定</string>
     <string name="revanced_shorts_button_summary_off">Shorts 按鈕已隱藏</string>
     <string name="revanced_shorts_button_summary_on">Shorts 按鈕已顯示</string>
     <string name="revanced_shorts_button_title">Shorts 按鈕</string>
+    <string name="revanced_startup_shorts_player_summary_off">Shorts 播放器在開啟 App 時不啟用</string>
+    <string name="revanced_startup_shorts_player_summary_on">Shorts 播放器在開啟 App 時啟用</string>
+    <string name="revanced_startup_shorts_player_title">App 啟動時的 Shorts 播放器</string>
     <string name="revanced_suggested_actions_summary_off">建議操作已顯示</string>
     <string name="revanced_suggested_actions_summary_on">建議操作已隱藏</string>
     <string name="revanced_suggested_actions_title">建議操作</string>
@@ -325,19 +352,19 @@
 如果要停用此功能，請將本設定關閉："</string>
     <string name="rvx_dialog_title">ReVanced Extended</string>
     <string name="sb_guidelines_popup_already_read">已閱讀</string>
-    <string name="sb_guidelines_popup_content">"建議在提交任何片段前閱讀 SponsorBlock 指南"</string>
+    <string name="sb_guidelines_popup_content">"建議在送出任何片段前閱讀 SponsorBlock 指南"</string>
     <string name="sb_guidelines_popup_open">給我看看</string>
     <string name="sb_guidelines_popup_title">有指南</string>
-    <string name="sb_guidelines_preference_sum">指南包含有關提交片段的提示和規則</string>
-    <string name="sb_guidelines_preference_title">查看指南</string>
+    <string name="sb_guidelines_preference_sum">指南包含有關送出片段的提示和規則</string>
+    <string name="sb_guidelines_preference_title">檢視指南</string>
     <string name="sb_settings">SponsorBlock 設定</string>
     <string name="sb_summary">SponsorBlock 相關設定</string>
     <string name="segments_endcards">結束卡/片尾</string>
-    <string name="segments_endcards_sum">片尾或 YouTube 結束卡出現時。並非口述結論</string>
+    <string name="segments_endcards_sum">片尾或 YouTube 結束卡出現時。並不是口述結論</string>
     <string name="segments_filler">贅詞/笑話</string>
-    <string name="segments_filler_sum">僅為影片中主要內容所不需要的贅字或幽默片段。這不應包括前後文或背景細節</string>
+    <string name="segments_filler_sum">僅為影片中主要內容所不相關的贅字或幽默片段。這不應有內容或背景細節</string>
     <string name="segments_intermission">中場休息/介紹動畫</string>
-    <string name="segments_intermission_sum">沒有實際內容的區間。可能是暫停、靜態畫面、重複動畫</string>
+    <string name="segments_intermission_sum">沒有實際內容的段落。可能是暫停、靜態畫面、重複動畫</string>
     <string name="segments_nomusic">音樂：非音樂部分</string>
     <string name="segments_nomusic_sum">僅用於音樂影片。跳過非官方混音的部分影片</string>
     <string name="segments_preview">預覽/回顧</string>
@@ -366,30 +393,30 @@
     <string name="skipped_selfpromo">跳過了自我宣傳</string>
     <string name="skipped_sponsor">跳過了贊助</string>
     <string name="skipped_subscribe">跳過了煩人的提醒</string>
-    <string name="skipped_unsubmitted">跳過了未提交的片段</string>
-    <string name="stats">統計數據</string>
+    <string name="skipped_unsubmitted">跳過了未送出的片段</string>
+    <string name="stats">統計資料</string>
     <string name="stats_loading">載入中..</string>
     <string name="stats_saved">"您幫人們省下了 &lt;b&gt;%s&lt;/b&gt; 個片段。"</string>
-    <string name="stats_saved_sum">"這是他們生命中的 &lt;b&gt;%s&lt;/b&gt; 。點擊以查看排行榜"</string>
+    <string name="stats_saved_sum">"這是他們生命中的 &lt;b&gt;%s&lt;/b&gt; 。點擊以檢視排行榜"</string>
     <string name="stats_sb_disabled">SponsorBlock 已停用</string>
     <string name="stats_self_saved">"您已跳過 &lt;b&gt;%s&lt;/b&gt; 個片段。"</string>
     <string name="stats_self_saved_sum">"那是&lt;b&gt;%s&lt;/b&gt;。"</string>
-    <string name="stats_submissions">提交數：&lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="stats_username">您的用戶名：&lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="stats_username_change">點擊以更改您的用戶名</string>
-    <string name="stats_username_change_unknown_error" formatted="false">無法更改用戶名：狀態：%d %s</string>
-    <string name="stats_username_changed">用戶名已成功更改</string>
-    <string name="submit_failed_duplicate">"無法提交片段。
+    <string name="stats_submissions">送出數：&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="stats_username">您的使用者名稱：&lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="stats_username_change">點擊以更改您的使用者名稱</string>
+    <string name="stats_username_change_unknown_error" formatted="false">無法更改使用者名稱：狀態：%d %s</string>
+    <string name="stats_username_changed">使用者名稱已成功更改</string>
+    <string name="submit_failed_duplicate">"無法送出片段。
 已經存在"</string>
-    <string name="submit_failed_forbidden">"無法提交片段。
+    <string name="submit_failed_forbidden">"無法送出片段。
 
 %s"</string>
-    <string name="submit_failed_rate_limit">"無法提交片段。
+    <string name="submit_failed_rate_limit">"無法送出片段。
 頻率受限（來自同一用戶或 IP 的次數過多）"</string>
-    <string name="submit_failed_invalid">無法提交分段：%s</string>
-    <string name="submit_failed_unknown_error" formatted="false">無法提交片段：狀態：%d %s</string>
-    <string name="submit_started">正在提交片段…</string>
-    <string name="submit_succeeded">片段提交成功</string>
+    <string name="submit_failed_invalid">無法送出分段：%s</string>
+    <string name="submit_failed_unknown_error" formatted="false">無法送出片段：狀態：%d %s</string>
+    <string name="submit_started">正在送出片段…</string>
+    <string name="submit_succeeded">片段送出成功</string>
     <string name="tap_skip">點擊跳過</string>
     <string name="vote_category">更改分類</string>
     <string name="vote_downvote">不喜歡</string>
