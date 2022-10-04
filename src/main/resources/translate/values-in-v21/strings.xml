@@ -184,6 +184,9 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_downloads_summary">Setel aplikasi downloader</string>
     <string name="revanced_downloads_title">Pengaturan aplikasi downloader</string>
     <string name="revanced_experimental_flag">Pengaturan eksperimental</string>
+    <string name="revanced_extended_settings">Pengaturan ReVanced Extended</string>
+    <string name="revanced_extended_summary">Pengaturan yang terkait dengan extended</string>
+    <string name="revanced_extended_title">Pengaturan extended</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">Rotasi layar penuh mengikuti kebijakan default YouTube</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Trik versi YouTube untuk mengaktifkan rotasi layar penuh</string>
     <string name="revanced_force_fullscreen_rotation_title">Aktifkan rotasi layar penuh (eksperimental)</string>
@@ -216,6 +219,8 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_old_style_quality_settings_summary_off">Menggunakan pengaturan kualitas video gaya default</string>
     <string name="revanced_old_style_quality_settings_summary_on">Menggunakan pengaturan kualitas video gaya lama</string>
     <string name="revanced_old_style_quality_settings_title">Gaya pengaturan kualitas video</string>
+    <string name="revanced_overlaybutton_summary">Pengaturan yang terkait dengan tombol overlay</string>
+    <string name="revanced_overlaybutton_title">Pengaturan tombol overlay</string>	
     <string name="revanced_override_premium_header_summary_off">Header saat ini: Header default</string>
     <string name="revanced_override_premium_header_summary_on">Header saat ini: Header premium</string>
     <string name="revanced_override_premium_header_title">Header premium</string>
@@ -269,6 +274,9 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_suggestion_summary_off">Layar akhir disembunyikan</string>
     <string name="revanced_suggestion_summary_on">Layar akhir ditampilkan</string>
     <string name="revanced_suggestion_title">Layar akhir</string>
+    <string name="revanced_swipe_auto_brightness_summary_off">Kecerahan otomatis dengan menggesek dinonaktifkan</string>
+    <string name="revanced_swipe_auto_brightness_summary_on">Kecerahan otomatis dengan menggesek dinoaktifkan</string>
+    <string name="revanced_swipe_auto_brightness_title">Kecerahan otomatis dengan menggesek</string>
     <string name="revanced_swipe_brightness_summary_off">Kontrol gesek untuk kecerahan dinonaktifkan</string>
     <string name="revanced_swipe_brightness_summary_on">Kontrol gesek untuk kecerahan diaktifkan</string>
     <string name="revanced_swipe_brightness_title">Kontrol gesek untuk kecerahan</string>
@@ -308,6 +316,7 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_video_quality_wifi">Mengubah kualitas WiFi default menjadi:</string>
     <string name="revanced_video_quality_wifi_error">Gagal mengubah kualitas WIFI default</string>
     <string name="revanced_video_settings_title">Pengaturan video</string>
+    <string name="revanced_video_settings_summary">Pengaturan yang terkait dengan video</string>
     <string name="revanced_videoadwhitelisting_summary_off">Daftar putih iklan video dinonaktifkan</string>
     <string name="revanced_videoadwhitelisting_summary_on">Daftar putih iklan video diaktifkan. Gunakan tombol ADS di bawah pemutar untuk memasukkan saluran ke daftar putih</string>
     <string name="revanced_videoadwhitelisting_title">Daftar putih iklan video</string>
