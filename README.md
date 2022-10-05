@@ -21,6 +21,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `codecs-unlock` | Adds more audio codec options. The new audio codecs usually result in better audio quality. | 5.27.50 |
 | `exclusive-audio-playback` | Enables the option to play music without video. | 5.27.50 |
 | `tablet-mode` | Unlocks landscape mode. | 5.27.50 |
+| `black-navbar` | Sets the navigation bar color to black. | 5.27.50 |
 </details>
 
 ### 📦 `com.google.android.youtube`
