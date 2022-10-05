@@ -9,17 +9,17 @@ The unofficial Patch bundle provided by ReVanced Extended
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
-| `minimized-playback-music` | Enables minimized playback on Kids music. | 5.26.52 |
-| `tasteBuilder-remover` | Removes the "Tell us which artists you like" card from the home screen. | 5.26.52 |
-| `hide-get-premium` | Removes all "Get Premium" evidences from the avatar menu. | 5.26.52 |
+| `minimized-playback-music` | Enables minimized playback on Kids music. | 5.26.53 |
+| `tasteBuilder-remover` | Removes the "Tell us which artists you like" card from the home screen. | 5.26.53 |
+| `hide-get-premium` | Removes all "Get Premium" evidences from the avatar menu. | 5.26.53 |
 | `custom-branding-music` | Changes the YouTube Music launcher icon and name to your choice (defaults to ReVanced Red). | all |
-| `compact-header` | Hides the music category bar at the top of the homepage. | 5.26.52 |
-| `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. | 5.26.52 |
-| `background-play` | Enables playing music in the background. | 5.26.52 |
-| `music-microg-support` | Allows YouTube Music ReVanced to run without root and under a different package name. | 5.26.52 |
-| `music-video-ads` | Removes ads in the music player. | 5.26.52 |
-| `codecs-unlock` | Adds more audio codec options. The new audio codecs usually result in better audio quality. | 5.26.52 |
-| `exclusive-audio-playback` | Enables the option to play music without video. | 5.26.52 |
+| `compact-header` | Hides the music category bar at the top of the homepage. | 5.26.53 |
+| `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. | 5.26.53 |
+| `background-play` | Enables playing music in the background. | 5.26.53 |
+| `music-microg-support` | Allows YouTube Music ReVanced to run without root and under a different package name. | 5.26.53 |
+| `music-video-ads` | Removes ads in the music player. | 5.26.53 |
+| `codecs-unlock` | Adds more audio codec options. The new audio codecs usually result in better audio quality. | 5.26.53 |
+| `exclusive-audio-playback` | Enables the option to play music without video. | 5.26.53 |
 </details>
 
 ### 📦 `com.google.android.youtube`
