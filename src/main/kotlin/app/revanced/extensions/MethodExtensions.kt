@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.extended.hidebuttoncontainer.extensions
+package app.revanced.extensions
 
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.softCompareTo

@@ -18,8 +18,8 @@ import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.youtube.extended.extended.annotation.ExtendedCompatibility
-import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensions.findMutableMethodOf
-import app.revanced.patches.youtube.ad.general.bytecode.extensions.MethodExtensions.toDescriptor
+import app.revanced.extensions.MethodExtensions.findMutableMethodOf
+import app.revanced.extensions.MethodExtensions.toDescriptor
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.patches.youtube.misc.settings.resource.patch.SettingsResourcePatch

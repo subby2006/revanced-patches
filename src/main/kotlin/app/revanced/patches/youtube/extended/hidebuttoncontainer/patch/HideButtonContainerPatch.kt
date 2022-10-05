@@ -15,9 +15,9 @@ import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.toInstructions
 import app.revanced.patches.youtube.extended.hidebuttoncontainer.annotations.HideButtonContainerPatchCompatibility
-import app.revanced.patches.youtube.extended.hidebuttoncontainer.extensions.MethodExtensions.addMethod
-import app.revanced.patches.youtube.extended.hidebuttoncontainer.extensions.MethodExtensions.insertBlocks
-import app.revanced.patches.youtube.extended.hidebuttoncontainer.extensions.MethodExtensions.toDescriptor
+import app.revanced.extensions.MethodExtensions.addMethod
+import app.revanced.extensions.MethodExtensions.insertBlocks
+import app.revanced.extensions.MethodExtensions.toDescriptor
 import app.revanced.patches.youtube.extended.hidebuttoncontainer.fingerprints.LithoFingerprint
 import app.revanced.patches.youtube.extended.hidebuttoncontainer.utils.MethodUtils
 import app.revanced.patches.youtube.ad.general.bytecode.patch.GeneralBytecodeAdsPatch
