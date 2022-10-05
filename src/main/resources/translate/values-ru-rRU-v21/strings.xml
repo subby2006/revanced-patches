@@ -11,7 +11,7 @@
     <string name="api_url_reset">Сбросить API URL</string>
     <string name="change">Изменить</string>
     <string name="color_change">Вы хотите поменять цветовую тему?</string>
-    <string name="color_change_sum">"Теперь вы можете изменить цвет категории, нажав на него выше"</string>
+    <string name="color_change_sum">Теперь вы можете изменить цвет категории, нажав на него выше</string>
     <string name="color_changed">Цвет изменен</string>
     <string name="color_choose_category">Выберите категорию</string>
     <string name="color_invalid">Неверный hex код</string>
@@ -28,7 +28,7 @@
     <string name="general_adjusting">Настройка шага изменения времени сегмента</string>
     <string name="general_adjusting_sum">Количество миллисекунд, на которое будет сдвинуто текущее время после использования кнопок перемотки при добавлении нового сегмента</string>
     <string name="general_api_url">Изменить API URL адреса</string>
-    <string name="general_api_url_sum">"Адрес, используемый SponsorBlock для связи с сервером. <b>Не меняйте, если не знаете, что делаете</b>"</string>
+    <string name="general_api_url_sum">Адрес, используемый SponsorBlock для связи с сервером. <b>Не меняйте, если не знаете, что делаете</b></string>
     <string name="general_browser_button">Включить кнопку SB браузера</string>
     <string name="general_browser_button_sum">Нажав эту кнопку под плеером, откроется sb.ltn.fi, где вы сможете узнать больше о \"сегментах\"</string>
     <string name="general_cache">Локальный кэш сегментов</string>
@@ -47,6 +47,7 @@
     <string name="general_whitelisting">Белый список каналов</string>
     <string name="general_whitelisting_sum">Используйте кнопку \"Сегменты\" под плеером, чтобы добавить канал в белый список</string>
     <string name="litho_channel_guidelines">Скрыть правила канала</string>
+    <string name="accessibility_settings_edu_opt_in_text">Включить специальные возможности для видеоплеера?</string>
     <string name="litho_channel_guidelines_off">Правила канала отображены</string>
     <string name="litho_channel_guidelines_on">Правила канала скрыты</string>
     <string name="litho_comments">Скрыть раздел комментариев</string>
@@ -106,14 +107,14 @@
     <string name="microg_notification_settings_summary">"1. Для уведомлений необходимо включить регистрацию устройства в GCM.
 2. ReVanced необходимо указать как зарегистрированное приложение в GCM.
 3. Текущее состояние в GCM не должно быть \"Выкл\".
-4. Облачный обмен сообщениями -&gt; Доп. настройки (три точки вверху справа) и переключите интервал пинга Wi-Fi назад и вперед один раз для подключения."</string>
+4. Облачный обмен сообщениями -> Доп. настройки (три точки вверху справа) и переключите интервал пинга Wi-Fi назад и вперед один раз для подключения."</string>
     <string name="microg_settings">Настройки MicroG</string>
     <string name="minutes">мин.</string>
     <string name="new_segment_choose_category">Выберите категорию сегмента</string>
     <string name="new_segment_confirm_content" formatted="false">"Сегмент длится с %02d:%02d до %02d:%02d (%d минут %02d секунд)
 Готово для отправки?"</string>
     <string name="new_segment_confirm_title">Время начала и конца сегмента верно?</string>
-    <string name="new_segment_disabled_category">"Вы отключили эту категорию в настройках, включите ее для отправки сегмента"</string>
+    <string name="new_segment_disabled_category">Вы отключили эту категорию в настройках, включите ее для отправки сегмента</string>
     <string name="new_segment_edit_by_hand_content">Вы хотите изменить время начала или окончания сегмента?</string>
     <string name="new_segment_edit_by_hand_parse_error">Время указано неверно</string>
     <string name="new_segment_edit_by_hand_saved">Готово</string>
@@ -130,9 +131,9 @@
     <string name="new_segment_title">Новый сегмент SponsorBlock</string>
     <string name="pref_subtitles_scale_normal">Средний</string>
     <string name="reset">Сбросить</string>
-    <string name="revanced_ad_settings_title">Реклама</string>
     <string name="revanced_ad_settings_summary">Настройки отображения рекламы</string>
-    <string name="revanced_auto_captions_summary_off">"Субтитры не включаются автоматически при 0% громкости"</string>
+    <string name="revanced_ad_settings_title">Реклама</string>
+    <string name="revanced_auto_captions_summary_off">Субтитры не включаются автоматически при 0% громкости</string>
     <string name="revanced_auto_captions_summary_on">Субтитры включаются автоматически при 0% громкости</string>
     <string name="revanced_auto_captions_title">Субтитры</string>
     <string name="revanced_auto_repeat_button_summary_off">Кнопка автоповтора в режиме \"Картинка в картинке\" скрыта</string>
@@ -149,6 +150,9 @@
     <string name="revanced_branding_watermark_title">Показать фирменный водяной знак</string>
     <string name="revanced_buffer_summary">Пользовательские настройки видеобуфера</string>
     <string name="revanced_buffer_title">Настройки видеобуфера</string>
+    <string name="revanced_button_container_summary">Настройки отображения кнопок под плеером</string>
+    <string name="revanced_button_container_title">Кнопки под плеером</string>
+    <string name="revanced_button_container_warning_summary">Внимание! В новом интерфейсе эти опции поддерживаются не полностью!</string>
     <string name="revanced_button_location_entry_both">Оба варианта</string>
     <string name="revanced_button_location_entry_buttoncontainer">Под плеером</string>
     <string name="revanced_button_location_entry_none">Скрыть</string>
@@ -163,16 +167,6 @@
     <string name="revanced_copy_video_url_timestamp_summary_on">Кнопка для копирования ссылки на видео с меткой времени отображена</string>
     <string name="revanced_copy_video_url_timestamp_title">Кнопка копирования ссылки (с меткой времени)</string>
     <string name="revanced_copy_video_url_title">Кнопка копирования ссылки</string>
-    <string name="revanced_download_video_summary_off">Кнопка скачивания видео скрыта</string>
-    <string name="revanced_download_video_summary_on">Кнопка скачивания видео отображена</string>
-    <string name="revanced_download_video_title">Кнопка скачивания видео</string>
-    <string name="revanced_downloads_package_name_summary">"Задать имя пакета приложения-загрузчика видео, например NewPipe или PowerTube"</string>
-    <string name="revanced_downloads_package_name_title">Приложение - загрузчик видео</string>
-    <string name="revanced_downloads_summary">Выбрать приложение - загрузчик видео</string>
-    <string name="revanced_downloads_title">Настройки загрузчика видео</string>
-    <string name="revanced_disable_new_layout_summary_off">Интерфейс YouTube будет соответствовать статусу вашего аккаунта</string>
-    <string name="revanced_disable_new_layout_summary_on">Версия YouTube подменяется, чтобы принудительно отключить новый интерфейс</string>
-    <string name="revanced_disable_new_layout_title">Отключить новый интерфейс</string>
     <string name="revanced_create_button_summary_off">Кнопка \"Создать\" скрыта</string>
     <string name="revanced_create_button_summary_on">Кнопка \"Создать\" отображена</string>
     <string name="revanced_create_button_title">Показать кнопку \"Создать\"</string>
@@ -182,42 +176,67 @@
     <string name="revanced_debug_summary_off">Дополнительное ведение журнала отладки отключено</string>
     <string name="revanced_debug_summary_on">Дополнительное ведение журнала отладки включено</string>
     <string name="revanced_disable_auto_captions_summary_off">Субтитры включаются при воспроизведении видео с включенными субтитрами</string>
-    <string name="revanced_disable_auto_captions_summary_on">"Субтитры не включаются при воспроизведении видео с включенными субтитрами"</string>
+    <string name="revanced_disable_auto_captions_summary_on">Субтитры не включаются при воспроизведении видео с включенными субтитрами</string>
     <string name="revanced_disable_auto_captions_title">Отключить автоматические субтитры</string>
+    <string name="revanced_disable_new_layout_summary_off">Интерфейс YouTube соответствует статусу вашего аккаунта</string>
+    <string name="revanced_disable_new_layout_summary_on">Версия YouTube подменена, для отключения нового интерфейса</string>
+    <string name="revanced_disable_new_layout_title">Отключить новый интерфейс</string>
+    <string name="revanced_download_video_summary_off">Кнопка скачивания видео скрыта</string>
+    <string name="revanced_download_video_summary_on">Кнопка скачивания видео отображена</string>
+    <string name="revanced_download_video_title">Кнопка скачивания видео</string>
+    <string name="revanced_downloads_package_name_summary">Задать имя пакета приложения-загрузчика видео, например NewPipe или PowerTube</string>
+    <string name="revanced_downloads_package_name_title">Приложение - загрузчик видео</string>
+    <string name="revanced_downloads_summary">Выбрать приложение - загрузчик видео</string>
+    <string name="revanced_downloads_title">Настройки загрузчика видео</string>
     <string name="revanced_experimental_flag">Экспериментальные опции</string>
+    <string name="revanced_extended_settings">Настройки ReVanced Extended</string>
+    <string name="revanced_extended_summary">Дополнительные настройки</string>
+    <string name="revanced_extended_title">Настройки Extended</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">Автоповорот в полноэкранном режиме отключен</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Автоповорот в полноэкранном режиме включен</string>
     <string name="revanced_force_fullscreen_rotation_title">Автоповорот в полноэкранном режиме</string>
     <string name="revanced_hdr_full_brightness_summary_off">Автоматическая яркость HDR отключена</string>
     <string name="revanced_hdr_full_brightness_summary_on">Автоматическая яркость HDR включена</string>
     <string name="revanced_hdr_full_brightness_title">Автоматическая яркость HDR</string>
-    <string name="revanced_hide_create_clip_button_summary_off">Clip button is shown</string>
-    <string name="revanced_hide_create_clip_button_summary_on">Clip button is hidden</string>
-    <string name="revanced_hide_create_clip_button_title">Hide clip button</string>
-    <string name="revanced_hide_create_short_button_summary_off">Create short button is shown</string>
-    <string name="revanced_hide_create_short_button_summary_on">Create short button is hidden</string>
-    <string name="revanced_hide_create_short_button_title">Hide create short button</string>
-    <string name="revanced_hide_download_button_summary_off">Download button is shown</string>
-    <string name="revanced_hide_download_button_summary_on">Download button is hidden</string>
-    <string name="revanced_hide_download_button_title">Hide download button</string>
+    <string name="revanced_hide_create_clip_button_summary_off">Кнопка \"Создать клип\" отображена</string>
+    <string name="revanced_hide_create_clip_button_summary_on">Кнопка \"Создать клип\" скрыта</string>
+    <string name="revanced_hide_create_clip_button_title">Скрыть кнопку \"Создать клип\"</string>
+    <string name="revanced_hide_create_short_button_summary_off">Кнопка \"Создать\" отображена</string>
+    <string name="revanced_hide_create_short_button_summary_on">Кнопка \"Создать\" скрыта</string>
+    <string name="revanced_hide_create_short_button_title">Скрыть кнопку \"Создать\"</string>
+    <string name="revanced_hide_dislike_button_summary_off">Кнопка \"Дизлайк\" отображена</string>
+    <string name="revanced_hide_dislike_button_summary_on">Кнопка \"Дизлайк\" скрыта</string>
+    <string name="revanced_hide_dislike_button_title">Скрыть кнопку \"Дизлайк\"</string>
+    <string name="revanced_hide_download_button_summary_off">Кнопка \"Скачать\" отображена</string>
+    <string name="revanced_hide_download_button_summary_on">Кнопка \"Скачать\" скрыта</string>
+    <string name="revanced_hide_download_button_title">Скрыть кнопку \"Скачать\"</string>
     <string name="revanced_hide_email_address_summary_off">Адрес электронной почты скрыт</string>
     <string name="revanced_hide_email_address_summary_on">Адрес электронной почты отображен</string>
     <string name="revanced_hide_email_address_title">Адрес электронной почты</string>
-    <string name="revanced_hide_external_comment_box_summary_off">External comment box is shown</string>
-    <string name="revanced_hide_external_comment_box_summary_on">External comment box is hidden</string>
-    <string name="revanced_hide_external_comment_box_title">Hide external comment box</string>
-    <string name="revanced_hide_live_chat_button_off">Live chat button is shown</string>
-    <string name="revanced_hide_live_chat_button_on">Live chat button is hidden</string>
-    <string name="revanced_hide_live_chat_button_title">Hide live chat button</string>
-    <string name="revanced_hide_report_button_summary_off">Report button is shown</string>
-    <string name="revanced_hide_report_button_summary_on">Report button is hidden</string>
-    <string name="revanced_hide_report_button_title">Hide report button</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">Spoiler comment is shown</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">Spoiler comment is hidden</string>
-    <string name="revanced_hide_spoiler_comment_title">Hide spoiler comment</string>
-    <string name="revanced_hide_thanks_button_summary_off">Thanks button is shown</string>
-    <string name="revanced_hide_thanks_button_summary_on">Thanks button is hidden</string>
-    <string name="revanced_hide_thanks_button_title">Hide thanks button</string>
+    <string name="revanced_hide_external_comment_box_summary_off">Поле комментария отображено</string>
+    <string name="revanced_hide_external_comment_box_summary_on">Поле комментария скрыто</string>
+    <string name="revanced_hide_external_comment_box_title">Скрыть поле комментария</string>
+    <string name="revanced_hide_like_button_summary_off">Кнопка \"Лайк\" отображена</string>
+    <string name="revanced_hide_like_button_summary_on">Кнопка \"Лайк\" скрыта</string>
+    <string name="revanced_hide_like_button_title">Скрыть кнопку \"Лайк\"</string>
+    <string name="revanced_hide_live_chat_button_summary_off">Кнопка \"Живой чат\" отображена</string>
+    <string name="revanced_hide_live_chat_button_summary_on">Кнопка \"Живой чат\" скрыта</string>
+    <string name="revanced_hide_live_chat_button_title">Скрыть кнопку \"Живой чат\"</string>
+    <string name="revanced_hide_playlist_button_summary_off">Кнопка \"Сохранить\" отображена</string>
+    <string name="revanced_hide_playlist_button_summary_on">Кнопка \"Сохранить\" скрыта</string>
+    <string name="revanced_hide_playlist_button_title">Скрыть кнопку \"Сохранить\"</string>
+    <string name="revanced_hide_report_button_summary_off">Кнопка \"Отчет\" отображена</string>
+    <string name="revanced_hide_report_button_summary_on">Кнопка \"Отчет\" скрыта</string>
+    <string name="revanced_hide_report_button_title">Скрыть кнопку \"Отчет\"</string>
+    <string name="revanced_hide_share_button_summary_off">Кнопка \"Поделиться\" отображена</string>
+    <string name="revanced_hide_share_button_summary_on">Кнопка \"Поделиться\" скрыта</string>
+    <string name="revanced_hide_share_button_title">Скрыть кнопку \"Поделиться\"</string>
+    <string name="revanced_hide_spoiler_comment_summary_off">Спойлер с комментарием отображен</string>
+    <string name="revanced_hide_spoiler_comment_summary_on">Спойлер с комментарием скрыт</string>
+    <string name="revanced_hide_spoiler_comment_title">Скрыть спойлер с комментарием</string>
+    <string name="revanced_hide_thanks_button_summary_off">Кнопка \"Спасибо\" отображена</string>
+    <string name="revanced_hide_thanks_button_summary_on">Кнопка \"Спасибо\" скрыта</string>
+    <string name="revanced_hide_thanks_button_title">Скрыть кнопку \"Спасибо\"</string>
     <string name="revanced_home_ads_summary_off">Реклама на главной странице скрыта</string>
     <string name="revanced_home_ads_summary_on">Реклама на главной странице отображена</string>
     <string name="revanced_home_ads_title">Скрыть рекламу на главной странице</string>
@@ -228,9 +247,7 @@
     <string name="revanced_interactions_title">Взаимодействия</string>
     <string name="revanced_layout_settings_summary">Настройки интерфейса</string>
     <string name="revanced_layout_settings_title">Интерфейс</string>
-    <string name="revanced_maximum_buffer_summary">Максимальная длина буферизиризации видео в миллисекундах.
-
-По умолчанию: 120000</string>
+    <string name="revanced_maximum_buffer_summary">Максимальная длина буферизиризации видео в миллисекундах. По умолчанию: 120000</string>
     <string name="revanced_maximum_buffer_title">Размер буфера</string>
     <string name="revanced_minimized_playback">Воспроизведение в фоне</string>
     <string name="revanced_minimized_playback_off">Воспроизведение в фоне отключено</string>
@@ -243,23 +260,23 @@
     <string name="revanced_old_style_quality_settings_summary_off">Используется новый стиль выбора качества</string>
     <string name="revanced_old_style_quality_settings_summary_on">Используется старый стиль выбора качества</string>
     <string name="revanced_old_style_quality_settings_title">Стиль выбора качества видео</string>
+    <string name="revanced_overlaybutton_summary">Настройки отображения кнопок в плеере</string>
+    <string name="revanced_overlaybutton_title">Кнопки в плеере</string>
     <string name="revanced_override_premium_header_summary_off">Текущий заголовок - YouTube</string>
     <string name="revanced_override_premium_header_summary_on">Текущий заголовок - Premium</string>
     <string name="revanced_override_premium_header_title">Заголовок интерфейса</string>
-    <string name="revanced_playback_start_summary">Длительность видео, которое должно быть подгружено для начала воспроизведения или продолжения после такого действия пользователя, как перемотка, в миллисекундах.
-
-По умолчанию: 2500</string>
+    <string name="revanced_playback_start_summary">Длительность видео, которое должно быть подгружено для начала воспроизведения или продолжения после такого действия пользователя, как перемотка, в миллисекундах. По умолчанию: 2500</string>
     <string name="revanced_playback_start_title">Начало воспроизведения</string>
-    <string name="revanced_player_popup_panels_title">Всплывающие панели плеера</string>
-    <string name="revanced_player_popup_panels_summary_off">Всплывающие панели плеера включены</string>
+    <string name="revanced_player_popup_panels_summary_off">Всплывающие панели плеера отключены</string>
     <string name="revanced_player_popup_panels_summary_on">Всплывающие панели плеера включены</string>
-    <string name="revanced_pref_save_video_quality_title">Сохранить качество видео</string>
-    <string name="revanced_pref_save_video_quality_summary_on">Значение качества видео при изменении сохраняется</string>
+    <string name="revanced_player_popup_panels_title">Всплывающие панели плеера</string>
     <string name="revanced_pref_save_video_quality_summary_off">Значение качества видео при изменении не сохраняется</string>
+    <string name="revanced_pref_save_video_quality_summary_on">Значение качества видео при изменении сохраняется</string>
+    <string name="revanced_pref_save_video_quality_title">Сохранить качество видео</string>
     <string name="revanced_preferred_video_quality_mobile_summary">Выберите предпочтительное разрешение видео для мобильной сети</string>
-    <string name="revanced_preferred_video_quality_mobile_title">Настройки качества видео для мобильной сети</string>
+    <string name="revanced_preferred_video_quality_mobile_title">Качество видео для мобильной сети</string>
     <string name="revanced_preferred_video_quality_wifi_summary">Выберите предпочтительное разрешение видео для сети Wi-Fi.</string>
-    <string name="revanced_preferred_video_quality_wifi_title">Настройки качества видео для Wi-Fi</string>
+    <string name="revanced_preferred_video_quality_wifi_title">Качество видео для сети Wi-Fi</string>
     <string name="revanced_preferred_video_speed_summary">Выберите предпочтительную скорость видео</string>
     <string name="revanced_preferred_video_speed_title">Предпочтительная скорость видео</string>
     <string name="revanced_reboot_warning_fullscreen">"Экспериментальная опция!
@@ -271,39 +288,38 @@
 Интегрируется с кнопкой лайк для отображения счетчика дизлайков в новом интерфейсе.
 Количество лайков может отображаться неточно.
 Вы действительно хотите продолжить?"</string>
-    <string name="revanced_rebuffer_summary">Продолжительность видео, которую необходимо буферизовать для возобновления воспроизведения после повторной буферизации (в миллисекундах). Ребуфер определяется как вызванный истощением буфера, а не действием пользователя.
-
- Стандартное: 5000</string>
+    <string name="revanced_rebuffer_summary">Продолжительность видео, которую необходимо буферизовать для возобновления воспроизведения после повторной буферизации (в миллисекундах). Ребуфер определяется как вызванный истощением буфера, а не действием пользователя. Стандартное: 5000</string>
     <string name="revanced_rebuffer_title">Ребуферризация</string>
     <string name="revanced_reel_summary_off">Истории скрыты</string>
     <string name="revanced_reel_summary_on">Истории включены</string>
     <string name="revanced_reel_title">Истории</string>
-    <string name="revanced_ryd_new_layout_title">Счетчик дизлайков в новом интерфейсе</string>
-    <string name="revanced_ryd_new_layout_summary">Показать счетчик дизлайков в новом интерфейсе</string>
     <string name="revanced_ryd_attribution_summary">Это приложение использует RYD API от https://returnyoutubedislike.com. Нажмите, чтобы узнать больше</string>
     <string name="revanced_ryd_attribution_title">Интеграция Return YouTube Dislike</string>
+    <string name="revanced_ryd_new_layout_summary">Показать счетчик дизлайков в новом интерфейсе</string>
+    <string name="revanced_ryd_new_layout_title">Счетчик дизлайков в новом интерфейсе</string>
     <string name="revanced_ryd_settings_summary">Использует RYD API</string>
     <string name="revanced_ryd_settings_title">Настройки Return YouTube Dislike</string>
     <string name="revanced_ryd_summary">Включите, чтобы снова видеть дизлайки</string>
     <string name="revanced_ryd_title">Включить Return YouTube Dislike</string>
     <string name="revanced_seekbar_tapping">Нажатие на строку перемотки видео</string>
-    <string name="revanced_seekbar_tapping_off">Нажатие на строку перемотки
-(панель видео) отключено</string>
-    <string name="revanced_seekbar_tapping_on">Нажатие на строку перемотки
-(панель видео) включено</string>
+    <string name="revanced_seekbar_tapping_off">Нажатие на строку перемотки (панель видео) отключено</string>
+    <string name="revanced_seekbar_tapping_on">Нажатие на строку перемотки (панель видео) включено</string>
     <string name="revanced_settings">Настройки ReVanced</string>
     <string name="revanced_shorts_button_summary_off">Кнопка \"Shorts\" скрыта</string>
     <string name="revanced_shorts_button_summary_on">Кнопка \"Shorts\" отображена</string>
     <string name="revanced_shorts_button_title">Показать кнопку \"Shorts\"</string>
-    <string name="revanced_startup_shorts_player_summary_off">Shorts player is disabled at app startup</string>
-    <string name="revanced_startup_shorts_player_summary_on">Shorts player is enabled at app startup</string>
-    <string name="revanced_startup_shorts_player_title">Shorts player at app startup</string>
+    <string name="revanced_startup_shorts_player_summary_off">Не открывать \"Shorts\" при повторном запуске</string>
+    <string name="revanced_startup_shorts_player_summary_on">Открыть \"Shorts\" при повторном запуске</string>
+    <string name="revanced_startup_shorts_player_title">Вкладка \"Shorts\" при повторном запуске</string>
     <string name="revanced_suggested_actions_summary_off">Рекомендации показаны</string>
     <string name="revanced_suggested_actions_summary_on">Рекомендации скрыты</string>
     <string name="revanced_suggested_actions_title">Скрыть рекомендации</string>
     <string name="revanced_suggestion_summary_off">Конечные заставки скрыты</string>
     <string name="revanced_suggestion_summary_on">Конечные заставки включены</string>
     <string name="revanced_suggestion_title">Конечные заставки</string>
+    <string name="revanced_swipe_auto_brightness_summary_off">Управление автояркостью свайпом отключено</string>
+    <string name="revanced_swipe_auto_brightness_summary_on">Управление автояркостью свайпом включено</string>
+    <string name="revanced_swipe_auto_brightness_title">Управление автояркостью свайпом</string>
     <string name="revanced_swipe_brightness_summary_off">Управление яркостью свайпом выключено</string>
     <string name="revanced_swipe_brightness_summary_on">Управление яркостью свайпом включено</string>
     <string name="revanced_swipe_brightness_title">Управление яркостью свайпом</string>
@@ -315,17 +331,16 @@
     <string name="revanced_swipe_overlay_text_size_title">Размер шрифта оверлея</string>
     <string name="revanced_swipe_overlay_timeout_summary">Как долго оверлей будет отображаться после изменения</string>
     <string name="revanced_swipe_overlay_timeout_title">Длительность оверлея</string>
-    <string name="revanced_swipe_pts_haptic_summary_off">"Виброотклик для управления свайпами отключен"</string>
-    <string name="revanced_swipe_pts_haptic_summary_on">"Виброотклик для управления свайпами включен"</string>
+    <string name="revanced_swipe_pts_haptic_summary_off">Виброотклик для управления свайпами отключен</string>
+    <string name="revanced_swipe_pts_haptic_summary_on">Виброотклик для управления свайпами включен</string>
     <string name="revanced_swipe_pts_haptic_title">Виброотклик для управления свайпами</string>
     <string name="revanced_swipe_pts_summary_off">Управление свайпами не требует долгого нажатия</string>
     <string name="revanced_swipe_pts_summary_on">Управление свайпами требует долгого нажатия</string>
     <string name="revanced_swipe_pts_title">Режим управления свайпами</string>
-    <string name="revanced_swipe_screen_summary">Swipe controls for Brightness and Volume</string>
+    <string name="revanced_swipe_summary">Настройки управления свайпами</string>
     <string name="revanced_swipe_tablet_summary_off">Планшетный стиль отключен</string>
     <string name="revanced_swipe_tablet_summary_on">Планшетный стиль включен</string>
     <string name="revanced_swipe_tablet_title">Планшетный стиль</string>
-    <string name="revanced_swipe_summary">Настройки управления свайпами</string>
     <string name="revanced_swipe_title">Управление свайпами</string>
     <string name="revanced_swipe_volume_summary_off">Управление громкостью свайпом выключено</string>
     <string name="revanced_swipe_volume_summary_on">Управление громкостью свайпом включено</string>
@@ -342,7 +357,8 @@
     <string name="revanced_video_quality_mobile_error">Не удалось задать качество видео.</string>
     <string name="revanced_video_quality_wifi">Качество видео при просмотре через Wi-Fi:</string>
     <string name="revanced_video_quality_wifi_error">Не удалось задать качество видео.</string>
-    <string name="revanced_video_settings_title">Настройки видео</string>
+    <string name="revanced_video_settings_summary">Настройки видео</string>
+    <string name="revanced_video_settings_title">Видео</string>
     <string name="revanced_videoadwhitelisting_summary_off">Белый список видео рекламы отключён</string>
     <string name="revanced_videoadwhitelisting_summary_on">Включен белый список видео рекламы. Используйте кнопку \"Реклама\" под плеером, чтобы внести канал в белый список</string>
     <string name="revanced_videoadwhitelisting_title">Белый список видео рекламы</string>
@@ -356,10 +372,14 @@
     <string name="revanced_zoom_to_fit_vertical_summary_off">Динамический плеер определяется автоматически</string>
     <string name="revanced_zoom_to_fit_vertical_summary_on">Динамический плеер включен для квадратных и вертикальных видео</string>
     <string name="revanced_zoom_to_fit_vertical_title">Динамический плеер</string>
-    <string name="rvx_dialog_message">"Начиная с YouTube v17.33.xx, автоповорот в полноэкранном режиме следует за состоянием переключателя автоповорота системы.\nПоэтому версия YouTube была изменена на v17.32.39, чтобы обойти проблему с автоповоротом в полноэкранном режиме.\nСоответственно, в информации о приложении версия YouTube отображается как v17.32.39.\n\nОтключить данную опцию можно в меню:"</string>
-    <string name="rvx_dialog_title">Расширенные настройки</string>
+    <string name="rvx_dialog_message">"Начиная с YouTube v17.33.xx, автоповорот в полноэкранном режиме следует за состоянием переключателя автоповорота системы.
+Поэтому версия YouTube была изменена на v17.32.39, чтобы обойти проблему с автоповоротом в полноэкранном режиме.
+Соответственно, в информации о приложении версия YouTube отображается как v17.32.39.
+
+Отключить данную опцию можно в меню:"</string>
+    <string name="rvx_dialog_title">Расширенные настройки ReVanced</string>
     <string name="sb_guidelines_popup_already_read">Уже прочитано</string>
-    <string name="sb_guidelines_popup_content">"Перед отправкой любого сегмента рекомендуется прочитать рекомендации от SponsorBlock"</string>
+    <string name="sb_guidelines_popup_content">Перед отправкой любого сегмента рекомендуется прочитать рекомендации от SponsorBlock</string>
     <string name="sb_guidelines_popup_open">Покажи мне</string>
     <string name="sb_guidelines_popup_title">Имеются рекомендации</string>
     <string name="sb_guidelines_preference_sum">Руководство содержит советы по отправке сегмента</string>
@@ -375,7 +395,7 @@
     <string name="segments_nomusic">Музыка: Сегмент без музыки</string>
     <string name="segments_nomusic_sum">Только для использования в музыкальных клипах. Включает в себя начальные и конечные заставки клипов</string>
     <string name="segments_preview">Предпросмотр/краткое содержание</string>
-    <string name="segments_preview_sum">"Краткое содержание предыдущих эпизодов или предварительный просмотр того, что будет в данном видео. Предназначено для сегментов, смонтированных из кусков видео, а не для устных пересказов"</string>
+    <string name="segments_preview_sum">Краткое содержание предыдущих эпизодов или предварительный просмотр того, что будет в данном видео. Предназначено для сегментов, смонтированных из кусков видео, а не для устных пересказов</string>
     <string name="segments_selfpromo">Самореклама/рекомендация</string>
     <string name="segments_selfpromo_sum">Похоже на спонсорскую рекламу, но для бесплатной рекламы и саморекламы. Включает себя вставки про мерчендайз, пожертвования или информацию о тех, вместе с кем было сделано видео</string>
     <string name="segments_sponsor">Спонсорская реклама</string>
@@ -388,7 +408,7 @@
     <string name="settings_import_failed">Не удалось импортировать настройки</string>
     <string name="settings_import_successful">Настройки успешно импортированы</string>
     <string name="skip_automatically">Автоматически пропускать</string>
-    <string name="skip_ignore">"Ничего не делать"</string>
+    <string name="skip_ignore">Ничего не делать</string>
     <string name="skip_showbutton">Показать кнопку пропуска</string>
     <string name="skip_sponsor">Пропустить сегмент</string>
     <string name="skipped_endcard">Пропущена концовка</string>
@@ -403,13 +423,13 @@
     <string name="skipped_unsubmitted">Пропущен неотправленный сегмент</string>
     <string name="stats">Статистика</string>
     <string name="stats_loading">Загрузка...</string>
-    <string name="stats_saved">"Вы избавили людей от &lt;b&gt;%s&lt;/b&gt; сегментов"</string>
-    <string name="stats_saved_sum">"Это &lt;b&gt;%s&lt;/b&gt; их жизни. Нажмите, чтобы увидеть таблицу лидеров"</string>
+    <string name="stats_saved">Вы избавили людей от &lt;b>%s&lt;/b> сегментов</string>
+    <string name="stats_saved_sum">Это &lt;b>%s&lt;/b> их жизни. Нажмите, чтобы увидеть таблицу лидеров</string>
     <string name="stats_sb_disabled">SponsorBlock отключен</string>
-    <string name="stats_self_saved">"Вы пропустили &lt;b&gt;%s&lt;/b&gt; сегментов"</string>
-    <string name="stats_self_saved_sum">"Это &lt;b&gt;%s&lt;/b&gt;"</string>
-    <string name="stats_submissions">Заявки: &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="stats_username">Ваше имя пользователя: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="stats_self_saved">Вы пропустили &lt;b>%s&lt;/b> сегментов</string>
+    <string name="stats_self_saved_sum">Это &lt;b>%s&lt;/b></string>
+    <string name="stats_submissions">Заявки: &lt;b>%s&lt;/b></string>
+    <string name="stats_username">Ваше имя пользователя: &lt;b>%s&lt;/b></string>
     <string name="stats_username_change">Нажмите, чтобы изменить имя пользователя</string>
     <string name="stats_username_change_unknown_error" formatted="false">Невозможно изменить имя пользователя: Статус: %d %s</string>
     <string name="stats_username_changed">Имя успешно изменено</string>
@@ -418,9 +438,9 @@
     <string name="submit_failed_forbidden">"Невозможно отправить сегмент.
 
 %s"</string>
+    <string name="submit_failed_invalid">Не удается отправить сегмент: %s</string>
     <string name="submit_failed_rate_limit">"Не удается отправить сегмент.
 Лимит запросов (Слишком много от одного пользователя или IP)"</string>
-    <string name="submit_failed_invalid">Не удается отправить сегмент: %s</string>
     <string name="submit_failed_unknown_error" formatted="false">Не удалось отправить сегменты: Статус: %d %s</string>
     <string name="submit_started">Отправка сегмента…</string>
     <string name="submit_succeeded">Сегмент успешно отправлен</string>
