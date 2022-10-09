@@ -38,12 +38,14 @@ class CustomBrandingRedPatch : ResourcePatch() {
             "ic_launcher_round"
         )
 
+        /*
         val SplashiconNames = arrayOf(
             "product_logo_youtube_color_24",
             "product_logo_youtube_color_36",
             "product_logo_youtube_color_144",
             "product_logo_youtube_color_192"
         )
+        */
 
         mapOf(
             "xxxhdpi" to 192,
