@@ -33,7 +33,7 @@ class AmoledResourcePatch : ResourcePatch() {
                 val element = resourcesNode.childNodes.item(i) as Element
                 element.textContent = when (element.getAttribute("name")) {
                     "yt_black1", "yt_black1_opacity95", "yt_black1_opacity98", "yt_black2", "yt_black3", "yt_black4", "yt_status_bar_background_dark" -> "@android:color/black"
-                    "yt_selected_nav_label_dark" -> "#ffdf0000"
+                    "yt_white1", "yt_white1_opacity95", "yt_white1_opacity98", "yt_white2", "yt_white3", "yt_white4" -> "@android:color/white"
                     else -> continue
                 }
             }
