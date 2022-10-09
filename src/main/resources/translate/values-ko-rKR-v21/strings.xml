@@ -188,9 +188,9 @@
     <string name="revanced_disable_auto_captions_summary_on">"자막 사용이 강제된 동영상에서 자막을 보여주지 않습니다"</string>
     <string name="revanced_disable_auto_captions_title">자동 자막 비활성화</string>
     <string name="revanced_experimental_flag">실험적 플래그</string>
-    <string name="revanced_extended_settings">ReVanced 확장 설정</string>
-    <string name="revanced_extended_summary">확장된 관련 설정</string>
-    <string name="revanced_extended_title">확장 설정</string>
+    <string name="revanced_extended_settings">ReVanced Extended 설정</string>
+    <string name="revanced_extended_summary">Extended 관련 설정입니다</string>
+    <string name="revanced_extended_title">Extended 설정</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">전체화면 회전 설정이 YouTube 기본 정책을 따릅니다</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">YouTube 버전을 속여서 강제로 전체화면 회전을 활성화 시킵니다</string>
     <string name="revanced_force_fullscreen_rotation_title">전체화면 회전 활성화 (실험적 기능)</string>
@@ -259,7 +259,7 @@
     <string name="revanced_old_style_quality_settings_summary_off">기본 동영상 품질 설정 사용</string>
     <string name="revanced_old_style_quality_settings_summary_on">이전 동영상 품질 설정 사용</string>
     <string name="revanced_old_style_quality_settings_title">품질 설정 스타일</string>
-    <string name="revanced_overlaybutton_summary">오버레이 버튼 관련 설정</string>
+    <string name="revanced_overlaybutton_summary">오버레이 버튼 관련 설정입니다</string>
     <string name="revanced_overlaybutton_title">오버레이 버튼 설정</string>
     <string name="revanced_override_premium_header_summary_off">현재 헤더: 기본 헤더</string>
     <string name="revanced_override_premium_header_summary_on">현재 헤더: 프리미엄 헤더</string>
@@ -375,7 +375,7 @@
 이에따라 이 앱 정보에서는 YouTube 버전이 v17.32.39로 표기됩니다
 
 이것을 비활성화 하고싶다면, 다음을 OFF상태로 바꾸세요:"</string>
-    <string name="rvx_dialog_title">ReVanced 확장</string>
+    <string name="rvx_dialog_title">ReVanced Extended</string>
     <string name="sb_guidelines_popup_already_read">이미 읽음</string>
     <string name="sb_guidelines_popup_content">"광고 구간을 제출하기 전에 SponsorBlock 가이드라인을 읽어보시는 것을 추천합니다"</string>
     <string name="sb_guidelines_popup_open">보러가기</string>

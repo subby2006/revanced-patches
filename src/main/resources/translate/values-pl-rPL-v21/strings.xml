@@ -4,6 +4,7 @@
     <string name="about_api">Ta aplikacja używa API od SponsorBlock</string>
     <string name="about_api_sum">Dotknij, aby dowiedzieć się więcej i zobacz rozszerzenia na inne platformy na stronie: sponsor.ajay.app</string>
     <string name="about_madeby">Integracja wykonana przez JakubWeg, przepisana przez oSumAtrIX</string>
+    <string name="accessibility_settings_edu_opt_in_text">Ustawienia ułatwień dostępu edu włącz tekst?</string>
     <string name="action_browser">Przeglądarka SB</string>
     <string name="action_segments">Segmenty</string>
     <string name="api_url_changed">Link API został zmieniony</string>

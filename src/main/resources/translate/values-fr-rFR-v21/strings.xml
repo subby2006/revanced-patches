@@ -212,9 +212,14 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_hide_email_address_summary_on">L\'adresse e-mail est visible</string>
     <string name="revanced_hide_email_address_title">Adresse e-mail</string>
     <string name="revanced_hide_external_comment_box_summary_off">La boîte de commentaire externe est affichée</string>
+    <string name="revanced_hide_external_comment_box_summary_on">La boîte de commentaire externe est cachée</string>
+    <string name="revanced_hide_external_comment_box_title">Masquer la boîte de commentaire externe</string>
     <string name="revanced_hide_like_button_summary_off">Le bouton de like est affiché</string>
     <string name="revanced_hide_like_button_summary_on">Le bouton de like est caché</string>
     <string name="revanced_hide_like_button_title">Cacher le bouton de like</string>
+    <string name="revanced_hide_live_chat_button_summary_off">Le bouton tchat en direct est visible</string>
+    <string name="revanced_hide_live_chat_button_summary_on">Le bouton tchat en direct est masqué. </string>
+    <string name="revanced_hide_live_chat_button_title">Masquer le bouton discussion en direct.</string>
     <string name="revanced_hide_playlist_button_summary_off">Le bouton de la playlist est affiché</string>
     <string name="revanced_hide_playlist_button_summary_on">Le bouton de la playlist est caché</string>
     <string name="revanced_hide_playlist_button_title">Cacher le bouton de la playlist</string>
@@ -224,6 +229,10 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_hide_share_button_summary_off">Le bouton de partage est affiché</string>
     <string name="revanced_hide_share_button_summary_on">Le bouton de partage est caché</string>
     <string name="revanced_hide_share_button_title">Cacher le bouton de partage</string>
+    <string name="revanced_hide_spoiler_comment_summary_off">La divulgation du commentaire est affiché.</string>
+    <string name="revanced_hide_spoiler_comment_summary_on">La divulgation du commentaire est masqué.</string>
+    <string name="revanced_hide_spoiler_comment_title">Masqué la divulgation du contenu.</string>
+    <string name="revanced_hide_thanks_button_summary_off">Le bouton de remerciement est affiché.</string>
     <string name="revanced_hide_thanks_button_summary_on">Le bouton de remerciement est caché</string>
     <string name="revanced_hide_thanks_button_title">Cacher le bouton de remerciements</string>
     <string name="revanced_home_ads_summary_off">Home ADS are hidden</string>
@@ -234,6 +243,7 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_info_cards_title">Info cards</string>
     <string name="revanced_interactions_summary">Paramètres en rapport avec les interactions</string>
     <string name="revanced_interactions_title">Paramètres d\'interaction</string>
+    <string name="revanced_layout_settings_summary">Les paramètres concernant le schéma </string>
     <string name="revanced_layout_settings_title">Layout settings</string>
     <string name="revanced_maximum_buffer_summary">The maximum duration of media that the player will attempt to buffer (in milliseconds)
         Default: 120000</string>
