@@ -49,7 +49,6 @@ class TranslationsPatch : ResourcePatch() {
                 "ru-rRU-v21",
                 "tr-rTR-v21",
                 "uk-rUA-v21",
-                "uk-rUK-v21",
                 "vi-rVN-v21",
                 "zh-rCN-v21",
                 "zh-rTW-v21"
