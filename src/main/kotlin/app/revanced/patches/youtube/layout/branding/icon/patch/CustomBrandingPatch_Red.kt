@@ -19,24 +19,33 @@ import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 import org.w3c.dom.Element
 
-@Patch(false)
-@Name("custom-branding-blue")
+@Patch
+@Name("custom-branding-red")
 @Description("Changes the YouTube launcher icon and name to your choice (defaults to ReVanced Red).")
 @CustomBrandingCompatibility
 @Version("0.0.1")
-class CustomBrandingBluePatch : ResourcePatch() {
+class CustomBrandingPatch_Red : ResourcePatch() {
     override fun execute(data: ResourceData): PatchResult {
         val classLoader = this.javaClass.classLoader
         val resDirectory = data["res"]
         if (!resDirectory.isDirectory) return PatchResultError("The res folder can not be found.")
 
         // Icon branding
-        val iconNames = arrayOf(
+        val AppiconNames = arrayOf(
             "adaptiveproduct_youtube_background_color_108",
             "adaptiveproduct_youtube_foreground_color_108",
             "ic_launcher",
             "ic_launcher_round"
         )
+
+        /*
+        val SplashiconNames = arrayOf(
+            "product_logo_youtube_color_24",
+            "product_logo_youtube_color_36",
+            "product_logo_youtube_color_144",
+            "product_logo_youtube_color_192"
+        )
+        */
 
         mapOf(
             "xxxhdpi" to 192,
@@ -45,14 +54,22 @@ class CustomBrandingBluePatch : ResourcePatch() {
             "hdpi" to 72,
             "mdpi" to 48
         ).forEach { (iconDirectory, size) ->
-            iconNames.forEach iconLoop@{ iconName ->
-                val iconFile = this.javaClass.classLoader.getResourceAsStream("branding/blue/$size/$iconName.png")
-                    ?: return PatchResultError("The icon $iconName can not be found.")
-
-                Files.write(
-                    resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(), iconFile.readAllBytes()
+            AppiconNames.forEach iconLoop@{ iconName ->
+                Files.copy(
+                    classLoader.getResourceAsStream("branding/red/launchericon/$size/$iconName.png")!!,
+                    resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(),
+                    StandardCopyOption.REPLACE_EXISTING
                 )
             }
+            /*
+            SplashiconNames.forEach iconLoop@{ iconName ->
+                Files.copy(
+                    classLoader.getResourceAsStream("branding/red/splashicon/$size/$iconName.png")!!,
+                    resDirectory.resolve("drawable-$iconDirectory").resolve("$iconName.png").toPath(),
+                    StandardCopyOption.REPLACE_EXISTING
+                )
+            }
+            */
         }
 
         val drawables = "drawable" to arrayOf(
@@ -68,7 +85,7 @@ class CustomBrandingBluePatch : ResourcePatch() {
                 Files.copy(
                     classLoader.getResourceAsStream("branding/monochrome/$relativePath")!!,
                     data["res"].resolve(relativePath).toPath(),
-					StandardCopyOption.REPLACE_EXISTING
+                    StandardCopyOption.REPLACE_EXISTING
                 )
             }
         }
@@ -97,6 +114,30 @@ class CustomBrandingBluePatch : ResourcePatch() {
                 }
             }
         }
+
+        /*
+        val disableSplashAnimation1 = data["res/values-v31/styles.xml"]
+        if (!disableSplashAnimation1.isFile) return PatchResultError("Failed to disable Splash Animation.")
+
+        disableSplashAnimation1.writeText(
+                disableSplashAnimation1.readText()
+                        .replace(
+                                "<item name=\"android:windowSplashScreenAnimatedIcon\">@drawable/avd_anim</item>",
+                                ""
+                        )
+        )
+
+        val disableSplashAnimation2 = data["res/values-night-v31/styles.xml"]
+        if (!disableSplashAnimation2.isFile) return PatchResultError("Failed to disable Splash Animation.")
+
+        disableSplashAnimation2.writeText(
+                disableSplashAnimation2.readText()
+                        .replace(
+                                "<item name=\"android:windowSplashScreenAnimatedIcon\">@drawable/avd_anim</item>",
+                                ""
+                        )
+        )
+        */
 
         return PatchResultSuccess()
     }

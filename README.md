@@ -12,7 +12,8 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `minimized-playback-music` | Enables minimized playback on Kids music. | 5.27.50 |
 | `tasteBuilder-remover` | Removes the "Tell us which artists you like" card from the home screen. | 5.27.50 |
 | `hide-get-premium` | Removes all "Get Premium" evidences from the avatar menu. | 5.27.50 |
-| `custom-branding-music` | Changes the YouTube Music launcher icon and name to your choice (defaults to ReVanced Red). | all |
+| `custom-branding-music-red` | Changes the YouTube Music launcher icon and name to your choice (defaults to ReVanced Red). | all |
+| `custom-branding-music-decipher3114` | Changes the YouTube Music launcher icon and name to your choice (decipher3114). | all |
 | `compact-header` | Hides the music category bar at the top of the homepage. | 5.27.50 |
 | `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. | 5.27.50 |
 | `background-play` | Enables playing music in the background. | 5.27.50 |
@@ -38,7 +39,8 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `hide-autoplay-button` | Hides the autoplay button in the video player. | 17.39.35 |
 | `disable-startup-shorts-player` | Disables playing YouTube Shorts when launching YouTube. | 17.39.35 |
 | `custom-branding-red` | Changes the YouTube launcher icon and name to your choice (defaults to ReVanced Red). | all |
-| `custom-branding-blue` | Changes the YouTube launcher icon and name to your choice (defaults to ReVanced Blue). | all |
+| `custom-branding-blue` | Changes the YouTube launcher icon and name to your choice (ReVanced Blue). | all |
+| `custom-branding-decipher3114` | Changes the YouTube launcher icon and name to your choice (decipher3114). | all |
 | `amoled` | Enables pure black theme. | all |
 | `materialyou` | Enables MaterialYou theme for Android 12+. | all |
 | `remove-playerbutton-background` | Disable Player Button Overlay Background. | all |
