@@ -32,7 +32,7 @@ class AmoledResourcePatch : ResourcePatch() {
 
                 val element = resourcesNode.childNodes.item(i) as Element
                 element.textContent = when (element.getAttribute("name")) {
-                    "yt_black1", "yt_black1_opacity95", "yt_black2", "yt_black3", "yt_black4", "yt_status_bar_background_dark" -> "@android:color/black"
+                    "yt_black1", "yt_black1_opacity95", "yt_black1_opacity98", "yt_black2", "yt_black3", "yt_black4", "yt_status_bar_background_dark" -> "@android:color/black"
                     "yt_selected_nav_label_dark" -> "#ffdf0000"
                     else -> continue
                 }
@@ -59,33 +59,6 @@ class AmoledResourcePatch : ResourcePatch() {
 
                         node.getAttributeNode("android:$replacement")?.let { attribute ->
                             attribute.textContent = "@drawable/revanced_splash_bg"
-                        }
-                    }
-                }
-            }
-        }
-
-        val resourceFileNames2 = arrayOf(
-            "compact_playlist_panel_header.xml"
-        )
-
-        // the attributes to change the value of
-        val replacements2 = arrayOf(
-            "background"
-        )
-
-        data.forEach {
-            if (!it.name.startsWithAny(*resourceFileNames2)) return@forEach
-
-            // for each file in the "layouts" directory replace all necessary attributes content
-            data.xmlEditor[it.absolutePath].use { editor ->
-                editor.file.doRecursively { node ->
-                    replacements2.forEach replacement@{ replacement ->
-                        if (node !is Element) return@replacement
-                        if (!node.getAttribute("android:id").endsWith("set_content_header")) return@replacement
-
-                        node.getAttributeNode("android:$replacement")?.let { attribute ->
-                            attribute.textContent = "@null"
                         }
                     }
                 }
