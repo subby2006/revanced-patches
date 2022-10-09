@@ -3,14 +3,12 @@ package app.revanced.patches.youtube.layout.amoled.bytecode.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
-import app.revanced.patcher.fingerprint.method.annotation.MatchingMethod
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patches.youtube.layout.amoled.annotations.AmoledCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("amoled-fingerprint")
-@MatchingMethod("Loda;", "onBoundsChange")
 @AmoledCompatibility
 @Version("0.0.1")
 object AmoledFingerprint : MethodFingerprint(

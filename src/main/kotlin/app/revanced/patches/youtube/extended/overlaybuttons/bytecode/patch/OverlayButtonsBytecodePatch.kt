@@ -3,12 +3,12 @@ package app.revanced.patches.youtube.extended.overlaybuttons.bytecode.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.BytecodeData
+import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.BytecodePatch
+import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patches.youtube.extended.overlaybuttons.annotation.OverlayButtonsCompatibility
 import app.revanced.patches.youtube.extended.overlaybuttons.resource.patch.OverlayButtonsResourcePatch
 import app.revanced.patches.youtube.misc.playercontrols.bytecode.patch.PlayerControlsBytecodePatch
@@ -21,7 +21,7 @@ import app.revanced.patches.youtube.misc.videoid.patch.VideoIdPatch
 @OverlayButtonsCompatibility
 @Version("0.0.1")
 class OverlayButtonsBytecodePatch : BytecodePatch() {
-    override fun execute(data: BytecodeData): PatchResult {
+    override fun execute(context: BytecodeContext): PatchResult {
         val integrationsPackage = "app/revanced/integrations"
         val classDownloadDescriptor = "L$integrationsPackage/videoplayer/Download;"
         val classAutoRepeatDescriptor = "L$integrationsPackage/videoplayer/AutoRepeat;"

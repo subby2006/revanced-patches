@@ -3,7 +3,7 @@ package app.revanced.patches.youtube.layout.pivotbar.shortsbutton.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.BytecodeData
+import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstruction
 import app.revanced.patcher.extensions.MethodFingerprintExtensions.name
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.BytecodePatch
+import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patches.youtube.layout.pivotbar.utils.InjectionUtils.REGISTER_TEMPLATE_REPLACEMENT
 import app.revanced.patches.youtube.layout.pivotbar.utils.InjectionUtils.injectHook
 import app.revanced.patches.youtube.layout.pivotbar.fingerprints.PivotBarFingerprint
@@ -34,7 +34,7 @@ import org.jf.dexlib2.Opcode
 class ShortsButtonRemoverPatch : BytecodePatch(
     listOf(PivotBarFingerprint, PivotBarButtonsViewFingerprint, PivotBarButtonTabEnumFingerprint)
 ) {
-    override fun execute(data: BytecodeData): PatchResult {
+    override fun execute(context: BytecodeContext): PatchResult {
         /*
          * Resolve fingerprints
          */
@@ -44,7 +44,7 @@ class ShortsButtonRemoverPatch : BytecodePatch(
             val fingerprintResults = arrayOf(PivotBarEnumFingerprint, PivotBarShortsButtonViewFingerprint)
                 .onEach {
                         val resolutionSucceeded = it.resolve(
-                            data,
+                            context,
                             pivotBarResult.method,
                             pivotBarResult.classDef
                         )

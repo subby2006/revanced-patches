@@ -3,11 +3,11 @@ package app.revanced.patches.youtube.extended.optimizeresource.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.ResourceData
+import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.ResourcePatch
+import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.youtube.extended.optimizeresource.annotations.OptimizeResourceCompatibility
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
 import java.nio.file.Files
@@ -18,8 +18,8 @@ import java.nio.file.StandardCopyOption
 @Description("Optimize resources to make your app lightweight, Add missing translations to YouTube")
 @OptimizeResourceCompatibility
 @Version("0.0.1")
-class OptimizeResourcePatch : ResourcePatch() {
-    override fun execute(data: ResourceData): PatchResult {
+class OptimizeResourcePatch : ResourcePatch {
+    override fun execute(context: ResourceContext): PatchResult {
         val classLoader = this.javaClass.classLoader
 
         val drawable_mdpi = "drawable-mdpi" to arrayOf(
@@ -5115,7 +5115,7 @@ class OptimizeResourcePatch : ResourcePatch() {
                 val relativePath = "$path/$name"
 
                 Files.deleteIfExists(
-                        data["res"].resolve(relativePath).toPath()
+                        context["res"].resolve(relativePath).toPath()
                 )
             }
         }
@@ -5126,7 +5126,7 @@ class OptimizeResourcePatch : ResourcePatch() {
 
                 Files.copy(
                         classLoader.getResourceAsStream("resource/$relativePath")!!,
-                        data["res"].resolve(relativePath).toPath(),
+                        context["res"].resolve(relativePath).toPath(),
                         StandardCopyOption.REPLACE_EXISTING
                 )
             }
@@ -5136,10 +5136,10 @@ class OptimizeResourcePatch : ResourcePatch() {
         SearchResources.forEach { (path, languageNames) ->
             languageNames.forEach { name ->
                 val sourcePath = classLoader.getResourceAsStream("resource/host/$path/values-$name/strings.xml")!!
-                val relativePath = data.xmlEditor["res/values-$name/strings.xml"]
+                val relativePath = context.xmlEditor["res/values-$name/strings.xml"]
 
 				"resources".copyXmlNode(
-                        data.xmlEditor[sourcePath],
+                        context.xmlEditor[sourcePath],
                         relativePath
                 ).also {}.close()
             }

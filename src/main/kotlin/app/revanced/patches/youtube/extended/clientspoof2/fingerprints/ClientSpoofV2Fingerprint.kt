@@ -3,14 +3,12 @@ package app.revanced.patches.youtube.extended.clientspoof2.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
-import app.revanced.patcher.fingerprint.method.annotation.MatchingMethod
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patches.youtube.extended.clientspoof2.annotations.ClientSpoofV2Compatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("client-spoof-v2-fingerprint")
-@MatchingMethod("Ltec;", "d")
 @ClientSpoofV2Compatibility
 @Version("0.0.1")
 object ClientSpoofV2Fingerprint : MethodFingerprint(

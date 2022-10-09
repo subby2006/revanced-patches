@@ -5,15 +5,11 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
-import app.revanced.patcher.fingerprint.method.annotation.MatchingMethod
 import app.revanced.patches.music.premium.backgroundplay.annotations.BackgroundPlayCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("background-playback-disabler-fingerprint")
-@MatchingMethod(
-    "Lafgf;", "e"
-)
 @FuzzyPatternScanMethod(2) // FIXME: Test this threshold and find the best value.
 @BackgroundPlayCompatibility
 @Version("0.0.1")

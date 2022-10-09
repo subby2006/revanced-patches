@@ -5,10 +5,10 @@ import app.revanced.extensions.startsWithAny
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.ResourceData
+import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.*
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.ResourcePatch
+import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.youtube.layout.branding.icon.annotations.CustomBrandingCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import java.io.ByteArrayOutputStream
@@ -24,10 +24,10 @@ import org.w3c.dom.Element
 @Description("Changes the YouTube launcher icon and name to your choice (ReVanced Blue).")
 @CustomBrandingCompatibility
 @Version("0.0.1")
-class CustomBrandingPatch_Blue : ResourcePatch() {
-    override fun execute(data: ResourceData): PatchResult {
+class CustomBrandingPatch_Blue : ResourcePatch {
+    override fun execute(context: ResourceContext): PatchResult {
         val classLoader = this.javaClass.classLoader
-        val resDirectory = data["res"]
+        val resDirectory = context["res"]
         if (!resDirectory.isDirectory) return PatchResultError("The res folder can not be found.")
 
         // Icon branding
@@ -67,7 +67,7 @@ class CustomBrandingPatch_Blue : ResourcePatch() {
 
                 Files.copy(
                     classLoader.getResourceAsStream("branding/monochrome/$relativePath")!!,
-                    data["res"].resolve(relativePath).toPath(),
+                    context["res"].resolve(relativePath).toPath(),
 					StandardCopyOption.REPLACE_EXISTING
                 )
             }
@@ -78,11 +78,11 @@ class CustomBrandingPatch_Blue : ResourcePatch() {
             "strings.xml"
         )
 
-        data.forEach {
+        context.forEach {
             if (!it.name.startsWithAny(*resourceFileNames)) return@forEach
 
             // for each file in the "layouts" directory replace all necessary attributes content
-            data.xmlEditor[it.absolutePath].use { editor ->
+            context.xmlEditor[it.absolutePath].use { editor ->
             val resourcesNode = editor.file.getElementsByTagName("resources").item(0) as Element
 
                 for (i in 0 until resourcesNode.childNodes.length) {

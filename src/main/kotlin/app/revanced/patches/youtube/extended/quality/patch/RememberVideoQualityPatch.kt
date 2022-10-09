@@ -3,7 +3,7 @@ package app.revanced.patches.youtube.extended.quality.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.BytecodeData
+import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstruction
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
@@ -11,7 +11,7 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.BytecodePatch
+import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.extended.quality.annotations.DefaultVideoQualityCompatibility
 import app.revanced.patches.youtube.extended.quality.fingerprints.VideoQualityReferenceFingerprint
@@ -32,13 +32,13 @@ class RememberVideoQualityPatch : BytecodePatch(
         VideoQualitySetterFingerprint
     )
 ) {
-    override fun execute(data: BytecodeData): PatchResult {
+    override fun execute(context: BytecodeContext): PatchResult {
         val setterMethod = VideoQualitySetterFingerprint.result!!
 
-        VideoUserQualityChangeFingerprint.resolve(data, setterMethod.classDef)
+        VideoUserQualityChangeFingerprint.resolve(context, setterMethod.classDef)
         val userQualityMethod = VideoUserQualityChangeFingerprint.result!!
 
-        VideoQualityReferenceFingerprint.resolve(data, setterMethod.classDef)
+        VideoQualityReferenceFingerprint.resolve(context, setterMethod.classDef)
         val qualityFieldReference =
             VideoQualityReferenceFingerprint.result!!.method.let { method ->
                 (method.implementation!!.instructions.elementAt(0) as ReferenceInstruction).reference as FieldReference
@@ -47,7 +47,7 @@ class RememberVideoQualityPatch : BytecodePatch(
         VideoIdPatch.injectCall("Lapp/revanced/integrations/patches/VideoQualityPatch;->newVideoStarted(Ljava/lang/String;)V")
 
         val qIndexMethodName =
-            data.classes.single { it.type == qualityFieldReference.type }.methods.single { it.parameterTypes.first() == "I" }.name
+            context.classes.single { it.type == qualityFieldReference.type }.methods.single { it.parameterTypes.first() == "I" }.name
 
         setterMethod.mutableMethod.addInstructions(
             0,

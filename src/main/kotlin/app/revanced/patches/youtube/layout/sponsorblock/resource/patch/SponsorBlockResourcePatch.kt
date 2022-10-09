@@ -2,11 +2,11 @@ package app.revanced.patches.youtube.layout.sponsorblock.resource.patch
 
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.ResourceData
+import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
-import app.revanced.patcher.patch.impl.ResourcePatch
+import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.youtube.layout.sponsorblock.annotations.SponsorBlockCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
@@ -17,12 +17,12 @@ import java.nio.file.Files
 @SponsorBlockCompatibility
 @DependsOn([FixLocaleConfigErrorPatch::class, ResourceMappingResourcePatch::class])
 @Version("0.0.1")
-class SponsorBlockResourcePatch : ResourcePatch() {
+class SponsorBlockResourcePatch : ResourcePatch {
     companion object {
         internal var reelButtonGroupResourceId: Long = 0
     }
 
-    override fun execute(data: ResourceData): PatchResult {
+    override fun execute(context: ResourceContext): PatchResult {
         val classLoader = this.javaClass.classLoader
 
         /*
@@ -51,7 +51,7 @@ class SponsorBlockResourcePatch : ResourcePatch() {
 
                 Files.copy(
                     classLoader.getResourceAsStream("sponsorblock/$relativePath")!!,
-                    data["res"].resolve(relativePath).toPath()
+                    context["res"].resolve(relativePath).toPath()
                 )
             }
         }
@@ -68,9 +68,9 @@ class SponsorBlockResourcePatch : ResourcePatch() {
             resources.forEach { resource ->
                 val hostingResourceStream = classLoader.getResourceAsStream("sponsorblock/host/$path/$resource.xml")!!
 
-                val targetXmlEditor = data.xmlEditor["res/$path/$resource.xml"]
+                val targetXmlEditor = context.xmlEditor["res/$path/$resource.xml"]
                 "RelativeLayout".copyXmlNode(
-                    data.xmlEditor[hostingResourceStream],
+                    context.xmlEditor[hostingResourceStream],
                     targetXmlEditor
                 ).also {
                     val children = targetXmlEditor.file.getElementsByTagName("RelativeLayout").item(0).childNodes

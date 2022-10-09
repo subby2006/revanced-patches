@@ -4,16 +4,12 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
-import app.revanced.patcher.fingerprint.method.annotation.MatchingMethod
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patches.youtube.layout.pivotbar.shortsbutton.annotations.ShortsButtonCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("pivotbar-buttons-tabenum-fingerprint")
-@MatchingMethod(
-    "Lknw;", "z"
-)
 @FuzzyPatternScanMethod(2) // FIXME: Test this threshold and find the best value.
 @ShortsButtonCompatibility
 @Version("0.0.1")

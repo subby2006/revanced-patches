@@ -3,11 +3,11 @@ package app.revanced.patches.youtube.extended.translations.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.ResourceData
+import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.ResourcePatch
+import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.youtube.extended.translations.annotations.TranslationsCompatibility
 import app.revanced.util.resources.ResourceUtils
 import app.revanced.util.resources.ResourceUtils.copyResources
@@ -20,8 +20,8 @@ import java.nio.file.StandardCopyOption
 @Description("Add Crowdin Translations")
 @TranslationsCompatibility
 @Version("0.0.1")
-class TranslationsPatch : ResourcePatch() {
-    override fun execute(data: ResourceData): PatchResult {
+class TranslationsPatch : ResourcePatch {
+    override fun execute(context: ResourceContext): PatchResult {
 
         val revanced_translations = "translate" to arrayOf(
                 "ar-v21",
@@ -60,13 +60,13 @@ class TranslationsPatch : ResourcePatch() {
         val classLoader = this.javaClass.classLoader
         TranslationsResources.forEach { (path, languageNames) ->
             languageNames.forEach { name ->
-                val resDirectory = data["res"].resolve("values-$name")
+                val resDirectory = context["res"].resolve("values-$name")
                 val relativePath = "values-$name/strings.xml"
 
                 Files.createDirectory(resDirectory.toPath())
                 Files.copy(
                         classLoader.getResourceAsStream("$path/$relativePath")!!,
-                        data["res"].resolve(relativePath).toPath(),
+                        context["res"].resolve(relativePath).toPath(),
                         StandardCopyOption.REPLACE_EXISTING
                 )		
             }

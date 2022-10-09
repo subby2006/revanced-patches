@@ -3,7 +3,7 @@ package app.revanced.patches.youtube.extended.autorepeat.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.BytecodeData
+import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.removeInstruction
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.BytecodePatch
+import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patches.youtube.extended.autorepeat.annotations.AutoRepeatCompatibility
 import app.revanced.patches.youtube.extended.autorepeat.fingerprints.AutoRepeatFingerprint
 import app.revanced.patches.youtube.extended.autorepeat.fingerprints.AutoRepeatParentFingerprint
@@ -29,14 +29,14 @@ class AutoRepeatPatch : BytecodePatch(
         AutoRepeatParentFingerprint
     )
 ) {
-    override fun execute(data: BytecodeData): PatchResult {
+    override fun execute(context: BytecodeContext): PatchResult {
         //Get Result from the ParentFingerprint which is the playMethod we need to get.
         val parentResult = AutoRepeatParentFingerprint.result
             ?: return PatchResultError("ParentFingerprint did not resolve.")
 
         //this one needs to be called when app/revanced/integrations/patches/AutoRepeatPatch;->shouldAutoRepeat() returns true
         val playMethod = parentResult.mutableMethod
-        AutoRepeatFingerprint.resolve(data, parentResult.classDef)
+        AutoRepeatFingerprint.resolve(context, parentResult.classDef)
         //String is: Laamp;->E()V
         val methodToCall = playMethod.definingClass + "->" + playMethod.name + "()V";
 

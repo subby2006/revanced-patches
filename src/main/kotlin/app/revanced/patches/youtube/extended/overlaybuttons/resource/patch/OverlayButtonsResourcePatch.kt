@@ -3,11 +3,11 @@ package app.revanced.patches.youtube.extended.overlaybuttons.resource.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.ResourceData
+import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
-import app.revanced.patcher.patch.impl.ResourcePatch
+import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.youtube.extended.overlaybuttons.annotation.OverlayButtonsCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
@@ -19,8 +19,8 @@ import java.nio.file.StandardCopyOption
 @Description("Makes necessary changes to resources for the overlay buttons.")
 @OverlayButtonsCompatibility
 @Version("0.0.1")
-class OverlayButtonsResourcePatch : ResourcePatch() {
-    override fun execute(data: ResourceData): PatchResult {
+class OverlayButtonsResourcePatch : ResourcePatch {
+    override fun execute(context: ResourceContext): PatchResult {
         val classLoader = this.javaClass.classLoader
 
         /*
@@ -41,7 +41,7 @@ class OverlayButtonsResourcePatch : ResourcePatch() {
 
                 Files.copy(
                         classLoader.getResourceAsStream("overlaybuttons/$relativePath")!!,
-                        data["res"].resolve(relativePath).toPath(),
+                        context["res"].resolve(relativePath).toPath(),
                         StandardCopyOption.REPLACE_EXISTING
                 )
             }
@@ -51,9 +51,9 @@ class OverlayButtonsResourcePatch : ResourcePatch() {
          * Copy preference fragments
          */
 
-        data.copyXmlNode("overlaybuttons/host", "layout/youtube_controls_bottom_ui_container.xml", "android.support.constraint.ConstraintLayout")
+        context.copyXmlNode("overlaybuttons/host", "layout/youtube_controls_bottom_ui_container.xml", "android.support.constraint.ConstraintLayout")
 
-        val container = data["res/layout/youtube_controls_bottom_ui_container.xml"]
+        val container = context["res/layout/youtube_controls_bottom_ui_container.xml"]
         container.writeText(
             container.readText()
 			.replace(

@@ -1,7 +1,7 @@
 package app.revanced.util.resources
 
-import app.revanced.patcher.data.impl.DomFileEditor
-import app.revanced.patcher.data.impl.ResourceData
+import app.revanced.patcher.data.DomFileEditor
+import app.revanced.patcher.data.ResourceContext
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 
@@ -11,7 +11,7 @@ internal object ResourceUtils {
      * @param sourceResourceDirectory The source resource directory name.
      * @param resources The resources to copy.
      */
-    internal fun ResourceData.copyResources(sourceResourceDirectory: String, vararg resources: ResourceGroup) {
+    internal fun ResourceContext.copyResources(sourceResourceDirectory: String, vararg resources: ResourceGroup) {
         val classLoader = ResourceUtils.javaClass.classLoader
         val targetResourceDirectory = this["res"]
 
@@ -39,7 +39,7 @@ internal object ResourceUtils {
      * @param targetResource The target resource.
      * @param elementTag The element to copy.
      */
-    internal fun ResourceData.copyXmlNode(resourceDirectory: String, targetResource: String, elementTag: String) {
+    internal fun ResourceContext.copyXmlNode(resourceDirectory: String, targetResource: String, elementTag: String) {
         val stringsResourceInputStream = ResourceUtils.javaClass.classLoader.getResourceAsStream("$resourceDirectory/$targetResource")!!
 
         // Copy nodes from the resources node to the real resource node

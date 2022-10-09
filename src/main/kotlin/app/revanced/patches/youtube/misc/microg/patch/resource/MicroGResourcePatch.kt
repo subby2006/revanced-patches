@@ -3,11 +3,11 @@ package app.revanced.patches.youtube.misc.microg.patch.resource
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.ResourceData
+import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
-import app.revanced.patcher.patch.impl.ResourcePatch
+import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.music.misc.microg.shared.Constants
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import app.revanced.patches.youtube.misc.microg.annotations.MicroGPatchCompatibility
@@ -26,10 +26,10 @@ import app.revanced.util.microg.MicroGResourceHelper
 @Description("Resource patch to allow YouTube ReVanced to run without root and under a different package name.")
 @MicroGPatchCompatibility
 @Version("0.0.1")
-class MicroGResourcePatch : ResourcePatch() {
-    override fun execute(data: ResourceData): PatchResult {
+class MicroGResourcePatch : ResourcePatch {
+    override fun execute(context: ResourceContext): PatchResult {
 
-        val xfile = data["res/xml/revanced_prefs.xml"]
+        val xfile = context["res/xml/revanced_prefs.xml"]
         xfile.writeText(
                 xfile.readText()
                         .replace(
@@ -50,7 +50,7 @@ class MicroGResourcePatch : ResourcePatch() {
                         )
         )
 
-        val settingsFragment = data["res/xml/settings_fragment.xml"]
+        val settingsFragment = context["res/xml/settings_fragment.xml"]
         settingsFragment.writeText(
             settingsFragment.readText().replace(
                 "android:targetPackage=\"com.google.android.youtube",
@@ -60,14 +60,14 @@ class MicroGResourcePatch : ResourcePatch() {
 
         // update manifest
         MicroGResourceHelper.patchManifest(
-            data,
+            context,
             PACKAGE_NAME,
             REVANCED_PACKAGE_NAME
         )
 
         // add metadata to manifest
         MicroGManifestHelper.addSpoofingMetadata(
-            data,
+            context,
             SPOOFED_PACKAGE_NAME,
             SPOOFED_PACKAGE_SIGNATURE
         )

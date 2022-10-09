@@ -6,10 +6,10 @@ import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.patch.annotations.DependsOn
-import app.revanced.patcher.data.impl.ResourceData
+import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.*
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.ResourcePatch
+import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.music.layout.branding.annotations.CustomBrandingMusicCompatibility
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import java.io.ByteArrayOutputStream
@@ -26,10 +26,10 @@ import org.w3c.dom.Element
 @Description("Changes the YouTube Music launcher icon and name to your choice (decipher3114).")
 @CustomBrandingMusicCompatibility
 @Version("0.0.1")
-class CustomBrandingMusicPatch_decipher3114 : ResourcePatch() {
-    override fun execute(data: ResourceData): PatchResult {
+class CustomBrandingMusicPatch_decipher3114 : ResourcePatch {
+    override fun execute(context: ResourceContext): PatchResult {
         val classLoader = this.javaClass.classLoader
-        val resDirectory = data["res"]
+        val resDirectory = context["res"]
         if (!resDirectory.isDirectory) return PatchResultError("The res folder can not be found.")
 
         // Icon branding

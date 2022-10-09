@@ -3,7 +3,7 @@ package app.revanced.patches.youtube.extended.extended.bytecode.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.BytecodeData
+import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.instruction
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
@@ -13,7 +13,7 @@ import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.BytecodePatch
+import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.ExternalLabel
@@ -58,10 +58,10 @@ class ExtendedPatch : BytecodePatch() {
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
 
-    override fun execute(data: BytecodeData): PatchResult {
+    override fun execute(context: BytecodeContext): PatchResult {
 
         // iterating through all classes is expensive
-        for (classDef in data.classes) {
+        for (classDef in context.classes) {
             var mutableClass: MutableClass? = null
 
             method@ for (method in classDef.methods) {
@@ -84,7 +84,7 @@ class ExtendedPatch : BytecodePatch() {
                                     //if (invokeInstruction.opcode != Opcode.IPUT_OBJECT) return@forEachIndexed
 
                                     // create proxied method, make sure to not re-resolve() the current class
-                                    if (mutableClass == null) mutableClass = data.proxy(classDef).resolve()
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
                                     if (mutableMethod == null) mutableMethod =
                                         mutableClass!!.findMutableMethodOf(method)
 
@@ -103,7 +103,7 @@ class ExtendedPatch : BytecodePatch() {
                                     if (invokeInstruction.opcode != Opcode.SGET_OBJECT) return@forEachIndexed
 
                                     // create proxied method, make sure to not re-resolve() the current class
-                                    if (mutableClass == null) mutableClass = data.proxy(classDef).resolve()
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
                                     if (mutableMethod == null) mutableMethod =
                                         mutableClass!!.findMutableMethodOf(method)
 									val premiumheader = resourceIds[2]
@@ -128,7 +128,7 @@ class ExtendedPatch : BytecodePatch() {
                                     if (invokeInstruction.opcode != Opcode.RETURN_OBJECT) return@forEachIndexed
 
                                     // create proxied method, make sure to not re-resolve() the current class
-                                    if (mutableClass == null) mutableClass = data.proxy(classDef).resolve()
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
                                     if (mutableMethod == null) mutableMethod =
                                         mutableClass!!.findMutableMethodOf(method)
 

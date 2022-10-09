@@ -3,16 +3,12 @@ package app.revanced.patches.youtube.layout.pivotbar.shortsbutton.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
-import app.revanced.patcher.fingerprint.method.annotation.MatchingMethod
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patches.youtube.layout.pivotbar.shortsbutton.annotations.ShortsButtonCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("pivotbar-buttons-view-fingerprint")
-@MatchingMethod(
-    "Lknw;", "z"
-)
 @ShortsButtonCompatibility
 @Version("0.0.1")
 object PivotBarButtonsViewFingerprint : MethodFingerprint(

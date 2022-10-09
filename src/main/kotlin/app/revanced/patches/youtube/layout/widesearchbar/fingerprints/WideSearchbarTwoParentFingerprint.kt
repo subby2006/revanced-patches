@@ -5,15 +5,11 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
-import app.revanced.patcher.fingerprint.method.annotation.MatchingMethod
 import app.revanced.patches.youtube.layout.reels.annotations.HideReelsCompatibility
 import app.revanced.patches.youtube.layout.widesearchbar.annotations.WideSearchbarCompatibility
 import org.jf.dexlib2.AccessFlags
 
 @Name("wide-searchbar-methodtwo-parent-fingerprint")
-@MatchingMethod(
-    "Lkrf;", "i"
-)
 @FuzzyPatternScanMethod(3)
 @WideSearchbarCompatibility
 @Version("0.0.1")

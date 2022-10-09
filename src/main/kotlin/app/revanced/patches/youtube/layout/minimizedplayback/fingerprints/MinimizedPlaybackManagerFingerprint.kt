@@ -5,15 +5,11 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
-import app.revanced.patcher.fingerprint.method.annotation.MatchingMethod
 import app.revanced.patches.youtube.layout.minimizedplayback.annotations.MinimizedPlaybackCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("minimized-playback-manager-fingerprint")
-@MatchingMethod(
-    "Lyuf", "n"
-)
 @FuzzyPatternScanMethod(2) // FIXME: Test this threshold and find the best value.
 @MinimizedPlaybackCompatibility
 @Version("0.0.1")

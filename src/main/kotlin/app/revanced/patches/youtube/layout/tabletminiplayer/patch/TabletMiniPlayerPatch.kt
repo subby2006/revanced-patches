@@ -3,7 +3,7 @@ package app.revanced.patches.youtube.layout.tabletminiplayer.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.BytecodeData
+import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
@@ -11,7 +11,7 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.BytecodePatch
+import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patches.youtube.layout.tabletminiplayer.annotations.TabletMiniPlayerCompatibility
 import app.revanced.patches.youtube.layout.tabletminiplayer.fingerprints.MiniPlayerDimensionsCalculatorFingerprint
@@ -33,14 +33,14 @@ class TabletMiniPlayerPatch : BytecodePatch(
         MiniPlayerResponseModelSizeCheckFingerprint
     )
 ) {
-    override fun execute(data: BytecodeData): PatchResult {
+    override fun execute(context: BytecodeContext): PatchResult {
         // first resolve the fingerprints via the parent fingerprint
         val miniPlayerClass = MiniPlayerDimensionsCalculatorFingerprint.result!!.classDef
 
         /*
          * no context parameter method
          */
-        MiniPlayerOverrideNoContextFingerprint.resolve(data, miniPlayerClass)
+        MiniPlayerOverrideNoContextFingerprint.resolve(context, miniPlayerClass)
         val (method, _, parameterRegister) = MiniPlayerOverrideNoContextFingerprint.addProxyCall()
         // - 1 means to insert before the return instruction
         val secondInsertIndex = method.implementation!!.instructions.size - 1
@@ -49,7 +49,7 @@ class TabletMiniPlayerPatch : BytecodePatch(
         /*
          * method with context parameter
          */
-        MiniPlayerOverrideFingerprint.resolve(data, miniPlayerClass)
+        MiniPlayerOverrideFingerprint.resolve(context, miniPlayerClass)
         val (_, _, _) = MiniPlayerOverrideFingerprint.addProxyCall()
 
         /*

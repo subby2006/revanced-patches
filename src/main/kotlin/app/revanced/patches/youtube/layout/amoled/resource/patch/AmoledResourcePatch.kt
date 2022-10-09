@@ -4,11 +4,11 @@ import app.revanced.extensions.doRecursively
 import app.revanced.extensions.startsWithAny
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.ResourceData
+import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
-import app.revanced.patcher.patch.impl.ResourcePatch
+import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.youtube.layout.amoled.annotations.AmoledCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import org.w3c.dom.Element
@@ -20,10 +20,10 @@ import java.nio.file.StandardCopyOption
 @Name("amoled-resource")
 @AmoledCompatibility
 @Version("0.0.1")
-class AmoledResourcePatch : ResourcePatch() {
-    override fun execute(data: ResourceData): PatchResult {
+class AmoledResourcePatch : ResourcePatch {
+    override fun execute(context: ResourceContext): PatchResult {
         val classLoader = this.javaClass.classLoader
-        data.xmlEditor["res${File.separator}values${File.separator}colors.xml"].use { editor ->
+        context.xmlEditor["res${File.separator}values${File.separator}colors.xml"].use { editor ->
             val resourcesNode = editor.file.getElementsByTagName("resources").item(0) as Element
 
             for (i in 0 until resourcesNode.childNodes.length) {
@@ -48,11 +48,11 @@ class AmoledResourcePatch : ResourcePatch() {
             "drawable"
         )
 
-        data.forEach {
+        context.forEach {
             if (!it.name.startsWithAny(*resourceFileNames)) return@forEach
 
             // for each file in the "layouts" directory replace all necessary attributes content
-            data.xmlEditor[it.absolutePath].use { editor ->
+            context.xmlEditor[it.absolutePath].use { editor ->
                 editor.file.doRecursively { node ->
                     replacements.forEach replacement@{ replacement ->
                         if (node !is Element) return@replacement
@@ -77,7 +77,7 @@ class AmoledResourcePatch : ResourcePatch() {
 
                 Files.copy(
                         classLoader.getResourceAsStream("amoled/$relativePath")!!,
-                        data["res"].resolve(relativePath).toPath(),
+                        context["res"].resolve(relativePath).toPath(),
                         StandardCopyOption.REPLACE_EXISTING
                 )
             }

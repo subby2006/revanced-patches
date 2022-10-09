@@ -3,13 +3,13 @@ package app.revanced.patches.youtube.layout.autoplaybutton.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.BytecodeData
+import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.BytecodePatch
+import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patches.youtube.layout.autoplaybutton.annotations.AutoplayButtonCompatibility
@@ -32,7 +32,7 @@ class HideAutoplayButton : BytecodePatch(
             LayoutConstructorFingerprint
     )
 ) {
-    override fun execute(data: BytecodeData): PatchResult {
+    override fun execute(context: BytecodeContext): PatchResult {
         val layoutGenMethodResult = LayoutConstructorFingerprint.result!!
         val layoutGenMethod = layoutGenMethodResult.mutableMethod
         val layoutGenMethodInstructions = layoutGenMethod.implementation!!.instructions

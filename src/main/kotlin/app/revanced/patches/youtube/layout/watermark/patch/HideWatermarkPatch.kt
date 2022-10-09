@@ -3,7 +3,7 @@ package app.revanced.patches.youtube.layout.watermark.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.BytecodeData
+import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.removeInstruction
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.impl.BytecodePatch
+import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patches.youtube.layout.watermark.annotations.HideWatermarkCompatibility
 import app.revanced.patches.youtube.layout.watermark.fingerprints.HideWatermarkParentFingerprint
 import app.revanced.patches.youtube.layout.watermark.fingerprints.HideWatermarkFingerprint
@@ -29,8 +29,8 @@ class HideWatermarkPatch : BytecodePatch(
         HideWatermarkParentFingerprint
     )
 ) {
-    override fun execute(data: BytecodeData): PatchResult {
-        HideWatermarkFingerprint.resolve(data, HideWatermarkParentFingerprint.result!!.classDef)
+    override fun execute(context: BytecodeContext): PatchResult {
+        HideWatermarkFingerprint.resolve(context, HideWatermarkParentFingerprint.result!!.classDef)
         val result = HideWatermarkFingerprint.result
             ?: return PatchResultError("Required parent method could not be found.")
 

@@ -2,11 +2,11 @@ package app.revanced.patches.youtube.misc.settings.resource.patch
 
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.ResourceData
+import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
-import app.revanced.patcher.patch.impl.ResourcePatch
+import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import app.revanced.patches.youtube.misc.settings.annotations.SettingsCompatibility
 import app.revanced.util.resources.ResourceUtils
@@ -21,28 +21,28 @@ import java.nio.file.StandardCopyOption
 @SettingsCompatibility
 @DependsOn([FixLocaleConfigErrorPatch::class])
 @Version("0.0.1")
-class SettingsResourcePatch : ResourcePatch() {
-    override fun execute(data: ResourceData): PatchResult {
+class SettingsResourcePatch : ResourcePatch {
+    override fun execute(context: ResourceContext): PatchResult {
         val classLoader = this.javaClass.classLoader
         /*
          * Copy strings
          */
 
-        data.copyXmlNode("settings/host", "values/strings.xml", "resources")
+        context.copyXmlNode("settings/host", "values/strings.xml", "resources")
 
         /*
          * Copy drawables
          */
 
-        data.copyXmlNode("settings/host", "values/drawables.xml", "resources")
+        context.copyXmlNode("settings/host", "values/drawables.xml", "resources")
 
         /*
          * Copy preference fragments
          */
 
-        // data.copyXmlNode("settings/host", "xml/settings_fragment.xml", "PreferenceScreen")
+        // context.copyXmlNode("settings/host", "xml/settings_fragment.xml", "PreferenceScreen")
 
-        val settingsFragment = data["res/xml/settings_fragment.xml"]
+        val settingsFragment = context["res/xml/settings_fragment.xml"]
         settingsFragment.writeText(
                 settingsFragment.readText()
                         .replace(
@@ -86,10 +86,10 @@ class SettingsResourcePatch : ResourcePatch() {
                 "ic_rvx_logo.xml"
             )
         ).forEach { resourceGroup ->
-            data.copyResources("settings", resourceGroup)
+            context.copyResources("settings", resourceGroup)
         }
 
-        data.xmlEditor["AndroidManifest.xml"].use {
+        context.xmlEditor["AndroidManifest.xml"].use {
             val manifestNode = it
                 .file
                 .getElementsByTagName("manifest")
@@ -123,7 +123,7 @@ class SettingsResourcePatch : ResourcePatch() {
 
                 Files.copy(
                         classLoader.getResourceAsStream("settings/$relativePath")!!,
-                        data["res"].resolve(relativePath).toPath(),
+                        context["res"].resolve(relativePath).toPath(),
                         StandardCopyOption.REPLACE_EXISTING
                 )
             }

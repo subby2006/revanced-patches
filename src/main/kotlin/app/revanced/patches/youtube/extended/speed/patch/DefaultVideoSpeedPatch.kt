@@ -3,14 +3,14 @@ package app.revanced.patches.youtube.extended.speed.patch
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-import app.revanced.patcher.data.impl.BytecodeData
+import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstruction
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patcher.patch.impl.BytecodePatch
+import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
@@ -42,7 +42,7 @@ class DefaultVideoSpeedPatch : BytecodePatch(
         VideoSpeedSetterFingerprint, VideoUserSpeedChangeFingerprint
     )
 ) {
-    override fun execute(data: BytecodeData): PatchResult {
+    override fun execute(context: BytecodeContext): PatchResult {
 
         val userSpeedMethod = VideoUserSpeedChangeFingerprint.result!!
         val userSpeedMutableMethod = userSpeedMethod.mutableMethod
@@ -50,12 +50,12 @@ class DefaultVideoSpeedPatch : BytecodePatch(
         val setterMethod = VideoSpeedSetterFingerprint.result!!
         val setterMutableMethod = setterMethod.mutableMethod
 
-        VideoUserSpeedChangeFingerprint.resolve(data, setterMethod.classDef)
+        VideoUserSpeedChangeFingerprint.resolve(context, setterMethod.classDef)
         val FirstReference =
             VideoUserSpeedChangeFingerprint.result!!.method.let { method ->
                 (method.implementation!!.instructions.elementAt(5) as ReferenceInstruction).reference as FieldReference
             }
-        VideoUserSpeedChangeFingerprint.resolve(data, setterMethod.classDef)
+        VideoUserSpeedChangeFingerprint.resolve(context, setterMethod.classDef)
         val SecondReference =
             VideoUserSpeedChangeFingerprint.result!!.method.let { method ->
                 (method.implementation!!.instructions.elementAt(10) as ReferenceInstruction).reference as FieldReference
