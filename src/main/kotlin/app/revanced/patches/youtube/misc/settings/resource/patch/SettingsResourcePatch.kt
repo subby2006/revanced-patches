@@ -100,7 +100,7 @@ class SettingsResourcePatch : ResourcePatch() {
             manifestNode.appendChild(element)
         }
 
-        val drawablexxxhdpi = "drawable-xxxhdpi" to arrayOf(
+        val drawablexxhdpi = "drawable-xxhdpi" to arrayOf(
                 "ic_fullscreen_vertical_button",
                 "quantum_ic_fullscreen_exit_grey600_24",
                 "quantum_ic_fullscreen_exit_white_24",
@@ -115,7 +115,7 @@ class SettingsResourcePatch : ResourcePatch() {
                 "yt_outline_screen_full_white_24"
         )
 
-        val xmlResources = arrayOf(drawablexxxhdpi)
+        val xmlResources = arrayOf(drawablexxhdpi)
 
         xmlResources.forEach { (path, resourceNames) ->
             resourceNames.forEach { name ->
