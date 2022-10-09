@@ -182,8 +182,6 @@ Is it ready to submit?"</string>
     <string name="revanced_custom_playback_speed">Custom Playback Speed</string>
     <string name="revanced_custom_playback_speed_off">Custom Playback Speed is disabled</string>
     <string name="revanced_custom_playback_speed_on">Custom Playback Speed is enabled</string>
-    <string name="revanced_debug_summary_off">Extra debug logging is disabled</string>
-    <string name="revanced_debug_summary_on">Extra Debug logging is enabled</string>
     <string name="revanced_disable_auto_captions_summary_off">Captions are enabled when playing a video with captioning is enforced</string>
     <string name="revanced_disable_auto_captions_summary_on">"Captions aren't enabled when playing a video with captioning is enforced"</string>
     <string name="revanced_disable_auto_captions_title">Disable Auto captions</string>
@@ -349,6 +347,7 @@ Are you sure you want to continue though?"</string>
     <string name="revanced_tablet_miniplayer_summary_off">Tablet Mini-player is disabled</string>
     <string name="revanced_tablet_miniplayer_summary_on">Tablet Mini-player is enabled</string>
     <string name="revanced_tablet_miniplayer_title">Tablet Mini-player</string>
+    <string name="revanced_tool_used">tool used</string>
     <string name="revanced_video_ads_summary_off">Video ads are hidden</string>
     <string name="revanced_video_ads_summary_on">Video ads are shown</string>
     <string name="revanced_video_ads_title">Hide video ads</string>
