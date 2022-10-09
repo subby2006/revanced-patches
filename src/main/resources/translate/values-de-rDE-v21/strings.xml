@@ -4,6 +4,8 @@
     <string name="about_api">Über die API</string>
     <string name="about_api_sum">Tippen, um mehr zu erfahren und Downloads für andere Plattformen anzuzeigen: sponsor.ajay.app</string>
     <string name="about_madeby">Integration von JakubWeg, umgebaut von oSumAtrIX</string>
+    <string name="accessibility_settings_edu_opt_in_text">Bedienungshilfen für den Video-Player aktivieren?</string>
+    <string name="accessibility_settings_edu_opt_out_text">Ihre Steuerelemente wurden geändert, weil ein Barrierefreiheitdienst aktiviert ist.</string>
     <string name="action_browser">SB Browser</string>
     <string name="action_segments">Abschnitte</string>
     <string name="api_url_changed">API URL wurde geändert</string>
@@ -11,12 +13,13 @@
     <string name="api_url_reset">API URL reset</string>
     <string name="change">Ändern</string>
     <string name="color_change">Sind Sie auf der Suche nach einer Änderung der Farben?</string>
-    <string name="color_change_sum">Sie können nun die Farbe einer Kategorie ändern, indem Sie oben auf sie klicken.</string>
+    <string name="color_change_sum">"Sie können nun die Farbe einer Kategorie ändern, indem Sie oben auf sie klicken."</string>
     <string name="color_changed">Farbe geändert</string>
     <string name="color_choose_category">Wähle die Kategorie</string>
     <string name="color_invalid">Ungültiger Hex-Code</string>
     <string name="color_reset">Farben zurücksetzen</string>
     <string name="diff_segments">Was mit verschiedenen Segmenten zu tun ist</string>
+    <string name="downloader_not_installed_warning">ist nicht installiert. Bitte installieren Sie es.</string>
     <string name="enable_sb">SponsorBlock aktivieren</string>
     <string name="enable_sb_sum">SponsorBlock ist ein Crowd-Source-System zum Überspringen nerviger Teile in YouTube-Videos</string>
     <string name="enable_segmadding">Hinzufügen neuer Segmente erlauben</string>
@@ -27,7 +30,7 @@
     <string name="general_adjusting">Anpassung neuer Segmentschritt</string>
     <string name="general_adjusting_sum">Dies ist die Anzahl der Millisekunden, die Sie bewegen können, wenn Sie die Zeitanpassungsschaltflächen beim Hinzufügen eines neuen Segments verwenden</string>
     <string name="general_api_url">URL ändern</string>
-    <string name="general_api_url_sum">Die Adresse des SponsorBlocks verwendet für Anfragen zum Server. &lt;b> Ändern Sie dies nicht, es sei denn, Sie wissen, was Sie tun. &lt;/b></string>
+    <string name="general_api_url_sum">"Die Adresse des SponsorBlocks verwendet für Anfragen zum Server. &lt;b&gt; Ändern Sie dies nicht, es sei denn, Sie wissen, was Sie tun. &lt;/b&gt;"</string>
     <string name="general_browser_button">Aktiviere SB Browser Button</string>
     <string name="general_browser_button_sum">Wenn Sie auf diesen Button unter dem Player klicken, öffnet sich sb.ltn.fi, wo Sie alle Segmente auf dem Video sehen.</string>
     <string name="general_cache">Cache-Segmente lokal</string>
@@ -99,6 +102,8 @@
     <string name="litho_shorts_shelf">Entferne den Shorts-Bereich</string>
     <string name="litho_shorts_shelf_off">Shorts-Entfernung ist deaktiviert</string>
     <string name="litho_shorts_shelf_on">Shorts-Entfernung ist aktiviert</string>
+    <string name="microg_not_installed_notice">Bitte installieren Sie MicroG</string>
+    <string name="microg_not_installed_warning">MicroG ist nicht vorhanden</string>
     <string name="microg_notification_settings">Benachrichtigungs Einstellungen</string>
     <string name="microg_notification_settings_summary">"1. Google device registration and Cloud Messaging need to be enabled for notifications.
 2. ReVanced needs to be shown as registered under Cloud Messaging.
@@ -127,7 +132,11 @@ Is it ready to submit?"</string>
     <string name="pref_subtitles_scale_normal">Normal</string>
     <string name="reset">Reset</string>
     <string name="revanced_ad_settings_title">AD settings</string>
-    <string name="revanced_auto_repeat_button_summary_off">"Doesn't show auto-repeat button in the player overlay. Use the toggle below to control auto-repeat"</string>
+    <string name="revanced_ad_settings_summary">Werbebezogene Einstellungen</string>
+    <string name="revanced_auto_captions_summary_off">"Untertitel werden nicht automatisch bei 0% Lautstärke aktiviert"</string>
+    <string name="revanced_auto_captions_summary_on">Untertitel werden automatisch bei 0% Lautstärke aktiviert</string>
+    <string name="revanced_auto_captions_title">Automatische Untertitel</string>
+    <string name="revanced_auto_repeat_button_summary_off">Doesn\'t show auto-repeat button in the player overlay. Use the toggle below to control auto-repeat</string>
     <string name="revanced_auto_repeat_button_summary_on">Auto-repeat button is shown in the player overlay</string>
     <string name="revanced_auto_repeat_button_title">Auto-repeat button</string>
     <string name="revanced_auto_repeat_summary_off">Always Auto-repeat is off</string>
@@ -139,25 +148,63 @@ Is it ready to submit?"</string>
     <string name="revanced_branding_watermark_summary_off">Video-Wasserzeichen wird nicht angezeigt</string>
     <string name="revanced_branding_watermark_summary_on">Video-Wasserzeichen wird angezeigt</string>
     <string name="revanced_branding_watermark_title">Video-Wasserzeichen</string>
+    <string name="revanced_buffer_summary">Benutzerdefinierte Einstellungen für Video-Puffer</string>
     <string name="revanced_buffer_title">Puffer Einstellungen</string>
+    <string name="revanced_button_location_entry_both">Beide</string>
+    <string name="revanced_button_location_entry_buttoncontainer">Unter dem Player</string>
+    <string name="revanced_button_location_entry_none">Ausgeblendet</string>
+    <string name="revanced_button_location_entry_player">Im Player</string>
+    <string name="revanced_button_container_summary">Versteckt die Komponente des Tastenbehälters</string>
+    <string name="revanced_button_container_title">Schaltflächencontainer ausblenden (Experimentell)</string>
+    <string name="revanced_button_container_warning_summary">diese Funktion unterstützt das neue Layout nicht vollständig!</string>
     <string name="revanced_cast_button_summary_off">Die Cast-Schaltfläche wird nicht angezeigt</string>
     <string name="revanced_cast_button_summary_on">Die Cast-Schaltfläche wird angezeigt</string>
     <string name="revanced_cast_button_title">Cast-Schaltfläche</string>
+    <string name="revanced_codec_override_title">Codec Überschreibung</string>
     <string name="revanced_copy_video_url_summary_off">Copy Link Button is hidden from the player overlay</string>
     <string name="revanced_copy_video_url_summary_on">Copy Link Button is shown in the player overlay</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Copy Link Button With Timestamp is hidden from the player overlay</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Copy Link Button With Timestamp is shown in the player overlay</string>
     <string name="revanced_copy_video_url_timestamp_title">Copy Link Button With Timestamp</string>
     <string name="revanced_copy_video_url_title">Copy Link Button</string>
+    <string name="revanced_download_video_summary_off">Download Button ist ausgeblendet</string>
+    <string name="revanced_download_video_summary_on">Download Button ist sichtbar</string>
+    <string name="revanced_download_video_title">Download Button</string>
+    <string name="revanced_downloads_package_name_summary">"Paketname der Downloader-App wie NewPipe's oder PowerTube's"</string>
+    <string name="revanced_downloads_package_name_title">Paketname des Downloaders</string>
+    <string name="revanced_downloads_summary">Downloader festlegen</string>
+    <string name="revanced_downloads_title">Download-Einstellungen</string>
+    <string name="revanced_disable_new_layout_summary_off">YouTube-Layout folgt Ihrem Google-Kontostatus</string>
+    <string name="revanced_disable_new_layout_summary_on">Trickse die YouTube-Version aus, um das neue Layout zu deaktivieren</string>
+    <string name="revanced_disable_new_layout_title">Neues Layout deaktivieren (Experimentell)</string>
     <string name="revanced_create_button_summary_off">Die Erstellen-Schaltfläche wird nicht angezeigt</string>
     <string name="revanced_create_button_summary_on">Die Erstellen-Schaltfläche wird angezeigt</string>
     <string name="revanced_create_button_title">Erstellen-Schaltfläche</string>
     <string name="revanced_custom_playback_speed">Custom Playback Speed</string>
     <string name="revanced_custom_playback_speed_off">Custom Playback Speed is disabled</string>
     <string name="revanced_custom_playback_speed_on">Custom Playback Speed is enabled</string>
+    <string name="revanced_disable_auto_captions_summary_off">Bildunterschriften werden aktiviert, wenn ein Video mit Bildunterschrift abgespielt wird</string>
+    <string name="revanced_disable_auto_captions_summary_on">"Bildunterschriften werden nicht aktiviert, wenn ein Video mit Bildunterschrift abgespielt wird"</string>
+    <string name="revanced_disable_auto_captions_title">Automatischen Untertitel deaktivieren</string>
+    <string name="revanced_experimental_flag">Experimentelle Flags</string>
+    <string name="revanced_extended_settings">ReVanced Extended Einstellungen</string>
+    <string name="revanced_extended_summary">Extended Bezogene Einstellungen</string>
+    <string name="revanced_extended_title">Erweiterte Einstellungen</string>
+    <string name="revanced_force_fullscreen_rotation_summary_off">Vollbild-Drehung folgt den Standard-YouTube-Richtlinien</string>
+    <string name="revanced_force_fullscreen_rotation_summary_on">Trick die YouTube-Version um die Vollbildrotation zu aktivieren</string>
+    <string name="revanced_force_fullscreen_rotation_title">Vollbild-Drehung aktivieren (Experimentell)</string>
     <string name="revanced_hdr_full_brightness_summary_off">Video brightness is set to max on HDR landscape videos</string>
-    <string name="revanced_hdr_full_brightness_summary_on">"Video brightness will follow your device's brightness on HDR landscape videos"</string>
+    <string name="revanced_hdr_full_brightness_summary_on">Video brightness will follow your device\'s brightness on HDR landscape videos</string>
     <string name="revanced_hdr_full_brightness_title">Override HDR Video Brightness</string>
+    <string name="revanced_hide_create_clip_button_summary_off">Die Clip-Schaltfläche wird angezeigt</string>
+    <string name="revanced_hide_create_clip_button_summary_on">Die Clip-Schaltfläche wird nicht angezeigt</string>
+    <string name="revanced_hide_create_clip_button_title">Clip-Schaltfläche ausblenden</string>
+    <string name="revanced_hide_create_short_button_summary_off">Die Short-Schaltfläche wird angezeigt</string>
+    <string name="revanced_hide_create_short_button_summary_on">Erstelle Short-Schaltfläche ist ausgeblendet</string>
+    <string name="revanced_hide_create_short_button_title">Verstecke das Erstellen der Short-Schaltfläche</string>
+    <string name="revanced_hide_dislike_button_summary_off">Zeige den Dislike-Button</string>
+    <string name="revanced_hide_dislike_button_summary_on">Der Dislike-Button ist versteckt</string>
+    <string name="revanced_hide_dislike_button_title">Verstecke den Dislike-Button</string>
     <string name="revanced_home_ads_summary_off">Home ADS are hidden</string>
     <string name="revanced_home_ads_summary_on">Home ADS are shown</string>
     <string name="revanced_home_ads_title">Home ADS</string>
@@ -165,8 +212,8 @@ Is it ready to submit?"</string>
     <string name="revanced_info_cards_summary_on">Info cards are shown</string>
     <string name="revanced_info_cards_title">Info cards</string>
     <string name="revanced_layout_settings_title">Layout settings</string>
-    <string name="revanced_maximum_buffer_summary">"The maximum duration of media that the player will attempt to buffer (in milliseconds)
-        Default: 120000"</string>
+    <string name="revanced_maximum_buffer_summary">The maximum duration of media that the player will attempt to buffer (in milliseconds)
+        Default: 120000</string>
     <string name="revanced_maximum_buffer_title">Maximum buffer</string>
     <string name="revanced_minimized_playback">Background playback</string>
     <string name="revanced_minimized_playback_off">Background playback is disabled</string>
@@ -178,13 +225,13 @@ Is it ready to submit?"</string>
     <string name="revanced_old_style_quality_settings_summary_off">Using default style video quality settings</string>
     <string name="revanced_old_style_quality_settings_summary_on">Using old style video quality settings</string>
     <string name="revanced_old_style_quality_settings_title">Quality Settings style</string>
-    <string name="revanced_playback_start_summary">"The duration of media that must be buffered for playback to start or resume following a user action such as seeking (in milliseconds)
-        Default: 2500"</string>
+    <string name="revanced_playback_start_summary">The duration of media that must be buffered for playback to start or resume following a user action such as seeking (in milliseconds)
+        Default: 2500</string>
     <string name="revanced_playback_start_title">Playback start</string>
     <string name="revanced_preferred_video_speed_summary">Select preferred video speed</string>
     <string name="revanced_preferred_video_speed_title">Preferred video speed</string>
-    <string name="revanced_rebuffer_summary">"The duration of media that must be buffered for playback to resume after a rebuffer (in milliseconds). A rebuffer is defined to be caused by buffer depletion rather than a user action
-        Default: 5000"</string>
+    <string name="revanced_rebuffer_summary">The duration of media that must be buffered for playback to resume after a rebuffer (in milliseconds). A rebuffer is defined to be caused by buffer depletion rather than a user action
+        Default: 5000</string>
     <string name="revanced_rebuffer_title">Rebuffer</string>
     <string name="revanced_reel_summary_off">Stories are hidden</string>
     <string name="revanced_reel_summary_on">Stories are shown</string>
@@ -301,13 +348,13 @@ Is it ready to submit?"</string>
     <string name="skipped_unsubmitted">Skipped unsubmitted segment</string>
     <string name="stats">Stats</string>
     <string name="stats_loading">Loading..</string>
-    <string name="stats_saved">"You've saved people from &lt;b>%s&lt;/b> segments."</string>
-    <string name="stats_saved_sum">"That's &lt;b>%s&lt;/b> of their lives. Click to see the leaderboard"</string>
+    <string name="stats_saved">"You've saved people from &lt;b&gt;%s&lt;/b&gt; segments."</string>
+    <string name="stats_saved_sum">"That's &lt;b&gt;%s&lt;/b&gt; of their lives. Click to see the leaderboard"</string>
     <string name="stats_sb_disabled">SponsorBlock is disabled</string>
-    <string name="stats_self_saved">"You've skipped &lt;b>%s&lt;/b> segments."</string>
-    <string name="stats_self_saved_sum">"That's &lt;b>%s&lt;/b>."</string>
-    <string name="stats_submissions">Submissions: &lt;b>%s&lt;/b></string>
-    <string name="stats_username">Your username: &lt;b>%s&lt;/b></string>
+    <string name="stats_self_saved">"You've skipped &lt;b&gt;%s&lt;/b&gt; segments."</string>
+    <string name="stats_self_saved_sum">"That's &lt;b&gt;%s&lt;/b&gt;."</string>
+    <string name="stats_submissions">Submissions: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="stats_username">Your username: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="stats_username_change">Click to change your username</string>
     <string name="stats_username_change_unknown_error" formatted="false">Unable to change username: Status: %d %s</string>
     <string name="stats_username_changed">Username successfully changed</string>

@@ -4,6 +4,8 @@
     <string name="about_api">Ez az app a SponsorBlock API-ját használja</string>
     <string name="about_api_sum">Érintse meg itt, és tekintse meg a letöltéseket más platformokra: sponsor.ajay.app</string>
     <string name="about_madeby">Integrálta: JakubWeg; Újrakódolta: oSumAtrIX</string>
+    <string name="accessibility_settings_edu_opt_in_text">Bekapcsolja a kisegítő lehetőségeket a videó lejátszóban?</string>
+    <string name="accessibility_settings_edu_opt_out_text">A vezérlők módosultak, mert be van kapcsolva egy kisegítő szolgáltatás.</string>
     <string name="action_browser">SB Böngésző</string>
     <string name="action_segments">Szakaszok</string>
     <string name="api_url_changed">API URL megváltoztatva</string>
@@ -11,12 +13,13 @@
     <string name="api_url_reset">API URL visszaállítás</string>
     <string name="change">Módosítás</string>
     <string name="color_change">Módosítani szeretné a színeket?</string>
-    <string name="color_change_sum">Most már módosíthatja egy kategória színét, ha fent rájuk kattint.</string>
+    <string name="color_change_sum">"Most már módosíthatja egy kategória színét, ha fent rájuk kattint."</string>
     <string name="color_changed">Szín módosítva</string>
     <string name="color_choose_category">Válassza ki a kategóriát</string>
     <string name="color_invalid">Érvénytelen hex kód</string>
     <string name="color_reset">Szín visszaállítva</string>
     <string name="diff_segments">Mit tegyen a különböző részekkel</string>
+    <string name="downloader_not_installed_warning">nincs telepítve. Kérem tegye ezt meg.</string>
     <string name="enable_sb">SponsorBlock engedélyezése</string>
     <string name="enable_sb_sum">A SponsorBlock egy közönségi rendszer a zavaró részek átugrására a YouTube videókon</string>
     <string name="enable_segmadding">Új szakasz hozzáadásának engedélyezése</string>
@@ -27,7 +30,7 @@
     <string name="general_adjusting">Új szakasz léptetés beállítása</string>
     <string name="general_adjusting_sum">A milliszekundumok száma, amennyit az időbeállítás gombok használatakor tudsz lépni az új szakaszok hozzáadása közben</string>
     <string name="general_api_url">API URL megváltozása</string>
-    <string name="general_api_url_sum">Az a cím, amelyet a SponsorBlock a kiszolgálóhoz intézett hívásokhoz használ. &lt;b>Ne változtassa meg ezt, hacsak nem tudja, hogy mit csinál.&lt;/b></string>
+    <string name="general_api_url_sum">"Az a cím, amelyet a SponsorBlock a kiszolgálóhoz intézett hívásokhoz használ. &lt;b&gt;Ne változtassa meg ezt, hacsak nem tudja, hogy mit csinál.&lt;/b&gt;"</string>
     <string name="general_browser_button">SB Böngésző gomb engedélyezése</string>
     <string name="general_browser_button_sum">Ha erre a gombra kattint a lejátszó alatt, megnyílik az sb.ltn.fi oldal, ahol az összes szakasz látható a videón.</string>
     <string name="general_cache">Szakaszok gyorsítótározása helyileg</string>
@@ -99,6 +102,8 @@
     <string name="litho_shorts_shelf">Rövid videók Polc eltávolítása</string>
     <string name="litho_shorts_shelf_off">Rövid videók Polc eltávolítása ki van kapcsolva</string>
     <string name="litho_shorts_shelf_on">Rövid videók Polc eltávolítása be van kapcsolva</string>
+    <string name="microg_not_installed_notice">Kérem telepítse a MicroG-t</string>
+    <string name="microg_not_installed_warning">MicoG nem található</string>
     <string name="microg_notification_settings">Értesítési beállítások</string>
     <string name="microg_notification_settings_summary">"1. A Google eszközregisztrációt és a Google Cloud Messaging-et engedélyezni kell az értesítésekhez.
 2. A ReVancednek regisztráltnak kell lennie GCM-ben.
@@ -109,7 +114,7 @@
     <string name="new_segment_confirm_content" formatted="false">"A szakasz %02d:%02d -től %02d:%02d -ig tart (%d perc %02d másodperc)
 Készen áll a beküldésre?"</string>
     <string name="new_segment_confirm_title">Helyesek az idők?</string>
-    <string name="new_segment_disabled_category">Kikapcsolta ezt a kategóriát a beállításokban, kapcsolja vissza, hogy beküldhesse</string>
+    <string name="new_segment_disabled_category">"Kikapcsolta ezt a kategóriát a beállításokban, kapcsolja vissza, hogy beküldhesse"</string>
     <string name="new_segment_edit_by_hand_content">Akarja szerkeszteni a szakasz kezdetének, vagy végének az időzítését?</string>
     <string name="new_segment_edit_by_hand_parse_error">Érvénytelen időt adott meg</string>
     <string name="new_segment_edit_by_hand_saved">Kész</string>
@@ -127,6 +132,10 @@ Készen áll a beküldésre?"</string>
     <string name="pref_subtitles_scale_normal">Normál</string>
     <string name="reset">Visszaállítás</string>
     <string name="revanced_ad_settings_title">Hirdetési beállítások</string>
+    <string name="revanced_ad_settings_summary">Reklámokkal kapcsolatos beállítások</string>
+    <string name="revanced_auto_captions_summary_off">"A feliratok nincsenek automatikusan engedélyezve 0% hangerőn"</string>
+    <string name="revanced_auto_captions_summary_on">A feliratok automatikusan engedélyezve vannak 0% hangerőn</string>
+    <string name="revanced_auto_captions_title">Automatikus feliratok</string>
     <string name="revanced_auto_repeat_button_summary_off">Nem mutatja az automata ismétlés gombot a lejátszó átfedésében. Használja a lenti kapcsolót az automata ismétlés kezeléséhez</string>
     <string name="revanced_auto_repeat_button_summary_on">Automatikus ismétlés gomb látható a lejátszó átfedésben</string>
     <string name="revanced_auto_repeat_button_title">Automatikus ismétlés gomb</string>
@@ -139,22 +148,44 @@ Készen áll a beküldésre?"</string>
     <string name="revanced_branding_watermark_summary_off">A videó vízjele rejtve van</string>
     <string name="revanced_branding_watermark_summary_on">A videó vízjele látható</string>
     <string name="revanced_branding_watermark_title">Videó vízjel</string>
+    <string name="revanced_buffer_summary">Egyéni beállítások a videó bufferhez</string>
     <string name="revanced_buffer_title">Puffer beállítások</string>
+    <string name="revanced_button_location_entry_both">Mindkettő</string>
+    <string name="revanced_button_location_entry_buttoncontainer">Lejátszó alatt</string>
+    <string name="revanced_button_location_entry_none">Rejtett</string>
+    <string name="revanced_button_location_entry_player">Lejátszóban</string>
+    <string name="revanced_button_container_summary">Elrejti a gombtároló összetevőjét</string>
+    <string name="revanced_button_container_title">Gombtároló elrejtése (Kísérleti)</string>
+    <string name="revanced_button_container_warning_summary">ez a funkció nem támogatja teljesen az új elrendezést!</string>
     <string name="revanced_cast_button_summary_off">Az átküldés gomb rejtve van</string>
     <string name="revanced_cast_button_summary_on">Az átküldés gomb látható</string>
     <string name="revanced_cast_button_title">Átküldés gomb</string>
+    <string name="revanced_codec_override_title">Kodek felülbírálása</string>
     <string name="revanced_copy_video_url_summary_off">Link másolása gomb elrejtve a lejátszó átfedésben</string>
     <string name="revanced_copy_video_url_summary_on">Link másolása gomb látható a lejátszó átfedésben</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Link másolása Időponttal gomb elrejtve a lejátszó átfedésben</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Link másolása Időponttal gomb látható a lejátszó átfedésben</string>
     <string name="revanced_copy_video_url_timestamp_title">Link másolása Időponttal</string>
     <string name="revanced_copy_video_url_title">Link másolása</string>
+    <string name="revanced_download_video_summary_off">Letöltés gomb elrejtve</string>
+    <string name="revanced_download_video_summary_on">Letöltés gomb látszik</string>
+    <string name="revanced_download_video_title">Letöltés Gomb</string>
+    <string name="revanced_downloads_package_name_title">Letöltő package neve</string>
+    <string name="revanced_downloads_summary">Letöltő beállítása</string>
+    <string name="revanced_downloads_title">Letöltési beállítások</string>
+    <string name="revanced_disable_new_layout_summary_off">YouTube Layout a Google fiókjá státuszát fogja követni</string>
+    <string name="revanced_disable_new_layout_title">Új Layout Letiltása (Kísérleti)</string>
     <string name="revanced_create_button_summary_off">Létrehozás gomb el van rejtve</string>
     <string name="revanced_create_button_summary_on">Létrehozás gomb látható</string>
     <string name="revanced_create_button_title">Létrehozás gomb</string>
     <string name="revanced_custom_playback_speed">Egyéni Lejátszási Sebesség</string>
     <string name="revanced_custom_playback_speed_off">Egyéni Lejátszási Sebesség ki van kapcsolva</string>
     <string name="revanced_custom_playback_speed_on">Egyéni Lejátszási Sebesség be van kapcsolva</string>
+    <string name="revanced_disable_auto_captions_title">Automatikus Feliratok Letiltása</string>
+    <string name="revanced_experimental_flag">Kísérleti Flagek</string>
+    <string name="revanced_extended_settings">ReVanced Extended beállítások</string>
+    <string name="revanced_extended_summary">Extendeddel kapcsolatos beállítások</string>
+    <string name="revanced_extended_title">Extended beállítások</string>
     <string name="revanced_hdr_full_brightness_summary_off">A videó fényereje maximumra állítva HDR videóknál, fektetett nézetben</string>
     <string name="revanced_hdr_full_brightness_summary_on">A videó fényereje követni fogja a készüléked fényerejét a fekvő HDR videókban</string>
     <string name="revanced_hdr_full_brightness_title">HDR videó fényerő felülírása</string>
@@ -165,8 +196,8 @@ Készen áll a beküldésre?"</string>
     <string name="revanced_info_cards_summary_on">Infó kártyák láthatóak</string>
     <string name="revanced_info_cards_title">Infó kártyák</string>
     <string name="revanced_layout_settings_title">Elrendezési beállítások</string>
-    <string name="revanced_maximum_buffer_summary">"A maximális média hossza, amit a lejátszó megpróbál pufferelni (milliszekundumban)
-        Alapértelmezett: 120000"</string>
+    <string name="revanced_maximum_buffer_summary">A maximális média hossza, amit a lejátszó megpróbál pufferelni (milliszekundumban)
+        Alapértelmezett: 120000</string>
     <string name="revanced_maximum_buffer_title">Maximális puffer</string>
     <string name="revanced_minimized_playback">Lejátszás a háttérben</string>
     <string name="revanced_minimized_playback_off">Lejátszás a háttérben ki van kapcsolva</string>
@@ -178,13 +209,13 @@ Készen áll a beküldésre?"</string>
     <string name="revanced_old_style_quality_settings_summary_off">Using default style video quality settings</string>
     <string name="revanced_old_style_quality_settings_summary_on">Using old style video quality settings</string>
     <string name="revanced_old_style_quality_settings_title">Quality Settings style</string>
-    <string name="revanced_playback_start_summary">"The duration of media that must be buffered for playback to start or resume following a user action such as seeking (in milliseconds)
-        Default: 2500"</string>
+    <string name="revanced_playback_start_summary">The duration of media that must be buffered for playback to start or resume following a user action such as seeking (in milliseconds)
+        Default: 2500</string>
     <string name="revanced_playback_start_title">Playback start</string>
     <string name="revanced_preferred_video_speed_summary">Select preferred video speed</string>
     <string name="revanced_preferred_video_speed_title">Preferred video speed</string>
-    <string name="revanced_rebuffer_summary">"The duration of media that must be buffered for playback to resume after a rebuffer (in milliseconds). A rebuffer is defined to be caused by buffer depletion rather than a user action
-        Default: 5000"</string>
+    <string name="revanced_rebuffer_summary">The duration of media that must be buffered for playback to resume after a rebuffer (in milliseconds). A rebuffer is defined to be caused by buffer depletion rather than a user action
+        Default: 5000</string>
     <string name="revanced_rebuffer_title">Rebuffer</string>
     <string name="revanced_reel_summary_off">Történetek elrejtve</string>
     <string name="revanced_reel_summary_on">Történetek láthatóak</string>
@@ -301,13 +332,13 @@ Készen áll a beküldésre?"</string>
     <string name="skipped_unsubmitted">Skipped unsubmitted segment</string>
     <string name="stats">Stats</string>
     <string name="stats_loading">Loading..</string>
-    <string name="stats_saved">"You've saved people from &lt;b>%s&lt;/b> segments."</string>
-    <string name="stats_saved_sum">"That's &lt;b>%s&lt;/b> of their lives. Click to see the leaderboard"</string>
+    <string name="stats_saved">"You've saved people from &lt;b&gt;%s&lt;/b&gt; segments."</string>
+    <string name="stats_saved_sum">"That's &lt;b&gt;%s&lt;/b&gt; of their lives. Click to see the leaderboard"</string>
     <string name="stats_sb_disabled">SponsorBlock is disabled</string>
-    <string name="stats_self_saved">"You've skipped &lt;b>%s&lt;/b> segments."</string>
-    <string name="stats_self_saved_sum">"That's &lt;b>%s&lt;/b>."</string>
-    <string name="stats_submissions">Submissions: &lt;b>%s&lt;/b></string>
-    <string name="stats_username">Your username: &lt;b>%s&lt;/b></string>
+    <string name="stats_self_saved">"You've skipped &lt;b&gt;%s&lt;/b&gt; segments."</string>
+    <string name="stats_self_saved_sum">"That's &lt;b&gt;%s&lt;/b&gt;."</string>
+    <string name="stats_submissions">Submissions: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="stats_username">Your username: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="stats_username_change">Click to change your username</string>
     <string name="stats_username_change_unknown_error" formatted="false">Unable to change username: Status: %d %s</string>
     <string name="stats_username_changed">Username successfully changed</string>

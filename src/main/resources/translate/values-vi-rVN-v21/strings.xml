@@ -4,6 +4,8 @@
     <string name="about_api">Ứng dụng này sử dụng API từ SponsorBlock</string>
     <string name="about_api_sum">Nhấn để tìm hiểu thêm và xem tải xuống cho các nền tảng khác tại: sponsor.ajay.app</string>
     <string name="about_madeby">Tích hợp này được thực hiện bởi JakubWeg, lập trình lại bởi oSumAtrIX</string>
+    <string name="accessibility_settings_edu_opt_in_text">Bật các điều khiển trợ năng cho trình phát video?</string>
+    <string name="accessibility_settings_edu_opt_out_text">Các điều khiển của bạn đã được sửa đổi vì dịch vụ trợ năng đang bật.</string>
     <string name="action_browser">Trình duyệt SB</string>
     <string name="action_segments">Phân đoạn</string>
     <string name="api_url_changed">URL API đã thay đổi</string>
@@ -181,8 +183,6 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_custom_playback_speed">Tốc độ phát tùy chỉnh</string>
     <string name="revanced_custom_playback_speed_off">Tốc độ phát tùy chỉnh bị vô hiệu hoá</string>
     <string name="revanced_custom_playback_speed_on">Tốc độ phát tùy chỉnh được kích hoạt</string>
-    <string name="revanced_debug_summary_off">Nhật ký gỡ lỗi bổ sung bị vô hiệu hoá</string>
-    <string name="revanced_debug_summary_on">Nhật ký gỡ lỗi bổ sung được kích hoạt</string>
     <string name="revanced_disable_auto_captions_summary_off">Phụ đề được kích hoạt khi phát video có phụ đề</string>
     <string name="revanced_disable_auto_captions_summary_on">"Phụ đề không được kích hoạt khi phát video có phụ đề"</string>
     <string name="revanced_disable_auto_captions_title">Vô hiệu hoá Phụ đề tự động</string>
@@ -315,10 +315,10 @@ Bạn có chắc chắn muốn tiếp tục không?"</string>
     <string name="revanced_suggestion_title">Màn hình kết thúc</string>
     <string name="revanced_swipe_auto_brightness_summary_off">Vuốt Độ sáng tự động bị vô hiệu hoá</string>
     <string name="revanced_swipe_auto_brightness_summary_on">Vuốt Độ sáng tự động được kích hoạt</string>
-    <string name="revanced_swipe_auto_brightness_title">Kích hoạt cử chỉ Vuốt Độ sáng tự động</string>
+    <string name="revanced_swipe_auto_brightness_title">Kích hoạt Cử chỉ Vuốt Độ sáng tự động</string>
     <string name="revanced_swipe_brightness_summary_off">Vuốt Độ sáng bị vô hiệu hoá</string>
     <string name="revanced_swipe_brightness_summary_on">Vuốt Độ sáng được kích hoạt</string>
-    <string name="revanced_swipe_brightness_title">Kích hoạt cử chỉ Vuốt Độ sáng</string>
+    <string name="revanced_swipe_brightness_title">Kích hoạt Cử chỉ Vuốt Độ sáng</string>
     <string name="revanced_swipe_magnitude_threshold_summary">Độ rộng của ngưỡng vuốt để cử chỉ vuốt xảy ra</string>
     <string name="revanced_swipe_magnitude_threshold_title">Độ rộng ngưỡng vuốt</string>
     <string name="revanced_swipe_overlay_bg_alpha_summary">Độ trong suốt của nền lớp phủ vuốt</string>
@@ -332,7 +332,7 @@ Bạn có chắc chắn muốn tiếp tục không?"</string>
     <string name="revanced_swipe_pts_haptic_title">Kích hoạt Phản hồi xúc giác</string>
     <string name="revanced_swipe_pts_summary_off">Nhấn để vuốt bị vô hiệu hoá</string>
     <string name="revanced_swipe_pts_summary_on">Nhấn để vuốt được kích hoạt</string>
-    <string name="revanced_swipe_pts_title">Kích hoạt cử chỉ Nhấn để vuốt</string>
+    <string name="revanced_swipe_pts_title">Kích hoạt Cử chỉ Nhấn để vuốt</string>
     <string name="revanced_swipe_screen_summary">Điều khiển vuốt cho Độ sáng và Âm lượng</string>
     <string name="revanced_swipe_tablet_summary_off">Kiểu máy tính bảng đã tắt</string>
     <string name="revanced_swipe_tablet_summary_on">Kiểu máy tính bảng đang bật. Ví dụ: các video được đề xuất chỉ hoạt động một phần</string>
@@ -341,7 +341,7 @@ Bạn có chắc chắn muốn tiếp tục không?"</string>
     <string name="revanced_swipe_title">Điều khiển vuốt</string>
     <string name="revanced_swipe_volume_summary_off">Vuốt Âm lượng bị vô hiệu hoá</string>
     <string name="revanced_swipe_volume_summary_on">Vuốt Âm lượng được kích hoạt</string>
-    <string name="revanced_swipe_volume_title">Kích hoạt cử chỉ Vuốt Âm lượng</string>
+    <string name="revanced_swipe_volume_title">Kích hoạt Cử chỉ Vuốt Âm lượng</string>
     <string name="revanced_tablet_miniplayer_summary_off">Trình phát thu nhỏ của máy tính bảng bị vô hiệu hoá</string>
     <string name="revanced_tablet_miniplayer_summary_on">Trình phát thu nhỏ của máy tính bảng được kích hoạt</string>
     <string name="revanced_tablet_miniplayer_title">Trình phát thu nhỏ của máy tính bảng</string>

@@ -178,12 +178,11 @@
     <string name="revanced_custom_playback_speed">自訂播放速度</string>
     <string name="revanced_custom_playback_speed_off">自訂播放速度已停用</string>
     <string name="revanced_custom_playback_speed_on">自訂播放速度已啟用</string>
-    <string name="revanced_debug_summary_off">額外的除蟲日誌已停用</string>
-    <string name="revanced_debug_summary_on">額外的除蟲日誌已啟用</string>
     <string name="revanced_disable_auto_captions_summary_off">強制播放帶字幕的影片時啟用字幕</string>
     <string name="revanced_disable_auto_captions_summary_on">"強制播放帶字幕的影片時不啟用字幕"</string>
     <string name="revanced_disable_auto_captions_title">停用自動字幕</string>
     <string name="revanced_experimental_flag">實驗標誌</string>
+    <string name="revanced_extended_settings">ReVanced Extended 設定</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">全螢幕旋轉遵循預設的 YouTube 政策</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">偽裝 YouTube 版本以啟用全螢幕旋轉</string>
     <string name="revanced_force_fullscreen_rotation_title">啟用全螢幕旋轉（實驗性）</string>
@@ -205,8 +204,6 @@
     <string name="revanced_hide_external_comment_box_summary_off">External comment box is shown</string>
     <string name="revanced_hide_external_comment_box_summary_on">External comment box is hidden</string>
     <string name="revanced_hide_external_comment_box_title">Hide external comment box</string>
-    <string name="revanced_hide_live_chat_button_off">直播聊天室按鈕已顯示</string>
-    <string name="revanced_hide_live_chat_button_on">直播聊天室按鈕已隱藏</string>
     <string name="revanced_hide_live_chat_button_title">隱藏直播聊天室按鈕</string>
     <string name="revanced_hide_report_button_summary_off">檢舉按鈕已顯示</string>
     <string name="revanced_hide_report_button_summary_on">檢舉按鈕已隱藏</string>

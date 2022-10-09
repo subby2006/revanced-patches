@@ -2,21 +2,24 @@
 <resources>
     <string name="about">के बारे में</string>
     <string name="about_api">यह ऐप SponsorBlock से API का उपयोग करता है</string>
-    <string name="about_api_sum">अधिक सीखने के लिए टैप करें, और अन्य प्लेटफॉर्म के लिए डाउनलोड देखें: sponsor.ajay.app</string>
-    <string name="about_madeby">दJakubWeg द्वारा बनाया गया एकीकरण, द्वारा पुन: कोडित किया गया oSumAtrIX</string>
+    <string name="about_api_sum">अधिक जानकारी के लिए टैप करें, और अन्य प्लेटफॉर्म के लिए डाउनलोड देखें: sponsor.ajay.app</string>
+    <string name="about_madeby">JakubWeg द्वारा बनाया गया एकीकरण, द्वारा पुन: कोडित किया गया oSumAtrIX</string>
+    <string name="accessibility_settings_edu_opt_in_text">वीडियो प्लेयर के लिए सुलभता नियंत्रण चालू करें?</string>
+    <string name="accessibility_settings_edu_opt_out_text">एक्सेसिबिलिटी सर्विसेज की वजह से आपके कंट्रोल्स बदल गए है</string>
     <string name="action_browser">SB ब्राउज़र</string>
     <string name="action_segments">सेगमेंट</string>
-    <string name="api_url_changed">API URL बदला हुआ</string>
-    <string name="api_url_invalid">प्रोवाइडेड API URL अमान्य हो</string>
-    <string name="api_url_reset">API URL रीसेट</string>
+    <string name="api_url_changed">API URL बदला गया</string>
+    <string name="api_url_invalid">API URL अमान्य है </string>
+    <string name="api_url_reset">API URL रीसेट करें </string>
     <string name="change">परिवर्तन</string>
     <string name="color_change">क्या आप रंग बदलने की तलाश में हैं?</string>
-    <string name="color_change_sum">अब आप किसी श्रेणी के ऊपर उस पर क्लिक करके उसका रंग बदल सकते हैं।</string>
+    <string name="color_change_sum">"अब आप किसी श्रेणी के ऊपर उस पर क्लिक करके उसका रंग बदल सकते हैं।"</string>
     <string name="color_changed">रंग बदल गया</string>
     <string name="color_choose_category">श्रेणी चुनें</string>
     <string name="color_invalid">अमान्य hex कोड</string>
     <string name="color_reset">रंग रीसेट</string>
     <string name="diff_segments">विभिन्न खंडों के साथ क्या करना है</string>
+    <string name="downloader_not_installed_warning">इनस्टॉल नहीं है| कृपया इनस्टॉल करे</string>
     <string name="enable_sb">SponsorBlock सक्षम करें</string>
     <string name="enable_sb_sum">SponsorBlock YouTube वीडियो में कष्टप्रद भागों को छोड़ने के लिए एक भीड़-भाड़ वाली प्रणाली है</string>
     <string name="enable_segmadding">नया सेगमेंट जोड़ना सक्षम करें</string>
@@ -27,7 +30,7 @@
     <string name="general_adjusting">नया खंड चरण समायोजित करना</string>
     <string name="general_adjusting_sum">जब आप नया खंड जोड़ते समय समय समायोजन बटन का उपयोग करते हैं तो यह मिलीसेकंड की संख्या है जिसे आप स्थानांतरित कर सकते हैं</string>
     <string name="general_api_url">API URL बदलें</string>
-    <string name="general_api_url_sum">पता SponsorBlock सर्वर पर कॉल करने के लिए उपयोग करता है। <b>इसे तब तक न बदलें जब तक आपको पता न हो कि आप क्या कर रहे हैं।</b>पता SponsorBlock सर्वर पर कॉल करने के लिए उपयोग करता है। <b>इसे तब तक न बदलें जब तक आपको पता न हो कि आप क्या कर रहे हैं।</b></string>
+    <string name="general_api_url_sum">"पता SponsorBlock सर्वर पर कॉल करने के लिए उपयोग करता है। <b>इसे तब तक न बदलें जब तक आपको पता न हो कि आप क्या कर रहे हैं।</b>पता SponsorBlock सर्वर पर कॉल करने के लिए उपयोग करता है। <b>इसे तब तक न बदलें जब तक आपको पता न हो कि आप क्या कर रहे हैं।</b>"</string>
     <string name="general_browser_button">SB ब्राउज़र बटन सक्षम करें</string>
     <string name="general_browser_button_sum">इस बटन पर क्लिक करने पर प्लेयर के नीचे खुल जाएगा sb.ltn.fi जहां आप वीडियो के सभी सेगमेंट देख सकते हैं।</string>
     <string name="general_cache">कैश सेगमेंट स्थानीय रूप से</string>
@@ -99,6 +102,8 @@
     <string name="litho_shorts_shelf">शॉर्ट्स शेल्फ हटाना</string>
     <string name="litho_shorts_shelf_off">शॉर्ट्स शेल्फ़ निकालना बंद है</string>
     <string name="litho_shorts_shelf_on">शॉर्ट्स शेल्फ़ निकालना चालू है</string>
+    <string name="microg_not_installed_notice">कृपया MicroG इंस्टॉल करें</string>
+    <string name="microg_not_installed_warning">MicroG नहीं मिला</string>
     <string name="microg_notification_settings">नोटिफिकेशन सेटिंग्स</string>
     <string name="microg_notification_settings_summary">"1. सूचनाओं के लिए Google डिवाइस पंजीकरण और क्लाउड मैसेजिंग को सक्षम करने की आवश्यकता है।
 2. ReVanced को Cloud Messaging के तहत पंजीकृत के रूप में दिखाया जाना चाहिए।
@@ -109,7 +114,7 @@
     <string name="new_segment_confirm_content" formatted="false">"खंड %02d:%02d से %02d:%02d (%d मिनट %02d सेकंड) तक रहता है
 क्या यह सबमिट करने के लिए तैयार है?"</string>
     <string name="new_segment_confirm_title">क्या समय सही हैं?</string>
-    <string name="new_segment_disabled_category">आपने सेटिंग में इस श्रेणी को अक्षम कर दिया है, सबमिट करने के लिए सक्षम करें</string>
+    <string name="new_segment_disabled_category">"आपने सेटिंग में इस श्रेणी को अक्षम कर दिया है, सबमिट करने के लिए सक्षम करें"</string>
     <string name="new_segment_edit_by_hand_content">क्या आप खंड के प्रारंभ या समाप्ति के लिए समय संपादित करना चाहते हैं?</string>
     <string name="new_segment_edit_by_hand_parse_error">अमान्य समय दिया गया</string>
     <string name="new_segment_edit_by_hand_saved">हो गया</string>
@@ -127,6 +132,10 @@
     <string name="pref_subtitles_scale_normal">सामान्य</string>
     <string name="reset">रीसेट</string>
     <string name="revanced_ad_settings_title">विज्ञापन सेटिंग्स</string>
+    <string name="revanced_ad_settings_summary">विज्ञापन सम्बंधित सेटिंग्स</string>
+    <string name="revanced_auto_captions_summary_off">"कैप्शन 0% वॉल्यूम पर स्वचालित रूप से सक्षम नहीं होते हैं"</string>
+    <string name="revanced_auto_captions_summary_on">कैप्शन 0% वॉल्यूम पर स्वचालित रूप से सक्षम होते हैं</string>
+    <string name="revanced_auto_captions_title">ऑटो कॅप्शन्स</string>
     <string name="revanced_auto_repeat_button_summary_off">प्लेयर ओवरले में ऑटो-रिपीट बटन नहीं दिखाता है। ऑटो-रिपीट को नियंत्रित करने के लिए नीचे दिए गए टॉगल का उपयोग करें</string>
     <string name="revanced_auto_repeat_button_summary_on">प्लेयर ओवरले में ऑटो-रिपीट बटन दिखाया गया है</string>
     <string name="revanced_auto_repeat_button_title">ऑटो-रिपीट बटन</string>
@@ -139,38 +148,110 @@
     <string name="revanced_branding_watermark_summary_off">वीडियो वॉटरमार्क छिपा हुआ है</string>
     <string name="revanced_branding_watermark_summary_on">वीडियो वॉटरमार्क दिखाया गया है</string>
     <string name="revanced_branding_watermark_title">वीडियो वॉटरमार्क</string>
+    <string name="revanced_buffer_summary">वीडियो बफर के लिए कस्टम सेटिंग्स</string>
     <string name="revanced_buffer_title">बफर सेटिंग्स</string>
+    <string name="revanced_button_location_entry_both">दोनों</string>
+    <string name="revanced_button_location_entry_buttoncontainer">बटन के निचे</string>
+    <string name="revanced_button_location_entry_none">छुपा हुआ</string>
+    <string name="revanced_button_location_entry_player">प्लेयर में</string>
+    <string name="revanced_button_container_summary">बटन कंटेनर के घटक को छुपाता है</string>
+    <string name="revanced_button_container_title">बटन कंटेनर छुपाएं (प्रयोगात्मक)</string>
+    <string name="revanced_button_container_warning_summary">यह सुविधा पूरी तरह से नए लेआउट का समर्थन नहीं करती है!</string>
     <string name="revanced_cast_button_summary_off">कास्ट बटन छिपा हुआ है</string>
     <string name="revanced_cast_button_summary_on">कास्ट बटन दिखाया गया है</string>
     <string name="revanced_cast_button_title">कास्ट बटन</string>
+    <string name="revanced_codec_override_title">कोडेक ओवरराइड</string>
     <string name="revanced_copy_video_url_summary_off">कॉपी लिंक बटन प्लेयर ओवरले से छिपा हुआ है</string>
     <string name="revanced_copy_video_url_summary_on">कॉपी लिंक बटन प्लेयर ओवरले में दिखाया गया है</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">टाइमस्टैम्प के साथ कॉपी लिंक बटन प्लेयर ओवरले से छिपा हुआ है</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">टाइमस्टैम्प के साथ कॉपी लिंक बटन प्लेयर ओवरले में दिखाया गया है</string>
     <string name="revanced_copy_video_url_timestamp_title">टाइमस्टैम्प के साथ लिंक बटन कॉपी करें</string>
     <string name="revanced_copy_video_url_title">कॉपी लिंक बटन</string>
+    <string name="revanced_download_video_summary_off">डाउनलोड बटन छिपा हुआ है</string>
+    <string name="revanced_download_video_summary_on">डाउनलोड बटन दिख रहा है</string>
+    <string name="revanced_download_video_title">डाउनलोड बटन</string>
+    <string name="revanced_downloads_package_name_summary">"डाउनलोडर ऐप का पैकेज नाम जैसे NewPipe's या PowerTube's"</string>
+    <string name="revanced_downloads_package_name_title">डाउनलोडर पैकेज का नाम</string>
+    <string name="revanced_downloads_summary">डौन्लोडर सेट करे</string>
+    <string name="revanced_downloads_title">डाउनलोड सेटिंग्स</string>
+    <string name="revanced_disable_new_layout_summary_off">YouTube लेआउट आपके Google खाते की स्थिति का अनुसरण करेगा</string>
+    <string name="revanced_disable_new_layout_summary_on">नए लेआउट को अक्षम करने के लिए मजबूर करने के लिए YouTube संस्करण को चकमा दें</string>
+    <string name="revanced_disable_new_layout_title">नया लेआउट अक्षम करें (प्रायोगिक)</string>
     <string name="revanced_create_button_summary_off">बनाएँ बटन छिपा हुआ है</string>
     <string name="revanced_create_button_summary_on">बनाएँ बटन दिखाया गया है</string>
     <string name="revanced_create_button_title">बटन बनाएं</string>
     <string name="revanced_custom_playback_speed">कस्टम प्लेबैक स्पीड</string>
     <string name="revanced_custom_playback_speed_off">कस्टम प्लेबैक स्पीड अक्षम है</string>
     <string name="revanced_custom_playback_speed_on">कस्टम प्लेबैक स्पीड सक्षम है</string>
+    <string name="revanced_disable_auto_captions_summary_off">कैप्शन के साथ वीडियो चलाने पर कैप्शन सक्षम होते हैं</string>
+    <string name="revanced_disable_auto_captions_summary_on">"कैप्शन के साथ वीडियो चलाने पर कैप्शन सक्षम नहीं होते हैं"</string>
+    <string name="revanced_disable_auto_captions_title">ऑटो कैप्शन अक्षम करें</string>
+    <string name="revanced_experimental_flag">प्रायोगिक झंडे</string>
+    <string name="revanced_extended_settings">ReVanced Extended सेटिंग्स</string>
+    <string name="revanced_extended_summary">विस्तारित संबंधित सेटिंग्स</string>
+    <string name="revanced_extended_title">विस्तारित सेटिंग्स</string>
+    <string name="revanced_force_fullscreen_rotation_summary_off">फ़ुलस्क्रीन रोटेशन डिफ़ॉल्ट YouTube नीति का पालन करता है</string>
+    <string name="revanced_force_fullscreen_rotation_summary_on">फ़ुलस्क्रीन रोटेशन को सक्षम करने के लिए YouTube संस्करण को चकमा दें</string>
+    <string name="revanced_force_fullscreen_rotation_title">फ़ुलस्क्रीन रोटेशन सक्षम करें (प्रयोगात्मक)</string>
     <string name="revanced_hdr_full_brightness_summary_off">एचडीआर लैंडस्केप वीडियो पर वीडियो की चमक अधिकतम पर सेट है</string>
     <string name="revanced_hdr_full_brightness_summary_on">एचडीआर लैंडस्केप वीडियो पर वीडियो की चमक आपके डिवाइस की चमक का अनुसरण करेगी</string>
     <string name="revanced_hdr_full_brightness_title">एचडीआर वीडियो की चमक को ओवरराइड करें</string>
+    <string name="revanced_hide_create_clip_button_summary_off">क्लिप बटन दिखाया गया है</string>
+    <string name="revanced_hide_create_clip_button_summary_on">क्लिप बटन छिपा हुआ है</string>
+    <string name="revanced_hide_create_clip_button_title">क्लिप बटन छुपाएं</string>
+    <string name="revanced_hide_create_short_button_summary_off">Create short बटन दिखाया गया है</string>
+    <string name="revanced_hide_create_short_button_summary_on">Create short बटन छिपा हुआ है</string>
+    <string name="revanced_hide_create_short_button_title">Create short बटन छुपाएं</string>
+    <string name="revanced_hide_dislike_button_summary_off">नापसंद बटन दिखाया गया है</string>
+    <string name="revanced_hide_dislike_button_summary_on">नापसंद बटन छिपा हुआ है</string>
+    <string name="revanced_hide_dislike_button_title">नापसंद बटन छुपाएं </string>
+    <string name="revanced_hide_download_button_summary_off">डाउनलोड बटन दिखाया गया है</string>
+    <string name="revanced_hide_download_button_summary_on">डाउनलोड बटन छिपा हुआ है</string>
+    <string name="revanced_hide_download_button_title">डाउनलोड बटन छुपाएं</string>
+    <string name="revanced_hide_email_address_summary_off">ईमेल एड्रेस छिपा हुआ है</string>
+    <string name="revanced_hide_email_address_summary_on">ईमेल एड्रेस दिख रहा है</string>
+    <string name="revanced_hide_email_address_title">Email पता</string>
+    <string name="revanced_hide_external_comment_box_summary_off">बाहरी टिप्पणी बॉक्स दिखाया गया है</string>
+    <string name="revanced_hide_external_comment_box_summary_on">बाहरी टिप्पणी बॉक्स छिपा हुआ है</string>
+    <string name="revanced_hide_external_comment_box_title">बाहरी टिप्पणी बॉक्स छुपाएं</string>
+    <string name="revanced_hide_like_button_summary_off">लाइक बटन दिखाया गया है</string>
+    <string name="revanced_hide_like_button_summary_on">लाइक बटन छुपा हुआ है</string>
+    <string name="revanced_hide_like_button_title">लाइक बटन छुपाएं </string>
+    <string name="revanced_hide_live_chat_button_summary_off">लाइव चैट बटन दिखाया गया है</string>
+    <string name="revanced_hide_live_chat_button_summary_on">लाइव चैट बटन छिपा हुआ है</string>
+    <string name="revanced_hide_live_chat_button_title">लाइव चैट बटन छुपाएं</string>
+    <string name="revanced_hide_playlist_button_summary_off">प्लेलिस्ट बटन दिखाया गया है</string>
+    <string name="revanced_hide_playlist_button_summary_on">प्लेलिस्ट बटन छिपा हुआ है</string>
+    <string name="revanced_hide_playlist_button_title">प्लेलिस्ट बटन छुपाएं</string>
+    <string name="revanced_hide_report_button_summary_off">रिपोर्ट बटन दिखाया गया है</string>
+    <string name="revanced_hide_report_button_summary_on">रिपोर्ट बटन छिपा हुआ है</string>
+    <string name="revanced_hide_report_button_title">रिपोर्ट बटन छुपाएं</string>
+    <string name="revanced_hide_share_button_summary_off">शेयर बटन दिखाया गया है</string>
+    <string name="revanced_hide_share_button_summary_on">शेयर बटन छिपा हुआ है</string>
+    <string name="revanced_hide_share_button_title">शेयर बटन छुपाएं</string>
+    <string name="revanced_hide_spoiler_comment_summary_off">स्पॉयलर टिप्पणी दिखाई गई है</string>
+    <string name="revanced_hide_spoiler_comment_summary_on">स्पॉयलर कमेंट छिपा हुआ है</string>
+    <string name="revanced_hide_spoiler_comment_title">स्पॉइलर टिप्पणी छुपाएं</string>
+    <string name="revanced_hide_thanks_button_summary_off">धन्यवाद बटन दिखाया गया है</string>
+    <string name="revanced_hide_thanks_button_summary_on">धन्यवाद बटन छिपा हुआ है</string>
+    <string name="revanced_hide_thanks_button_title">थैंक्स बटन छुपाएं</string>
     <string name="revanced_home_ads_summary_off">होम विज्ञापन छिपे हुए हैं</string>
     <string name="revanced_home_ads_summary_on">होम विज्ञापन दिखाए जाते हैं</string>
     <string name="revanced_home_ads_title">होम विज्ञापन</string>
     <string name="revanced_info_cards_summary_off">जानकारी कार्ड छिपे हुए हैं</string>
     <string name="revanced_info_cards_summary_on">जानकारी कार्ड दिखाए गए हैं</string>
     <string name="revanced_info_cards_title">जानकारी कार्ड</string>
+    <string name="revanced_interactions_summary">इंटरैक्शन से संबंधित सेटिंग</string>
+    <string name="revanced_interactions_title">इंटरैक्शन सेटिंग्स</string>
+    <string name="revanced_layout_settings_summary">लेआउट से संबंधित सेटिंग्स</string>
     <string name="revanced_layout_settings_title">लेआउट सेटिंग</string>
-    <string name="revanced_maximum_buffer_summary">"मीडिया की अधिकतम अवधि जिसे खिलाड़ी बफ़र करने का प्रयास करेगा (मिलीसेकंड में)
-        चूक: 120000"</string>
+    <string name="revanced_maximum_buffer_summary">मीडिया की अधिकतम अवधि जिसे खिलाड़ी बफ़र करने का प्रयास करेगा (मिलीसेकंड में)
+        चूक: 120000</string>
     <string name="revanced_maximum_buffer_title">अधिकतम बफर</string>
     <string name="revanced_minimized_playback">पृष्ठभूमि प्लेबैक</string>
     <string name="revanced_minimized_playback_off">पृष्ठभूमि प्लेबैक अक्षम है</string>
     <string name="revanced_minimized_playback_on">पृष्ठभूमि प्लेबैक सक्षम है</string>
+    <string name="revanced_misc_summary">विविध पैच</string>
     <string name="revanced_misc_title">विविध</string>
     <string name="revanced_new_actionbar_summary_off">खोज बार शैली ऐप द्वारा परिभाषित की जाती है</string>
     <string name="revanced_new_actionbar_summary_on">विस्तृत खोज बार को बाध्य करना</string>
@@ -178,17 +259,41 @@
     <string name="revanced_old_style_quality_settings_summary_off">डिफ़ॉल्ट शैली की वीडियो गुणवत्ता सेटिंग का उपयोग करना</string>
     <string name="revanced_old_style_quality_settings_summary_on">पुरानी शैली की वीडियो गुणवत्ता सेटिंग का उपयोग करना</string>
     <string name="revanced_old_style_quality_settings_title">गुणवत्ता सेटिंग शैली</string>
-    <string name="revanced_playback_start_summary">"मीडिया की अवधि जिसे प्लेबैक शुरू करने के लिए बफर किया जाना चाहिए या उपयोगकर्ता की कार्रवाई के बाद फिर से शुरू करना चाहिए जैसे कि मांग (मिलीसेकंड में)
-        चूक: 2500"</string>
+    <string name="revanced_overlaybutton_summary">ओवरले बटन संबंधित सेटिंग्स</string>
+    <string name="revanced_overlaybutton_title">ओवरले बटन सेटिंग्स</string>
+    <string name="revanced_override_premium_header_summary_off">वर्तमान शीर्षलेख: डिफ़ॉल्ट शीर्षलेख</string>
+    <string name="revanced_override_premium_header_summary_on">वर्तमान शीर्षलेख: प्रीमियम शीर्षलेख </string>
+    <string name="revanced_override_premium_header_title">प्रीमियम शीर्षलेख</string>
+    <string name="revanced_playback_start_summary">मीडिया की अवधि जिसे प्लेबैक शुरू करने के लिए बफर किया जाना चाहिए या उपयोगकर्ता की कार्रवाई के बाद फिर से शुरू करना चाहिए जैसे कि मांग (मिलीसेकंड में)
+        चूक: 2500</string>
     <string name="revanced_playback_start_title">प्लेबैक प्रारंभ</string>
+    <string name="revanced_player_popup_panels_title">प्लेयर पॉपअप पैनल</string>
+    <string name="revanced_player_popup_panels_summary_off">प्लेयर पॉपअप पैनल अक्षम हैं</string>
+    <string name="revanced_player_popup_panels_summary_on">प्लेयर पॉपअप पैनल सक्षम हैं</string>
+    <string name="revanced_pref_save_video_quality_title">वीडियो गुणवत्ता सहेंजे </string>
+    <string name="revanced_pref_save_video_quality_summary_on">जब भी आप वीडियो की गुणवत्ता बदलते हैं तो वीडियो गुणवत्ता मान सहेजें</string>
+    <string name="revanced_pref_save_video_quality_summary_off">वीडियो की गुणवत्ता बदलते समय भी वीडियो गुणवत्ता मूल्यों को सहेजता नहीं है</string>
+    <string name="revanced_preferred_video_quality_mobile_summary">सेलुलर नेटवर्क पर पसंदीदा वीडियो रिज़ॉल्यूशन चुनें</string>
+    <string name="revanced_preferred_video_quality_mobile_title">पसंदीदा वीडियो गुणवत्ता सेलुलर</string>
+    <string name="revanced_preferred_video_quality_wifi_summary">Wi-Fi नेटवर्क पर पसंदीदा वीडियो रिज़ॉल्यूशन चुनें</string>
+    <string name="revanced_preferred_video_quality_wifi_title">पसंदीदा वीडियो गुणवत्ता Wi-Fi</string>
     <string name="revanced_preferred_video_speed_summary">पसंदीदा वीडियो गति का चयन करें</string>
     <string name="revanced_preferred_video_speed_title">पसंदीदा वीडियो गति</string>
-    <string name="revanced_rebuffer_summary">"मीडिया की अवधि जिसे रीबफ़र के बाद प्लेबैक फिर से शुरू करने के लिए बफ़र किया जाना चाहिए (मिलीसेकंड में)। एक रिबफर को उपयोगकर्ता क्रिया के बजाय बफर रिक्तीकरण के कारण परिभाषित किया गया है
-        चूक: 5000"</string>
+    <string name="revanced_reboot_warning_fullscreen">"YouTube संस्करण को चकमा दें और इसे सर्वर साइड पर अपडेट करने का प्रयास करें।
+यह कभी-कभी इरादा के अनुसार काम नहीं कर सकता है।
+कुछ मामलों में, ReVanced को फिर से स्थापित करना आवश्यक हो सकता है।
+क्या तुम वाकई जारी रखना चाहते हो "</string>
+    <string name="revanced_reboot_warning_ryd">"एक नए लेआउट में नापसंद की संख्या प्रदर्शित करने के लिए समान बटन के साथ एकीकृत करता है।
+हालाँकि, चूंकि यह अभी भी एक प्रायोगिक विशेषता है, इसलिए समान गणना को सटीक रूप से प्रदर्शित नहीं किया जा सकता है।
+क्या आप सुनिश्चित हैं कि आप चाहते हैं"</string>
+    <string name="revanced_rebuffer_summary">मीडिया की अवधि जिसे रीबफ़र के बाद प्लेबैक फिर से शुरू करने के लिए बफ़र किया जाना चाहिए (मिलीसेकंड में)। एक रिबफर को उपयोगकर्ता क्रिया के बजाय बफर रिक्तीकरण के कारण परिभाषित किया गया है
+        चूक: 5000</string>
     <string name="revanced_rebuffer_title">रिबफर</string>
     <string name="revanced_reel_summary_off">कहानियां छिपी हैं</string>
     <string name="revanced_reel_summary_on">कहानियां दिखाई जाती हैं</string>
     <string name="revanced_reel_title">YouTube कहानियां</string>
+    <string name="revanced_ryd_new_layout_title">RYD ठीक करें (नया लेआउट)</string>
+    <string name="revanced_ryd_new_layout_summary">नए लेआउट में नापसंद की संख्या दिखाएं</string>
     <string name="revanced_ryd_attribution_summary">यह एकीकरण https://returnyoutubedislike.com से RYD API का उपयोग करता है। अधिक जानने के लिए टैप करें</string>
     <string name="revanced_ryd_attribution_title">वापसी YouTube नापसंद एकीकरण</string>
     <string name="revanced_ryd_settings_summary">RYD API का उपयोग करता है</string>
@@ -202,9 +307,18 @@
     <string name="revanced_shorts_button_summary_off">शॉर्ट्स बटन छिपा हुआ है</string>
     <string name="revanced_shorts_button_summary_on">शॉर्ट्स बटन दिखाया गया है</string>
     <string name="revanced_shorts_button_title">शॉर्ट्स बटन</string>
+    <string name="revanced_startup_shorts_player_summary_off">ऐप स्टार्टअप पर शॉर्ट्स प्लेयर अक्षम है</string>
+    <string name="revanced_startup_shorts_player_summary_on">ऐप स्टार्टअप पर शॉर्ट्स प्लेयर सक्षम है</string>
+    <string name="revanced_startup_shorts_player_title">ऐप स्टार्टअप पर शॉर्ट्स प्लेयर</string>
+    <string name="revanced_suggested_actions_summary_off">सुझाई गई actions दिखाई गईं</string>
+    <string name="revanced_suggested_actions_summary_on">सुझाई गई actions छिपी हुई हैं</string>
+    <string name="revanced_suggested_actions_title">सुझावित गतिविधियां</string>
     <string name="revanced_suggestion_summary_off">एंड स्क्रीन छिपी हुई हैं</string>
     <string name="revanced_suggestion_summary_on">एंड स्क्रीन दिखाई जाती हैं</string>
     <string name="revanced_suggestion_title">अंत स्क्रीन</string>
+    <string name="revanced_swipe_auto_brightness_summary_off">स्वाइप करके ऑटो-ब्राइटनेस अक्षम है</string>
+    <string name="revanced_swipe_auto_brightness_summary_on">स्वाइप करके ऑटो-ब्राइटनेस सक्षम है</string>
+    <string name="revanced_swipe_auto_brightness_title">स्वाइप करके ऑटो-ब्राइटनेस</string>
     <string name="revanced_swipe_brightness_summary_off">चमक के लिए स्वाइप नियंत्रण अक्षम हैं</string>
     <string name="revanced_swipe_brightness_summary_on">चमक के लिए स्वाइप नियंत्रण सक्षम हैं</string>
     <string name="revanced_swipe_brightness_title">चमक के लिए स्वाइप नियंत्रण</string>
@@ -216,8 +330,8 @@
     <string name="revanced_swipe_overlay_text_size_title">ओवरले टेक्स्ट का आकार</string>
     <string name="revanced_swipe_overlay_timeout_summary">परिवर्तनों के बाद ओवरले कब तक दिखाया जाता है (ms)</string>
     <string name="revanced_swipe_overlay_timeout_title">ओवरले टाइमआउट</string>
-    <string name="revanced_swipe_pts_haptic_summary_off">प्रेस-टू-स्वाइप को सक्रिय करते समय आपको हैप्टिक फीडबैक नहीं मिलेगा</string>
-    <string name="revanced_swipe_pts_haptic_summary_on">प्रेस-टू-स्वाइप को सक्रिय करने पर आपको हैप्टिक फीडबैक मिलेगा</string>
+    <string name="revanced_swipe_pts_haptic_summary_off">"प्रेस-टू-स्वाइप को सक्रिय करते समय आपको हैप्टिक फीडबैक नहीं मिलेगा"</string>
+    <string name="revanced_swipe_pts_haptic_summary_on">"प्रेस-टू-स्वाइप को सक्रिय करने पर आपको हैप्टिक फीडबैक मिलेगा"</string>
     <string name="revanced_swipe_pts_haptic_title">प्रेस-टू-स्वाइप पर कंपन करें</string>
     <string name="revanced_swipe_pts_summary_off">स्वाइप नियंत्रण हमेशा सक्रिय रहते हैं</string>
     <string name="revanced_swipe_pts_summary_on">स्वाइप नियंत्रणों को सक्रिय करने से पहले एक लंबे प्रेस की आवश्यकता होती है</string>
@@ -226,6 +340,7 @@
     <string name="revanced_swipe_tablet_summary_off">टेबलेट शैली बंद है</string>
     <string name="revanced_swipe_tablet_summary_on">टेबलेट शैली चालू है। उदाहरण के लिए सुझाए गए वीडियो केवल आंशिक रूप से काम कर रहे हैं</string>
     <string name="revanced_swipe_tablet_title">टैबलेट स्टाइल</string>
+    <string name="revanced_swipe_summary">मात्रा और चमक को नियंत्रित करें</string>
     <string name="revanced_swipe_title">स्वाइप नियंत्रण</string>
     <string name="revanced_swipe_volume_summary_off">वॉल्यूम के लिए स्वाइप नियंत्रण अक्षम हैं</string>
     <string name="revanced_swipe_volume_summary_on">वॉल्यूम के लिए स्वाइप नियंत्रण सक्षम हैं</string>
@@ -242,6 +357,7 @@
     <string name="revanced_video_quality_mobile_error">डिफ़ॉल्ट मोबाइल डेटा गुणवत्ता बदलने में विफल</string>
     <string name="revanced_video_quality_wifi">डिफ़ॉल्ट वाई-फ़ाई गुणवत्ता को इस में बदला जा रहा हैडिफ़ॉल्ट वाई-फ़ाई गुणवत्ता को इस में बदला जा रहा है:</string>
     <string name="revanced_video_quality_wifi_error">डिफ़ॉल्ट WI-FI गुणवत्ता बदलने में विफल</string>
+    <string name="revanced_video_settings_summary">वीडियो संबंधित सेटिंग्स</string>
     <string name="revanced_video_settings_title">वीडियो सेटिंग्स</string>
     <string name="revanced_videoadwhitelisting_summary_off">वीडियो विज्ञापन श्वेतसूची बंद है</string>
     <string name="revanced_videoadwhitelisting_summary_on">वीडियो विज्ञापन श्वेतसूचीकरण चालू है. किसी चैनल को श्वेतसूची में डालने के लिए प्लेयर के अंतर्गत विज्ञापन बटन का उपयोग करें</string>
@@ -256,8 +372,14 @@
     <string name="revanced_zoom_to_fit_vertical_summary_off">डायनामिक प्लेयर स्वचालित रूप से परिभाषित होता है</string>
     <string name="revanced_zoom_to_fit_vertical_summary_on">डायनेमिक प्लेयर वर्गाकार और लंबवत वीडियो पर ज़बरदस्ती किया जाता है</string>
     <string name="revanced_zoom_to_fit_vertical_title">गतिशील प्लेयर</string>
+    <string name="rvx_dialog_message">"YouTube v17.33.xx के अनुसार, फ़ुलस्क्रीन में ऑटो-रोटेट सिस्टम की ऑटो-रोटेट टॉगल स्थिति का अनुसरण करता है।
+इसलिए फुलस्क्रीन में ऑटो-रोटेट समस्या को बायपास करने के लिए YouTube संस्करण को v17.32.39 पर धोखा दिया
+ऐप की जानकारी के अनुसार, YouTube संस्करण v17.32.39 . के रूप में प्रदर्शित होता है
+
+यदि आप इसे अक्षम करना चाहते हैं, तो निम्न को बंद पर सेट करें:"</string>
+    <string name="rvx_dialog_title">ReVanced Extended</string>
     <string name="sb_guidelines_popup_already_read">पहले से ही पढ लिया गया है</string>
-    <string name="sb_guidelines_popup_content">इसे पढ़ने की अनुशंसा की जाती है SponsorBlock कोई भी खंड प्रस्तुत करने से पहले दिशानिर्देश</string>
+    <string name="sb_guidelines_popup_content">"इसे पढ़ने की अनुशंसा की जाती है SponsorBlock कोई भी खंड प्रस्तुत करने से पहले दिशानिर्देश"</string>
     <string name="sb_guidelines_popup_open">मुझे दिखाओ</string>
     <string name="sb_guidelines_popup_title">दिशानिर्देश हैं</string>
     <string name="sb_guidelines_preference_sum">दिशा-निर्देशों में सेगमेंट सबमिट करने के बारे में सुझाव और नियम शामिल हैं</string>
@@ -273,7 +395,7 @@
     <string name="segments_nomusic">संगीत: गैर-संगीत अनुभाग</string>
     <string name="segments_nomusic_sum">केवल संगीत वीडियो में उपयोग के लिए। इसमें संगीत वीडियो में परिचय या आउटरो शामिल हैं</string>
     <string name="segments_preview">पूर्वावलोकन/पुनर्कैप</string>
-    <string name="segments_preview_sum">पिछले एपिसोड का पुनर्कथन, या उसी श्रृंखला के वर्तमान वीडियो या भविष्य के वीडियो में बाद में आने वाली घटनाओं का पूर्वावलोकन। एक साथ संपादित क्लिप के लिए अभिप्रेत है जो अतिरिक्त जानकारी प्रदान नहीं करते हैं</string>
+    <string name="segments_preview_sum">"पिछले एपिसोड का पुनर्कथन, या उसी श्रृंखला के वर्तमान वीडियो या भविष्य के वीडियो में बाद में आने वाली घटनाओं का पूर्वावलोकन। एक साथ संपादित क्लिप के लिए अभिप्रेत है जो अतिरिक्त जानकारी प्रदान नहीं करते हैं"</string>
     <string name="segments_selfpromo">अवैतनिक/स्वयं संवर्धन</string>
     <string name="segments_selfpromo_sum">जब अवैतनिक या स्वयं पदोन्नति होती है। इसमें व्यापारिक वस्तुओं, दान या उनके साथ सहयोग करने के बारे में जानकारी के बारे में विशिष्ट अनुभाग शामिल हैं</string>
     <string name="segments_sponsor">प्रायोजक</string>
@@ -286,7 +408,7 @@
     <string name="settings_import_failed">सेटिंग्स आयात करने में विफल</string>
     <string name="settings_import_successful">सेटिंग्स सफलतापूर्वक आयात की गईं</string>
     <string name="skip_automatically">स्वचालित रूप से छोड़ें</string>
-    <string name="skip_ignore">कुछ मत करो</string>
+    <string name="skip_ignore">"कुछ मत करो"</string>
     <string name="skip_showbutton">छोड़ें बटन दिखाएं</string>
     <string name="skip_sponsor">खंड छोड़ें</string>
     <string name="skipped_endcard">छोड़ दिया आउट्रो</string>
@@ -301,12 +423,12 @@
     <string name="skipped_unsubmitted">सबमिट नहीं किया गया सेगमेंट छोड़ दिया गया</string>
     <string name="stats">आँकड़े</string>
     <string name="stats_loading">लोड हो रहा है...</string>
-    <string name="stats_saved">आपने लोगों को <b>%s</b> सेगमेंट से बचाया है।</string>
-    <string name="stats_saved_sum" formatted="false">यह उनके जीवन का <b>%s</b> है। लीडरबोर्ड देखने के लिए क्लिक करेंयह उनके जीवन का <b>%s</b> है। लीडरबोर्ड देखने के लिए क्लिक करें</string>
+    <string name="stats_saved">"आपने लोगों को <b>%s</b> सेगमेंट से बचाया है।"</string>
+    <string name="stats_saved_sum">"यह उनके जीवन का <b>%s</b> है। लीडरबोर्ड देखने के लिए क्लिक करेंयह उनके जीवन का <b>%s</b> है। लीडरबोर्ड देखने के लिए क्लिक करें"</string>
     <string name="stats_sb_disabled">SponsorBlock अक्षम है</string>
-    <string name="stats_self_saved" formatted="false">आपने <b>%s</b> सेगमेंट को छोड़ दिया है।आपने <b>%s</b> सेगमेंट को छोड़ दिया है।</string>
-    <string name="stats_self_saved_sum">वह <b>%s</b> है।</string>
-    <string name="stats_submissions" formatted="false">सबमिशन: <b>%s</b>सबमिशन: <b>%s</b></string>
+    <string name="stats_self_saved">"आपने <b>%s</b> सेगमेंट को छोड़ दिया है।आपने <b>%s</b> सेगमेंट को छोड़ दिया है।"</string>
+    <string name="stats_self_saved_sum">"वह <b>%s</b> है।"</string>
+    <string name="stats_submissions">सबमिशन: <b>%s</b>सबमिशन: <b>%s</b></string>
     <string name="stats_username">आपका उपयोगकर्ता नाम: <b>%s</b></string>
     <string name="stats_username_change">अपना उपयोगकर्ता नाम बदलने के लिए क्लिक करें</string>
     <string name="stats_username_change_unknown_error" formatted="false">उपयोगकर्ता नाम बदलने में असमर्थ: स्थिति: %d %s</string>
@@ -318,6 +440,7 @@
 %s"</string>
     <string name="submit_failed_rate_limit">"सेगमेंट सबमिट नहीं किया जा सकता.
 Rate Limited (एक ही उपयोगकर्ता या IP से बहुत अधिक)"</string>
+    <string name="submit_failed_invalid">सेगमेंट सबमिट नहीं कर सकता: %s</string>
     <string name="submit_failed_unknown_error" formatted="false">सेगमेंट सबमिट करने में असमर्थ: स्थिति: %d %s</string>
     <string name="submit_started">सेगमेंट सबमिट किया जा रहा है…</string>
     <string name="submit_succeeded">सेगमेंट सफलतापूर्वक सबमिट किया गया</string>

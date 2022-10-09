@@ -11,7 +11,7 @@
     <string name="api_url_reset">Επαναφορά API URL</string>
     <string name="change">Τροποποίηση</string>
     <string name="color_change">Ψάχνετε για την αλλαγή χρωμάτων;</string>
-    <string name="color_change_sum">Τώρα μπορείτε να αλλάξετε το χρώμα μιας κατηγορίας κάνοντας κλικ πάνω της.</string>
+    <string name="color_change_sum">"Τώρα μπορείτε να αλλάξετε το χρώμα μιας κατηγορίας κάνοντας κλικ πάνω της."</string>
     <string name="color_changed">Το χρώμα άλλαξε</string>
     <string name="color_choose_category">Επιλέξτε κατηγορία</string>
     <string name="color_invalid">Μη έγκυρος HEX κωδικός</string>
@@ -27,7 +27,7 @@
     <string name="general_adjusting">Ρύθμιση νέου σταδίου τμήματος</string>
     <string name="general_adjusting_sum">Αυτός είναι ο αριθμός χιλιοστών του δευτερολέπτου που μπορείτε να μετακινήσετε όταν χρησιμοποιείτε τα πλήκτρα ρύθμισης χρόνου κατά την προσθήκη νέου τμήματος</string>
     <string name="general_api_url">Αλλαγή Διεύθυνσης API URL</string>
-    <string name="general_api_url_sum">Η διεύθυνση SponsorBlock χρησιμοποιεί για να κάνει κλήσεις στο διακομιστή. &lt;b>Μην το αλλάξετε εκτός αν ξέρετε τι κάνετε.&lt;/b></string>
+    <string name="general_api_url_sum">"Η διεύθυνση SponsorBlock χρησιμοποιεί για να κάνει κλήσεις στο διακομιστή. &lt;b&gt;Μην το αλλάξετε εκτός αν ξέρετε τι κάνετε.&lt;/b&gt;"</string>
     <string name="general_browser_button">Ενεργοποίηση κουμπιού SB Browser</string>
     <string name="general_browser_button_sum">Κάνοντας κλικ σε αυτό το κουμπί κάτω από τον παίκτη θα ανοίξει το sb.ltn.fi όπου μπορείτε να δείτε όλα τα τμήματα του βίντεο.</string>
     <string name="general_cache">Τοπικά τμήματα προσωρινής μνήμης</string>
@@ -127,7 +127,7 @@ Is it ready to submit?"</string>
     <string name="pref_subtitles_scale_normal">Normal</string>
     <string name="reset">Reset</string>
     <string name="revanced_ad_settings_title">AD settings</string>
-    <string name="revanced_auto_repeat_button_summary_off">"Doesn't show auto-repeat button in the player overlay. Use the toggle below to control auto-repeat"</string>
+    <string name="revanced_auto_repeat_button_summary_off">Doesn\'t show auto-repeat button in the player overlay. Use the toggle below to control auto-repeat</string>
     <string name="revanced_auto_repeat_button_summary_on">Auto-repeat button is shown in the player overlay</string>
     <string name="revanced_auto_repeat_button_title">Auto-repeat button</string>
     <string name="revanced_auto_repeat_summary_off">Always Auto-repeat is off</string>
@@ -156,7 +156,7 @@ Is it ready to submit?"</string>
     <string name="revanced_custom_playback_speed_off">Custom Playback Speed is disabled</string>
     <string name="revanced_custom_playback_speed_on">Custom Playback Speed is enabled</string>
     <string name="revanced_hdr_full_brightness_summary_off">Video brightness is set to max on HDR landscape videos</string>
-    <string name="revanced_hdr_full_brightness_summary_on">"Video brightness will follow your device's brightness on HDR landscape videos"</string>
+    <string name="revanced_hdr_full_brightness_summary_on">Video brightness will follow your device\'s brightness on HDR landscape videos</string>
     <string name="revanced_hdr_full_brightness_title">Override HDR Video Brightness</string>
     <string name="revanced_home_ads_summary_off">Home ADS are hidden</string>
     <string name="revanced_home_ads_summary_on">Home ADS are shown</string>
@@ -165,8 +165,8 @@ Is it ready to submit?"</string>
     <string name="revanced_info_cards_summary_on">Info cards are shown</string>
     <string name="revanced_info_cards_title">Info cards</string>
     <string name="revanced_layout_settings_title">Layout settings</string>
-    <string name="revanced_maximum_buffer_summary">"The maximum duration of media that the player will attempt to buffer (in milliseconds)
-        Default: 120000"</string>
+    <string name="revanced_maximum_buffer_summary">The maximum duration of media that the player will attempt to buffer (in milliseconds)
+        Default: 120000</string>
     <string name="revanced_maximum_buffer_title">Maximum buffer</string>
     <string name="revanced_minimized_playback">Background playback</string>
     <string name="revanced_minimized_playback_off">Background playback is disabled</string>
@@ -178,13 +178,13 @@ Is it ready to submit?"</string>
     <string name="revanced_old_style_quality_settings_summary_off">Using default style video quality settings</string>
     <string name="revanced_old_style_quality_settings_summary_on">Using old style video quality settings</string>
     <string name="revanced_old_style_quality_settings_title">Quality Settings style</string>
-    <string name="revanced_playback_start_summary">"The duration of media that must be buffered for playback to start or resume following a user action such as seeking (in milliseconds)
-        Default: 2500"</string>
+    <string name="revanced_playback_start_summary">The duration of media that must be buffered for playback to start or resume following a user action such as seeking (in milliseconds)
+        Default: 2500</string>
     <string name="revanced_playback_start_title">Playback start</string>
     <string name="revanced_preferred_video_speed_summary">Select preferred video speed</string>
     <string name="revanced_preferred_video_speed_title">Preferred video speed</string>
-    <string name="revanced_rebuffer_summary">"The duration of media that must be buffered for playback to resume after a rebuffer (in milliseconds). A rebuffer is defined to be caused by buffer depletion rather than a user action
-        Default: 5000"</string>
+    <string name="revanced_rebuffer_summary">The duration of media that must be buffered for playback to resume after a rebuffer (in milliseconds). A rebuffer is defined to be caused by buffer depletion rather than a user action
+        Default: 5000</string>
     <string name="revanced_rebuffer_title">Rebuffer</string>
     <string name="revanced_reel_summary_off">Stories are hidden</string>
     <string name="revanced_reel_summary_on">Stories are shown</string>
@@ -301,13 +301,13 @@ Is it ready to submit?"</string>
     <string name="skipped_unsubmitted">Skipped unsubmitted segment</string>
     <string name="stats">Stats</string>
     <string name="stats_loading">Loading..</string>
-    <string name="stats_saved">"You've saved people from &lt;b>%s&lt;/b> segments."</string>
-    <string name="stats_saved_sum">"That's &lt;b>%s&lt;/b> of their lives. Click to see the leaderboard"</string>
+    <string name="stats_saved">"You've saved people from &lt;b&gt;%s&lt;/b&gt; segments."</string>
+    <string name="stats_saved_sum">"That's &lt;b&gt;%s&lt;/b&gt; of their lives. Click to see the leaderboard"</string>
     <string name="stats_sb_disabled">SponsorBlock is disabled</string>
-    <string name="stats_self_saved">"You've skipped &lt;b>%s&lt;/b> segments."</string>
-    <string name="stats_self_saved_sum">"That's &lt;b>%s&lt;/b>."</string>
-    <string name="stats_submissions">Submissions: &lt;b>%s&lt;/b></string>
-    <string name="stats_username">Your username: &lt;b>%s&lt;/b></string>
+    <string name="stats_self_saved">"You've skipped &lt;b&gt;%s&lt;/b&gt; segments."</string>
+    <string name="stats_self_saved_sum">"That's &lt;b&gt;%s&lt;/b&gt;."</string>
+    <string name="stats_submissions">Submissions: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="stats_username">Your username: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="stats_username_change">Click to change your username</string>
     <string name="stats_username_change_unknown_error" formatted="false">Unable to change username: Status: %d %s</string>
     <string name="stats_username_changed">Username successfully changed</string>

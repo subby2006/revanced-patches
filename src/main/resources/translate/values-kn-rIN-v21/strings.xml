@@ -11,7 +11,7 @@
     <string name="api_url_reset">ಏ ಪೀ ಐ ಯು ಆರ್ ಎಲ್ ಮರುಹೊಂದಿಸಿ</string>
     <string name="change">ಬದಲಿಸು</string>
     <string name="color_change">ಬಣ್ಣ ಬದಲಾವಣೆ</string>
-    <string name="color_change_sum">ಬಣ್ಣ ಬದಲಾವಣೆ ಮೊತ್ತ</string>
+    <string name="color_change_sum">"ಬಣ್ಣ ಬದಲಾವಣೆ ಮೊತ್ತ"</string>
     <string name="color_changed">ಬಣ್ಣ ಬದಲಾಗಿದೆ</string>
     <string name="color_choose_category">ಬಣ್ಣ ವರ್ಗವನ್ನು ಆಯ್ಕೆ</string>
     <string name="color_invalid">ಅಮಾನ್ಯ ಬಣ್ಣ ಆಯ್ಕೆ</string>
@@ -27,7 +27,7 @@
     <string name="general_adjusting">ಹೊಸ ವಿಭಾಗದ ಹಂತವನ್ನು ಹೊಂದಿಸಲಾಗುತ್ತಿದೆ</string>
     <string name="general_adjusting_sum">ಹೊಸ ವಿಭಾಗವನ್ನು ಸೇರಿಸುವಾಗ ನೀವು ಸಮಯ ಹೊಂದಾಣಿಕೆ ಬಟನ್‌ಗಳನ್ನು ಬಳಸುವಾಗ ನೀವು ಚಲಿಸಬಹುದಾದ ಮಿಲಿಸೆಕೆಂಡ್‌ಗಳ ಸಂಖ್ಯೆ</string>
     <string name="general_api_url">API URL ಅನ್ನು ಬದಲಾಯಿಸಿ</string>
-    <string name="general_api_url_sum">SponsorBlock ವಿಳಾಸವು ಸರ್ವರ್‌ಗೆ ಕರೆಗಳನ್ನು ಮಾಡಲು ಬಳಸುತ್ತದೆ. &lt;b>ನೀವು ಏನು ಮಾಡುತ್ತಿದ್ದೀರಿ ಎಂದು ನಿಮಗೆ ತಿಳಿಯದ ಹೊರತು ಇದನ್ನು ಬದಲಾಯಿಸಬೇಡಿ.&lt;/b></string>
+    <string name="general_api_url_sum">"SponsorBlock ವಿಳಾಸವು ಸರ್ವರ್‌ಗೆ ಕರೆಗಳನ್ನು ಮಾಡಲು ಬಳಸುತ್ತದೆ. &lt;b&gt;ನೀವು ಏನು ಮಾಡುತ್ತಿದ್ದೀರಿ ಎಂದು ನಿಮಗೆ ತಿಳಿಯದ ಹೊರತು ಇದನ್ನು ಬದಲಾಯಿಸಬೇಡಿ.&lt;/b&gt;"</string>
     <string name="general_browser_button">ಸ್ಪೋನ್ಸೆರ್ ಬ್ಲಾಕ್ ಬ್ರೌಸರ್ ಬಟನ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
     <string name="general_browser_button_sum">ಪ್ಲೇಯರ್‌ನ ಅಡಿಯಲ್ಲಿ ಈ ಬಟನ್ ಅನ್ನು ಕ್ಲಿಕ್ ಮಾಡುವುದರಿಂದ sb.ltn.fi ತೆರೆಯುತ್ತದೆ ಅಲ್ಲಿ ನೀವು ವೀಡಿಯೊದಲ್ಲಿ ಎಲ್ಲಾ ವಿಭಾಗಗಳನ್ನು ನೋಡಬಹುದು.</string>
     <string name="general_cache">ಸ್ಥಳೀಯವಾಗಿ ಸಂಗ್ರಹ ವಿಭಾಗಗಳು</string>
@@ -156,7 +156,7 @@ Is it ready to submit?"</string>
     <string name="revanced_custom_playback_speed_off">ಕಸ್ಟಮ್ ಪ್ಲೇಬ್ಯಾಕ್ ಸ್ಪೀಡ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
     <string name="revanced_custom_playback_speed_on">ಕಸ್ಟಮ್ ಪ್ಲೇಬ್ಯಾಕ್ ಸ್ಪೀಡ್ ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
     <string name="revanced_hdr_full_brightness_summary_off">Video brightness is set to max on HDR landscape videos</string>
-    <string name="revanced_hdr_full_brightness_summary_on">"Video brightness will follow your device's brightness on HDR landscape videos"</string>
+    <string name="revanced_hdr_full_brightness_summary_on">Video brightness will follow your device\'s brightness on HDR landscape videos</string>
     <string name="revanced_hdr_full_brightness_title">Override HDR Video Brightness</string>
     <string name="revanced_home_ads_summary_off">Home ADS are hidden</string>
     <string name="revanced_home_ads_summary_on">Home ADS are shown</string>
@@ -165,8 +165,8 @@ Is it ready to submit?"</string>
     <string name="revanced_info_cards_summary_on">Info cards are shown</string>
     <string name="revanced_info_cards_title">Info cards</string>
     <string name="revanced_layout_settings_title">Layout settings</string>
-    <string name="revanced_maximum_buffer_summary">"The maximum duration of media that the player will attempt to buffer (in milliseconds)
-        Default: 120000"</string>
+    <string name="revanced_maximum_buffer_summary">The maximum duration of media that the player will attempt to buffer (in milliseconds)
+        Default: 120000</string>
     <string name="revanced_maximum_buffer_title">Maximum buffer</string>
     <string name="revanced_minimized_playback">Background playback</string>
     <string name="revanced_minimized_playback_off">Background playback is disabled</string>
@@ -178,13 +178,13 @@ Is it ready to submit?"</string>
     <string name="revanced_old_style_quality_settings_summary_off">Using default style video quality settings</string>
     <string name="revanced_old_style_quality_settings_summary_on">Using old style video quality settings</string>
     <string name="revanced_old_style_quality_settings_title">Quality Settings style</string>
-    <string name="revanced_playback_start_summary">"The duration of media that must be buffered for playback to start or resume following a user action such as seeking (in milliseconds)
-        Default: 2500"</string>
+    <string name="revanced_playback_start_summary">The duration of media that must be buffered for playback to start or resume following a user action such as seeking (in milliseconds)
+        Default: 2500</string>
     <string name="revanced_playback_start_title">Playback start</string>
     <string name="revanced_preferred_video_speed_summary">Select preferred video speed</string>
     <string name="revanced_preferred_video_speed_title">Preferred video speed</string>
-    <string name="revanced_rebuffer_summary">"The duration of media that must be buffered for playback to resume after a rebuffer (in milliseconds). A rebuffer is defined to be caused by buffer depletion rather than a user action
-        Default: 5000"</string>
+    <string name="revanced_rebuffer_summary">The duration of media that must be buffered for playback to resume after a rebuffer (in milliseconds). A rebuffer is defined to be caused by buffer depletion rather than a user action
+        Default: 5000</string>
     <string name="revanced_rebuffer_title">Rebuffer</string>
     <string name="revanced_reel_summary_off">Stories are hidden</string>
     <string name="revanced_reel_summary_on">Stories are shown</string>
@@ -216,8 +216,8 @@ Is it ready to submit?"</string>
     <string name="revanced_swipe_overlay_text_size_title">ಓವರ್‌ಲೇ ಪಠ್ಯದ ಗಾತ್ರ</string>
     <string name="revanced_swipe_overlay_timeout_summary">ಬದಲಾವಣೆಗಳ ನಂತರ ಓವರ್‌ಲೇ ಅನ್ನು ಎಷ್ಟು ಸಮಯದವರೆಗೆ ತೋರಿಸಲಾಗುತ್ತದೆ (ms)</string>
     <string name="revanced_swipe_overlay_timeout_title">ಓವರ್‌ಲೇ ಅವಧಿ ಮೀರಿದೆ</string>
-    <string name="revanced_swipe_pts_haptic_summary_off">ಪ್ರೆಸ್-ಟು-ಸ್ವೈಪ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವಾಗ ನೀವು ಹ್ಯಾಪ್ಟಿಕ್ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಪಡೆಯುವುದಿಲ್ಲ</string>
-    <string name="revanced_swipe_pts_haptic_summary_on">ಪ್ರೆಸ್-ಟು-ಸ್ವೈಪ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವಾಗ ನೀವು ಹ್ಯಾಪ್ಟಿಕ್ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಪಡೆಯುತ್ತೀರಿ</string>
+    <string name="revanced_swipe_pts_haptic_summary_off">"ಪ್ರೆಸ್-ಟು-ಸ್ವೈಪ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವಾಗ ನೀವು ಹ್ಯಾಪ್ಟಿಕ್ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಪಡೆಯುವುದಿಲ್ಲ"</string>
+    <string name="revanced_swipe_pts_haptic_summary_on">"ಪ್ರೆಸ್-ಟು-ಸ್ವೈಪ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವಾಗ ನೀವು ಹ್ಯಾಪ್ಟಿಕ್ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು ಪಡೆಯುತ್ತೀರಿ"</string>
     <string name="revanced_swipe_pts_haptic_title">ಪ್ರೆಸ್-ಟು-ಸ್ವೈಪ್‌ನಲ್ಲಿ ವೈಬ್ರೇಟ್ ಮಾಡಬೇಕು</string>
     <string name="revanced_swipe_pts_summary_off">ಸ್ವೈಪ್ ನಿಯಂತ್ರಣಗಳು ಯಾವಾಗಲೂ ಸಕ್ರಿಯವಾಗಿರುತ್ತವೆ</string>
     <string name="revanced_swipe_pts_summary_on">ಸ್ವೈಪ್ ನಿಯಂತ್ರಣಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವ ಮೊದಲು ದೀರ್ಘ-ಒತ್ತುವಿಕೆಯ ಅಗತ್ಯವಿರುತ್ತದೆ</string>
@@ -286,7 +286,7 @@ Is it ready to submit?"</string>
     <string name="settings_import_failed">Failed to import settings</string>
     <string name="settings_import_successful">Settings were successfully imported</string>
     <string name="skip_automatically">ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಬಿಟ್ಟುಬಿಡಿ</string>
-    <string name="skip_ignore">ಏನನ್ನೂ ಮಾಡಬೇಡ</string>
+    <string name="skip_ignore">"ಏನನ್ನೂ ಮಾಡಬೇಡ"</string>
     <string name="skip_showbutton">ಸ್ಕಿಪ್ ಬಟನ್ ತೋರಿಸಿ</string>
     <string name="skip_sponsor">ವಿಭಾಗವನ್ನು ಬಿಟ್ಟುಬಿಡಿ</string>
     <string name="skipped_endcard">Skipped outro</string>
@@ -301,13 +301,13 @@ Is it ready to submit?"</string>
     <string name="skipped_unsubmitted">ಸಲ್ಲಿಸದ ವಿಭಾಗವನ್ನು ಸ್ಕಿಪ್ ಮಾಡಲಾಗಿದೆ</string>
     <string name="stats">ಅಂಕಿಅಂಶಗಳು</string>
     <string name="stats_loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ..</string>
-    <string name="stats_saved">ನೀವು &lt;b>%s&lt;/b> ನಿಂದ ಜನರನ್ನು ಉಳಿಸಿದ್ದೀರಿ; ವಿಭಾಗಗಳು.</string>
-    <string name="stats_saved_sum">ಅದು &lt;b>%s&lt;/b> ಅವರ ಜೀವನದ. ಲೀಡರ್‌ಬೋರ್ಡ್ ನೋಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ</string>
+    <string name="stats_saved">"ನೀವು &lt;b&gt;%s&lt;/b&gt; ನಿಂದ ಜನರನ್ನು ಉಳಿಸಿದ್ದೀರಿ; ವಿಭಾಗಗಳು."</string>
+    <string name="stats_saved_sum">"ಅದು &lt;b&gt;%s&lt;/b&gt; ಅವರ ಜೀವನದ. ಲೀಡರ್‌ಬೋರ್ಡ್ ನೋಡಲು ಕ್ಲಿಕ್ ಮಾಡಿ"</string>
     <string name="stats_sb_disabled">ಸ್ಪೋನ್ಸೆರ್ ಬ್ಲಾಕ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
-    <string name="stats_self_saved">ನೀವು ಸ್ಕಿಪ್ ಮಾಡಿದ್ದೀರಿ &lt;b>%s&lt;/b> ವಿಭಾಗಗಳು.</string>
-    <string name="stats_self_saved_sum">ಅದು &lt;b>%s&lt;/b>.</string>
-    <string name="stats_submissions">ಸಲ್ಲಿಕೆಗಳು: &lt;b>%s&lt;/b></string>
-    <string name="stats_username">ನಿಮ್ಮ ಬಳಕೆದಾರ ಹೆಸರು: &lt;b>%s&lt;/b></string>
+    <string name="stats_self_saved">"ನೀವು ಸ್ಕಿಪ್ ಮಾಡಿದ್ದೀರಿ &lt;b&gt;%s&lt;/b&gt; ವಿಭಾಗಗಳು."</string>
+    <string name="stats_self_saved_sum">"ಅದು &lt;b&gt;%s&lt;/b&gt;."</string>
+    <string name="stats_submissions">ಸಲ್ಲಿಕೆಗಳು: &lt;b&gt;%s&lt;/b&gt;</string>
+    <string name="stats_username">ನಿಮ್ಮ ಬಳಕೆದಾರ ಹೆಸರು: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="stats_username_change">ನಿಮ್ಮ ಬಳಕೆದಾರ ಹೆಸರನ್ನು ಬದಲಾಯಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ</string>
     <string name="stats_username_change_unknown_error" formatted="false">ಬಳಕೆದಾರ ಹೆಸರನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ: ಸ್ಥಿತಿ: %d %s</string>
     <string name="stats_username_changed">ಬಳಕೆದಾರರ ಹೆಸರನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಬದಲಾಯಿಸಲಾಗಿದೆ</string>
