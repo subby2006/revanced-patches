@@ -6,11 +6,11 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.instruction
+import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.youtube.ad.video.annotations.VideoAdsCompatibility
 import app.revanced.patches.youtube.ad.video.fingerprints.LoadAdsFingerprint
@@ -28,18 +28,21 @@ class VideoAdsPatch : BytecodePatch(
     )
 ) {
     override fun execute(context: BytecodeContext): PatchResult {
-        LoadAdsFingerprint.result!!.mutableMethod.let { method ->
-            method.addInstructions(
-                0,
-                """ 
-                    invoke-static { }, Lapp/revanced/integrations/patches/VideoAdsPatch;->shouldShowAds()Z
-                    move-result v1
-                    if-nez v1, :show_video_ads
-                    const/4 v1, 0x0
-                    return-object v1
-                """,
-                listOf(ExternalLabel("show_video_ads", method.instruction(0)))
-            )
+
+        with(LoadAdsFingerprint.result!!) {
+            val insertIndex = scanResult.patternScanResult!!.startIndex
+            with(mutableMethod) {
+                addInstructions(
+                    insertIndex,
+                    """ 
+                            invoke-static { }, Lapp/revanced/integrations/patches/VideoAdsPatch;->shouldShowAds()Z
+                            move-result v4
+                            if-nez v4, :show_video_ads
+                            return-object v3
+                         """,
+                    listOf(ExternalLabel("show_video_ads", instruction(insertIndex)))
+                )
+            }
         }
 
         return PatchResultSuccess()
