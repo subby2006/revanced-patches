@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="about">Acerca de</string>
-    <string name="about_api">Esta app utiliza la API de SponsorBlock</string>
-    <string name="about_api_sum">Pulsa para aprender más y ver descargas de otras plataformas en: sponsor.ajay.app</string>
-    <string name="about_madeby">Integración hecha por JakubWeg, reescrita por oSumAtrIX</string>
-    <string name="accessibility_settings_edu_opt_in_text">¿Activar controles de accesibilidad para el reproductor de vídeo?</string>
-    <string name="accessibility_settings_edu_opt_out_text">Tus controles han sido modificados porque un servicio de accesibilidad está activado.</string>
-    <string name="action_browser">Navegador SB</string>
-    <string name="action_segments">Segmentos</string>
-    <string name="api_url_changed">URL de API cambiada</string>
-    <string name="api_url_invalid">La URL de la API proporcionada no es válida</string>
-    <string name="api_url_reset">Restablecer la URL de la API</string>
-    <string name="change">Cambiar</string>
-    <string name="color_change">¿Estás buscando cambiar de colores?</string>
-    <string name="color_change_sum">"Ahora puedes cambiar el color de una categoría tocando en ella."</string>
-    <string name="color_changed">Color cambiado</string>
+    <string name="about_api">Esta aplicación utiliza la API de SponsorBlock</string>
+    <string name="about_api_sum">Toque para aprender más y ver descargas de otras plataformas en: sponsor.ajay.app</string>
+    <string name="about_madeby">Integración desarrollada por JakubWeg, reescrita por oSumAtrIX</string>
+    <string name="accessibility_settings_edu_opt_in_text">¿Activar los controles de accesibilidad para el reproductor de vídeo?</string>
+    <string name="accessibility_settings_edu_opt_out_text">Sus controles se modifican porque un servicio de accesibilidad está activado.</string>
+    <string name="action_browser">SB Navegador</string>
+    <string name="action_segments">Grupos</string>
+    <string name="api_url_changed">La URL de API cambió </string>
+    <string name="api_url_invalid">La URL de la API no es válida</string>
+    <string name="api_url_reset">URL de la API restablecida</string>
+    <string name="change">Cambio</string>
+    <string name="color_change">¿Buscando un cambio de colores?</string>
+    <string name="color_change_sum">"Ahora puedes cambiar el color de una categoría haciendo clic en ella arriba."</string>
+    <string name="color_changed">Cambio de color</string>
     <string name="color_choose_category">Elija la categoría</string>
     <string name="color_invalid">Código hexadecimal no válido</string>
     <string name="color_reset">Restablecer color</string>
@@ -345,6 +345,7 @@ Sin embargo, dado que se trata de una función todavía experimental, es posible
     <string name="revanced_tablet_miniplayer_summary_off">Mini-reproductor de Tablet no está siendo usado</string>
     <string name="revanced_tablet_miniplayer_summary_on">Mini-reproductor de Tablet si está siendo usado</string>
     <string name="revanced_tablet_miniplayer_title">Mini-reproductor de Tablet</string>
+    <string name="revanced_tool_used">Herramienta utilizada</string>
     <string name="revanced_video_ads_summary_off">Los anuncios de Vídeo están ocultos</string>
     <string name="revanced_video_ads_summary_on">Los anuncios de Vídeo están visibles</string>
     <string name="revanced_video_ads_title">Anuncios de Vídeo</string>

@@ -305,9 +305,9 @@
     <string name="revanced_shorts_button_summary_off">쇼츠 버튼을 강제로 비활성화합니다</string>
     <string name="revanced_shorts_button_summary_on">쇼츠 버튼을 기본 설정대로 보여줍니다</string>
     <string name="revanced_shorts_button_title">쇼츠 버튼</string>
-    <string name="revanced_startup_shorts_player_summary_off">피드 내에서 쇼츠 플레이어가 비활성화됩니다</string>
-    <string name="revanced_startup_shorts_player_summary_on">피드 내에서 쇼츠 플레이어가 활성화됩니다</string>
-    <string name="revanced_startup_shorts_player_title">피드내 쇼츠 플레이어 보이기</string>
+    <string name="revanced_startup_shorts_player_summary_off">앱 시작시 Shorts player가 비활성화됩니다</string>
+    <string name="revanced_startup_shorts_player_summary_on">앱 시작시 Shorts player가 활성화됩니다</string>
+    <string name="revanced_startup_shorts_player_title">앱 시작시 Shorts player 보이기</string>
     <string name="revanced_suggested_actions_summary_off">동작 추천바를 보여줍니다</string>
     <string name="revanced_suggested_actions_summary_on">동작 추천바를 숨깁니다</string>
     <string name="revanced_suggested_actions_title">동작 추천바</string>
@@ -315,7 +315,7 @@
     <string name="revanced_suggestion_summary_on">영상 최종 화면을 보여줍니다</string>
     <string name="revanced_suggestion_title">영상 최종 화면</string>
     <string name="revanced_swipe_auto_brightness_summary_off">스와이프로 밝기 조절이 꺼졌습니다</string>
-    <string name="revanced_swipe_auto_brightness_summary_on">\'스와이프로 밝기 조절\'이 켜졌습니다</string>
+    <string name="revanced_swipe_auto_brightness_summary_on">스와이프로 밝기 조절이 켜졌습니다</string>
     <string name="revanced_swipe_auto_brightness_title">스와이프로 밝기 조절</string>
     <string name="revanced_swipe_brightness_summary_off">스와이프 제스처로 화면 밝기를 조절하지 않습니다</string>
     <string name="revanced_swipe_brightness_summary_on">스와이프 제스처로 화면 밝기를 조절합니다</string>

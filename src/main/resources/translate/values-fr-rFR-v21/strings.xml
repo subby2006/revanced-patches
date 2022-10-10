@@ -259,22 +259,41 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_old_style_quality_settings_summary_off">Using default style video quality settings</string>
     <string name="revanced_old_style_quality_settings_summary_on">Using old style video quality settings</string>
     <string name="revanced_old_style_quality_settings_title">Quality Settings style</string>
+    <string name="revanced_overlaybutton_summary">Paramètres liés au bouton de superposition</string>
+    <string name="revanced_overlaybutton_title">Paramètres du bouton de superposition</string>
+    <string name="revanced_override_premium_header_summary_off">Entête actuel : entête par défaut</string>
+    <string name="revanced_override_premium_header_summary_on">Entête actuel : entête Premium</string>
     <string name="revanced_override_premium_header_title">En-tête premium</string>
     <string name="revanced_playback_start_summary">The duration of media that must be buffered for playback to start or resume following a user action such as seeking (in milliseconds)
         Default: 2500</string>
     <string name="revanced_playback_start_title">Playback start</string>
+    <string name="revanced_player_popup_panels_title">Panneaux pop-up du lecteur vidéo</string>
+    <string name="revanced_player_popup_panels_summary_off">Les panneaux pop-up du lecteur vidéo sont désactivés</string>
+    <string name="revanced_player_popup_panels_summary_on">Les panneaux pop-up du lecteur vidéo sont activés</string>
     <string name="revanced_pref_save_video_quality_title">Sauvegarder la qualité vidéo</string>
+    <string name="revanced_pref_save_video_quality_summary_on">Sauvegarder la valeur de qualité vidéo lorsque vous changez la qualité d\'une vidéo</string>
+    <string name="revanced_pref_save_video_quality_summary_off">Ne change pas la valeur de qualité vidéo même lorsque vous changez la qualité d\'une vidéo</string>
     <string name="revanced_preferred_video_quality_mobile_summary">Sélectionner la qualité vidéo préférée en données mobiles</string>
+    <string name="revanced_preferred_video_quality_mobile_title">Qualité vidéo préférée en données mobiles</string>
     <string name="revanced_preferred_video_quality_wifi_summary">Sélectionner la qualité vidéo préférée en WiFi</string>
     <string name="revanced_preferred_video_quality_wifi_title">Qualité vidéo préférée en WiFi</string>
     <string name="revanced_preferred_video_speed_summary">Select preferred video speed</string>
     <string name="revanced_preferred_video_speed_title">Preferred video speed</string>
+    <string name="revanced_reboot_warning_fullscreen">"Trompez la version YouTube et essayer de la mettre à jour côté serveur.
+Cela pourrait des fois ne pas marcher de la manière prévue.
+Dans certains cas, il serait nécessaire de réinstaller ReVanced.
+Êtes-vous sûr de vouloir continuer ?"</string>
+    <string name="revanced_reboot_warning_ryd">"Intégrer avec le bouton de likes pour afficher les dislikes dans la nouvelle interface.
+Cependant, puisque c'est encore une fonctionnalité expérimentale, les likes peuvent ne pas s'afficher correctement.
+Êtes-vous sûr de continuer ?"</string>
     <string name="revanced_rebuffer_summary">The duration of media that must be buffered for playback to resume after a rebuffer (in milliseconds). A rebuffer is defined to be caused by buffer depletion rather than a user action
         Default: 5000</string>
     <string name="revanced_rebuffer_title">Rebuffer</string>
     <string name="revanced_reel_summary_off">Stories are hidden</string>
     <string name="revanced_reel_summary_on">Stories are shown</string>
     <string name="revanced_reel_title">YouTube stories</string>
+    <string name="revanced_ryd_new_layout_title">Réparer RYD (nouvelle interface)</string>
+    <string name="revanced_ryd_new_layout_summary">Afficher les dislikes sur la nouvelle interface</string>
     <string name="revanced_ryd_attribution_summary">This integration uses the RYD API from https://returnyoutubedislike.com. Tap to learn more</string>
     <string name="revanced_ryd_attribution_title">Return YouTube Dislike Integration</string>
     <string name="revanced_ryd_settings_summary">Uses the RYD API</string>
@@ -288,10 +307,18 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_shorts_button_summary_off">Shorts Button is hidden</string>
     <string name="revanced_shorts_button_summary_on">Shorts Button is shown</string>
     <string name="revanced_shorts_button_title">Shorts Button</string>
+    <string name="revanced_startup_shorts_player_summary_off">Le lecteur vidéo de YT Shorts est désactivé au démarrage</string>
+    <string name="revanced_startup_shorts_player_summary_on">Le lecteur vidéo de YT Shorts est activé au démarrage</string>
     <string name="revanced_startup_shorts_player_title">Lecteur de shorts au démarrage de l\'application</string>
+    <string name="revanced_suggested_actions_summary_off">Actions suggérées affichées</string>
+    <string name="revanced_suggested_actions_summary_on">Actions suggérées cachées</string>
+    <string name="revanced_suggested_actions_title">Actions Suggérées</string>
     <string name="revanced_suggestion_summary_off">End screens are hidden</string>
     <string name="revanced_suggestion_summary_on">End screens are shown</string>
     <string name="revanced_suggestion_title">End screens</string>
+    <string name="revanced_swipe_auto_brightness_summary_off">Luminosité automatique par balayage est désactivée</string>
+    <string name="revanced_swipe_auto_brightness_summary_on">Luminosité automatique par balayage est activé</string>
+    <string name="revanced_swipe_auto_brightness_title">Luminosité automatique par balayage</string>
     <string name="revanced_swipe_brightness_summary_off">Swipe controls for brightness are disabled</string>
     <string name="revanced_swipe_brightness_summary_on">Swipe controls for brightness are enabled</string>
     <string name="revanced_swipe_brightness_title">Swipe controls for Brightness</string>
@@ -313,6 +340,7 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_swipe_tablet_summary_off">Tablet style is turned off</string>
     <string name="revanced_swipe_tablet_summary_on">Tablet style is turned on. For example suggested videos are only partially working</string>
     <string name="revanced_swipe_tablet_title">Tablet style</string>
+    <string name="revanced_swipe_summary">Contrôler le volume et la luminosité</string>
     <string name="revanced_swipe_title">Swipe controls</string>
     <string name="revanced_swipe_volume_summary_off">Swipe controls for volume are disabled</string>
     <string name="revanced_swipe_volume_summary_on">Swipe controls for volume are enabled</string>
@@ -320,6 +348,7 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_tablet_miniplayer_summary_off">Tablet miniplayer is not being used</string>
     <string name="revanced_tablet_miniplayer_summary_on">Tablet miniplayer is being used</string>
     <string name="revanced_tablet_miniplayer_title">Tablet miniplayer</string>
+    <string name="revanced_tool_used">Outil utilisé</string>
     <string name="revanced_video_ads_summary_off">Video ADS are hidden</string>
     <string name="revanced_video_ads_summary_on">Video ADS are shown</string>
     <string name="revanced_video_ads_title">Video ADS</string>
@@ -329,6 +358,7 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_video_quality_mobile_error">Failed to change default mobile data quality</string>
     <string name="revanced_video_quality_wifi">Changing default Wi-Fi quality to:</string>
     <string name="revanced_video_quality_wifi_error">Failed to change default WI-FI quality</string>
+    <string name="revanced_video_settings_summary">Paramètres liés à la vidéo</string>
     <string name="revanced_video_settings_title">Video settings</string>
     <string name="revanced_videoadwhitelisting_summary_off">Video ad whitelisting is turned off</string>
     <string name="revanced_videoadwhitelisting_summary_on">Video ad whitelisting is turned on. Use the ADS button under the player to whitelist a channel</string>
@@ -343,6 +373,12 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_zoom_to_fit_vertical_summary_off">Dynamic player is defined automatically</string>
     <string name="revanced_zoom_to_fit_vertical_summary_on">Dynamic player is forced on square and vertical videos</string>
     <string name="revanced_zoom_to_fit_vertical_title">Dynamic player</string>
+    <string name="rvx_dialog_message">"À partir de YouTube v17.33.xx, la rotation automatique en plein écran suit l'état de bascule de rotation automatique du système.
+Donc la version YouTube à v17.32.9 contourne le problème de rotation automatique en plein écran
+En conséquence, dans les informations de l'application, la version YouTube est affichée comme v17.32.39
+
+Si vous voulez désactiver ceci, mettez le bouton ci-dessous en \"désactivé\" :"</string>
+    <string name="rvx_dialog_title">ReVanced Extended</string>
     <string name="sb_guidelines_popup_already_read">Already read</string>
     <string name="sb_guidelines_popup_content">"It's recommended to read the SponsorBlock guidelines before submitting any segment"</string>
     <string name="sb_guidelines_popup_open">Show me</string>
@@ -405,6 +441,7 @@ Already exists"</string>
 %s"</string>
     <string name="submit_failed_rate_limit">"Can't submit the segment.
 Rate Limited (Too many from the same user or IP)"</string>
+    <string name="submit_failed_invalid">Impossible de soumettre le segment : %s</string>
     <string name="submit_failed_unknown_error" formatted="false">Unable to submit segments: Status: %d %s</string>
     <string name="submit_started">Submitting segment…</string>
     <string name="submit_succeeded">Segment submitted successfully</string>

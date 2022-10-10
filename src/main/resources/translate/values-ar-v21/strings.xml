@@ -337,6 +337,7 @@
     <string name="revanced_tablet_miniplayer_summary_off">تم تعطيل لوح المشغل المصَّغَّر</string>
     <string name="revanced_tablet_miniplayer_summary_on">تم تمكين لوح المشغل المصَّغَّر</string>
     <string name="revanced_tablet_miniplayer_title">المُشَّغل المصَّغَّر</string>
+    <string name="revanced_tool_used">الأداة المستخدمة</string>
     <string name="revanced_video_ads_summary_off">تم إخفاء إعلانات الفيديو</string>
     <string name="revanced_video_ads_summary_on">يتم عرض إعلانات الفيديو</string>
     <string name="revanced_video_ads_title">إعلانات الفيديو</string>

@@ -85,11 +85,60 @@
     <string name="litho_info_panel_off">मरचंडाईसचे बॅनर दाखवले जातात</string>
     <string name="litho_info_panel_on">मरचंडाईसचे बॅनर लपलेले आहेत</string>
     <string name="litho_latest_posts">नवीनतम पोस्ट लपवा</string>
+    <string name="litho_latest_posts_off">नवीनतम पोस्ट दाखवल्या आहेत</string>
+    <string name="litho_latest_posts_on">नवीनतम पोस्ट लपविल्या आहेत</string>
+    <string name="litho_medical_panel">वैद्यकीय पॅनेल काढा</string>
+    <string name="litho_medical_panel_off">वैद्यकीय फलक दाखवले आहेत</string>
+    <string name="litho_medical_panel_on">वैद्यकीय फलक लपलेले आहेत</string>
+    <string name="litho_merchandise">व्यापारी मालाचे बॅनर काढा</string>
+    <string name="litho_merchandise_off">व्यापारी मालाचे बॅनर दाखवले जातात</string>
+    <string name="litho_merchandise_on">मरचंडाईसचे बॅनर लपलेले आहेत</string>
+    <string name="litho_movie_upsell">मूव्ही शेल्फ काढणे</string>
+    <string name="litho_movie_upsell_off">मूव्ही शेल्फ काढणे बंद आहे</string>
+    <string name="litho_movie_upsell_on">मूव्ही शेल्फ काढणे चालू आहे</string>
+    <string name="litho_paid_content">सशुल्क सामग्री काढा</string>
+    <string name="litho_paid_content_off">सशुल्क सामग्री दर्शविली आहे</string>
+    <string name="litho_paid_content_on">सशुल्क सामग्री लपविली आहे</string>
     <string name="litho_shorts_shelf">शॉर्ट्स शेल्फ काढा</string>
     <string name="litho_shorts_shelf_off">शॉर्ट्स शेल्फ दाखवले आहेत</string>
+    <string name="litho_shorts_shelf_on">लहान शेल्फ् लपलेले आहेत</string>
     <string name="microg_not_installed_notice">कृपया मायक्रोजी इन्स्टॉल करा</string>
     <string name="microg_not_installed_warning">मायक्रोजी सापडला नाही</string>
+    <string name="microg_notification_settings">सूचना सेटिंग्ज</string>
+    <string name="microg_notification_settings_summary">"1. सूचनांसाठी Google डिव्हाइस नोंदणी आणि क्लाउड मेसेजिंग सक्षम करणे आवश्यक आहे.
+2. क्लाउड मेसेजिंग अंतर्गत नोंदणीकृत म्हणून ReVanced दर्शविणे आवश्यक आहे.
+3. क्लाउड मेसेजिंगमधील वर्तमान स्थिती कनेक्ट केलेली असणे आवश्यक आहे."</string>
     <string name="microg_settings">मायक्रोजी सेटिंग्ज</string>
     <string name="minutes">मिनिटे</string>
     <string name="new_segment_choose_category">विभाग श्रेणी निवडा</string>
+    <string name="new_segment_confirm_content" formatted="false">"विभाग %02d:%02d ते %02d:%02d (%d मिनिटे %02d सेकंद) पर्यंत चालतो
+ते सादर करण्यास तयार आहे का?"</string>
+    <string name="new_segment_confirm_title">वेळा बरोबर आहेत का?</string>
+    <string name="new_segment_disabled_category">"तुम्ही सेटिंग्जमध्ये ही श्रेणी अक्षम केली आहे, सबमिट करण्यात सक्षम होण्यासाठी ती सक्षम करा"</string>
+    <string name="new_segment_edit_by_hand_content">तुम्ही सेगमेंटच्या सुरुवातीची किंवा शेवटची वेळ संपादित करू इच्छिता?</string>
+    <string name="new_segment_edit_by_hand_parse_error">अवैध वेळ दिली</string>
+    <string name="new_segment_edit_by_hand_saved">झाले</string>
+    <string name="new_segment_edit_by_hand_title">सेगमेंटची वेळ व्यक्तिचलितपणे संपादित करा</string>
+    <string name="new_segment_mark_end">शेवट</string>
+    <string name="new_segment_mark_locations_first">प्रथम टाइमबारवर दोन स्थाने चिन्हांकित करा</string>
+    <string name="new_segment_mark_start">प्रारंभ</string>
+    <string name="new_segment_mark_time_as_question" formatted="false">%02d:%02d:%04d नवीन विभागाचा प्रारंभ किंवा शेवट म्हणून सेट करायचा?</string>
+    <string name="new_segment_now">आता</string>
+    <string name="new_segment_time_end">सेगमेंट संपण्याची वेळ</string>
+    <string name="new_segment_time_end_set">सेगमेंट सेटचा शेवट</string>
+    <string name="new_segment_time_start">सेगमेंट सुरू होण्याची वेळ</string>
+    <string name="new_segment_time_start_set">सेगमेंट सेटची सुरुवात</string>
+    <string name="new_segment_title">नवीन प्रायोजक ब्लॉक सेगमेंट</string>
+    <string name="pref_subtitles_scale_normal">सामान्य</string>
+    <string name="reset">रीसेट करा</string>
+    <string name="revanced_ad_settings_title">जाहिराती सेटिंग्ज</string>
+    <string name="revanced_ad_settings_summary">जाहिरात संबंधित सेटिंग्ज</string>
+    <string name="revanced_auto_captions_summary_off">"मथळे 0% व्हॉल्यूमवर स्वयंचलितपणे सक्षम होत नाहीत"</string>
+    <string name="revanced_auto_captions_summary_on">मथळे 0% व्हॉल्यूमवर स्वयंचलितपणे सक्षम केले जातात</string>
+    <string name="revanced_auto_captions_title">स्वयं मथळे</string>
+    <string name="revanced_auto_repeat_button_summary_off">ऑटो रिपीट बटण लपलेले आहे</string>
+    <string name="revanced_auto_repeat_button_summary_on">ऑटो रिपीट बटण दृश्यमान आहे</string>
+    <string name="revanced_auto_repeat_button_title">ऑटो रिपीट बटण</string>
+    <string name="revanced_auto_repeat_summary_off">नेहमी स्वयं पुनरावृत्ती अक्षम केली जाते</string>
+    <string name="revanced_auto_repeat_summary_on">नेहमी स्वयं पुनरावृत्ती सक्षम असते</string>
 </resources>

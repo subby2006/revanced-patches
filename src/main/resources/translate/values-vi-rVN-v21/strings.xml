@@ -345,6 +345,7 @@ Bạn có chắc chắn muốn tiếp tục không?"</string>
     <string name="revanced_tablet_miniplayer_summary_off">Trình phát thu nhỏ của máy tính bảng bị vô hiệu hoá</string>
     <string name="revanced_tablet_miniplayer_summary_on">Trình phát thu nhỏ của máy tính bảng được kích hoạt</string>
     <string name="revanced_tablet_miniplayer_title">Trình phát thu nhỏ của máy tính bảng</string>
+    <string name="revanced_tool_used">Công cụ sử dụng</string>
     <string name="revanced_video_ads_summary_off">Quảng cáo trên video đã ẩn</string>
     <string name="revanced_video_ads_summary_on">Quảng cáo trên video được hiển thị</string>
     <string name="revanced_video_ads_title">Ẩn Quảng cáo trên video</string>

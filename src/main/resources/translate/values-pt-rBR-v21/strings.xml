@@ -347,6 +347,7 @@ Você tem certeza de que deseja continuar?"</string>
     <string name="revanced_tablet_miniplayer_summary_off">Miniplayer de Tablet não está sendo usado</string>
     <string name="revanced_tablet_miniplayer_summary_on">Miniplayer de Tablet está sendo usado</string>
     <string name="revanced_tablet_miniplayer_title">Miniplayer Tablet</string>
+    <string name="revanced_tool_used">ferramenta usada</string>
     <string name="revanced_video_ads_summary_off">Anúncios de vídeo estão ocultos</string>
     <string name="revanced_video_ads_summary_on">Anúncios de vídeo exibidos</string>
     <string name="revanced_video_ads_title">Anúncios em Vídeo</string>

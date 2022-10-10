@@ -26,7 +26,9 @@ class TranslationsPatch : ResourcePatch {
         val revanced_translations = "translate" to arrayOf(
                 "ar-v21",
                 "az-rAZ-v21",
+                "be-rBY-v21",
                 "bn-v21",
+                "cs-rCZ-v21",
                 "de-rDE-v21",
                 "el-rGR-v21",
                 "es-rES-v21",

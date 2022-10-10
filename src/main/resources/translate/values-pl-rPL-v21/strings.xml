@@ -148,6 +148,7 @@
     <string name="revanced_buffer_summary">Niestandardowe ustawienia bufora wideo</string>
     <string name="revanced_buffer_title">Ustawienia bufora wideo</string>
     <string name="revanced_button_location_entry_buttoncontainer">Pod odtwarzaczem</string>
+    <string name="revanced_button_location_entry_none">Ukryte</string>
     <string name="revanced_button_location_entry_player">W odtwarzaczu</string>
     <string name="revanced_button_container_warning_summary">ta funkcja nie obsługuje w pełni nowego układu!</string>
     <string name="revanced_cast_button_summary_off">Przycisk przesyłania jest ukryty</string>
