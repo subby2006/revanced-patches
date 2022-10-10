@@ -18,6 +18,7 @@ import app.revanced.patches.youtube.layout.pivotbar.utils.InjectionUtils.injectH
 import app.revanced.patches.youtube.layout.pivotbar.fingerprints.PivotBarFingerprint
 import app.revanced.patches.youtube.layout.pivotbar.shortsbutton.annotations.ShortsButtonCompatibility
 import app.revanced.patches.youtube.layout.pivotbar.shortsbutton.fingerprints.PivotBarEnumFingerprint
+import app.revanced.patches.youtube.layout.pivotbar.shortsbutton.fingerprints.PivotBarEnumFingerprint2
 import app.revanced.patches.youtube.layout.pivotbar.shortsbutton.fingerprints.PivotBarShortsButtonViewFingerprint
 import app.revanced.patches.youtube.layout.pivotbar.shortsbutton.fingerprints.PivotBarButtonsViewFingerprint
 import app.revanced.patches.youtube.layout.pivotbar.shortsbutton.fingerprints.PivotBarButtonTabEnumFingerprint
@@ -77,35 +78,75 @@ class ShortsButtonRemoverPatch : BytecodePatch(
             ).forEach { (hook, insertIndex) ->
                 pivotBarResult.mutableMethod.injectHook(hook, insertIndex)
             }
-        } catch (e: Exception) {}
-        try {
-            val tabEnumResult = PivotBarButtonTabEnumFingerprint.result!!
-            val tabEnumImplementation = tabEnumResult.mutableMethod.implementation!!
-            val moveEnumInstruction = tabEnumImplementation.instructions[tabEnumResult.scanResult.patternScanResult!!.endIndex]
-            val enumRegister = (moveEnumInstruction as OneRegisterInstruction).registerA
-
-            val buttonsViewResult = PivotBarButtonsViewFingerprint.result!!
-            val buttonsViewImplementation = buttonsViewResult.mutableMethod.implementation!!
-            val moveViewInstruction = buttonsViewImplementation.instructions[buttonsViewResult.scanResult.patternScanResult!!.startIndex + 1]
-            val viewRegister = (moveViewInstruction as OneRegisterInstruction).registerA
-
-
-            // Save the tab enum in XGlobals to avoid smali/register workarounds
-            tabEnumResult.mutableMethod.addInstruction(
-                tabEnumResult.scanResult.patternScanResult!!.endIndex + 1,
-                "sput-object v$enumRegister, Lapp/revanced/integrations/patches/HideShortsButtonPatch;->lastPivotTab:Ljava/lang/Enum;"
-            )
-
-            // Hide the button view via proxy by passing it to the hideShortsButton method
-            // It only hides it if the last tab name is "TAB_SHORTS"
-            buttonsViewResult.mutableMethod.addInstruction(
-                buttonsViewResult.scanResult.patternScanResult!!.startIndex + 3,
-                "invoke-static { v$viewRegister }, Lapp/revanced/integrations/patches/HideShortsButtonPatch;->hideShortsButton(Landroid/view/View;)V"
-            )
         } catch (e: Exception) {
-            PatchResultError("Could not find the correct register")
-        }
+            try {
+                val pivotBarResult = PivotBarFingerprint.result!!
+                val fingerprintResults = arrayOf(PivotBarEnumFingerprint2, PivotBarShortsButtonViewFingerprint)
+                    .onEach {
+                            val resolutionSucceeded = it.resolve(
+                                context,
+                                pivotBarResult.method,
+                                pivotBarResult.classDef
+                            )
 
+                            //if (!resolutionSucceeded) return PatchResultError("${it.name} failed")
+                    }
+                    .map { it.result!!.scanResult.patternScanResult!! }
+
+                val enumScanResult = fingerprintResults[0]
+                val buttonViewResult = fingerprintResults[1]
+
+                val enumHookInsertIndex = enumScanResult.startIndex
+                val buttonHookInsertIndex = buttonViewResult.endIndex
+
+                /*
+                 * Inject hooks
+                 */
+
+                val integrationsClass = "Lapp/revanced/integrations/patches/HideShortsButtonPatch;"
+
+                val enumHook =
+                    "sput-object v$REGISTER_TEMPLATE_REPLACEMENT, $integrationsClass->lastPivotTab:Ljava/lang/Enum;"
+                val buttonHook =
+                    "invoke-static { v$REGISTER_TEMPLATE_REPLACEMENT }, $integrationsClass->hideShortsButton(Landroid/view/View;)V"
+
+                // Inject bottom to top to not mess up the indices
+                mapOf(
+                    buttonHook to buttonHookInsertIndex,
+                    enumHook to enumHookInsertIndex
+                ).forEach { (hook, insertIndex) ->
+                    pivotBarResult.mutableMethod.injectHook(hook, insertIndex)
+                }
+            } catch (e: Exception) {
+                try {
+                    val tabEnumResult = PivotBarButtonTabEnumFingerprint.result!!
+                    val tabEnumImplementation = tabEnumResult.mutableMethod.implementation!!
+                    val moveEnumInstruction = tabEnumImplementation.instructions[tabEnumResult.scanResult.patternScanResult!!.endIndex]
+                    val enumRegister = (moveEnumInstruction as OneRegisterInstruction).registerA
+
+                    val buttonsViewResult = PivotBarButtonsViewFingerprint.result!!
+                    val buttonsViewImplementation = buttonsViewResult.mutableMethod.implementation!!
+                    val moveViewInstruction = buttonsViewImplementation.instructions[buttonsViewResult.scanResult.patternScanResult!!.startIndex + 1]
+                    val viewRegister = (moveViewInstruction as OneRegisterInstruction).registerA
+
+
+                    // Save the tab enum in XGlobals to avoid smali/register workarounds
+                    tabEnumResult.mutableMethod.addInstruction(
+                        tabEnumResult.scanResult.patternScanResult!!.endIndex + 1,
+                        "sput-object v$enumRegister, Lapp/revanced/integrations/patches/HideShortsButtonPatch;->lastPivotTab:Ljava/lang/Enum;"
+                    )
+
+                    // Hide the button view via proxy by passing it to the hideShortsButton method
+                    // It only hides it if the last tab name is "TAB_SHORTS"
+                    buttonsViewResult.mutableMethod.addInstruction(
+                        buttonsViewResult.scanResult.patternScanResult!!.startIndex + 3,
+                        "invoke-static { v$viewRegister }, Lapp/revanced/integrations/patches/HideShortsButtonPatch;->hideShortsButton(Landroid/view/View;)V"
+                    )
+                } catch (e: Exception) {
+                    PatchResultError("Could not find the correct register")
+                }
+            }
+        }
         return PatchResultSuccess()
     }
 }
