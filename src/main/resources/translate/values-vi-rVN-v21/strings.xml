@@ -167,6 +167,9 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Nút Sao chép liên kết với mốc thời gian được hiển thị</string>
     <string name="revanced_copy_video_url_timestamp_title">Nút Sao chép liên kết với mốc thời gian</string>
     <string name="revanced_copy_video_url_title">Nút Sao chép liên kết</string>
+    <string name="revanced_donation_companion_summary_off">Hoạt động gây quỹ được hiển thị</string>
+    <string name="revanced_donation_companion_summary_on">Hoạt động gây quỹ đã ẩn</string>
+    <string name="revanced_donation_companion_title">Hoạt động gây quỹ</string>
     <string name="revanced_download_video_summary_off">Nút Tải xuống đã ẩn</string>
     <string name="revanced_download_video_summary_on">Nút Tải xuống được hiển thị</string>
     <string name="revanced_download_video_title">Nút Tải xuống</string>

@@ -167,6 +167,9 @@ Ar jis paruoštas pateikti?"</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Mygtukas kopijuoti nuorodą su laiko žyma yra matomas</string>
     <string name="revanced_copy_video_url_timestamp_title">Mygtukas kopijuoti nuorodą su laiko žyma</string>
     <string name="revanced_copy_video_url_title">Mygtukas kopijuoti nuorodą</string>
+    <string name="revanced_donation_companion_summary_off">Aukojimo kompanionas yra rodomas</string>
+    <string name="revanced_donation_companion_summary_on">Aukojimo kompanionas yra paslėptas</string>
+    <string name="revanced_donation_companion_title">Aukojimo kompanionas</string>
     <string name="revanced_download_video_summary_off">Parsisiųsti mygtukas yra paslėptas</string>
     <string name="revanced_download_video_summary_on">Parsisiųsti mygtukas yra matomas</string>
     <string name="revanced_download_video_title">Atsisiuntimo mygtukas</string>
