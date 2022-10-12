@@ -77,8 +77,8 @@
     <string name="litho_in_feed_survey_off">Feed surveys are shown</string>
     <string name="litho_in_feed_survey_on">Feed surveys are hidden</string>
     <string name="litho_info_panel">Remove info panels</string>
-    <string name="litho_info_panel_off">Merchandise banners are shown</string>
-    <string name="litho_info_panel_on">Merchandise banners are hidden</string>
+    <string name="litho_info_panel_off">Info panels are shown</string>
+    <string name="litho_info_panel_on">Info panels are hidden</string>
     <string name="litho_latest_posts">Hide latest posts</string>
     <string name="litho_latest_posts_off">Latest posts are shown</string>
     <string name="litho_latest_posts_on">Latest posts are hidden</string>
