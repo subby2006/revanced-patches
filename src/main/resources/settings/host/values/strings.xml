@@ -166,6 +166,9 @@ Is it ready to submit?"</string>
     <string name="revanced_disable_new_layout_summary_off">YouTube Layout will follow your Google Account status</string>
     <string name="revanced_disable_new_layout_summary_on">Trick the YouTube version to force disable new layout</string>
     <string name="revanced_disable_new_layout_title">Disable New Layout (Experimental)</string>
+    <string name="revanced_captions_button_summary_off">Captions Button is hidden</string>
+    <string name="revanced_captions_button_summary_on">Captions Button is shown</string>
+    <string name="revanced_captions_button_title">Captions Button (In player)</string>
     <string name="revanced_create_button_summary_off">Create Button is hidden</string>
     <string name="revanced_create_button_summary_on">Create Button is shown</string>
     <string name="revanced_create_button_title">Create Button</string>
