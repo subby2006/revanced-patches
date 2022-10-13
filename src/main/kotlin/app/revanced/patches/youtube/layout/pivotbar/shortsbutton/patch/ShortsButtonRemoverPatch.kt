@@ -44,13 +44,11 @@ class ShortsButtonRemoverPatch : BytecodePatch(
             val pivotBarResult = PivotBarFingerprint.result!!
             val fingerprintResults = arrayOf(PivotBarEnumFingerprint, PivotBarShortsButtonViewFingerprint)
                 .onEach {
-                        val resolutionSucceeded = it.resolve(
+                        it.resolve(
                             context,
                             pivotBarResult.method,
                             pivotBarResult.classDef
                         )
-
-                        //if (!resolutionSucceeded) return PatchResultError("${it.name} failed")
                 }
                 .map { it.result!!.scanResult.patternScanResult!! }
 
@@ -83,13 +81,11 @@ class ShortsButtonRemoverPatch : BytecodePatch(
                 val pivotBarResult = PivotBarFingerprint.result!!
                 val fingerprintResults = arrayOf(PivotBarEnumFingerprint2, PivotBarShortsButtonViewFingerprint)
                     .onEach {
-                            val resolutionSucceeded = it.resolve(
+                            it.resolve(
                                 context,
                                 pivotBarResult.method,
                                 pivotBarResult.classDef
                             )
-
-                            //if (!resolutionSucceeded) return PatchResultError("${it.name} failed")
                     }
                     .map { it.result!!.scanResult.patternScanResult!! }
 

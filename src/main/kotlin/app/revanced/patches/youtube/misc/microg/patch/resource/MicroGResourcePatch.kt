@@ -29,9 +29,9 @@ import app.revanced.util.microg.MicroGResourceHelper
 class MicroGResourcePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
 
-        val xfile = context["res/xml/revanced_prefs.xml"]
-        xfile.writeText(
-                xfile.readText()
+        val revancedprefs = context["res/xml/revanced_prefs.xml"]
+        revancedprefs.writeText(
+                revancedprefs.readText()
                         .replace(
                                 "<PreferenceCategory android:layout_height=\"fill_parent\" android:title=\"@string/revanced_settings\" />",
                                 "<PreferenceCategory android:title=\"@string/microg_settings\">\n        TEMP1\n    <PreferenceCategory android:layout_height=\"fill_parent\" android:title=\"@string/revanced_settings\" />"
