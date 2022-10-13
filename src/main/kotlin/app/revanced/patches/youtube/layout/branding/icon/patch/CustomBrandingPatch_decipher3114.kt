@@ -54,6 +54,20 @@ class CustomBrandingPatch_decipher3114 : ResourcePatch {
             }
         }
 
+
+        // MonoChrome Icon
+        arrayOf("drawable" to arrayOf("adaptive_monochrome_ic_youtube_launcher")).forEach { (path, resourceNames) ->
+            resourceNames.forEach { name ->
+                val relativePath = "$path/$name.xml"
+
+                Files.copy(
+                    classLoader.getResourceAsStream("branding/decipher3114/monochromeicon/$relativePath")!!,
+                    context["res"].resolve(relativePath).toPath(),
+                    StandardCopyOption.REPLACE_EXISTING
+                )
+            }
+        }
+
         // App name
         val resourceFileNames = arrayOf(
             "strings.xml"
