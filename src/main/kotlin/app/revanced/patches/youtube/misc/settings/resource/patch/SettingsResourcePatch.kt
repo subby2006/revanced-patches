@@ -23,7 +23,7 @@ import java.nio.file.StandardCopyOption
 @Version("0.0.1")
 class SettingsResourcePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
-        val classLoader = this.javaClass.classLoader
+
         /*
          * Copy strings
          */
@@ -98,6 +98,21 @@ class SettingsResourcePatch : ResourcePatch {
             val element = it.file.createElement("uses-permission")
             element.setAttribute("android:name", "android.permission.SCHEDULE_EXACT_ALARM")
             manifestNode.appendChild(element)
+        }
+
+        // remove Divider
+        arrayOf("values-v21" to arrayOf("styles")).forEach { (path, resourceNames) ->
+            resourceNames.forEach { name ->
+                val resDirectory = context["res"].resolve("values-v21")
+                val relativePath = "$path/$name.xml"
+
+                Files.createDirectory(resDirectory.toPath())
+                Files.copy(
+                    this.javaClass.classLoader.getResourceAsStream("settings/$relativePath")!!,
+                    context["res"].resolve(relativePath).toPath(),
+                    StandardCopyOption.REPLACE_EXISTING
+                )
+            }
         }
 
         return PatchResultSuccess()

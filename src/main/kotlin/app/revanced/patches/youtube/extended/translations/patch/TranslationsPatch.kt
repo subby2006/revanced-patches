@@ -70,7 +70,7 @@ class TranslationsPatch : ResourcePatch {
                         classLoader.getResourceAsStream("$path/$relativePath")!!,
                         context["res"].resolve(relativePath).toPath(),
                         StandardCopyOption.REPLACE_EXISTING
-                )		
+                )
             }
         }
 
