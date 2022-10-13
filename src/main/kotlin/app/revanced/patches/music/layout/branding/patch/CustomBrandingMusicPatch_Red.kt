@@ -23,7 +23,7 @@ import org.w3c.dom.Element
 @Patch
 @DependsOn([ResourceMappingResourcePatch::class])
 @Name("custom-branding-music-red")
-@Description("Changes the YouTube Music launcher icon and name to your choice (defaults to ReVanced Red).")
+@Description("Changes the YouTube Music launcher icon to your choice (defaults to ReVanced Red).")
 @CustomBrandingMusicCompatibility
 @Version("0.0.1")
 class CustomBrandingMusicPatch_Red : ResourcePatch {
@@ -32,7 +32,7 @@ class CustomBrandingMusicPatch_Red : ResourcePatch {
         val resDirectory = context["res"]
         if (!resDirectory.isDirectory) return PatchResultError("The res folder can not be found.")
 
-        // Icon branding
+        // App Icon
         val AppiconNames = arrayOf(
             "adaptiveproduct_youtube_music_background_color_108",
             "adaptiveproduct_youtube_music_foreground_color_108",
@@ -48,13 +48,14 @@ class CustomBrandingMusicPatch_Red : ResourcePatch {
         ).forEach { (iconDirectory, size) ->
             AppiconNames.forEach iconLoop@{ iconName ->
                 Files.copy(
-                    classLoader.getResourceAsStream("branding-music/icon/$size/$iconName.png")!!,
+                    classLoader.getResourceAsStream("branding-music/red/launchericon/$size/$iconName.png")!!,
                     resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
             }
         }
 
+        // Other Resource
         val drawables1 = "drawable-hdpi" to arrayOf(
             "action_bar_logo",
             "action_bar_logo_release",
@@ -107,7 +108,7 @@ class CustomBrandingMusicPatch_Red : ResourcePatch {
                 val relativePath = "$path/$name.png"
 
                 Files.copy(
-                    classLoader.getResourceAsStream("branding-music/resource/$relativePath")!!,
+                    classLoader.getResourceAsStream("branding-music/red/resource/$relativePath")!!,
                     context["res"].resolve(relativePath).toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )

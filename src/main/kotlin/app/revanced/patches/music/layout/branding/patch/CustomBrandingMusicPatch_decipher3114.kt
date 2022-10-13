@@ -23,7 +23,7 @@ import org.w3c.dom.Element
 @Patch(false)
 @DependsOn([ResourceMappingResourcePatch::class])
 @Name("custom-branding-music-decipher3114")
-@Description("Changes the YouTube Music launcher icon and name to your choice (decipher3114).")
+@Description("Changes the YouTube Music launcher icon to your choice (decipher3114).")
 @CustomBrandingMusicCompatibility
 @Version("0.0.1")
 class CustomBrandingMusicPatch_decipher3114 : ResourcePatch {
@@ -32,7 +32,7 @@ class CustomBrandingMusicPatch_decipher3114 : ResourcePatch {
         val resDirectory = context["res"]
         if (!resDirectory.isDirectory) return PatchResultError("The res folder can not be found.")
 
-        // Icon branding
+        // App Icon
         val AppiconNames = arrayOf(
             "adaptiveproduct_youtube_music_background_color_108",
             "adaptiveproduct_youtube_music_foreground_color_108",
@@ -48,7 +48,7 @@ class CustomBrandingMusicPatch_decipher3114 : ResourcePatch {
         ).forEach { (iconDirectory, size) ->
             AppiconNames.forEach iconLoop@{ iconName ->
                 Files.copy(
-                    classLoader.getResourceAsStream("branding-music/decipher3114/$size/$iconName.png")!!,
+                    classLoader.getResourceAsStream("branding-music/decipher3114/launchericon/$size/$iconName.png")!!,
                     resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
