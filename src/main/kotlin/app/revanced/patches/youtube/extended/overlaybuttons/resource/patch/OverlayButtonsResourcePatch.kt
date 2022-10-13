@@ -21,26 +21,40 @@ import java.nio.file.StandardCopyOption
 @Version("0.0.1")
 class OverlayButtonsResourcePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
-        val classLoader = this.javaClass.classLoader
 
         /*
          * Copy resources
          */
 
         val drawables = "drawable" to arrayOf(
-                "playlist_repeat_button",
-                "playlist_shuffle_button",
-                "revanced_yt_repeat_icon"
+                "playlist_repeat_button.xml",
+                "playlist_shuffle_button.xml",
+                "revanced_yt_repeat_icon.xml"
         )
 
-        val xmlResources = arrayOf(drawables)
+        val drawablexxhdpi = "drawable-xxhdpi" to arrayOf(
+                "ic_fullscreen_vertical_button.png",
+                "quantum_ic_fullscreen_exit_grey600_24.png",
+                "quantum_ic_fullscreen_exit_white_24.png",
+                "quantum_ic_fullscreen_grey600_24.png",
+                "quantum_ic_fullscreen_white_24.png",
+                "revanced_yt_copy_icon.png",
+                "revanced_yt_copy_icon_with_time.png",
+                "revanced_yt_download_icon.png",
+                "yt_outline_arrow_repeat_1_white_24.png",
+                "yt_outline_arrow_shuffle_1_white_24.png",
+                "yt_outline_screen_full_exit_white_24.png",
+                "yt_outline_screen_full_white_24.png"
+        )
+
+        val xmlResources = arrayOf(drawables, drawablexxhdpi)
 
         xmlResources.forEach { (path, resourceNames) ->
             resourceNames.forEach { name ->
-                val relativePath = "$path/$name.xml"
+                val relativePath = "$path/$name"
 
                 Files.copy(
-                        classLoader.getResourceAsStream("overlaybuttons/$relativePath")!!,
+                        this.javaClass.classLoader.getResourceAsStream("overlaybuttons/$relativePath")!!,
                         context["res"].resolve(relativePath).toPath(),
                         StandardCopyOption.REPLACE_EXISTING
                 )

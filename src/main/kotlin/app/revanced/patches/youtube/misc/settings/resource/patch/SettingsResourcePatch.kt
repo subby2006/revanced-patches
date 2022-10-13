@@ -100,35 +100,6 @@ class SettingsResourcePatch : ResourcePatch {
             manifestNode.appendChild(element)
         }
 
-        val drawablexxhdpi = "drawable-xxhdpi" to arrayOf(
-                "ic_fullscreen_vertical_button",
-                "quantum_ic_fullscreen_exit_grey600_24",
-                "quantum_ic_fullscreen_exit_white_24",
-                "quantum_ic_fullscreen_grey600_24",
-                "quantum_ic_fullscreen_white_24",
-                "revanced_yt_copy_icon",
-                "revanced_yt_copy_icon_with_time",
-                "revanced_yt_download_icon",
-                "yt_outline_arrow_repeat_1_white_24",
-                "yt_outline_arrow_shuffle_1_white_24",
-                "yt_outline_screen_full_exit_white_24",
-                "yt_outline_screen_full_white_24"
-        )
-
-        val xmlResources = arrayOf(drawablexxhdpi)
-
-        xmlResources.forEach { (path, resourceNames) ->
-            resourceNames.forEach { name ->
-                val relativePath = "$path/$name.png"
-
-                Files.copy(
-                        classLoader.getResourceAsStream("settings/$relativePath")!!,
-                        context["res"].resolve(relativePath).toPath(),
-                        StandardCopyOption.REPLACE_EXISTING
-                )
-            }
-        }
-
         return PatchResultSuccess()
     }
 }
