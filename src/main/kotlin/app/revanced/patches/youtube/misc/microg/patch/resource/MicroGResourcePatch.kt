@@ -12,7 +12,6 @@ import app.revanced.patches.music.misc.microg.shared.Constants
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import app.revanced.patches.youtube.misc.microg.annotations.MicroGPatchCompatibility
 import app.revanced.patches.youtube.misc.microg.shared.Constants.PACKAGE_NAME
-import app.revanced.patches.youtube.misc.microg.shared.Constants.REVANCED_APP_NAME
 import app.revanced.patches.youtube.misc.microg.shared.Constants.REVANCED_PACKAGE_NAME
 import app.revanced.patches.youtube.misc.microg.shared.Constants.SPOOFED_PACKAGE_NAME
 import app.revanced.patches.youtube.misc.microg.shared.Constants.SPOOFED_PACKAGE_SIGNATURE

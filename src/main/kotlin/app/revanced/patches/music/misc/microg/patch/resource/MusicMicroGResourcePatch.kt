@@ -9,7 +9,6 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.music.misc.microg.annotations.MusicMicroGPatchCompatibility
 import app.revanced.patches.music.misc.microg.shared.Constants.MUSIC_PACKAGE_NAME
-import app.revanced.patches.music.misc.microg.shared.Constants.REVANCED_MUSIC_APP_NAME
 import app.revanced.patches.music.misc.microg.shared.Constants.REVANCED_MUSIC_PACKAGE_NAME
 import app.revanced.patches.music.misc.microg.shared.Constants.SPOOFED_PACKAGE_NAME
 import app.revanced.patches.music.misc.microg.shared.Constants.SPOOFED_PACKAGE_SIGNATURE
