@@ -38,9 +38,9 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `return-youtube-dislike` | Shows the dislike count of videos using the Return YouTube Dislike API. | 17.39.35 |
 | `hide-autoplay-button` | Hides the autoplay button in the video player. | 17.39.35 |
 | `disable-startup-shorts-player` | Disables playing YouTube Shorts when launching YouTube. | 17.39.35 |
-| `custom-branding-red` | Changes the YouTube launcher icon and name to your choice (defaults to ReVanced Red). | all |
-| `custom-branding-blue` | Changes the YouTube launcher icon and name to your choice (ReVanced Blue). | all |
-| `custom-branding-decipher3114` | Changes the YouTube launcher icon and name to your choice (decipher3114). | all |
+| `custom-branding-red` | Changes the YouTube launcher icon to your choice (defaults to ReVanced Red). | all |
+| `custom-branding-blue` | Changes the YouTube launcher icon to your choice (ReVanced Blue). | all |
+| `custom-branding-decipher3114` | Changes the YouTube launcher icon to your choice (decipher3114). | all |
 | `amoled` | Enables pure black theme. | all |
 | `materialyou` | Enables MaterialYou theme for Android 12+. | all |
 | `remove-playerbutton-background` | Disable Player Button Overlay Background. | all |
