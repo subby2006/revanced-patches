@@ -75,9 +75,6 @@
     <string name="litho_hide_suggestions">सूचना लपवा</string>
     <string name="litho_hide_suggestions_off">सूचना दाखवल्या आहेत</string>
     <string name="litho_hide_suggestions_on">सूचना लपवल्या आहेत</string>
-    <string name="litho_horizontal_movie_shelf">मूव्ही शेल्फ काढणे</string>
-    <string name="litho_horizontal_movie_shelf_off">मूव्ही शेल्फ काढणे बंद आहे</string>
-    <string name="litho_horizontal_movie_shelf_on">मूव्ही शेल्फ काढणे चालू आहे</string>
     <string name="litho_in_feed_survey">फीड सर्वेक्षण काढा</string>
     <string name="litho_in_feed_survey_off">फीड सर्वेक्षण दर्शविले आहेत</string>
     <string name="litho_in_feed_survey_on">फीड सर्वेक्षण लपलेले आहेत</string>
@@ -93,9 +90,6 @@
     <string name="litho_merchandise">व्यापारी मालाचे बॅनर काढा</string>
     <string name="litho_merchandise_off">व्यापारी मालाचे बॅनर दाखवले जातात</string>
     <string name="litho_merchandise_on">मरचंडाईसचे बॅनर लपलेले आहेत</string>
-    <string name="litho_movie_upsell">मूव्ही शेल्फ काढणे</string>
-    <string name="litho_movie_upsell_off">मूव्ही शेल्फ काढणे बंद आहे</string>
-    <string name="litho_movie_upsell_on">मूव्ही शेल्फ काढणे चालू आहे</string>
     <string name="litho_paid_content">सशुल्क सामग्री काढा</string>
     <string name="litho_paid_content_off">सशुल्क सामग्री दर्शविली आहे</string>
     <string name="litho_paid_content_on">सशुल्क सामग्री लपविली आहे</string>
@@ -133,9 +127,6 @@
     <string name="reset">रीसेट करा</string>
     <string name="revanced_ad_settings_title">जाहिराती सेटिंग्ज</string>
     <string name="revanced_ad_settings_summary">जाहिरात संबंधित सेटिंग्ज</string>
-    <string name="revanced_auto_captions_summary_off">"मथळे 0% व्हॉल्यूमवर स्वयंचलितपणे सक्षम होत नाहीत"</string>
-    <string name="revanced_auto_captions_summary_on">मथळे 0% व्हॉल्यूमवर स्वयंचलितपणे सक्षम केले जातात</string>
-    <string name="revanced_auto_captions_title">स्वयं मथळे</string>
     <string name="revanced_auto_repeat_button_summary_off">ऑटो रिपीट बटण लपलेले आहे</string>
     <string name="revanced_auto_repeat_button_summary_on">ऑटो रिपीट बटण दृश्यमान आहे</string>
     <string name="revanced_auto_repeat_button_title">ऑटो रिपीट बटण</string>

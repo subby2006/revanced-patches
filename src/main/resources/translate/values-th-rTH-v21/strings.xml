@@ -69,4 +69,10 @@
     <string name="litho_emergency_box">ลบกล่องข้อความฉุกเฉิน</string>
     <string name="litho_emergency_box_off">กล่องข้อความฉุกเฉินกำลังแสดง</string>
     <string name="litho_emergency_box_on">กล่องข้อความฉุกเฉินซ่อนอยู่</string>
+    <string name="litho_general_ad_removal">ลบโฆษณาทั่วไป</string>
+    <string name="litho_general_ad_removal_off">โฆษณาทั่วไปถูกแสดงอยู่</string>
+    <string name="litho_general_ad_removal_on">โฆษณาทั่วไปถูกซ่อนอยู่</string>
+    <string name="litho_hide_suggestions">ซ่อนคำแนะนำ</string>
+    <string name="litho_hide_suggestions_off">คำแนะนำถูกแสดงอยู่</string>
+    <string name="litho_hide_suggestions_on">คำแนะนำถูกซ่อนอยู่</string>
 </resources>

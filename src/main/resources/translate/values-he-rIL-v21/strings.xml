@@ -91,9 +91,6 @@
     <string name="reset">איפוס</string>
     <string name="revanced_ad_settings_title">הגדרות מודעות</string>
     <string name="revanced_ad_settings_summary">הגדרות הקשורות למודעות</string>
-    <string name="revanced_auto_captions_summary_off">"הכתוביות לא פועלות אוטומטית כשהצליל מושתק (בעוצמת צליל 0%)"</string>
-    <string name="revanced_auto_captions_summary_on">הכתוביות פועלות אוטומטית כשהצליל מושתק (בעוצמת צליל 0%)</string>
-    <string name="revanced_auto_captions_title">כתוביות אוטומטיות</string>
     <string name="revanced_auto_repeat_button_summary_off">לחצן החזרה אוטומטית מוסתר</string>
     <string name="revanced_auto_repeat_button_summary_on">לחצן החזרה אוטומטית מוסתר</string>
     <string name="revanced_auto_repeat_button_title">כפתור חזרה אוטומטית</string>
@@ -104,9 +101,6 @@
     <string name="revanced_branding_watermark_summary_off">סימן המים מוסתר בסרטון</string>
     <string name="revanced_branding_watermark_summary_on">סימן המים מוסתר בסרטון</string>
     <string name="revanced_buffer_title">הגדרות וידאו buffer</string>
-    <string name="revanced_button_location_entry_both">שניהם</string>
-    <string name="revanced_button_location_entry_buttoncontainer">מתחת לנגן</string>
-    <string name="revanced_button_location_entry_none">מוסתר</string>
     <string name="revanced_hide_create_clip_button_summary_on">לחצן שידור מסך מוסתר</string>
     <string name="revanced_hide_create_clip_button_title">הסתר את כפתור העריכה</string>
     <string name="revanced_hide_create_short_button_summary_off">לחצן שידור מסך מוצג</string>

@@ -75,9 +75,6 @@
     <string name="litho_hide_suggestions">Supprimer les suggestions générales</string>
     <string name="litho_hide_suggestions_off">La suppression générale de la mise en page des publicités est désactivée</string>
     <string name="litho_hide_suggestions_on">La suppression de la publicité de mise en page générale est activée</string>
-    <string name="litho_horizontal_movie_shelf">Suppression de l\'étagère de film</string>
-    <string name="litho_horizontal_movie_shelf_off">Suppression de l\'étagère de film est désactivée</string>
-    <string name="litho_horizontal_movie_shelf_on">Suppression de l\'étagère de film est activée</string>
     <string name="litho_in_feed_survey">Suppression des enquêtes</string>
     <string name="litho_in_feed_survey_off">Suppression du flux des enquêtes désactivée</string>
     <string name="litho_in_feed_survey_on">Suppression du flux des enquêtes activée</string>
@@ -93,9 +90,6 @@
     <string name="litho_merchandise">Suppression de liens commerciaux</string>
     <string name="litho_merchandise_off">Suppression de liens commerciaux désactivée</string>
     <string name="litho_merchandise_on">Suppression des liens commerciaux activée</string>
-    <string name="litho_movie_upsell">Suppression de la vente de films</string>
-    <string name="litho_movie_upsell_off">Suppression de la vente de films désactivée</string>
-    <string name="litho_movie_upsell_on">Suppression de la vente de films activée</string>
     <string name="litho_paid_content">Suppression de contenu payant</string>
     <string name="litho_paid_content_off">Suppression de contenu payant désactivée</string>
     <string name="litho_paid_content_on">Suppression de contenu payant activée</string>
@@ -133,9 +127,6 @@ Est-il prêt à être soumis ?"</string>
     <string name="reset">Réinitialiser</string>
     <string name="revanced_ad_settings_title">Réglages des publicités</string>
     <string name="revanced_ad_settings_summary">Paramètres associés aux publicités</string>
-    <string name="revanced_auto_captions_summary_off">"Les sous-titres ne sont pas activés automatiquement quand le volume est à 0%"</string>
-    <string name="revanced_auto_captions_summary_on">Les sous-titres sont activés automatiquement quand le volume est à 0%</string>
-    <string name="revanced_auto_captions_title">Sous-titrage automatique</string>
     <string name="revanced_auto_repeat_button_summary_off">Doesn\'t show auto-repeat button in the player overlay. Use the toggle below to control auto-repeat</string>
     <string name="revanced_auto_repeat_button_summary_on">Auto-repeat button is shown in the player overlay</string>
     <string name="revanced_auto_repeat_button_title">Auto-repeat button</string>
@@ -144,16 +135,11 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_auto_repeat_title">Always Auto-repeat</string>
     <string name="revanced_autoplay_button_summary_off">Le bouton de lecture automatique est masqué</string>
     <string name="revanced_autoplay_button_summary_on">Le bouton de lecture automatique est affiché</string>
-    <string name="revanced_autoplay_button_title">Bouton de lecture automatique</string>
     <string name="revanced_branding_watermark_summary_off">Video watermark is hidden</string>
     <string name="revanced_branding_watermark_summary_on">Video watermark is shown</string>
     <string name="revanced_branding_watermark_title">Video watermark</string>
     <string name="revanced_buffer_summary">Réglages personnalisés pour le buffer vidéo</string>
     <string name="revanced_buffer_title">Buffer settings</string>
-    <string name="revanced_button_location_entry_both">Les deux</string>
-    <string name="revanced_button_location_entry_buttoncontainer">En dessous du lecteur</string>
-    <string name="revanced_button_location_entry_none">Masqué</string>
-    <string name="revanced_button_location_entry_player">Dans le lecteur</string>
     <string name="revanced_button_container_summary">Masque le composant du conteneur de boutons</string>
     <string name="revanced_button_container_title">Cacher le conteneur de boutons (expérimental)</string>
     <string name="revanced_button_container_warning_summary">cette fonctionnalité ne supporte pas complètement la nouvelle mise en page !</string>
@@ -337,9 +323,6 @@ Cependant, puisque c'est encore une fonctionnalité expérimentale, les likes pe
     <string name="revanced_swipe_pts_summary_on">Swipe controls require a long-press before activating</string>
     <string name="revanced_swipe_pts_title">Press-to-Swipe</string>
     <string name="revanced_swipe_screen_summary">Swipe controls for Brightness and Volume</string>
-    <string name="revanced_swipe_tablet_summary_off">Tablet style is turned off</string>
-    <string name="revanced_swipe_tablet_summary_on">Tablet style is turned on. For example suggested videos are only partially working</string>
-    <string name="revanced_swipe_tablet_title">Tablet style</string>
     <string name="revanced_swipe_summary">Contrôler le volume et la luminosité</string>
     <string name="revanced_swipe_title">Swipe controls</string>
     <string name="revanced_swipe_volume_summary_off">Swipe controls for volume are disabled</string>
@@ -370,9 +353,6 @@ Cependant, puisque c'est encore une fonctionnalité expérimentale, les likes pe
     <string name="revanced_whitelisting_remove_failed" formatted="false">Failed to remove channel %s from the %s whitelist</string>
     <string name="revanced_whitelisting_removed" formatted="false">Channel %s was removed from the %s whitelist</string>
     <string name="revanced_whitelisting_sponsorblock">SponsorBlock</string>
-    <string name="revanced_zoom_to_fit_vertical_summary_off">Dynamic player is defined automatically</string>
-    <string name="revanced_zoom_to_fit_vertical_summary_on">Dynamic player is forced on square and vertical videos</string>
-    <string name="revanced_zoom_to_fit_vertical_title">Dynamic player</string>
     <string name="rvx_dialog_message">"À partir de YouTube v17.33.xx, la rotation automatique en plein écran suit l'état de bascule de rotation automatique du système.
 Donc la version YouTube à v17.32.9 contourne le problème de rotation automatique en plein écran
 En conséquence, dans les informations de l'application, la version YouTube est affichée comme v17.32.39
