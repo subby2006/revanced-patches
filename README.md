@@ -62,6 +62,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `custom-video-buffer` | Lets you change the buffers of videos. | 17.39.35 |
 | `always-autorepeat` | Always repeats the playing video again. | 17.39.35 |
 | `microg-support` | Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG. | 17.39.35 |
+| `custom-package-name` | Allows ReVanced Extended to run under a different package name than ReVanced (with Vanced MicroG). | 17.39.35 |
 | `settings` | Adds settings for ReVanced to YouTube. | all |
 | `custom-playback-speed` | Adds more video playback speed options. | 17.39.35 |
 | `hdr-auto-brightness` | Makes the brightness of HDR videos follow the system default. | 17.39.35 |
