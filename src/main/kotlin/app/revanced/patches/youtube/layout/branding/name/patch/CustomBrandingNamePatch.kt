@@ -28,6 +28,7 @@ import org.w3c.dom.Element
 @Version("0.0.1")
 class CustomBrandingNamePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
+
         // App name
         val resourceFileNames = arrayOf(
             "strings.xml"

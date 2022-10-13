@@ -22,7 +22,7 @@ import java.nio.file.StandardCopyOption
 @Version("0.0.1")
 class AmoledResourcePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
-        val classLoader = this.javaClass.classLoader
+
         context.xmlEditor["res${File.separator}values${File.separator}colors.xml"].use { editor ->
             val resourcesNode = editor.file.getElementsByTagName("resources").item(0) as Element
 
@@ -32,8 +32,8 @@ class AmoledResourcePatch : ResourcePatch {
 
                 val element = resourcesNode.childNodes.item(i) as Element
                 element.textContent = when (element.getAttribute("name")) {
-                    "yt_black1", "yt_black1_opacity95", "yt_black1_opacity98", "yt_black2", "yt_black3", "yt_black4", "yt_status_bar_background_dark" -> "@android:color/black"
-                    "yt_white1", "yt_white1_opacity95", "yt_white1_opacity98", "yt_white2", "yt_white3", "yt_white4" -> "@android:color/white"
+                    "yt_black1", "yt_black1_opacity95", "yt_black1_opacity98", "yt_black2", "yt_black3", "yt_black4", "yt_status_bar_background_dark", "sud_glif_v3_dialog_background_color_dark" -> "@android:color/black"
+                    "yt_white1", "yt_white1_opacity95", "yt_white1_opacity98", "yt_white2", "yt_white3", "yt_white4", "sud_glif_v3_dialog_background_color_light" -> "@android:color/white"
                     else -> continue
                 }
             }
@@ -65,20 +65,14 @@ class AmoledResourcePatch : ResourcePatch {
             }
         }
 
-        val values_night_v31 = "values-night-v31" to arrayOf(
-                "styles"
-        )
-
-        val splashscreen_bg = arrayOf(values_night_v31)
-
-        splashscreen_bg.forEach { (path, resourceNames) ->
+        arrayOf("values-night-v31" to arrayOf("styles")).forEach { (path, resourceNames) ->
             resourceNames.forEach { name ->
                 val relativePath = "$path/$name.xml"
 
                 Files.copy(
-                        classLoader.getResourceAsStream("amoled/$relativePath")!!,
-                        context["res"].resolve(relativePath).toPath(),
-                        StandardCopyOption.REPLACE_EXISTING
+                    this.javaClass.classLoader.getResourceAsStream("amoled/$relativePath")!!,
+                    context["res"].resolve(relativePath).toPath(),
+                    StandardCopyOption.REPLACE_EXISTING
                 )
             }
         }
