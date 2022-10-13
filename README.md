@@ -18,6 +18,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. | 5.27.50 |
 | `background-play` | Enables playing music in the background. | 5.27.50 |
 | `music-microg-support` | Allows YouTube Music ReVanced to run without root and under a different package name. | 5.27.50 |
+| `custom-package-name-music` | Allows ReVanced Extended Music to run under a different package name than ReVanced Music (NON-ROOT users only!). | 5.27.50 |
 | `music-video-ads` | Removes ads in the music player. | 5.27.50 |
 | `codecs-unlock` | Adds more audio codec options. The new audio codecs usually result in better audio quality. | 5.27.50 |
 | `exclusive-audio-playback` | Enables the option to play music without video. | 5.27.50 |
