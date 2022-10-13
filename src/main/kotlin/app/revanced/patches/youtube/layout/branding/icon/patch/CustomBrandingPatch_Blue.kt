@@ -30,8 +30,8 @@ class CustomBrandingPatch_Blue : ResourcePatch {
         val resDirectory = context["res"]
         if (!resDirectory.isDirectory) return PatchResultError("The res folder can not be found.")
 
-        // Icon branding
-        val iconNames = arrayOf(
+        // App Icon
+        val AppiconNames = arrayOf(
             "adaptiveproduct_youtube_background_color_108",
             "adaptiveproduct_youtube_foreground_color_108",
             "ic_launcher",
@@ -45,35 +45,29 @@ class CustomBrandingPatch_Blue : ResourcePatch {
             "hdpi" to 72,
             "mdpi" to 48
         ).forEach { (iconDirectory, size) ->
-            iconNames.forEach iconLoop@{ iconName ->
-                val iconFile = this.javaClass.classLoader.getResourceAsStream("branding/blue/$size/$iconName.png")
-                    ?: return PatchResultError("The icon $iconName can not be found.")
-
-                Files.write(
-                    resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(), iconFile.readAllBytes()
+            AppiconNames.forEach iconLoop@{ iconName ->
+                Files.copy(
+                    classLoader.getResourceAsStream("branding/blue/launchericon/$size/$iconName.png")!!,
+                    resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(),
+                    StandardCopyOption.REPLACE_EXISTING
                 )
             }
         }
 
-        val drawables = "drawable" to arrayOf(
-            "adaptive_monochrome_ic_youtube_launcher"
-        )
-
-        val xmlResources = arrayOf(drawables)
-
-        xmlResources.forEach { (path, resourceNames) ->
+        // MonoChrome Icon
+        arrayOf("drawable" to arrayOf("adaptive_monochrome_ic_youtube_launcher")).forEach { (path, resourceNames) ->
             resourceNames.forEach { name ->
                 val relativePath = "$path/$name.xml"
 
                 Files.copy(
-                    classLoader.getResourceAsStream("branding/monochrome/$relativePath")!!,
+                    classLoader.getResourceAsStream("branding/red/monochromeicon/$relativePath")!!,
                     context["res"].resolve(relativePath).toPath(),
-					StandardCopyOption.REPLACE_EXISTING
+                    StandardCopyOption.REPLACE_EXISTING
                 )
             }
         }
 
-        // Name branding
+        // App name
         val resourceFileNames = arrayOf(
             "strings.xml"
         )

@@ -30,8 +30,8 @@ class CustomBrandingPatch_decipher3114 : ResourcePatch {
         val resDirectory = context["res"]
         if (!resDirectory.isDirectory) return PatchResultError("The res folder can not be found.")
 
-        // Icon branding
-        val iconNames = arrayOf(
+        // App Icon
+        val AppiconNames = arrayOf(
             "adaptiveproduct_youtube_background_color_108",
             "adaptiveproduct_youtube_foreground_color_108",
             "ic_launcher",
@@ -45,35 +45,16 @@ class CustomBrandingPatch_decipher3114 : ResourcePatch {
             "hdpi" to 72,
             "mdpi" to 48
         ).forEach { (iconDirectory, size) ->
-            iconNames.forEach iconLoop@{ iconName ->
-                val iconFile = this.javaClass.classLoader.getResourceAsStream("branding/decipher3114/$size/$iconName.png")
-                    ?: return PatchResultError("The icon $iconName can not be found.")
-
-                Files.write(
-                    resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(), iconFile.readAllBytes()
-                )
-            }
-        }
-
-        val drawables = "drawable" to arrayOf(
-            "adaptive_monochrome_ic_youtube_launcher"
-        )
-
-        val xmlResources = arrayOf(drawables)
-
-        xmlResources.forEach { (path, resourceNames) ->
-            resourceNames.forEach { name ->
-                val relativePath = "$path/$name.xml"
-
+            AppiconNames.forEach iconLoop@{ iconName ->
                 Files.copy(
-                    classLoader.getResourceAsStream("branding/monochrome/$relativePath")!!,
-                    context["res"].resolve(relativePath).toPath(),
-					StandardCopyOption.REPLACE_EXISTING
+                    classLoader.getResourceAsStream("branding/decipher3114/launchericon/$size/$iconName.png")!!,
+                    resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(),
+                    StandardCopyOption.REPLACE_EXISTING
                 )
             }
         }
 
-        // Name branding
+        // App name
         val resourceFileNames = arrayOf(
             "strings.xml"
         )
