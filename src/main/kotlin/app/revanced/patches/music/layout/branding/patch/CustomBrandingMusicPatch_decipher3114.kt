@@ -55,6 +55,19 @@ class CustomBrandingMusicPatch_decipher3114 : ResourcePatch {
             }
         }
 
+        // MonoChrome Icon
+        arrayOf("drawable" to arrayOf("ic_app_icons_themed_youtube_music")).forEach { (path, resourceNames) ->
+            resourceNames.forEach { name ->
+                val relativePath = "$path/$name.xml"
+
+                Files.copy(
+                    classLoader.getResourceAsStream("branding-music/decipher3114/monochromeicon/$relativePath")!!,
+                    context["res"].resolve(relativePath).toPath(),
+                    StandardCopyOption.REPLACE_EXISTING
+                )
+            }
+        }
+
         return PatchResultSuccess()
     }
 
