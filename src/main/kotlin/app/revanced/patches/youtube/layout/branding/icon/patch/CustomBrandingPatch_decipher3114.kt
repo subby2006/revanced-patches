@@ -21,7 +21,7 @@ import org.w3c.dom.Element
 
 @Patch(false)
 @Name("custom-branding-decipher3114")
-@Description("Changes the YouTube launcher icon and name to your choice (decipher3114).")
+@Description("Changes the YouTube launcher icon to your choice (decipher3114).")
 @CustomBrandingCompatibility
 @Version("0.0.1")
 class CustomBrandingPatch_decipher3114 : ResourcePatch {
@@ -65,31 +65,6 @@ class CustomBrandingPatch_decipher3114 : ResourcePatch {
                     context["res"].resolve(relativePath).toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
-            }
-        }
-
-        // App name
-        val resourceFileNames = arrayOf(
-            "strings.xml"
-        )
-
-        context.forEach {
-            if (!it.name.startsWithAny(*resourceFileNames)) return@forEach
-
-            // for each file in the "layouts" directory replace all necessary attributes content
-            context.xmlEditor[it.absolutePath].use { editor ->
-            val resourcesNode = editor.file.getElementsByTagName("resources").item(0) as Element
-
-                for (i in 0 until resourcesNode.childNodes.length) {
-                    val node = resourcesNode.childNodes.item(i)
-                    if (node !is Element) continue
-
-                    val element = resourcesNode.childNodes.item(i) as Element
-                    element.textContent = when (element.getAttribute("name")) {
-                        "application_name" -> "YouTube ReVanced"
-                        else -> continue
-                    }
-                }
             }
         }
 
