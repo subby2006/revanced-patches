@@ -33,6 +33,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 |:--------:|:--------------:|:-----------------:|
 | `swipe-controls` | Adds volume and brightness swipe controls. | 17.39.35 |
 | `overlay-buttons` | Add overlay buttons for YouTube - copy, copy with timestamp, repeat, download. | 17.39.35 |
+| `overlay-buttons-alternative-icon` | Use alternative Icons for the overlay buttons. | 17.39.35 |
 | `seekbar-tapping` | Enables tap-to-seek on the seekbar of the video player. | 17.39.35 |
 | `disable-create-button` | Hides the create button in the navigation bar. | 17.39.35 |
 | `hide-cast-button` | Hides the cast button in the video player. | all |
