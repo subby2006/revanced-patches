@@ -247,6 +247,9 @@ Is it ready to submit?"</string>
     <string name="revanced_minimized_playback_on">Minimized playback is enabled</string>
     <string name="revanced_misc_summary">Miscellaneous patches</string>
     <string name="revanced_misc_title">Miscellaneous</string>
+    <string name="revanced_my_mix_summary_off">My Mix (Playlist) shown</string>
+    <string name="revanced_my_mix_summary_on">My Mix (Playlist) hidden</string>
+    <string name="revanced_my_mix_title">My Mix (Playlist)</string>
     <string name="revanced_new_actionbar_summary_off">Wide search bar is disabled</string>
     <string name="revanced_new_actionbar_summary_on">Wide search bar is enabled</string>
     <string name="revanced_new_actionbar_title">Wide search bar</string>

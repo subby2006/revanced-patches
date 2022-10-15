@@ -58,6 +58,12 @@ class ExtendedPatch : BytecodePatch() {
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
 
+    private val layoutresourceIds = arrayOf(
+        "programmed_playlist_item"
+    ).map { name ->
+        ResourceMappingResourcePatch.resourceMappings.single { it.type == "layout" && it.name == name }.id
+    }
+
     override fun execute(context: BytecodeContext): PatchResult {
 
         // iterating through all classes is expensive
@@ -73,22 +79,15 @@ class ExtendedPatch : BytecodePatch() {
                 instructions.forEachIndexed { index, instruction ->
                     when (instruction.opcode) {
                         Opcode.CONST -> {
-                            // TODO: find a way to de-duplicate code.
-                            //  The issue is we need to save mutableClass and mutableMethod to the existing fields
                             when ((instruction as Instruction31i).wideLiteral) {
 
                                 resourceIds[0] -> { // suggested_action
-                                    //  and is followed by an instruction with the mnemonic IPUT_OBJECT
                                     val insertIndex = index + 4
-                                    //val invokeInstruction = instructions.elementAt(insertIndex)
-                                    //if (invokeInstruction.opcode != Opcode.IPUT_OBJECT) return@forEachIndexed
 
-                                    // create proxied method, make sure to not re-resolve() the current class
                                     if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
                                     if (mutableMethod == null) mutableMethod =
                                         mutableClass!!.findMutableMethodOf(method)
 
-                                    // TODO: dynamically get registers
                                     mutableMethod!!.addInstructions(
                                         insertIndex, """
                                                 invoke-static {v0}, Lapp/revanced/integrations/patches/SuggestedActionsPatch;->hideSuggestedActions(Landroid/view/View;)V
@@ -97,18 +96,15 @@ class ExtendedPatch : BytecodePatch() {
                                 }
 
                                 resourceIds[1] -> { // header
-                                    //  and is followed by an instruction with the mnemonic IPUT_OBJECT
                                     val insertIndex = index - 1
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.SGET_OBJECT) return@forEachIndexed
 
-                                    // create proxied method, make sure to not re-resolve() the current class
                                     if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
                                     if (mutableMethod == null) mutableMethod =
                                         mutableClass!!.findMutableMethodOf(method)
 									val premiumheader = resourceIds[2]
 
-                                    // TODO: dynamically get registers
                                     mutableMethod!!.addInstructions(
                                         insertIndex + 2, """
                                                 invoke-static {}, Lapp/revanced/integrations/patches/PremiumHeaderPatch;->getPremiumHeaderOverride()Z
@@ -122,17 +118,14 @@ class ExtendedPatch : BytecodePatch() {
                                 }
 
                                 resourceIds[3] -> { // theme
-                                    //  and is followed by an instruction with the mnemonic RETURN_OBJECT
                                     val insertIndex = index + 2
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.RETURN_OBJECT) return@forEachIndexed
 
-                                    // create proxied method, make sure to not re-resolve() the current class
                                     if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
                                     if (mutableMethod == null) mutableMethod =
                                         mutableClass!!.findMutableMethodOf(method)
 
-                                    // TODO: dynamically get registers
                                     mutableMethod!!.addInstructions(
                                         index + 1, """
                                                 const/4 v0, 0x0
@@ -144,6 +137,27 @@ class ExtendedPatch : BytecodePatch() {
                                         index - 1, """
                                                 const/4 v0, 0x1
                                                 invoke-static {v0}, Lapp/revanced/integrations/utils/ThemeHelper;->setTheme(I)V
+												"""
+                                    )
+                                }
+
+                                layoutresourceIds[0] -> { // my_mix
+                                    val insertIndex = index - 4
+                                    val invokeInstruction = instructions.elementAt(insertIndex)
+                                    if (invokeInstruction.opcode != Opcode.INVOKE_VIRTUAL) return@forEachIndexed
+
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
+                                    if (mutableMethod == null) mutableMethod =
+                                        mutableClass!!.findMutableMethodOf(method)
+
+                                    mutableMethod!!.addInstructions(
+                                        insertIndex + 1, """
+                                                invoke-static {}, Lapp/revanced/integrations/patches/HideMyMixPatch;->HideMyMix()Z
+                                                move-result v3
+                                                if-eqz v3, :default
+                                                return-void
+                                                :default
+                                                nop
 												"""
                                     )
                                 }
