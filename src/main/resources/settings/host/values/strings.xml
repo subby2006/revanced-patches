@@ -73,6 +73,9 @@
     <string name="litho_hide_suggestions">Hide suggestions</string>
     <string name="litho_hide_suggestions_off">Suggestions are shown</string>
     <string name="litho_hide_suggestions_on">Suggestions are hidden</string>
+    <string name="litho_image_shelf">Remove image shelf</string>
+    <string name="litho_image_shelf_off">Image shelves are shown</string>
+    <string name="litho_image_shelf_on">Image shelves are hidden</string>
     <string name="litho_in_feed_survey">Remove feed surveys</string>
     <string name="litho_in_feed_survey_off">Feed surveys are shown</string>
     <string name="litho_in_feed_survey_on">Feed surveys are hidden</string>
