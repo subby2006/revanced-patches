@@ -81,6 +81,13 @@
     <string name="litho_info_panel">Выдаліць інфармацыйныя панэлі</string>
     <string name="litho_info_panel_off">Інфа панелі паказваюцца</string>
     <string name="litho_info_panel_on">Іна панелі скрыты</string>
+    <string name="microg_not_installed_notice">Калі ласка, усталюйце MicroG</string>
+    <string name="microg_not_installed_warning">MicroG не знойдзены</string>
+    <string name="microg_notification_settings">Параметры апавяшчэнняў</string>
+    <string name="microg_notification_settings_summary">"1. Рэгістрацыя прылады ў Google і Cloud Messanging павінны быць уключаны для адпраўлення паведамленняў.
+2. ReVanced павінен адлюстроўвацца як зарэгістраваны ў Cloud Messanging.
+3. Стан у Cloud Messanging павінен быць \"Падлучана\"."</string>
+    <string name="microg_settings">Налады MicroG</string>
     <string name="new_segment_confirm_content" formatted="false">"Сегмент доўжыцца ад %02d:%02d да %02d:%02d (%d хвілін %02d секунд)\nЦі гатовы ён да адпраўкі?"</string>
     <string name="new_segment_confirm_title">Час пачатка і канца сегмента верны?</string>
     <string name="new_segment_disabled_category">"Вы адключылі гэту катэгорыю ў наладах, уключыце яе для даслання сегмента"</string>
@@ -109,4 +116,6 @@
     <string name="revanced_auto_repeat_summary_on">Заўсёды аўтаматычны паўтор уключаны</string>
     <string name="revanced_auto_repeat_title">Заўсёды аўтаматычны паўтор</string>
     <string name="revanced_autoplay_button_summary_off">Кнопка аўтазапуску схавана</string>
+    <string name="revanced_codec_override_title">Перавызначэнне кодэка</string>
+    <string name="revanced_copy_video_url_title">Кнопка капіявання спасылкі</string>
 </resources>

@@ -75,6 +75,9 @@
     <string name="litho_hide_suggestions">Slėpti pasiūlymus</string>
     <string name="litho_hide_suggestions_off">Pasiūlymai yra rodomi</string>
     <string name="litho_hide_suggestions_on">Pasiūlymai yra paslėpti</string>
+    <string name="litho_image_shelf">Šalinti paveikslėlių lentyna</string>
+    <string name="litho_image_shelf_off">Paveikslėlių lentyna yra rodoma</string>
+    <string name="litho_image_shelf_on">Paveikslėlių lentyna paslėpta</string>
     <string name="litho_in_feed_survey">Pašalinti sklaidos kanalo apklausas</string>
     <string name="litho_in_feed_survey_off">Sklaidos kanalo apklausos yra rodomos</string>
     <string name="litho_in_feed_survey_on">Sklaidos kanalo apklausos yra paslėptos</string>
@@ -245,6 +248,9 @@ Ar jis paruoštas pateikti?"</string>
     <string name="revanced_minimized_playback_on">Sumažintas atkūrimas įjungtas</string>
     <string name="revanced_misc_summary">Įvairūs pataisymai</string>
     <string name="revanced_misc_title">Kita</string>
+    <string name="revanced_my_mix_summary_off">Mano Mix (Grojaraštis) rodomas</string>
+    <string name="revanced_my_mix_summary_on">Mano Mix (Grojaraštis) paslėptas</string>
+    <string name="revanced_my_mix_title">Mano Mix (Grojaraštis)</string>
     <string name="revanced_new_actionbar_summary_off">Plati paieškos juosta yra išjungta</string>
     <string name="revanced_new_actionbar_summary_on">Plati paieškos juosta yra įjungta</string>
     <string name="revanced_new_actionbar_title">Plati paieškos juosta</string>

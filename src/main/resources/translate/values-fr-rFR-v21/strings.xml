@@ -75,6 +75,9 @@
     <string name="litho_hide_suggestions">Supprimer les suggestions générales</string>
     <string name="litho_hide_suggestions_off">La suppression générale de la mise en page des publicités est désactivée</string>
     <string name="litho_hide_suggestions_on">La suppression de la publicité de mise en page générale est activée</string>
+    <string name="litho_image_shelf">Retirer l\'étagère d\'image</string>
+    <string name="litho_image_shelf_off">Les étagères d\'image sont affichées</string>
+    <string name="litho_image_shelf_on">Les étagères d\'image sont masquées</string>
     <string name="litho_in_feed_survey">Suppression des enquêtes</string>
     <string name="litho_in_feed_survey_off">Suppression du flux des enquêtes désactivée</string>
     <string name="litho_in_feed_survey_on">Suppression du flux des enquêtes activée</string>
@@ -135,6 +138,7 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_auto_repeat_title">Always Auto-repeat</string>
     <string name="revanced_autoplay_button_summary_off">Le bouton de lecture automatique est masqué</string>
     <string name="revanced_autoplay_button_summary_on">Le bouton de lecture automatique est affiché</string>
+    <string name="revanced_autoplay_button_title">Le bouton lecture automatique (Dans le lecteur)</string>
     <string name="revanced_branding_watermark_summary_off">Video watermark is hidden</string>
     <string name="revanced_branding_watermark_summary_on">Video watermark is shown</string>
     <string name="revanced_branding_watermark_title">Video watermark</string>
@@ -153,6 +157,9 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Copy Link Button With Timestamp is shown in the player overlay</string>
     <string name="revanced_copy_video_url_timestamp_title">Copy Link Button With Timestamp</string>
     <string name="revanced_copy_video_url_title">Copy Link Button</string>
+    <string name="revanced_donation_companion_summary_off">Le partenaire de donation est affiché</string>
+    <string name="revanced_donation_companion_summary_on">Le partenaire de donation est masqué</string>
+    <string name="revanced_donation_companion_title">Le compagnon de donation</string>
     <string name="revanced_download_video_summary_off">Le bouton de téléchargement est caché</string>
     <string name="revanced_download_video_summary_on">Le bouton de téléchargement est visible</string>
     <string name="revanced_download_video_title">Bouton de téléchargement</string>
@@ -163,6 +170,8 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_disable_new_layout_summary_off">La mise en page de YouTube suivra le statut de votre compte Google</string>
     <string name="revanced_disable_new_layout_summary_on">Changer la version YouTube pour forcer la désactivation de la nouvelle mise en page</string>
     <string name="revanced_disable_new_layout_title">Désactiver la nouvelle mise en page (expérimental)</string>
+    <string name="revanced_captions_button_summary_off">Le bouton de légende est masquée</string>
+    <string name="revanced_captions_button_summary_on">Le bouton de légende est affichée</string>
     <string name="revanced_create_button_summary_off">Create Button is hidden</string>
     <string name="revanced_create_button_summary_on">Create Button is shown</string>
     <string name="revanced_create_button_title">Create Button</string>

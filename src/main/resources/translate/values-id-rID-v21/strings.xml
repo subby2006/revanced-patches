@@ -75,6 +75,9 @@
     <string name="litho_hide_suggestions">Penghapusan saran umum</string>
     <string name="litho_hide_suggestions_off">Penghapusan saran umum dinonaktifkan</string>
     <string name="litho_hide_suggestions_on">Penghapusan saran umum diaktifkan</string>
+    <string name="litho_image_shelf">Hapus rak gambar</string>
+    <string name="litho_image_shelf_off">Rak gambar ditampilkan</string>
+    <string name="litho_image_shelf_on">Rak gambar disembunyikan</string>
     <string name="litho_in_feed_survey">Penghapusan survei</string>
     <string name="litho_in_feed_survey_off">Penghapusan survei dinonaktifkan</string>
     <string name="litho_in_feed_survey_on">Penghapusan survei diaktifkan</string>
@@ -135,6 +138,7 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_auto_repeat_title">Pengulangan otomatis</string>
     <string name="revanced_autoplay_button_summary_off">Tombol putar otomatis disembunyikan</string>
     <string name="revanced_autoplay_button_summary_on">Tombol putar otomatis ditampilkan</string>
+    <string name="revanced_autoplay_button_title">Tombol auto mulai (didalam pemutar)</string>
     <string name="revanced_branding_watermark_summary_off">Watermark video disembunyikan</string>
     <string name="revanced_branding_watermark_summary_on">Watermark video ditampilkan</string>
     <string name="revanced_branding_watermark_title">Watermark video</string>
@@ -166,6 +170,9 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_disable_new_layout_summary_off">Tata letak YouTube akan mengikuti status akun Google anda</string>
     <string name="revanced_disable_new_layout_summary_on">Trik versi YouTube untuk memaksa menonaktifkan tata letak baru</string>
     <string name="revanced_disable_new_layout_title">Nonaktifkan tata letak baru (eksperimental)</string>
+    <string name="revanced_captions_button_summary_off">Tombol Sulih disembunyikan</string>
+    <string name="revanced_captions_button_summary_on">Tombol Sulih ditampilkan</string>
+    <string name="revanced_captions_button_title">Tombol Sulih (didalam pemutar)</string>
     <string name="revanced_create_button_summary_off">Tombol buat disembunyikan</string>
     <string name="revanced_create_button_summary_on">Tombol buat ditampilkan</string>
     <string name="revanced_create_button_title">Tombol buat</string>
@@ -241,6 +248,9 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_minimized_playback_on">Pemutaran latar belakang diaktifkan</string>
     <string name="revanced_misc_summary">Patch lainnya</string>
     <string name="revanced_misc_title">Lainnya</string>
+    <string name="revanced_my_mix_summary_off">Campuranku (Daftar Putar) ditampilkan</string>
+    <string name="revanced_my_mix_summary_on">Campuranku (Daftar Putar) disembunyikan</string>
+    <string name="revanced_my_mix_title">Campuranku (Daftar Putar)</string>
     <string name="revanced_new_actionbar_summary_off">Kotak pencarian lebar dinonaktifkan</string>
     <string name="revanced_new_actionbar_summary_on">Kotak pencarian lebar diaktifkan</string>
     <string name="revanced_new_actionbar_title">Kotak pencarian lebar</string>

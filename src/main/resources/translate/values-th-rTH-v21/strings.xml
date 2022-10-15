@@ -75,4 +75,22 @@
     <string name="litho_hide_suggestions">ซ่อนคำแนะนำ</string>
     <string name="litho_hide_suggestions_off">คำแนะนำถูกแสดงอยู่</string>
     <string name="litho_hide_suggestions_on">คำแนะนำถูกซ่อนอยู่</string>
+    <string name="litho_image_shelf">ลบชั้นวางรูป</string>
+    <string name="litho_image_shelf_off">แสดงชั้นวางรูปภาพ</string>
+    <string name="litho_image_shelf_on">ชั้นวางรูปภาพกำลังซ่อน</string>
+    <string name="litho_in_feed_survey">ลบแบบสำรวจฟีด</string>
+    <string name="litho_in_feed_survey_off">แสดงแบบสำรวจฟีด</string>
+    <string name="litho_in_feed_survey_on">แบบสำรวจฟีดถูกซ่อนไว้ </string>
+    <string name="litho_info_panel">ลบแผงข้อมูล</string>
+    <string name="litho_info_panel_off">แผงข้อมูลจะปรากฏขึ้น</string>
+    <string name="litho_info_panel_on">แผงข้อมูลถูกซ่อนไว้ </string>
+    <string name="litho_latest_posts">ซ่อนโพสต์ล่าสุด</string>
+    <string name="litho_latest_posts_off">แสดงโพสต์ล่าสุด</string>
+    <string name="litho_latest_posts_on">ซ่อนโพสต์ล่าสุด</string>
+    <string name="litho_merchandise">ลบแบนเนอร์สินค้า</string>
+    <string name="litho_merchandise_off">แสดงแบนเนอร์สินค้า</string>
+    <string name="litho_merchandise_on">ซ่อนแบนเนอร์สินค้า</string>
+    <string name="litho_paid_content">ลบเนื้อหาที่ต้องชำระเงิน</string>
+    <string name="litho_paid_content_off">แสดงเนื้อหาที่ต้องชำระเงิน</string>
+    <string name="litho_paid_content_on">ซ่อนเนื้อหาที่ต้องชำระเงิน</string>
 </resources>

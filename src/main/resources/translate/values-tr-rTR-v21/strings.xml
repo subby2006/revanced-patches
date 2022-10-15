@@ -75,6 +75,9 @@
     <string name="litho_hide_suggestions">Genel Önerilerin kaldırılması</string>
     <string name="litho_hide_suggestions_off">Genel Önerilerin kaldırılması kapalı</string>
     <string name="litho_hide_suggestions_on">Genel Önerilerin kaldırılması açık</string>
+    <string name="litho_image_shelf">Resim sayfasını kaldır </string>
+    <string name="litho_image_shelf_off">Görüntü rafları gösteriliyor</string>
+    <string name="litho_image_shelf_on">Görüntü rafları gizli</string>
     <string name="litho_in_feed_survey">Anket kaldırma</string>
     <string name="litho_in_feed_survey_off">Feed anketi kaldırma kapalı</string>
     <string name="litho_in_feed_survey_on">Feed anketi kaldırma açık</string>
@@ -135,6 +138,7 @@
     <string name="revanced_auto_repeat_title">Her zaman Otomatik tekrarla</string>
     <string name="revanced_autoplay_button_summary_off">Otomatik oynat düğmesi gizli</string>
     <string name="revanced_autoplay_button_summary_on">Otomatik oynat düğmesi gösterilir</string>
+    <string name="revanced_autoplay_button_title">Otomatik Oynat Düğmesi (Oynatıcıda)</string>
     <string name="revanced_branding_watermark_summary_off">Video filigranı gizli</string>
     <string name="revanced_branding_watermark_summary_on">Video filigranı gösteriliyor</string>
     <string name="revanced_branding_watermark_title">Video filigranı</string>
@@ -166,6 +170,9 @@
     <string name="revanced_disable_new_layout_summary_off">YouTube Düzeni, Google Hesabı durumunuzu takip edecek</string>
     <string name="revanced_disable_new_layout_summary_on">Yeni düzeni devre dışı bırakmaya zorlamak için YouTube görünümü değiştirin </string>
     <string name="revanced_disable_new_layout_title">Yeni Düzeni Devre Dışı Bırak (Deneysel)</string>
+    <string name="revanced_captions_button_summary_off">Altyazı Düğmesi gizli</string>
+    <string name="revanced_captions_button_summary_on">Altyazı Düğmesi açık </string>
+    <string name="revanced_captions_button_title">Altyazı Düğmesi (Oynatıcı)</string>
     <string name="revanced_create_button_summary_off">Oluştur Butonu gizli</string>
     <string name="revanced_create_button_summary_on">Oluştur Butonu gösterilir</string>
     <string name="revanced_create_button_title">Oluştur Butonu</string>
@@ -241,6 +248,9 @@
     <string name="revanced_minimized_playback_on">Background playback is enabled</string>
     <string name="revanced_misc_summary">Çeşitli yamalar</string>
     <string name="revanced_misc_title">Miscellaneous</string>
+    <string name="revanced_my_mix_summary_off">Mix\'im (Çalma Listesi) gösteriliyor</string>
+    <string name="revanced_my_mix_summary_on">Mix\'im (Çalma Listesi) gizli</string>
+    <string name="revanced_my_mix_title">Mix\'im (Çalma Listesi) </string>
     <string name="revanced_new_actionbar_summary_off">Search bar style is defined by the app</string>
     <string name="revanced_new_actionbar_summary_on">Geniş arama çubuğu etkinleştirildi</string>
     <string name="revanced_new_actionbar_title">Geniş arama çubuğu</string>

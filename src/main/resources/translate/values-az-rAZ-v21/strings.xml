@@ -75,6 +75,9 @@
     <string name="litho_hide_suggestions">Ümumi Təkliflərin çıxarılması</string>
     <string name="litho_hide_suggestions_off">Ümumi Təkliflərin silinməsi söndürülüb</string>
     <string name="litho_hide_suggestions_on">Ümumi Təkliflərin silinməsi aktivdir</string>
+    <string name="litho_image_shelf">Şəkil rəfini sil</string>
+    <string name="litho_image_shelf_off">Şəkil rəfləri göstərilir</string>
+    <string name="litho_image_shelf_on">Şəkil rəfləri gizlidir</string>
     <string name="litho_in_feed_survey">Anketin çıxarılması</string>
     <string name="litho_in_feed_survey_off">Lent sorğusunun silinməsi deaktiv edilib</string>
     <string name="litho_in_feed_survey_on">Lent sorğusunun silinməsi aktiv edilib</string>
@@ -135,6 +138,7 @@ Təqdim etməyə hazırdır?"</string>
     <string name="revanced_auto_repeat_title">Həmişə Avtomatik təkrarlayın</string>
     <string name="revanced_autoplay_button_summary_off">Avtomatik oynatma düyməsi gizlidir</string>
     <string name="revanced_autoplay_button_summary_on">Avtomatik oynatma düyməsi göstərilir</string>
+    <string name="revanced_autoplay_button_title">Avtomatik Oynatma Düyməsi (oynadıcıda)</string>
     <string name="revanced_branding_watermark_summary_off">Video filigranı gizlidir</string>
     <string name="revanced_branding_watermark_summary_on">Video filigranı göstərilir</string>
     <string name="revanced_branding_watermark_title">Video filigranı</string>
@@ -166,6 +170,9 @@ Təqdim etməyə hazırdır?"</string>
     <string name="revanced_disable_new_layout_summary_off">YouTube örtüyünü Google Hesabınızın statusunu izləyəcək</string>
     <string name="revanced_disable_new_layout_summary_on">Yeni tərtibatı deaktiv etmək üçün YouTube versiyasını aldadın</string>
     <string name="revanced_disable_new_layout_title">Yeni örtüyü deaktiv edin (Eksperimental)</string>
+    <string name="revanced_captions_button_summary_off">Altyazılar Düyməsi Gizlidir</string>
+    <string name="revanced_captions_button_summary_on">Altyazılar Düyməsi Göstərilir</string>
+    <string name="revanced_captions_button_title">Altyazılar Düyməsi (oynadıcıda)</string>
     <string name="revanced_create_button_summary_off">Yarat düyməsi gizlidir</string>
     <string name="revanced_create_button_summary_on">Yarat düyməsi göstərilir</string>
     <string name="revanced_create_button_title">Yarat düyməsi</string>
@@ -242,6 +249,9 @@ Təqdim etməyə hazırdır?"</string>
     <string name="revanced_minimized_playback_on">Arxa fonda oxutma aktivləşdirilib</string>
     <string name="revanced_misc_summary">Müxtəlif yamalar</string>
     <string name="revanced_misc_title">Müxtəlif</string>
+    <string name="revanced_my_mix_summary_off">Mənim Miksim (Pleylist) göstərilir</string>
+    <string name="revanced_my_mix_summary_on">Mənim Miksim (Pleylist) gizlədilib</string>
+    <string name="revanced_my_mix_title">Mənim Miksim (Pleylist)</string>
     <string name="revanced_new_actionbar_summary_off">Axtarış çubuğunun üslubu proqram tərəfindən müəyyən edilir</string>
     <string name="revanced_new_actionbar_summary_on">Geniş axtarış çubuğunu məcbur etmək</string>
     <string name="revanced_new_actionbar_title">Geniş axtarış çubuğu</string>

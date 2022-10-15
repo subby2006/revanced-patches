@@ -135,6 +135,7 @@ Is it ready to submit?"</string>
     <string name="revanced_auto_repeat_title">Always Auto-repeat</string>
     <string name="revanced_autoplay_button_summary_off">Autoplay button is hidden</string>
     <string name="revanced_autoplay_button_summary_on">Autoplay button is shown</string>
+    <string name="revanced_autoplay_button_title">Autoplay-Schaltfläche (Im Player)</string>
     <string name="revanced_branding_watermark_summary_off">Video-Wasserzeichen wird nicht angezeigt</string>
     <string name="revanced_branding_watermark_summary_on">Video-Wasserzeichen wird angezeigt</string>
     <string name="revanced_branding_watermark_title">Video-Wasserzeichen</string>
@@ -153,6 +154,9 @@ Is it ready to submit?"</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Copy Link Button With Timestamp is shown in the player overlay</string>
     <string name="revanced_copy_video_url_timestamp_title">Copy Link Button With Timestamp</string>
     <string name="revanced_copy_video_url_title">Copy Link Button</string>
+    <string name="revanced_donation_companion_summary_off">Spendenbegleiter wird angezeigt</string>
+    <string name="revanced_donation_companion_summary_on">Spendenbegleiter ist versteckt</string>
+    <string name="revanced_donation_companion_title">Spendenbegleiter</string>
     <string name="revanced_download_video_summary_off">Download Button ist ausgeblendet</string>
     <string name="revanced_download_video_summary_on">Download Button ist sichtbar</string>
     <string name="revanced_download_video_title">Download Button</string>
@@ -163,6 +167,9 @@ Is it ready to submit?"</string>
     <string name="revanced_disable_new_layout_summary_off">YouTube-Layout folgt Ihrem Google-Kontostatus</string>
     <string name="revanced_disable_new_layout_summary_on">Trickse die YouTube-Version aus, um das neue Layout zu deaktivieren</string>
     <string name="revanced_disable_new_layout_title">Neues Layout deaktivieren (Experimentell)</string>
+    <string name="revanced_captions_button_summary_off">Die Untertitel-Schaltfläche ist ausgeblendet</string>
+    <string name="revanced_captions_button_summary_on">Die Untertitel-Schaltfläche wird angezeigt</string>
+    <string name="revanced_captions_button_title">Untertitel-Schaltfläche (Im Player)</string>
     <string name="revanced_create_button_summary_off">Die Erstellen-Schaltfläche wird nicht angezeigt</string>
     <string name="revanced_create_button_summary_on">Die Erstellen-Schaltfläche wird angezeigt</string>
     <string name="revanced_create_button_title">Erstellen-Schaltfläche</string>
@@ -191,6 +198,15 @@ Is it ready to submit?"</string>
     <string name="revanced_hide_dislike_button_summary_off">Zeige den Dislike-Button</string>
     <string name="revanced_hide_dislike_button_summary_on">Der Dislike-Button ist versteckt</string>
     <string name="revanced_hide_dislike_button_title">Verstecke den Dislike-Button</string>
+    <string name="revanced_hide_download_button_summary_off">Download-Schaltfläche wird angezeigt</string>
+    <string name="revanced_hide_download_button_summary_on">Download-Schaltfläche ist ausgeblendet</string>
+    <string name="revanced_hide_download_button_title">Download-Schaltfläche ausblenden</string>
+    <string name="revanced_hide_email_address_summary_off">E-Mail-Adresse ist ausgeblendet</string>
+    <string name="revanced_hide_email_address_summary_on">E-Mail-Adresse ist sichtbar</string>
+    <string name="revanced_hide_email_address_title">E-Mail-Adresse</string>
+    <string name="revanced_hide_external_comment_box_summary_off">Externes Kommentarfeld wird angezeigt</string>
+    <string name="revanced_hide_external_comment_box_summary_on">Externes Kommentarfeld ist ausgeblendet</string>
+    <string name="revanced_hide_external_comment_box_title">Externes Kommentarfeld ausblenden</string>
     <string name="revanced_home_ads_summary_off">Home ADS are hidden</string>
     <string name="revanced_home_ads_summary_on">Home ADS are shown</string>
     <string name="revanced_home_ads_title">Home ADS</string>

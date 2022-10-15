@@ -75,6 +75,9 @@
     <string name="litho_hide_suggestions">सामान्य सुझाव हटाना</string>
     <string name="litho_hide_suggestions_off">सामान्य सुझावों को हटाना बंद है</string>
     <string name="litho_hide_suggestions_on">सामान्य सुझाव हटाने की सुविधा चालू है</string>
+    <string name="litho_image_shelf">छवि शेल्फ़ निकालें</string>
+    <string name="litho_image_shelf_off">छवि अलमारियों को दिखाया गया है</string>
+    <string name="litho_image_shelf_on">छवि अलमारियां छिपी हुई हैं</string>
     <string name="litho_in_feed_survey">सर्वेक्षण हटाना</string>
     <string name="litho_in_feed_survey_off">फ़ीड सर्वेक्षण निकालना बंद है</string>
     <string name="litho_in_feed_survey_on">फ़ीड सर्वेक्षण निकालना चालू है</string>
@@ -135,6 +138,7 @@
     <string name="revanced_auto_repeat_title">हमेशा ऑटो-रिपीट</string>
     <string name="revanced_autoplay_button_summary_off">ऑटोप्ले बटन छिपा हुआ है</string>
     <string name="revanced_autoplay_button_summary_on">ऑटोप्ले बटन दिखाया गया है</string>
+    <string name="revanced_autoplay_button_title">ऑटोप्ले बटन (प्लेयर में)</string>
     <string name="revanced_branding_watermark_summary_off">वीडियो वॉटरमार्क छिपा हुआ है</string>
     <string name="revanced_branding_watermark_summary_on">वीडियो वॉटरमार्क दिखाया गया है</string>
     <string name="revanced_branding_watermark_title">वीडियो वॉटरमार्क</string>
@@ -153,6 +157,9 @@
     <string name="revanced_copy_video_url_timestamp_summary_on">टाइमस्टैम्प के साथ कॉपी लिंक बटन प्लेयर ओवरले में दिखाया गया है</string>
     <string name="revanced_copy_video_url_timestamp_title">टाइमस्टैम्प के साथ लिंक बटन कॉपी करें</string>
     <string name="revanced_copy_video_url_title">कॉपी लिंक बटन</string>
+    <string name="revanced_donation_companion_summary_off">दान साथी दिखाया गया है</string>
+    <string name="revanced_donation_companion_summary_on">दान साथी छिपा हुआ है</string>
+    <string name="revanced_donation_companion_title">दान साथी</string>
     <string name="revanced_download_video_summary_off">डाउनलोड बटन छिपा हुआ है</string>
     <string name="revanced_download_video_summary_on">डाउनलोड बटन दिख रहा है</string>
     <string name="revanced_download_video_title">डाउनलोड बटन</string>
@@ -163,6 +170,9 @@
     <string name="revanced_disable_new_layout_summary_off">YouTube लेआउट आपके Google खाते की स्थिति का अनुसरण करेगा</string>
     <string name="revanced_disable_new_layout_summary_on">नए लेआउट को अक्षम करने के लिए मजबूर करने के लिए YouTube संस्करण को चकमा दें</string>
     <string name="revanced_disable_new_layout_title">नया लेआउट अक्षम करें (प्रायोगिक)</string>
+    <string name="revanced_captions_button_summary_off">कैप्शन बटन छिपा हुआ है</string>
+    <string name="revanced_captions_button_summary_on">कैप्शन बटन दिखाया गया है</string>
+    <string name="revanced_captions_button_title">कैप्शन बटन ( प्लेयर में)</string>
     <string name="revanced_create_button_summary_off">बनाएँ बटन छिपा हुआ है</string>
     <string name="revanced_create_button_summary_on">बनाएँ बटन दिखाया गया है</string>
     <string name="revanced_create_button_title">बटन बनाएं</string>
@@ -239,6 +249,7 @@
     <string name="revanced_minimized_playback_on">पृष्ठभूमि प्लेबैक सक्षम है</string>
     <string name="revanced_misc_summary">विविध पैच</string>
     <string name="revanced_misc_title">विविध</string>
+    <string name="revanced_my_mix_summary_off">माई मिक्स (प्लेलिस्ट) दिखाया गया है</string>
     <string name="revanced_new_actionbar_summary_off">खोज बार शैली ऐप द्वारा परिभाषित की जाती है</string>
     <string name="revanced_new_actionbar_summary_on">विस्तृत खोज बार को बाध्य करना</string>
     <string name="revanced_new_actionbar_title">विस्तृत खोज बार</string>

@@ -12,7 +12,7 @@
     <string name="api_url_invalid">Предоставленный API URL недействителен</string>
     <string name="api_url_reset">Сбросить API URL</string>
     <string name="change">Изменить</string>
-    <string name="color_change">Вы хотите поменять цветовую тему?</string>
+    <string name="color_change">Вы хотите изменить цветовую тему?</string>
     <string name="color_change_sum">"Теперь вы можете изменить цвет категории, нажав на него выше"</string>
     <string name="color_changed">Цвет изменён</string>
     <string name="color_choose_category">Выберите категорию</string>
@@ -26,12 +26,12 @@
     <string name="enable_segmadding_sum">Включите, чтобы активировать экспериментальное добавление сегментов (имеются проблемы с отображением кнопок)</string>
     <string name="enable_voting">Включить голосование</string>
     <string name="enable_voting_sum">Включите, чтобы использовать голосование</string>
-    <string name="general">Общее</string>
+    <string name="general">Основные</string>
     <string name="general_adjusting">Настройка шага изменения времени сегмента</string>
     <string name="general_adjusting_sum">Количество миллисекунд, на которое будет сдвинуто текущее время после использования кнопок перемотки при добавлении нового сегмента</string>
     <string name="general_api_url">Изменить API URL адреса</string>
     <string name="general_api_url_sum">"Адрес, используемый SponsorBlock для связи с сервером. <b>Не меняйте, если не знаете, что делаете</b>"</string>
-    <string name="general_browser_button">Включить кнопку браузера SB</string>
+    <string name="general_browser_button">Включить кнопку SB браузер</string>
     <string name="general_browser_button_sum">Нажав эту кнопку под плеером, откроется sb.ltn.fi, где вы сможете узнать больше о \"сегментах\"</string>
     <string name="general_cache">Локальный кэш сегментов</string>
     <string name="general_cache_clear">Очистить кэш сегментов SponsorBlock</string>
@@ -75,6 +75,9 @@
     <string name="litho_hide_suggestions">Скрыть предложения</string>
     <string name="litho_hide_suggestions_off">Предложения отображены</string>
     <string name="litho_hide_suggestions_on">Предложения скрыты</string>
+    <string name="litho_image_shelf">Скрыть публикации со статическими изображениями</string>
+    <string name="litho_image_shelf_off">Публикации с изображениями отображены</string>
+    <string name="litho_image_shelf_on">Раздел \"Shorts\" скрыт</string>
     <string name="litho_in_feed_survey">Скрыть опросы в фиде</string>
     <string name="litho_in_feed_survey_off">Опросы фида отображены</string>
     <string name="litho_in_feed_survey_on">Опросы фида скрыты</string>
@@ -246,6 +249,9 @@
     <string name="revanced_minimized_playback_on">Воспроизведение в фоне включено</string>
     <string name="revanced_misc_summary">Прочие настройки</string>
     <string name="revanced_misc_title">Разное</string>
+    <string name="revanced_my_mix_summary_off">Отображать плейлист Мой Микс</string>
+    <string name="revanced_my_mix_summary_on">Плейлист Мой Микс скрыт</string>
+    <string name="revanced_my_mix_title">Плейлист Мой Микс отображен</string>
     <string name="revanced_new_actionbar_summary_off">Широкая панель поиска отключена</string>
     <string name="revanced_new_actionbar_summary_on">Широкая панель поиска включена</string>
     <string name="revanced_new_actionbar_title">Включить широкую панель поиска</string>

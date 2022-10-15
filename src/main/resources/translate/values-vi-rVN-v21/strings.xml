@@ -75,6 +75,9 @@
     <string name="litho_hide_suggestions">Ẩn Đề xuất chung</string>
     <string name="litho_hide_suggestions_off">Đề xuất chung được hiển thị</string>
     <string name="litho_hide_suggestions_on">Đề xuất chung đã ẩn</string>
+    <string name="litho_image_shelf">Loại bỏ Thẻ Hình ảnh</string>
+    <string name="litho_image_shelf_off">Thẻ Hình ảnh được hiển thị</string>
+    <string name="litho_image_shelf_on">Thẻ Hình ảnh đã ẩn</string>
     <string name="litho_in_feed_survey">Loại bỏ Khảo sát</string>
     <string name="litho_in_feed_survey_off">Khảo sát được hiển thị</string>
     <string name="litho_in_feed_survey_on">Khảo sát đã ẩn</string>
@@ -204,9 +207,9 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_hide_email_address_summary_off">Địa chỉ email đã ẩn</string>
     <string name="revanced_hide_email_address_summary_on">Địa chỉ email được hiển thị</string>
     <string name="revanced_hide_email_address_title">Địa chỉ email</string>
-    <string name="revanced_hide_external_comment_box_summary_off">Hộp bình luận bên ngoài được hiển thị</string>
-    <string name="revanced_hide_external_comment_box_summary_on">Hộp bình luận bên ngoài đã ẩn</string>
-    <string name="revanced_hide_external_comment_box_title">Ẩn Hộp bình luận bên ngoài</string>
+    <string name="revanced_hide_external_comment_box_summary_off">Viết bình luận nhanh được hiển thị</string>
+    <string name="revanced_hide_external_comment_box_summary_on">Viết bình luận nhanh đã ẩn</string>
+    <string name="revanced_hide_external_comment_box_title">Ẩn Viết bình luận nhanh</string>
     <string name="revanced_hide_like_button_summary_off">Nút Thích được hiển thị</string>
     <string name="revanced_hide_like_button_summary_on">Nút Thích đã ẩn</string>
     <string name="revanced_hide_like_button_title">Ẩn Nút Thích</string>
@@ -245,6 +248,9 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_minimized_playback_on">Phát lại trong nền được kích hoạt</string>
     <string name="revanced_misc_summary">Các cài đặt linh tinh khác</string>
     <string name="revanced_misc_title">Khác</string>
+    <string name="revanced_my_mix_summary_off">Danh sách kết hợp (Danh sách phát) được hiển thị</string>
+    <string name="revanced_my_mix_summary_on">Danh sách kết hợp (Danh sách phát) đã ẩn</string>
+    <string name="revanced_my_mix_title">Danh sách kết hợp (Danh sách phát)</string>
     <string name="revanced_new_actionbar_summary_off">Thanh tìm kiếm rộng bị vô hiệu hoá</string>
     <string name="revanced_new_actionbar_summary_on">Thanh tìm kiếm rộng được kích hoạt</string>
     <string name="revanced_new_actionbar_title">Thanh tìm kiếm rộng</string>

@@ -75,6 +75,9 @@
     <string name="litho_hide_suggestions">Eliminación general de Sugerencias</string>
     <string name="litho_hide_suggestions_off">Eliminación general de Sugerencias está desactivada</string>
     <string name="litho_hide_suggestions_on">Eliminación general de Sugerencias está activada</string>
+    <string name="litho_image_shelf">Eliminar estantería de imágenes</string>
+    <string name="litho_image_shelf_off">Se muestran las estanterías de imágenes</string>
+    <string name="litho_image_shelf_on">Las estanterías de imágenes están ocultas</string>
     <string name="litho_in_feed_survey">Eliminación de encuestas</string>
     <string name="litho_in_feed_survey_off">Eliminación de encuestas de retroalimentación está desactivada</string>
     <string name="litho_in_feed_survey_on">Eliminación de encuestas de retroalimentación está activada</string>
@@ -135,6 +138,7 @@
     <string name="revanced_auto_repeat_title">Siempre auto-repetir</string>
     <string name="revanced_autoplay_button_summary_off">Botón de auto-reproducción está oculto</string>
     <string name="revanced_autoplay_button_summary_on">Botón de auto-reproducción se está mostrando</string>
+    <string name="revanced_autoplay_button_title">Botón de reproducción automática (en el reproductor)</string>
     <string name="revanced_branding_watermark_summary_off">La marca de agua en vídeo está oculta</string>
     <string name="revanced_branding_watermark_summary_on">La marca de agua en vídeo está visible</string>
     <string name="revanced_branding_watermark_title">Marca de agua en vídeo</string>
@@ -153,6 +157,9 @@
     <string name="revanced_copy_video_url_timestamp_summary_on">Botón para Copiar el Enlace con el Tiempo actual sobre el reproductor está visible</string>
     <string name="revanced_copy_video_url_timestamp_title">Botón para Copiar el Enlace con el Tiempo actual</string>
     <string name="revanced_copy_video_url_title">Botón para Copiar el Enlace</string>
+    <string name="revanced_donation_companion_summary_off">Se muestra el acompañante de la donación</string>
+    <string name="revanced_donation_companion_summary_on">El acompañante de la donación está oculto</string>
+    <string name="revanced_donation_companion_title">Acompañante de donación</string>
     <string name="revanced_download_video_summary_off">El botón de descarga está oculto</string>
     <string name="revanced_download_video_summary_on">El botón de descarga está visible</string>
     <string name="revanced_download_video_title">Botón de descarga</string>
@@ -163,6 +170,9 @@
     <string name="revanced_disable_new_layout_summary_off">El diseño de YouTube seguirá el estado de tu cuenta de Google</string>
     <string name="revanced_disable_new_layout_summary_on">Engañar a la versión de YouTube para forzar la desactivación del nuevo diseño</string>
     <string name="revanced_disable_new_layout_title">Desactivar el nuevo diseño (Experimental)</string>
+    <string name="revanced_captions_button_summary_off">El botón de subtítulos está oculto</string>
+    <string name="revanced_captions_button_summary_on">Se muestra el botón Subtítulos</string>
+    <string name="revanced_captions_button_title">Botón de subtítulos (en el reproductor)</string>
     <string name="revanced_create_button_summary_off">El botón de Creación está oculto</string>
     <string name="revanced_create_button_summary_on">El botón de Creación está visible</string>
     <string name="revanced_create_button_title">Botón de Creación</string>
@@ -238,6 +248,9 @@
     <string name="revanced_minimized_playback_on">Reproducción en segundo plano está habilitada</string>
     <string name="revanced_misc_summary">Parches diversos</string>
     <string name="revanced_misc_title">Misceláneo</string>
+    <string name="revanced_my_mix_summary_off">Se muestra Mi Mix (lista de reproducción)</string>
+    <string name="revanced_my_mix_summary_on">Mi Mix (lista de reproducción) oculta</string>
+    <string name="revanced_my_mix_title">Mi Mix (lista de reproducción)</string>
     <string name="revanced_new_actionbar_summary_off">Estilo de barra de búsqueda definido por la aplicación</string>
     <string name="revanced_new_actionbar_summary_on">Forzar barra de búsqueda ancha</string>
     <string name="revanced_new_actionbar_title">Barra de búsqueda ancha</string>

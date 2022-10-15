@@ -75,6 +75,9 @@
     <string name="litho_hide_suggestions">Rimozione suggerimenti generali</string>
     <string name="litho_hide_suggestions_off">La rimozione dei suggerimenti generali è disattivata</string>
     <string name="litho_hide_suggestions_on">La rimozione dei suggerimenti generali è attivata</string>
+    <string name="litho_image_shelf">Rimuovi scaffale immagini</string>
+    <string name="litho_image_shelf_off">Gli scaffali immagine sono mostrati</string>
+    <string name="litho_image_shelf_on">Gli scaffali immagine sono nascosti</string>
     <string name="litho_in_feed_survey">Rimozione sondaggi</string>
     <string name="litho_in_feed_survey_off">La rimozione del sondaggio sui feed è disattivata</string>
     <string name="litho_in_feed_survey_on">La rimozione del sondaggio sui feed è attivata</string>
@@ -135,6 +138,7 @@ E' pronto per l'invio?"</string>
     <string name="revanced_auto_repeat_title">Ripeti Sempre Automaticamente</string>
     <string name="revanced_autoplay_button_summary_off">Il pulsante Autoplay è nascosto</string>
     <string name="revanced_autoplay_button_summary_on">Il pulsante Autoplay è visualizzato</string>
+    <string name="revanced_autoplay_button_title">Pulsante Autoplay (nel lettore)</string>
     <string name="revanced_branding_watermark_summary_off">Il watermark video è nascosto</string>
     <string name="revanced_branding_watermark_summary_on">Il watermark video è visibile</string>
     <string name="revanced_branding_watermark_title">Video watermark</string>
@@ -166,6 +170,9 @@ E' pronto per l'invio?"</string>
     <string name="revanced_disable_new_layout_summary_off">Il layout di YouTube seguirà lo stato del tuo account Google</string>
     <string name="revanced_disable_new_layout_summary_on">Trucca la versione di YouTube per forzare la disattivazione del nuovo layout</string>
     <string name="revanced_disable_new_layout_title">Disabilita Nuovo Layout (Sperimentale)</string>
+    <string name="revanced_captions_button_summary_off">Il pulsante sottotitoli è nascosto</string>
+    <string name="revanced_captions_button_summary_on">Il pulsante sottotitoli è mostrato</string>
+    <string name="revanced_captions_button_title">Pulsante sottotitoli (nel lettore)</string>
     <string name="revanced_create_button_summary_off">Il tasto crea è nascosto</string>
     <string name="revanced_create_button_summary_on">Il tasto crea è mostrato</string>
     <string name="revanced_create_button_title">Tasto crea</string>
@@ -242,6 +249,9 @@ E' pronto per l'invio?"</string>
     <string name="revanced_minimized_playback_on">Riproduzione in background attivata</string>
     <string name="revanced_misc_summary">Patch varie</string>
     <string name="revanced_misc_title">Varie</string>
+    <string name="revanced_my_mix_summary_off">Il mio Mix (Playlist) mostrato</string>
+    <string name="revanced_my_mix_summary_on">Il mio Mix (Playlist) nascosto</string>
+    <string name="revanced_my_mix_title">Il Mio Mix (Playlist)</string>
     <string name="revanced_new_actionbar_summary_off">Lo stile della barra di ricerca è definito dall\'app</string>
     <string name="revanced_new_actionbar_summary_on">Forzare la barra di ricerca larga</string>
     <string name="revanced_new_actionbar_title">Barra di ricerca larga</string>

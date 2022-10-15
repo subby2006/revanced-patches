@@ -75,6 +75,9 @@
     <string name="litho_hide_suggestions">Remoção de sugestões gerais</string>
     <string name="litho_hide_suggestions_off">A remoção de sugestões geral está desligada</string>
     <string name="litho_hide_suggestions_on">A remoção de sugestões geral está ligada</string>
+    <string name="litho_image_shelf">Remover estante de imagens</string>
+    <string name="litho_image_shelf_off">Estante de imagens está visível</string>
+    <string name="litho_image_shelf_on">Estante de imagens está escondida</string>
     <string name="litho_in_feed_survey">Remoção de enquetes</string>
     <string name="litho_in_feed_survey_off">A remoção de enquetes do feed está desligada</string>
     <string name="litho_in_feed_survey_on">A remoção de enquetes do feed está ligada</string>
@@ -134,6 +137,7 @@
     <string name="revanced_auto_repeat_title">Sempre repetir automaticamente</string>
     <string name="revanced_autoplay_button_summary_off">Botão de reprodução automática está oculto</string>
     <string name="revanced_autoplay_button_summary_on">Botão de reprodução automática é exibido</string>
+    <string name="revanced_autoplay_button_title">Botão de Autoplay (No player)</string>
     <string name="revanced_branding_watermark_summary_off">Marca d\'água do vídeo está oculta</string>
     <string name="revanced_branding_watermark_summary_on">Marca d\'água de vídeo exibida</string>
     <string name="revanced_branding_watermark_title">Marca d\'água de vídeo</string>
@@ -165,6 +169,9 @@
     <string name="revanced_disable_new_layout_summary_off">O Layout do YouTube seguirá o status da sua Conta Google</string>
     <string name="revanced_disable_new_layout_summary_on">Travar a versão do YouTube para forçar a desativação do novo layout</string>
     <string name="revanced_disable_new_layout_title">Desativar Novo Layout (Experimental)</string>
+    <string name="revanced_captions_button_summary_off">O Botão de Legendas está escondido</string>
+    <string name="revanced_captions_button_summary_on">O Botão de Legendas está visível</string>
+    <string name="revanced_captions_button_title">Botão de Legendas (No player)</string>
     <string name="revanced_create_button_summary_off">O Botão Criar está oculto</string>
     <string name="revanced_create_button_summary_on">O Botão Criar está ativado</string>
     <string name="revanced_create_button_title">Botão Criar</string>
@@ -241,6 +248,9 @@
     <string name="revanced_minimized_playback_on">A reprodução em segundo plano está ativada</string>
     <string name="revanced_misc_summary">Patches diversos</string>
     <string name="revanced_misc_title">Diversos</string>
+    <string name="revanced_my_mix_summary_off">Meu Mix (Playlist) visível</string>
+    <string name="revanced_my_mix_summary_on">Meu Mix (Playlist) escondido</string>
+    <string name="revanced_my_mix_title">Meu Mix (Playlist)</string>
     <string name="revanced_new_actionbar_summary_off">Estilo da barra de pesquisa é definido pelo aplicativo</string>
     <string name="revanced_new_actionbar_summary_on">Forçando a barra de pesquisa ampla</string>
     <string name="revanced_new_actionbar_title">Barra de pesquisa ampla</string>
