@@ -37,22 +37,9 @@ class AmoledPatch : BytecodePatch(
 
         method.addInstructions(
             patchIndex, """
-                invoke-static {}, Lapp/revanced/integrations/utils/ThemeHelper;->isDarkTheme()Z
-                move-result v2
-                if-nez v2, :comments_filter_white
-                const v1, -0x1
-                if-ne v1, p1, :comments_filter_white
-                const/4 p1, 0x0
-                :comments_filter_white
-                if-eqz v2, :comments_filter_dark
-                const v1, -0xf0f0f1
-                if-ne v1, p1, :comments_filter_new_dark
-                const/4 p1, 0x0
-                :comments_filter_new_dark
-                const v1, -0xdededf
-                if-ne v1, p1, :comments_filter_dark
-                const/4 p1, 0x0
-            """, listOf(ExternalLabel("comments_filter_dark", method.instruction(patchIndex)))
+                invoke-static {p1}, Lapp/revanced/integrations/patches/LithoThemePatch;->applyLithoTheme(I)I
+                move-result p1
+            """
         )
         return PatchResultSuccess()
     }
