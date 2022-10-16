@@ -1,4 +1,4 @@
-package app.revanced.patches.music.layout.branding.patch
+package app.revanced.patches.music.layout.branding.icon.patch
 
 import app.revanced.extensions.doRecursively
 import app.revanced.extensions.startsWithAny
@@ -10,7 +10,7 @@ import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.*
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.patches.music.layout.branding.annotations.CustomBrandingMusicCompatibility
+import app.revanced.patches.music.layout.branding.icon.annotations.CustomBrandingMusicCompatibility
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import java.io.ByteArrayOutputStream
 import java.io.File

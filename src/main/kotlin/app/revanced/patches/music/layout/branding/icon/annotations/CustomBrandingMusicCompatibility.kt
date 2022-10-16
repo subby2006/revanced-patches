@@ -1,4 +1,4 @@
-package app.revanced.patches.music.layout.branding.annotations
+package app.revanced.patches.music.layout.branding.icon.annotations
 
 import app.revanced.patcher.annotation.Compatibility
 import app.revanced.patcher.annotation.Package
