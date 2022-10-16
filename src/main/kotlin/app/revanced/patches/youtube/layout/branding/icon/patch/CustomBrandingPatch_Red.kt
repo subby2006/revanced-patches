@@ -20,7 +20,7 @@ import java.nio.file.StandardCopyOption
 import org.w3c.dom.Element
 
 @Patch
-@Name("custom-branding-red")
+@Name("custom-branding-icon-red")
 @Description("Changes the YouTube launcher icon to your choice (defaults to ReVanced Red).")
 @CustomBrandingCompatibility
 @Version("0.0.1")

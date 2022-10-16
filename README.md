@@ -41,9 +41,9 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `hide-autoplay-button` | Hides the autoplay button in the video player. | 17.40.41 |
 | `hide-captions-button` | Hides the captions button in the video player. | 17.40.41 |
 | `disable-startup-shorts-player` | Disables playing YouTube Shorts when launching YouTube. | 17.40.41 |
-| `custom-branding-red` | Changes the YouTube launcher icon to your choice (defaults to ReVanced Red). | all |
-| `custom-branding-blue` | Changes the YouTube launcher icon to your choice (ReVanced Blue). | all |
-| `custom-branding-decipher3114` | Changes the YouTube launcher icon to your choice (decipher3114). | all |
+| `custom-branding-icon-red` | Changes the YouTube launcher icon to your choice (defaults to ReVanced Red). | all |
+| `custom-branding-icon-blue` | Changes the YouTube launcher icon to your choice (ReVanced Blue). | all |
+| `custom-branding-icon-decipher3114` | Changes the YouTube launcher icon to your choice (decipher3114). | all |
 | `custom-branding-name` | Changes the YouTube launcher name to your choice (defaults to ReVanced Extended). | all |
 | `amoled` | Enables pure black theme. | all |
 | `materialyou` | Enables MaterialYou theme for Android 12+. | all |
