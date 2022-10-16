@@ -13,7 +13,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `tasteBuilder-remover` | Removes the "Tell us which artists you like" card from the home screen. | 5.28.51 |
 | `hide-get-premium` | Removes all "Get Premium" evidences from the avatar menu. | 5.28.51 |
 | `custom-branding-music-red` | Changes the YouTube Music launcher icon to your choice (defaults to ReVanced Red). | all |
-| `custom-branding-music-decipher3114` | Changes the YouTube Music launcher icon to your choice (decipher3114). | all |
+| `custom-branding-music-revancify` | Changes the YouTube Music launcher icon to your choice (Revancify). | all |
 | `compact-header` | Hides the music category bar at the top of the homepage. | 5.28.51 |
 | `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. | 5.28.51 |
 | `background-play` | Enables playing music in the background. | 5.28.51 |

@@ -22,8 +22,8 @@ import org.w3c.dom.Element
 
 @Patch(false)
 @DependsOn([ResourceMappingResourcePatch::class])
-@Name("custom-branding-music-decipher3114")
-@Description("Changes the YouTube Music launcher icon to your choice (decipher3114).")
+@Name("custom-branding-music-revancify")
+@Description("Changes the YouTube Music launcher icon to your choice (Revancify).")
 @CustomBrandingMusicCompatibility
 @Version("0.0.1")
 class CustomBrandingMusicPatch_decipher3114 : ResourcePatch {
