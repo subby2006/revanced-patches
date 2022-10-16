@@ -58,12 +58,6 @@ class ExtendedPatch : BytecodePatch() {
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
 
-    private val layoutresourceIds = arrayOf(
-        "programmed_playlist_item"
-    ).map { name ->
-        ResourceMappingResourcePatch.resourceMappings.single { it.type == "layout" && it.name == name }.id
-    }
-
     override fun execute(context: BytecodeContext): PatchResult {
 
         // iterating through all classes is expensive
@@ -140,28 +134,6 @@ class ExtendedPatch : BytecodePatch() {
 												"""
                                     )
                                 }
-
-                                layoutresourceIds[0] -> { // my_mix
-                                    val insertIndex = index - 4
-                                    val invokeInstruction = instructions.elementAt(insertIndex)
-                                    if (invokeInstruction.opcode != Opcode.INVOKE_VIRTUAL) return@forEachIndexed
-
-                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
-                                    if (mutableMethod == null) mutableMethod =
-                                        mutableClass!!.findMutableMethodOf(method)
-
-                                    mutableMethod!!.addInstructions(
-                                        insertIndex + 1, """
-                                                invoke-static {}, Lapp/revanced/integrations/patches/HideMyMixPatch;->HideMyMix()Z
-                                                move-result v3
-                                                if-eqz v3, :default
-                                                return-void
-                                                :default
-                                                nop
-												"""
-                                    )
-                                }
-
                             }
                         }
                         else -> return@forEachIndexed
