@@ -20,8 +20,8 @@ import java.nio.file.StandardCopyOption
 import org.w3c.dom.Element
 
 @Patch(false)
-@Name("custom-branding-icon-decipher3114")
-@Description("Changes the YouTube launcher icon to your choice (decipher3114).")
+@Name("custom-branding-icon-revancify")
+@Description("Changes the YouTube launcher icon to your choice (revancify).")
 @CustomBrandingCompatibility
 @Version("0.0.1")
 class CustomBrandingPatch_decipher3114 : ResourcePatch {

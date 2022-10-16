@@ -43,7 +43,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `disable-startup-shorts-player` | Disables playing YouTube Shorts when launching YouTube. | 17.40.41 |
 | `custom-branding-icon-red` | Changes the YouTube launcher icon to your choice (defaults to ReVanced Red). | all |
 | `custom-branding-icon-blue` | Changes the YouTube launcher icon to your choice (ReVanced Blue). | all |
-| `custom-branding-icon-decipher3114` | Changes the YouTube launcher icon to your choice (decipher3114). | all |
+| `custom-branding-icon-revancify` | Changes the YouTube launcher icon to your choice (Revancify). | all |
 | `custom-branding-name` | Changes the YouTube launcher name to your choice (defaults to ReVanced Extended). | all |
 | `amoled` | Enables pure black theme. | all |
 | `materialyou` | Enables MaterialYou theme for Android 12+. | all |
