@@ -150,7 +150,6 @@ E' pronto per l'invio?"</string>
     <string name="revanced_cast_button_summary_off">Il pulsante di trasmissione è nascosto</string>
     <string name="revanced_cast_button_summary_on">Il pulsante di trasmissione è visibile</string>
     <string name="revanced_cast_button_title">Pulsante di trasmissione</string>
-    <string name="revanced_codec_override_title">Sovrascrittura della codifica</string>
     <string name="revanced_copy_video_url_summary_off">Il pulsante Copia collegamento è nascosto dalla sovrapposizione del lettore</string>
     <string name="revanced_copy_video_url_summary_on">Il tasto copia link è mostrato nel player</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Il tasto copia link con minutaggio è nascosto nel player</string>

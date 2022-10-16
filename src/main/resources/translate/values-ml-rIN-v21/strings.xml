@@ -146,7 +146,6 @@ Is it ready to submit?"</string>
     <string name="revanced_cast_button_summary_off">Cast button is hidden</string>
     <string name="revanced_cast_button_summary_on">Cast button is shown</string>
     <string name="revanced_cast_button_title">Cast button</string>
-    <string name="revanced_codec_override_title">കോഡെക് അസാധുവാക്കൽ</string>
     <string name="revanced_copy_video_url_summary_off">Copy Link Button is hidden from the player overlay</string>
     <string name="revanced_copy_video_url_summary_on">Copy Link Button is shown in the player overlay</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Copy Link Button With Timestamp is hidden from the player overlay</string>

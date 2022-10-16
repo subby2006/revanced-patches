@@ -146,7 +146,6 @@ Készen áll a beküldésre?"</string>
     <string name="revanced_cast_button_summary_off">Az átküldés gomb rejtve van</string>
     <string name="revanced_cast_button_summary_on">Az átküldés gomb látható</string>
     <string name="revanced_cast_button_title">Átküldés gomb</string>
-    <string name="revanced_codec_override_title">Kodek felülbírálása</string>
     <string name="revanced_copy_video_url_summary_off">Link másolása gomb elrejtve a lejátszó átfedésben</string>
     <string name="revanced_copy_video_url_summary_on">Link másolása gomb látható a lejátszó átfedésben</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Link másolása Időponttal gomb elrejtve a lejátszó átfedésben</string>

@@ -151,7 +151,6 @@
     <string name="revanced_cast_button_summary_off">Кнопка трансляции скрыта</string>
     <string name="revanced_cast_button_summary_on">Кнопка трансляции отображена</string>
     <string name="revanced_cast_button_title">Показать кнопку трансляции</string>
-    <string name="revanced_codec_override_title">Переопределение кодека</string>
     <string name="revanced_copy_video_url_summary_off">Кнопка для копирования ссылки на видео скрыта</string>
     <string name="revanced_copy_video_url_summary_on">Кнопка для копирования ссылки на видео отображена</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Кнопка для копирования ссылки на видео с меткой времени скрыта</string>

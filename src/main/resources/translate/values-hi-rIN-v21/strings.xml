@@ -150,7 +150,6 @@
     <string name="revanced_cast_button_summary_off">कास्ट बटन छिपा हुआ है</string>
     <string name="revanced_cast_button_summary_on">कास्ट बटन दिखाया गया है</string>
     <string name="revanced_cast_button_title">कास्ट बटन</string>
-    <string name="revanced_codec_override_title">कोडेक ओवरराइड</string>
     <string name="revanced_copy_video_url_summary_off">कॉपी लिंक बटन प्लेयर ओवरले से छिपा हुआ है</string>
     <string name="revanced_copy_video_url_summary_on">कॉपी लिंक बटन प्लेयर ओवरले में दिखाया गया है</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">टाइमस्टैम्प के साथ कॉपी लिंक बटन प्लेयर ओवरले से छिपा हुआ है</string>
@@ -250,6 +249,8 @@
     <string name="revanced_misc_summary">विविध पैच</string>
     <string name="revanced_misc_title">विविध</string>
     <string name="revanced_my_mix_summary_off">माई मिक्स (प्लेलिस्ट) दिखाया गया है</string>
+    <string name="revanced_my_mix_summary_on">माई मिक्स (प्लेलिस्ट) दिखाया गया है</string>
+    <string name="revanced_my_mix_title">माई मिक्स (प्लेलिस्ट)</string>
     <string name="revanced_new_actionbar_summary_off">खोज बार शैली ऐप द्वारा परिभाषित की जाती है</string>
     <string name="revanced_new_actionbar_summary_on">विस्तृत खोज बार को बाध्य करना</string>
     <string name="revanced_new_actionbar_title">विस्तृत खोज बार</string>
@@ -342,6 +343,7 @@
     <string name="revanced_tablet_miniplayer_summary_off">टैबलेट मिनीप्लेयर का उपयोग नहीं किया जा रहा है</string>
     <string name="revanced_tablet_miniplayer_summary_on">टैबलेट मिनीप्लेयर का उपयोग किया जा रहा है</string>
     <string name="revanced_tablet_miniplayer_title">टैबलेट मिनीप्लेयर</string>
+    <string name="revanced_tool_used">इस्तेमाल किया गया उपकरण</string>
     <string name="revanced_video_ads_summary_off">वीडियो विज्ञापन छिपे हुए हैं</string>
     <string name="revanced_video_ads_summary_on">वीडियो विज्ञापन दिखाए जाते हैं</string>
     <string name="revanced_video_ads_title">वीडियो विज्ञापन</string>

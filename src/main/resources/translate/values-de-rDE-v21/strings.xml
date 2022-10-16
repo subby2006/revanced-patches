@@ -147,7 +147,6 @@ Is it ready to submit?"</string>
     <string name="revanced_cast_button_summary_off">Die Cast-Schaltfläche wird nicht angezeigt</string>
     <string name="revanced_cast_button_summary_on">Die Cast-Schaltfläche wird angezeigt</string>
     <string name="revanced_cast_button_title">Cast-Schaltfläche</string>
-    <string name="revanced_codec_override_title">Codec Überschreibung</string>
     <string name="revanced_copy_video_url_summary_off">Copy Link Button is hidden from the player overlay</string>
     <string name="revanced_copy_video_url_summary_on">Copy Link Button is shown in the player overlay</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Copy Link Button With Timestamp is hidden from the player overlay</string>

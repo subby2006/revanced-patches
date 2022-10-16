@@ -150,7 +150,6 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_cast_button_summary_off">Cast button is hidden</string>
     <string name="revanced_cast_button_summary_on">Cast button is shown</string>
     <string name="revanced_cast_button_title">Cast button</string>
-    <string name="revanced_codec_override_title">Remplacement du codec</string>
     <string name="revanced_copy_video_url_summary_off">Copy Link Button is hidden from the player overlay</string>
     <string name="revanced_copy_video_url_summary_on">Copy Link Button is shown in the player overlay</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Copy Link Button With Timestamp is hidden from the player overlay</string>
@@ -172,6 +171,7 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_disable_new_layout_title">Désactiver la nouvelle mise en page (expérimental)</string>
     <string name="revanced_captions_button_summary_off">Le bouton de légende est masquée</string>
     <string name="revanced_captions_button_summary_on">Le bouton de légende est affichée</string>
+    <string name="revanced_captions_button_title">Bouton de lecture automatique (Dans le lecteur)</string>
     <string name="revanced_create_button_summary_off">Create Button is hidden</string>
     <string name="revanced_create_button_summary_on">Create Button is shown</string>
     <string name="revanced_create_button_title">Create Button</string>
@@ -248,6 +248,9 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_minimized_playback_on">Background playback is enabled</string>
     <string name="revanced_misc_summary">Patchs divers</string>
     <string name="revanced_misc_title">Miscellaneous</string>
+    <string name="revanced_my_mix_summary_off">Mon mix (playlist) est affiché</string>
+    <string name="revanced_my_mix_summary_on">Mon Mix (Playlist) est masqué</string>
+    <string name="revanced_my_mix_title">Mon Mix (Playlist)</string>
     <string name="revanced_new_actionbar_summary_off">Search bar style is defined by the app</string>
     <string name="revanced_new_actionbar_summary_on">Forcing wide search bar</string>
     <string name="revanced_new_actionbar_title">Wide search bar</string>

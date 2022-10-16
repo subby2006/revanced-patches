@@ -150,7 +150,6 @@ Ar jis paruoštas pateikti?"</string>
     <string name="revanced_cast_button_summary_off">Perdavimo mygtukas yra paslėptas</string>
     <string name="revanced_cast_button_summary_on">Perdavimo mygtukas yra rodomas</string>
     <string name="revanced_cast_button_title">Perdavimo mygtukas</string>
-    <string name="revanced_codec_override_title">Kodeko pakeitimas</string>
     <string name="revanced_copy_video_url_summary_off">Mygtukas kopijuoti nuorodą yra paslėptas</string>
     <string name="revanced_copy_video_url_summary_on">Mygtukas kopijuoti nuorodą yra matomas</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Mygtukas kopijuoti nuorodą su laiko žyma yra paslėptas</string>

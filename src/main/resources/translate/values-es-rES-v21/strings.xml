@@ -150,7 +150,6 @@
     <string name="revanced_cast_button_summary_off">El botón de Cast está oculto</string>
     <string name="revanced_cast_button_summary_on">El botón de Cast está visible</string>
     <string name="revanced_cast_button_title">Botón de transmisión</string>
-    <string name="revanced_codec_override_title">Remplazar el Códec</string>
     <string name="revanced_copy_video_url_summary_off">Botón para Copiar el Enlace sobre el reproductor está oculto</string>
     <string name="revanced_copy_video_url_summary_on">Botón para Copiar el Enlace sobre el reproductor está visible</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Botón para Copiar el Enlace con el Tiempo actual sobre el reproductor está oculto</string>

@@ -151,7 +151,6 @@
     <string name="revanced_cast_button_summary_off">크롬캐스트 버튼을 숨깁니다</string>
     <string name="revanced_cast_button_summary_on">크롬캐스트 버튼을 보여줍니다</string>
     <string name="revanced_cast_button_title">크롬캐스트 버튼</string>
-    <string name="revanced_codec_override_title">코덱 덮어쓰기</string>
     <string name="revanced_copy_video_url_summary_off">링크 복사 버튼을 플레이어에서 숨깁니다</string>
     <string name="revanced_copy_video_url_summary_on">링크 복사 버튼을 플레이어에서 보여줍니다</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">시간을 표기한 링크를 복사하는 버튼을 플레이어에서 숨깁니다</string>

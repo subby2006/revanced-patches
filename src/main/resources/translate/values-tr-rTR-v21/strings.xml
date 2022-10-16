@@ -150,7 +150,6 @@
     <string name="revanced_cast_button_summary_off">Yayınla butonu gizli durumda</string>
     <string name="revanced_cast_button_summary_on">Yayınla butonu görünür durumda</string>
     <string name="revanced_cast_button_title">Yayınla butonu</string>
-    <string name="revanced_codec_override_title">Çözücü(codec) ayarları</string>
     <string name="revanced_copy_video_url_summary_off">Bağlantıyı Kopyala Butonu oynatıcı yer paylaşımından gizlendi</string>
     <string name="revanced_copy_video_url_summary_on">Bağlantıyı Kopyala Butonu oynatıcı yer paylaşımında gösteriliyor</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Bağlantıyı Zaman Damgalı Kopyala Butonu oynatıcı yer paylaşımından gizlenir</string>

@@ -116,6 +116,5 @@
     <string name="revanced_auto_repeat_summary_on">Заўсёды аўтаматычны паўтор уключаны</string>
     <string name="revanced_auto_repeat_title">Заўсёды аўтаматычны паўтор</string>
     <string name="revanced_autoplay_button_summary_off">Кнопка аўтазапуску схавана</string>
-    <string name="revanced_codec_override_title">Перавызначэнне кодэка</string>
     <string name="revanced_copy_video_url_title">Кнопка капіявання спасылкі</string>
 </resources>

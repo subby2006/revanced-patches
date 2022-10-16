@@ -141,7 +141,6 @@
     <string name="revanced_cast_button_summary_off">Cast 按鈕已隱藏</string>
     <string name="revanced_cast_button_summary_on">Cast 按鈕已顯示</string>
     <string name="revanced_cast_button_title">Cast 按鈕</string>
-    <string name="revanced_codec_override_title">覆蓋編解碼器</string>
     <string name="revanced_copy_video_url_summary_off">複製連結按鈕已隱藏</string>
     <string name="revanced_copy_video_url_summary_on">複製連結按鈕已顯示</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">帶有時間戳的複製連結按鈕已隱藏</string>

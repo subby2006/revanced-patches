@@ -147,7 +147,6 @@
     <string name="revanced_cast_button_summary_off">تم إخفاء زر البث</string>
     <string name="revanced_cast_button_summary_on">يتم عرض زر البث</string>
     <string name="revanced_cast_button_title">زر البث</string>
-    <string name="revanced_codec_override_title">تجاوز الترميز</string>
     <string name="revanced_copy_video_url_summary_off">تم إخفاء زر نسخ الرابط</string>
     <string name="revanced_copy_video_url_summary_on">يتم عرض زر نسخ الرابط</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">تم إخفاء زر نسخ الرابط مع الوقت</string>

@@ -75,9 +75,9 @@
     <string name="litho_hide_suggestions">Загальні підказки</string>
     <string name="litho_hide_suggestions_off">Вилучення загальних підказок вимкнено</string>
     <string name="litho_hide_suggestions_on">Вилучення загальних підказок увімкнено</string>
-    <string name="litho_image_shelf">Видалити зображення</string>
-    <string name="litho_image_shelf_off">Розділ коротких відео увімкнено</string>
-    <string name="litho_image_shelf_on">Розділ коротких відео приховано</string>
+    <string name="litho_image_shelf">Вилучення зображень</string>
+    <string name="litho_image_shelf_off">Вилучення зображень (із пошуку на YouTube) вимкнено</string>
+    <string name="litho_image_shelf_on">Вилучення зображень (із пошуку на YouTube) увімкнено</string>
     <string name="litho_in_feed_survey">Опитування</string>
     <string name="litho_in_feed_survey_off">Вилучення опитувань в стрічці вимкнено</string>
     <string name="litho_in_feed_survey_on">Вилучення опитувань в стрічці увімкнено</string>
@@ -147,7 +147,6 @@
     <string name="revanced_cast_button_summary_off">Кнопку трансляції вимкнено</string>
     <string name="revanced_cast_button_summary_on">Кнопку трансляції увімкнено</string>
     <string name="revanced_cast_button_title">Кнопка трансляції</string>
-    <string name="revanced_codec_override_title">Перевизначення кодека</string>
     <string name="revanced_copy_video_url_summary_off">Кнопку для копіювання лiнку вимкнено в інтерфейсі плеєра</string>
     <string name="revanced_copy_video_url_summary_on">Кнопку для копіювання лiнку увімкнено в інтерфейсі плеєра</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Кнопку для копіювання лiнку з позначкою часу вимкнено в інтерфейсі плеєра</string>
@@ -245,9 +244,9 @@
     <string name="revanced_minimized_playback_on">Відтворення у фоні увімкнено</string>
     <string name="revanced_misc_summary">Додаткові налаштування іншого </string>
     <string name="revanced_misc_title">Інше</string>
-    <string name="revanced_my_mix_summary_off">Мій плейлист показано</string>
-    <string name="revanced_my_mix_summary_on">Мій плейлист сховано</string>
-    <string name="revanced_my_mix_title">Мій плейлист</string>
+    <string name="revanced_my_mix_summary_off">Мій мікс (плейлист) увімкнено</string>
+    <string name="revanced_my_mix_summary_on">Мій мікс (плейлист) вимкнено</string>
+    <string name="revanced_my_mix_title">Мій мікс (плейлист)</string>
     <string name="revanced_new_actionbar_summary_off">Використання широкої панелі пошуку вимкнено</string>
     <string name="revanced_new_actionbar_summary_on">Використання широкої панелі пошуку увімкнено</string>
     <string name="revanced_new_actionbar_title">Широка панель пошуку</string>

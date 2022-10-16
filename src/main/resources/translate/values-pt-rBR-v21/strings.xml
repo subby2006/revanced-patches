@@ -149,7 +149,6 @@
     <string name="revanced_cast_button_summary_off">Botão \"Transmitir\" está oculto</string>
     <string name="revanced_cast_button_summary_on">Botão \"Transmitir\" é exibido</string>
     <string name="revanced_cast_button_title">Botão Transmitir</string>
-    <string name="revanced_codec_override_title">Sobrepor o Codec</string>
     <string name="revanced_copy_video_url_summary_off">O botão Copiar Link está escondido da sobreposição do player</string>
     <string name="revanced_copy_video_url_summary_on">O botão Copiar Link está escondido da sobreposição do player</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">O botão Copiar Link com Marcador de tempo está escondido da sobreposição do player</string>
