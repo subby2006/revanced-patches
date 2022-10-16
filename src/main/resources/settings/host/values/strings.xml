@@ -148,7 +148,6 @@ Is it ready to submit?"</string>
     <string name="revanced_cast_button_summary_off">Cast Button is hidden</string>
     <string name="revanced_cast_button_summary_on">Cast Button is shown</string>
     <string name="revanced_cast_button_title">Cast Button</string>
-    <string name="revanced_codec_override_title">Codec override</string>
     <string name="revanced_copy_video_url_summary_off">Copy Link Button is hidden</string>
     <string name="revanced_copy_video_url_summary_on">Copy Link Button is visible</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Copy Link Button With Timestamp is hidden</string>
