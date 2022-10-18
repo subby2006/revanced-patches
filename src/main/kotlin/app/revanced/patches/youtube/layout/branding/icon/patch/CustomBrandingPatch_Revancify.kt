@@ -62,7 +62,7 @@ class CustomBrandingPatch_decipher3114 : ResourcePatch {
             }
             SplashiconNames.forEach iconLoop@{ iconName ->
                 Files.copy(
-                    classLoader.getResourceAsStream("branding/red/splashicon/$size/$iconName.png")!!,
+                    classLoader.getResourceAsStream("branding/decipher3114/splashicon/$size/$iconName.png")!!,
                     resDirectory.resolve("drawable-$iconDirectory").resolve("$iconName.png").toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
