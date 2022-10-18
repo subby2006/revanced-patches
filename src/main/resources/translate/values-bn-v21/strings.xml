@@ -242,7 +242,7 @@
     <string name="revanced_interactions_title">ইন্টারঅ্যাকশন সেটিংস</string>
     <string name="revanced_layout_settings_summary">লেআউট সম্পর্কিত সেটিংস</string>
     <string name="revanced_layout_settings_title">লেআউট সেটিংস</string>
-    <string name="revanced_maximum_buffer_summary">প্লেয়ারে মিডিয়ার সর্বোচ্চ বাফারিং সময়</string>
+    <string name="revanced_maximum_buffer_summary">প্লেয়ার এর জন্য সর্বোচ্চ বাফারিং সময়</string>
     <string name="revanced_maximum_buffer_title">সর্বোচ্চ বাফার সময়</string>
     <string name="revanced_minimized_playback">ব্যাকগ্রাউন্ড প্লেব্যাক</string>
     <string name="revanced_minimized_playback_off">ব্যাকগ্রাউন্ড প্লেব্যাক বন্ধ</string>

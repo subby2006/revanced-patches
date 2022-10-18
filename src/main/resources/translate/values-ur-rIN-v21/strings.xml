@@ -50,6 +50,8 @@
     <string name="general_whitelisting_sum">کسی چینل کو وائٹ لسٹ کرنے کے لیے پلیئر کے نیچے سیگمنٹ بٹن کا استعمال کریں۔</string>
     <string name="litho_channel_guidelines">چینل کے رہنما خطوط چھپائیں۔</string>
     <string name="litho_channel_guidelines_off">چینل کے رہنما خطوط دکھائے گئے ہیں۔</string>
+    <string name="litho_channel_guidelines_on">چینل کے رہنما خطوط دکھائے گئے ہیں۔</string>
+    <string name="litho_comments">Thank you very much</string>
     <string name="microg_not_installed_warning">مائیکرو جی نہیں ملا</string>
     <string name="microg_notification_settings">اطلاع کی ترتیبات</string>
     <string name="microg_notification_settings_summary">"1. اطلاعات کے لیے گوگل ڈیوائس کی رجسٹریشن اور کلاؤڈ میسجنگ کو فعال کرنے کی ضرورت ہے۔

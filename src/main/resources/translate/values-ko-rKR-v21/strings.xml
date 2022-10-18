@@ -195,9 +195,9 @@
     <string name="revanced_hide_create_clip_button_summary_off">클립 버튼을 보여줍니다</string>
     <string name="revanced_hide_create_clip_button_summary_on">클립 버튼을 숨깁니다</string>
     <string name="revanced_hide_create_clip_button_title">클립 버튼 제거</string>
-    <string name="revanced_hide_create_short_button_summary_off">리믹스(쇼츠) 버튼을 보여줍니다</string>
-    <string name="revanced_hide_create_short_button_summary_on">리믹스(쇼츠) 버튼을 숨깁니다</string>
-    <string name="revanced_hide_create_short_button_title">리믹스(쇼츠) 버튼 제거</string>
+    <string name="revanced_hide_create_short_button_summary_off">만들기(쇼츠) 버튼을 보여줍니다</string>
+    <string name="revanced_hide_create_short_button_summary_on">만들기(쇼츠) 버튼을 숨깁니다</string>
+    <string name="revanced_hide_create_short_button_title">만들기(쇼츠) 버튼 제거</string>
     <string name="revanced_hide_dislike_button_summary_off">싫어요 버튼을 보여줍니다</string>
     <string name="revanced_hide_dislike_button_summary_on">싫어요 버튼을 숨깁니다</string>
     <string name="revanced_hide_dislike_button_title">싫어요 버튼 제거</string>

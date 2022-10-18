@@ -127,8 +127,8 @@
     <string name="reset">Скинути</string>
     <string name="revanced_ad_settings_title">Налаштування реклами</string>
     <string name="revanced_ad_settings_summary">Додаткові налаштування реклами</string>
-    <string name="revanced_auto_repeat_button_summary_off">Вимкнено кнопку автовідтворення в режимі \"Картинка в картинці\"</string>
-    <string name="revanced_auto_repeat_button_summary_on">Кнопка автовідтворення увімкнено в режимі \"Картинка в картинці\"</string>
+    <string name="revanced_auto_repeat_button_summary_off">Кнопку автовідтворення вимкнено в режимі \"Картинка в картинці\"</string>
+    <string name="revanced_auto_repeat_button_summary_on">Кнопку автовідтворення увімкнено в режимі \"Картинка в картинці\"</string>
     <string name="revanced_auto_repeat_button_title">Кнопка автовідтворення</string>
     <string name="revanced_auto_repeat_summary_off">Автовідтворення вимкнено</string>
     <string name="revanced_auto_repeat_summary_on">Автовідтворення увімкнено</string>
@@ -244,8 +244,10 @@
     <string name="revanced_minimized_playback_on">Відтворення у фоні увімкнено</string>
     <string name="revanced_misc_summary">Додаткові налаштування іншого </string>
     <string name="revanced_misc_title">Інше</string>
-    <string name="revanced_my_mix_summary_off">Мій мікс (плейлист) увімкнено</string>
-    <string name="revanced_my_mix_summary_on">Мій мікс (плейлист) вимкнено</string>
+    <string name="revanced_my_mix_summary_off">Мій мікс (плейлист) увімкнено
+Увага! Вилучає мій мікс (плейлист) із головної сторінки та відеопрогравача.</string>
+    <string name="revanced_my_mix_summary_on">Мій мікс (плейлист) вимкнено
+Увага! Вилучає мій мікс (плейлист) із головної сторінки та відеопрогравача.</string>
     <string name="revanced_my_mix_title">Мій мікс (плейлист)</string>
     <string name="revanced_new_actionbar_summary_off">Використання широкої панелі пошуку вимкнено</string>
     <string name="revanced_new_actionbar_summary_on">Використання широкої панелі пошуку увімкнено</string>
@@ -262,7 +264,7 @@
     <string name="revanced_playback_start_title">Початок відтворення</string>
     <string name="revanced_player_popup_panels_title">Спливаючі панелі плеєра</string>
     <string name="revanced_player_popup_panels_summary_off">Спливаючі панелі плеєра вимкнено</string>
-    <string name="revanced_player_popup_panels_summary_on">Спливаючі панелі програвача увімкнено</string>
+    <string name="revanced_player_popup_panels_summary_on">Спливаючі панелі плеєра увімкнено</string>
     <string name="revanced_pref_save_video_quality_title">Збереження типової якості відео</string>
     <string name="revanced_pref_save_video_quality_summary_on">Збереження типової якості відео увімкнено</string>
     <string name="revanced_pref_save_video_quality_summary_off">Збереження типової якості відео вимкнено</string>

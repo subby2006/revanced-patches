@@ -248,9 +248,9 @@
     <string name="revanced_minimized_playback_on">Воспроизведение в фоне включено</string>
     <string name="revanced_misc_summary">Прочие настройки</string>
     <string name="revanced_misc_title">Разное</string>
-    <string name="revanced_my_mix_summary_off">Отображать плейлист Мой Микс</string>
+    <string name="revanced_my_mix_summary_off">Плейлист Мой Микс отображен</string>
     <string name="revanced_my_mix_summary_on">Плейлист Мой Микс скрыт</string>
-    <string name="revanced_my_mix_title">Плейлист Мой Микс отображен</string>
+    <string name="revanced_my_mix_title">Плейлист Мой Микс</string>
     <string name="revanced_new_actionbar_summary_off">Широкая панель поиска отключена</string>
     <string name="revanced_new_actionbar_summary_on">Широкая панель поиска включена</string>
     <string name="revanced_new_actionbar_title">Включить широкую панель поиска</string>
