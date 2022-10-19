@@ -4,6 +4,7 @@ import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
+import app.revanced.patcher.extensions.addInstruction
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.instruction
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
@@ -53,7 +54,8 @@ class ExtendedPatch : BytecodePatch() {
         "suggested_action",
         "ytWordmarkHeader",
         "ytPremiumWordmarkHeader",
-        "Theme.YouTube.Light"
+        "Theme.YouTube.Light",
+        "quick_actions_element_container"
     ).map { name ->
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
@@ -132,6 +134,22 @@ class ExtendedPatch : BytecodePatch() {
                                                 const/4 v0, 0x1
                                                 invoke-static {v0}, Lapp/revanced/integrations/utils/ThemeHelper;->setTheme(I)V
 												"""
+                                    )
+                                }
+
+                                resourceIds[4] -> { // fullscreen panel
+                                    val insertIndex = index + 3
+                                    val invokeInstruction = instructions.elementAt(insertIndex)
+                                    if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
+
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
+                                    if (mutableMethod == null) mutableMethod =
+                                        mutableClass!!.findMutableMethodOf(method)
+
+                                    val viewRegister = (invokeInstruction as Instruction21c).registerA
+                                    mutableMethod!!.addInstruction(
+                                        insertIndex,
+                                        "invoke-static {v$viewRegister}, Lapp/revanced/integrations/patches/FullscreenButtonContainerRemoverPatch;->HideFullscreenButtonContainer(Landroid/view/View;)V"
                                     )
                                 }
                             }

@@ -187,6 +187,9 @@ Is it ready to submit?"</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">Fullscreen rotation follows default YouTube policy</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Trick the YouTube version to enable fullscreen rotation</string>
     <string name="revanced_force_fullscreen_rotation_title">Enable Fullscreen Rotation (Experimental)</string>
+    <string name="revanced_fullscreen_button_container_summary_off">Fullscreen Button Container is shown</string>
+    <string name="revanced_fullscreen_button_container_summary_on">Fullscreen Button Container is hidden</string>
+    <string name="revanced_fullscreen_button_container_title">Fullscreen Button Container (Experimental)</string>
     <string name="revanced_hdr_full_brightness_summary_off">Auto HDR brightness is disabled</string>
     <string name="revanced_hdr_full_brightness_summary_on">Auto HDR brightness is enabled</string>
     <string name="revanced_hdr_full_brightness_title">Enable auto HDR brightness</string>
