@@ -240,7 +240,7 @@ Is it ready to submit?"</string>
     <string name="revanced_hide_thanks_button_title">Hide thanks button</string>
     <string name="revanced_hide_time_and_seekbar_summary_off">Time and seekbar are hidden</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">Time and seekbar are shown</string>
-    <string name="revanced_hide_time_and_seekbar_title">Hide thanks button</string>
+    <string name="revanced_hide_time_and_seekbar_title">Time and seekbar</string>
     <string name="revanced_home_ads_summary_off">Home ads are hidden</string>
     <string name="revanced_home_ads_summary_on">Home ads are shown</string>
     <string name="revanced_home_ads_title">Remove home ads</string>
