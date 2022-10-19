@@ -20,6 +20,12 @@
     <string name="downloader_not_installed_warning">is not installed. Please install it.</string>
     <string name="enable_sb">Enable SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock is a crowd-sourced system for skipping annoying parts in YouTube videos</string>
+    <string name="enable_sb_shorts">Enable SponsorBlock at Shorts (Alpha)</string>
+    <string name="enable_sb_shorts_content">"Enable Sponsorblock in YouTube Shorts.
+
+Since this feature is still Alpha, it only works in the 'Skip automatically' segment.
+"</string>
+    <string name="enable_sb_shorts_sum">Enable Sponsorblock in YouTube Shorts.</string>
     <string name="enable_segmadding">Enable new segment adding</string>
     <string name="enable_segmadding_sum">Switch this on to enable experimental segment adding (has button visibility issues)</string>
     <string name="enable_voting">Enable voting</string>
@@ -232,6 +238,9 @@ Is it ready to submit?"</string>
     <string name="revanced_hide_thanks_button_summary_off">Thanks button is shown</string>
     <string name="revanced_hide_thanks_button_summary_on">Thanks button is hidden</string>
     <string name="revanced_hide_thanks_button_title">Hide thanks button</string>
+    <string name="revanced_hide_time_and_seekbar_summary_off">Time and seekbar are hidden</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">Time and seekbar are shown</string>
+    <string name="revanced_hide_time_and_seekbar_title">Hide thanks button</string>
     <string name="revanced_home_ads_summary_off">Home ads are hidden</string>
     <string name="revanced_home_ads_summary_on">Home ads are shown</string>
     <string name="revanced_home_ads_title">Remove home ads</string>
@@ -380,6 +389,7 @@ If you want to disable this, set the following to OFF:"</string>
     <string name="sb_guidelines_preference_sum">Guidelines contain tips and rules about submitting segments</string>
     <string name="sb_guidelines_preference_title">View guidelines</string>
     <string name="sb_settings">SponsorBlock settings</string>
+    <string name="sb_shorts_example_video">Example Video</string>
     <string name="sb_summary">SponsorBlock related settings</string>
     <string name="segments_endcards">Endcards/Credits</string>
     <string name="segments_endcards_sum">Credits or when the YouTube endcards appear. Not for spoken conclusions</string>
