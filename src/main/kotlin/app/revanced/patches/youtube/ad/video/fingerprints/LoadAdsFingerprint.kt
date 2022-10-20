@@ -4,12 +4,12 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patches.youtube.ad.video.annotations.VideoAdsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.Opcode
 
 @Name("load-ads-fingerprint")
 
-@VideoAdsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 object LoadAdsFingerprint : MethodFingerprint(
     opcodes = listOf(Opcode.INVOKE_INTERFACE_RANGE),

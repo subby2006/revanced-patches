@@ -9,7 +9,7 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.patches.youtube.layout.amoled.annotations.AmoledCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import org.w3c.dom.Element
 import java.io.File
@@ -18,7 +18,7 @@ import java.nio.file.StandardCopyOption
 
 @DependsOn([FixLocaleConfigErrorPatch::class])
 @Name("amoled-resource")
-@AmoledCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class AmoledResourcePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {

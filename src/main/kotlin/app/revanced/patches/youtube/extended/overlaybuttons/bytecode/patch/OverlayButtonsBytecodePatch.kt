@@ -9,7 +9,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.youtube.extended.overlaybuttons.annotation.OverlayButtonsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.extended.overlaybuttons.resource.patch.OverlayButtonsResourcePatch
 import app.revanced.patches.youtube.misc.playercontrols.bytecode.patch.PlayerControlsBytecodePatch
 import app.revanced.patches.youtube.misc.videoid.patch.VideoIdPatch
@@ -18,7 +18,7 @@ import app.revanced.patches.youtube.misc.videoid.patch.VideoIdPatch
 @Name("overlay-buttons")
 @DependsOn([OverlayButtonsResourcePatch::class, PlayerControlsBytecodePatch::class, VideoIdPatch::class])
 @Description("Add overlay buttons for YouTube - copy, copy with timestamp, repeat, download")
-@OverlayButtonsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class OverlayButtonsBytecodePatch : BytecodePatch() {
     override fun execute(context: BytecodeContext): PatchResult {

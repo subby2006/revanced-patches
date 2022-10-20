@@ -10,7 +10,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.youtube.layout.personalinformation.annotations.HideEmailAddressCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.personalinformation.fingerprints.AccountSwitcherAccessibilityLabelFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
@@ -24,7 +24,7 @@ import org.jf.dexlib2.iface.reference.MethodReference
 @DependsOn([IntegrationsPatch::class, ResourceMappingResourcePatch::class])
 @Name("hide-email-address")
 @Description("Hides the email address in the account switcher.")
-@HideEmailAddressCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class HideEmailAddressPatch : BytecodePatch(
     listOf(

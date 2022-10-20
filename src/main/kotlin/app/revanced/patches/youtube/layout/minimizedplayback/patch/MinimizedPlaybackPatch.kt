@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import app.revanced.patches.youtube.layout.minimizedplayback.annotations.MinimizedPlaybackCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.minimizedplayback.fingerprints.MinimizedPlaybackKidsFingerprint
 import app.revanced.patches.youtube.layout.minimizedplayback.fingerprints.MinimizedPlaybackManagerFingerprint
 import app.revanced.patches.youtube.layout.minimizedplayback.fingerprints.MinimizedPlaybackSettingsFingerprint
@@ -25,7 +25,7 @@ import org.jf.dexlib2.iface.reference.MethodReference
 @Name("minimized-playback")
 @Description("Enables minimized and background playback.")
 @DependsOn([IntegrationsPatch::class])
-@MinimizedPlaybackCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class MinimizedPlaybackPatch : BytecodePatch(
     listOf(

@@ -13,7 +13,7 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import app.revanced.patches.youtube.layout.widesearchbar.annotations.WideSearchbarCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.widesearchbar.fingerprints.WideSearchbarOneFingerprint
 import app.revanced.patches.youtube.layout.widesearchbar.fingerprints.WideSearchbarOneParentFingerprint
 import app.revanced.patches.youtube.layout.widesearchbar.fingerprints.WideSearchbarTwoFingerprint
@@ -24,7 +24,7 @@ import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 @DependsOn([IntegrationsPatch::class])
 @Name("enable-wide-searchbar")
 @Description("Replaces the search icon with a wide search bar. This will hide the YouTube logo when active.")
-@WideSearchbarCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class WideSearchbarPatch : BytecodePatch(
     listOf(

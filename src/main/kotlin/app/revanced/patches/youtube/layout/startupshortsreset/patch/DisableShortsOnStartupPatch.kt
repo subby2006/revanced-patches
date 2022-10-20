@@ -10,7 +10,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.youtube.layout.startupshortsreset.annotations.StartupShortsResetCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.startupshortsreset.fingerprints.UserWasInShortsFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
@@ -19,7 +19,7 @@ import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 @DependsOn([IntegrationsPatch::class])
 @Name("disable-startup-shorts-player")
 @Description("Disables playing YouTube Shorts when launching YouTube.")
-@StartupShortsResetCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class DisableShortsOnStartupPatch : BytecodePatch(
     listOf(

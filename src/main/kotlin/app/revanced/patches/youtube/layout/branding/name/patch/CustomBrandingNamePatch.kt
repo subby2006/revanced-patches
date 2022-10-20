@@ -10,7 +10,7 @@ import app.revanced.patcher.patch.*
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.patches.youtube.layout.branding.icon.annotations.CustomBrandingCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import java.io.ByteArrayOutputStream
 import java.io.File
@@ -24,7 +24,7 @@ import org.w3c.dom.Element
 @Name("custom-branding-name")
 @DependsOn([FixLocaleConfigErrorPatch::class])
 @Description("Changes the YouTube launcher name to your choice (defaults to ReVanced Extended).")
-@CustomBrandingCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class CustomBrandingNamePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {

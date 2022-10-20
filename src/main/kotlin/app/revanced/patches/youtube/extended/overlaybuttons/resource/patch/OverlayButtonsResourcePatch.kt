@@ -8,7 +8,7 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.patches.youtube.extended.overlaybuttons.annotation.OverlayButtonsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
 import java.nio.file.Files
@@ -17,7 +17,7 @@ import java.nio.file.StandardCopyOption
 @Name("overlay-buttons-resource-patch")
 @DependsOn([FixLocaleConfigErrorPatch::class])
 @Description("Makes necessary changes to resources for the overlay buttons.")
-@OverlayButtonsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class OverlayButtonsResourcePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {

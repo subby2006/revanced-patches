@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import app.revanced.patches.youtube.misc.videobuffer.annotations.CustomVideoBufferCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.videobuffer.fingerprints.MaxBufferFingerprint
 import app.revanced.patches.youtube.misc.videobuffer.fingerprints.PlaybackBufferFingerprint
 import app.revanced.patches.youtube.misc.videobuffer.fingerprints.ReBufferFingerprint
@@ -21,7 +21,7 @@ import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 @Patch
 @Name("custom-video-buffer")
 @Description("Lets you change the buffers of videos.")
-@CustomVideoBufferCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class CustomVideoBufferPatch : BytecodePatch(
     listOf(

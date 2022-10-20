@@ -3,10 +3,10 @@ package app.revanced.patches.music.misc.microg.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patches.music.misc.microg.annotations.MusicMicroGPatchCompatibility
+import app.revanced.extensions.YouTubeMusicCompatibility
 
 @Name("cast-context-fetch-fingerprint")
-@MusicMicroGPatchCompatibility
+@YouTubeMusicCompatibility
 @Version("0.0.1")
 object CastContextFetchFingerprint : MethodFingerprint(
     strings = listOf("Error fetching CastContext.")

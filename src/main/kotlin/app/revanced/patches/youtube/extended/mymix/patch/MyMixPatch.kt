@@ -11,7 +11,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.youtube.extended.mymix.annotations.MyMixCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.extended.mymix.fingerprints.MyMixFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
@@ -20,7 +20,7 @@ import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 @DependsOn([IntegrationsPatch::class])
 @Name("hide-my-mix")
 @Description("Remove My Mix from home feed and video player.")
-@MyMixCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class MyMixPatch : BytecodePatch(
     listOf(

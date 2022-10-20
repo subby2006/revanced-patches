@@ -9,14 +9,14 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patches.music.layout.compactheader.annotations.CompactHeaderCompatibility
+import app.revanced.extensions.YouTubeMusicCompatibility
 import app.revanced.patches.music.layout.compactheader.fingerprints.CompactHeaderConstructorFingerprint
 import org.jf.dexlib2.builder.instruction.BuilderInstruction11x
 
 @Patch
 @Name("compact-header")
 @Description("Hides the music category bar at the top of the homepage.")
-@CompactHeaderCompatibility
+@YouTubeMusicCompatibility
 @Version("0.0.1")
 class CompactHeaderPatch : BytecodePatch(
     listOf(

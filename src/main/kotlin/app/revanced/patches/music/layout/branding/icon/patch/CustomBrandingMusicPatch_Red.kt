@@ -10,7 +10,7 @@ import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.*
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.patches.music.layout.branding.icon.annotations.CustomBrandingMusicCompatibility
+import app.revanced.extensions.YouTubeMusicCompatibility
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import java.io.ByteArrayOutputStream
 import java.io.File
@@ -24,7 +24,7 @@ import org.w3c.dom.Element
 @DependsOn([ResourceMappingResourcePatch::class])
 @Name("custom-branding-music-red")
 @Description("Changes the YouTube Music launcher icon to your choice (defaults to ReVanced Red).")
-@CustomBrandingMusicCompatibility
+@YouTubeMusicCompatibility
 @Version("0.0.1")
 class CustomBrandingMusicPatch_Red : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {

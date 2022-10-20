@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.util.smali.ExternalLabel
-import app.revanced.patches.youtube.layout.amoled.annotations.AmoledCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.amoled.bytecode.fingerprints.AmoledFingerprint
 import app.revanced.patches.youtube.layout.amoled.resource.patch.AmoledResourcePatch
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
@@ -23,7 +23,7 @@ import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatc
 )
 @Name("amoled")
 @Description("Enables pure black theme.")
-@AmoledCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class AmoledPatch : BytecodePatch(
     listOf(

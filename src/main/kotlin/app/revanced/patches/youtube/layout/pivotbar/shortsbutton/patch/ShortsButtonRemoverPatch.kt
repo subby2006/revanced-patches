@@ -16,7 +16,7 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patches.youtube.layout.pivotbar.utils.InjectionUtils.REGISTER_TEMPLATE_REPLACEMENT
 import app.revanced.patches.youtube.layout.pivotbar.utils.InjectionUtils.injectHook
 import app.revanced.patches.youtube.layout.pivotbar.fingerprints.PivotBarFingerprint
-import app.revanced.patches.youtube.layout.pivotbar.shortsbutton.annotations.ShortsButtonCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.pivotbar.shortsbutton.fingerprints.PivotBarEnumFingerprint
 import app.revanced.patches.youtube.layout.pivotbar.shortsbutton.fingerprints.PivotBarEnumFingerprint2
 import app.revanced.patches.youtube.layout.pivotbar.shortsbutton.fingerprints.PivotBarShortsButtonViewFingerprint
@@ -30,7 +30,7 @@ import org.jf.dexlib2.Opcode
 @DependsOn([IntegrationsPatch::class])
 @Name("hide-shorts-button")
 @Description("Hides the shorts button on the navigation bar.")
-@ShortsButtonCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class ShortsButtonRemoverPatch : BytecodePatch(
     listOf(PivotBarFingerprint, PivotBarButtonsViewFingerprint, PivotBarButtonTabEnumFingerprint)

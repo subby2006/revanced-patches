@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
 import app.revanced.patcher.util.smali.toInstructions
-import app.revanced.patches.youtube.misc.integrations.annotations.IntegrationsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.integrations.fingerprints.InitFingerprint
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.immutable.ImmutableMethod
@@ -20,7 +20,7 @@ import org.jf.dexlib2.immutable.ImmutableMethodImplementation
 
 @Name("integrations")
 @Description("Applies mandatory patches to implement the ReVanced integrations into the application.")
-@IntegrationsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class IntegrationsPatch : BytecodePatch(
     listOf(

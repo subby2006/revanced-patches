@@ -7,7 +7,7 @@ import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.patches.music.misc.microg.annotations.MusicMicroGPatchCompatibility
+import app.revanced.extensions.YouTubeMusicCompatibility
 import app.revanced.patches.music.misc.microg.shared.Constants.MUSIC_PACKAGE_NAME
 import app.revanced.patches.music.misc.microg.shared.Constants.REVANCED_MUSIC_PACKAGE_NAME
 import app.revanced.patches.music.misc.microg.shared.Constants.SPOOFED_PACKAGE_NAME
@@ -17,7 +17,7 @@ import app.revanced.util.microg.MicroGResourceHelper
 
 @Name("music-microg-resource-patch")
 @Description("Resource patch to allow YouTube Music ReVanced to run without root and under a different package name.")
-@MusicMicroGPatchCompatibility
+@YouTubeMusicCompatibility
 @Version("0.0.2")
 class MusicMicroGResourcePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {

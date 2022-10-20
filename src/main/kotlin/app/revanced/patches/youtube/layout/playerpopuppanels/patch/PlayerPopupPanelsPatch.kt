@@ -10,7 +10,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.youtube.layout.playerpopuppanels.annotations.PlayerPopupPanelsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.playerpopuppanels.fingerprints.EngagementPanelControllerFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 
@@ -18,7 +18,7 @@ import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 @DependsOn([IntegrationsPatch::class])
 @Name("disable-auto-player-popup-panels")
 @Description("Disable automatic popup panels (playlist or live chat) on video player.")
-@PlayerPopupPanelsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class PlayerPopupPanelsPatch : BytecodePatch(
     listOf(

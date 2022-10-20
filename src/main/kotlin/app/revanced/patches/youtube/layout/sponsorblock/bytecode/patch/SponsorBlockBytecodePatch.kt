@@ -18,7 +18,7 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
-import app.revanced.patches.youtube.layout.sponsorblock.annotations.SponsorBlockCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.sponsorblock.bytecode.fingerprints.*
 import app.revanced.patches.youtube.layout.sponsorblock.resource.patch.SponsorBlockResourcePatch
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
@@ -44,7 +44,7 @@ import org.jf.dexlib2.util.MethodUtil
 )
 @Name("sponsorblock")
 @Description("Integrate SponsorBlock.")
-@SponsorBlockCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class SponsorBlockBytecodePatch : BytecodePatch(
     listOf(

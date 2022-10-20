@@ -5,12 +5,12 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
-import app.revanced.patches.youtube.extended.autorepeat.annotations.AutoRepeatCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 
 @Name("auto-repeat-parent-fingerprint")
 @FuzzyPatternScanMethod(2)
-@AutoRepeatCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 //This Fingerprints finds the play() method needed to be called when AutoRepeatPatch.shouldAutoRepeat() == true
 /*

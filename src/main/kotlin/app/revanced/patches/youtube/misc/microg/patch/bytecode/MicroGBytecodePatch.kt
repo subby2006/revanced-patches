@@ -10,7 +10,7 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patches.youtube.layout.castbutton.patch.HideCastButtonPatch
 import app.revanced.patches.youtube.misc.clientspoof.patch.ClientSpoofPatch
-import app.revanced.patches.youtube.misc.microg.annotations.MicroGPatchCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.microg.fingerprints.*
 import app.revanced.patches.youtube.misc.microg.patch.resource.MicroGResourcePatch
 import app.revanced.patches.youtube.misc.microg.shared.Constants.PACKAGE_NAME
@@ -27,7 +27,7 @@ import app.revanced.util.microg.MicroGBytecodeHelper
 )
 @Name("microg-support")
 @Description("Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG.")
-@MicroGPatchCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class MicroGBytecodePatch : BytecodePatch(
     listOf(

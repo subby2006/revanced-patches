@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.youtube.extended.customplaybackspeed.annotations.CustomPlaybackSpeedCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.extended.customplaybackspeed.fingerprints.SpeedArrayGeneratorFingerprint
 import app.revanced.patches.youtube.extended.customplaybackspeed.fingerprints.SpeedLimiterFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
@@ -26,7 +26,7 @@ import org.jf.dexlib2.iface.reference.MethodReference
 @Name("custom-playback-speed")
 @Description("Adds more video playback speed options.")
 @DependsOn([IntegrationsPatch::class])
-@CustomPlaybackSpeedCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class CustomPlaybackSpeedPatch : BytecodePatch(
     listOf(

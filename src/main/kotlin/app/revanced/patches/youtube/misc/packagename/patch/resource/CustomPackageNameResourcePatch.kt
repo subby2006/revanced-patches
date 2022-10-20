@@ -9,7 +9,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
-import app.revanced.patches.youtube.misc.microg.annotations.MicroGPatchCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.microg.shared.Constants.PACKAGE_NAME
 import app.revanced.patches.youtube.misc.microg.shared.Constants.REVANCED_PACKAGE_NAME
 import app.revanced.patches.youtube.misc.microg.shared.Constants.REVANCED_EXTENDED_PACKAGE_NAME
@@ -18,7 +18,7 @@ import app.revanced.util.microg.MicroGResourceHelper
 @Name("custom-package-name-resource-patch")
 @DependsOn([FixLocaleConfigErrorPatch::class])
 @Description("Resource patch to allow ReVanced Extended to run under a different package name than ReVanced.")
-@MicroGPatchCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class CustomPackageNameResourcePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {

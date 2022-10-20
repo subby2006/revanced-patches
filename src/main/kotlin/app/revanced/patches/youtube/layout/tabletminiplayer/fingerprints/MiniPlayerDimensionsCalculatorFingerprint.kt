@@ -5,13 +5,13 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patches.youtube.layout.tabletminiplayer.annotations.TabletMiniPlayerCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("mini-player-dimensions-calculator-fingerprint")
 @FuzzyPatternScanMethod(2) // TODO: Find a good threshold value
-@TabletMiniPlayerCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 object MiniPlayerDimensionsCalculatorFingerprint : MethodFingerprint(
     "V",

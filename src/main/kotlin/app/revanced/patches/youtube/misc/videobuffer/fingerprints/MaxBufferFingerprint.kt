@@ -4,13 +4,13 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patches.youtube.misc.videobuffer.annotations.CustomVideoBufferCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 import org.jf.dexlib2.iface.instruction.NarrowLiteralInstruction
 
 @Name("maxbuffer-fingerprint")
-@CustomVideoBufferCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 object MaxBufferFingerprint : MethodFingerprint(
     "I", AccessFlags.PUBLIC or AccessFlags.FINAL, listOf(),

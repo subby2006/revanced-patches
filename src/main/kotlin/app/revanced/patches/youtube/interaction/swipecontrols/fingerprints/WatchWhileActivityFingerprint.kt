@@ -4,11 +4,11 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patches.youtube.interaction.swipecontrols.annotation.SwipeControlsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 
 @Name("watch-while-activity-fingerprint")
 
-@SwipeControlsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 object WatchWhileActivityFingerprint : MethodFingerprint(
     customFingerprint = { methodDef ->

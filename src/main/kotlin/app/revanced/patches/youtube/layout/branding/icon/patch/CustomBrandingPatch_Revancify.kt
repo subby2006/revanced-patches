@@ -9,7 +9,7 @@ import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.*
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.patches.youtube.layout.branding.icon.annotations.CustomBrandingCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import java.io.ByteArrayOutputStream
 import java.io.File
@@ -22,7 +22,7 @@ import org.w3c.dom.Element
 @Patch(false)
 @Name("custom-branding-icon-revancify")
 @Description("Changes the YouTube launcher icon to your choice (revancify).")
-@CustomBrandingCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class CustomBrandingPatch_decipher3114 : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {

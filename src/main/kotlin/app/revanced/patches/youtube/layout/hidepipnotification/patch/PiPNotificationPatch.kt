@@ -10,14 +10,14 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.youtube.layout.hidepipnotification.annotations.PiPNotificationCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.hidepipnotification.fingerprints.PiPNotificationFirstFingerprint
 import app.revanced.patches.youtube.layout.hidepipnotification.fingerprints.PiPNotificationSecondFingerprint
 
 @Patch
 @Name("hide-pip-notification")
 @Description("Disable pip notification when you first launch pip mode.")
-@PiPNotificationCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class PiPNotificationPatch : BytecodePatch(
     listOf(

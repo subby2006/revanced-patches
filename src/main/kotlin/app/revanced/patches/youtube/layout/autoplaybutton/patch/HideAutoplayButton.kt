@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import app.revanced.patches.youtube.layout.autoplaybutton.annotations.AutoplayButtonCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.autoplaybutton.fingerprints.LayoutConstructorFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
@@ -25,7 +25,7 @@ import org.jf.dexlib2.iface.reference.MethodReference
 @DependsOn([ResourceMappingResourcePatch::class, IntegrationsPatch::class])
 @Name("hide-autoplay-button")
 @Description("Hides the autoplay button in the video player.")
-@AutoplayButtonCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class HideAutoplayButton : BytecodePatch(
     listOf(

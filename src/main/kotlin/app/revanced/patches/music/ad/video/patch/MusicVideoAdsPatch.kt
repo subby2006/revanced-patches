@@ -10,14 +10,14 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.music.ad.video.annotations.MusicVideoAdsCompatibility
+import app.revanced.extensions.YouTubeMusicCompatibility
 import app.revanced.patches.music.ad.video.fingerprints.ShowMusicVideoAdsConstructorFingerprint
 import app.revanced.patches.music.ad.video.fingerprints.ShowMusicVideoAdsFingerprint
 
 @Patch
 @Name("music-video-ads")
 @Description("Removes ads in the music player.")
-@MusicVideoAdsCompatibility
+@YouTubeMusicCompatibility
 @Version("0.0.1")
 class MusicVideoAdsPatch : BytecodePatch(
     listOf(

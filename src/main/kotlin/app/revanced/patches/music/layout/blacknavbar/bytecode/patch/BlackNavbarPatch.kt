@@ -18,7 +18,7 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.ExternalLabel
-import app.revanced.patches.music.layout.blacknavbar.annotation.BlackNavbarCompatibility
+import app.revanced.extensions.YouTubeMusicCompatibility
 import app.revanced.extensions.MethodExtensions.findMutableMethodOf
 import app.revanced.extensions.MethodExtensions.toDescriptor
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
@@ -34,7 +34,7 @@ import org.jf.dexlib2.iface.instruction.formats.Instruction31i
 )
 @Name("black-navbar")
 @Description("Sets the navigation bar color to black.")
-@BlackNavbarCompatibility
+@YouTubeMusicCompatibility
 @Version("0.0.1")
 class BlackNavbarPatch : BytecodePatch() {
 

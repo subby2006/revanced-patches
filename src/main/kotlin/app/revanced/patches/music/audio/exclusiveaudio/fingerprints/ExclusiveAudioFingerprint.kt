@@ -5,13 +5,13 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
-import app.revanced.patches.music.audio.exclusiveaudio.annotations.ExclusiveAudioCompatibility
+import app.revanced.extensions.YouTubeMusicCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("exclusive-audio-fingerprints")
 @FuzzyPatternScanMethod(2) // FIXME: Test this threshold and find the best value.
-@ExclusiveAudioCompatibility
+@YouTubeMusicCompatibility
 @Version("0.0.1")
 object ExclusiveAudioFingerprint : MethodFingerprint(
     "V",

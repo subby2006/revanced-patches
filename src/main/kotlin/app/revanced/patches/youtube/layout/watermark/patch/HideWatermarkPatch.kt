@@ -13,7 +13,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.youtube.layout.watermark.annotations.HideWatermarkCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.watermark.fingerprints.HideWatermarkParentFingerprint
 import app.revanced.patches.youtube.layout.watermark.fingerprints.HideWatermarkFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
@@ -22,7 +22,7 @@ import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 @DependsOn([IntegrationsPatch::class])
 @Name("hide-watermark")
 @Description("Hides creator's watermarks on videos.")
-@HideWatermarkCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class HideWatermarkPatch : BytecodePatch(
     listOf(

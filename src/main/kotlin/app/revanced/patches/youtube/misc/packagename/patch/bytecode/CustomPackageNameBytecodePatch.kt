@@ -9,7 +9,7 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patches.youtube.misc.packagename.patch.resource.CustomPackageNameResourcePatch
-import app.revanced.patches.youtube.misc.microg.annotations.MicroGPatchCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.microg.fingerprints.*
 import app.revanced.patches.youtube.misc.microg.patch.bytecode.MicroGBytecodePatch
 import app.revanced.patches.youtube.misc.microg.shared.Constants.PACKAGE_NAME
@@ -26,7 +26,7 @@ import app.revanced.util.microg.MicroGBytecodeHelper
 )
 @Name("custom-package-name")
 @Description("Allows ReVanced Extended to run under a different package name than ReVanced (NON-ROOT users only!).")
-@MicroGPatchCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class CustomPackageNameBytecodePatch : BytecodePatch(
     listOf(

@@ -4,12 +4,12 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patches.youtube.extended.quality.annotations.DefaultVideoQualityCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("video-quality-setter-fingerprint")
-@DefaultVideoQualityCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 object VideoQualitySetterFingerprint : MethodFingerprint(
     "V",

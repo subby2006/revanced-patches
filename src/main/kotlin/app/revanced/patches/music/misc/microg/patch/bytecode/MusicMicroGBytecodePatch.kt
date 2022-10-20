@@ -8,7 +8,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.music.misc.microg.annotations.MusicMicroGPatchCompatibility
+import app.revanced.extensions.YouTubeMusicCompatibility
 import app.revanced.patches.music.misc.microg.fingerprints.*
 import app.revanced.patches.music.misc.microg.patch.resource.MusicMicroGResourcePatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
@@ -21,7 +21,7 @@ import app.revanced.util.microg.MicroGBytecodeHelper
 @DependsOn([MusicMicroGResourcePatch::class, ResourceMappingResourcePatch::class])
 @Name("music-microg-support")
 @Description("Allows YouTube Music ReVanced to run without root and under a different package name.")
-@MusicMicroGPatchCompatibility
+@YouTubeMusicCompatibility
 @Version("0.0.2")
 class MusicMicroGBytecodePatch : BytecodePatch(
     listOf(

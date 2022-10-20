@@ -3,12 +3,12 @@ package app.revanced.patches.youtube.layout.sponsorblock.bytecode.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patches.youtube.layout.sponsorblock.annotations.SponsorBlockCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.iface.instruction.ReferenceInstruction
 import org.jf.dexlib2.iface.reference.MethodReference
 
 @Name("rectangle-field-invalidator-fingerprint")
-@SponsorBlockCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 object RectangleFieldInvalidatorFingerprint : MethodFingerprint(
     "V",

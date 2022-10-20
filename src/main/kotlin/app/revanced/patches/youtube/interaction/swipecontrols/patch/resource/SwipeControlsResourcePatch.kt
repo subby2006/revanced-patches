@@ -6,12 +6,12 @@ import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.patches.youtube.interaction.swipecontrols.annotation.SwipeControlsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.util.resources.ResourceUtils
 import app.revanced.util.resources.ResourceUtils.copyResources
 
 @Name("swipe-controls-resource-patch")
-@SwipeControlsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class SwipeControlsResourcePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {

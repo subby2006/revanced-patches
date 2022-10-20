@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.util.smali.ExternalLabel
-import app.revanced.patches.youtube.ad.video.annotations.VideoAdsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.ad.video.fingerprints.LoadAdsFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 
@@ -20,7 +20,7 @@ import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 @DependsOn([IntegrationsPatch::class])
 @Name("video-ads")
 @Description("Removes ads in the video player.")
-@VideoAdsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class VideoAdsPatch : BytecodePatch(
     listOf(

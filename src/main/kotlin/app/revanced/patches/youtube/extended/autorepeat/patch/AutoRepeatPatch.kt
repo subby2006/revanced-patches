@@ -13,7 +13,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.youtube.extended.autorepeat.annotations.AutoRepeatCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.extended.autorepeat.fingerprints.AutoRepeatFingerprint
 import app.revanced.patches.youtube.extended.autorepeat.fingerprints.AutoRepeatParentFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
@@ -22,7 +22,7 @@ import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 @DependsOn([IntegrationsPatch::class])
 @Name("always-autorepeat")
 @Description("Always repeats the playing video again.")
-@AutoRepeatCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class AutoRepeatPatch : BytecodePatch(
     listOf(

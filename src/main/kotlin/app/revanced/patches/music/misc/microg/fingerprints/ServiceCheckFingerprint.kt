@@ -5,12 +5,12 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patches.music.misc.microg.annotations.MusicMicroGPatchCompatibility
+import app.revanced.extensions.YouTubeMusicCompatibility
 import org.jf.dexlib2.AccessFlags
 
 @Name("google-play-service-checker-fingerprint")
 @FuzzyPatternScanMethod(2) // FIXME: Test this threshold and find the best value.
-@MusicMicroGPatchCompatibility
+@YouTubeMusicCompatibility
 @Version("0.0.1")
 object ServiceCheckFingerprint : MethodFingerprint(
     "V",

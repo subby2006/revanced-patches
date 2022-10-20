@@ -10,7 +10,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.youtube.layout.autocaptions.annotations.AutoCaptionsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.autocaptions.fingerprints.StartVideoInformerFingerprint
 import app.revanced.patches.youtube.layout.autocaptions.fingerprints.SubtitleButtonControllerFingerprint
 import app.revanced.patches.youtube.layout.autocaptions.fingerprints.SubtitleTrackFingerprint
@@ -20,7 +20,7 @@ import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 @DependsOn([IntegrationsPatch::class])
 @Name("disable-auto-captions")
 @Description("Disable forced captions from being automatically enabled.")
-@AutoCaptionsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class AutoCaptionsPatch : BytecodePatch(
     listOf(

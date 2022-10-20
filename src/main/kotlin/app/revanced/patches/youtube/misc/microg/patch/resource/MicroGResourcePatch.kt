@@ -10,7 +10,7 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.music.misc.microg.shared.Constants
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
-import app.revanced.patches.youtube.misc.microg.annotations.MicroGPatchCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.microg.shared.Constants.PACKAGE_NAME
 import app.revanced.patches.youtube.misc.microg.shared.Constants.REVANCED_PACKAGE_NAME
 import app.revanced.patches.youtube.misc.microg.shared.Constants.SPOOFED_PACKAGE_NAME
@@ -23,7 +23,7 @@ import app.revanced.util.microg.MicroGResourceHelper
 @Name("microg-resource-patch")
 @DependsOn([FixLocaleConfigErrorPatch::class, SettingsResourcePatch::class])
 @Description("Resource patch to allow YouTube ReVanced to run without root and under a different package name.")
-@MicroGPatchCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class MicroGResourcePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {

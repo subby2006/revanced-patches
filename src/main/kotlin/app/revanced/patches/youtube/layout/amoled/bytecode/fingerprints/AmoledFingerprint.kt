@@ -4,12 +4,12 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patches.youtube.layout.amoled.annotations.AmoledCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("amoled-fingerprint")
-@AmoledCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 object AmoledFingerprint : MethodFingerprint(
     "V", AccessFlags.PROTECTED or AccessFlags.FINAL, listOf("L"), listOf(

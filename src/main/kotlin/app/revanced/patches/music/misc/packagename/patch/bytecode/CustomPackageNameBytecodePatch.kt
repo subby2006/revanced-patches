@@ -9,7 +9,7 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patches.music.misc.packagename.patch.resource.CustomPackageNameResourcePatch
-import app.revanced.patches.music.misc.microg.annotations.MusicMicroGPatchCompatibility
+import app.revanced.extensions.YouTubeMusicCompatibility
 import app.revanced.patches.music.misc.microg.fingerprints.*
 import app.revanced.patches.music.misc.microg.patch.bytecode.MusicMicroGBytecodePatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
@@ -27,7 +27,7 @@ import app.revanced.util.microg.MicroGBytecodeHelper
 )
 @Name("custom-package-name-music")
 @Description("Allows ReVanced Extended Music to run under a different package name than ReVanced Music (NON-ROOT users only!).")
-@MusicMicroGPatchCompatibility
+@YouTubeMusicCompatibility
 @Version("0.0.1")
 class CustomPackageNameBytecodePatch : BytecodePatch(
     listOf(

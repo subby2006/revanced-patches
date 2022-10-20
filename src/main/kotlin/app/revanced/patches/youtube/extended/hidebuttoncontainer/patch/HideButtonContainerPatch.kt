@@ -14,7 +14,7 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.toInstructions
-import app.revanced.patches.youtube.extended.hidebuttoncontainer.annotations.HideButtonContainerPatchCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.extensions.MethodExtensions.addMethod
 import app.revanced.extensions.MethodExtensions.insertBlocks
 import app.revanced.extensions.MethodExtensions.toDescriptor
@@ -39,7 +39,7 @@ import org.jf.dexlib2.immutable.reference.ImmutableMethodReference
 @DependsOn([IntegrationsPatch::class, ResourceMappingResourcePatch::class, GeneralBytecodeAdsPatch::class])
 @Name("hide-button-container")
 @Description("Removes button container.")
-@HideButtonContainerPatchCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class HideButtonContainerPatch : BytecodePatch(
     listOf(

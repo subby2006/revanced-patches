@@ -5,13 +5,13 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patches.youtube.layout.startupshortsreset.annotations.StartupShortsResetCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("user-was-in-shorts-fingerprint")
 @FuzzyPatternScanMethod(3)
-@StartupShortsResetCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 object UserWasInShortsFingerprint : MethodFingerprint(
     "V", AccessFlags.PUBLIC or AccessFlags.FINAL, listOf("L"),

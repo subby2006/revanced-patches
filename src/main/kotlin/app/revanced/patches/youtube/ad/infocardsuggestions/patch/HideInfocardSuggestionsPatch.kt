@@ -14,7 +14,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.youtube.ad.infocardsuggestions.annotations.HideInfocardSuggestionsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.ad.infocardsuggestions.fingerprints.HideInfocardSuggestionsFingerprint
 import app.revanced.patches.youtube.ad.infocardsuggestions.fingerprints.HideInfocardSuggestionsParentFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
@@ -24,7 +24,7 @@ import org.jf.dexlib2.builder.instruction.BuilderInstruction35c
 @DependsOn([IntegrationsPatch::class])
 @Name("hide-infocard-suggestions")
 @Description("Hides infocards in videos.")
-@HideInfocardSuggestionsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class HideInfocardSuggestionsPatch : BytecodePatch(
     listOf(

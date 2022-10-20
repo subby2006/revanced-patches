@@ -1,13 +1,14 @@
-package app.revanced.patches.youtube.layout.branding.header.annotations
+package app.revanced.extensions
 
 import app.revanced.patcher.annotation.Compatibility
 import app.revanced.patcher.annotation.Package
 
 @Compatibility(
     [Package(
-        "com.google.android.youtube", arrayOf()
+        "com.google.android.apps.youtube.music", arrayOf("5.23.50", "5.27.51", "5.28.52", "5.29.52")
     )]
 )
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.RUNTIME)
-internal annotation class PremiumHeadingCompatibility
+internal annotation class YouTubeMusicCompatibility
+

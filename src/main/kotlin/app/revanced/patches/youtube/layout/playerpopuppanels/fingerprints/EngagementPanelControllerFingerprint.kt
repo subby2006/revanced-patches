@@ -5,13 +5,13 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patches.youtube.layout.playerpopuppanels.annotations.PlayerPopupPanelsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("engagement-player-controller-fingerprint")
 @FuzzyPatternScanMethod(3)
-@PlayerPopupPanelsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 object EngagementPanelControllerFingerprint : MethodFingerprint(
     "L", AccessFlags.PRIVATE or AccessFlags.FINAL, listOf("L", "L", "Z", "Z", "Z"), listOf(

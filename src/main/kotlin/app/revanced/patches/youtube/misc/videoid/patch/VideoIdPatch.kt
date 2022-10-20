@@ -12,13 +12,13 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
-import app.revanced.patches.youtube.misc.videoid.annotation.VideoIdCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.videoid.fingerprint.VideoIdFingerprint
 import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 
 @Name("video-id-hook")
 @Description("Hook to detect when the video id changes")
-@VideoIdCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 @DependsOn([IntegrationsPatch::class])
 class VideoIdPatch : BytecodePatch(

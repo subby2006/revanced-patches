@@ -7,14 +7,14 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.patches.youtube.layout.sponsorblock.annotations.SponsorBlockCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
 import java.nio.file.Files
 
 @Name("sponsorblock-resource-patch")
-@SponsorBlockCompatibility
+@YouTubeCompatibility
 @DependsOn([FixLocaleConfigErrorPatch::class, ResourceMappingResourcePatch::class])
 @Version("0.0.1")
 class SponsorBlockResourcePatch : ResourcePatch {

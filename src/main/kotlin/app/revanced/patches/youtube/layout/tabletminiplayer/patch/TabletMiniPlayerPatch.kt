@@ -13,7 +13,7 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import app.revanced.patches.youtube.layout.tabletminiplayer.annotations.TabletMiniPlayerCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.tabletminiplayer.fingerprints.MiniPlayerDimensionsCalculatorFingerprint
 import app.revanced.patches.youtube.layout.tabletminiplayer.fingerprints.MiniPlayerOverrideFingerprint
 import app.revanced.patches.youtube.layout.tabletminiplayer.fingerprints.MiniPlayerOverrideNoContextFingerprint
@@ -25,7 +25,7 @@ import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 @DependsOn([IntegrationsPatch::class])
 @Name("tablet-mini-player")
 @Description("Enables the tablet mini player layout.")
-@TabletMiniPlayerCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class TabletMiniPlayerPatch : BytecodePatch(
     listOf(

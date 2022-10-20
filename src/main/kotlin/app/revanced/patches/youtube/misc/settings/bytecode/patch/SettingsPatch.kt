@@ -14,7 +14,7 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.smali.toInstruction
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
-import app.revanced.patches.youtube.misc.settings.annotations.SettingsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.settings.bytecode.fingerprints.ThemeSetterFingerprint
 import app.revanced.patches.youtube.misc.settings.resource.patch.SettingsResourcePatch
 import org.jf.dexlib2.util.MethodUtil
@@ -29,7 +29,7 @@ import org.jf.dexlib2.util.MethodUtil
 )
 @Name("settings")
 @Description("Adds settings for ReVanced to YouTube.")
-@SettingsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class SettingsPatch : BytecodePatch(
     listOf(ThemeSetterFingerprint)

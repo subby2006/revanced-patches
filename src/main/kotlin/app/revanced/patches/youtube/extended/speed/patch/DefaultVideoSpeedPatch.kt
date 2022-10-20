@@ -18,7 +18,7 @@ import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.
 import app.revanced.patcher.util.smali.toInstructions
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.videoid.patch.VideoIdPatch
-import app.revanced.patches.youtube.extended.speed.annotations.DefaultVideoSpeedCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.extended.speed.fingerprints.VideoSpeedSetterFingerprint
 import app.revanced.patches.youtube.extended.speed.fingerprints.VideoUserSpeedChangeFingerprint
 import app.revanced.patches.youtube.extended.speed.fingerprints.VideoSpeedReferenceFingerprint
@@ -35,7 +35,7 @@ import org.jf.dexlib2.iface.reference.MethodReference
 @DependsOn([IntegrationsPatch::class, VideoIdPatch::class])
 @Name("default-video-speed")
 @Description("Adds the ability to set default video speed.")
-@DefaultVideoSpeedCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class DefaultVideoSpeedPatch : BytecodePatch(
     listOf(

@@ -10,12 +10,12 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
-import app.revanced.patches.youtube.misc.playertype.annotation.PlayerTypeHookCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.playertype.fingerprint.UpdatePlayerTypeFingerprint
 
 @Name("player-type-hook")
 @Description("Hook to get the current player type of WatchWhileActivity")
-@PlayerTypeHookCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 @DependsOn([IntegrationsPatch::class])
 class PlayerTypeHookPatch : BytecodePatch(

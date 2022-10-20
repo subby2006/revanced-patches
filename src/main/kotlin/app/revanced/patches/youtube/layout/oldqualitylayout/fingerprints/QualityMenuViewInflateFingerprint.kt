@@ -4,12 +4,12 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patches.youtube.layout.oldqualitylayout.annotations.OldQualityLayoutCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("quality-menu-view-inflate-fingerprint")
-@OldQualityLayoutCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 object QualityMenuViewInflateFingerprint : MethodFingerprint(
     "L", AccessFlags.FINAL or AccessFlags.PUBLIC, listOf("L", "L", "L"), listOf(

@@ -11,7 +11,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patches.youtube.layout.pivotbar.createbutton.annotations.CreateButtonCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.pivotbar.createbutton.fingerprints.CreateButtonFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
@@ -25,7 +25,7 @@ import org.jf.dexlib2.iface.reference.MethodReference
 @DependsOn([IntegrationsPatch::class, ResourceMappingResourcePatch::class])
 @Name("disable-create-button")
 @Description("Hides the create button in the navigation bar.")
-@CreateButtonCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class CreateButtonRemoverPatch : BytecodePatch(
     listOf(

@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.extended.quality.annotations
+package app.revanced.extensions
 
 import app.revanced.patcher.annotation.Compatibility
 import app.revanced.patcher.annotation.Package
@@ -10,4 +10,5 @@ import app.revanced.patcher.annotation.Package
 )
 @Target(AnnotationTarget.CLASS)
 @Retention(AnnotationRetention.RUNTIME)
-internal annotation class DefaultVideoQualityCompatibility
+internal annotation class YouTubeCompatibility
+

@@ -20,7 +20,7 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.ExternalLabel
-import app.revanced.patches.youtube.ad.general.annotation.GeneralAdsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.extensions.MethodExtensions.findMutableMethodOf
 import app.revanced.extensions.MethodExtensions.toDescriptor
 import app.revanced.patches.youtube.ad.general.resource.patch.GeneralResourceAdsPatch
@@ -41,7 +41,7 @@ import org.jf.dexlib2.iface.reference.StringReference
 @DependsOn([ResourceMappingResourcePatch::class, IntegrationsPatch::class, GeneralResourceAdsPatch::class])
 @Name("general-ads")
 @Description("Removes general ads.")
-@GeneralAdsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class GeneralBytecodeAdsPatch : BytecodePatch() {
     // a constant used by litho

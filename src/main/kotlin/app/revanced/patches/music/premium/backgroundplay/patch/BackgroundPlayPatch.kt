@@ -9,13 +9,13 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patches.music.premium.backgroundplay.annotations.BackgroundPlayCompatibility
+import app.revanced.extensions.YouTubeMusicCompatibility
 import app.revanced.patches.music.premium.backgroundplay.fingerprints.BackgroundPlaybackDisableFingerprint
 
 @Patch
 @Name("background-play")
 @Description("Enables playing music in the background.")
-@BackgroundPlayCompatibility
+@YouTubeMusicCompatibility
 @Version("0.0.1")
 class BackgroundPlayPatch : BytecodePatch(
     listOf(

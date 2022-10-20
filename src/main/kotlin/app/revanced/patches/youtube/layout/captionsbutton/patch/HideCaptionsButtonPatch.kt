@@ -10,7 +10,7 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patches.youtube.layout.captionsbutton.annotations.HideCaptionsButtonCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.autocaptions.fingerprints.SubtitleButtonControllerFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import org.jf.dexlib2.Opcode
@@ -19,7 +19,7 @@ import org.jf.dexlib2.Opcode
 @DependsOn([IntegrationsPatch::class])
 @Name("hide-captions-button")
 @Description("Hides the captions button in the video player.")
-@HideCaptionsButtonCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class HideCaptionsButtonPatch : BytecodePatch(listOf(
     SubtitleButtonControllerFingerprint,

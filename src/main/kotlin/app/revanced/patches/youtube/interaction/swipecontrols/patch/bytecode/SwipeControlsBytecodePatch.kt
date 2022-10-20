@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
-import app.revanced.patches.youtube.interaction.swipecontrols.annotation.SwipeControlsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.interaction.swipecontrols.fingerprints.SwipeControlsHostActivityFingerprint
 import app.revanced.patches.youtube.interaction.swipecontrols.fingerprints.WatchWhileActivityFingerprint
 import app.revanced.patches.youtube.interaction.swipecontrols.patch.resource.SwipeControlsResourcePatch
@@ -24,7 +24,7 @@ import org.jf.dexlib2.immutable.ImmutableMethod
 @Patch
 @Name("swipe-controls")
 @Description("Adds volume and brightness swipe controls.")
-@SwipeControlsCompatibility
+@YouTubeCompatibility
 @Version("0.0.3")
 @DependsOn(
     [

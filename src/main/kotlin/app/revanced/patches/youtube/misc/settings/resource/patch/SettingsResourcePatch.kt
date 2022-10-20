@@ -8,7 +8,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
-import app.revanced.patches.youtube.misc.settings.annotations.SettingsCompatibility
+import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.util.resources.ResourceUtils
 import app.revanced.util.resources.ResourceUtils.copyResources
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
@@ -18,7 +18,7 @@ import java.nio.file.StandardCopyOption
 
 
 @Name("settings-resource-patch")
-@SettingsCompatibility
+@YouTubeCompatibility
 @DependsOn([FixLocaleConfigErrorPatch::class])
 @Version("0.0.1")
 class SettingsResourcePatch : ResourcePatch {
