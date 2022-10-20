@@ -22,6 +22,9 @@
     <string name="downloader_not_installed_warning">غير مثبت. الرجاء تثبيته.</string>
     <string name="enable_sb">تمكين مانِع الرُعَاة \"SponsorBlock\"</string>
     <string name="enable_sb_sum">مانِع الرُعَاة هو نظام جماعي لتخطي الأجزاء المُمِلَّة في مقاطع اليوتيوب</string>
+    <string name="enable_sb_shorts">تمكين SponsorBlock على Shorts (Alpha`)</string>
+    <string name="enable_sb_shorts_content">"تمكين مانِع الرُعَاة في فيديوهات YouTube Shorts. نظرًا لأن هذه الميزة لا تزال (Alpha) ، فهي تعمل فقط بوضع\" التخطي تلقائيًا \" للمقطع."</string>
+    <string name="enable_sb_shorts_sum">تمكين SponsorBlock في فيديوهات YouTube Shorts</string>
     <string name="enable_segmadding">تمكين إضافة مقطع جديد</string>
     <string name="enable_segmadding_sum">قم بتشغيل هذا الخيار لتمكين إضافة مقطع (قد يوجد مشاكل في رؤية الزر!)</string>
     <string name="enable_voting">تمكين التصويت</string>
@@ -185,6 +188,9 @@
     <string name="revanced_force_fullscreen_rotation_summary_off">يتبع تدوير ملء الشاشة سياسة YouTube الافتراضية</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">خداع إصدار YouTube لتمكين التدوير بملء الشاشة</string>
     <string name="revanced_force_fullscreen_rotation_title">تمكين تدوير ملء الشاشة (تجريبي)</string>
+    <string name="revanced_fullscreen_button_container_summary_off">يتم عرض حاوية زر ملء الشاشة</string>
+    <string name="revanced_fullscreen_button_container_summary_on">تم إخفاء حاوية زر ملء الشاشة</string>
+    <string name="revanced_fullscreen_button_container_title">حاوية زر ملء الشاشة (تجريبية)</string>
     <string name="revanced_hdr_full_brightness_summary_off">تم تعطيل سطوع HDR التلقائي</string>
     <string name="revanced_hdr_full_brightness_summary_on">تم تمكين سطوع HDR التلقائي</string>
     <string name="revanced_hdr_full_brightness_title">تمكين سطوع HDR التلقائي</string>
@@ -227,6 +233,9 @@
     <string name="revanced_hide_thanks_button_summary_off">يتم عرض زر شكرًا</string>
     <string name="revanced_hide_thanks_button_summary_on">تم إخفاء زر شكرًا</string>
     <string name="revanced_hide_thanks_button_title">إخفاء زر شكرًا</string>
+    <string name="revanced_hide_time_and_seekbar_summary_off">تم إخفاء الوقت وشريط تقدم الفيديو</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">يتم عرض الوقت وشريط تقدم الفيديو</string>
+    <string name="revanced_hide_time_and_seekbar_title">الوقت وشريط تقدم الفيديو</string>
     <string name="revanced_home_ads_summary_off">تم إخفاء إعلانات الصفحة الرئيسية</string>
     <string name="revanced_home_ads_summary_on">يتم عرض إعلانات الصفحة الرئيسية</string>
     <string name="revanced_home_ads_title">إزالة إعلانات الصفحة الرئيسية</string>
@@ -363,6 +372,7 @@
     <string name="sb_guidelines_preference_sum">الإرشادات تحتوي على نصائح حول تقديم المقاطع</string>
     <string name="sb_guidelines_preference_title">عرض الإرشادات</string>
     <string name="sb_settings">SponsorBlock إعدادات مانِع الرُعَاة</string>
+    <string name="sb_shorts_example_video">مثال فيديو</string>
     <string name="sb_summary">SponsorBlock الإعدادات المتعلقة بــ</string>
     <string name="segments_endcards">الاعتمادات/تترات النهاية</string>
     <string name="segments_endcards_sum">تتر النهاية أو عندما تظهر بطاقات النهاية، نهايات غير منطوقة</string>

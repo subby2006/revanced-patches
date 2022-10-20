@@ -22,6 +22,12 @@
     <string name="downloader_not_installed_warning">未安装，请先安装。</string>
     <string name="enable_sb">启用 SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock 是一个众包平台，旨在帮助人们跳过 YouTube 视频中烦人的部分</string>
+    <string name="enable_sb_shorts">在 Shorts 视频里启用 SponsorBlock（Alpha）</string>
+    <string name="enable_sb_shorts_content">"在 YouTube Shorts 视频里启用 SponsorBlock。
+
+由于此功能仍为 Alpha 测试，因此仅适用于“自动跳过”片段。
+"</string>
+    <string name="enable_sb_shorts_sum">在 YouTube Shorts 视频里启用 SponsorBlock。</string>
     <string name="enable_segmadding">启用新的片段添加</string>
     <string name="enable_segmadding_sum">开启此选项以启用片段添加实验性功能（有按钮可见性问题）</string>
     <string name="enable_voting">启用投票</string>
@@ -39,7 +45,7 @@
     <string name="general_min_duration">最小片段时长</string>
     <string name="general_min_duration_sum">小于设定时长（秒）的片段将不会跳过或显示在播放器中</string>
     <string name="general_skipcount">跳过计数跟踪</string>
-    <string name="general_skipcount_sum">这让 SponsorBlock 排行榜系统知道人们节省了多少时间。 每次跳过一个片段时，扩展都会向服务器发送一条信息</string>
+    <string name="general_skipcount_sum">这让 SponsorBlock 排行榜系统知道人们节省了多少时间。每次跳过一个片段时，扩展都会向服务器发送一条信息</string>
     <string name="general_skiptoast">自动跳过片段时显示提示</string>
     <string name="general_skiptoast_sum">点击查看示例提示</string>
     <string name="general_time_without_sb">显示除去片段的时间</string>
@@ -188,6 +194,9 @@
     <string name="revanced_force_fullscreen_rotation_summary_off">全屏旋转遵循 YouTube 默认策略</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">伪装 YouTube 版本以启用全屏旋转</string>
     <string name="revanced_force_fullscreen_rotation_title">启用全屏旋转（实验性）</string>
+    <string name="revanced_fullscreen_button_container_summary_off">全屏按钮栏已显示</string>
+    <string name="revanced_fullscreen_button_container_summary_on">全屏按钮栏已隐藏</string>
+    <string name="revanced_fullscreen_button_container_title">全屏按钮栏（实验性）</string>
     <string name="revanced_hdr_full_brightness_summary_off">HDR 视频默认使用最大亮度</string>
     <string name="revanced_hdr_full_brightness_summary_on">HDR 视频已使用系统亮度</string>
     <string name="revanced_hdr_full_brightness_title">HDR 视频使用系统亮度</string>
@@ -230,6 +239,9 @@
     <string name="revanced_hide_thanks_button_summary_off">感谢按钮已显示</string>
     <string name="revanced_hide_thanks_button_summary_on">感谢按钮已隐藏</string>
     <string name="revanced_hide_thanks_button_title">感谢按钮</string>
+    <string name="revanced_hide_time_and_seekbar_summary_off">进度条已隐藏</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">进度条已显示</string>
+    <string name="revanced_hide_time_and_seekbar_title">进度条</string>
     <string name="revanced_home_ads_summary_off">首页广告已隐藏</string>
     <string name="revanced_home_ads_summary_on">首页广告已显示</string>
     <string name="revanced_home_ads_title">首页广告</string>
@@ -378,6 +390,7 @@
     <string name="sb_guidelines_preference_sum">指南中包含关于提交片段的提示和规则</string>
     <string name="sb_guidelines_preference_title">查看指南</string>
     <string name="sb_settings">SponsorBlock 设置</string>
+    <string name="sb_shorts_example_video">示例视频</string>
     <string name="sb_summary">SponsorBlock 相关设置</string>
     <string name="segments_endcards">结束画面/演职员表</string>
     <string name="segments_endcards_sum">当演职员表或出现 YouTube 结束画面时。不适用于语音结尾</string>

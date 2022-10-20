@@ -22,6 +22,12 @@
     <string name="downloader_not_installed_warning">chưa được cài đặt. Hãy cài đặt và thử lại.</string>
     <string name="enable_sb">Kích hoạt SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock là một tích hợp được đóng góp từ cộng đồng để bỏ qua các phân đoạn khó chịu trong video trên YouTube</string>
+    <string name="enable_sb_shorts">SponsorBlock trong YouTube Shorts (Alpha)</string>
+    <string name="enable_sb_shorts_content">"Kích hoạt SponsorBlock trong YouTube Shorts.
+
+Vì tính năng này vẫn đang thử nghiệm Alpha nên nó chỉ hoạt động ở chế độ 'Bỏ qua tự động' với các phân đoạn có thể bỏ qua.
+"</string>
+    <string name="enable_sb_shorts_sum">Kích hoạt SponsorBlock trong YouTube Shorts.</string>
     <string name="enable_segmadding">Kích hoạt Thêm phân đoạn mới</string>
     <string name="enable_segmadding_sum">Bật tùy chọn này để kích hoạt tính năng Thêm phân đoạn thử nghiệm (Các nút có thế có vấn đề về khả năng hiển thị)</string>
     <string name="enable_voting">Kích hoạt Bỏ phiếu</string>
@@ -188,6 +194,9 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">Tự động xoay ở chế độ toàn màn hình tuân theo chính sách mặc định của YouTube</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Đánh lừa phiên bản YouTube để kích hoạt tính năng tự động xoay ở chế độ toàn màn hình</string>
     <string name="revanced_force_fullscreen_rotation_title">Kích hoạt Xoay toàn màn hình (Thử nghiệm)</string>
+    <string name="revanced_fullscreen_button_container_summary_off">Vùng chứa nút trong video toàn màn hình được hiển thị</string>
+    <string name="revanced_fullscreen_button_container_summary_on">Vùng chứa nút trong video toàn màn hình đã ẩn</string>
+    <string name="revanced_fullscreen_button_container_title">Vùng chứa nút toàn màn hình (Thử nghiệm)</string>
     <string name="revanced_hdr_full_brightness_summary_off">Độ sáng HDR tự động bị vô hiệu hoá</string>
     <string name="revanced_hdr_full_brightness_summary_on">Độ sáng HDR tự động được kích hoạt</string>
     <string name="revanced_hdr_full_brightness_title">Kích hoạt Độ sáng HDR tự động</string>
@@ -230,6 +239,9 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_hide_thanks_button_summary_off">Nút Cảm ơn được hiển thị</string>
     <string name="revanced_hide_thanks_button_summary_on">Nút Cảm ơn được đã ẩn</string>
     <string name="revanced_hide_thanks_button_title">Ẩn Nút Cảm ơn</string>
+    <string name="revanced_hide_time_and_seekbar_summary_off">Thời gian và Thanh tiến trình đã ẩn</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">Thời gian và Thanh tiến trình được hiển thị</string>
+    <string name="revanced_hide_time_and_seekbar_title">Thời gian và Thanh tiến trình</string>
     <string name="revanced_home_ads_summary_off">Quảng cáo trên Trang chủ đã ẩn</string>
     <string name="revanced_home_ads_summary_on">Quảng cáo trên Trang chủ được hiển thị</string>
     <string name="revanced_home_ads_title">Loại bỏ Quảng cáo trên Trang chủ</string>
@@ -375,6 +387,7 @@ Nếu bạn muốn tắt tính năng này, hãy đặt tùy chọn sau thành T�
     <string name="sb_guidelines_preference_sum">Nguyên tắc bao gồm các mẹo về cách gửi phân đoạn</string>
     <string name="sb_guidelines_preference_title">Xem các nguyên tắc</string>
     <string name="sb_settings">Cài đặt SponsorBlock</string>
+    <string name="sb_shorts_example_video">Video ví dụ</string>
     <string name="sb_summary">Các cài đặt liên quan đến tích hợp SponsorBlock</string>
     <string name="segments_endcards">Màn hình kết thúc / Danh đề</string>
     <string name="segments_endcards_sum">Danh đề hoặc khi màn hình kết thúc của YouTube xuất hiện. Đoạn kết tĩnh</string>

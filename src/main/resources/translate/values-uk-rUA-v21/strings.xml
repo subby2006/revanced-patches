@@ -22,6 +22,12 @@
     <string name="downloader_not_installed_warning">не встановлено. Будь ласка, встановіть.</string>
     <string name="enable_sb">Увімкнути SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock - це краудсорсингова система для пропуску дратівливих частин у відео на YouTube</string>
+    <string name="enable_sb_shorts">Увімкнути SponsorBlock у Shorts (Альфа)</string>
+    <string name="enable_sb_shorts_content">"Увімкнути Sponsorblock в YouTube Shorts.
+
+Since this feature is still Alpha, it only works in the 'Skip automatically' segment.
+"</string>
+    <string name="enable_sb_shorts_sum">Увімкнути Sponsorblock в YouTube Shorts.</string>
     <string name="enable_segmadding">Увімкнути додавання нового сегмента</string>
     <string name="enable_segmadding_sum">Увімкніть це для активації експериментального додавання сегмента (наявні проблеми з видимістю кнопки)</string>
     <string name="enable_voting">Увімкнути голосування</string>
@@ -185,6 +191,9 @@
     <string name="revanced_force_fullscreen_rotation_summary_off">Обертання на весь екран вимкнено</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Обертання на весь екран увімкнено</string>
     <string name="revanced_force_fullscreen_rotation_title">Обертання на весь екран (Експериментально)</string>
+    <string name="revanced_fullscreen_button_container_summary_off">Повноекрані кнопки керування показані</string>
+    <string name="revanced_fullscreen_button_container_summary_on">Повноекрані кнопки керування приховані</string>
+    <string name="revanced_fullscreen_button_container_title">Повноекрані кнопки керування (Експериментально)</string>
     <string name="revanced_hdr_full_brightness_summary_off">Яскравість відео буде відповідати яскравості екрана в ландшафтному режимі HDR</string>
     <string name="revanced_hdr_full_brightness_summary_on">Встановлено максимальну яскравість ландшафтних відео в HDR</string>
     <string name="revanced_hdr_full_brightness_title">Максимальна яскравість HDR</string>
@@ -227,6 +236,9 @@
     <string name="revanced_hide_thanks_button_summary_off">Кнопка подяки показана</string>
     <string name="revanced_hide_thanks_button_summary_on">Кнопка подяки прихована</string>
     <string name="revanced_hide_thanks_button_title">Кнопка подяки</string>
+    <string name="revanced_hide_time_and_seekbar_summary_off">Час та смуга перегляду приховані</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">Час та смуга перегляду показані</string>
+    <string name="revanced_hide_time_and_seekbar_title">Час та смуга перегляду</string>
     <string name="revanced_home_ads_summary_off">Рекламу на домашній сторінці вимкнено</string>
     <string name="revanced_home_ads_summary_on">Рекламу на домашній сторінці увімкнено</string>
     <string name="revanced_home_ads_title">Реклама на домашній сторінці (Експериментально)</string>
@@ -367,6 +379,7 @@
     <string name="sb_guidelines_preference_sum">Інструкція містить поради щодо надсилання сегмента</string>
     <string name="sb_guidelines_preference_title">Переглянути інструкцію</string>
     <string name="sb_settings">Налаштування SponsorBlock</string>
+    <string name="sb_shorts_example_video">Приклад відео</string>
     <string name="sb_summary">Використовує sponsor.ajay.app API</string>
     <string name="segments_endcards">Кінцева заставка/титри</string>
     <string name="segments_endcards_sum">Титри або час появи кінцевих заставок YouTube. Не для підведення підсумків сказаного у відео.</string>

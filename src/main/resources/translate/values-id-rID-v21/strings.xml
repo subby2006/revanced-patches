@@ -22,6 +22,12 @@
     <string name="downloader_not_installed_warning">belum terinstal. Mohon install aplikasi tersebut.</string>
     <string name="enable_sb">Aktifkan SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock adalah sistem crowd-source untuk melewatkan bagian yang mengganggu di video YouTube</string>
+    <string name="enable_sb_shorts">Aktifkan SponsorBlock di shorts (alpha)</string>
+    <string name="enable_sb_shorts_content">"Aktifkan Sponsorblock di YouTube Shorts.
+
+Karena fitur ini masih Alpha, hanya berfungsi di segmen 'Lewati secara otomatis'.
+"</string>
+    <string name="enable_sb_shorts_sum">Aktifkan Sponsorblock di YouTube Shorts.</string>
     <string name="enable_segmadding">Aktifkan penambahan segmen baru</string>
     <string name="enable_segmadding_sum">Aktifkan ini untuk mengaktifkan penambahan segmen eksperimental (memiliki masalah visibilitas tombol)</string>
     <string name="enable_voting">Aktifkan voting</string>
@@ -55,8 +61,8 @@
     <string name="litho_comments_off">Penghapusan komentar dinonaktifkan (khusus komentar/perangkat baru)</string>
     <string name="litho_comments_on">Penghapusan komentar diaktifkan (khusus komentar/perangkat baru)</string>
     <string name="litho_community_guidelines">Penghapusan pedoman komunitas</string>
-    <string name="litho_community_guidelines_off">Penghapusan Pedoman komunitas dinonaktifkan</string>
-    <string name="litho_community_guidelines_on">Penghapusan Pedoman komunitas diaktifkan</string>
+    <string name="litho_community_guidelines_off">Penghapusan pedoman komunitas dinonaktifkan</string>
+    <string name="litho_community_guidelines_on">Penghapusan pedoman komunitas diaktifkan</string>
     <string name="litho_community_posts">Penghapusan postingan komunitas</string>
     <string name="litho_community_posts_off">Penghapusan postingan komunitas dinonaktifkan</string>
     <string name="litho_community_posts_on">Penghapusan postingan komunitas diaktifkan</string>
@@ -75,9 +81,9 @@
     <string name="litho_hide_suggestions">Penghapusan saran umum</string>
     <string name="litho_hide_suggestions_off">Penghapusan saran umum dinonaktifkan</string>
     <string name="litho_hide_suggestions_on">Penghapusan saran umum diaktifkan</string>
-    <string name="litho_image_shelf">Hapus rak gambar</string>
-    <string name="litho_image_shelf_off">Rak gambar ditampilkan</string>
-    <string name="litho_image_shelf_on">Rak gambar disembunyikan</string>
+    <string name="litho_image_shelf">Penghapusan rak gambar</string>
+    <string name="litho_image_shelf_off">Penghapusan rak gambar dinonaktifkan</string>
+    <string name="litho_image_shelf_on">Penghapusan rak gambar diaktifkan</string>
     <string name="litho_in_feed_survey">Penghapusan survei</string>
     <string name="litho_in_feed_survey_off">Penghapusan survei dinonaktifkan</string>
     <string name="litho_in_feed_survey_on">Penghapusan survei diaktifkan</string>
@@ -138,14 +144,14 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_auto_repeat_title">Pengulangan otomatis</string>
     <string name="revanced_autoplay_button_summary_off">Tombol putar otomatis disembunyikan</string>
     <string name="revanced_autoplay_button_summary_on">Tombol putar otomatis ditampilkan</string>
-    <string name="revanced_autoplay_button_title">Tombol auto mulai (didalam pemutar)</string>
+    <string name="revanced_autoplay_button_title">Tombol putar otomatis (didalam pemutar)</string>
     <string name="revanced_branding_watermark_summary_off">Watermark video disembunyikan</string>
     <string name="revanced_branding_watermark_summary_on">Watermark video ditampilkan</string>
     <string name="revanced_branding_watermark_title">Watermark video</string>
     <string name="revanced_buffer_summary">Pengaturan kustom untuk buffer video</string>
     <string name="revanced_buffer_title">Pengaturan buffer</string>
     <string name="revanced_button_container_summary">Menyembunyikan komponen tombol</string>
-    <string name="revanced_button_container_title">Sembunyikan tombol kontainer (Eksperimental)</string>
+    <string name="revanced_button_container_title">Sembunyikan tombol kontainer (eksperimental)</string>
     <string name="revanced_button_container_warning_summary">fitur ini tidak sepenuhnya mendukung tata letak baru!</string>
     <string name="revanced_cast_button_summary_off">Tombol cast disembunyikan</string>
     <string name="revanced_cast_button_summary_on">Tombol cast ditampilkan</string>
@@ -169,9 +175,9 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_disable_new_layout_summary_off">Tata letak YouTube akan mengikuti status akun Google anda</string>
     <string name="revanced_disable_new_layout_summary_on">Trik versi YouTube untuk memaksa menonaktifkan tata letak baru</string>
     <string name="revanced_disable_new_layout_title">Nonaktifkan tata letak baru (eksperimental)</string>
-    <string name="revanced_captions_button_summary_off">Tombol Sulih disembunyikan</string>
-    <string name="revanced_captions_button_summary_on">Tombol Sulih ditampilkan</string>
-    <string name="revanced_captions_button_title">Tombol Sulih (didalam pemutar)</string>
+    <string name="revanced_captions_button_summary_off">Tombol caption disembunyikan</string>
+    <string name="revanced_captions_button_summary_on">Tombol caption ditampilkan</string>
+    <string name="revanced_captions_button_title">Tombol caption (didalam pemutar)</string>
     <string name="revanced_create_button_summary_off">Tombol buat disembunyikan</string>
     <string name="revanced_create_button_summary_on">Tombol buat ditampilkan</string>
     <string name="revanced_create_button_title">Tombol buat</string>
@@ -188,6 +194,9 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">Rotasi layar penuh mengikuti kebijakan default YouTube</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Trik versi YouTube untuk mengaktifkan rotasi layar penuh</string>
     <string name="revanced_force_fullscreen_rotation_title">Aktifkan rotasi layar penuh (eksperimental)</string>
+    <string name="revanced_fullscreen_button_container_summary_off">Tombol layar penuh ditampilkan</string>
+    <string name="revanced_fullscreen_button_container_summary_on">Tombol layar penuh disembunyikan</string>
+    <string name="revanced_fullscreen_button_container_title">Tombol layar penuh (eksperimental)</string>
     <string name="revanced_hdr_full_brightness_summary_off">Kecerahan video diatur ke maksimal pada video lanskap HDR</string>
     <string name="revanced_hdr_full_brightness_summary_on">Kecerahan video akan mengikuti kecerahan perangkat anda pada video lanskap HDR</string>
     <string name="revanced_hdr_full_brightness_title">Ganti kecerahan video HDR</string>
@@ -200,9 +209,9 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_hide_dislike_button_summary_off">Tombol tidak suka ditampilkan</string>
     <string name="revanced_hide_dislike_button_summary_on">Tombol tidak suka disembunyikan</string>
     <string name="revanced_hide_dislike_button_title">Sembunyikan tombol tidak suka</string>
-    <string name="revanced_hide_download_button_summary_off">Tombol unduhan ditampilkan</string>
+    <string name="revanced_hide_download_button_summary_off">Tombol download ditampilkan</string>
     <string name="revanced_hide_download_button_summary_on">Tombol unduh disembunyikan</string>
-    <string name="revanced_hide_download_button_title">Sembunyikan tombol unduh</string>
+    <string name="revanced_hide_download_button_title">Sembunyikan tombol download</string>
     <string name="revanced_hide_email_address_summary_off">Alamat email disembunyikan</string>
     <string name="revanced_hide_email_address_summary_on">Alamat email ditampilkan</string>
     <string name="revanced_hide_email_address_title">Alamat email</string>
@@ -230,6 +239,9 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_hide_thanks_button_summary_off">Tombol terima kasih ditampilkan</string>
     <string name="revanced_hide_thanks_button_summary_on">Tombol terima kasih disembunyikan</string>
     <string name="revanced_hide_thanks_button_title">Sembunyikan tombol terima kasih</string>
+    <string name="revanced_hide_time_and_seekbar_summary_off">Waktu and seek bar (bilah progres video) disembunyikan</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">Waktu and seek bar (bilah progres video) ditampilkan</string>
+    <string name="revanced_hide_time_and_seekbar_title">Waktu and seek bar (bilah progres video)</string>
     <string name="revanced_home_ads_summary_off">Iklan beranda disembunyikan</string>
     <string name="revanced_home_ads_summary_on">Iklan beranda ditampilkan</string>
     <string name="revanced_home_ads_title">Iklan beranda</string>
@@ -247,9 +259,9 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_minimized_playback_on">Pemutaran latar belakang diaktifkan</string>
     <string name="revanced_misc_summary">Patch lainnya</string>
     <string name="revanced_misc_title">Lainnya</string>
-    <string name="revanced_my_mix_summary_off">Campuranku (Daftar Putar) ditampilkan</string>
-    <string name="revanced_my_mix_summary_on">Campuranku (Daftar Putar) disembunyikan</string>
-    <string name="revanced_my_mix_title">Campuranku (Daftar Putar)</string>
+    <string name="revanced_my_mix_summary_off">My mix (daftar putar) ditampilkan</string>
+    <string name="revanced_my_mix_summary_on">My mix (daftar putar) disembunyikan</string>
+    <string name="revanced_my_mix_title">My mix (daftar putar)</string>
     <string name="revanced_new_actionbar_summary_off">Kotak pencarian lebar dinonaktifkan</string>
     <string name="revanced_new_actionbar_summary_on">Kotak pencarian lebar diaktifkan</string>
     <string name="revanced_new_actionbar_title">Kotak pencarian lebar</string>
@@ -375,6 +387,7 @@ Jika anda ingin menonaktifkan ini, atur yang berikut ke OFF:"</string>
     <string name="sb_guidelines_preference_sum">Pedoman berisi tips dan aturan tentang mengirimkan segmen</string>
     <string name="sb_guidelines_preference_title">Lihat pedoman</string>
     <string name="sb_settings">Pengaturan SponsorBlock</string>
+    <string name="sb_shorts_example_video">Example Video</string>
     <string name="sb_summary">Pengaturan yang berkaitan dengan SponsorBlock</string>
     <string name="segments_endcards">Kartu akhir/kredit</string>
     <string name="segments_endcards_sum">Kredit atau saat kartu akhir YouTube muncul. Bukan untuk kesimpulan lisan</string>

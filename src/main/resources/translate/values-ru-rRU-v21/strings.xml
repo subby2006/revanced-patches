@@ -22,6 +22,12 @@
     <string name="downloader_not_installed_warning">не установлен</string>
     <string name="enable_sb">Включить SponsorBlock</string>
     <string name="enable_sb_sum">Включите для пропуска спонсорских сегментов</string>
+    <string name="enable_sb_shorts">Включить SponsorBlock в Shorts (Альфа)</string>
+    <string name="enable_sb_shorts_content">"Включить Sponsorblock в YouTube Shorts.
+
+Поскольку эта функция все еще находится в стадии альфа-тестирования, она работает только в сегменте 'Пропускать автоматически'.
+"</string>
+    <string name="enable_sb_shorts_sum">Включить Sponsorblock в YouTube Shorts.</string>
     <string name="enable_segmadding">Включить кнопку добавления нового сегмента</string>
     <string name="enable_segmadding_sum">Включите, чтобы активировать экспериментальное добавление сегментов (имеются проблемы с отображением кнопок)</string>
     <string name="enable_voting">Включить голосование</string>
@@ -189,6 +195,9 @@
     <string name="revanced_force_fullscreen_rotation_summary_off">Автоповорот в полноэкранном режиме отключен</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Автоповорот в полноэкранном режиме включен</string>
     <string name="revanced_force_fullscreen_rotation_title">Автоповорот в полноэкранном режиме</string>
+    <string name="revanced_fullscreen_button_container_summary_off">Fullscreen Button Container is shown</string>
+    <string name="revanced_fullscreen_button_container_summary_on">Fullscreen Button Container is hidden</string>
+    <string name="revanced_fullscreen_button_container_title">Fullscreen Button Container (Experimental)</string>
     <string name="revanced_hdr_full_brightness_summary_off">Автоматическая яркость HDR отключена</string>
     <string name="revanced_hdr_full_brightness_summary_on">Автоматическая яркость HDR включена</string>
     <string name="revanced_hdr_full_brightness_title">Автоматическая яркость HDR</string>
@@ -231,6 +240,9 @@
     <string name="revanced_hide_thanks_button_summary_off">Кнопка \"Спасибо\" показана</string>
     <string name="revanced_hide_thanks_button_summary_on">Кнопка \"Спасибо\" скрыта</string>
     <string name="revanced_hide_thanks_button_title">Скрыть кнопку \"Спасибо\"</string>
+    <string name="revanced_hide_time_and_seekbar_summary_off">Time and seekbar are hidden</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">Time and seekbar are shown</string>
+    <string name="revanced_hide_time_and_seekbar_title">Time and seekbar</string>
     <string name="revanced_home_ads_summary_off">Реклама на главной странице скрыта</string>
     <string name="revanced_home_ads_summary_on">Реклама на главной странице отображается</string>
     <string name="revanced_home_ads_title">Скрыть рекламу на главной странице</string>
@@ -378,6 +390,7 @@
     <string name="sb_guidelines_preference_sum">Руководство содержит советы по отправке сегмента</string>
     <string name="sb_guidelines_preference_title">Посмотреть руководство</string>
     <string name="sb_settings">Настройки SponsorBlock</string>
+    <string name="sb_shorts_example_video">Example Video</string>
     <string name="sb_summary">Использует API sponsor.ajay.app</string>
     <string name="segments_endcards">Конечная заставка/титры</string>
     <string name="segments_endcards_sum">Титры или время появления конечных заставок YouTube. Не для подведения итогов сказанного в видео</string>

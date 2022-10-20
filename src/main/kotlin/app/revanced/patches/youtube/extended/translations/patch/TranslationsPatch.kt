@@ -28,6 +28,7 @@ class TranslationsPatch : ResourcePatch {
                 "az-rAZ-v21",
                 "be-rBY-v21",
                 "bn-v21",
+                "bn-rIN-v21",
                 "cs-rCZ-v21",
                 "de-rDE-v21",
                 "el-rGR-v21",
