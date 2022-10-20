@@ -49,6 +49,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `materialyou` | Enables MaterialYou theme for Android 12+. | all |
 | `remove-playerbutton-background` | Disable Player Button Overlay Background. | all |
 | `hide-pip-notification` | Disable pip notification when you first launch pip mode. | 17.40.41 |
+| `hide-time-and-seekbar` | Hides progress bar and time counter on videos. | 17.40.41 |
 | `extended` | Add ReVanced Extended Features. | 17.40.41 |
 | `old-quality-layout` | Enables the original quality flyout menu. | 17.40.41 |
 | `hide-shorts-button` | Hides the shorts button on the navigation bar. | 17.40.41 |
