@@ -24,8 +24,7 @@ import app.revanced.patches.youtube.layout.sponsorblock.resource.patch.SponsorBl
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.patches.youtube.misc.playercontrols.bytecode.patch.PlayerControlsBytecodePatch
-import app.revanced.patches.youtube.misc.videoid.patch.VideoIdPatch
-import app.revanced.patches.youtube.layout.autocaptions.fingerprints.StartVideoInformerFingerprint
+import app.revanced.patches.youtube.misc.videoid.patch.NewVideoIdPatch
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 import org.jf.dexlib2.builder.MutableMethodImplementation
@@ -40,7 +39,7 @@ import org.jf.dexlib2.util.MethodUtil
 
 @Patch
 @DependsOn(
-    dependencies = [PlayerControlsBytecodePatch::class, IntegrationsPatch::class, SponsorBlockResourcePatch::class, VideoIdPatch::class]
+    dependencies = [PlayerControlsBytecodePatch::class, IntegrationsPatch::class, SponsorBlockResourcePatch::class, NewVideoIdPatch::class]
 )
 @Name("sponsorblock")
 @Description("Integrate SponsorBlock.")
@@ -55,9 +54,7 @@ class SponsorBlockBytecodePatch : BytecodePatch(
         AppendTimeFingerprint,
         PlayerInitFingerprint,
         PlayerOverlaysLayoutInitFingerprint,
-        WatchWhileActivityFingerprint,
-        ShortsPlayerConstructorFingerprint,
-        StartVideoInformerFingerprint
+        WatchWhileActivityFingerprint
     )
 ) {
     override fun execute(context: BytecodeContext): PatchResult {/*
@@ -88,7 +85,7 @@ class SponsorBlockBytecodePatch : BytecodePatch(
         /*
          Set current video id
          */
-        VideoIdPatch.injectCall("Lapp/revanced/integrations/sponsorblock/PlayerController;->setCurrentVideoId(Ljava/lang/String;)V")
+        NewVideoIdPatch.injectCall("Lapp/revanced/integrations/sponsorblock/PlayerController;->setCurrentVideoId(Ljava/lang/String;)V")
 
         /*
          Seekbar drawing
@@ -340,23 +337,6 @@ class SponsorBlockBytecodePatch : BytecodePatch(
                 }
             }
         }
-
-        val startVideoInformerMethod = StartVideoInformerFingerprint.result!!.mutableMethod
-        startVideoInformerMethod.addInstructions(
-            0, """
-            const/4 v0, 0x0
-            sput-boolean v0, Lapp/revanced/integrations/sponsorblock/PlayerController;->shorts_playing:Z
-        """
-        )
-
-        val shortsPlayerConstructorMethod = ShortsPlayerConstructorFingerprint.result!!.mutableMethod
-
-        shortsPlayerConstructorMethod.addInstructions(
-            0, """
-            const/4 v0, 0x1
-            sput-boolean v0, Lapp/revanced/integrations/sponsorblock/PlayerController;->shorts_playing:Z
-        """
-        )
 
         // TODO: isSBChannelWhitelisting implementation
 

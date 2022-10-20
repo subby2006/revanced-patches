@@ -12,11 +12,10 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.extended.overlaybuttons.resource.patch.OverlayButtonsResourcePatch
 import app.revanced.patches.youtube.misc.playercontrols.bytecode.patch.PlayerControlsBytecodePatch
-import app.revanced.patches.youtube.misc.videoid.patch.VideoIdPatch
 
 @Patch
 @Name("overlay-buttons")
-@DependsOn([OverlayButtonsResourcePatch::class, PlayerControlsBytecodePatch::class, VideoIdPatch::class])
+@DependsOn([OverlayButtonsResourcePatch::class, PlayerControlsBytecodePatch::class])
 @Description("Add overlay buttons for YouTube - copy, copy with timestamp, repeat, download")
 @YouTubeCompatibility
 @Version("0.0.1")
