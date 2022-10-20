@@ -11,7 +11,7 @@ import app.revanced.extensions.YouTubeCompatibility
 @Version("0.0.1")
 object LoadVideoAdsFingerprint : MethodFingerprint(
     strings = listOf(
-        "OnFulfillmentTriggersActivated has non registered slot",
+        "validateEnterSlot",
         "markFillRequested",
         "Trying to enter a slot when a slot of same type and physical position is already active. Its status: ",
     )
