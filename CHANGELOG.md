@@ -1,3 +1,31 @@
+## [2.83.2](https://github.com/revanced/revanced-patches/compare/v2.83.1...v2.83.2) (2022-10-19)
+
+
+### Bug Fixes
+
+* **youtube/video-ads:** add back initial method to block ads ([#818](https://github.com/revanced/revanced-patches/issues/818)) ([8b02acd](https://github.com/revanced/revanced-patches/commit/8b02acd3b33c4702d81ec46dccb35604ec5fbe02))
+
+## [2.83.1](https://github.com/revanced/revanced-patches/compare/v2.83.0...v2.83.1) (2022-10-19)
+
+
+### Bug Fixes
+
+* **youtube/video-ads:** block earlier in call hirarchy ([#813](https://github.com/revanced/revanced-patches/issues/813)) ([f9517d2](https://github.com/revanced/revanced-patches/commit/f9517d2058c7561cf89b59ed36f690417dc076f7))
+
+# [2.83.0](https://github.com/revanced/revanced-patches/compare/v2.82.1...v2.83.0) (2022-10-18)
+
+
+### Features
+
+* bump YouTube Music patches compatibility ([#809](https://github.com/revanced/revanced-patches/issues/809)) ([09f2d8e](https://github.com/revanced/revanced-patches/commit/09f2d8e14937b582bc4bfb7d3a8bb2b7622f772d))
+
+## [2.82.1](https://github.com/revanced/revanced-patches/compare/v2.82.0...v2.82.1) (2022-10-17)
+
+
+### Bug Fixes
+
+* **youtube/video-ads:** return empty ad list earlier ([a47ce9b](https://github.com/revanced/revanced-patches/commit/a47ce9ba4f75673de23eb6054f5652224a48f43e))
+
 # [2.82.0](https://github.com/revanced/revanced-patches/compare/v2.81.11...v2.82.0) (2022-10-13)
 
 
