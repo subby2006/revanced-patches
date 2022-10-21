@@ -244,6 +244,9 @@ Is it ready to submit?"</string>
     <string name="revanced_home_ads_summary_off">Home ads are hidden</string>
     <string name="revanced_home_ads_summary_on">Home ads are shown</string>
     <string name="revanced_home_ads_title">Remove home ads</string>
+    <string name="revanced_inapp_browser_summary_off">Open external links within the app</string>
+    <string name="revanced_inapp_browser_summary_on">Open external links in an external browser</string>
+    <string name="revanced_inapp_browser_title">In-app browser</string>
     <string name="revanced_info_cards_summary_off">Info cards are hidden</string>
     <string name="revanced_info_cards_summary_on">Info cards are shown</string>
     <string name="revanced_info_cards_title">Info cards</string>
@@ -355,6 +358,9 @@ Are you sure you want to continue though?"</string>
     <string name="revanced_tablet_miniplayer_summary_on">Tablet Mini-player is enabled</string>
     <string name="revanced_tablet_miniplayer_title">Tablet Mini-player</string>
     <string name="revanced_tool_used">tool used</string>
+    <string name="revanced_uri_redirect_summary_off">"Follow YouTube's redirect policy"</string>
+    <string name="revanced_uri_redirect_summary_on">Open url by bypassing youtube.com/redirect</string>
+    <string name="revanced_uri_redirect_title">YouTube link redirect</string>
     <string name="revanced_video_ads_summary_off">Video ads are hidden</string>
     <string name="revanced_video_ads_summary_on">Video ads are shown</string>
     <string name="revanced_video_ads_title">Hide video ads</string>
