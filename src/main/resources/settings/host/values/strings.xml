@@ -149,7 +149,7 @@ Is it ready to submit?"</string>
     <string name="revanced_buffer_summary">Custom settings for video buffer</string>
     <string name="revanced_buffer_title">Video Buffer settings</string>
     <string name="revanced_button_container_summary">Hides the component of the button container</string>
-    <string name="revanced_button_container_title">Hide button container (Experimental)</string>
+    <string name="revanced_button_container_title">Hide button container</string>
     <string name="revanced_button_container_warning_summary">this feature does not fully support new layout!</string>	
     <string name="revanced_cast_button_summary_off">Cast Button is hidden</string>
     <string name="revanced_cast_button_summary_on">Cast Button is shown</string>
