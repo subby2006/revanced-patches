@@ -22,6 +22,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `music-video-ads` | Removes ads in the music player. | 5.29.52 |
 | `codecs-unlock` | Adds more audio codec options. The new audio codecs usually result in better audio quality. | 5.29.52 |
 | `exclusive-audio-playback` | Enables the option to play music without video. | 5.29.52 |
+| `website-music` | Leave website URL in settings. | all |
 | `tablet-mode` | Unlocks landscape mode. | 5.29.52 |
 | `black-navbar` | Sets the navigation bar color to black. | 5.29.52 |
 </details>
@@ -80,6 +81,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `video-ads` | Removes ads in the video player. | 17.40.41 |
 | `general-ads` | Removes general ads. | 17.40.41 |
 | `hide-infocard-suggestions` | Hides infocards in videos. | 17.40.41 |
+| `website` | Leave website URL in ReVanced settings. | all |
 </details>
 
 ### 📦 `com.vanced.android.youtube`
