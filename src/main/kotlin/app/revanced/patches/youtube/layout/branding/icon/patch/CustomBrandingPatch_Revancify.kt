@@ -24,7 +24,7 @@ import org.w3c.dom.Element
 @Description("Changes the YouTube launcher icon to your choice (revancify).")
 @YouTubeCompatibility
 @Version("0.0.1")
-class CustomBrandingPatch_revancify : ResourcePatch {
+class CustomBrandingPatch_Revancify : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
         val classLoader = this.javaClass.classLoader
         val resDirectory = context["res"]

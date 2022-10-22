@@ -26,7 +26,7 @@ import org.w3c.dom.Element
 @Description("Changes the YouTube Music launcher icon to your choice (Revancify).")
 @YouTubeMusicCompatibility
 @Version("0.0.1")
-class CustomBrandingMusicPatch_revancify : ResourcePatch {
+class CustomBrandingMusicPatch_Revancify : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
         val classLoader = this.javaClass.classLoader
         val resDirectory = context["res"]
