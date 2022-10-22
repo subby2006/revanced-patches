@@ -41,6 +41,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `return-youtube-dislike` | Shows the dislike count of videos using the Return YouTube Dislike API. | 17.40.41 |
 | `hide-autoplay-button` | Hides the autoplay button in the video player. | 17.40.41 |
 | `hide-captions-button` | Hides the captions button in the video player. | 17.40.41 |
+| `disable-auto-player-popup-panels` | Disable automatic popup panels (playlist or live chat) on video player. | 17.40.41 |
 | `disable-startup-shorts-player` | Disables playing YouTube Shorts when launching YouTube. | 17.40.41 |
 | `custom-branding-icon-red` | Changes the YouTube launcher icon to your choice (defaults to ReVanced Red). | all |
 | `custom-branding-icon-blue` | Changes the YouTube launcher icon to your choice (ReVanced Blue). | all |
