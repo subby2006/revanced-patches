@@ -145,7 +145,6 @@ Təqdim etməyə hazırdır?"</string>
     <string name="revanced_buffer_summary">Video bufer üçün fərdi parametrlər</string>
     <string name="revanced_buffer_title">Bufer parametrləri</string>
     <string name="revanced_button_container_summary">Düymə konteynerinin komponentini gizlədir</string>
-    <string name="revanced_button_container_title">Düymə konteynerini gizlədin (Eksperimental)</string>
     <string name="revanced_button_container_warning_summary">bu funksiya yeni tərtibatı tam dəstəkləmir!</string>
     <string name="revanced_cast_button_summary_off">Yayım düyməsi gizlidir</string>
     <string name="revanced_cast_button_summary_on">Yayım düyməsi göstərilir</string>
@@ -248,9 +247,6 @@ Təqdim etməyə hazırdır?"</string>
     <string name="revanced_minimized_playback_on">Arxa fonda oxutma aktivləşdirilib</string>
     <string name="revanced_misc_summary">Müxtəlif yamalar</string>
     <string name="revanced_misc_title">Müxtəlif</string>
-    <string name="revanced_my_mix_summary_off">Mənim Miksim (Pleylist) göstərilir</string>
-    <string name="revanced_my_mix_summary_on">Mənim Miksim (Pleylist) gizlədilib</string>
-    <string name="revanced_my_mix_title">Mənim Miksim (Pleylist)</string>
     <string name="revanced_new_actionbar_summary_off">Axtarış çubuğunun üslubu proqram tərəfindən müəyyən edilir</string>
     <string name="revanced_new_actionbar_summary_on">Geniş axtarış çubuğunu məcbur etmək</string>
     <string name="revanced_new_actionbar_title">Geniş axtarış çubuğu</string>

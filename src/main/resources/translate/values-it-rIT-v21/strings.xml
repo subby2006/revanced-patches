@@ -145,7 +145,6 @@ E' pronto per l'invio?"</string>
     <string name="revanced_buffer_summary">Impostazioni personalizzate per il buffer video</string>
     <string name="revanced_buffer_title">Impostazioni del buffer</string>
     <string name="revanced_button_container_summary">Nasconde il componente del contenitore dei pulsanti</string>
-    <string name="revanced_button_container_title">Nascondi contenitore dei pulsanti (sperimentale)</string>
     <string name="revanced_button_container_warning_summary">questa funzione non supporta completamente il nuovo layout!</string>
     <string name="revanced_cast_button_summary_off">Il pulsante di trasmissione è nascosto</string>
     <string name="revanced_cast_button_summary_on">Il pulsante di trasmissione è visibile</string>
@@ -248,9 +247,6 @@ E' pronto per l'invio?"</string>
     <string name="revanced_minimized_playback_on">Riproduzione in background attivata</string>
     <string name="revanced_misc_summary">Patch varie</string>
     <string name="revanced_misc_title">Varie</string>
-    <string name="revanced_my_mix_summary_off">Il mio Mix (Playlist) mostrato</string>
-    <string name="revanced_my_mix_summary_on">Il mio Mix (Playlist) nascosto</string>
-    <string name="revanced_my_mix_title">Il Mio Mix (Playlist)</string>
     <string name="revanced_new_actionbar_summary_off">Lo stile della barra di ricerca è definito dall\'app</string>
     <string name="revanced_new_actionbar_summary_on">Forzare la barra di ricerca larga</string>
     <string name="revanced_new_actionbar_title">Barra di ricerca larga</string>

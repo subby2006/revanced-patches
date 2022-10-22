@@ -145,7 +145,6 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_buffer_summary">Réglages personnalisés pour le buffer vidéo</string>
     <string name="revanced_buffer_title">Buffer settings</string>
     <string name="revanced_button_container_summary">Masque le composant du conteneur de boutons</string>
-    <string name="revanced_button_container_title">Cacher le conteneur de boutons (expérimental)</string>
     <string name="revanced_button_container_warning_summary">cette fonctionnalité ne supporte pas complètement la nouvelle mise en page !</string>
     <string name="revanced_cast_button_summary_off">Cast button is hidden</string>
     <string name="revanced_cast_button_summary_on">Cast button is shown</string>
@@ -248,9 +247,6 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_minimized_playback_on">Background playback is enabled</string>
     <string name="revanced_misc_summary">Patchs divers</string>
     <string name="revanced_misc_title">Miscellaneous</string>
-    <string name="revanced_my_mix_summary_off">Mon mix (playlist) est affiché</string>
-    <string name="revanced_my_mix_summary_on">Mon Mix (Playlist) est masqué</string>
-    <string name="revanced_my_mix_title">Mon Mix (Playlist)</string>
     <string name="revanced_new_actionbar_summary_off">Search bar style is defined by the app</string>
     <string name="revanced_new_actionbar_summary_on">Forcing wide search bar</string>
     <string name="revanced_new_actionbar_title">Wide search bar</string>

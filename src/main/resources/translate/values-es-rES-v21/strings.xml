@@ -145,7 +145,6 @@
     <string name="revanced_buffer_summary">Configuraciones personalizadas para el buffer de vídeo</string>
     <string name="revanced_buffer_title">Ajustes de búfer</string>
     <string name="revanced_button_container_summary">Oculta componentes en el contenedor de botones</string>
-    <string name="revanced_button_container_title">Ocultar contenedor de botones (Experimental)</string>
     <string name="revanced_button_container_warning_summary">¡Esta característica no está completamente soportada en el nuevo diseño!</string>
     <string name="revanced_cast_button_summary_off">El botón de Cast está oculto</string>
     <string name="revanced_cast_button_summary_on">El botón de Cast está visible</string>
@@ -247,9 +246,6 @@
     <string name="revanced_minimized_playback_on">Reproducción en segundo plano está habilitada</string>
     <string name="revanced_misc_summary">Parches diversos</string>
     <string name="revanced_misc_title">Misceláneo</string>
-    <string name="revanced_my_mix_summary_off">Se muestra Mi Mix (lista de reproducción)</string>
-    <string name="revanced_my_mix_summary_on">Mi Mix (lista de reproducción) oculta</string>
-    <string name="revanced_my_mix_title">Mi Mix (lista de reproducción)</string>
     <string name="revanced_new_actionbar_summary_off">Estilo de barra de búsqueda definido por la aplicación</string>
     <string name="revanced_new_actionbar_summary_on">Forzar barra de búsqueda ancha</string>
     <string name="revanced_new_actionbar_title">Barra de búsqueda ancha</string>

@@ -145,7 +145,6 @@
     <string name="revanced_buffer_summary">ビデオバッファのカスタム設定</string>
     <string name="revanced_buffer_title">バッファの設定</string>
     <string name="revanced_button_container_summary">ボタンコンテナのコンポーネントを非表示</string>
-    <string name="revanced_button_container_title">ボタンコンテナを隠す(実験的)</string>
     <string name="revanced_button_container_warning_summary">この機能は、新しいレイアウトに完全には対応していません。</string>
     <string name="revanced_cast_button_summary_off">キャストボタンは非表示です</string>
     <string name="revanced_cast_button_summary_on">キャストボタンは表示されます</string>
@@ -249,9 +248,6 @@
     <string name="revanced_minimized_playback_on">バックグラウンド再生は有効です</string>
     <string name="revanced_misc_summary">その他のパッチ</string>
     <string name="revanced_misc_title">その他の設定</string>
-    <string name="revanced_my_mix_summary_off">マイミックス (プレイリスト) を表示</string>
-    <string name="revanced_my_mix_summary_on">マイミックス(プレイリスト) を非表示</string>
-    <string name="revanced_my_mix_title">マイミックス (プレイリスト)</string>
     <string name="revanced_new_actionbar_summary_off">検索バーのスタイルはアプリによって定義されています</string>
     <string name="revanced_new_actionbar_summary_on">広い検索バーを強制使用する</string>
     <string name="revanced_new_actionbar_title">広い検索バー</string>

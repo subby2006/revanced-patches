@@ -144,7 +144,6 @@
     <string name="revanced_buffer_summary">Configurações personalizadas para buffer de vídeo</string>
     <string name="revanced_buffer_title">Configurações de buffer</string>
     <string name="revanced_button_container_summary">Oculta o componente do contêiner do botão</string>
-    <string name="revanced_button_container_title">Ocultar contêiner do botão (Experimental)</string>
     <string name="revanced_button_container_warning_summary">este recurso não suporta completamente o novo layout!</string>
     <string name="revanced_cast_button_summary_off">Botão \"Transmitir\" está oculto</string>
     <string name="revanced_cast_button_summary_on">Botão \"Transmitir\" é exibido</string>
@@ -247,9 +246,6 @@
     <string name="revanced_minimized_playback_on">A reprodução em segundo plano está ativada</string>
     <string name="revanced_misc_summary">Patches diversos</string>
     <string name="revanced_misc_title">Diversos</string>
-    <string name="revanced_my_mix_summary_off">Meu Mix (Playlist) visível</string>
-    <string name="revanced_my_mix_summary_on">Meu Mix (Playlist) escondido</string>
-    <string name="revanced_my_mix_title">Meu Mix (Playlist)</string>
     <string name="revanced_new_actionbar_summary_off">Estilo da barra de pesquisa é definido pelo aplicativo</string>
     <string name="revanced_new_actionbar_summary_on">Forçando a barra de pesquisa ampla</string>
     <string name="revanced_new_actionbar_title">Barra de pesquisa ampla</string>

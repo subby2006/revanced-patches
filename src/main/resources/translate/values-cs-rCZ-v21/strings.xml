@@ -145,7 +145,6 @@ Je připraven k odeslání?"</string>
     <string name="revanced_buffer_summary">Vlastní nastavení pro video vyrovnávací paměť</string>
     <string name="revanced_buffer_title">Nastavení vyrovnávací paměti videa</string>
     <string name="revanced_button_container_summary">Skryje komponentu tlačítka</string>
-    <string name="revanced_button_container_title">Skrýt schránku tlačítek (experimentální)</string>
     <string name="revanced_button_container_warning_summary">tato funkce plně nepodporuje nové rozložení!</string>
     <string name="revanced_cast_button_summary_off">Tlačítko vysílání je skryté</string>
     <string name="revanced_cast_button_summary_on">Tlačítko vysílání je viditelné</string>

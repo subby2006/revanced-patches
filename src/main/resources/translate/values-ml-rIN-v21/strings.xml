@@ -141,7 +141,6 @@ Is it ready to submit?"</string>
     <string name="revanced_buffer_summary">വീഡിയോ ബഫറിനായുള്ള ഇഷ്‌ടാനുസൃത ക്രമീകരണങ്ങൾ</string>
     <string name="revanced_buffer_title">Buffer settings</string>
     <string name="revanced_button_container_summary">ബട്ടൺ കണ്ടെയ്നറിന്റെ ഘടകം മറയ്ക്കുന്നു</string>
-    <string name="revanced_button_container_title">ബട്ടൺ കണ്ടെയ്നർ മറയ്ക്കുക (പരീക്ഷണാത്മകം)</string>
     <string name="revanced_button_container_warning_summary">ഈ സവിശേഷത പുതിയ ലേഔട്ടിനെ പൂർണ്ണമായി പിന്തുണയ്ക്കുന്നില്ല!</string>
     <string name="revanced_cast_button_summary_off">Cast button is hidden</string>
     <string name="revanced_cast_button_summary_on">Cast button is shown</string>

@@ -145,7 +145,6 @@
     <string name="revanced_buffer_summary">वीडियो बफर के लिए कस्टम सेटिंग्स</string>
     <string name="revanced_buffer_title">बफर सेटिंग्स</string>
     <string name="revanced_button_container_summary">बटन कंटेनर के घटक को छुपाता है</string>
-    <string name="revanced_button_container_title">बटन कंटेनर छुपाएं (प्रयोगात्मक)</string>
     <string name="revanced_button_container_warning_summary">यह सुविधा पूरी तरह से नए लेआउट का समर्थन नहीं करती है!</string>
     <string name="revanced_cast_button_summary_off">कास्ट बटन छिपा हुआ है</string>
     <string name="revanced_cast_button_summary_on">कास्ट बटन दिखाया गया है</string>
@@ -248,9 +247,6 @@
     <string name="revanced_minimized_playback_on">पृष्ठभूमि प्लेबैक सक्षम है</string>
     <string name="revanced_misc_summary">विविध पैच</string>
     <string name="revanced_misc_title">विविध</string>
-    <string name="revanced_my_mix_summary_off">माई मिक्स (प्लेलिस्ट) दिखाया गया है</string>
-    <string name="revanced_my_mix_summary_on">माई मिक्स (प्लेलिस्ट) दिखाया गया है</string>
-    <string name="revanced_my_mix_title">माई मिक्स (प्लेलिस्ट)</string>
     <string name="revanced_new_actionbar_summary_off">खोज बार शैली ऐप द्वारा परिभाषित की जाती है</string>
     <string name="revanced_new_actionbar_summary_on">विस्तृत खोज बार को बाध्य करना</string>
     <string name="revanced_new_actionbar_title">विस्तृत खोज बार</string>

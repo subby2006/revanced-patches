@@ -142,7 +142,6 @@ Is it ready to submit?"</string>
     <string name="revanced_buffer_summary">Benutzerdefinierte Einstellungen für Video-Puffer</string>
     <string name="revanced_buffer_title">Puffer Einstellungen</string>
     <string name="revanced_button_container_summary">Versteckt die Komponente des Tastenbehälters</string>
-    <string name="revanced_button_container_title">Schaltflächencontainer ausblenden (Experimentell)</string>
     <string name="revanced_button_container_warning_summary">diese Funktion unterstützt das neue Layout nicht vollständig!</string>
     <string name="revanced_cast_button_summary_off">Die Cast-Schaltfläche wird nicht angezeigt</string>
     <string name="revanced_cast_button_summary_on">Die Cast-Schaltfläche wird angezeigt</string>

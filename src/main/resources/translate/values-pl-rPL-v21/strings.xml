@@ -239,9 +239,6 @@
     <string name="revanced_minimized_playback_on">Odtwarzanie w tle jest włączone</string>
     <string name="revanced_misc_summary">Pozostałe łatki</string>
     <string name="revanced_misc_title">Pozostałe</string>
-    <string name="revanced_my_mix_summary_off">Mój Mix (Playlista) jest widoczna</string>
-    <string name="revanced_my_mix_summary_on">Mój Mix (Playlista) jest ukryta</string>
-    <string name="revanced_my_mix_title">Mój Mix (Playlista)</string>
     <string name="revanced_new_actionbar_summary_off">Szeroki pasek wyszukiwania jest wyłączony</string>
     <string name="revanced_new_actionbar_summary_on">Szeroki pasek wyszukiwania jest włączony</string>
     <string name="revanced_new_actionbar_title">Szeroki pasek wyszukiwania</string>

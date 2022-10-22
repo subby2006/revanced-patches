@@ -141,7 +141,6 @@ Készen áll a beküldésre?"</string>
     <string name="revanced_buffer_summary">Egyéni beállítások a videó bufferhez</string>
     <string name="revanced_buffer_title">Puffer beállítások</string>
     <string name="revanced_button_container_summary">Elrejti a gombtároló összetevőjét</string>
-    <string name="revanced_button_container_title">Gombtároló elrejtése (Kísérleti)</string>
     <string name="revanced_button_container_warning_summary">ez a funkció nem támogatja teljesen az új elrendezést!</string>
     <string name="revanced_cast_button_summary_off">Az átküldés gomb rejtve van</string>
     <string name="revanced_cast_button_summary_on">Az átküldés gomb látható</string>

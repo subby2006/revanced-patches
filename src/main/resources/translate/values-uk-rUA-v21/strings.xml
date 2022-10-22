@@ -148,7 +148,6 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="revanced_buffer_summary">Користувальницькі налаштування для відеобуфера</string>
     <string name="revanced_buffer_title">Налаштування відеобуфера</string>
     <string name="revanced_button_container_summary">Додаткові налаштування приховувань кнопок</string>
-    <string name="revanced_button_container_title">Приховування кнопок (Експериментально)</string>
     <string name="revanced_button_container_warning_summary">Функція не повністю підтримує новий інтерфейс!</string>
     <string name="revanced_cast_button_summary_off">Кнопку трансляції вимкнено</string>
     <string name="revanced_cast_button_summary_on">Кнопку трансляції увімкнено</string>
@@ -193,7 +192,6 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="revanced_force_fullscreen_rotation_title">Обертання на весь екран (Експериментально)</string>
     <string name="revanced_fullscreen_button_container_summary_off">Повноекрані кнопки керування показані</string>
     <string name="revanced_fullscreen_button_container_summary_on">Повноекрані кнопки керування приховані</string>
-    <string name="revanced_fullscreen_button_container_title">Повноекрані кнопки керування (Експериментально)</string>
     <string name="revanced_hdr_full_brightness_summary_off">Яскравість відео буде відповідати яскравості екрана в ландшафтному режимі HDR</string>
     <string name="revanced_hdr_full_brightness_summary_on">Встановлено максимальну яскравість ландшафтних відео в HDR</string>
     <string name="revanced_hdr_full_brightness_title">Максимальна яскравість HDR</string>
@@ -256,11 +254,6 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="revanced_minimized_playback_on">Відтворення у фоні увімкнено</string>
     <string name="revanced_misc_summary">Додаткові налаштування іншого </string>
     <string name="revanced_misc_title">Інше</string>
-    <string name="revanced_my_mix_summary_off">Мій мікс (плейлист) увімкнено
-Увага! Вилучає мій мікс (плейлист) із головної сторінки та відеопрогравача.</string>
-    <string name="revanced_my_mix_summary_on">Мій мікс (плейлист) вимкнено
-Увага! Вилучає мій мікс (плейлист) із головної сторінки та відеопрогравача.</string>
-    <string name="revanced_my_mix_title">Мій мікс (плейлист)</string>
     <string name="revanced_new_actionbar_summary_off">Використання широкої панелі пошуку вимкнено</string>
     <string name="revanced_new_actionbar_summary_on">Використання широкої панелі пошуку увімкнено</string>
     <string name="revanced_new_actionbar_title">Широка панель пошуку</string>
