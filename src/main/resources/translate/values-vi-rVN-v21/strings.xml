@@ -151,7 +151,6 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_buffer_summary">Các cài đặt tùy chỉnh cho bộ đệm video</string>
     <string name="revanced_buffer_title">Cài đặt Bộ đệm video</string>
     <string name="revanced_button_container_summary">Ẩn các nút thành phần của vùng chứa nút</string>
-    <string name="revanced_button_container_title">Ẩn Vùng chứa nút (Thử nghiệm)</string>
     <string name="revanced_button_container_warning_summary">Tính năng này không hỗ trợ đầy đủ bố cục mới!</string>
     <string name="revanced_cast_button_summary_off">Nút Truyền đã ẩn</string>
     <string name="revanced_cast_button_summary_on">Nút Truyền được hiển thị</string>
@@ -174,7 +173,7 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_downloads_title">Cài đặt Tải xuống</string>
     <string name="revanced_disable_new_layout_summary_off">Bố cục YouTube sẽ tuân theo trạng thái tài khoản Google của bạn</string>
     <string name="revanced_disable_new_layout_summary_on">Đánh lừa phiên bản YouTube để bắt buộc vô hiệu hoá bố cục mới</string>
-    <string name="revanced_disable_new_layout_title">Vô hiệu hoá Bố cục mới (Thử nghiệm)</string>
+    <string name="revanced_disable_new_layout_title">Vô hiệu hoá Bố cục mới (Beta)</string>
     <string name="revanced_captions_button_summary_off">Nút Phụ đề đã ẩn</string>
     <string name="revanced_captions_button_summary_on">Nút Phụ đề được hiển thị</string>
     <string name="revanced_captions_button_title">Nút Phụ đề (Trong trình phát)</string>
@@ -193,10 +192,9 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_extended_title">Mở rộng</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">Tự động xoay ở chế độ toàn màn hình tuân theo chính sách mặc định của YouTube</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Đánh lừa phiên bản YouTube để kích hoạt tính năng tự động xoay ở chế độ toàn màn hình</string>
-    <string name="revanced_force_fullscreen_rotation_title">Kích hoạt Xoay toàn màn hình (Thử nghiệm)</string>
+    <string name="revanced_force_fullscreen_rotation_title">Kích hoạt Xoay toàn màn hình (Beta)</string>
     <string name="revanced_fullscreen_button_container_summary_off">Vùng chứa nút trong video toàn màn hình được hiển thị</string>
     <string name="revanced_fullscreen_button_container_summary_on">Vùng chứa nút trong video toàn màn hình đã ẩn</string>
-    <string name="revanced_fullscreen_button_container_title">Vùng chứa nút toàn màn hình (Thử nghiệm)</string>
     <string name="revanced_hdr_full_brightness_summary_off">Độ sáng HDR tự động bị vô hiệu hoá</string>
     <string name="revanced_hdr_full_brightness_summary_on">Độ sáng HDR tự động được kích hoạt</string>
     <string name="revanced_hdr_full_brightness_title">Kích hoạt Độ sáng HDR tự động</string>
@@ -245,6 +243,9 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_home_ads_summary_off">Quảng cáo trên Trang chủ đã ẩn</string>
     <string name="revanced_home_ads_summary_on">Quảng cáo trên Trang chủ được hiển thị</string>
     <string name="revanced_home_ads_title">Loại bỏ Quảng cáo trên Trang chủ</string>
+    <string name="revanced_inapp_browser_summary_off">Mở các liên kết ngoài trong ứng dụng</string>
+    <string name="revanced_inapp_browser_summary_on">Mở các liên kết ngoài trong trình duyệt bên ngoài</string>
+    <string name="revanced_inapp_browser_title">Trình duyệt trong ứng dụng</string>
     <string name="revanced_info_cards_summary_off">Thẻ thông tin đã ẩn</string>
     <string name="revanced_info_cards_summary_on">Thẻ thông tin được hiển thị</string>
     <string name="revanced_info_cards_title">Thẻ thông tin</string>
@@ -259,9 +260,6 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_minimized_playback_on">Phát lại trong nền được kích hoạt</string>
     <string name="revanced_misc_summary">Các cài đặt linh tinh khác</string>
     <string name="revanced_misc_title">Khác</string>
-    <string name="revanced_my_mix_summary_off">Danh sách kết hợp (Danh sách phát) được hiển thị</string>
-    <string name="revanced_my_mix_summary_on">Danh sách kết hợp (Danh sách phát) đã ẩn</string>
-    <string name="revanced_my_mix_title">Danh sách kết hợp (Danh sách phát)</string>
     <string name="revanced_new_actionbar_summary_off">Thanh tìm kiếm rộng bị vô hiệu hoá</string>
     <string name="revanced_new_actionbar_summary_on">Thanh tìm kiếm rộng được kích hoạt</string>
     <string name="revanced_new_actionbar_title">Thanh tìm kiếm rộng</string>
@@ -353,6 +351,9 @@ Bạn có chắc chắn muốn tiếp tục không?"</string>
     <string name="revanced_tablet_miniplayer_summary_on">Trình phát thu nhỏ của máy tính bảng được kích hoạt</string>
     <string name="revanced_tablet_miniplayer_title">Trình phát thu nhỏ của máy tính bảng</string>
     <string name="revanced_tool_used">Công cụ sử dụng</string>
+    <string name="revanced_uri_redirect_summary_off">"Tuân theo chính sách chuyển hướng URL của YouTube"</string>
+    <string name="revanced_uri_redirect_summary_on">Mở URL bằng cách bỏ qua youtube.com/redirect</string>
+    <string name="revanced_uri_redirect_title">Chuyển hướng URL trên YouTube</string>
     <string name="revanced_video_ads_summary_off">Quảng cáo trên video đã ẩn</string>
     <string name="revanced_video_ads_summary_on">Quảng cáo trên video được hiển thị</string>
     <string name="revanced_video_ads_title">Ẩn Quảng cáo trên video</string>

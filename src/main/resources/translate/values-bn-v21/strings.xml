@@ -153,7 +153,6 @@
     <string name="revanced_buffer_summary">ভিডিও বাফারিংএর জন্য কাস্টম সেটিং</string>
     <string name="revanced_buffer_title">ভিডিও বাফার সেটিংস</string>
     <string name="revanced_button_container_summary">বাটনে অধীনস্থ বিষয়বস্তু গুলিকে লুকিয়ে রাখে</string>
-    <string name="revanced_button_container_title">বাটনের বিষয়বস্তু গুলিকে লুকিয়ে রাখুন (পরীক্ষামূলক)</string>
     <string name="revanced_button_container_warning_summary">এই ফিচারটি নতুন লে-আউটের সঙ্গে সম্পূর্ণরূপে সামঞ্জস্যপূর্ণ নয়!</string>
     <string name="revanced_cast_button_summary_off">কাস্ট বাটন লুকানো আছে</string>
     <string name="revanced_cast_button_summary_on">কাস্ট বাটন প্রদর্শিত</string>
@@ -198,7 +197,6 @@
     <string name="revanced_force_fullscreen_rotation_title">ফুল স্ক্রিন রোটেশন চালু করুন (পরীক্ষামূলক))</string>
     <string name="revanced_fullscreen_button_container_summary_off">ফুলস্ক্রিন বাটন কনটেইনার প্রদর্শিত</string>
     <string name="revanced_fullscreen_button_container_summary_on">ফুলস্ক্রিন বাটন কনটেইনার লুকানো আছে</string>
-    <string name="revanced_fullscreen_button_container_title">ফুলস্ক্রিন বাটন কনটেইনার (পরীক্ষামূলক)</string>
     <string name="revanced_hdr_full_brightness_summary_off">HDR ল্যান্ডস্কেপ ভিডিওতে ভিডিওর উজ্জ্বলতা সর্বোচ্চ সেট করা হয়েছে</string>
     <string name="revanced_hdr_full_brightness_summary_on">ভিডিও উজ্জ্বলতা HDR ল্যান্ডস্কেপে আপনার ডিভাইসের উজ্জ্বলতা অনুসরণ করবে</string>
     <string name="revanced_hdr_full_brightness_title">HDR ভিডিও উজ্জ্বলতা ওভাররাইড করুন</string>
@@ -247,6 +245,9 @@
     <string name="revanced_home_ads_summary_off">হোম বিজ্ঞাপন লুকানো আছে</string>
     <string name="revanced_home_ads_summary_on">হোম বিজ্ঞাপন প্রদর্শিত</string>
     <string name="revanced_home_ads_title">হোম বিজ্ঞাপন সরান</string>
+    <string name="revanced_inapp_browser_summary_off">বাহিরের লিঙ্ক এ্যাপের মধ্যেই খুলুন</string>
+    <string name="revanced_inapp_browser_summary_on">বাহিরের লিঙ্ক আলাদা ব্রাউজারে খুলুন</string>
+    <string name="revanced_inapp_browser_title">এ্যাপের মধ্যে ব্রাউজার</string>
     <string name="revanced_info_cards_summary_off">তথ্য কার্ড লুকানো আছে</string>
     <string name="revanced_info_cards_summary_on">তথ্য কার্ড প্রদর্শিত</string>
     <string name="revanced_info_cards_title">তথ্য কার্ড</string>
@@ -261,9 +262,6 @@
     <string name="revanced_minimized_playback_on">ব্যাকগ্রাউন্ড প্লেব্যাক চালু</string>
     <string name="revanced_misc_summary">বিবিধ প্যাচসমূহ</string>
     <string name="revanced_misc_title">বিবিধ</string>
-    <string name="revanced_my_mix_summary_off">আমার মিক্স (প্লেলিস্ট) প্রদর্শিত</string>
-    <string name="revanced_my_mix_summary_on">আমার মিক্স (প্লেলিস্ট) লুকানো আছে</string>
-    <string name="revanced_my_mix_title">আমার মিক্স (প্লেলিস্ট)</string>
     <string name="revanced_new_actionbar_summary_off">প্রশস্ত সার্চ বার বন্ধ করা হয়েছে</string>
     <string name="revanced_new_actionbar_summary_on">প্রশস্ত সার্চ বার চালু করা হয়েছে</string>
     <string name="revanced_new_actionbar_title">প্রশস্ত সার্চ বার</string>
@@ -355,6 +353,9 @@
     <string name="revanced_tablet_miniplayer_summary_on">ট্যাবলেট মিনি প্লেয়ার চালু করা আছে</string>
     <string name="revanced_tablet_miniplayer_title">ট্যাবলেট মিনি প্লেয়ার</string>
     <string name="revanced_tool_used">ব্যবহৃত টুল</string>
+    <string name="revanced_uri_redirect_summary_off">"ইউটিউবের রিডাইরেক্ট নীতি অনুসরণ করুন"</string>
+    <string name="revanced_uri_redirect_summary_on">youtube.com/redirect বাইপাস করে লিঙ্ক খুলুন</string>
+    <string name="revanced_uri_redirect_title">ইউটিউব লিঙ্ক রিডাইরেক্ট</string>
     <string name="revanced_video_ads_summary_off">ভিডিওর বিজ্ঞাপণ লুকানো আছে</string>
     <string name="revanced_video_ads_summary_on">ভিডিওর বিজ্ঞাপণ চালু</string>
     <string name="revanced_video_ads_title">ভিডিওর বিজ্ঞাপণ</string>
@@ -376,11 +377,11 @@
     <string name="revanced_whitelisting_remove_failed" formatted="false">%s হোয়াইটলিস্ট থেকে চ্যানেল %s সরাতে ব্যর্থ হয়েছে৷</string>
     <string name="revanced_whitelisting_removed" formatted="false">চ্যানেল %s কে %s হোয়াইটলিস্ট থেকে সরানো হয়েছে</string>
     <string name="revanced_whitelisting_sponsorblock">SponsorBlock</string>
-    <string name="rvx_dialog_message">"As of YouTube v17.33.xx, auto-rotate in fullscreen follows the system's auto-rotate toggle state.
-So tricked the YouTube version to v17.32.39 to bypass the auto-rotate issue in fullscreen
-Accordingly in the app information, the YouTube version is displayed as v17.32.39
+    <string name="rvx_dialog_message">"ইউটিউব ১৭.৩৩.. ভার্সনের পর এটি সিস্টেমের স্বয়ংক্রিয় রোটেশন টগল অনুসরণ করে।
+তাই ফুলস্ক্রিনে স্বয়ংক্রিয় রোটেশন ঠিক করতে ইউটিউবকে ১৭.৩২.৩৯ ভার্সনে ট্রিক করা হয়।
+এ্যাপের তথ্য অনুযায়ী এই এ্যাপটিকে ইউটিউবের ১৭.৩২.৩৯ ভার্সন হিসেবে দেখাবে।
 
-আপনি যদি এটি নিষ্ক্রিয় করতে চান, বন্ধ করতে নিম্নলিখিত পদ্ধতি সেট করুন:"</string>
+আপনি যদি এটি নিষ্ক্রিয় করতে চান, নিম্নলিখিত পদ্ধতি সেট করুন:"</string>
     <string name="rvx_dialog_title">রিভ্যান্সড এক্সটেনডেড</string>
     <string name="sb_guidelines_popup_already_read">ইতিমধ্যে পড়া হয়েছে</string>
     <string name="sb_guidelines_popup_content">"যেকোন সেগমেন্ট জমা দেওয়ার আগে SponsorBlock নির্দেশিকা পড়ার পরামর্শ দেওয়া হয়"</string>

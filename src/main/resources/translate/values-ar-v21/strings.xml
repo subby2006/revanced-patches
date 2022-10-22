@@ -22,7 +22,7 @@
     <string name="downloader_not_installed_warning">غير مثبت. الرجاء تثبيته.</string>
     <string name="enable_sb">تمكين مانِع الرُعَاة \"SponsorBlock\"</string>
     <string name="enable_sb_sum">مانِع الرُعَاة هو نظام جماعي لتخطي الأجزاء المُمِلَّة في مقاطع اليوتيوب</string>
-    <string name="enable_sb_shorts">تمكين SponsorBlock على Shorts (Alpha`)</string>
+    <string name="enable_sb_shorts">تمكين SponsorBlock على Shorts (ٱلفا)</string>
     <string name="enable_sb_shorts_content">"تمكين مانِع الرُعَاة في فيديوهات YouTube Shorts. نظرًا لأن هذه الميزة لا تزال (Alpha) ، فهي تعمل فقط بوضع\" التخطي تلقائيًا \" للمقطع."</string>
     <string name="enable_sb_shorts_sum">تمكين SponsorBlock في فيديوهات YouTube Shorts</string>
     <string name="enable_segmadding">تمكين إضافة مقطع جديد</string>
@@ -190,7 +190,7 @@
     <string name="revanced_force_fullscreen_rotation_title">تمكين تدوير ملء الشاشة (تجريبي)</string>
     <string name="revanced_fullscreen_button_container_summary_off">يتم عرض حاوية زر ملء الشاشة</string>
     <string name="revanced_fullscreen_button_container_summary_on">تم إخفاء حاوية زر ملء الشاشة</string>
-    <string name="revanced_fullscreen_button_container_title">حاوية زر ملء الشاشة (تجريبية)</string>
+    <string name="revanced_fullscreen_button_container_title">حاوية زر ملء الشاشة</string>
     <string name="revanced_hdr_full_brightness_summary_off">تم تعطيل سطوع HDR التلقائي</string>
     <string name="revanced_hdr_full_brightness_summary_on">تم تمكين سطوع HDR التلقائي</string>
     <string name="revanced_hdr_full_brightness_title">تمكين سطوع HDR التلقائي</string>
@@ -239,6 +239,9 @@
     <string name="revanced_home_ads_summary_off">تم إخفاء إعلانات الصفحة الرئيسية</string>
     <string name="revanced_home_ads_summary_on">يتم عرض إعلانات الصفحة الرئيسية</string>
     <string name="revanced_home_ads_title">إزالة إعلانات الصفحة الرئيسية</string>
+    <string name="revanced_inapp_browser_summary_off">فتح الروابط الخارجية داخل التطبيق</string>
+    <string name="revanced_inapp_browser_summary_on">فتح الروابط الخارجية في متصفح خارجي</string>
+    <string name="revanced_inapp_browser_title">متصفح داخل التطبيق</string>
     <string name="revanced_info_cards_summary_off">تم إخفاء بطاقات المعلومات</string>
     <string name="revanced_info_cards_summary_on">يتم عرض بطاقات المعلومات</string>
     <string name="revanced_info_cards_title">بطاقات المعلومات</string>
@@ -253,9 +256,12 @@
     <string name="revanced_minimized_playback_on">تم تمكين التشغيل في الخلفية</string>
     <string name="revanced_misc_summary">تعديلات متنوعة</string>
     <string name="revanced_misc_title">الخصائص المختلفة</string>
-    <string name="revanced_my_mix_summary_off">يتم عرض (قائمة تشغيل) My Mix</string>
-    <string name="revanced_my_mix_summary_on">تم إخفاء (قائمة تشغيل) My Mix</string>
-    <string name="revanced_my_mix_title">(قائمة تشغيل) My Mix</string>
+    <string name="revanced_mix_playlists_summary_off">تم إخفاء قائمة التشغيل المختلطة</string>
+    <string name="revanced_mix_playlists_summary_on">يتم عرض قائمة التشغيل المختلطة</string>
+    <string name="revanced_mix_playlists_title">قائمة التشغيل المختلطة</string>
+    <string name="revanced_music_container_summary_off">يتم عرض حاوية الموسيقى</string>
+    <string name="revanced_music_container_summary_on">تم إخفاء حاوية الموسيقى</string>
+    <string name="revanced_music_container_title">حاوية الموسيقى</string>
     <string name="revanced_new_actionbar_summary_off">تم تعطيل شريط البحث العريض</string>
     <string name="revanced_new_actionbar_summary_on">تم تمكين شريط البحث العريض</string>
     <string name="revanced_new_actionbar_title">شريط البحث العريض</string>
@@ -342,6 +348,9 @@
     <string name="revanced_tablet_miniplayer_summary_on">تم تمكين لوح المشغل المصَّغَّر</string>
     <string name="revanced_tablet_miniplayer_title">المُشَّغل المصَّغَّر</string>
     <string name="revanced_tool_used">الأداة المستخدمة</string>
+    <string name="revanced_uri_redirect_summary_off">"اتِّباع سياسة إعادة التوجيه في YouTube"</string>
+    <string name="revanced_uri_redirect_summary_on">فتح عنوان URL بتجاوز youtube.com/redirect</string>
+    <string name="revanced_uri_redirect_title">رابط إعادة التوجيه في YouTube</string>
     <string name="revanced_video_ads_summary_off">تم إخفاء إعلانات الفيديو</string>
     <string name="revanced_video_ads_summary_on">يتم عرض إعلانات الفيديو</string>
     <string name="revanced_video_ads_title">إعلانات الفيديو</string>

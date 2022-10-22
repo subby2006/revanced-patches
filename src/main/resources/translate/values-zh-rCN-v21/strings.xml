@@ -3,7 +3,7 @@
     <string name="about">关于</string>
     <string name="about_api">此应用使用来自 SponsorBlock 的 API</string>
     <string name="about_api_sum">点击了解更多信息，并查看其他平台的下载：sponsor.ajay.app</string>
-    <string name="about_madeby">JakubWeg 打包整理，oSumAtrIX 重制代码</string>
+    <string name="about_madeby">由 JakubWeg 打包整理，oSumAtrIX 重制代码</string>
     <string name="accessibility_settings_edu_opt_in_text">是否打开视频播放器的无障碍控制？</string>
     <string name="accessibility_settings_edu_opt_out_text">由于无障碍服务已启用，您的控制被修改。</string>
     <string name="action_browser">SponsorBlock 浏览器</string>
@@ -196,7 +196,7 @@
     <string name="revanced_force_fullscreen_rotation_title">启用全屏旋转（实验性）</string>
     <string name="revanced_fullscreen_button_container_summary_off">全屏按钮栏已显示</string>
     <string name="revanced_fullscreen_button_container_summary_on">全屏按钮栏已隐藏</string>
-    <string name="revanced_fullscreen_button_container_title">全屏按钮栏（实验性）</string>
+    <string name="revanced_fullscreen_button_container_title">全屏按钮栏</string>
     <string name="revanced_hdr_full_brightness_summary_off">HDR 视频默认使用最大亮度</string>
     <string name="revanced_hdr_full_brightness_summary_on">HDR 视频已使用系统亮度</string>
     <string name="revanced_hdr_full_brightness_title">HDR 视频使用系统亮度</string>
@@ -245,6 +245,9 @@
     <string name="revanced_home_ads_summary_off">首页广告已隐藏</string>
     <string name="revanced_home_ads_summary_on">首页广告已显示</string>
     <string name="revanced_home_ads_title">首页广告</string>
+    <string name="revanced_inapp_browser_summary_off">使用内置浏览器打开外部链接</string>
+    <string name="revanced_inapp_browser_summary_on">使用外部浏览器打开外部链接</string>
+    <string name="revanced_inapp_browser_title">内置浏览器</string>
     <string name="revanced_info_cards_summary_off">资料卡已隐藏</string>
     <string name="revanced_info_cards_summary_on">资料卡已显示</string>
     <string name="revanced_info_cards_title">资料卡</string>
@@ -252,17 +255,19 @@
     <string name="revanced_interactions_title">交互设置</string>
     <string name="revanced_layout_settings_summary">布局相关设置</string>
     <string name="revanced_layout_settings_title">布局设置</string>
-    <string name="revanced_maximum_buffer_summary">播放缓冲区的最大时长（毫秒）
-默认值：120000</string>
+    <string name="revanced_maximum_buffer_summary">播放缓冲区的最大时长（毫秒）默认值：120000</string>
     <string name="revanced_maximum_buffer_title">缓冲区最大时长</string>
     <string name="revanced_minimized_playback">最小化播放</string>
     <string name="revanced_minimized_playback_off">最小化播放已禁用</string>
     <string name="revanced_minimized_playback_on">最小化播放已启用</string>
     <string name="revanced_misc_summary">杂项补丁</string>
     <string name="revanced_misc_title">杂项</string>
-    <string name="revanced_my_mix_summary_off">合辑（播放列表）已显示</string>
-    <string name="revanced_my_mix_summary_on">合辑（播放列表）已隐藏</string>
-    <string name="revanced_my_mix_title">合辑（播放列表）</string>
+    <string name="revanced_mix_playlists_summary_off">合辑播放列表已隐藏</string>
+    <string name="revanced_mix_playlists_summary_on">合辑播放列表已显示</string>
+    <string name="revanced_mix_playlists_title">合辑播放列表</string>
+    <string name="revanced_music_container_summary_off">音乐面板已显示</string>
+    <string name="revanced_music_container_summary_on">音乐面板已隐藏</string>
+    <string name="revanced_music_container_title">音乐面板</string>
     <string name="revanced_new_actionbar_summary_off">宽搜索栏已禁用</string>
     <string name="revanced_new_actionbar_summary_on">宽搜索栏已启用</string>
     <string name="revanced_new_actionbar_title">宽搜索栏</string>
@@ -274,8 +279,7 @@
     <string name="revanced_override_premium_header_summary_off">当前页眉：默认标志</string>
     <string name="revanced_override_premium_header_summary_on">当前页眉：Premium 标志</string>
     <string name="revanced_override_premium_header_title">Premium 标志</string>
-    <string name="revanced_playback_start_summary">用户动作后恢复播放的缓冲区最大时长（毫秒）
-默认值：2500</string>
+    <string name="revanced_playback_start_summary">用户动作后恢复播放的缓冲区最大时长（毫秒）默认值：2500</string>
     <string name="revanced_playback_start_title">恢复播放缓冲区最大时长</string>
     <string name="revanced_player_popup_panels_title">播放器弹出面板</string>
     <string name="revanced_player_popup_panels_summary_off">播放器弹出面板已禁用</string>
@@ -296,8 +300,7 @@
     <string name="revanced_reboot_warning_ryd">"在新布局中显示点踩计数。
 但由于这仍然是一项实验性功能，因此可能无法准确显示点赞数。
 您确定要继续吗？"</string>
-    <string name="revanced_rebuffer_summary">重新缓冲后播放缓冲区最大时长（毫秒）
-默认值：5000</string>
+    <string name="revanced_rebuffer_summary">重新缓冲后播放缓冲区最大时长（毫秒）默认值：5000</string>
     <string name="revanced_rebuffer_title">重新缓冲后播放缓冲区最大时长</string>
     <string name="revanced_reel_summary_off">短片故事已隐藏</string>
     <string name="revanced_reel_summary_on">短片故事已显示</string>
@@ -356,6 +359,9 @@
     <string name="revanced_tablet_miniplayer_summary_on">小窗模式已启用</string>
     <string name="revanced_tablet_miniplayer_title">小窗模式</string>
     <string name="revanced_tool_used">使用的工具</string>
+    <string name="revanced_uri_redirect_summary_off">"遵循 Youtube 的重定向策略"</string>
+    <string name="revanced_uri_redirect_summary_on">绕开 Youtube 重定向打开链接</string>
+    <string name="revanced_uri_redirect_title">YouTube 链接重定向</string>
     <string name="revanced_video_ads_summary_off">视频广告已隐藏</string>
     <string name="revanced_video_ads_summary_on">视频广告已显示</string>
     <string name="revanced_video_ads_title">视频广告</string>

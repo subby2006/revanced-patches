@@ -22,6 +22,12 @@
     <string name="downloader_not_installed_warning">가 설치되지 않았습니다. 다운로더를 설치해 주세요.</string>
     <string name="enable_sb">SponsorBlock 활성화</string>
     <string name="enable_sb_sum">SponsorBlock은 YouTube 동영상 내 성가신 구간을 건너뛰게 해주는 크라우드소싱 시스템입니다</string>
+    <string name="enable_sb_shorts">Shorts에서 SponsorBlock 활성화 (Alpha)</string>
+    <string name="enable_sb_shorts_content">"YouTube Shorts에서 SponsorBlock을 활성화합니다.
+
+이 기능은 여전히 Alpha 단계이기 때문에, 오직 '자동으로 스킵하기' 구간에서만 작동합니다.
+"</string>
+    <string name="enable_sb_shorts_sum">YouTube Shorts에서 SponsorBlock 활성화</string>
     <string name="enable_segmadding">새로운 구간 추가 버튼 활성화</string>
     <string name="enable_segmadding_sum">플레이어에 새로운 구간 추가 버튼을 추가합니다 (버튼이 잘 안 보일 수도 있습니다)</string>
     <string name="enable_voting">투표 버튼 활성화</string>
@@ -188,7 +194,10 @@
     <string name="revanced_extended_title">Extended 설정</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">전체화면 회전 설정이 YouTube 기본 정책을 따릅니다</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">YouTube 버전을 속여서 강제로 전체화면 회전을 활성화 시킵니다</string>
-    <string name="revanced_force_fullscreen_rotation_title">전체화면 회전 활성화 (실험적 기능)</string>
+    <string name="revanced_force_fullscreen_rotation_title">전체화면 회전 활성화 (실험적 플래그)</string>
+    <string name="revanced_fullscreen_button_container_summary_off">전체화면 버튼 컨테이너를 보여줍니다</string>
+    <string name="revanced_fullscreen_button_container_summary_on">전체화면 버튼 컨테이너를 숨깁니다</string>
+    <string name="revanced_fullscreen_button_container_title">전체화면 버튼 컨테이너</string>
     <string name="revanced_hdr_full_brightness_summary_off">가로 화면에서 HDR 영상 밝기가 기기의 현재 밝기로 자동 설정됩니다</string>
     <string name="revanced_hdr_full_brightness_summary_on">가로 화면에서 HDR 영상 밝기가 최대로 자동 설정됩니다</string>
     <string name="revanced_hdr_full_brightness_title">HDR 영상 최대 밝기 설정</string>
@@ -231,9 +240,15 @@
     <string name="revanced_hide_thanks_button_summary_off">Thanks 버튼을 보여줍니다</string>
     <string name="revanced_hide_thanks_button_summary_on">Thanks 버튼을 숨깁니다</string>
     <string name="revanced_hide_thanks_button_title">Thanks 버튼 제거</string>
+    <string name="revanced_hide_time_and_seekbar_summary_off">시간 및 재생 바를 숨깁니다</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">시간 및 재생 바를 보여줍니다</string>
+    <string name="revanced_hide_time_and_seekbar_title">시간 및 재생 바</string>
     <string name="revanced_home_ads_summary_off">홈 화면 광고를 숨깁니다</string>
     <string name="revanced_home_ads_summary_on">홈 화면 광고를 보여줍니다</string>
     <string name="revanced_home_ads_title">홈 화면 광고 제거</string>
+    <string name="revanced_inapp_browser_summary_off">링크를 열때 인앱 브라우저를 사용합니다</string>
+    <string name="revanced_inapp_browser_summary_on">링크를 열때 외부 브라우저를 사용합니다</string>
+    <string name="revanced_inapp_browser_title">인앱 브라우저</string>
     <string name="revanced_info_cards_summary_off">영상 정보 카드를 숨깁니다</string>
     <string name="revanced_info_cards_summary_on">영상 정보 카드를 보여줍니다</string>
     <string name="revanced_info_cards_title">영상 정보 카드</string>
@@ -248,9 +263,12 @@
     <string name="revanced_minimized_playback_on">백그라운드 재생을 활성화합니다</string>
     <string name="revanced_misc_summary">기타 설정입니다</string>
     <string name="revanced_misc_title">기타 설정</string>
-    <string name="revanced_my_mix_summary_off">믹스 (재생목록)를 보여줍니다</string>
-    <string name="revanced_my_mix_summary_on">믹스 (재생목록)를 숨깁니다</string>
-    <string name="revanced_my_mix_title">믹스 (재생목록)</string>
+    <string name="revanced_mix_playlists_summary_off">Mix 플레이리스트를 숨깁니다</string>
+    <string name="revanced_mix_playlists_summary_on">Mix 플레이리스트를 보여줍니다</string>
+    <string name="revanced_mix_playlists_title">Mix 플레이리스트</string>
+    <string name="revanced_music_container_summary_off">음악 및 앨범 패널을 보여줍니다</string>
+    <string name="revanced_music_container_summary_on">음악 및 앨범 패널을 숨깁니다</string>
+    <string name="revanced_music_container_title">음악 및 앨범 패널</string>
     <string name="revanced_new_actionbar_summary_off">앱 상태에 따라 검색 바 스타일이 자동으로 결정됩니다</string>
     <string name="revanced_new_actionbar_summary_on">넓은 검색 바의 사용을 강제합니다</string>
     <string name="revanced_new_actionbar_title">넓은 검색 바</string>
@@ -342,6 +360,9 @@
     <string name="revanced_tablet_miniplayer_summary_on">태블릿용 미니 플레이어를 사용하고 있습니다</string>
     <string name="revanced_tablet_miniplayer_title">태블릿용 미니 플레이어</string>
     <string name="revanced_tool_used">사용 도구</string>
+    <string name="revanced_uri_redirect_summary_off">"YouTube의 리다이렉션 정책을 따릅니다"</string>
+    <string name="revanced_uri_redirect_summary_on">URL을 누를때 \'youtube.com/redirect\'를 거치지 않고 다이렉트로 연결됩니다</string>
+    <string name="revanced_uri_redirect_title">YouTube URL 리다이렉션</string>
     <string name="revanced_video_ads_summary_off">동영상 광고를 숨깁니다</string>
     <string name="revanced_video_ads_summary_on">동영상 광고를 보여줍니다</string>
     <string name="revanced_video_ads_title">동영상 광고 제거</string>
@@ -376,6 +397,7 @@
     <string name="sb_guidelines_preference_sum">구간 제출 시의 주의사항에 대한 내용이 포함되어 있습니다</string>
     <string name="sb_guidelines_preference_title">가이드라인 보기</string>
     <string name="sb_settings">SponsorBlock 설정</string>
+    <string name="sb_shorts_example_video">예제 비디오</string>
     <string name="sb_summary">sponsor.ajay.app의 API를 사용합니다</string>
     <string name="segments_endcards">최종 화면 / 크레딧</string>
     <string name="segments_endcards_sum">엔딩 크레딧이나 최종 화면이 나타나는 구간입니다. 단순히 결론을 말하는 부분은 여기에 포함되지 않습니다.</string>
