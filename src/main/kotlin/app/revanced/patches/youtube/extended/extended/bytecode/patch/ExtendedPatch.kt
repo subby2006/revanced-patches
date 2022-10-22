@@ -55,7 +55,8 @@ class ExtendedPatch : BytecodePatch() {
         "ytWordmarkHeader",
         "ytPremiumWordmarkHeader",
         "Theme.YouTube.Light",
-        "quick_actions_element_container"
+        "quick_actions_element_container",
+        "album_card"
     ).map { name ->
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
@@ -150,6 +151,22 @@ class ExtendedPatch : BytecodePatch() {
                                     mutableMethod!!.addInstruction(
                                         insertIndex,
                                         "invoke-static {v$viewRegister}, Lapp/revanced/integrations/patches/FullscreenButtonContainerRemoverPatch;->HideFullscreenButtonContainer(Landroid/view/View;)V"
+                                    )
+                                }
+
+                                resourceIds[5] -> { // music container
+                                    val insertIndex = index + 4
+                                    val invokeInstruction = instructions.elementAt(insertIndex)
+                                    if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
+
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
+                                    if (mutableMethod == null) mutableMethod =
+                                        mutableClass!!.findMutableMethodOf(method)
+
+                                    val viewRegister = 2
+                                    mutableMethod!!.addInstruction(
+                                        insertIndex,
+                                        "invoke-static {p$viewRegister}, Lapp/revanced/integrations/patches/HideMusicContainerPatch;->hideMusicContainer(Landroid/view/View;)V"
                                     )
                                 }
                             }
