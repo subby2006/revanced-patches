@@ -59,6 +59,7 @@
         <SwitchPreference android:title="@string/revanced_hide_time_and_seekbar_title" android:key="revanced_hide_time_and_seekbar" android:defaultValue="true" android:summaryOn="@string/revanced_hide_time_and_seekbar_summary_on" android:summaryOff="@string/revanced_hide_time_and_seekbar_summary_off" />
         <SwitchPreference android:title="@string/revanced_hide_email_address_title" android:key="revanced_hide_email_address" android:defaultValue="false" android:summaryOn="@string/revanced_hide_email_address_summary_on" android:summaryOff="@string/revanced_hide_email_address_summary_off" />
         <SwitchPreference android:title="@string/revanced_startup_shorts_player_title" android:key="revanced_startup_shorts_player_enabled" android:defaultValue="false" android:summaryOn="@string/revanced_startup_shorts_player_summary_on" android:summaryOff="@string/revanced_startup_shorts_player_summary_off" />
+        <SwitchPreference android:title="@string/revanced_mix_playlists_title" android:key="revanced_mix_playlists_hidden" android:defaultValue="false" android:summaryOn="@string/revanced_mix_playlists_summary_on" android:summaryOff="@string/revanced_mix_playlists_summary_off" />
     </PreferenceScreen>
     <PreferenceScreen android:title="@string/revanced_misc_title" android:key="misc" android:summary="@string/revanced_misc_summary">
         <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_misc_title" />
@@ -97,7 +98,6 @@
     </PreferenceScreen>
     <PreferenceScreen android:title="@string/revanced_extended_title" android:key="extended" android:summary="@string/revanced_extended_summary">
         <Preference android:title=" " android:selectable="false" android:summary="@string/accessibility_overflow" />
-        <SwitchPreference android:title="@string/revanced_my_mix_title" android:key="revanced_my_mix" android:defaultValue="true" android:summaryOn="@string/revanced_my_mix_summary_on" android:summaryOff="@string/revanced_my_mix_summary_off" />
         <SwitchPreference android:title="@string/revanced_inapp_browser_title" android:key="revanced_inapp_browser" android:defaultValue="false" android:summaryOn="@string/revanced_inapp_browser_summary_on" android:summaryOff="@string/revanced_inapp_browser_summary_off" />
         <SwitchPreference android:title="@string/revanced_uri_redirect_title" android:key="revanced_uri_redirect" android:defaultValue="true" android:summaryOn="@string/revanced_uri_redirect_summary_on" android:summaryOff="@string/revanced_uri_redirect_summary_off" />
         <SwitchPreference android:title="@string/revanced_music_container_title" android:key="revanced_music_container" android:defaultValue="true" android:summaryOn="@string/revanced_music_container_summary_on" android:summaryOff="@string/revanced_music_container_summary_off" />
@@ -126,6 +126,6 @@
             <Preference android:title="@string/dialog_title_warning" android:selectable="false" android:key="revanced_button_container" android:summary="@string/revanced_button_container_warning_summary" />
         </PreferenceScreen>
         <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_tool_used" />
-        <Preference android:title="revanced-patches" android:selectable="false" android:summary="2.83.3" />
+        <Preference android:title="revanced-patches" android:selectable="false" android:summary="2.85.1" />
     </PreferenceScreen>
 </PreferenceScreen>

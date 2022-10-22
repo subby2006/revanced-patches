@@ -1,3 +1,38 @@
+## [2.85.1](https://github.com/revanced/revanced-patches/compare/v2.85.0...v2.85.1) (2022-10-21)
+
+
+### Bug Fixes
+
+* **youtube/theme:** extend dark mode theming ([#827](https://github.com/revanced/revanced-patches/issues/827)) ([6d803c5](https://github.com/revanced/revanced-patches/commit/6d803c5386e1f6f6fb6a7fa0a9f0bb81ee1022ac))
+
+# [2.85.0](https://github.com/revanced/revanced-patches/compare/v2.84.1...v2.85.0) (2022-10-20)
+
+
+### Features
+
+* **youtube:** `hide-captions-button` patch ([#770](https://github.com/revanced/revanced-patches/issues/770)) ([478af6a](https://github.com/revanced/revanced-patches/commit/478af6ad54ffdf6f99abab35a84a4f50b59d28c8))
+
+## [2.84.1](https://github.com/revanced/revanced-patches/compare/v2.84.0...v2.84.1) (2022-10-20)
+
+
+### Bug Fixes
+
+* **youtube/hide-mix-playlists:** correct switch title, summary and defaults ([#821](https://github.com/revanced/revanced-patches/issues/821)) ([f9eea33](https://github.com/revanced/revanced-patches/commit/f9eea332cea0b8c3d5c3dfff645b60861e925b5a))
+
+# [2.84.0](https://github.com/revanced/revanced-patches/compare/v2.83.3...v2.84.0) (2022-10-20)
+
+
+### Features
+
+* **youtube:** `hide-mix-playlists` patch  ([#816](https://github.com/revanced/revanced-patches/issues/816)) ([e76c73b](https://github.com/revanced/revanced-patches/commit/e76c73b455c65aa605e418f19d88b64e0e244901))
+
+## [2.83.3](https://github.com/revanced/revanced-patches/compare/v2.83.2...v2.83.3) (2022-10-20)
+
+
+### Bug Fixes
+
+* **youtube/video-ads:** revert faulty method patch ([#820](https://github.com/revanced/revanced-patches/issues/820)) ([666248a](https://github.com/revanced/revanced-patches/commit/666248ae65d1ee84d1a278714c0dcd2528c5dd14))
+
 ## [2.83.2](https://github.com/revanced/revanced-patches/compare/v2.83.1...v2.83.2) (2022-10-19)
 
 

@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.extended.mymix.fingerprints
+package app.revanced.patches.youtube.layout.hidemixplaylists.fingerprints
 
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
@@ -8,10 +8,10 @@ import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
-@Name("my-mix-fingerprint")
+@Name("mix-playlists-fingerprint")
 @YouTubeCompatibility
 @Version("0.0.1")
-object MyMixFingerprint : MethodFingerprint(
+object MixPlaylistsPatchFingerprint : MethodFingerprint(
     "V", AccessFlags.PUBLIC or AccessFlags.CONSTRUCTOR, listOf("L", "L", "L", "L", "L", "L", "L"), listOf(
         Opcode.INVOKE_DIRECT,
         Opcode.IPUT_OBJECT,
