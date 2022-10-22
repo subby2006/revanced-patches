@@ -71,6 +71,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `custom-playback-speed` | Adds more video playback speed options. | 17.40.41 |
 | `hdr-auto-brightness` | Makes the brightness of HDR videos follow the system default. | 17.40.41 |
 | `hide-button-container` | Removes button container. | 17.40.41 |
+| `inapp-browser` | Use an external browser to open the url. | 17.40.41 |
 | `hide-my-mix` | Remove My Mix from home feed and video player. | 17.40.41 |
 | `optimize-resource` | Optimize resources to make your app lightweight, Add missing translations to YouTube. | all |
 | `remember-video-quality` | Adds the ability to remember the video quality you chose in the video quality flyout. | 17.40.41 |
