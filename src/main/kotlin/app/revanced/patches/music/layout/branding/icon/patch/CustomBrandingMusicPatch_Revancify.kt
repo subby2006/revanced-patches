@@ -26,7 +26,7 @@ import org.w3c.dom.Element
 @Description("Changes the YouTube Music launcher icon to your choice (Revancify).")
 @YouTubeMusicCompatibility
 @Version("0.0.1")
-class CustomBrandingMusicPatch_decipher3114 : ResourcePatch {
+class CustomBrandingMusicPatch_revancify : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
         val classLoader = this.javaClass.classLoader
         val resDirectory = context["res"]
@@ -48,7 +48,7 @@ class CustomBrandingMusicPatch_decipher3114 : ResourcePatch {
         ).forEach { (iconDirectory, size) ->
             AppiconNames.forEach iconLoop@{ iconName ->
                 Files.copy(
-                    classLoader.getResourceAsStream("branding-music/decipher3114/launchericon/$size/$iconName.png")!!,
+                    classLoader.getResourceAsStream("branding-music/revancify/launchericon/$size/$iconName.png")!!,
                     resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
@@ -61,7 +61,7 @@ class CustomBrandingMusicPatch_decipher3114 : ResourcePatch {
                 val relativePath = "$path/$name.xml"
 
                 Files.copy(
-                    classLoader.getResourceAsStream("branding-music/decipher3114/monochromeicon/$relativePath")!!,
+                    classLoader.getResourceAsStream("branding-music/revancify/monochromeicon/$relativePath")!!,
                     context["res"].resolve(relativePath).toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
