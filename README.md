@@ -32,17 +32,17 @@ The unofficial Patch bundle provided by ReVanced Extended
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
-| `swipe-controls` | Adds volume and brightness swipe controls. | 17.40.41 |
-| `overlay-buttons` | Add overlay buttons for YouTube - copy, copy with timestamp, repeat, download. | 17.40.41 |
-| `overlay-buttons-alternative-icon` | Use alternative Icons for the overlay buttons. | 17.40.41 |
-| `seekbar-tapping` | Enables tap-to-seek on the seekbar of the video player. | 17.40.41 |
-| `disable-create-button` | Hides the create button in the navigation bar. | 17.40.41 |
+| `swipe-controls` | Adds volume and brightness swipe controls. | 17.41.37 |
+| `overlay-buttons` | Add overlay buttons for YouTube - copy, copy with timestamp, repeat, download. | 17.41.37 |
+| `overlay-buttons-alternative-icon` | Use alternative Icons for the overlay buttons. | 17.41.37 |
+| `seekbar-tapping` | Enables tap-to-seek on the seekbar of the video player. | 17.41.37 |
+| `disable-create-button` | Hides the create button in the navigation bar. | 17.41.37 |
 | `hide-cast-button` | Hides the cast button in the video player. | all |
-| `return-youtube-dislike` | Shows the dislike count of videos using the Return YouTube Dislike API. | 17.40.41 |
-| `hide-autoplay-button` | Hides the autoplay button in the video player. | 17.40.41 |
-| `hide-captions-button` | Hides the captions button in the video player. | 17.40.41 |
-| `disable-auto-player-popup-panels` | Disable automatic popup panels (playlist or live chat) on video player. | 17.40.41 |
-| `disable-startup-shorts-player` | Disables playing YouTube Shorts when launching YouTube. | 17.40.41 |
+| `return-youtube-dislike` | Shows the dislike count of videos using the Return YouTube Dislike API. | 17.41.37 |
+| `hide-autoplay-button` | Hides the autoplay button in the video player. | 17.41.37 |
+| `hide-captions-button` | Hides the captions button in the video player. | 17.41.37 |
+| `disable-auto-player-popup-panels` | Disable automatic popup panels (playlist or live chat) on video player. | 17.41.37 |
+| `disable-startup-shorts-player` | Disables playing YouTube Shorts when launching YouTube. | 17.41.37 |
 | `custom-branding-icon-red` | Changes the YouTube launcher icon to your choice (defaults to ReVanced Red). | all |
 | `custom-branding-icon-blue` | Changes the YouTube launcher icon to your choice (ReVanced Blue). | all |
 | `custom-branding-icon-revancify` | Changes the YouTube launcher icon to your choice (Revancify). | all |
@@ -50,38 +50,38 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `amoled` | Enables pure black theme. | all |
 | `materialyou` | Enables MaterialYou theme for Android 12+. | all |
 | `remove-playerbutton-background` | Disable Player Button Overlay Background. | all |
-| `hide-pip-notification` | Disable pip notification when you first launch pip mode. | 17.40.41 |
-| `hide-time-and-seekbar` | Hides progress bar and time counter on videos. | 17.40.41 |
-| `extended` | Add ReVanced Extended Features. | 17.40.41 |
-| `old-quality-layout` | Enables the original quality flyout menu. | 17.40.41 |
-| `hide-shorts-button` | Hides the shorts button on the navigation bar. | 17.40.41 |
-| `hide-watermark` | Hides creator's watermarks on videos. | 17.40.41 |
-| `hide-email-address` | Hides the email address in the account switcher. | 17.40.41 |
-| `sponsorblock` | Integrate SponsorBlock. | 17.40.41 |
-| `enable-wide-searchbar` | Replaces the search icon with a wide search bar. This will hide the YouTube logo when active. | 17.40.41 |
-| `tablet-mini-player` | Enables the tablet mini player layout. | 17.40.41 |
-| `disable-auto-captions` | Disable forced captions from being automatically enabled. | 17.40.41 |
-| `minimized-playback` | Enables minimized and background playback. | 17.40.41 |
+| `hide-pip-notification` | Disable pip notification when you first launch pip mode. | 17.41.37 |
+| `hide-time-and-seekbar` | Hides progress bar and time counter on videos. | 17.41.37 |
+| `extended` | Add ReVanced Extended Features. | 17.41.37 |
+| `old-quality-layout` | Enables the original quality flyout menu. | 17.41.37 |
+| `hide-shorts-button` | Hides the shorts button on the navigation bar. | 17.41.37 |
+| `hide-watermark` | Hides creator's watermarks on videos. | 17.41.37 |
+| `hide-email-address` | Hides the email address in the account switcher. | 17.41.37 |
+| `sponsorblock` | Integrate SponsorBlock. | 17.41.37 |
+| `enable-wide-searchbar` | Replaces the search icon with a wide search bar. This will hide the YouTube logo when active. | 17.41.37 |
+| `tablet-mini-player` | Enables the tablet mini player layout. | 17.41.37 |
+| `disable-auto-captions` | Disable forced captions from being automatically enabled. | 17.41.37 |
+| `minimized-playback` | Enables minimized and background playback. | 17.41.37 |
 | `client-spoof` | Spoofs the YouTube or Vanced client to prevent playback issues. | all |
-| `client-spoof-v2` | Spoof the YouTube client version to prevent fullscreen rotation issue. | 17.40.41 |
+| `client-spoof-v2` | Spoof the YouTube client version to prevent fullscreen rotation issue. | 17.41.37 |
 | `translations` | Add Crowdin Translations. | all |
-| `custom-video-buffer` | Lets you change the buffers of videos. | 17.40.41 |
-| `always-autorepeat` | Always repeats the playing video again. | 17.40.41 |
-| `microg-support` | Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG. | 17.40.41 |
-| `custom-package-name` | Allows ReVanced Extended to run under a different package name than ReVanced (NON-ROOT users only!). | 17.40.41 |
+| `custom-video-buffer` | Lets you change the buffers of videos. | 17.41.37 |
+| `always-autorepeat` | Always repeats the playing video again. | 17.41.37 |
+| `microg-support` | Allows YouTube ReVanced to run without root and under a different package name with Vanced MicroG. | 17.41.37 |
+| `custom-package-name` | Allows ReVanced Extended to run under a different package name than ReVanced (NON-ROOT users only!). | 17.41.37 |
 | `settings` | Adds settings for ReVanced to YouTube. | all |
-| `custom-playback-speed` | Adds more video playback speed options. | 17.40.41 |
-| `hdr-auto-brightness` | Makes the brightness of HDR videos follow the system default. | 17.40.41 |
-| `hide-button-container` | Removes button container. | 17.40.41 |
-| `inapp-browser` | Use an external browser to open the url. | 17.40.41 |
-| `parse-uri-redirect` | Follow direct links, bypassing youtube.com/redirect. | 17.40.41 |
-| `hide-my-mix` | Remove My Mix from home feed and video player. | 17.40.41 |
+| `custom-playback-speed` | Adds more video playback speed options. | 17.41.37 |
+| `hdr-auto-brightness` | Makes the brightness of HDR videos follow the system default. | 17.41.37 |
+| `hide-button-container` | Removes button container. | 17.41.37 |
+| `inapp-browser` | Use an external browser to open the url. | 17.41.37 |
+| `parse-uri-redirect` | Follow direct links, bypassing youtube.com/redirect. | 17.41.37 |
+| `hide-my-mix` | Remove My Mix from home feed and video player. | 17.41.37 |
 | `optimize-resource` | Optimize resources to make your app lightweight, Add missing translations to YouTube. | all |
-| `remember-video-quality` | Adds the ability to remember the video quality you chose in the video quality flyout. | 17.40.41 |
-| `default-video-speed` | Adds the ability to set default video speed. | 17.40.41 |
-| `video-ads` | Removes ads in the video player. | 17.40.41 |
-| `general-ads` | Removes general ads. | 17.40.41 |
-| `hide-infocard-suggestions` | Hides infocards in videos. | 17.40.41 |
+| `remember-video-quality` | Adds the ability to remember the video quality you chose in the video quality flyout. | 17.41.37 |
+| `default-video-speed` | Adds the ability to set default video speed. | 17.41.37 |
+| `video-ads` | Removes ads in the video player. | 17.41.37 |
+| `general-ads` | Removes general ads. | 17.41.37 |
+| `hide-infocard-suggestions` | Hides infocards in videos. | 17.41.37 |
 | `website` | Leave website URL in ReVanced settings. | all |
 </details>
 
@@ -141,7 +141,8 @@ Example:
           "17.34.36",
           "17.36.39",
           "17.38.36",
-          "17.40.41"
+          "17.40.41",
+          "17.41.37"
         ]
       }
     ]
