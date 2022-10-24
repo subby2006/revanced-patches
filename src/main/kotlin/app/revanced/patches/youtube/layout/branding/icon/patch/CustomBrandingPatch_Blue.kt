@@ -38,6 +38,14 @@ class CustomBrandingPatch_Blue : ResourcePatch {
             "ic_launcher_round"
         )
 
+        // Splash Icon
+        val SplashiconNames = arrayOf(
+            "product_logo_youtube_color_24",
+            "product_logo_youtube_color_36",
+            "product_logo_youtube_color_144",
+            "product_logo_youtube_color_192"
+        )
+
         mapOf(
             "xxxhdpi" to 192,
             "xxhdpi" to 144,
@@ -52,7 +60,33 @@ class CustomBrandingPatch_Blue : ResourcePatch {
                     StandardCopyOption.REPLACE_EXISTING
                 )
             }
+            SplashiconNames.forEach iconLoop@{ iconName ->
+                Files.copy(
+                    classLoader.getResourceAsStream("branding/blue/splashicon/$size/$iconName.png")!!,
+                    resDirectory.resolve("drawable-$iconDirectory").resolve("$iconName.png").toPath(),
+                    StandardCopyOption.REPLACE_EXISTING
+                )
+            }
         }
+
+        // Splash Icon
+        context["res/values-v31/styles.xml"].writeText(
+            context["res/values-v31/styles.xml"].readText()
+                .replace(
+                    "<item name=\"android:windowSplashScreenAnimatedIcon\">@drawable/avd_anim</item>",
+                    ""
+                )
+        )
+
+        try {
+            context["res/values-night-v31/styles.xml"].writeText(
+                context["res/values-night-v31/styles.xml"].readText()
+                    .replace(
+                        "<item name=\"android:windowSplashScreenAnimatedIcon\">@drawable/avd_anim</item>",
+                        ""
+                    )
+        )
+        } catch (e: Exception) {}
 
         // MonoChrome Icon
         arrayOf("drawable" to arrayOf("adaptive_monochrome_ic_youtube_launcher")).forEach { (path, resourceNames) ->
