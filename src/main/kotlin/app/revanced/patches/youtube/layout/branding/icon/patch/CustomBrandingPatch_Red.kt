@@ -77,6 +77,8 @@ class CustomBrandingPatch_Red : ResourcePatch {
                                 ""
                         )
         )
+
+        try {
         context["res/values-night-v31/styles.xml"].writeText(
                 context["res/values-night-v31/styles.xml"].readText()
                         .replace(
@@ -84,6 +86,7 @@ class CustomBrandingPatch_Red : ResourcePatch {
                                 ""
                         )
         )
+        } catch (e: Exception) {}
 
         // MonoChrome Icon
         arrayOf("drawable" to arrayOf("adaptive_monochrome_ic_youtube_launcher")).forEach { (path, resourceNames) ->
