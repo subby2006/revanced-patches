@@ -33,7 +33,7 @@ class NewVideoIdPatch : BytecodePatch(
         videoIdRegister =
             (insertMethod.implementation!!.instructions[result.scanResult.patternScanResult!!.endIndex] as OneRegisterInstruction).registerA
 
-        injectCall("Lapp/revanced/integrations/videoplayer/VideoInformation;->setCurrentVideoId(Ljava/lang/String;)V")
+        injectCall("Lapp/revanced/integrations/videoplayer/NewVideoInformation;->setCurrentVideoId(Ljava/lang/String;)V")
 
         offset++ // offset so setCurrentVideoId is called before any injected call
 
