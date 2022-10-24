@@ -22,7 +22,7 @@ import java.io.File
 @Description("Disable Player Button Overlay Background")
 @YouTubeCompatibility
 @Version("0.0.1")
-class AmoledPatch : ResourcePatch {
+class PlayerButtonOverlayPatch : ResourcePatch {
     private val resourceFileNames = arrayOf(
         "player_button_circle_background.xml"
     )
