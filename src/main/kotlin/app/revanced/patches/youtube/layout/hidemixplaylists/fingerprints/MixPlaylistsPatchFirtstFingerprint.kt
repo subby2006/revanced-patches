@@ -11,7 +11,7 @@ import org.jf.dexlib2.Opcode
 @Name("mix-playlists-fingerprint")
 @YouTubeCompatibility
 @Version("0.0.1")
-object MixPlaylistsPatchFingerprint : MethodFingerprint(
+object MixPlaylistsPatchFirtstFingerprint : MethodFingerprint(
     "V", AccessFlags.PUBLIC or AccessFlags.CONSTRUCTOR, listOf("L", "L", "L", "L", "L", "L", "L"), listOf(
         Opcode.INVOKE_DIRECT,
         Opcode.IPUT_OBJECT,
