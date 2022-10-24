@@ -355,9 +355,9 @@
     <string name="revanced_swipe_volume_summary_off">滑动控制音量已禁用</string>
     <string name="revanced_swipe_volume_summary_on">滑动控制音量已启用</string>
     <string name="revanced_swipe_volume_title">滑动音量控制</string>
-    <string name="revanced_tablet_miniplayer_summary_off">小窗模式已禁用</string>
-    <string name="revanced_tablet_miniplayer_summary_on">小窗模式已启用</string>
-    <string name="revanced_tablet_miniplayer_title">小窗模式</string>
+    <string name="revanced_tablet_miniplayer_summary_off">平板迷你播放器已禁用</string>
+    <string name="revanced_tablet_miniplayer_summary_on">平板迷你播放器已启用</string>
+    <string name="revanced_tablet_miniplayer_title">平板迷你播放器</string>
     <string name="revanced_tool_used">使用的工具</string>
     <string name="revanced_uri_redirect_summary_off">"遵循 Youtube 的重定向策略"</string>
     <string name="revanced_uri_redirect_summary_on">绕开 Youtube 重定向打开链接</string>
@@ -469,4 +469,5 @@
     <string name="vote_started">正在为片段投票…</string>
     <string name="vote_succeeded">投票成功</string>
     <string name="vote_upvote">赞成票</string>
+    <string name="website">网站</string>
 </resources>

@@ -22,6 +22,12 @@
     <string name="downloader_not_installed_warning">não está instalado. Por favor, instale-o.</string>
     <string name="enable_sb">Habilitar SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock é uma ferramenta comunitária para pular anúncios no YouTube</string>
+    <string name="enable_sb_shorts">Enable SponsorBlock at Shorts (Alpha)</string>
+    <string name="enable_sb_shorts_content">"Ative o Sponsorblock nos shorts do YouTube. 
+
+Como esse recurso ainda é Alpha, ele só funciona no segmento 'Pular automaticamente'.
+"</string>
+    <string name="enable_sb_shorts_sum">Enable Sponsorblock in YouTube Shorts.</string>
     <string name="enable_segmadding">Habilitar envio de novos segmentos</string>
     <string name="enable_segmadding_sum">Ative isto para habilitar o envio de segmento -experimental (tem problemas de visibilidade do botão)</string>
     <string name="enable_voting">Habilitar votação</string>
@@ -144,6 +150,7 @@
     <string name="revanced_buffer_summary">Configurações personalizadas para buffer de vídeo</string>
     <string name="revanced_buffer_title">Configurações de buffer</string>
     <string name="revanced_button_container_summary">Oculta o componente do contêiner do botão</string>
+    <string name="revanced_button_container_title">Hide button container (Experimental)</string>
     <string name="revanced_button_container_warning_summary">este recurso não suporta completamente o novo layout!</string>
     <string name="revanced_cast_button_summary_off">Botão \"Transmitir\" está oculto</string>
     <string name="revanced_cast_button_summary_on">Botão \"Transmitir\" é exibido</string>
@@ -186,6 +193,9 @@
     <string name="revanced_force_fullscreen_rotation_summary_off">Rotação de tela cheia segue a política padrão do YouTube</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Bloqueie a versão do YouTube para ativar a rotação em tela cheia</string>
     <string name="revanced_force_fullscreen_rotation_title">Ativar Rotação de Tela Cheia (Experimental)</string>
+    <string name="revanced_fullscreen_button_container_summary_off">O contêiner do botão de tela cheia é mostrado</string>
+    <string name="revanced_fullscreen_button_container_summary_on">O contêiner do botão de tela cheia está oculto</string>
+    <string name="revanced_fullscreen_button_container_title">Fullscreen Button Container</string>
     <string name="revanced_hdr_full_brightness_summary_off">O brilho do vídeo está definido como máximo em vídeos de paisagem HDR</string>
     <string name="revanced_hdr_full_brightness_summary_on">O brilho do vídeo seguirá o brilho do dispositivo em vídeos de paisagem HDR</string>
     <string name="revanced_hdr_full_brightness_title">Substituir o brilho do vídeo HDR</string>
@@ -228,9 +238,15 @@
     <string name="revanced_hide_thanks_button_summary_off">O botão de agradecimento é mostrado</string>
     <string name="revanced_hide_thanks_button_summary_on">O botão de agradecimento está oculto</string>
     <string name="revanced_hide_thanks_button_title">Esconder botão de agradecimento</string>
+    <string name="revanced_hide_time_and_seekbar_summary_off">O tempo e a barra de busca seram ocultos</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">O tempo e a barra de busca é exibido</string>
+    <string name="revanced_hide_time_and_seekbar_title">Barra de tempo e busca</string>
     <string name="revanced_home_ads_summary_off">Anúncios na tela inicial estão ocultos</string>
     <string name="revanced_home_ads_summary_on">Anúncios na tela inicial serão exibidos</string>
     <string name="revanced_home_ads_title">Anúncios na tela inicial</string>
+    <string name="revanced_inapp_browser_summary_off">Abrir links externos dentro do aplicativo</string>
+    <string name="revanced_inapp_browser_summary_on">Abrir links externos no navegador</string>
+    <string name="revanced_inapp_browser_title">Navegador do aplicativo</string>
     <string name="revanced_info_cards_summary_off">Cartões de informação estão ocultos</string>
     <string name="revanced_info_cards_summary_on">Cartões de informação são exibidos</string>
     <string name="revanced_info_cards_title">Cartões de informação</string>
@@ -246,6 +262,12 @@
     <string name="revanced_minimized_playback_on">A reprodução em segundo plano está ativada</string>
     <string name="revanced_misc_summary">Patches diversos</string>
     <string name="revanced_misc_title">Diversos</string>
+    <string name="revanced_mix_playlists_summary_off">Ordem aleatória da lista de reprodução está oculta</string>
+    <string name="revanced_mix_playlists_summary_on">Ordem aleatória da lista de reprodução é exibida</string>
+    <string name="revanced_mix_playlists_title">Ordem aleatória</string>
+    <string name="revanced_music_container_summary_off">O Contêiner de Música é mostrado</string>
+    <string name="revanced_music_container_summary_on">O Contêiner de Música está oculto</string>
+    <string name="revanced_music_container_title">Contêiner de Música</string>
     <string name="revanced_new_actionbar_summary_off">Estilo da barra de pesquisa é definido pelo aplicativo</string>
     <string name="revanced_new_actionbar_summary_on">Forçando a barra de pesquisa ampla</string>
     <string name="revanced_new_actionbar_title">Barra de pesquisa ampla</string>
@@ -339,6 +361,9 @@ Você tem certeza de que deseja continuar?"</string>
     <string name="revanced_tablet_miniplayer_summary_on">Miniplayer de Tablet está sendo usado</string>
     <string name="revanced_tablet_miniplayer_title">Miniplayer Tablet</string>
     <string name="revanced_tool_used">ferramenta usada</string>
+    <string name="revanced_uri_redirect_summary_off">"Siga a política de redirecionamento do YouTube"</string>
+    <string name="revanced_uri_redirect_summary_on">Abra o URL ignorando o youtube.com/redirect</string>
+    <string name="revanced_uri_redirect_title">Redirecionamento de links do YouTube</string>
     <string name="revanced_video_ads_summary_off">Anúncios de vídeo estão ocultos</string>
     <string name="revanced_video_ads_summary_on">Anúncios de vídeo exibidos</string>
     <string name="revanced_video_ads_title">Anúncios em Vídeo</string>
@@ -373,6 +398,7 @@ Se você deseja desativar isto, defina o seguinte para OFF:"</string>
     <string name="sb_guidelines_preference_sum">Diretrizes contém dicas e regras sobre a apresentação de segmentos</string>
     <string name="sb_guidelines_preference_title">Ver diretrizes</string>
     <string name="sb_settings">Configurações do SponsorBlock</string>
+    <string name="sb_shorts_example_video">Example Video</string>
     <string name="sb_summary">Usa a API sponsor.ajay.app</string>
     <string name="segments_endcards">Notas finais/Créditos</string>
     <string name="segments_endcards_sum">Créditos ou quando os cartões de finalização do YouTube aparecem. Não se trata de conclusões faladas</string>
@@ -438,4 +464,5 @@ Se você deseja desativar isto, defina o seguinte para OFF:"</string>
     <string name="vote_started">Votando para segmento…</string>
     <string name="vote_succeeded">Votado com sucesso</string>
     <string name="vote_upvote">Curtir</string>
+    <string name="website">Website</string>
 </resources>

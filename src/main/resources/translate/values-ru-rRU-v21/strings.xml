@@ -24,7 +24,6 @@
     <string name="enable_sb_sum">Включите для пропуска спонсорских сегментов</string>
     <string name="enable_sb_shorts">Включить SponsorBlock в Shorts (Альфа)</string>
     <string name="enable_sb_shorts_content">"Включить Sponsorblock в YouTube Shorts.
-
 Поскольку эта функция все еще находится в стадии альфа-тестирования, она работает только в сегменте 'Пропускать автоматически'.
 "</string>
     <string name="enable_sb_shorts_sum">Включить Sponsorblock в YouTube Shorts.</string>
@@ -83,7 +82,7 @@
     <string name="litho_hide_suggestions_on">Предложения скрыты</string>
     <string name="litho_image_shelf">Скрыть публикации со статическими изображениями</string>
     <string name="litho_image_shelf_off">Публикации с изображениями отображены</string>
-    <string name="litho_image_shelf_on">Раздел \"Shorts\" скрыт</string>
+    <string name="litho_image_shelf_on">Публикации с изображениями скрыты</string>
     <string name="litho_in_feed_survey">Скрыть опросы в фиде</string>
     <string name="litho_in_feed_survey_off">Опросы фида отображены</string>
     <string name="litho_in_feed_survey_on">Опросы фида скрыты</string>
@@ -152,6 +151,7 @@
     <string name="revanced_buffer_summary">Пользовательские настройки видеобуфера</string>
     <string name="revanced_buffer_title">Настройки видеобуфера</string>
     <string name="revanced_button_container_summary">Настройки отображения кнопок под плеером</string>
+    <string name="revanced_button_container_title">Кнопки под плеером (Экспериментально)</string>
     <string name="revanced_button_container_warning_summary">Внимание! В новом интерфейсе эти опции поддерживаются не полностью!</string>
     <string name="revanced_cast_button_summary_off">Кнопка трансляции скрыта</string>
     <string name="revanced_cast_button_summary_on">Кнопка трансляции отображена</string>
@@ -194,8 +194,9 @@
     <string name="revanced_force_fullscreen_rotation_summary_off">Автоповорот в полноэкранном режиме отключен</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Автоповорот в полноэкранном режиме включен</string>
     <string name="revanced_force_fullscreen_rotation_title">Автоповорот в полноэкранном режиме</string>
-    <string name="revanced_fullscreen_button_container_summary_off">Fullscreen Button Container is shown</string>
-    <string name="revanced_fullscreen_button_container_summary_on">Fullscreen Button Container is hidden</string>
+    <string name="revanced_fullscreen_button_container_summary_off">Кнопки под плеером отображаются</string>
+    <string name="revanced_fullscreen_button_container_summary_on">Кнопки под плеером скрыты</string>
+    <string name="revanced_fullscreen_button_container_title">Кнопки под плеером в полноэкранном режиме</string>
     <string name="revanced_hdr_full_brightness_summary_off">Автоматическая яркость HDR отключена</string>
     <string name="revanced_hdr_full_brightness_summary_on">Автоматическая яркость HDR включена</string>
     <string name="revanced_hdr_full_brightness_title">Автоматическая яркость HDR</string>
@@ -238,12 +239,15 @@
     <string name="revanced_hide_thanks_button_summary_off">Кнопка \"Спасибо\" показана</string>
     <string name="revanced_hide_thanks_button_summary_on">Кнопка \"Спасибо\" скрыта</string>
     <string name="revanced_hide_thanks_button_title">Скрыть кнопку \"Спасибо\"</string>
-    <string name="revanced_hide_time_and_seekbar_summary_off">Time and seekbar are hidden</string>
-    <string name="revanced_hide_time_and_seekbar_summary_on">Time and seekbar are shown</string>
-    <string name="revanced_hide_time_and_seekbar_title">Time and seekbar</string>
+    <string name="revanced_hide_time_and_seekbar_summary_off">Время и прогресс скрыты</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">Время и прогресс отображаются</string>
+    <string name="revanced_hide_time_and_seekbar_title">Время и прогресс видео</string>
     <string name="revanced_home_ads_summary_off">Реклама на главной странице скрыта</string>
     <string name="revanced_home_ads_summary_on">Реклама на главной странице отображается</string>
     <string name="revanced_home_ads_title">Скрыть рекламу на главной странице</string>
+    <string name="revanced_inapp_browser_summary_off">Открывать внешние ссылки в приложении</string>
+    <string name="revanced_inapp_browser_summary_on">Открывать внешние ссылки в стороннем браузере</string>
+    <string name="revanced_inapp_browser_title">Встроенный браузер</string>
     <string name="revanced_info_cards_summary_off">Подсказки скрыты</string>
     <string name="revanced_info_cards_summary_on">Подсказки включены</string>
     <string name="revanced_info_cards_title">Подсказки</string>
@@ -258,6 +262,12 @@
     <string name="revanced_minimized_playback_on">Воспроизведение в фоне включено</string>
     <string name="revanced_misc_summary">Прочие настройки</string>
     <string name="revanced_misc_title">Разное</string>
+    <string name="revanced_mix_playlists_summary_off">Плейлист Микс скрыт</string>
+    <string name="revanced_mix_playlists_summary_on">Плейлист Микс отображается</string>
+    <string name="revanced_mix_playlists_title">Плейлист Микс</string>
+    <string name="revanced_music_container_summary_off">Раздел музыки отображается</string>
+    <string name="revanced_music_container_summary_on">Раздел музыки скрыт</string>
+    <string name="revanced_music_container_title">Раздел Музыки</string>
     <string name="revanced_new_actionbar_summary_off">Широкая панель поиска отключена</string>
     <string name="revanced_new_actionbar_summary_on">Широкая панель поиска включена</string>
     <string name="revanced_new_actionbar_title">Включить широкую панель поиска</string>
@@ -351,6 +361,9 @@
     <string name="revanced_tablet_miniplayer_summary_on">Планшетный миниплеер включен</string>
     <string name="revanced_tablet_miniplayer_title">Планшетный миниплеер</string>
     <string name="revanced_tool_used">инструмент использован</string>
+    <string name="revanced_uri_redirect_summary_off">"Следовать политике перенаправления YouTube"</string>
+    <string name="revanced_uri_redirect_summary_on">Обходить youtube.com/redirect при открытии ссылок</string>
+    <string name="revanced_uri_redirect_title">Перенаправление ссылок YouTube</string>
     <string name="revanced_video_ads_summary_off">Реклама в видео скрыта</string>
     <string name="revanced_video_ads_summary_on">Реклама в видео отображена</string>
     <string name="revanced_video_ads_title">Скрыть рекламу в видео</string>
@@ -375,7 +388,6 @@
     <string name="rvx_dialog_message">"Начиная с YouTube v17.33.xx, автоповорот в полноэкранном режиме следует за состоянием переключателя автоповорота системы.
 Поэтому версия YouTube была изменена на v17.32.39, чтобы обойти проблему с автоповоротом в полноэкранном режиме.
 Соответственно, в информации о приложении версия YouTube отображается как v17.32.39.
-
 Отключить данную опцию можно в меню:"</string>
     <string name="rvx_dialog_title">Расширенные настройки ReVanced</string>
     <string name="sb_guidelines_popup_already_read">Уже прочитано</string>
@@ -405,7 +417,7 @@
     <string name="segments_subscribe_sum">Когда в середине контента есть короткое напоминание поставить лайк и подписаться</string>
     <string name="settings_export_failed">Не удалось экспортировать настройки</string>
     <string name="settings_ie">Импорт/экспорт настроек</string>
-    <string name="settings_ie_sum">Это вся ваша конфигурация, применимая в расширении для ПК в формате JSON. Сюда входит ваш идентификатор пользователя, поэтому делитесь им им с умом</string>
+    <string name="settings_ie_sum">Это вся ваша конфигурация, применимая в расширении для ПК в формате JSON. Сюда входит ваш идентификатор пользователя, поэтому делитесь им с умом</string>
     <string name="settings_import_failed">Не удалось импортировать настройки</string>
     <string name="settings_import_successful">Настройки успешно импортированы</string>
     <string name="skip_automatically">Автоматически пропускать</string>
@@ -437,7 +449,6 @@
     <string name="submit_failed_duplicate">"Невозможно отправить сегмент.
 Уже существует"</string>
     <string name="submit_failed_forbidden">"Невозможно отправить сегмент.
-
 %s"</string>
     <string name="submit_failed_rate_limit">"Не удается отправить сегмент.
 Лимит запросов (Слишком много от одного пользователя или IP)"</string>
@@ -449,7 +460,6 @@
     <string name="vote_category">Изменить категорию</string>
     <string name="vote_downvote">Голосовать против</string>
     <string name="vote_failed_forbidden">"Невозможно проголосовать за сегмент.
-
 %s"</string>
     <string name="vote_failed_rate_limit">"Невозможно проголосовать за сегмент.
 Превышен лимит запросов (Слишком много от одного и того же пользователя или IP)"</string>
@@ -458,4 +468,5 @@
     <string name="vote_started">Голосование за сегмент…</string>
     <string name="vote_succeeded">Проголосовано успешно</string>
     <string name="vote_upvote">Голосовать за</string>
+    <string name="website">Веб-сайт</string>
 </resources>
