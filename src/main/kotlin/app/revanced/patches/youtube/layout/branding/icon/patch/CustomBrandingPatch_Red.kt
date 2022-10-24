@@ -71,20 +71,20 @@ class CustomBrandingPatch_Red : ResourcePatch {
 
         // Splash Icon
         context["res/values-v31/styles.xml"].writeText(
-                context["res/values-v31/styles.xml"].readText()
-                        .replace(
-                                "<item name=\"android:windowSplashScreenAnimatedIcon\">@drawable/avd_anim</item>",
-                                ""
-                        )
+            context["res/values-v31/styles.xml"].readText()
+                .replace(
+                    "<item name=\"android:windowSplashScreenAnimatedIcon\">@drawable/avd_anim</item>",
+                    ""
+                )
         )
 
         try {
-        context["res/values-night-v31/styles.xml"].writeText(
+            context["res/values-night-v31/styles.xml"].writeText(
                 context["res/values-night-v31/styles.xml"].readText()
-                        .replace(
-                                "<item name=\"android:windowSplashScreenAnimatedIcon\">@drawable/avd_anim</item>",
-                                ""
-                        )
+                    .replace(
+                        "<item name=\"android:windowSplashScreenAnimatedIcon\">@drawable/avd_anim</item>",
+                        ""
+                    )
         )
         } catch (e: Exception) {}
 
