@@ -4,6 +4,8 @@ import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
+import app.revanced.patcher.extensions.addInstruction
+import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
@@ -12,6 +14,7 @@ import app.revanced.patches.youtube.layout.castbutton.patch.HideCastButtonPatch
 import app.revanced.patches.youtube.misc.clientspoof.patch.ClientSpoofPatch
 import app.revanced.extensions.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.microg.fingerprints.*
+import app.revanced.patches.youtube.layout.sponsorblock.bytecode.fingerprints.WatchWhileActivityFingerprint
 import app.revanced.patches.youtube.misc.microg.patch.resource.MicroGResourcePatch
 import app.revanced.patches.youtube.misc.microg.shared.Constants.PACKAGE_NAME
 import app.revanced.patches.youtube.misc.microg.shared.Constants.REVANCED_PACKAGE_NAME
@@ -38,9 +41,10 @@ class MicroGBytecodePatch : BytecodePatch(
         CastDynamiteModuleV2Fingerprint,
         CastContextFetchFingerprint,
         PrimeFingerprint,
+        WatchWhileActivityFingerprint
     )
 ) {
-    override fun execute(context: BytecodeContext) =
+    override fun execute(context: BytecodeContext): PatchResult {
         // apply common microG patch
         MicroGBytecodeHelper.patchBytecode(
             context, arrayOf(
@@ -62,5 +66,13 @@ class MicroGBytecodePatch : BytecodePatch(
                 CastDynamiteModuleV2Fingerprint,
                 CastContextFetchFingerprint
             )
-        ).let { PatchResultSuccess() }
+        )
+
+        WatchWhileActivityFingerprint.result!!.mutableMethod.addInstruction(
+            0,
+            "invoke-static {}, Lapp/revanced/integrations/utils/ReVancedUtils;->checkMicroG()V"
+        )
+
+        return PatchResultSuccess()
+    }
 }
