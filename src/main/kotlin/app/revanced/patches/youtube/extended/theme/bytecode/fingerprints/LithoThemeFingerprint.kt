@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.layout.amoled.bytecode.fingerprints
+package app.revanced.patches.youtube.extended.theme.fingerprints
 
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
@@ -8,10 +8,10 @@ import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
-@Name("amoled-fingerprint")
+@Name("litho-ui-fingerprint")
 @YouTubeCompatibility
 @Version("0.0.1")
-object AmoledFingerprint : MethodFingerprint(
+object LithoThemeFingerprint : MethodFingerprint(
     "V", AccessFlags.PROTECTED or AccessFlags.FINAL, listOf("L"), listOf(
         Opcode.APUT,
         Opcode.NEW_INSTANCE,

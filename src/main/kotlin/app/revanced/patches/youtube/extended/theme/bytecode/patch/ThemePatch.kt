@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.layout.amoled.bytecode.patch
+package app.revanced.patches.youtube.extended.theme.bytecode.patch
 
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
@@ -10,28 +10,26 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
-import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.extensions.YouTubeCompatibility
-import app.revanced.patches.youtube.layout.amoled.bytecode.fingerprints.AmoledFingerprint
-import app.revanced.patches.youtube.layout.amoled.resource.patch.AmoledResourcePatch
+import app.revanced.patches.youtube.extended.theme.fingerprints.LithoThemeFingerprint
+import app.revanced.patches.youtube.extended.theme.resource.patch.ThemeResourcePatch
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 
-@Patch
 @DependsOn(
-    dependencies = [FixLocaleConfigErrorPatch::class, AmoledResourcePatch::class]
+    dependencies = [FixLocaleConfigErrorPatch::class]
 )
-@Name("amoled")
-@Description("Enables pure black theme.")
+@Name("theme")
+@Description("Applies a custom theme to litho components.")
 @YouTubeCompatibility
 @Version("0.0.1")
-class AmoledPatch : BytecodePatch(
+class ThemePatch : BytecodePatch(
     listOf(
-        AmoledFingerprint
+        LithoThemeFingerprint
     )
 ) {
     override fun execute(context: BytecodeContext): PatchResult {
-        val result = AmoledFingerprint.result!!
+        val result = LithoThemeFingerprint.result!!
         val method = result.mutableMethod
         val patchIndex = result.scanResult.patternScanResult!!.endIndex - 1
 
