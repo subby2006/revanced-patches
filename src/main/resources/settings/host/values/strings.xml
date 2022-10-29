@@ -55,9 +55,6 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="litho_channel_guidelines">Hide channel guidelines</string>
     <string name="litho_channel_guidelines_off">Channel guidelines are shown</string>
     <string name="litho_channel_guidelines_on">Channel guidelines are hidden</string>
-    <string name="litho_comments">Remove comments section</string>
-    <string name="litho_comments_off">Comment section is shown</string>
-    <string name="litho_comments_on">Comment section is hidden</string>
     <string name="litho_community_guidelines">Remove community guidelines</string>
     <string name="litho_community_guidelines_off">Community guidelines are shown</string>
     <string name="litho_community_guidelines_on">Community guidelines are hidden</string>
@@ -146,14 +143,18 @@ Is it ready to submit?"</string>
     <string name="revanced_branding_watermark_summary_off">Branding watermark is hidden</string>
     <string name="revanced_branding_watermark_summary_on">Branding watermark is shown</string>
     <string name="revanced_branding_watermark_title">Branding watermark</string>
+    <string name="revanced_breaking_news_panels_summary_off">Breaking news panels is shown</string>
+    <string name="revanced_breaking_news_panels_summary_on">Breaking news panels is hidden</string>
+    <string name="revanced_breaking_news_panels_title">Breaking news panels</string>
     <string name="revanced_buffer_summary">Custom settings for video buffer</string>
     <string name="revanced_buffer_title">Video Buffer settings</string>
     <string name="revanced_button_container_summary">Hides the component of the button container</string>
-    <string name="revanced_button_container_title">Hide button container (Experimental)</string>
-    <string name="revanced_button_container_warning_summary">this feature does not fully support new layout!</string>	
+    <string name="revanced_button_container_title">Button container component</string>
     <string name="revanced_cast_button_summary_off">Cast Button is hidden</string>
     <string name="revanced_cast_button_summary_on">Cast Button is shown</string>
     <string name="revanced_cast_button_title">Cast Button</string>
+    <string name="revanced_comments_summary">Hides the comments section or component</string>
+    <string name="revanced_comments_title">Comments component</string>
     <string name="revanced_copy_video_url_summary_off">Copy Link Button is hidden</string>
     <string name="revanced_copy_video_url_summary_on">Copy Link Button is visible</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Copy Link Button With Timestamp is hidden</string>
@@ -199,6 +200,9 @@ Is it ready to submit?"</string>
     <string name="revanced_hdr_full_brightness_summary_off">Auto HDR brightness is disabled</string>
     <string name="revanced_hdr_full_brightness_summary_on">Auto HDR brightness is enabled</string>
     <string name="revanced_hdr_full_brightness_title">Enable auto HDR brightness</string>
+    <string name="revanced_hide_comments_section_summary_off">Comment section is shown</string>
+    <string name="revanced_hide_comments_section_summary_on">Comment section is hidden</string>
+    <string name="revanced_hide_comments_section_title">Hide comments section</string>
     <string name="revanced_hide_create_clip_button_summary_off">Clip button is shown</string>
     <string name="revanced_hide_create_clip_button_summary_on">Clip button is hidden</string>
     <string name="revanced_hide_create_clip_button_title">Hide clip button</string>
@@ -214,9 +218,6 @@ Is it ready to submit?"</string>
     <string name="revanced_hide_email_address_summary_off">Email address is hidden</string>
     <string name="revanced_hide_email_address_summary_on">Email address is visible</string>
     <string name="revanced_hide_email_address_title">Email address</string>
-    <string name="revanced_hide_external_comment_box_summary_off">External comment box is shown</string>
-    <string name="revanced_hide_external_comment_box_summary_on">External comment box is hidden</string>
-    <string name="revanced_hide_external_comment_box_title">Hide external comment box</string>
     <string name="revanced_hide_like_button_summary_off">Like button is shown</string>
     <string name="revanced_hide_like_button_summary_on">Like button is hidden</string>
     <string name="revanced_hide_like_button_title">Hide like button</string>
@@ -226,21 +227,27 @@ Is it ready to submit?"</string>
     <string name="revanced_hide_playlist_button_summary_off">Playlist button is shown</string>
     <string name="revanced_hide_playlist_button_summary_on">Playlist button is hidden</string>
     <string name="revanced_hide_playlist_button_title">Hide playlist button</string>
+    <string name="revanced_hide_preview_comment_off">Preview comment is shown</string>
+    <string name="revanced_hide_preview_comment_on">Preview comment is hidden</string>
+    <string name="revanced_hide_preview_comment_title">Hide preview comment</string>
     <string name="revanced_hide_report_button_summary_off">Report button is shown</string>
     <string name="revanced_hide_report_button_summary_on">Report button is hidden</string>
     <string name="revanced_hide_report_button_title">Hide report button</string>
     <string name="revanced_hide_share_button_summary_off">Share button is shown</string>
     <string name="revanced_hide_share_button_summary_on">Share button is hidden</string>
     <string name="revanced_hide_share_button_title">Hide share button</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">Spoiler comment is shown</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">Spoiler comment is hidden</string>
-    <string name="revanced_hide_spoiler_comment_title">Hide spoiler comment</string>
+    <string name="revanced_hide_shorts_comments_button_off">Shorts comments button is shown</string>
+    <string name="revanced_hide_shorts_comments_button_on">Shorts comments button is hidden</string>
+    <string name="revanced_hide_shorts_comments_button_title">Hide shorts comments button</string>
     <string name="revanced_hide_thanks_button_summary_off">Thanks button is shown</string>
     <string name="revanced_hide_thanks_button_summary_on">Thanks button is hidden</string>
     <string name="revanced_hide_thanks_button_title">Hide thanks button</string>
     <string name="revanced_hide_time_and_seekbar_summary_off">Time and seekbar are hidden</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">Time and seekbar are shown</string>
     <string name="revanced_hide_time_and_seekbar_title">Time and seekbar</string>
+    <string name="revanced_hide_watch_in_vr_summary_off">Watch in VR item is shown from menu item</string>
+    <string name="revanced_hide_watch_in_vr_summary_on">Watch in VR item is hidden from menu item</string>
+    <string name="revanced_hide_watch_in_vr_title">Watch in VR</string>
     <string name="revanced_home_ads_summary_off">Home ads are hidden</string>
     <string name="revanced_home_ads_summary_on">Home ads are shown</string>
     <string name="revanced_home_ads_title">Remove home ads</string>
@@ -302,6 +309,19 @@ Are you sure you want to continue though?"</string>
     <string name="revanced_reboot_warning_ryd">"Integrates with the like button to display dislike counts in a new layout.
 However, since this is still an experimental feature, the like count may not be displayed accurately.
 Are you sure you want to continue though?"</string>
+    <string name="revanced_reboot_warning_tablet">"Tricks the dpi to change some layouts to tablet layouts.
+
+If you enable this setting, the following features are available:
+- Shorts Player converted to Standard Player
+- Sort by 'Date added (oldest)'
+
+The following features are not available:
+- Ambient mode
+- Community Posts
+- Hide Mix Playlist
+
+As this is still an experimental feature, there may be other unknown issues.
+Are you sure you want to continue though?"</string>
     <string name="revanced_rebuffer_summary">Maximum size of a buffer for playback after rebuffering</string>
     <string name="revanced_rebuffer_title">Maximum buffer for playback after rebuffer</string>
     <string name="revanced_reel_summary_off">Stories are hidden</string>
@@ -360,6 +380,11 @@ Are you sure you want to continue though?"</string>
     <string name="revanced_tablet_miniplayer_summary_off">Tablet Mini-player is disabled</string>
     <string name="revanced_tablet_miniplayer_summary_on">Tablet Mini-player is enabled</string>
     <string name="revanced_tablet_miniplayer_title">Tablet Mini-player</string>
+    <string name="revanced_tablet_layout_summary">Tricks the dpi to use some tablet layouts</string>
+    <string name="revanced_tablet_layout_title">Tablet Layout</string>
+    <string name="revanced_timed_reactions_summary_off">Timed Reactions are shown</string>
+    <string name="revanced_timed_reactions_summary_on">Timed Reactions are hidden</string>
+    <string name="revanced_timed_reactions_title">Timed Reactions</string>
     <string name="revanced_tool_used">tool used</string>
     <string name="revanced_uri_redirect_summary_off">"Follow YouTube's redirect policy"</string>
     <string name="revanced_uri_redirect_summary_on">Open url by bypassing youtube.com/redirect</string>
@@ -378,6 +403,9 @@ Are you sure you want to continue though?"</string>
     <string name="revanced_videoadwhitelisting_summary_off">Video ad whitelisting is turned off</string>
     <string name="revanced_videoadwhitelisting_summary_on">Video ad whitelisting is turned on. Use the ADS button under the player to whitelist a channel</string>
     <string name="revanced_videoadwhitelisting_title">Video ad whitelisting</string>
+    <string name="revanced_view_products_summary_off">View products banner is shown</string>
+    <string name="revanced_view_products_summary_on">View products banner is hidden</string>
+    <string name="revanced_view_products_title">View products banner</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Failed to add channel %s to the %s whitelist</string>
     <string name="revanced_whitelisting_added" formatted="false">Channel %s was added to the %s whitelist</string>
     <string name="revanced_whitelisting_ads">ADS</string>
