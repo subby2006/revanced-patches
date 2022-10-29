@@ -56,8 +56,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
         "endscreen_element_layout_circle",
         "endscreen_element_layout_icon",
         "promoted_video_item_land",
-        "promoted_video_item_full_bleed",
-        "donation_companion"
+        "promoted_video_item_full_bleed"
     ).map { name ->
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
@@ -174,20 +173,6 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                                     // TODO, go to class, hide the inflated view
                                 }
 
-                                resourceIds[8] -> { // donation companion
-                                    //  and is followed by an instruction at insertIndex with the mnemonic IPUT_OBJECT
-                                    val insertIndex = index + 3
-                                    val iPutInstruction = instructions.elementAt(insertIndex)
-                                    if (iPutInstruction.opcode != Opcode.IPUT_OBJECT) return@forEachIndexed
-
-                                    // create proxied method, make sure to not re-resolve() the current class
-                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
-                                    if (mutableMethod == null) mutableMethod =
-                                        mutableClass!!.findMutableMethodOf(method)
-
-                                    val viewRegister = (iPutInstruction as Instruction22c).registerA
-                                    mutableMethod!!.implementation!!.injectHideCallDonation(insertIndex, viewRegister)
-                                }
                             }
                         }
 

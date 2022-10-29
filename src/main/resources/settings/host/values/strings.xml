@@ -160,9 +160,9 @@ Is it ready to submit?"</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Copy Link Button With Timestamp is visible</string>
     <string name="revanced_copy_video_url_timestamp_title">Copy Link Button With Timestamp</string>
     <string name="revanced_copy_video_url_title">Copy Link Button</string>
-    <string name="revanced_donation_companion_summary_off">Donation Companion is shown</string>
-    <string name="revanced_donation_companion_summary_on">Donation Companion is hidden</string>
-    <string name="revanced_donation_companion_title">Donation Companion</string>
+    <string name="revanced_crowdfunding_box_summary_off">Crowdfunding box is hidden</string>
+    <string name="revanced_crowdfunding_box_summary_on">Crowdfunding box is shown</string>
+    <string name="revanced_crowdfunding_box_title">Crowdfunding box</string>
     <string name="revanced_default_downloader">ussr.razar.youtube_dl</string>
     <string name="revanced_download_video_summary_off">Download Button is hidden</string>
     <string name="revanced_download_video_summary_on">Download Button is visible</string>
