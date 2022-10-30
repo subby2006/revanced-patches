@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.extensions.YouTubeCompatibility
-import app.revanced.patches.youtube.extended.inappbrowser.fingerprints.InappBrowserFingerprint
+import app.revanced.patches.youtube.extended.inappbrowser.fingerprints.*
 import org.jf.dexlib2.iface.instruction.formats.Instruction21c
 
 @Patch
@@ -22,12 +22,14 @@ import org.jf.dexlib2.iface.instruction.formats.Instruction21c
 @Version("0.0.1")
 class InappBrowserPatch : BytecodePatch(
     listOf(
-        InappBrowserFingerprint
+        InappBrowserFirstFingerprint,
+        InappBrowserSecondFingerprint,
+        InappBrowserThirdFingerprint
     )
 ) {
     override fun execute(context: BytecodeContext): PatchResult {
 
-        val InappBrowserFirstResult = InappBrowserFingerprint.result!!
+        val InappBrowserFirstResult = InappBrowserFirstFingerprint.result!!
         val InappBrowserFirstEndIndex = InappBrowserFirstResult.scanResult.patternScanResult!!.endIndex
         val FirsttargetRegister =
             (InappBrowserFirstResult.method.implementation!!.instructions.elementAt(InappBrowserFirstEndIndex) as Instruction21c).registerA
@@ -36,6 +38,30 @@ class InappBrowserPatch : BytecodePatch(
             InappBrowserFirstEndIndex + 1, """
             invoke-static {v$FirsttargetRegister}, Lapp/revanced/integrations/patches/InappBrowserPatch;->getInappBrowser(Ljava/lang/String;)Ljava/lang/String;
             move-result-object v$FirsttargetRegister
+        """
+        )
+
+        val InappBrowserSecondResult = InappBrowserSecondFingerprint.result!!
+        val InappBrowserSecondEndIndex = InappBrowserSecondResult.scanResult.patternScanResult!!.endIndex
+        val SecondtargetRegister =
+            (InappBrowserSecondResult.method.implementation!!.instructions.elementAt(InappBrowserSecondEndIndex) as Instruction21c).registerA
+
+        InappBrowserSecondResult.mutableMethod.addInstructions(
+            InappBrowserSecondEndIndex + 1, """
+            invoke-static {v$SecondtargetRegister}, Lapp/revanced/integrations/patches/InappBrowserPatch;->getInappBrowser(Ljava/lang/String;)Ljava/lang/String;
+            move-result-object v$SecondtargetRegister
+        """
+        )
+
+        val InappBrowserThirdResult = InappBrowserThirdFingerprint.result!!
+        val InappBrowserThirdEndIndex = InappBrowserThirdResult.scanResult.patternScanResult!!.endIndex
+        val ThirdtargetRegister =
+            (InappBrowserThirdResult.method.implementation!!.instructions.elementAt(InappBrowserThirdEndIndex) as Instruction21c).registerA
+
+        InappBrowserThirdResult.mutableMethod.addInstructions(
+            InappBrowserThirdEndIndex + 1, """
+            invoke-static {v$ThirdtargetRegister}, Lapp/revanced/integrations/patches/InappBrowserPatch;->getInappBrowser(Ljava/lang/String;)Ljava/lang/String;
+            move-result-object v$ThirdtargetRegister
         """
         )
 

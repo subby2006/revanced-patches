@@ -8,14 +8,13 @@ import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
-@Name("inapp-browser-fingerprint")
+@Name("inapp-browser-fingerprint-2")
 @YouTubeCompatibility
 @Version("0.0.1")
-object InappBrowserFingerprint : MethodFingerprint(
-    "L", AccessFlags.PUBLIC or AccessFlags.STATIC, opcodes = listOf(
-        Opcode.CHECK_CAST,
+object InappBrowserSecondFingerprint : MethodFingerprint(
+    "L", AccessFlags.PUBLIC or AccessFlags.FINAL, opcodes = listOf(
+        Opcode.IPUT_OBJECT,
         Opcode.NEW_INSTANCE,
-        Opcode.INVOKE_DIRECT,
         Opcode.CONST_STRING
     ),
     strings = listOf("android.support.customtabs.action.CustomTabsService")
