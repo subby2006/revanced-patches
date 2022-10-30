@@ -2,7 +2,6 @@ package app.revanced.patches.youtube.ad.general.bytecode.patch
 
 import app.revanced.extensions.injectHideCall
 import app.revanced.extensions.injectHideCallReels
-import app.revanced.extensions.injectHideCallDonation
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
