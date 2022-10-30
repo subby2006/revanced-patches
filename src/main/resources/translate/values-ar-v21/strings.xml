@@ -3,8 +3,7 @@
     <string name="about">لمحة</string>
     <string name="about_api">هذا التطبيق يستخدم واجهة برمجة التطبيقات من مانع الرعاة SponsorBlock</string>
     <string name="about_api_sum">انقر لمعرفة المزيد؛ والتنزيل لمنصات أخرى على:  sponsor.ajay.app</string>
-    <string name="about_madeby">تم الدمج بواسطة JakubWeg،
-تم إعادة الترميز بواسطة oSumAtrIX</string>
+    <string name="about_madeby">تم الدمج بواسطة JakubWeg،  تم إعادة الترميز بواسطة oSumAtrIX</string>
     <string name="accessibility_settings_edu_opt_in_text">هل تريد تشغيل عناصر التحكم في إمكانية الوصول لمشغل الفيديو؟</string>
     <string name="accessibility_settings_edu_opt_out_text">تم تعديل عناصر التحكم الخاصة بك لأن خدمة إمكانية الوصول قيد التشغيل.</string>
     <string name="action_browser">مستعرض SB</string>
@@ -420,7 +419,8 @@
     <string name="settings_ie_sum">يتم تخزين جميع إعداداتك بتنسيق JSON المتوافق مع المكون الإضافي لسطح المكتب. يتضمن هذا معرف المستخدم الفريد الخاص بك، لِذا فكر مرتين قبل مشاركته.</string>
     <string name="settings_import_failed">فشل استيراد الإعدادات</string>
     <string name="settings_import_successful">تم استيراد الإعدادات بنجاح</string>
-    <string name="skip_automatically">التخطي تلقائياً</string>
+    <string name="skip_automatically">التخطي تلقائيًا</string>
+    <string name="skip_automatically_once">التخطي تلقائيًا مرة واحدة</string>
     <string name="skip_ignore">"لا تفعل أي شيء"</string>
     <string name="skip_showbutton">عرض زر التخطي</string>
     <string name="skip_sponsor">تخطي المقطع</string>
