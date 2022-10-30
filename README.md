@@ -53,6 +53,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `hide-pip-notification` | Disable pip notification when you first launch pip mode. | 17.41.37 |
 | `hide-crowdfunding-box` | Hides the crowdfunding box between the player and video description. | 17.41.37 |
 | `hide-time-and-seekbar` | Hides progress bar and time counter on videos. | 17.41.37 |
+| `hide-watch-in-vr` | Hide the Watch in VR item from the menu item. | 17.41.37 |
 | `extended` | Add ReVanced Extended Features. | 17.41.37 |
 | `old-quality-layout` | Enables the original quality flyout menu. | 17.41.37 |
 | `hide-shorts-button` | Hides the shorts button on the navigation bar. | 17.41.37 |
