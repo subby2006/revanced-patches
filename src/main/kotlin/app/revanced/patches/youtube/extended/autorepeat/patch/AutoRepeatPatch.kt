@@ -14,6 +14,7 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.patches.youtube.extended.autorepeat.fingerprints.AutoNavInformerFingerprint
 import app.revanced.patches.youtube.extended.autorepeat.fingerprints.AutoRepeatFingerprint
 import app.revanced.patches.youtube.extended.autorepeat.fingerprints.AutoRepeatParentFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
@@ -26,7 +27,7 @@ import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 @Version("0.0.1")
 class AutoRepeatPatch : BytecodePatch(
     listOf(
-        AutoRepeatParentFingerprint
+        AutoRepeatParentFingerprint, AutoNavInformerFingerprint
     )
 ) {
     override fun execute(context: BytecodeContext): PatchResult {
@@ -68,6 +69,21 @@ class AutoRepeatPatch : BytecodePatch(
         method.removeInstruction(index)
         // Add our own instructions there
         method.addInstructions(index, instructions)
+
+        val autoNavInformerMethod = AutoNavInformerFingerprint.result!!.mutableMethod
+
+        //force disable autoplay since it's hard to do without the button
+        autoNavInformerMethod.addInstructions(
+            0, """
+            invoke-static {}, Lapp/revanced/integrations/patches/AutoRepeatPatch;->shouldAutoRepeat()Z
+            move-result v0
+            if-eqz v0, :hidden
+            const/4 v0, 0x0
+            return v0
+            :hidden
+            nop
+        """
+        )
 
         //Everything worked as expected, return Success
         return PatchResultSuccess()
