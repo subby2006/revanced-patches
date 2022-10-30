@@ -8,7 +8,7 @@ import app.revanced.extensions.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
-@Name("mix-playlists-fingerprint")
+@Name("mix-playlists-first-fingerprint")
 @YouTubeCompatibility
 @Version("0.0.1")
 object MixPlaylistsPatchFirtstFingerprint : MethodFingerprint(
