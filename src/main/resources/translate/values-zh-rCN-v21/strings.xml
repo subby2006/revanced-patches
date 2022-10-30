@@ -246,8 +246,8 @@
     <string name="revanced_hide_time_and_seekbar_summary_off">进度条已隐藏</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">进度条已显示</string>
     <string name="revanced_hide_time_and_seekbar_title">进度条</string>
-    <string name="revanced_hide_watch_in_vr_summary_off">以 VR 模式下观看已在菜单项目显示</string>
-    <string name="revanced_hide_watch_in_vr_summary_on">以 VR 模式下观看已在菜单项目隐藏</string>
+    <string name="revanced_hide_watch_in_vr_summary_off">在 VR 模式下观看已在菜单项目显示</string>
+    <string name="revanced_hide_watch_in_vr_summary_on">在 VR 模式下观看已在菜单项目隐藏</string>
     <string name="revanced_hide_watch_in_vr_title">在 VR 模式下观看</string>
     <string name="revanced_home_ads_summary_off">首页广告已隐藏</string>
     <string name="revanced_home_ads_summary_on">首页广告已显示</string>
@@ -446,6 +446,7 @@
     <string name="settings_import_failed">导入设置失败</string>
     <string name="settings_import_successful">导入设置成功</string>
     <string name="skip_automatically">自动跳过</string>
+    <string name="skip_automatically_once">自动跳过一次</string>
     <string name="skip_ignore">"忽略"</string>
     <string name="skip_showbutton">显示跳过按钮</string>
     <string name="skip_sponsor">跳过片段</string>

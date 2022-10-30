@@ -24,7 +24,7 @@
     <string name="enable_sb_sum">Включите для пропуска спонсорских сегментов</string>
     <string name="enable_sb_shorts">Включить SponsorBlock в Shorts (Альфа)</string>
     <string name="enable_sb_shorts_content">"Включить SponsorBlock в YouTube Shorts. Поскольку эта функция все еще находится в стадии альфа-тестирования, она работает только в сегменте 'Пропускать автоматически'."</string>
-    <string name="enable_sb_shorts_sum">Включить Sponsorblock в YouTube Shorts.</string>
+    <string name="enable_sb_shorts_sum">Включить SponsorBlock в YouTube Shorts</string>
     <string name="enable_segmadding">Включить кнопку добавления нового сегмента</string>
     <string name="enable_segmadding_sum">Включите, чтобы активировать экспериментальное добавление сегментов (имеются проблемы с отображением кнопок)</string>
     <string name="enable_voting">Включить голосование</string>
@@ -167,7 +167,7 @@
     <string name="revanced_download_video_summary_off">Кнопка скачивания видео скрыта</string>
     <string name="revanced_download_video_summary_on">Кнопка скачивания видео показана</string>
     <string name="revanced_download_video_title">Кнопка скачивания видео</string>
-    <string name="revanced_downloads_package_name_summary">"\"Задать имя пакета приложения-загрузчика видео, например NewPipe или PowerTube"</string>
+    <string name="revanced_downloads_package_name_summary">"\"Задать имя пакета приложения - загрузчика видео, например NewPipe или PowerTube"</string>
     <string name="revanced_downloads_package_name_title">Приложение - загрузчик видео</string>
     <string name="revanced_downloads_summary">Выбрать приложение - загрузчик видео</string>
     <string name="revanced_downloads_title">Настройки загрузчика видео</string>
@@ -242,13 +242,13 @@
     <string name="revanced_hide_thanks_button_summary_on">Кнопка \"Спасибо\" скрыта</string>
     <string name="revanced_hide_thanks_button_title">Скрыть кнопку \"Спасибо\"</string>
     <string name="revanced_hide_time_and_seekbar_summary_off">Время и прогресс скрыты</string>
-    <string name="revanced_hide_time_and_seekbar_summary_on">Время и прогресс отображаются</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">Время и прогресс показаны</string>
     <string name="revanced_hide_time_and_seekbar_title">Время и прогресс видео</string>
     <string name="revanced_hide_watch_in_vr_summary_off">Элемент просмотра в VR показан из элемента меню</string>
     <string name="revanced_hide_watch_in_vr_summary_on">Элемент просмотра в VR скрыт из элемента меню</string>
     <string name="revanced_hide_watch_in_vr_title">Просмотр в VR</string>
     <string name="revanced_home_ads_summary_off">Реклама на главной странице скрыта</string>
-    <string name="revanced_home_ads_summary_on">Реклама на главной странице отображается</string>
+    <string name="revanced_home_ads_summary_on">Реклама на главной странице показана</string>
     <string name="revanced_home_ads_title">Скрыть рекламу на главной странице</string>
     <string name="revanced_inapp_browser_summary_off">Открывать внешние ссылки в приложении</string>
     <string name="revanced_inapp_browser_summary_on">Открывать внешние ссылки в стороннем браузере</string>
@@ -276,8 +276,8 @@
     <string name="revanced_new_actionbar_summary_off">Широкая панель поиска отключена</string>
     <string name="revanced_new_actionbar_summary_on">Широкая панель поиска включена</string>
     <string name="revanced_new_actionbar_title">Включить широкую панель поиска</string>
-    <string name="revanced_old_style_quality_settings_summary_off">Используется новый стиль выбора качества</string>
-    <string name="revanced_old_style_quality_settings_summary_on">Используется старый стиль выбора качества</string>
+    <string name="revanced_old_style_quality_settings_summary_off">Используется новый стиль выбора качества видео</string>
+    <string name="revanced_old_style_quality_settings_summary_on">Используется старый стиль выбора качества видео</string>
     <string name="revanced_old_style_quality_settings_title">Стиль выбора качества видео</string>
     <string name="revanced_overlaybutton_summary">Настройки отображения кнопок в плеере</string>
     <string name="revanced_overlaybutton_title">Кнопки в плеере</string>
@@ -307,7 +307,7 @@
 Интегрируется с кнопкой лайк для отображения счетчика дизлайков в новом интерфейсе.
 Количество лайков может отображаться неточно.
 Вы действительно хотите продолжить?"</string>
-    <string name="revanced_reboot_warning_tablet">"\"Подменяет DPI для изменения некоторых макетов под планшет.
+    <string name="revanced_reboot_warning_tablet">"Подменяет DPI для изменения некоторых макетов под планшет.
 
 При активации данных настроек следующие опции станут доступны:
 - Плеер Shorts конвертирован в стандартный плеер
@@ -316,6 +316,7 @@
 Следующие опции не доступны:
 - Режим окружающей подсветки
 - Посты сообщества
+- Скрытие Mix плейлиста 
 
 Поскольку данная опция все ещё является экспериментальной, могут быть другие неизвестные проблемы.
 Вы уверены в том, что хотите продолжить?"</string>
@@ -386,7 +387,7 @@
     <string name="revanced_uri_redirect_summary_on">Обходить youtube.com/redirect при открытии ссылок</string>
     <string name="revanced_uri_redirect_title">Перенаправление ссылок YouTube</string>
     <string name="revanced_video_ads_summary_off">Реклама в видео скрыта</string>
-    <string name="revanced_video_ads_summary_on">Реклама в видео отображена</string>
+    <string name="revanced_video_ads_summary_on">Реклама в видео показана</string>
     <string name="revanced_video_ads_title">Скрыть рекламу в видео</string>
     <string name="revanced_video_quality_common_error">Не удалось задать качество видео</string>
     <string name="revanced_video_quality_internet_error">Нет подключения к Интернету</string>
@@ -409,10 +410,7 @@
     <string name="revanced_whitelisting_remove_failed" formatted="false">Не удалось удалить канал %s из белого списка %s</string>
     <string name="revanced_whitelisting_removed" formatted="false">Канал %s был удален из белого списка %s</string>
     <string name="revanced_whitelisting_sponsorblock">SponsorBlock</string>
-    <string name="rvx_dialog_message">"\"Начиная с YouTube v17.33.xx, автоповорот в полноэкранном режиме следует за состоянием переключателя автоповорота системы.
-Поэтому версия YouTube была изменена на v17.32.39, чтобы обойти проблему с автоповоротом в полноэкранном режиме.
-Соответственно, в информации о приложении версия YouTube отображается как v17.32.39.
-Отключить данную опцию можно в меню:"</string>
+    <string name="rvx_dialog_message">"\"Начиная с YouTube v17.33.xx, автоповорот в полноэкранном режиме следует за состоянием переключателя автоповорота системы. Поэтому версия YouTube была изменена на v17.32.39, чтобы обойти проблему с автоповоротом в полноэкранном режиме. Соответственно, в информации о приложении версия YouTube отображается как v17.32.39. Отключить данную опцию можно в меню:"</string>
     <string name="rvx_dialog_title">Расширенные настройки ReVanced</string>
     <string name="sb_guidelines_popup_already_read">Уже прочитано</string>
     <string name="sb_guidelines_popup_content">"\"Перед отправкой любого сегмента рекомендуется прочитать рекомендации от SponsorBlock"</string>
@@ -445,6 +443,7 @@
     <string name="settings_import_failed">Не удалось импортировать настройки</string>
     <string name="settings_import_successful">Настройки успешно импортированы</string>
     <string name="skip_automatically">Автоматически пропускать</string>
+    <string name="skip_automatically_once">Автоматически пропустить один раз</string>
     <string name="skip_ignore">"Ничего не делать"</string>
     <string name="skip_showbutton">Показывать кнопку пропуска</string>
     <string name="skip_sponsor">Пропустить сегмент</string>
