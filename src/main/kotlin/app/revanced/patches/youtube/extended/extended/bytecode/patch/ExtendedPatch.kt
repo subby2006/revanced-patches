@@ -58,7 +58,8 @@ class ExtendedPatch : BytecodePatch() {
         "quick_actions_element_container",
         "album_card",
         "ic_right_comment_32c",
-        "shelf_header"
+        "shelf_header",
+        "horizontal_card_list"
     ).map { name ->
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
@@ -201,6 +202,22 @@ class ExtendedPatch : BytecodePatch() {
                                     mutableMethod!!.addInstruction(
                                         insertIndex + 1,
                                         "invoke-static {p$viewRegister}, Lapp/revanced/integrations/patches/TabletLayoutOverridePatch;->hideShelfHeader(Landroid/view/View;)V"
+                                    )
+                                }
+
+                                resourceIds[8] -> { // breaking news
+                                    val insertIndex = index + 4
+                                    val invokeInstruction = instructions.elementAt(insertIndex)
+                                    if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
+
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
+                                    if (mutableMethod == null) mutableMethod =
+                                        mutableClass!!.findMutableMethodOf(method)
+
+                                    val viewRegister = (invokeInstruction as Instruction21c).registerA
+                                    mutableMethod!!.addInstruction(
+                                        insertIndex,
+                                        "invoke-static {v$viewRegister}, Lapp/revanced/integrations/patches/BreakingNewsPanelsRemoverPatch;->HideBreakingNewsPanels(Landroid/view/View;)V"
                                     )
                                 }
 
