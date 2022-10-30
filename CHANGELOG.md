@@ -1,3 +1,129 @@
+# [2.99.0](https://github.com/revanced/revanced-patches/compare/v2.98.0...v2.99.0) (2022-10-29)
+
+
+### Features
+
+* **youtube/sponsorblock:** skip segments once automatically ([#907](https://github.com/revanced/revanced-patches/issues/907)) ([afc7588](https://github.com/revanced/revanced-patches/commit/afc75882062a9316dbc28a9dc4f990cf88b52654))
+
+# [2.98.0](https://github.com/revanced/revanced-patches/compare/v2.97.0...v2.98.0) (2022-10-29)
+
+
+### Features
+
+* **youtube/comments:** hide shorts comments button ([#866](https://github.com/revanced/revanced-patches/issues/866)) ([c78a74e](https://github.com/revanced/revanced-patches/commit/c78a74e21b4521034f44e9bfd226c5a362c21e6c))
+
+# [2.97.0](https://github.com/revanced/revanced-patches/compare/v2.96.0...v2.97.0) (2022-10-29)
+
+
+### Features
+
+* **youtube/microg-support:** handle availability of Vanced MicroG ([bfd0d14](https://github.com/revanced/revanced-patches/commit/bfd0d1418fb68f1d37687ec2072d3b64a9c3c6ee))
+
+# [2.96.0](https://github.com/revanced/revanced-patches/compare/v2.95.0...v2.96.0) (2022-10-28)
+
+
+### Features
+
+* **youtube/return-youtube-dislike:** compatibility for old and new button layout ([6629bd7](https://github.com/revanced/revanced-patches/commit/6629bd71716a753be06617724e536b8ab4c3b69a))
+
+# [2.95.0](https://github.com/revanced/revanced-patches/compare/v2.94.0...v2.95.0) (2022-10-28)
+
+
+### Features
+
+* **youtube:** bump patches compatibility to v17.41.37 ([#888](https://github.com/revanced/revanced-patches/issues/888)) ([11ed0c0](https://github.com/revanced/revanced-patches/commit/11ed0c0fb3236d87284806d2fa957699e908cc61))
+
+# [2.94.0](https://github.com/revanced/revanced-patches/compare/v2.93.0...v2.94.0) (2022-10-28)
+
+
+### Features
+
+* remove compatibility for YouTube  v17.41.37 ([#886](https://github.com/revanced/revanced-patches/issues/886)) ([0f4bc19](https://github.com/revanced/revanced-patches/commit/0f4bc197455574b84dd1cb1a43f03af90858bc39))
+
+# [2.93.0](https://github.com/revanced/revanced-patches/compare/v2.92.3...v2.93.0) (2022-10-27)
+
+
+### Features
+
+* bump YouTube patches to v17.41.37 ([#878](https://github.com/revanced/revanced-patches/issues/878)) ([9072986](https://github.com/revanced/revanced-patches/commit/9072986f99e624386ff51c7eeb1d65158bd9249a))
+
+## [2.92.3](https://github.com/revanced/revanced-patches/compare/v2.92.2...v2.92.3) (2022-10-27)
+
+
+### Bug Fixes
+
+* **youtube:** resolve fingerprints on mutable methods ([10e4af3](https://github.com/revanced/revanced-patches/commit/10e4af386652d51c621519f7a67aac8c22ed8c18))
+
+## [2.92.2](https://github.com/revanced/revanced-patches/compare/v2.92.1...v2.92.2) (2022-10-27)
+
+
+### Bug Fixes
+
+* **youtube/theme:** theme missing gray color ([#873](https://github.com/revanced/revanced-patches/issues/873)) ([5267d56](https://github.com/revanced/revanced-patches/commit/5267d56a05b4053d556171ffd2d2870f3f932e8e))
+
+## [2.92.1](https://github.com/revanced/revanced-patches/compare/v2.92.0...v2.92.1) (2022-10-26)
+
+
+### Bug Fixes
+
+* **youtube/custom-branding:** use proper scaled icons ([24b5bcd](https://github.com/revanced/revanced-patches/commit/24b5bcdd703474c940fd436a37f0ae924d8b8c74))
+
+# [2.92.0](https://github.com/revanced/revanced-patches/compare/v2.91.0...v2.92.0) (2022-10-26)
+
+
+### Features
+
+* **youtube/hide-mix-playlists:** hide in video suggestions ([#854](https://github.com/revanced/revanced-patches/issues/854)) ([acde5f0](https://github.com/revanced/revanced-patches/commit/acde5f066053ca3d58ca09fc2a6a1381ba27d84b))
+
+# [2.91.0](https://github.com/revanced/revanced-patches/compare/v2.90.0...v2.91.0) (2022-10-26)
+
+
+### Features
+
+* remove partially complete patch ([d212e19](https://github.com/revanced/revanced-patches/commit/d212e19c3276c2ba6550f03dfd9bba47b7773524))
+
+# [2.90.0](https://github.com/revanced/revanced-patches/compare/v2.89.0...v2.90.0) (2022-10-25)
+
+
+### Features
+
+* `comment` patch ([#858](https://github.com/revanced/revanced-patches/issues/858)) ([472fb4f](https://github.com/revanced/revanced-patches/commit/472fb4f3747c835be2c5069a0f65017ab42f8d7e))
+
+# [2.89.0](https://github.com/revanced/revanced-patches/compare/v2.88.0...v2.89.0) (2022-10-25)
+
+
+### Features
+
+* `hide-album-cards` patch ([#857](https://github.com/revanced/revanced-patches/issues/857)) ([bce9d0c](https://github.com/revanced/revanced-patches/commit/bce9d0c9405d7afd5c51c2a9c2c247f3ff7581f5))
+
+# [2.88.0](https://github.com/revanced/revanced-patches/compare/v2.87.0...v2.88.0) (2022-10-25)
+
+
+### Features
+
+* `hide-artist-card` patch ([#859](https://github.com/revanced/revanced-patches/issues/859)) ([1f76246](https://github.com/revanced/revanced-patches/commit/1f7624680b86e3a7afd45521bfef86f88f52c976))
+
+# [2.87.0](https://github.com/revanced/revanced-patches/compare/v2.86.0...v2.87.0) (2022-10-25)
+
+
+### Bug Fixes
+
+* **metanav/fix-scaling:** use semantic versioning in package versions ([a9445a8](https://github.com/revanced/revanced-patches/commit/a9445a823e3a4885764cea9d08b51a1584d3238f))
+* **youtube/theme:** theme litho ui components & use correct theme for settings ([#791](https://github.com/revanced/revanced-patches/issues/791)) ([91c03c5](https://github.com/revanced/revanced-patches/commit/91c03c5624ca28ac13ee761261dea423f0ac42d7))
+
+
+### Features
+
+* `fix-metanav-scaling` patch ([#831](https://github.com/revanced/revanced-patches/issues/831)) ([4808e09](https://github.com/revanced/revanced-patches/commit/4808e099856e50a6f7e66834a92e2210cc84c8bc))
+* `hide-crowdfunding-box` patch ([#856](https://github.com/revanced/revanced-patches/issues/856)) ([3704ce2](https://github.com/revanced/revanced-patches/commit/3704ce22dbbff02b2e2d6dbdf9a74254a2511d3c))
+
+# [2.86.0](https://github.com/revanced/revanced-patches/compare/v2.85.2...v2.86.0) (2022-10-25)
+
+
+### Features
+
+* **youtube/theme:** extend theming to splash screen ([#769](https://github.com/revanced/revanced-patches/issues/769)) ([f7bb937](https://github.com/revanced/revanced-patches/commit/f7bb937ef2374d1042ea3772f03627d7f0111b78))
+
 ## [2.85.2](https://github.com/revanced/revanced-patches/compare/v2.85.1...v2.85.2) (2022-10-22)
 
 
