@@ -10,13 +10,11 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
-import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.hidecrowdfundingbox.fingerprints.CrowdfundingBoxFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 
-@Patch
 @DependsOn([IntegrationsPatch::class])
 @Name("hide-crowdfunding-box")
 @Description("Hides the crowdfunding box between the player and video description.")

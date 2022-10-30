@@ -39,6 +39,16 @@ internal fun MutableMethodImplementation.injectHideCallReels(
     )
 }
 
+internal fun MutableMethodImplementation.injectHideCallDonation(
+    index: Int,
+    register: Int
+) {
+    this.addInstruction(
+        index,
+        "invoke-static { v$register }, Lapp/revanced/integrations/patches/HideCrowdfundingBoxPatch;->hideCrowdfundingBox(Landroid/view/View;)V".toInstruction()
+    )
+}
+
 /**
  * traverse the class hierarchy starting from the given root class
  *
