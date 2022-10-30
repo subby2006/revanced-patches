@@ -9,22 +9,22 @@ The unofficial Patch bundle provided by ReVanced Extended
 
 | 💊 Patch | 📜 Description | 🏹 Target Version |
 |:--------:|:--------------:|:-----------------:|
-| `minimized-playback-music` | Enables minimized playback on Kids music. | 5.29.52 |
-| `tasteBuilder-remover` | Removes the "Tell us which artists you like" card from the home screen. | 5.29.52 |
-| `hide-get-premium` | Removes all "Get Premium" evidences from the avatar menu. | 5.29.52 |
+| `minimized-playback-music` | Enables minimized playback on Kids music. | 5.30.51 |
+| `tasteBuilder-remover` | Removes the "Tell us which artists you like" card from the home screen. | 5.30.51 |
+| `hide-get-premium` | Removes all "Get Premium" evidences from the avatar menu. | 5.30.51 |
 | `custom-branding-music-red` | Changes the YouTube Music launcher icon to your choice (defaults to ReVanced Red). | all |
 | `custom-branding-music-revancify` | Changes the YouTube Music launcher icon to your choice (Revancify). | all |
-| `compact-header` | Hides the music category bar at the top of the homepage. | 5.29.52 |
-| `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. | 5.29.52 |
-| `background-play` | Enables playing music in the background. | 5.29.52 |
-| `music-microg-support` | Allows YouTube Music ReVanced to run without root and under a different package name. | 5.29.52 |
-| `custom-package-name-music` | Allows ReVanced Extended Music to run under a different package name than ReVanced Music (NON-ROOT users only!). | 5.29.52 |
-| `music-video-ads` | Removes ads in the music player. | 5.29.52 |
-| `codecs-unlock` | Adds more audio codec options. The new audio codecs usually result in better audio quality. | 5.29.52 |
-| `exclusive-audio-playback` | Enables the option to play music without video. | 5.29.52 |
+| `compact-header` | Hides the music category bar at the top of the homepage. | 5.30.51 |
+| `upgrade-button-remover` | Removes the upgrade tab from the pivot bar. | 5.30.51 |
+| `background-play` | Enables playing music in the background. | 5.30.51 |
+| `music-microg-support` | Allows YouTube Music ReVanced to run without root and under a different package name. | 5.30.51 |
+| `custom-package-name-music` | Allows ReVanced Extended Music to run under a different package name than ReVanced Music (NON-ROOT users only!). | 5.30.51 |
+| `music-video-ads` | Removes ads in the music player. | 5.30.51 |
+| `codecs-unlock` | Adds more audio codec options. The new audio codecs usually result in better audio quality. | 5.30.51 |
+| `exclusive-audio-playback` | Enables the option to play music without video. | 5.30.51 |
 | `website-music` | Leave website URL in settings. | all |
-| `tablet-mode` | Unlocks landscape mode. | 5.29.52 |
-| `black-navbar` | Sets the navigation bar color to black. | 5.29.52 |
+| `tablet-mode` | Unlocks landscape mode. | 5.30.51 |
+| `black-navbar` | Sets the navigation bar color to black. | 5.30.51 |
 </details>
 
 ### 📦 `com.google.android.youtube`
