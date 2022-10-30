@@ -127,6 +127,7 @@
         <SwitchPreference android:title="@string/revanced_disable_new_layout_title" android:key="revanced_disable_new_layout" android:defaultValue="false" android:summaryOn="@string/revanced_disable_new_layout_summary_on" android:summaryOff="@string/revanced_disable_new_layout_summary_off" />
         <SwitchPreference android:title="@string/revanced_force_fullscreen_rotation_title" android:key="revanced_fullscreen_rotation" android:defaultValue="true" android:summaryOn="@string/revanced_force_fullscreen_rotation_summary_on" android:summaryOff="@string/revanced_force_fullscreen_rotation_summary_off" />
         <SwitchPreference android:title="@string/revanced_ryd_new_layout_title" android:key="revanced_ryd_new_layout" android:summary="@string/revanced_ryd_new_layout_summary" android:defaultValue="false" />
+        <SwitchPreference android:title="@string/revanced_tablet_layout_title" android:key="revanced_tablet_layout" android:summary="@string/revanced_tablet_layout_summary" android:defaultValue="false" />
         <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_tool_used" />
         <Preference android:title="revanced-patches" android:selectable="false" android:summary="2.85.2" />
     </PreferenceScreen>

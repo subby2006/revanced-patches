@@ -57,7 +57,8 @@ class ExtendedPatch : BytecodePatch() {
         "Theme.YouTube.Light",
         "quick_actions_element_container",
         "album_card",
-        "ic_right_comment_32c"
+        "ic_right_comment_32c",
+        "shelf_header"
     ).map { name ->
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
@@ -184,6 +185,22 @@ class ExtendedPatch : BytecodePatch() {
                                     mutableMethod!!.addInstruction(
                                         index + 4,
                                         "invoke-static {v$viewRegister}, Lapp/revanced/integrations/patches/HideShortsCommentsButtonPatch;->hideShortsCommentsButton(Landroid/view/View;)V"
+                                    )
+                                }
+
+                                resourceIds[7] -> { // tablet layout
+                                    val insertIndex = index + 3
+                                    val invokeInstruction = instructions.elementAt(insertIndex)
+                                    if (invokeInstruction.opcode != Opcode.MOVE_RESULT_OBJECT) return@forEachIndexed
+
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
+                                    if (mutableMethod == null) mutableMethod =
+                                        mutableClass!!.findMutableMethodOf(method)
+
+                                    val viewRegister = 3
+                                    mutableMethod!!.addInstruction(
+                                        insertIndex + 1,
+                                        "invoke-static {p$viewRegister}, Lapp/revanced/integrations/patches/TabletLayoutOverridePatch;->hideShelfHeader(Landroid/view/View;)V"
                                     )
                                 }
 
