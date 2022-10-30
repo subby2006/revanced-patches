@@ -57,15 +57,12 @@ Vì tính năng này vẫn đang thử nghiệm Alpha nên nó chỉ hoạt đ�
     <string name="litho_channel_guidelines">Ẩn Nguyên tắc kênh</string>
     <string name="litho_channel_guidelines_off">Nguyên tắc kênh được hiển thị</string>
     <string name="litho_channel_guidelines_on">Nguyên tắc kênh đã ẩn</string>
-    <string name="litho_comments">Loại bỏ Bình luận</string>
-    <string name="litho_comments_off">Bình luận được hiển thị</string>
-    <string name="litho_comments_on">Bình luận đã ẩn</string>
     <string name="litho_community_guidelines">Loại bỏ Nguyên tắc cộng đồng</string>
     <string name="litho_community_guidelines_off">Nguyên tắc cộng đồng được hiển thị</string>
     <string name="litho_community_guidelines_on">Nguyên tắc cộng đồng đã ẩn</string>
-    <string name="litho_community_posts">Loại bỏ Bài đăng cộng đồng</string>
-    <string name="litho_community_posts_off">Bài đăng cộng đồng được hiển thị</string>
-    <string name="litho_community_posts_on">Bài đăng cộng đồng đã ẩn</string>
+    <string name="litho_community_posts">Loại bỏ Bài đăng trên thẻ Cộng đồng</string>
+    <string name="litho_community_posts_off">Bài đăng trên thẻ Cộng đồng được hiển thị</string>
+    <string name="litho_community_posts_on">Bài đăng trên thẻ Cộng đồng đã ẩn</string>
     <string name="litho_compact_banner">Loại bỏ Biểu ngữ thu gọn</string>
     <string name="litho_compact_banner_off">Biểu ngữ thu gọn được hiển thị</string>
     <string name="litho_compact_banner_on">Biểu ngữ thu gọn đã ẩn</string>
@@ -108,9 +105,9 @@ Vì tính năng này vẫn đang thử nghiệm Alpha nên nó chỉ hoạt đ�
     <string name="microg_not_installed_notice">Vui lòng cài đặt MicroG</string>
     <string name="microg_not_installed_warning">MicroG chưa được cài đặt</string>
     <string name="microg_notification_settings">Nhận thông báo</string>
-    <string name="microg_notification_settings_summary">"1. Cần kích hoạt tính năng Đăng ký thiết bị Google và Cloud Messaging để nhận thông báo.
-2. ReVanced cần được hiển thị như một ứng dụng đã đăng ký trong Cloud Messaging.
-3. Trạng thái hiện tại trong Cloud Messaging phải được hiển thị là Đã kết nối."</string>
+    <string name="microg_notification_settings_summary">"1. Cần kích hoạt tính năng Đăng ký thiết bị Google và Thông báo đẩy qua đám mây để nhận thông báo.
+2. ReVanced cần được hiển thị như một ứng dụng đã đăng ký trong dịch vụ Thông báo đẩy qua đám mây.
+3. Trạng thái hiện tại trong dịch vụ Thông báo đẩy qua đám mây phải được hiển thị là \"Đã kết nối...\"."</string>
     <string name="microg_settings">Cài đặt MicroG</string>
     <string name="minutes">phút</string>
     <string name="new_segment_choose_category">Chọn danh mục phân đoạn</string>
@@ -148,23 +145,27 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_branding_watermark_summary_off">Hình mờ thương hiệu đã ẩn</string>
     <string name="revanced_branding_watermark_summary_on">Hình mờ thương hiệu được hiển thị</string>
     <string name="revanced_branding_watermark_title">Hình mờ thương hiệu</string>
+    <string name="revanced_breaking_news_panels_summary_off">Bảng tin tức nóng được hiển thị</string>
+    <string name="revanced_breaking_news_panels_summary_on">Bảng tin tức nóng đã ẩn</string>
+    <string name="revanced_breaking_news_panels_title">Bảng tin tức nóng</string>
     <string name="revanced_buffer_summary">Các cài đặt tùy chỉnh cho bộ đệm video</string>
     <string name="revanced_buffer_title">Cài đặt Bộ đệm video</string>
     <string name="revanced_button_container_summary">Ẩn các nút thành phần của vùng chứa nút</string>
-    <string name="revanced_button_container_title">Ẩn Vùng chứa nút (Thử nghiệm)</string>
-    <string name="revanced_button_container_warning_summary">Tính năng này không hỗ trợ đầy đủ bố cục mới!</string>
+    <string name="revanced_button_container_title">Thành phần của vùng chứa nút</string>
     <string name="revanced_cast_button_summary_off">Nút Truyền đã ẩn</string>
     <string name="revanced_cast_button_summary_on">Nút Truyền được hiển thị</string>
     <string name="revanced_cast_button_title">Nút Truyền</string>
+    <string name="revanced_comments_summary">Ẩn phần bình luận hoặc thành phần</string>
+    <string name="revanced_comments_title">Thành phần của bình luận</string>
     <string name="revanced_copy_video_url_summary_off">Nút Sao chép liên kết đã ẩn</string>
     <string name="revanced_copy_video_url_summary_on">Nút Sao chép liên kết được hiển thị</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Nút Sao chép liên kết với mốc thời gian đã ẩn</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Nút Sao chép liên kết với mốc thời gian được hiển thị</string>
     <string name="revanced_copy_video_url_timestamp_title">Nút Sao chép liên kết với mốc thời gian</string>
     <string name="revanced_copy_video_url_title">Nút Sao chép liên kết</string>
-    <string name="revanced_donation_companion_summary_off">Chiến dịch gây quỹ được hiển thị</string>
-    <string name="revanced_donation_companion_summary_on">Chiến dịch gây quỹ đã ẩn</string>
-    <string name="revanced_donation_companion_title">Chiến dịch gây quỹ</string>
+    <string name="revanced_crowdfunding_box_summary_off">Hộp gây quỹ cộng đồng đã ẩn</string>
+    <string name="revanced_crowdfunding_box_summary_on">Hộp gây quỹ cộng đồng được hiển thị</string>
+    <string name="revanced_crowdfunding_box_title">Hộp gây quỹ cộng đồng</string>
     <string name="revanced_download_video_summary_off">Nút Tải xuống đã ẩn</string>
     <string name="revanced_download_video_summary_on">Nút Tải xuống được hiển thị</string>
     <string name="revanced_download_video_title">Nút Tải xuống</string>
@@ -200,6 +201,9 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_hdr_full_brightness_summary_off">Độ sáng HDR tự động bị vô hiệu hoá</string>
     <string name="revanced_hdr_full_brightness_summary_on">Độ sáng HDR tự động được kích hoạt</string>
     <string name="revanced_hdr_full_brightness_title">Kích hoạt Độ sáng HDR tự động</string>
+    <string name="revanced_hide_comments_section_summary_off">Phần bình luận được hiển thị</string>
+    <string name="revanced_hide_comments_section_summary_on">Phần bình luận đã ẩn</string>
+    <string name="revanced_hide_comments_section_title">Ẩn phần bình luận</string>
     <string name="revanced_hide_create_clip_button_summary_off">Nút Tạo đoạn video được hiển thị</string>
     <string name="revanced_hide_create_clip_button_summary_on">Nút Tạo đoạn video đã ẩn</string>
     <string name="revanced_hide_create_clip_button_title">Ẩn Nút Tạo đoạn video</string>
@@ -215,9 +219,6 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_hide_email_address_summary_off">Địa chỉ email đã ẩn</string>
     <string name="revanced_hide_email_address_summary_on">Địa chỉ email được hiển thị</string>
     <string name="revanced_hide_email_address_title">Địa chỉ email</string>
-    <string name="revanced_hide_external_comment_box_summary_off">Viết bình luận nhanh được hiển thị</string>
-    <string name="revanced_hide_external_comment_box_summary_on">Viết bình luận nhanh đã ẩn</string>
-    <string name="revanced_hide_external_comment_box_title">Ẩn Viết bình luận nhanh</string>
     <string name="revanced_hide_like_button_summary_off">Nút Thích được hiển thị</string>
     <string name="revanced_hide_like_button_summary_on">Nút Thích đã ẩn</string>
     <string name="revanced_hide_like_button_title">Ẩn Nút Thích</string>
@@ -227,21 +228,27 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_hide_playlist_button_summary_off">Nút Lưu được hiển thị</string>
     <string name="revanced_hide_playlist_button_summary_on">Nút Lưu đã ẩn</string>
     <string name="revanced_hide_playlist_button_title">Ẩn Nút Lưu</string>
+    <string name="revanced_hide_preview_comment_off">Xem trước bình luận được hiển thị</string>
+    <string name="revanced_hide_preview_comment_on">Xem trước bình luận đã ẩn</string>
+    <string name="revanced_hide_preview_comment_title">Ẩn xem trước bình luận</string>
     <string name="revanced_hide_report_button_summary_off">Nút Báo vi phạm được hiển thị</string>
     <string name="revanced_hide_report_button_summary_on">Nút Báo vi phạm đã ẩn</string>
     <string name="revanced_hide_report_button_title">Ẩn Nút Báo vi phạm</string>
     <string name="revanced_hide_share_button_summary_off">Nút Chia sẻ được hiển thị</string>
     <string name="revanced_hide_share_button_summary_on">Nút Chia sẻ đã ẩn</string>
     <string name="revanced_hide_share_button_title">Ẩn Nút Chia sẻ</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">Xem trước bình luận hàng đầu được hiển thị</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">Xem trước bình luận hàng đầu đã ẩn</string>
-    <string name="revanced_hide_spoiler_comment_title">Ẩn Xem trước bình luận hàng đầu</string>
+    <string name="revanced_hide_shorts_comments_button_off">Bình luận YouTube Shorts được hiển thị</string>
+    <string name="revanced_hide_shorts_comments_button_on">Bình luận YouTube Shorts đã ẩn</string>
+    <string name="revanced_hide_shorts_comments_button_title">Ẩn bình luận YouTube Shorts</string>
     <string name="revanced_hide_thanks_button_summary_off">Nút Cảm ơn được hiển thị</string>
     <string name="revanced_hide_thanks_button_summary_on">Nút Cảm ơn được đã ẩn</string>
     <string name="revanced_hide_thanks_button_title">Ẩn Nút Cảm ơn</string>
     <string name="revanced_hide_time_and_seekbar_summary_off">Thời gian và Thanh tiến trình đã ẩn</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">Thời gian và Thanh tiến trình được hiển thị</string>
     <string name="revanced_hide_time_and_seekbar_title">Thời gian và Thanh tiến trình</string>
+    <string name="revanced_hide_watch_in_vr_summary_off">Mục Xem ở chế độ thực tế ảo được hiển thị từ menu</string>
+    <string name="revanced_hide_watch_in_vr_summary_on">Mục Xem ở chế độ thực tế ảo đã ẩn khỏi menu</string>
+    <string name="revanced_hide_watch_in_vr_title">Xem ở chế độ thực tế ảo</string>
     <string name="revanced_home_ads_summary_off">Quảng cáo trên Trang chủ đã ẩn</string>
     <string name="revanced_home_ads_summary_on">Quảng cáo trên Trang chủ được hiển thị</string>
     <string name="revanced_home_ads_title">Loại bỏ Quảng cáo trên Trang chủ</string>
@@ -300,6 +307,18 @@ Bạn có chắc chắn muốn tiếp tục không?"</string>
     <string name="revanced_reboot_warning_ryd">"Tích hợp với nút Thích để hiển thị số lượt không thích trong bố cục mới.
 Tuy nhiên, vì đây vẫn là tính năng thử nghiệm nên số lượt thích có thể không hiển thị chính xác.
 Bạn có chắc chắn muốn tiếp tục không?"</string>
+    <string name="revanced_reboot_warning_tablet">"Đánh lừa DPI để thay đổi một số bố cục thành bố cục máy tính bảng.
+
+Nếu bạn bật cài đặt này, các tính năng sau sẽ khả dụng:
+- Trình phát Shorts được chuyển đổi thành trình phát tiêu chuẩn.
+- Sắp xếp theo 'Ngày thêm (cũ nhất)'.
+
+Các tính năng sau sẽ không khả dụng:
+- Chế độ môi trường xung quanh.
+- Bài đăng trên thẻ Cộng đồng.
+
+Vì đây vẫn là một tính năng thử nghiệm nên có thể có các vấn đề chưa xác định khác.
+Bạn có chắc chắn muốn tiếp tục không?"</string>
     <string name="revanced_rebuffer_summary">Thời lượng tối đa của bộ đệm để phát video sau khi đệm lại (tính bằng mili giây)</string>
     <string name="revanced_rebuffer_title">Thời lượng bộ đệm tối đa sau khi đệm lại</string>
     <string name="revanced_reel_summary_off">Câu chuyện đã ẩn</string>
@@ -349,7 +368,6 @@ Bạn có chắc chắn muốn tiếp tục không?"</string>
     <string name="revanced_swipe_pts_summary_off">Nhấn để vuốt bị vô hiệu hoá</string>
     <string name="revanced_swipe_pts_summary_on">Nhấn để vuốt được kích hoạt</string>
     <string name="revanced_swipe_pts_title">Kích hoạt Cử chỉ Nhấn để vuốt</string>
-    <string name="revanced_swipe_screen_summary">Điều khiển vuốt cho Độ sáng và Âm lượng</string>
     <string name="revanced_swipe_summary">Điều khiển Độ sáng và Âm lượng</string>
     <string name="revanced_swipe_title">Điều khiển vuốt</string>
     <string name="revanced_swipe_volume_summary_off">Vuốt Âm lượng bị vô hiệu hoá</string>
@@ -358,6 +376,11 @@ Bạn có chắc chắn muốn tiếp tục không?"</string>
     <string name="revanced_tablet_miniplayer_summary_off">Trình phát thu nhỏ của máy tính bảng bị vô hiệu hoá</string>
     <string name="revanced_tablet_miniplayer_summary_on">Trình phát thu nhỏ của máy tính bảng được kích hoạt</string>
     <string name="revanced_tablet_miniplayer_title">Trình phát thu nhỏ của máy tính bảng</string>
+    <string name="revanced_tablet_layout_summary">Đánh lừa DPI để sử dụng một số bố cục máy tính bảng</string>
+    <string name="revanced_tablet_layout_title">Bố mục máy tính bảng</string>
+    <string name="revanced_timed_reactions_summary_off">Phản ứng theo thời gian được hiển thị</string>
+    <string name="revanced_timed_reactions_summary_on">Phản ứng theo thời gian đã ẩn</string>
+    <string name="revanced_timed_reactions_title">Phản ứng theo thời gian</string>
     <string name="revanced_tool_used">Công cụ sử dụng</string>
     <string name="revanced_uri_redirect_summary_off">"Tuân theo chính sách chuyển hướng URL của YouTube"</string>
     <string name="revanced_uri_redirect_summary_on">Mở URL bằng cách bỏ qua youtube.com/redirect</string>
@@ -376,6 +399,9 @@ Bạn có chắc chắn muốn tiếp tục không?"</string>
     <string name="revanced_videoadwhitelisting_summary_off">Danh sách cho phép quảng cáo trên video đã tắt</string>
     <string name="revanced_videoadwhitelisting_summary_on">Danh sách cho phép quảng cáo trên video đang bật. Sử dụng nút Quảng cáo bên dưới trình phát để đưa kênh vào danh sách cho phép</string>
     <string name="revanced_videoadwhitelisting_title">Danh sách cho phép quảng cáo trên video</string>
+    <string name="revanced_view_products_summary_off">Xem biểu ngữ sản phẩm được hiển thị</string>
+    <string name="revanced_view_products_summary_on">Xem biểu ngữ sản phẩm đã ẩn</string>
+    <string name="revanced_view_products_title">Xem biểu ngữ sản phẩm</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Không thể thêm kênh %s vào danh sách cho phép %s</string>
     <string name="revanced_whitelisting_added" formatted="false">Kênh %s đã được thêm vào danh sách cho phép %s</string>
     <string name="revanced_whitelisting_ads">Quảng cáo</string>

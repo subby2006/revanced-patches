@@ -22,12 +22,7 @@
     <string name="downloader_not_installed_warning">не встановлено. Будь ласка, встановіть.</string>
     <string name="enable_sb">Увімкнути SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock - це краудсорсингова система для пропуску дратівливих частин у відео на YouTube</string>
-    <string name="enable_sb_shorts">Увімкнути SponsorBlock у Shorts (Альфа)</string>
-    <string name="enable_sb_shorts_content">"Увімкнути Sponsorblock в YouTube Shorts.
-
-Since this feature is still Alpha, it only works in the 'Skip automatically' segment.
-"</string>
-    <string name="enable_sb_shorts_sum">Увімкнути Sponsorblock в YouTube Shorts.</string>
+    <string name="enable_sb_shorts_content">"Увімкнути Sponsorblock в YouTube Shorts.\n\nSince this feature is still Alpha, it only works in the 'Skip automatically' segment.\n"</string>
     <string name="enable_segmadding">Увімкнути додавання нового сегмента</string>
     <string name="enable_segmadding_sum">Увімкніть це для активації експериментального додавання сегмента (наявні проблеми з видимістю кнопки)</string>
     <string name="enable_voting">Увімкнути голосування</string>
@@ -57,9 +52,6 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="litho_channel_guidelines">Рекомендації по каналу</string>
     <string name="litho_channel_guidelines_off">Вилучення рекомендацій по каналу вимкнено</string>
     <string name="litho_channel_guidelines_on">Вилучення рекомендацій по каналу увімкнено</string>
-    <string name="litho_comments">Коментарі</string>
-    <string name="litho_comments_off">Вилучення коментарів вимкнено (лише нові коментарі/телефони)</string>
-    <string name="litho_comments_on">Вилучення коментарів увімкнено (лише нові коментарі/телефони)</string>
     <string name="litho_community_guidelines">Гайди спільноти</string>
     <string name="litho_community_guidelines_off">Вилучення гайдiв спільноти вимкнено</string>
     <string name="litho_community_guidelines_on">Вилучення гайдiв спільноти увімкнено</string>
@@ -148,7 +140,6 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="revanced_buffer_summary">Користувальницькі налаштування для відеобуфера</string>
     <string name="revanced_buffer_title">Налаштування відеобуфера</string>
     <string name="revanced_button_container_summary">Додаткові налаштування приховувань кнопок</string>
-    <string name="revanced_button_container_warning_summary">Функція не повністю підтримує новий інтерфейс!</string>
     <string name="revanced_cast_button_summary_off">Кнопку трансляції вимкнено</string>
     <string name="revanced_cast_button_summary_on">Кнопку трансляції увімкнено</string>
     <string name="revanced_cast_button_title">Кнопка трансляції</string>
@@ -158,9 +149,6 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="revanced_copy_video_url_timestamp_summary_on">Кнопку для копіювання лiнку з позначкою часу увімкнено в інтерфейсі плеєра</string>
     <string name="revanced_copy_video_url_timestamp_title">Кнопка копіювання лiнку (із позначкою часу)</string>
     <string name="revanced_copy_video_url_title">Скопіювати лiнк</string>
-    <string name="revanced_donation_companion_summary_off">Компаніон пожертв вимкнено</string>
-    <string name="revanced_donation_companion_summary_on">Компаніон пожертв увімкнено</string>
-    <string name="revanced_donation_companion_title">Компаніон пожертв</string>
     <string name="revanced_download_video_summary_off">Кнопку завантаження вимкнено в інтерфейсі плеєра</string>
     <string name="revanced_download_video_summary_on">Кнопку завантаження увімкнено в інтерфейсі плеєра</string>
     <string name="revanced_download_video_title">Кнопка завантаження</string>
@@ -190,8 +178,9 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="revanced_force_fullscreen_rotation_summary_off">Обертання на весь екран вимкнено</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Обертання на весь екран увімкнено</string>
     <string name="revanced_force_fullscreen_rotation_title">Обертання на весь екран (Експериментально)</string>
-    <string name="revanced_fullscreen_button_container_summary_off">Повноекрані кнопки керування показані</string>
-    <string name="revanced_fullscreen_button_container_summary_on">Повноекрані кнопки керування приховані</string>
+    <string name="revanced_fullscreen_button_container_summary_off">Повноекрані кнопки керування вимкнено</string>
+    <string name="revanced_fullscreen_button_container_summary_on">Повноекрані кнопки керування увімкнено</string>
+    <string name="revanced_fullscreen_button_container_title">Повноекрані кнопки керування</string>
     <string name="revanced_hdr_full_brightness_summary_off">Яскравість відео буде відповідати яскравості екрана в ландшафтному режимі HDR</string>
     <string name="revanced_hdr_full_brightness_summary_on">Встановлено максимальну яскравість ландшафтних відео в HDR</string>
     <string name="revanced_hdr_full_brightness_title">Максимальна яскравість HDR</string>
@@ -210,9 +199,6 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="revanced_hide_email_address_summary_off">Електронну пошту вимкнено</string>
     <string name="revanced_hide_email_address_summary_on">Електронну пошту увімкнено</string>
     <string name="revanced_hide_email_address_title">Електронна пошта</string>
-    <string name="revanced_hide_external_comment_box_summary_off">Додайте коментар показано</string>
-    <string name="revanced_hide_external_comment_box_summary_on">Додайте коментар приховано</string>
-    <string name="revanced_hide_external_comment_box_title">Додайте коментар</string>
     <string name="revanced_hide_like_button_summary_off">Кнопка подобається показана</string>
     <string name="revanced_hide_like_button_summary_on">Кнопка подобається прихована</string>
     <string name="revanced_hide_like_button_title">Кнопка подобається</string>
@@ -228,18 +214,18 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="revanced_hide_share_button_summary_off">Кнопка поділитися показана</string>
     <string name="revanced_hide_share_button_summary_on">Кнопка поділитися прихована</string>
     <string name="revanced_hide_share_button_title">Кнопка поділитися</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">Спойлер коментарів показано</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">Спойлер коментарів приховано</string>
-    <string name="revanced_hide_spoiler_comment_title">Спойлер коментарів</string>
     <string name="revanced_hide_thanks_button_summary_off">Кнопка подяки показана</string>
     <string name="revanced_hide_thanks_button_summary_on">Кнопка подяки прихована</string>
     <string name="revanced_hide_thanks_button_title">Кнопка подяки</string>
-    <string name="revanced_hide_time_and_seekbar_summary_off">Час та смуга перегляду приховані</string>
-    <string name="revanced_hide_time_and_seekbar_summary_on">Час та смуга перегляду показані</string>
-    <string name="revanced_hide_time_and_seekbar_title">Час та смуга перегляду</string>
+    <string name="revanced_hide_time_and_seekbar_summary_off">Смугу для перемотування та час перегляду вимкнено</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">Смугу для перемотування та час перегляду увімкнено</string>
+    <string name="revanced_hide_time_and_seekbar_title">Смуга та час перегляду</string>
     <string name="revanced_home_ads_summary_off">Рекламу на домашній сторінці вимкнено</string>
     <string name="revanced_home_ads_summary_on">Рекламу на домашній сторінці увімкнено</string>
     <string name="revanced_home_ads_title">Реклама на домашній сторінці (Експериментально)</string>
+    <string name="revanced_inapp_browser_summary_off">Посилання відкривається тільки в браузері\n(Натисніть, щоб змінити параметр)</string>
+    <string name="revanced_inapp_browser_summary_on">Відкривайте посилання не в браузері, а через додаток\n(Натисніть, щоб змінити параметр)</string>
+    <string name="revanced_inapp_browser_title">Внутрішній браузер</string>
     <string name="revanced_info_cards_summary_off">Підказки вимкнено</string>
     <string name="revanced_info_cards_summary_on">Підказки увімкнено</string>
     <string name="revanced_info_cards_title">Підказки</string>
@@ -254,6 +240,12 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="revanced_minimized_playback_on">Відтворення у фоні увімкнено</string>
     <string name="revanced_misc_summary">Додаткові налаштування іншого </string>
     <string name="revanced_misc_title">Інше</string>
+    <string name="revanced_mix_playlists_summary_off">Мікс плейлист вимкнено</string>
+    <string name="revanced_mix_playlists_summary_on">Мікс плейлист увімкнено</string>
+    <string name="revanced_mix_playlists_title">Мікс плейлист</string>
+    <string name="revanced_music_container_summary_off">Розділ альбомів співаків увімкнено</string>
+    <string name="revanced_music_container_summary_on">Розділ альбомів співакв вимкнено</string>
+    <string name="revanced_music_container_title">Розділ альбомів співаків</string>
     <string name="revanced_new_actionbar_summary_off">Використання широкої панелі пошуку вимкнено</string>
     <string name="revanced_new_actionbar_summary_on">Використання широкої панелі пошуку увімкнено</string>
     <string name="revanced_new_actionbar_title">Широка панель пошуку</string>
@@ -295,10 +287,8 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="revanced_ryd_summary">Увімкніть, щоб знову бачити дизлайки</string>
     <string name="revanced_ryd_title">Увімкнути Return YouTube Dislike</string>
     <string name="revanced_seekbar_tapping">Натискання на рядок перемотування відео</string>
-    <string name="revanced_seekbar_tapping_off">Натискання на рядок перемотування
-(панель відео) вимкнено</string>
-    <string name="revanced_seekbar_tapping_on">Натискання на рядок перемотування
-(панель відео) увімкнено</string>
+    <string name="revanced_seekbar_tapping_off">Натискання на рядок перемотування\n(панель відео) вимкнено</string>
+    <string name="revanced_seekbar_tapping_on">Натискання на рядок перемотування\n(панель відео) увімкнено</string>
     <string name="revanced_settings">Налаштування ReVanced</string>
     <string name="revanced_shorts_button_summary_off">Кнопку YouTube Shorts вимкнено</string>
     <string name="revanced_shorts_button_summary_on">Кнопку YouTube Shorts увімкнено</string>
@@ -332,7 +322,6 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="revanced_swipe_pts_summary_off">Керування жестами завжди увімкнено</string>
     <string name="revanced_swipe_pts_summary_on">Керування жестами вимагає тривалого натискання перед використанням</string>
     <string name="revanced_swipe_pts_title">Press-to-Swipe</string>
-    <string name="revanced_swipe_screen_summary">Керування жестами для яскравості та гучності</string>
     <string name="revanced_swipe_summary">Керування жестами яскравості та гучності\nПри зміні якогось параметра потрібен перезапуск додатка</string>
     <string name="revanced_swipe_title">Керування жестами</string>
     <string name="revanced_swipe_volume_summary_off">Керування жестами для гучності вимкнено</string>
@@ -342,6 +331,9 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="revanced_tablet_miniplayer_summary_on">Планшетний мініпрогравач увімкнено</string>
     <string name="revanced_tablet_miniplayer_title">Планшетний мініпрогравач</string>
     <string name="revanced_tool_used">Патч збірки:</string>
+    <string name="revanced_uri_redirect_summary_off">"Перенаправлення посилань через youtube.com/redirect увімкнено"</string>
+    <string name="revanced_uri_redirect_summary_on">Перенаправлення посилань через youtube.com/redirect вимкнено</string>
+    <string name="revanced_uri_redirect_title">Перенаправлення посилань через youtube.com/redirect</string>
     <string name="revanced_video_ads_summary_off">Рекламу у відео вимкнено</string>
     <string name="revanced_video_ads_summary_on">Рекламу у відео увімкнено</string>
     <string name="revanced_video_ads_title">Реклама у відео</string>
@@ -372,7 +364,6 @@ Since this feature is still Alpha, it only works in the 'Skip automatically' seg
     <string name="sb_guidelines_preference_sum">Інструкція містить поради щодо надсилання сегмента</string>
     <string name="sb_guidelines_preference_title">Переглянути інструкцію</string>
     <string name="sb_settings">Налаштування SponsorBlock</string>
-    <string name="sb_shorts_example_video">Приклад відео</string>
     <string name="sb_summary">Використовує sponsor.ajay.app API</string>
     <string name="segments_endcards">Кінцева заставка/титри</string>
     <string name="segments_endcards_sum">Титри або час появи кінцевих заставок YouTube. Не для підведення підсумків сказаного у відео.</string>

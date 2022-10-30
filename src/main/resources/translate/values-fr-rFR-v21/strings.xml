@@ -51,9 +51,6 @@
     <string name="litho_channel_guidelines">Suppression des modifications sur le canal</string>
     <string name="litho_channel_guidelines_off">La suppression des modifications de canal est désactivée</string>
     <string name="litho_channel_guidelines_on">La suppression des modifications de canal est désactivée</string>
-    <string name="litho_comments">Suppression des commentaires</string>
-    <string name="litho_comments_off">La suppression des commentaires est désactivée (nouveaux commentaires / téléphones seulement)</string>
-    <string name="litho_comments_on">La suppression des commentaires est désactivée (nouveaux commentaires / téléphones seulement)</string>
     <string name="litho_community_guidelines">Suppression des modifications sur la communauté</string>
     <string name="litho_community_guidelines_off">La suppression des modifications sur la communauté est désactivée</string>
     <string name="litho_community_guidelines_on">La suppression des modifications sur la communauté est activée</string>
@@ -145,7 +142,6 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_buffer_summary">Réglages personnalisés pour le buffer vidéo</string>
     <string name="revanced_buffer_title">Buffer settings</string>
     <string name="revanced_button_container_summary">Masque le composant du conteneur de boutons</string>
-    <string name="revanced_button_container_warning_summary">cette fonctionnalité ne supporte pas complètement la nouvelle mise en page !</string>
     <string name="revanced_cast_button_summary_off">Cast button is hidden</string>
     <string name="revanced_cast_button_summary_on">Cast button is shown</string>
     <string name="revanced_cast_button_title">Cast button</string>
@@ -155,9 +151,6 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Copy Link Button With Timestamp is shown in the player overlay</string>
     <string name="revanced_copy_video_url_timestamp_title">Copy Link Button With Timestamp</string>
     <string name="revanced_copy_video_url_title">Copy Link Button</string>
-    <string name="revanced_donation_companion_summary_off">Le partenaire de donation est affiché</string>
-    <string name="revanced_donation_companion_summary_on">Le partenaire de donation est masqué</string>
-    <string name="revanced_donation_companion_title">Le compagnon de donation</string>
     <string name="revanced_download_video_summary_off">Le bouton de téléchargement est caché</string>
     <string name="revanced_download_video_summary_on">Le bouton de téléchargement est visible</string>
     <string name="revanced_download_video_title">Bouton de téléchargement</string>
@@ -205,9 +198,6 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_hide_email_address_summary_off">L\'adresse e-mail est cachée</string>
     <string name="revanced_hide_email_address_summary_on">L\'adresse e-mail est visible</string>
     <string name="revanced_hide_email_address_title">Adresse e-mail</string>
-    <string name="revanced_hide_external_comment_box_summary_off">La boîte de commentaire externe est affichée</string>
-    <string name="revanced_hide_external_comment_box_summary_on">La boîte de commentaire externe est cachée</string>
-    <string name="revanced_hide_external_comment_box_title">Masquer la boîte de commentaire externe</string>
     <string name="revanced_hide_like_button_summary_off">Le bouton de like est affiché</string>
     <string name="revanced_hide_like_button_summary_on">Le bouton de like est caché</string>
     <string name="revanced_hide_like_button_title">Cacher le bouton de like</string>
@@ -223,9 +213,6 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_hide_share_button_summary_off">Le bouton de partage est affiché</string>
     <string name="revanced_hide_share_button_summary_on">Le bouton de partage est caché</string>
     <string name="revanced_hide_share_button_title">Cacher le bouton de partage</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">La divulgation du commentaire est affiché.</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">La divulgation du commentaire est masqué.</string>
-    <string name="revanced_hide_spoiler_comment_title">Masqué la divulgation du contenu.</string>
     <string name="revanced_hide_thanks_button_summary_off">Le bouton de remerciement est affiché.</string>
     <string name="revanced_hide_thanks_button_summary_on">Le bouton de remerciement est caché</string>
     <string name="revanced_hide_thanks_button_title">Cacher le bouton de remerciements</string>
@@ -330,7 +317,6 @@ Cependant, puisque c'est encore une fonctionnalité expérimentale, les likes pe
     <string name="revanced_swipe_pts_summary_off">Swipe controls are always active</string>
     <string name="revanced_swipe_pts_summary_on">Swipe controls require a long-press before activating</string>
     <string name="revanced_swipe_pts_title">Press-to-Swipe</string>
-    <string name="revanced_swipe_screen_summary">Swipe controls for Brightness and Volume</string>
     <string name="revanced_swipe_summary">Contrôler le volume et la luminosité</string>
     <string name="revanced_swipe_title">Swipe controls</string>
     <string name="revanced_swipe_volume_summary_off">Swipe controls for volume are disabled</string>

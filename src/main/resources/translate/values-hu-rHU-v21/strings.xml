@@ -51,9 +51,6 @@
     <string name="litho_channel_guidelines">Csatornára vonatkozó irányelvek eltávolítása</string>
     <string name="litho_channel_guidelines_off">Csatornára vonatkozó irányelvek eltávolítása ki van kapcsolva</string>
     <string name="litho_channel_guidelines_on">Csatornára vonatkozó irányelvek eltávolítása be van kapcsolva</string>
-    <string name="litho_comments">Megjegyzések eltávolítása</string>
-    <string name="litho_comments_off">Megjegyzések eltávolítása ki van kapcsolva (Új megjegyzések / Csak telefonokon)</string>
-    <string name="litho_comments_on">Megjegyzések eltávolítása be van kapcsolva (Új megjegyzések / Csak telefonokon)</string>
     <string name="litho_community_guidelines">Közösségi Irányelvek eltávolítása</string>
     <string name="litho_community_guidelines_off">Közösségi Irányelvek eltávolítása ki van kapcsolva</string>
     <string name="litho_community_guidelines_on">Közösségi Irányelvek eltávolítása be van kapcsolva</string>
@@ -141,7 +138,6 @@ Készen áll a beküldésre?"</string>
     <string name="revanced_buffer_summary">Egyéni beállítások a videó bufferhez</string>
     <string name="revanced_buffer_title">Puffer beállítások</string>
     <string name="revanced_button_container_summary">Elrejti a gombtároló összetevőjét</string>
-    <string name="revanced_button_container_warning_summary">ez a funkció nem támogatja teljesen az új elrendezést!</string>
     <string name="revanced_cast_button_summary_off">Az átküldés gomb rejtve van</string>
     <string name="revanced_cast_button_summary_on">Az átküldés gomb látható</string>
     <string name="revanced_cast_button_title">Átküldés gomb</string>
@@ -237,7 +233,6 @@ Készen áll a beküldésre?"</string>
     <string name="revanced_swipe_pts_summary_off">Swipe controls are always active</string>
     <string name="revanced_swipe_pts_summary_on">Swipe controls require a long-press before activating</string>
     <string name="revanced_swipe_pts_title">Press-to-Swipe</string>
-    <string name="revanced_swipe_screen_summary">Swipe controls for Brightness and Volume</string>
     <string name="revanced_swipe_title">Swipe controls</string>
     <string name="revanced_swipe_volume_summary_off">Swipe controls for volume are disabled</string>
     <string name="revanced_swipe_volume_summary_on">Swipe controls for volume are enabled</string>

@@ -48,9 +48,6 @@
     <string name="litho_channel_guidelines">Channel guidelines removal</string>
     <string name="litho_channel_guidelines_off">Channel guidelines removal is turned off</string>
     <string name="litho_channel_guidelines_on">Channel guidelines removal is turned on</string>
-    <string name="litho_comments">Comments removal</string>
-    <string name="litho_comments_off">Comments removal is turned off (new comments / phones only)</string>
-    <string name="litho_comments_on">Comments removal is turned on (new comments / phones only)</string>
     <string name="litho_community_guidelines">Community Guidelines removal</string>
     <string name="litho_community_guidelines_off">Community Guidelines removal is turned off</string>
     <string name="litho_community_guidelines_on">Community Guidelines removal is turned on</string>
@@ -215,7 +212,6 @@ Is it ready to submit?"</string>
     <string name="revanced_swipe_pts_summary_off">Swipe controls are always active</string>
     <string name="revanced_swipe_pts_summary_on">Swipe controls require a long-press before activating</string>
     <string name="revanced_swipe_pts_title">Press-to-Swipe</string>
-    <string name="revanced_swipe_screen_summary">Swipe controls for Brightness and Volume</string>
     <string name="revanced_swipe_title">Swipe controls</string>
     <string name="revanced_swipe_volume_summary_off">Swipe controls for volume are disabled</string>
     <string name="revanced_swipe_volume_summary_on">Swipe controls for volume are enabled</string>

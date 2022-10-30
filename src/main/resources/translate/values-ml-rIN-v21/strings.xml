@@ -51,9 +51,6 @@
     <string name="litho_channel_guidelines">ചാനൽ ഗൈഡലൈൻസ് മാറ്റൽ</string>
     <string name="litho_channel_guidelines_off">Channel guidelines removal is turned off</string>
     <string name="litho_channel_guidelines_on">Channel guidelines removal is turned on</string>
-    <string name="litho_comments">Comments removal</string>
-    <string name="litho_comments_off">Comments removal is turned off (new comments / phones only)</string>
-    <string name="litho_comments_on">Comments removal is turned on (new comments / phones only)</string>
     <string name="litho_community_guidelines">Community Guidelines removal</string>
     <string name="litho_community_guidelines_off">Community Guidelines removal is turned off</string>
     <string name="litho_community_guidelines_on">Community Guidelines removal is turned on</string>
@@ -141,7 +138,6 @@ Is it ready to submit?"</string>
     <string name="revanced_buffer_summary">വീഡിയോ ബഫറിനായുള്ള ഇഷ്‌ടാനുസൃത ക്രമീകരണങ്ങൾ</string>
     <string name="revanced_buffer_title">Buffer settings</string>
     <string name="revanced_button_container_summary">ബട്ടൺ കണ്ടെയ്നറിന്റെ ഘടകം മറയ്ക്കുന്നു</string>
-    <string name="revanced_button_container_warning_summary">ഈ സവിശേഷത പുതിയ ലേഔട്ടിനെ പൂർണ്ണമായി പിന്തുണയ്ക്കുന്നില്ല!</string>
     <string name="revanced_cast_button_summary_off">Cast button is hidden</string>
     <string name="revanced_cast_button_summary_on">Cast button is shown</string>
     <string name="revanced_cast_button_title">Cast button</string>
@@ -195,9 +191,6 @@ Is it ready to submit?"</string>
     <string name="revanced_hide_email_address_summary_off">ഇമെയിൽ ഐഡി മറച്ചിരിക്കുന്നു</string>
     <string name="revanced_hide_email_address_summary_on">ഇമെയിൽ ഐഡി കാണിച്ചിരിക്കുന്നു</string>
     <string name="revanced_hide_email_address_title">ഇമെയിൽ അഡ്രെസ്സ്</string>
-    <string name="revanced_hide_external_comment_box_summary_off">വെളിയിലെ കമന്റ്‌ ബോക്സ്‌ കാണിച്ചിരിക്കുന്നു</string>
-    <string name="revanced_hide_external_comment_box_summary_on">വെളിയിലെ കമന്റ്‌ ബോക്സ്‌ മറച്ചിരിക്കുന്നു</string>
-    <string name="revanced_hide_external_comment_box_title">വെളിയിലെ കമന്റ്‌ ബോക്സ്‌ മറക്കുക</string>
     <string name="revanced_hide_like_button_summary_off">ലൈക്ക് ബട്ടൺ കാണിച്ചിരിക്കുന്നു</string>
     <string name="revanced_hide_like_button_summary_on">ലൈക്ക് ബട്ടൺ മറച്ചിരിക്കുന്നു</string>
     <string name="revanced_hide_like_button_title">ലൈക്ക് ബട്ടൺ മറക്കുക</string>
@@ -213,9 +206,6 @@ Is it ready to submit?"</string>
     <string name="revanced_hide_share_button_summary_off">ഷെയർ ബട്ടൺ കാണിച്ചിരിക്കുന്നു</string>
     <string name="revanced_hide_share_button_summary_on">ഷെയർ ബട്ടൺ മറച്ചിരിക്കുന്നു</string>
     <string name="revanced_hide_share_button_title">ഷെയർ ബട്ടൺ മറയ്ക്കുക</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">സ്പോയിലെർ കമന്റ്‌ കാണിച്ചിരിക്കുന്നു</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">സ്പോയിലെർ കമന്റ്‌ മറച്ചിരിക്കുന്നു</string>
-    <string name="revanced_hide_spoiler_comment_title">സ്പോയിലെർ കമന്റ്‌ മറയ്ക്കുക</string>
     <string name="revanced_hide_thanks_button_summary_off">നന്ദി ബട്ടൺ കാണിച്ചിരിക്കുന്നു</string>
     <string name="revanced_hide_thanks_button_summary_on">നന്ദി ബട്ടൺ മറച്ചിരിക്കുന്നു</string>
     <string name="revanced_hide_thanks_button_title">നന്ദി ബട്ടൺ മറയ്ക്കുക</string>
@@ -303,7 +293,6 @@ Is it ready to submit?"</string>
     <string name="revanced_swipe_pts_summary_off">Swipe controls are always active</string>
     <string name="revanced_swipe_pts_summary_on">Swipe controls require a long-press before activating</string>
     <string name="revanced_swipe_pts_title">Press-to-Swipe</string>
-    <string name="revanced_swipe_screen_summary">Swipe controls for Brightness and Volume</string>
     <string name="revanced_swipe_title">Swipe controls</string>
     <string name="revanced_swipe_volume_summary_off">Swipe controls for volume are disabled</string>
     <string name="revanced_swipe_volume_summary_on">Swipe controls for volume are enabled</string>

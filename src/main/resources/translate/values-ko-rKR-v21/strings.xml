@@ -57,9 +57,6 @@
     <string name="litho_channel_guidelines">채널 가이드라인 숨기기</string>
     <string name="litho_channel_guidelines_off">채널 가이드라인을 보여줍니다</string>
     <string name="litho_channel_guidelines_on">채널 가이드라인을 숨깁니다</string>
-    <string name="litho_comments">댓글 창 제거 (태블릿에서는 적용되지 않음)</string>
-    <string name="litho_comments_off">댓글 창을 보여줍니다</string>
-    <string name="litho_comments_on">댓글 창을 숨깁니다</string>
     <string name="litho_community_guidelines">커뮤니티 가이드라인 제거</string>
     <string name="litho_community_guidelines_off">커뮤니티 가이드라인을 보여줍니다</string>
     <string name="litho_community_guidelines_on">커뮤니티 가이드라인을 숨깁니다</string>
@@ -106,7 +103,7 @@
     <string name="litho_shorts_shelf_off">Shorts 선반을 보여줍니다</string>
     <string name="litho_shorts_shelf_on">Shorts 선반을 숨깁니다</string>
     <string name="microg_not_installed_notice">MicroG를 설치해 주세요</string>
-    <string name="microg_not_installed_warning">MicroG를 찾지 못했어요</string>
+    <string name="microg_not_installed_warning">MicroG가 설치되지 않았습니다.</string>
     <string name="microg_notification_settings">알림 설정</string>
     <string name="microg_notification_settings_summary">"1. Google device registration과 Google Cloud Messaging은 알림을 위해 활성화되어야 합니다.
 2. ReVanced는 Google Cloud Messaging에 등록되어 있는 것이 확인되어야 합니다.
@@ -149,23 +146,27 @@
     <string name="revanced_branding_watermark_summary_off">영상 하단 워터마크를 숨깁니다</string>
     <string name="revanced_branding_watermark_summary_on">영상 하단 워터마크를 보여줍니다</string>
     <string name="revanced_branding_watermark_title">영상 워터마크 (채널 구독 버튼)</string>
+    <string name="revanced_breaking_news_panels_summary_off">뉴스 속보 패널을 보여줍니다</string>
+    <string name="revanced_breaking_news_panels_summary_on">뉴스 속보 패널을 숨깁니다</string>
+    <string name="revanced_breaking_news_panels_title">뉴스 속보 패널</string>
     <string name="revanced_buffer_summary">동영상 버퍼 관련 설정입니다</string>
     <string name="revanced_buffer_title">동영상 버퍼 설정</string>
     <string name="revanced_button_container_summary">플레이어 하단에 있는 버튼 컨테이너를 숨깁니다</string>
-    <string name="revanced_button_container_title">버튼 컨테이너 숨기기 (실험적 플래그)</string>
-    <string name="revanced_button_container_warning_summary">이 기능은 새로운 레이아웃에서의 완전한 작동을 보장하지 않습니다!</string>
+    <string name="revanced_button_container_title">버튼 컨테이너 설정</string>
     <string name="revanced_cast_button_summary_off">크롬캐스트 버튼을 숨깁니다</string>
     <string name="revanced_cast_button_summary_on">크롬캐스트 버튼을 보여줍니다</string>
     <string name="revanced_cast_button_title">크롬캐스트 버튼</string>
+    <string name="revanced_comments_summary">댓글창 또는 이와 관련된 요소를 숨깁니다</string>
+    <string name="revanced_comments_title">댓글창 설정</string>
     <string name="revanced_copy_video_url_summary_off">링크 복사 버튼을 플레이어에서 숨깁니다</string>
     <string name="revanced_copy_video_url_summary_on">링크 복사 버튼을 플레이어에서 보여줍니다</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">시간을 표기한 링크를 복사하는 버튼을 플레이어에서 숨깁니다</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">시간을 표기한 링크를 복사하는 버튼을 플레이어에서 보여줍니다</string>
     <string name="revanced_copy_video_url_timestamp_title">링크 복사 버튼 (시간 표기 포함)</string>
     <string name="revanced_copy_video_url_title">링크 복사 버튼</string>
-    <string name="revanced_donation_companion_summary_off">모금 행사 정보 패널을 보여줍니다</string>
-    <string name="revanced_donation_companion_summary_on">모금 행사 정보 패널을 숨깁니다</string>
-    <string name="revanced_donation_companion_title">모금 행사 정보 패널</string>
+    <string name="revanced_crowdfunding_box_summary_off">크라우드펀딩 박스를 숨깁니다</string>
+    <string name="revanced_crowdfunding_box_summary_on">크라우드펀딩 박스를 보여줍니다</string>
+    <string name="revanced_crowdfunding_box_title">크라우드펀딩 박스</string>
     <string name="revanced_download_video_summary_off">다운로드 버튼을 플레이어에서 숨깁니다</string>
     <string name="revanced_download_video_summary_on">다운로드 버튼을 플레이어에서 보여줍니다</string>
     <string name="revanced_download_video_title">다운로드 버튼</string>
@@ -201,6 +202,9 @@
     <string name="revanced_hdr_full_brightness_summary_off">가로 화면에서 HDR 영상 밝기가 기기의 현재 밝기로 자동 설정됩니다</string>
     <string name="revanced_hdr_full_brightness_summary_on">가로 화면에서 HDR 영상 밝기가 최대로 자동 설정됩니다</string>
     <string name="revanced_hdr_full_brightness_title">HDR 영상 최대 밝기 설정</string>
+    <string name="revanced_hide_comments_section_summary_off">Comment section is shown</string>
+    <string name="revanced_hide_comments_section_summary_on">Comment section is hidden</string>
+    <string name="revanced_hide_comments_section_title">Hide comments section</string>
     <string name="revanced_hide_create_clip_button_summary_off">클립 버튼을 보여줍니다</string>
     <string name="revanced_hide_create_clip_button_summary_on">클립 버튼을 숨깁니다</string>
     <string name="revanced_hide_create_clip_button_title">클립 버튼 제거</string>
@@ -216,9 +220,6 @@
     <string name="revanced_hide_email_address_summary_off">이메일 주소를 숨깁니다</string>
     <string name="revanced_hide_email_address_summary_on">이메일 주소를 보여줍니다</string>
     <string name="revanced_hide_email_address_title">이메일 주소</string>
-    <string name="revanced_hide_external_comment_box_summary_off">댓글 입력창을 보여줍니다</string>
-    <string name="revanced_hide_external_comment_box_summary_on">댓글 입력창을 숨깁니다</string>
-    <string name="revanced_hide_external_comment_box_title">댓글 입력창 제거</string>
     <string name="revanced_hide_like_button_summary_off">좋아요 버튼을 보여줍니다</string>
     <string name="revanced_hide_like_button_summary_on">좋아요 버튼을 숨깁니다</string>
     <string name="revanced_hide_like_button_title">좋아요 버튼 제거</string>
@@ -228,21 +229,27 @@
     <string name="revanced_hide_playlist_button_summary_off">저장(플레이리스트) 버튼을 보여줍니다</string>
     <string name="revanced_hide_playlist_button_summary_on">저장(플레이리스트) 버튼을 숨깁니다</string>
     <string name="revanced_hide_playlist_button_title">저장(플레이리스트) 버튼 제거</string>
+    <string name="revanced_hide_preview_comment_off">미리보기 댓글을 보여줍니다</string>
+    <string name="revanced_hide_preview_comment_on">미리보기 댓글을 숨깁니다</string>
+    <string name="revanced_hide_preview_comment_title">미리보기 댓글</string>
     <string name="revanced_hide_report_button_summary_off">신고 버튼을 보여줍니다</string>
     <string name="revanced_hide_report_button_summary_on">신고 버튼을 숨깁니다</string>
     <string name="revanced_hide_report_button_title">신고 버튼 제거</string>
     <string name="revanced_hide_share_button_summary_off">공유 버튼을 보여줍니다</string>
     <string name="revanced_hide_share_button_summary_on">공유 버튼을 숨깁니다</string>
     <string name="revanced_hide_share_button_title">공유 버튼 숨기기</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">미리보기 댓글을 보여줍니다</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">미리보기 댓글을 숨깁니다</string>
-    <string name="revanced_hide_spoiler_comment_title">미리보기 댓글 제거</string>
+    <string name="revanced_hide_shorts_comments_button_off">Shorts 댓글 버튼을 보여줍니다</string>
+    <string name="revanced_hide_shorts_comments_button_on">Shorts 댓글 버튼을 숨깁니다</string>
+    <string name="revanced_hide_shorts_comments_button_title">Shorts 댓글 버튼</string>
     <string name="revanced_hide_thanks_button_summary_off">Thanks 버튼을 보여줍니다</string>
     <string name="revanced_hide_thanks_button_summary_on">Thanks 버튼을 숨깁니다</string>
     <string name="revanced_hide_thanks_button_title">Thanks 버튼 제거</string>
     <string name="revanced_hide_time_and_seekbar_summary_off">시간 및 재생 바를 숨깁니다</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">시간 및 재생 바를 보여줍니다</string>
     <string name="revanced_hide_time_and_seekbar_title">시간 및 재생 바</string>
+    <string name="revanced_hide_watch_in_vr_summary_off">Watch in VR item is shown from menu item</string>
+    <string name="revanced_hide_watch_in_vr_summary_on">Watch in VR item is hidden from menu item</string>
+    <string name="revanced_hide_watch_in_vr_title">Watch in VR</string>
     <string name="revanced_home_ads_summary_off">홈 화면 광고를 숨깁니다</string>
     <string name="revanced_home_ads_summary_on">홈 화면 광고를 보여줍니다</string>
     <string name="revanced_home_ads_title">홈 화면 광고 제거</string>
@@ -301,6 +308,18 @@
     <string name="revanced_reboot_warning_ryd">"새로운 레이아웃에서 싫어요 카운트를 표시하기 위해 좋아요 버튼과 통합합니다.
 이것은 여전히 실험적인 기능이기 때문에, 좋아요 카운트가 정확하게 표시되지 않을수도 있습니다.
 그래도 계속하시겠습니까?"</string>
+    <string name="revanced_reboot_warning_tablet">"dpi를 속여 일부 레이아웃을 태블릿 레이아웃으로 변경합니다.
+
+이 설정을 활성화하면 다음 기능을 사용할 수 있습니다.
+- Shorts 플레이어를 일반 플레이어로 변환됨
+- '추가된 날짜 (오래된순)'으로 정렬 기능
+
+다음 기능은 사용할 수 없습니다.
+- 영화 조명
+- 커뮤니티 게시물
+
+이것은 여전히 실험적인 기능이기 때문에, 알려지지 않은 다른 문제가 있을 수 있습니다.
+그래도 계속하시겠습니까?"</string>
     <string name="revanced_rebuffer_summary">영상 재생 중 버퍼링이 필요할 때 미리 가져올 영상의 길이로, 여기서 재버퍼링은 사용자 동작과 관계없이 미리 가져온 영상을 다 재생했을 때 이루어지는 것을 의미합니다 (기본값: 5000밀리초)</string>
     <string name="revanced_rebuffer_title">재버퍼링</string>
     <string name="revanced_reel_summary_off">스토리를 숨깁니다</string>
@@ -350,7 +369,6 @@
     <string name="revanced_swipe_pts_summary_off">항상 스와이프 컨트롤을 활성화 합니다</string>
     <string name="revanced_swipe_pts_summary_on">눌러서 스와이프 컨트롤을 활성화 합니다</string>
     <string name="revanced_swipe_pts_title">눌러서 스와이프 활성화</string>
-    <string name="revanced_swipe_screen_summary">스와이프 컨트롤 관련 설정</string>
     <string name="revanced_swipe_summary">볼륨과 밝기 관련 제스쳐 설정 입니다</string>
     <string name="revanced_swipe_title">스와이프 제스처</string>
     <string name="revanced_swipe_volume_summary_off">스와이프 제스처로 볼륨 조절을 하지 않습니다</string>
@@ -359,6 +377,11 @@
     <string name="revanced_tablet_miniplayer_summary_off">태블릿용 미니 플레이어를 사용하지 않습니다</string>
     <string name="revanced_tablet_miniplayer_summary_on">태블릿용 미니 플레이어를 사용하고 있습니다</string>
     <string name="revanced_tablet_miniplayer_title">태블릿용 미니 플레이어</string>
+    <string name="revanced_tablet_layout_summary">dpi를 속여 일부 레이아웃을 태블릿 레이아웃으로 변경합니다.</string>
+    <string name="revanced_tablet_layout_title">태블릿 레이아웃</string>
+    <string name="revanced_timed_reactions_summary_off">실시간 이모티콘 리액션을 보여줍니다</string>
+    <string name="revanced_timed_reactions_summary_on">실시간 이모티콘 리액션을 숨깁니다</string>
+    <string name="revanced_timed_reactions_title">실시간 이모티콘 리액션</string>
     <string name="revanced_tool_used">사용 도구</string>
     <string name="revanced_uri_redirect_summary_off">"YouTube의 리다이렉션 정책을 따릅니다"</string>
     <string name="revanced_uri_redirect_summary_on">URL을 누를때 \'youtube.com/redirect\'를 거치지 않고 다이렉트로 연결됩니다</string>
@@ -377,6 +400,9 @@
     <string name="revanced_videoadwhitelisting_summary_off">영상 광고 화이트리스트가 꺼졌습니다</string>
     <string name="revanced_videoadwhitelisting_summary_on">영상 광고 화이트리스트가 켜졌습니다. 플레이어 밑의 광고 버튼을 눌러서 채널을 화이트리스트에 등록합니다</string>
     <string name="revanced_videoadwhitelisting_title">영상 광고 화이트리스트</string>
+    <string name="revanced_view_products_summary_off">제품 쇼핑 배너를 보여줍니다</string>
+    <string name="revanced_view_products_summary_on">제품 쇼핑 배너를 숨깁니다</string>
+    <string name="revanced_view_products_title">제품 쇼핑 배너</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">%s 채널을 %s 화이트리스트에 추가하지 못했습니다</string>
     <string name="revanced_whitelisting_added" formatted="false">%s 채널을 %s 화이트리스트에 추가했습니다</string>
     <string name="revanced_whitelisting_ads">광고</string>
@@ -470,4 +496,5 @@
     <string name="vote_started">해당 구간에 투표하는 중입니다…</string>
     <string name="vote_succeeded">투표가 정상적으로 처리되었습니다.</string>
     <string name="vote_upvote">좋아요</string>
+    <string name="website">홈페이지</string>
 </resources>

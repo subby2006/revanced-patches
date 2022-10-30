@@ -51,9 +51,6 @@
     <string name="litho_channel_guidelines">Kanalrichtlinien entfernen</string>
     <string name="litho_channel_guidelines_off">Kanalrichtlinien-Entfernung ist deaktiviert</string>
     <string name="litho_channel_guidelines_on">Kanalrichtlinien-Entfernung ist aktiviert</string>
-    <string name="litho_comments">Kommentare entfernen</string>
-    <string name="litho_comments_off">Kommentar-Entfernung ist deaktiviert (nur für den neuen Kommentarbereich/nur für Smartphones)</string>
-    <string name="litho_comments_on">Kommentar-Entfernung ist aktiviert (nur für den neuen Kommentarbereich/nur für Smartphones)</string>
     <string name="litho_community_guidelines">Communityrichtlinien entfernen</string>
     <string name="litho_community_guidelines_off">Communityrichtlinien-Entfernung ist deaktiviert</string>
     <string name="litho_community_guidelines_on">Communityrichtlinien-Entfernung ist aktiviert</string>
@@ -142,7 +139,6 @@ Is it ready to submit?"</string>
     <string name="revanced_buffer_summary">Benutzerdefinierte Einstellungen für Video-Puffer</string>
     <string name="revanced_buffer_title">Puffer Einstellungen</string>
     <string name="revanced_button_container_summary">Versteckt die Komponente des Tastenbehälters</string>
-    <string name="revanced_button_container_warning_summary">diese Funktion unterstützt das neue Layout nicht vollständig!</string>
     <string name="revanced_cast_button_summary_off">Die Cast-Schaltfläche wird nicht angezeigt</string>
     <string name="revanced_cast_button_summary_on">Die Cast-Schaltfläche wird angezeigt</string>
     <string name="revanced_cast_button_title">Cast-Schaltfläche</string>
@@ -152,9 +148,6 @@ Is it ready to submit?"</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Copy Link Button With Timestamp is shown in the player overlay</string>
     <string name="revanced_copy_video_url_timestamp_title">Copy Link Button With Timestamp</string>
     <string name="revanced_copy_video_url_title">Copy Link Button</string>
-    <string name="revanced_donation_companion_summary_off">Spendenbegleiter wird angezeigt</string>
-    <string name="revanced_donation_companion_summary_on">Spendenbegleiter ist versteckt</string>
-    <string name="revanced_donation_companion_title">Spendenbegleiter</string>
     <string name="revanced_download_video_summary_off">Download Button ist ausgeblendet</string>
     <string name="revanced_download_video_summary_on">Download Button ist sichtbar</string>
     <string name="revanced_download_video_title">Download Button</string>
@@ -202,9 +195,6 @@ Is it ready to submit?"</string>
     <string name="revanced_hide_email_address_summary_off">E-Mail-Adresse ist ausgeblendet</string>
     <string name="revanced_hide_email_address_summary_on">E-Mail-Adresse ist sichtbar</string>
     <string name="revanced_hide_email_address_title">E-Mail-Adresse</string>
-    <string name="revanced_hide_external_comment_box_summary_off">Externes Kommentarfeld wird angezeigt</string>
-    <string name="revanced_hide_external_comment_box_summary_on">Externes Kommentarfeld ist ausgeblendet</string>
-    <string name="revanced_hide_external_comment_box_title">Externes Kommentarfeld ausblenden</string>
     <string name="revanced_home_ads_summary_off">Home ADS are hidden</string>
     <string name="revanced_home_ads_summary_on">Home ADS are shown</string>
     <string name="revanced_home_ads_title">Home ADS</string>
@@ -269,7 +259,6 @@ Is it ready to submit?"</string>
     <string name="revanced_swipe_pts_summary_off">Swipe controls are always active</string>
     <string name="revanced_swipe_pts_summary_on">Swipe controls require a long-press before activating</string>
     <string name="revanced_swipe_pts_title">Press-to-Swipe</string>
-    <string name="revanced_swipe_screen_summary">Swipe controls for Brightness and Volume</string>
     <string name="revanced_swipe_title">Swipe controls</string>
     <string name="revanced_swipe_volume_summary_off">Swipe controls for volume are disabled</string>
     <string name="revanced_swipe_volume_summary_on">Swipe controls for volume are enabled</string>

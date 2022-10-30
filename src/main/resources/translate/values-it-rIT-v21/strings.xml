@@ -51,9 +51,6 @@
     <string name="litho_channel_guidelines">Rimozione linee guida canale</string>
     <string name="litho_channel_guidelines_off">La rimozione delle linee guida del canale è disattivata</string>
     <string name="litho_channel_guidelines_on">La rimozione delle linee guida del canale è attivata</string>
-    <string name="litho_comments">Rimozione commenti</string>
-    <string name="litho_comments_off">La rimozione dei commenti è disattivata (solo nuovi commenti / telefoni)</string>
-    <string name="litho_comments_on">La rimozione dei commenti è attivata (solo nuovi commenti / telefoni)</string>
     <string name="litho_community_guidelines">Rimozione linee guida Community</string>
     <string name="litho_community_guidelines_off">La rimozione delle linee guida Community è disattivata</string>
     <string name="litho_community_guidelines_on">La rimozione delle linee guida Community è attivata</string>
@@ -145,7 +142,6 @@ E' pronto per l'invio?"</string>
     <string name="revanced_buffer_summary">Impostazioni personalizzate per il buffer video</string>
     <string name="revanced_buffer_title">Impostazioni del buffer</string>
     <string name="revanced_button_container_summary">Nasconde il componente del contenitore dei pulsanti</string>
-    <string name="revanced_button_container_warning_summary">questa funzione non supporta completamente il nuovo layout!</string>
     <string name="revanced_cast_button_summary_off">Il pulsante di trasmissione è nascosto</string>
     <string name="revanced_cast_button_summary_on">Il pulsante di trasmissione è visibile</string>
     <string name="revanced_cast_button_title">Pulsante di trasmissione</string>
@@ -155,9 +151,6 @@ E' pronto per l'invio?"</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Il tasto copia link con minutaggio è mostrato nel player</string>
     <string name="revanced_copy_video_url_timestamp_title">Tasto copia link con minutaggio</string>
     <string name="revanced_copy_video_url_title">Tasto copia link</string>
-    <string name="revanced_donation_companion_summary_off">Tasto donazione mostrato</string>
-    <string name="revanced_donation_companion_summary_on">Tasto \"donazione\" nascosto</string>
-    <string name="revanced_donation_companion_title">Donazione</string>
     <string name="revanced_download_video_summary_off">Il pulsante di download è nascosto</string>
     <string name="revanced_download_video_summary_on">Il pulsante di download è visibile</string>
     <string name="revanced_download_video_title">Pulsante di Download</string>
@@ -205,9 +198,6 @@ E' pronto per l'invio?"</string>
     <string name="revanced_hide_email_address_summary_off">L\'indirizzo email è nascosto</string>
     <string name="revanced_hide_email_address_summary_on">L\'indirizzo email è visibile</string>
     <string name="revanced_hide_email_address_title">Indirizzo email</string>
-    <string name="revanced_hide_external_comment_box_summary_off">Viene mostrata la casella esterna del commento</string>
-    <string name="revanced_hide_external_comment_box_summary_on">La casella dei commenti esterni è nascosta</string>
-    <string name="revanced_hide_external_comment_box_title">Nascondi la casella dei commenti esterni</string>
     <string name="revanced_hide_like_button_summary_off">Tasto \"Mi piace\" mostrato</string>
     <string name="revanced_hide_like_button_summary_on">Tasto \"Mi piace\" nascosto</string>
     <string name="revanced_hide_like_button_title">Nascondi tasto \"mi piace\"</string>
@@ -223,9 +213,6 @@ E' pronto per l'invio?"</string>
     <string name="revanced_hide_share_button_summary_off">Il pulsante \"condividi\" è mostrato</string>
     <string name="revanced_hide_share_button_summary_on">Il pulsante \"condividi\" è nascosto</string>
     <string name="revanced_hide_share_button_title">Nascondere il pulsante \"condividi\"</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">Il commento è mostrato</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">Il commento è nascosto</string>
-    <string name="revanced_hide_spoiler_comment_title">Nascondi il commento</string>
     <string name="revanced_hide_thanks_button_summary_off">Il pulsante Grazie è mostrato</string>
     <string name="revanced_hide_thanks_button_summary_on">Il pulsante Grazie è nascosto</string>
     <string name="revanced_hide_thanks_button_title">Nascondi pulsante \"grazie\"</string>
@@ -330,7 +317,6 @@ Sei sicuro di voler continuare comunque?"</string>
     <string name="revanced_swipe_pts_summary_off">I controlli di scorrimento sono sempre attivi</string>
     <string name="revanced_swipe_pts_summary_on">I comandi di scorrimento richiedono una pressione prolungata prima di attivarsi</string>
     <string name="revanced_swipe_pts_title">Press-to-Swipe</string>
-    <string name="revanced_swipe_screen_summary">Controlli di scorrimento per la luminosità e il volume</string>
     <string name="revanced_swipe_summary">Controllo volume e luminosità</string>
     <string name="revanced_swipe_title">Comandi di scorrimento</string>
     <string name="revanced_swipe_volume_summary_off">I controlli di scorrimento per il volume sono disabilitati</string>

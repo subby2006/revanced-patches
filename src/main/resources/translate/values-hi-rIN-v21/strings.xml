@@ -51,9 +51,6 @@
     <string name="litho_channel_guidelines">चैनल दिशानिर्देश हटाना</string>
     <string name="litho_channel_guidelines_off">चैनल दिशानिर्देश चालू है</string>
     <string name="litho_channel_guidelines_on">चैनल दिशानिर्देश हटाने की सुविधा चालू है</string>
-    <string name="litho_comments">टिप्पणियां हटाना</string>
-    <string name="litho_comments_off">टिप्पणियों को हटाना बंद है (केवल नई टिप्पणियाँ / फ़ोन)</string>
-    <string name="litho_comments_on">टिप्पणियों को हटाना चालू है (केवल नई टिप्पणियाँ / फ़ोन)</string>
     <string name="litho_community_guidelines">समुदाय दिशानिर्देश हटाना</string>
     <string name="litho_community_guidelines_off">समुदाय दिशानिर्देश निकालना बंद कर दिया गया है</string>
     <string name="litho_community_guidelines_on">समुदाय दिशानिर्देश हटाने की सुविधा चालू है</string>
@@ -145,7 +142,6 @@
     <string name="revanced_buffer_summary">वीडियो बफर के लिए कस्टम सेटिंग्स</string>
     <string name="revanced_buffer_title">बफर सेटिंग्स</string>
     <string name="revanced_button_container_summary">बटन कंटेनर के घटक को छुपाता है</string>
-    <string name="revanced_button_container_warning_summary">यह सुविधा पूरी तरह से नए लेआउट का समर्थन नहीं करती है!</string>
     <string name="revanced_cast_button_summary_off">कास्ट बटन छिपा हुआ है</string>
     <string name="revanced_cast_button_summary_on">कास्ट बटन दिखाया गया है</string>
     <string name="revanced_cast_button_title">कास्ट बटन</string>
@@ -155,9 +151,6 @@
     <string name="revanced_copy_video_url_timestamp_summary_on">टाइमस्टैम्प के साथ कॉपी लिंक बटन प्लेयर ओवरले में दिखाया गया है</string>
     <string name="revanced_copy_video_url_timestamp_title">टाइमस्टैम्प के साथ लिंक बटन कॉपी करें</string>
     <string name="revanced_copy_video_url_title">कॉपी लिंक बटन</string>
-    <string name="revanced_donation_companion_summary_off">दान साथी दिखाया गया है</string>
-    <string name="revanced_donation_companion_summary_on">दान साथी छिपा हुआ है</string>
-    <string name="revanced_donation_companion_title">दान साथी</string>
     <string name="revanced_download_video_summary_off">डाउनलोड बटन छिपा हुआ है</string>
     <string name="revanced_download_video_summary_on">डाउनलोड बटन दिख रहा है</string>
     <string name="revanced_download_video_title">डाउनलोड बटन</string>
@@ -205,9 +198,6 @@
     <string name="revanced_hide_email_address_summary_off">ईमेल एड्रेस छिपा हुआ है</string>
     <string name="revanced_hide_email_address_summary_on">ईमेल एड्रेस दिख रहा है</string>
     <string name="revanced_hide_email_address_title">Email पता</string>
-    <string name="revanced_hide_external_comment_box_summary_off">बाहरी टिप्पणी बॉक्स दिखाया गया है</string>
-    <string name="revanced_hide_external_comment_box_summary_on">बाहरी टिप्पणी बॉक्स छिपा हुआ है</string>
-    <string name="revanced_hide_external_comment_box_title">बाहरी टिप्पणी बॉक्स छुपाएं</string>
     <string name="revanced_hide_like_button_summary_off">लाइक बटन दिखाया गया है</string>
     <string name="revanced_hide_like_button_summary_on">लाइक बटन छुपा हुआ है</string>
     <string name="revanced_hide_like_button_title">लाइक बटन छुपाएं </string>
@@ -223,9 +213,6 @@
     <string name="revanced_hide_share_button_summary_off">शेयर बटन दिखाया गया है</string>
     <string name="revanced_hide_share_button_summary_on">शेयर बटन छिपा हुआ है</string>
     <string name="revanced_hide_share_button_title">शेयर बटन छुपाएं</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">स्पॉयलर टिप्पणी दिखाई गई है</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">स्पॉयलर कमेंट छिपा हुआ है</string>
-    <string name="revanced_hide_spoiler_comment_title">स्पॉइलर टिप्पणी छुपाएं</string>
     <string name="revanced_hide_thanks_button_summary_off">धन्यवाद बटन दिखाया गया है</string>
     <string name="revanced_hide_thanks_button_summary_on">धन्यवाद बटन छिपा हुआ है</string>
     <string name="revanced_hide_thanks_button_title">थैंक्स बटन छुपाएं</string>
@@ -330,7 +317,6 @@
     <string name="revanced_swipe_pts_summary_off">स्वाइप नियंत्रण हमेशा सक्रिय रहते हैं</string>
     <string name="revanced_swipe_pts_summary_on">स्वाइप नियंत्रणों को सक्रिय करने से पहले एक लंबे प्रेस की आवश्यकता होती है</string>
     <string name="revanced_swipe_pts_title">प्रेस-टू-स्वाइप</string>
-    <string name="revanced_swipe_screen_summary">चमक और वॉल्यूम के लिए स्वाइप नियंत्रण</string>
     <string name="revanced_swipe_summary">मात्रा और चमक को नियंत्रित करें</string>
     <string name="revanced_swipe_title">स्वाइप नियंत्रण</string>
     <string name="revanced_swipe_volume_summary_off">वॉल्यूम के लिए स्वाइप नियंत्रण अक्षम हैं</string>

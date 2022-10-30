@@ -57,9 +57,6 @@
     <string name="litho_channel_guidelines">চ্যানেল এর গাইডলাইন সরান</string>
     <string name="litho_channel_guidelines_off">চ্যানেল এর গাইডলাইন সরানো বন্ধ করুন</string>
     <string name="litho_channel_guidelines_on">চ্যানেল এর গাইডলাইন সরানো চালু করুন</string>
-    <string name="litho_comments">কমেন্ট সরান</string>
-    <string name="litho_comments_off">কমেন্ট সরানো বন্ধ, (শুরু নতুন কমেন্ট/ফোনের গুলো)</string>
-    <string name="litho_comments_on">কমেন্ট সরানো চালু, (শুরু নতুন কমেন্ট/ফোনের গুলো)</string>
     <string name="litho_community_guidelines">চ্যানেল এর গাইডলাইন সরান</string>
     <string name="litho_community_guidelines_off">চ্যানেল এর গাইডলাইন সরানো বন্ধ হয়েছে</string>
     <string name="litho_community_guidelines_on">চ্যানেল এর গাইডলাইন সরানো চালু হয়েছে</string>
@@ -153,8 +150,6 @@
     <string name="revanced_buffer_summary">ভিডিও বাফারের জন্য কাস্টম সেটিংস</string>
     <string name="revanced_buffer_title">বাফার সেটিংস</string>
     <string name="revanced_button_container_summary">বোতাম কন্টেইনারের উপাদান লুকিয়ে রাখে</string>
-    <string name="revanced_button_container_title">বোতাম ধারক লুকান (পরীক্ষামূলক)</string>
-    <string name="revanced_button_container_warning_summary">এই বৈশিষ্ট্য সম্পূর্ণরূপে নতুন লেআউট সমর্থন করে না!</string>
     <string name="revanced_cast_button_summary_off">কাস্ট বাটন গোপন করুন</string>
     <string name="revanced_cast_button_summary_on">কাস্ট বাটন প্রদর্শন</string>
     <string name="revanced_cast_button_title">কাস্ট বাটন</string>
@@ -164,9 +159,6 @@
     <string name="revanced_copy_video_url_timestamp_summary_on">প্লেয়ার এর উপরে টাইম স্ট্যাম্প সহ লিংক কপির বাটন প্রদর্শন করা হয়েছে</string>
     <string name="revanced_copy_video_url_timestamp_title">টাইম স্ট্যাম্প সহ লিংক কপি</string>
     <string name="revanced_copy_video_url_title">কপি লিঙ্ক বাটন</string>
-    <string name="revanced_donation_companion_summary_off">দান সঙ্গী দেখানো হয়</string>
-    <string name="revanced_donation_companion_summary_on">দানের সঙ্গী লুকিয়ে আছে</string>
-    <string name="revanced_donation_companion_title">দানের সঙ্গী</string>
     <string name="revanced_download_video_summary_off">ডাউনলোড বোতাম লুকানো আছে</string>
     <string name="revanced_download_video_summary_on">ডাউনলোড বোতামটি দৃশ্যমান</string>
     <string name="revanced_download_video_title">ডাউনলোড বোতাম</string>
@@ -217,9 +209,6 @@
     <string name="revanced_hide_email_address_summary_off">ইমেল ঠিকানা লুকানো আছে</string>
     <string name="revanced_hide_email_address_summary_on">ইমেল ঠিকানা দৃশ্যমান</string>
     <string name="revanced_hide_email_address_title">ইমেইল ঠিকানা</string>
-    <string name="revanced_hide_external_comment_box_summary_off">বাহ্যিক মন্তব্য বক্স দেখানো হয়</string>
-    <string name="revanced_hide_external_comment_box_summary_on">বাহ্যিক মন্তব্য বক্স লুকানো হয়</string>
-    <string name="revanced_hide_external_comment_box_title">বাহ্যিক মন্তব্য বক্স লুকান</string>
     <string name="revanced_hide_like_button_summary_off">লাইক বাটন দেখানো হয়েছে</string>
     <string name="revanced_hide_like_button_summary_on">লাইক বাটন লুকানো আছে</string>
     <string name="revanced_hide_like_button_title">লাইক বোতাম লুকান</string>
@@ -235,9 +224,6 @@
     <string name="revanced_hide_share_button_summary_off">শেয়ার বোতাম দেখানো হয়েছে</string>
     <string name="revanced_hide_share_button_summary_on">শেয়ার বোতাম লুকানো আছে</string>
     <string name="revanced_hide_share_button_title">শেয়ার বোতাম লুকান</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">স্পয়লার কমেন্ট দেখানো হয়েছে</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">স্পয়লার মন্তব্য লুকানো আছে</string>
-    <string name="revanced_hide_spoiler_comment_title">লুকান স্পয়লার মন্তব্য</string>
     <string name="revanced_hide_thanks_button_summary_off">ধন্যবাদ বোতাম দেখানো হয়</string>
     <string name="revanced_hide_thanks_button_summary_on">ধন্যবাদ বোতাম লুকানো আছে</string>
     <string name="revanced_hide_thanks_button_title">ধন্যবাদ বোতাম লুকান</string>
@@ -352,7 +338,6 @@
     <string name="revanced_swipe_pts_summary_off">সোয়াইপ কন্ট্রোল সবসময় চালু</string>
     <string name="revanced_swipe_pts_summary_on">সোয়াইপ কন্ট্রোল চালু করলে অনেক সময় ধরে চেপে থাকুন</string>
     <string name="revanced_swipe_pts_title">প্রেস টু সোয়াইপ</string>
-    <string name="revanced_swipe_screen_summary">উজ্জ্বলতা আর ভলিউমের জন্য সোয়াইপ কন্ট্রোল</string>
     <string name="revanced_swipe_summary">আয়তন এবং উজ্জ্বলতা নিয়ন্ত্রণ করুন</string>
     <string name="revanced_swipe_title">সোয়াইপ কন্ট্রোল</string>
     <string name="revanced_swipe_volume_summary_off">সাউন্ডের জন্য সোয়াইপ কন্ট্রোল বন্ধ আছে</string>

@@ -22,12 +22,10 @@
     <string name="downloader_not_installed_warning">não está instalado. Por favor, instale-o.</string>
     <string name="enable_sb">Habilitar SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock é uma ferramenta comunitária para pular anúncios no YouTube</string>
-    <string name="enable_sb_shorts">Enable SponsorBlock at Shorts (Alpha)</string>
     <string name="enable_sb_shorts_content">"Ative o Sponsorblock nos shorts do YouTube. 
 
 Como esse recurso ainda é Alpha, ele só funciona no segmento 'Pular automaticamente'.
 "</string>
-    <string name="enable_sb_shorts_sum">Enable Sponsorblock in YouTube Shorts.</string>
     <string name="enable_segmadding">Habilitar envio de novos segmentos</string>
     <string name="enable_segmadding_sum">Ative isto para habilitar o envio de segmento -experimental (tem problemas de visibilidade do botão)</string>
     <string name="enable_voting">Habilitar votação</string>
@@ -57,9 +55,6 @@ Como esse recurso ainda é Alpha, ele só funciona no segmento 'Pular automatica
     <string name="litho_channel_guidelines">Remoção de diretrizes do canal</string>
     <string name="litho_channel_guidelines_off">A remoção de diretrizes do canal está desligada</string>
     <string name="litho_channel_guidelines_on">A remoção de diretrizes do canal está ligada</string>
-    <string name="litho_comments">Remoção de comentários</string>
-    <string name="litho_comments_off">A remoção de comentários está desligada (novos comentários / apenas telefones)</string>
-    <string name="litho_comments_on">A remoção de comentários ligada (novos comentários / apenas telefones)</string>
     <string name="litho_community_guidelines">Remoção de diretrizes da comunidade</string>
     <string name="litho_community_guidelines_off">A remoção de diretrizes da comunidade está desligada</string>
     <string name="litho_community_guidelines_on">A remoção de diretrizes da comunidade está ligada</string>
@@ -150,8 +145,6 @@ Como esse recurso ainda é Alpha, ele só funciona no segmento 'Pular automatica
     <string name="revanced_buffer_summary">Configurações personalizadas para buffer de vídeo</string>
     <string name="revanced_buffer_title">Configurações de buffer</string>
     <string name="revanced_button_container_summary">Oculta o componente do contêiner do botão</string>
-    <string name="revanced_button_container_title">Hide button container (Experimental)</string>
-    <string name="revanced_button_container_warning_summary">este recurso não suporta completamente o novo layout!</string>
     <string name="revanced_cast_button_summary_off">Botão \"Transmitir\" está oculto</string>
     <string name="revanced_cast_button_summary_on">Botão \"Transmitir\" é exibido</string>
     <string name="revanced_cast_button_title">Botão Transmitir</string>
@@ -161,9 +154,6 @@ Como esse recurso ainda é Alpha, ele só funciona no segmento 'Pular automatica
     <string name="revanced_copy_video_url_timestamp_summary_on">O botão Copiar Link com Marcador de tempo está escondido da sobreposição do player</string>
     <string name="revanced_copy_video_url_timestamp_title">Botão Copiar link com marcador de tempo</string>
     <string name="revanced_copy_video_url_title">Botão de Copiar Link</string>
-    <string name="revanced_donation_companion_summary_off">Doadores estão visíveis</string>
-    <string name="revanced_donation_companion_summary_on">Doadores estão ocultos</string>
-    <string name="revanced_donation_companion_title">Pessoas que doaram</string>
     <string name="revanced_download_video_summary_off">O botão download está oculto</string>
     <string name="revanced_download_video_summary_on">O botão de download está visível</string>
     <string name="revanced_download_video_title">Botão de download</string>
@@ -195,7 +185,6 @@ Como esse recurso ainda é Alpha, ele só funciona no segmento 'Pular automatica
     <string name="revanced_force_fullscreen_rotation_title">Ativar Rotação de Tela Cheia (Experimental)</string>
     <string name="revanced_fullscreen_button_container_summary_off">O contêiner do botão de tela cheia é mostrado</string>
     <string name="revanced_fullscreen_button_container_summary_on">O contêiner do botão de tela cheia está oculto</string>
-    <string name="revanced_fullscreen_button_container_title">Fullscreen Button Container</string>
     <string name="revanced_hdr_full_brightness_summary_off">O brilho do vídeo está definido como máximo em vídeos de paisagem HDR</string>
     <string name="revanced_hdr_full_brightness_summary_on">O brilho do vídeo seguirá o brilho do dispositivo em vídeos de paisagem HDR</string>
     <string name="revanced_hdr_full_brightness_title">Substituir o brilho do vídeo HDR</string>
@@ -214,9 +203,6 @@ Como esse recurso ainda é Alpha, ele só funciona no segmento 'Pular automatica
     <string name="revanced_hide_email_address_summary_off">O endereço de e-mail está oculto</string>
     <string name="revanced_hide_email_address_summary_on">O endereço de e-mail está visível</string>
     <string name="revanced_hide_email_address_title">Endereço de E-mail</string>
-    <string name="revanced_hide_external_comment_box_summary_off">Caixa de comentário externo é mostrada</string>
-    <string name="revanced_hide_external_comment_box_summary_on">Caixa de comentário externo está oculta</string>
-    <string name="revanced_hide_external_comment_box_title">Ocultar o comentário externo</string>
     <string name="revanced_hide_like_button_summary_off">O botão de like é exibido</string>
     <string name="revanced_hide_like_button_summary_on">O botão de like está oculto</string>
     <string name="revanced_hide_like_button_title">Ocultar botão de like</string>
@@ -232,9 +218,6 @@ Como esse recurso ainda é Alpha, ele só funciona no segmento 'Pular automatica
     <string name="revanced_hide_share_button_summary_off">Botão Compartilhar é exibido</string>
     <string name="revanced_hide_share_button_summary_on">Botão Compartilhar está oculto</string>
     <string name="revanced_hide_share_button_title">Ocultar botão de compartilhamento</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">Comentário de spoiler é mostrado</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">Comentário de spoiler está ocultado</string>
-    <string name="revanced_hide_spoiler_comment_title">Esconder comentário de spoiler</string>
     <string name="revanced_hide_thanks_button_summary_off">O botão de agradecimento é mostrado</string>
     <string name="revanced_hide_thanks_button_summary_on">O botão de agradecimento está oculto</string>
     <string name="revanced_hide_thanks_button_title">Esconder botão de agradecimento</string>
@@ -351,7 +334,6 @@ Você tem certeza de que deseja continuar?"</string>
     <string name="revanced_swipe_pts_summary_off">Controles de deslize estão sempre ativos</string>
     <string name="revanced_swipe_pts_summary_on">Controles de deslize requerem um toque longo antes de ativar</string>
     <string name="revanced_swipe_pts_title">Pressionar-para-Deslizar</string>
-    <string name="revanced_swipe_screen_summary">Controles deslizantes para Brilho e Volume</string>
     <string name="revanced_swipe_summary">Controlar volume e brilho</string>
     <string name="revanced_swipe_title">Controles deslizantes</string>
     <string name="revanced_swipe_volume_summary_off">Controles deslizantes para volume estão desativados</string>
@@ -398,7 +380,6 @@ Se você deseja desativar isto, defina o seguinte para OFF:"</string>
     <string name="sb_guidelines_preference_sum">Diretrizes contém dicas e regras sobre a apresentação de segmentos</string>
     <string name="sb_guidelines_preference_title">Ver diretrizes</string>
     <string name="sb_settings">Configurações do SponsorBlock</string>
-    <string name="sb_shorts_example_video">Example Video</string>
     <string name="sb_summary">Usa a API sponsor.ajay.app</string>
     <string name="segments_endcards">Notas finais/Créditos</string>
     <string name="segments_endcards_sum">Créditos ou quando os cartões de finalização do YouTube aparecem. Não se trata de conclusões faladas</string>
@@ -464,5 +445,4 @@ Se você deseja desativar isto, defina o seguinte para OFF:"</string>
     <string name="vote_started">Votando para segmento…</string>
     <string name="vote_succeeded">Votado com sucesso</string>
     <string name="vote_upvote">Curtir</string>
-    <string name="website">Website</string>
 </resources>

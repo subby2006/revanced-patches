@@ -51,9 +51,6 @@
     <string name="litho_channel_guidelines">Slėpti kanalo gaires</string>
     <string name="litho_channel_guidelines_off">Kanalo gairės yra rodomos</string>
     <string name="litho_channel_guidelines_on">Kanalo gairės yra paslėptos</string>
-    <string name="litho_comments">Pašalinti komentarų skiltį</string>
-    <string name="litho_comments_off">Komentarų skyrius yra rodomas</string>
-    <string name="litho_comments_on">Komentarų skyrius yra paslėptas</string>
     <string name="litho_community_guidelines">Pašalinti bendruomenės gaires</string>
     <string name="litho_community_guidelines_off">Bendruomenės gairės yra rodomos</string>
     <string name="litho_community_guidelines_on">Bendruomenės gairės yra paslėptos</string>
@@ -145,7 +142,6 @@ Ar jis paruoštas pateikti?"</string>
     <string name="revanced_buffer_summary">Pasirinktiniai video buferio nustatymai</string>
     <string name="revanced_buffer_title">Video buferio nustatymai</string>
     <string name="revanced_button_container_summary">Paslepia mygtukų sudėtinio rodinio komponentą</string>
-    <string name="revanced_button_container_warning_summary">ši funkcija nepilnai palaiko naują išdėstymą!</string>
     <string name="revanced_cast_button_summary_off">Perdavimo mygtukas yra paslėptas</string>
     <string name="revanced_cast_button_summary_on">Perdavimo mygtukas yra rodomas</string>
     <string name="revanced_cast_button_title">Perdavimo mygtukas</string>
@@ -155,9 +151,6 @@ Ar jis paruoštas pateikti?"</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Mygtukas kopijuoti nuorodą su laiko žyma yra matomas</string>
     <string name="revanced_copy_video_url_timestamp_title">Mygtukas kopijuoti nuorodą su laiko žyma</string>
     <string name="revanced_copy_video_url_title">Mygtukas kopijuoti nuorodą</string>
-    <string name="revanced_donation_companion_summary_off">Aukojimo kompanionas yra rodomas</string>
-    <string name="revanced_donation_companion_summary_on">Aukojimo kompanionas yra paslėptas</string>
-    <string name="revanced_donation_companion_title">Aukojimo kompanionas</string>
     <string name="revanced_download_video_summary_off">Parsisiųsti mygtukas yra paslėptas</string>
     <string name="revanced_download_video_summary_on">Parsisiųsti mygtukas yra matomas</string>
     <string name="revanced_download_video_title">Atsisiuntimo mygtukas</string>
@@ -205,9 +198,6 @@ Ar jis paruoštas pateikti?"</string>
     <string name="revanced_hide_email_address_summary_off">El. paštas yra paslėptas</string>
     <string name="revanced_hide_email_address_summary_on">El. paštas yra matomas</string>
     <string name="revanced_hide_email_address_title">El. pašto adresas</string>
-    <string name="revanced_hide_external_comment_box_summary_off">Išorinis komentarų laukelis yra rodomas</string>
-    <string name="revanced_hide_external_comment_box_summary_on">Išorinis komentarų laukelis yra paslėptas</string>
-    <string name="revanced_hide_external_comment_box_title">Slėpti išorinį komentarų laukelį</string>
     <string name="revanced_hide_like_button_summary_off">Patinka mygtukas yra rodomas</string>
     <string name="revanced_hide_like_button_summary_on">Patinka mygtukas yra paslėptas</string>
     <string name="revanced_hide_like_button_title">Slėpti patinka mygtuką</string>
@@ -223,9 +213,6 @@ Ar jis paruoštas pateikti?"</string>
     <string name="revanced_hide_share_button_summary_off">Bendrinti mygtukas yra rodomas</string>
     <string name="revanced_hide_share_button_summary_on">Bendrinti mygtukas yra paslėptas</string>
     <string name="revanced_hide_share_button_title">Slėpti bendrinti mygtuką</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">Spoilerio komentaras yra rodomas</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">Spoilerio komentaras yra paslėptas</string>
-    <string name="revanced_hide_spoiler_comment_title">Slėpti spoilerio komentarą</string>
     <string name="revanced_hide_thanks_button_summary_off">Ačiū mygtukas yra rodomas</string>
     <string name="revanced_hide_thanks_button_summary_on">Ačiū mygtukas yra paslėptas</string>
     <string name="revanced_hide_thanks_button_title">Slėpti ačiū mygtuką</string>
@@ -327,7 +314,6 @@ Vis dėlto ar tikrai norite tęsti?"</string>
     <string name="revanced_swipe_pts_summary_off">Perbraukimas-paspaudus yra išjungtas</string>
     <string name="revanced_swipe_pts_summary_on">Perbraukimas-paspaudus yra įjungtas</string>
     <string name="revanced_swipe_pts_title">Įgalinti paspaudus-perbraukti gestą</string>
-    <string name="revanced_swipe_screen_summary">Perbraukimo valdikliai skirti ryškumui ir garsumui</string>
     <string name="revanced_swipe_summary">Garso ir ryškumo valdymas</string>
     <string name="revanced_swipe_title">Perbraukimo valdikliai</string>
     <string name="revanced_swipe_volume_summary_off">Garsumo perbraukimas yra išjungtas</string>

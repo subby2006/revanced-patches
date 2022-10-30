@@ -57,9 +57,6 @@
     <string name="litho_channel_guidelines">频道指南</string>
     <string name="litho_channel_guidelines_off">频道指南已显示</string>
     <string name="litho_channel_guidelines_on">频道指南已隐藏</string>
-    <string name="litho_comments">评论部分</string>
-    <string name="litho_comments_off">评论部分已显示</string>
-    <string name="litho_comments_on">评论部分已隐藏</string>
     <string name="litho_community_guidelines">社区指南</string>
     <string name="litho_community_guidelines_off">社区指南已显示</string>
     <string name="litho_community_guidelines_on">社区指南已隐藏</string>
@@ -148,23 +145,27 @@
     <string name="revanced_branding_watermark_summary_off">品牌水印已隐藏</string>
     <string name="revanced_branding_watermark_summary_on">品牌水印已显示</string>
     <string name="revanced_branding_watermark_title">品牌水印</string>
+    <string name="revanced_breaking_news_panels_summary_off">突发新闻面板已显示</string>
+    <string name="revanced_breaking_news_panels_summary_on">突发新闻面板已隐藏</string>
+    <string name="revanced_breaking_news_panels_title">突发新闻面板</string>
     <string name="revanced_buffer_summary">视频缓冲区的自定义设置</string>
     <string name="revanced_buffer_title">视频缓冲区设置</string>
     <string name="revanced_button_container_summary">隐藏按钮栏的组件</string>
-    <string name="revanced_button_container_title">隐藏按钮栏（实验性）</string>
-    <string name="revanced_button_container_warning_summary">此功能不完全支持新布局！</string>
+    <string name="revanced_button_container_title">按钮栏组件</string>
     <string name="revanced_cast_button_summary_off">投屏按钮已隐藏</string>
     <string name="revanced_cast_button_summary_on">投屏按钮已显示</string>
     <string name="revanced_cast_button_title">投屏按钮</string>
+    <string name="revanced_comments_summary">隐藏评论部分或组件</string>
+    <string name="revanced_comments_title">评论组件</string>
     <string name="revanced_copy_video_url_summary_off">复制链接按钮已隐藏</string>
     <string name="revanced_copy_video_url_summary_on">复制链接按钮已显示</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">带时间戳复制链接按钮已隐藏</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">带时间戳复制链接按钮已显示</string>
     <string name="revanced_copy_video_url_timestamp_title">带时间戳复制链接按钮</string>
     <string name="revanced_copy_video_url_title">复制链接按钮</string>
-    <string name="revanced_donation_companion_summary_off">捐赠信息已显示</string>
-    <string name="revanced_donation_companion_summary_on">捐赠信息已隐藏</string>
-    <string name="revanced_donation_companion_title">捐赠信息</string>
+    <string name="revanced_crowdfunding_box_summary_off">众筹箱已隐藏</string>
+    <string name="revanced_crowdfunding_box_summary_on">众筹箱已显示</string>
+    <string name="revanced_crowdfunding_box_title">众筹箱</string>
     <string name="revanced_download_video_summary_off">下载按钮已隐藏</string>
     <string name="revanced_download_video_summary_on">下载按钮已显示</string>
     <string name="revanced_download_video_title">下载按钮</string>
@@ -200,6 +201,9 @@
     <string name="revanced_hdr_full_brightness_summary_off">HDR 视频默认使用最大亮度</string>
     <string name="revanced_hdr_full_brightness_summary_on">HDR 视频已使用系统亮度</string>
     <string name="revanced_hdr_full_brightness_title">HDR 视频使用系统亮度</string>
+    <string name="revanced_hide_comments_section_summary_off">评论部分已显示</string>
+    <string name="revanced_hide_comments_section_summary_on">评论部分已隐藏</string>
+    <string name="revanced_hide_comments_section_title">评论部分</string>
     <string name="revanced_hide_create_clip_button_summary_off">剪辑按钮已显示</string>
     <string name="revanced_hide_create_clip_button_summary_on">剪辑按钮已隐藏</string>
     <string name="revanced_hide_create_clip_button_title">剪辑按钮</string>
@@ -215,9 +219,6 @@
     <string name="revanced_hide_email_address_summary_off">邮件地址已隐藏</string>
     <string name="revanced_hide_email_address_summary_on">邮件地址已显示</string>
     <string name="revanced_hide_email_address_title">邮件地址</string>
-    <string name="revanced_hide_external_comment_box_summary_off">外部评论框已显示</string>
-    <string name="revanced_hide_external_comment_box_summary_on">外部评论框已隐藏</string>
-    <string name="revanced_hide_external_comment_box_title">外部评论框</string>
     <string name="revanced_hide_like_button_summary_off">点赞按钮已显示</string>
     <string name="revanced_hide_like_button_summary_on">点赞按钮已隐藏</string>
     <string name="revanced_hide_like_button_title">点赞按钮</string>
@@ -227,26 +228,32 @@
     <string name="revanced_hide_playlist_button_summary_off">保存（到播放列表）按钮已显示</string>
     <string name="revanced_hide_playlist_button_summary_on">保存（到播放列表）按钮已隐藏</string>
     <string name="revanced_hide_playlist_button_title">保存（到播放列表）按钮</string>
+    <string name="revanced_hide_preview_comment_off">预览评论已显示</string>
+    <string name="revanced_hide_preview_comment_on">预览评论已隐藏</string>
+    <string name="revanced_hide_preview_comment_title">预览评论</string>
     <string name="revanced_hide_report_button_summary_off">举报按钮已显示</string>
     <string name="revanced_hide_report_button_summary_on">举报按钮已隐藏</string>
     <string name="revanced_hide_report_button_title">举报按钮</string>
     <string name="revanced_hide_share_button_summary_off">分享按钮已显示</string>
     <string name="revanced_hide_share_button_summary_on">分享按钮已隐藏</string>
     <string name="revanced_hide_share_button_title">分享按钮</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">剧透评论已显示</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">剧透评论已隐藏</string>
-    <string name="revanced_hide_spoiler_comment_title">剧透评论</string>
+    <string name="revanced_hide_shorts_comments_button_off">Shorts 评论按钮已显示</string>
+    <string name="revanced_hide_shorts_comments_button_on">Shorts 评论按钮已隐藏</string>
+    <string name="revanced_hide_shorts_comments_button_title">Shorts 评论按钮</string>
     <string name="revanced_hide_thanks_button_summary_off">感谢按钮已显示</string>
     <string name="revanced_hide_thanks_button_summary_on">感谢按钮已隐藏</string>
     <string name="revanced_hide_thanks_button_title">感谢按钮</string>
     <string name="revanced_hide_time_and_seekbar_summary_off">进度条已隐藏</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">进度条已显示</string>
     <string name="revanced_hide_time_and_seekbar_title">进度条</string>
+    <string name="revanced_hide_watch_in_vr_summary_off">以 VR 模式下观看已在菜单项目显示</string>
+    <string name="revanced_hide_watch_in_vr_summary_on">以 VR 模式下观看已在菜单项目隐藏</string>
+    <string name="revanced_hide_watch_in_vr_title">在 VR 模式下观看</string>
     <string name="revanced_home_ads_summary_off">首页广告已隐藏</string>
     <string name="revanced_home_ads_summary_on">首页广告已显示</string>
     <string name="revanced_home_ads_title">首页广告</string>
-    <string name="revanced_inapp_browser_summary_off">使用内置浏览器打开外部链接</string>
-    <string name="revanced_inapp_browser_summary_on">使用外部浏览器打开外部链接</string>
+    <string name="revanced_inapp_browser_summary_off">当前打开外部链接：内置浏览器</string>
+    <string name="revanced_inapp_browser_summary_on">当前打开外部链接：外部浏览器</string>
     <string name="revanced_inapp_browser_title">内置浏览器</string>
     <string name="revanced_info_cards_summary_off">资料卡已隐藏</string>
     <string name="revanced_info_cards_summary_on">资料卡已显示</string>
@@ -300,6 +307,18 @@
     <string name="revanced_reboot_warning_ryd">"在新布局中显示点踩计数。
 但由于这仍然是一项实验性功能，因此可能无法准确显示点赞数。
 您确定要继续吗？"</string>
+    <string name="revanced_reboot_warning_tablet">"伪装 dpi 将某些布局更改为平板布局。
+
+启用该设置，以下功能可用：
+- Shorts 播放器转换为标准播放器
+- 按“添加日期（最早）”排序
+
+以下功能不可用:
+- 氛围模式
+- 社区帖子
+
+由于这仍然是一项实验性功能，可能还会导致其他问题。
+您确定要继续吗？"</string>
     <string name="revanced_rebuffer_summary">重新缓冲后播放缓冲区最大时长（毫秒）默认值：5000</string>
     <string name="revanced_rebuffer_title">重新缓冲后播放缓冲区最大时长</string>
     <string name="revanced_reel_summary_off">短片故事已隐藏</string>
@@ -349,7 +368,6 @@
     <string name="revanced_swipe_pts_summary_off">长按以滑动已禁用</string>
     <string name="revanced_swipe_pts_summary_on">长按以滑动已启用</string>
     <string name="revanced_swipe_pts_title">长按以滑动</string>
-    <string name="revanced_swipe_screen_summary">滑动控制亮度和音量</string>
     <string name="revanced_swipe_summary">控制音量和亮度</string>
     <string name="revanced_swipe_title">滑动控制</string>
     <string name="revanced_swipe_volume_summary_off">滑动控制音量已禁用</string>
@@ -358,9 +376,14 @@
     <string name="revanced_tablet_miniplayer_summary_off">平板迷你播放器已禁用</string>
     <string name="revanced_tablet_miniplayer_summary_on">平板迷你播放器已启用</string>
     <string name="revanced_tablet_miniplayer_title">平板迷你播放器</string>
+    <string name="revanced_tablet_layout_summary">伪装 dpi 以使用一些平板布局</string>
+    <string name="revanced_tablet_layout_title">平板布局</string>
+    <string name="revanced_timed_reactions_summary_off">时间跳转已启用</string>
+    <string name="revanced_timed_reactions_summary_on">时间跳转已禁用</string>
+    <string name="revanced_timed_reactions_title">时间跳转</string>
     <string name="revanced_tool_used">使用的工具</string>
-    <string name="revanced_uri_redirect_summary_off">"遵循 Youtube 的重定向策略"</string>
-    <string name="revanced_uri_redirect_summary_on">绕开 Youtube 重定向打开链接</string>
+    <string name="revanced_uri_redirect_summary_off">"当前遵循 Youtube 的重定向策略"</string>
+    <string name="revanced_uri_redirect_summary_on">绕开 youtube.com/redirect 打开链接</string>
     <string name="revanced_uri_redirect_title">YouTube 链接重定向</string>
     <string name="revanced_video_ads_summary_off">视频广告已隐藏</string>
     <string name="revanced_video_ads_summary_on">视频广告已显示</string>
@@ -376,6 +399,9 @@
     <string name="revanced_videoadwhitelisting_summary_off">视频广告白名单已关闭</string>
     <string name="revanced_videoadwhitelisting_summary_on">视频广告白名单已开启。使用播放器下的 ADS 按钮添加频道白名单</string>
     <string name="revanced_videoadwhitelisting_title">视频广告白名单</string>
+    <string name="revanced_view_products_summary_off">视图产品横幅已显示</string>
+    <string name="revanced_view_products_summary_on">视图产品横幅已隐藏</string>
+    <string name="revanced_view_products_title">视图产品横幅</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">无法将频道 %s 添加到 %s 白名单</string>
     <string name="revanced_whitelisting_added" formatted="false">频道 %s 已添加到 %s 白名单</string>
     <string name="revanced_whitelisting_ads">广告</string>

@@ -57,9 +57,6 @@
     <string name="litho_channel_guidelines">চ্যানেল নির্দেশিকা লুকান</string>
     <string name="litho_channel_guidelines_off">চ্যানেল নির্দেশিকা প্রদর্শিত</string>
     <string name="litho_channel_guidelines_on">চ্যানেল নির্দেশিকা লুকানো আছে</string>
-    <string name="litho_comments">মন্তব্য বিভাগ সরান</string>
-    <string name="litho_comments_off">মন্তব্য বিভাগ প্রদর্শিত</string>
-    <string name="litho_comments_on">মন্তব্য বিভাগ লুকানো আছে</string>
     <string name="litho_community_guidelines">সম্প্রদায় নির্দেশিকা সরান</string>
     <string name="litho_community_guidelines_off">সম্প্রদায় নির্দেশিকা প্রদর্শিত</string>
     <string name="litho_community_guidelines_on">সম্প্রদায় নির্দেশিকা লুকানো আছে</string>
@@ -153,7 +150,6 @@
     <string name="revanced_buffer_summary">ভিডিও বাফারিংএর জন্য কাস্টম সেটিং</string>
     <string name="revanced_buffer_title">ভিডিও বাফার সেটিংস</string>
     <string name="revanced_button_container_summary">বাটনে অধীনস্থ বিষয়বস্তু গুলিকে লুকিয়ে রাখে</string>
-    <string name="revanced_button_container_warning_summary">এই ফিচারটি নতুন লে-আউটের সঙ্গে সম্পূর্ণরূপে সামঞ্জস্যপূর্ণ নয়!</string>
     <string name="revanced_cast_button_summary_off">কাস্ট বাটন লুকানো আছে</string>
     <string name="revanced_cast_button_summary_on">কাস্ট বাটন প্রদর্শিত</string>
     <string name="revanced_cast_button_title">কাস্ট বাটন</string>
@@ -163,9 +159,6 @@
     <string name="revanced_copy_video_url_timestamp_summary_on">টাইমস্ট্যাম্প সহ কপি লিঙ্ক বাটন দৃশ্যমান</string>
     <string name="revanced_copy_video_url_timestamp_title">টাইম স্ট্যাম্প সহ লিংক কপি বাটন</string>
     <string name="revanced_copy_video_url_title">কপি লিঙ্ক বাটন</string>
-    <string name="revanced_donation_companion_summary_off">দান অংশীদার প্রদর্শিত</string>
-    <string name="revanced_donation_companion_summary_on">দান অংশীদার লুকানো আছে</string>
-    <string name="revanced_donation_companion_title">দান অংশীদার</string>
     <string name="revanced_download_video_summary_off">ডাউনলোড বাটন লুকানো আছে</string>
     <string name="revanced_download_video_summary_on">ডাউনলোড বাটন দৃশ্যমান</string>
     <string name="revanced_download_video_title">ডাউনলোড বাটন</string>
@@ -197,6 +190,7 @@
     <string name="revanced_force_fullscreen_rotation_title">ফুল স্ক্রিন রোটেশন চালু করুন (পরীক্ষামূলক))</string>
     <string name="revanced_fullscreen_button_container_summary_off">ফুলস্ক্রিন বাটন কনটেইনার প্রদর্শিত</string>
     <string name="revanced_fullscreen_button_container_summary_on">ফুলস্ক্রিন বাটন কনটেইনার লুকানো আছে</string>
+    <string name="revanced_fullscreen_button_container_title">ফুলস্ক্রিণ বাটন কনটেইনার</string>
     <string name="revanced_hdr_full_brightness_summary_off">HDR ল্যান্ডস্কেপ ভিডিওতে ভিডিওর উজ্জ্বলতা সর্বোচ্চ সেট করা হয়েছে</string>
     <string name="revanced_hdr_full_brightness_summary_on">ভিডিও উজ্জ্বলতা HDR ল্যান্ডস্কেপে আপনার ডিভাইসের উজ্জ্বলতা অনুসরণ করবে</string>
     <string name="revanced_hdr_full_brightness_title">HDR ভিডিও উজ্জ্বলতা ওভাররাইড করুন</string>
@@ -215,9 +209,6 @@
     <string name="revanced_hide_email_address_summary_off">ই-মেইল ঠিকানা লুকানো আছে</string>
     <string name="revanced_hide_email_address_summary_on">ই-মেইল ঠিকানা দৃশ্যমান</string>
     <string name="revanced_hide_email_address_title">ই-মেইল অ্যাড্রেস</string>
-    <string name="revanced_hide_external_comment_box_summary_off">বাহ্যিক মন্তব্য বক্স প্রদর্শিত</string>
-    <string name="revanced_hide_external_comment_box_summary_on">বাহ্যিক মন্তব্য বক্স লুকানো আছে</string>
-    <string name="revanced_hide_external_comment_box_title">বাহ্যিক মন্তব্য বক্স লুকান</string>
     <string name="revanced_hide_like_button_summary_off">লাইক বাটন প্রদর্শিত</string>
     <string name="revanced_hide_like_button_summary_on">লাইক বাটন লুকানো আছে</string>
     <string name="revanced_hide_like_button_title">লাইক বাটন লুকান</string>
@@ -233,9 +224,6 @@
     <string name="revanced_hide_share_button_summary_off">শেয়ার বাটন প্রদর্শিত</string>
     <string name="revanced_hide_share_button_summary_on">শেয়ার বাটন লুকানো আছে</string>
     <string name="revanced_hide_share_button_title">শেয়ার বাটন লুকান</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">স্পয়লার কমেন্ট প্রদর্শিত</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">স্পয়লার কমেন্ট লুকানো আছে</string>
-    <string name="revanced_hide_spoiler_comment_title">স্পয়লার কমেন্ট লুকান</string>
     <string name="revanced_hide_thanks_button_summary_off">ধন্যবাদ বাটন প্রদর্শিত</string>
     <string name="revanced_hide_thanks_button_summary_on">ধন্যবাদ বাটন লুকানো আছে</string>
     <string name="revanced_hide_thanks_button_title">ধন্যবাদ বাটন লুকান</string>
@@ -262,6 +250,12 @@
     <string name="revanced_minimized_playback_on">ব্যাকগ্রাউন্ড প্লেব্যাক চালু</string>
     <string name="revanced_misc_summary">বিবিধ প্যাচসমূহ</string>
     <string name="revanced_misc_title">বিবিধ</string>
+    <string name="revanced_mix_playlists_summary_off">মিক্স প্লেলিস্ট লুকানো আছে</string>
+    <string name="revanced_mix_playlists_summary_on">মিক্স প্লেলিস্ট প্রদর্শিত</string>
+    <string name="revanced_mix_playlists_title">মিক্স প্লেলিস্ট</string>
+    <string name="revanced_music_container_summary_off">সঙ্গীত কনটেইনার প্রদর্শিত</string>
+    <string name="revanced_music_container_summary_on">সঙ্গীত কনটেইনার লুকানো আছে</string>
+    <string name="revanced_music_container_title">সঙ্গীত কনটেইনার</string>
     <string name="revanced_new_actionbar_summary_off">প্রশস্ত সার্চ বার বন্ধ করা হয়েছে</string>
     <string name="revanced_new_actionbar_summary_on">প্রশস্ত সার্চ বার চালু করা হয়েছে</string>
     <string name="revanced_new_actionbar_title">প্রশস্ত সার্চ বার</string>
@@ -343,7 +337,6 @@
     <string name="revanced_swipe_pts_summary_off">সোয়াইপ কন্ট্রোল সবসময় চালু</string>
     <string name="revanced_swipe_pts_summary_on">সোয়াইপ কন্ট্রোল চালু করলে অনেক সময় ধরে চেপে থাকুন</string>
     <string name="revanced_swipe_pts_title">প্রেস টু সোয়াইপ</string>
-    <string name="revanced_swipe_screen_summary">উজ্জ্বলতা আর ভলিউমের জন্য সোয়াইপ কন্ট্রোল</string>
     <string name="revanced_swipe_summary">সাউন্ড ও উজ্জ্বলতা নিয়ন্ত্রণ</string>
     <string name="revanced_swipe_title">সোয়াইপ কন্ট্রোল</string>
     <string name="revanced_swipe_volume_summary_off">সাউন্ডের জন্য সোয়াইপ কন্ট্রোল বন্ধ আছে</string>
@@ -463,4 +456,5 @@
     <string name="vote_started">সেগমেন্ট এর জন্য ভোটিং…</string>
     <string name="vote_succeeded">ভোট দেয়া সফল হয়েছে</string>
     <string name="vote_upvote">আপ ভোট</string>
+    <string name="website">ওয়েবসাইট</string>
 </resources>

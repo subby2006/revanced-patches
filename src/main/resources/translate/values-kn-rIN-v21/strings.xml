@@ -48,9 +48,6 @@
     <string name="litho_channel_guidelines">ಚಾನಲ್ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು</string>
     <string name="litho_channel_guidelines_off">ಚಾನಲ್ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದನ್ನು ಆಫ್ ಮಾಡಲಾಗಿದೆ</string>
     <string name="litho_channel_guidelines_on">ಚಾನಲ್ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ತೆಗೆದುಹಾಕುವಿಕೆಯನ್ನು ಆನ್ ಮಾಡಲಾಗಿದೆ</string>
-    <string name="litho_comments">ಕಾಮೆಂಟ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು</string>
-    <string name="litho_comments_off">ಕಾಮೆಂಟ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದನ್ನು ಆಫ್ ಮಾಡಲಾಗಿದೆ (ಹೊಸ ಕಾಮೆಂಟ್‌ಗಳು / ಫೋನ್‌ಗಳು ಮಾತ್ರ)</string>
-    <string name="litho_comments_on">ಕಾಮೆಂಟ್‌ಗಳನ್ನು ತೆಗೆದುಹಾಕುವಿಕೆಯನ್ನು ಆನ್ ಮಾಡಲಾಗಿದೆ (ಹೊಸ ಕಾಮೆಂಟ್‌ಗಳು / ಫೋನ್‌ಗಳು ಮಾತ್ರ)</string>
     <string name="litho_community_guidelines">ಸಮುದಾಯ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದು</string>
     <string name="litho_community_guidelines_off">ಸಮುದಾಯ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ತೆಗೆದುಹಾಕುವುದನ್ನು ಆಫ್ ಮಾಡಲಾಗಿದೆ</string>
     <string name="litho_community_guidelines_on">ಸಮುದಾಯ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ತೆಗೆದುಹಾಕುವಿಕೆಯನ್ನು ಆನ್ ಮಾಡಲಾಗಿದೆ</string>
@@ -209,7 +206,6 @@
     <string name="revanced_swipe_pts_summary_off">ಸ್ವೈಪ್ ನಿಯಂತ್ರಣಗಳು ಯಾವಾಗಲೂ ಸಕ್ರಿಯವಾಗಿರುತ್ತವೆ</string>
     <string name="revanced_swipe_pts_summary_on">ಸ್ವೈಪ್ ನಿಯಂತ್ರಣಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವ ಮೊದಲು ದೀರ್ಘ-ಒತ್ತುವಿಕೆಯ ಅಗತ್ಯವಿರುತ್ತದೆ</string>
     <string name="revanced_swipe_pts_title">ಸ್ವೈಪ್ ಮಾಡಲು ಒತ್ತಿರಿ</string>
-    <string name="revanced_swipe_screen_summary">ಹೊಳಪು ಮತ್ತು ವಾಲ್ಯೂಮ್‌ಗಾಗಿ ಸ್ವೈಪ್ ನಿಯಂತ್ರಣಗಳು</string>
     <string name="revanced_swipe_title">ಸ್ವೈಪ್ ನಿಯಂತ್ರಣಗಳು</string>
     <string name="revanced_swipe_volume_summary_off">ವಾಲ್ಯೂಮ್‌ಗಾಗಿ ಸ್ವೈಪ್ ನಿಯಂತ್ರಣಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
     <string name="revanced_swipe_volume_summary_on">ವಾಲ್ಯೂಮ್‌ಗಾಗಿ ಸ್ವೈಪ್ ನಿಯಂತ್ರಣಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>

@@ -51,9 +51,6 @@
     <string name="litho_channel_guidelines">Схаваць рэкамендацыі канала</string>
     <string name="litho_channel_guidelines_off">Правілы канала адлюстраваны</string>
     <string name="litho_channel_guidelines_on">Правілы канала схаваны</string>
-    <string name="litho_comments">Выдаліць раздзел каментарыяў</string>
-    <string name="litho_comments_off">Паказваецца раздзел каментарыяў</string>
-    <string name="litho_comments_on">Раздзел каментарыяў схаваны</string>
     <string name="litho_community_guidelines">Выдаліць правілы супольнасці</string>
     <string name="litho_community_guidelines_off">Паказваць правілы супольнасці</string>
     <string name="litho_community_guidelines_on">Правілы супольнасці схаваныя</string>

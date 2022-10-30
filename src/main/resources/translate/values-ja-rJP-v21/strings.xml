@@ -51,9 +51,6 @@
     <string name="litho_channel_guidelines">チャンネルのガイドラインを削除</string>
     <string name="litho_channel_guidelines_off">チャンネルのガイドラインの削除がオフになっています</string>
     <string name="litho_channel_guidelines_on">チャンネルのガイドラインの削除がオンになっています</string>
-    <string name="litho_comments">コメント欄を削除</string>
-    <string name="litho_comments_off">コメント欄の削除はオフになっています (新コメント / 携帯のみ)</string>
-    <string name="litho_comments_on">コメント欄の削除はオンになっています (新コメント / 携帯のみ)</string>
     <string name="litho_community_guidelines">コミュニティガイドラインを削除</string>
     <string name="litho_community_guidelines_off">コミュニティガイドラインの削除はオフです</string>
     <string name="litho_community_guidelines_on">コミュニティガイドラインの削除はオンです</string>
@@ -145,7 +142,6 @@
     <string name="revanced_buffer_summary">ビデオバッファのカスタム設定</string>
     <string name="revanced_buffer_title">バッファの設定</string>
     <string name="revanced_button_container_summary">ボタンコンテナのコンポーネントを非表示</string>
-    <string name="revanced_button_container_warning_summary">この機能は、新しいレイアウトに完全には対応していません。</string>
     <string name="revanced_cast_button_summary_off">キャストボタンは非表示です</string>
     <string name="revanced_cast_button_summary_on">キャストボタンは表示されます</string>
     <string name="revanced_cast_button_title">キャストボタン</string>
@@ -155,9 +151,6 @@
     <string name="revanced_copy_video_url_timestamp_summary_on">タイムスタンプ付きのリンクをコピーするボタンはプレイヤー上に表示されています</string>
     <string name="revanced_copy_video_url_timestamp_title">リンクをコピー (タイムスタンプ付き)</string>
     <string name="revanced_copy_video_url_title">リンクをコピー</string>
-    <string name="revanced_donation_companion_summary_off">寄付の仲間を表示する</string>
-    <string name="revanced_donation_companion_summary_on">寄付の仲間を隠す</string>
-    <string name="revanced_donation_companion_title">寄付コンパニオン</string>
     <string name="revanced_download_video_summary_off">ダウンロードボタンは非表示です</string>
     <string name="revanced_download_video_summary_on">ダウンロードボタンを表示する</string>
     <string name="revanced_download_video_title">ダウンロード ボタン</string>
@@ -205,9 +198,6 @@
     <string name="revanced_hide_email_address_summary_off">メールアドレスは非表示です</string>
     <string name="revanced_hide_email_address_summary_on">メールアドレスが表示されます</string>
     <string name="revanced_hide_email_address_title">メールアドレス</string>
-    <string name="revanced_hide_external_comment_box_summary_off">外部コメントボックスを表示する</string>
-    <string name="revanced_hide_external_comment_box_summary_on">外部コメントボックスを非表示にする</string>
-    <string name="revanced_hide_external_comment_box_title">外部コメント欄を隠す</string>
     <string name="revanced_hide_like_button_summary_off">高評価ボタンを表示する</string>
     <string name="revanced_hide_like_button_summary_on">高評価ボタンを隠す</string>
     <string name="revanced_hide_like_button_title">高評価ボタンを隠す</string>
@@ -223,9 +213,6 @@
     <string name="revanced_hide_share_button_summary_off">共有ボタンを表示する</string>
     <string name="revanced_hide_share_button_summary_on">共有ボタンを非表示にする</string>
     <string name="revanced_hide_share_button_title">共有ボタンを隠す</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">ネタバレコメントを表示する</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">ネタバレコメントを非表示にする</string>
-    <string name="revanced_hide_spoiler_comment_title">ネタバレコメントを隠す</string>
     <string name="revanced_hide_thanks_button_summary_off">感謝ボタンを表示する</string>
     <string name="revanced_hide_thanks_button_summary_on">感謝ボタンを非表示にする</string>
     <string name="revanced_hide_thanks_button_title">感謝ボタンを隠す</string>
@@ -334,7 +321,6 @@
     <string name="revanced_swipe_pts_summary_off">スワイプコントロールは常に有効です</string>
     <string name="revanced_swipe_pts_summary_on">スワイプコントロールを有効にするには長押しが必要です</string>
     <string name="revanced_swipe_pts_title">プレストゥスワイプ</string>
-    <string name="revanced_swipe_screen_summary">明るさと音量のスワイプコントロール</string>
     <string name="revanced_swipe_summary">音量と明るさのコントロール</string>
     <string name="revanced_swipe_title">スワイプコントロール</string>
     <string name="revanced_swipe_volume_summary_off">音量のスワイプコントロールは無効です</string>

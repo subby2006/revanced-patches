@@ -57,9 +57,6 @@ Karena fitur ini masih Alpha, hanya berfungsi di segmen 'Lewati secara otomatis'
     <string name="litho_channel_guidelines">Penghapusan pedoman channel</string>
     <string name="litho_channel_guidelines_off">Penghapusan pedoman channel dinonaktifkan</string>
     <string name="litho_channel_guidelines_on">Penghapusan pedoman channel diaktifkan</string>
-    <string name="litho_comments">Penghapusan komentar</string>
-    <string name="litho_comments_off">Penghapusan komentar dinonaktifkan (khusus komentar/perangkat baru)</string>
-    <string name="litho_comments_on">Penghapusan komentar diaktifkan (khusus komentar/perangkat baru)</string>
     <string name="litho_community_guidelines">Penghapusan pedoman komunitas</string>
     <string name="litho_community_guidelines_off">Penghapusan pedoman komunitas dinonaktifkan</string>
     <string name="litho_community_guidelines_on">Penghapusan pedoman komunitas diaktifkan</string>
@@ -148,22 +145,27 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_branding_watermark_summary_off">Watermark video disembunyikan</string>
     <string name="revanced_branding_watermark_summary_on">Watermark video ditampilkan</string>
     <string name="revanced_branding_watermark_title">Watermark video</string>
+    <string name="revanced_breaking_news_panels_summary_off">Panel berita terbaru ditampilkan</string>
+    <string name="revanced_breaking_news_panels_summary_on">Panel berita terbaru disembunyikan</string>
+    <string name="revanced_breaking_news_panels_title">Panel berita terbaru</string>
     <string name="revanced_buffer_summary">Pengaturan kustom untuk buffer video</string>
     <string name="revanced_buffer_title">Pengaturan buffer</string>
     <string name="revanced_button_container_summary">Menyembunyikan komponen tombol</string>
-    <string name="revanced_button_container_warning_summary">Fitur ini tidak sepenuhnya mendukung tata letak baru!</string>
+    <string name="revanced_button_container_title">Komponen wadah tombol</string>
     <string name="revanced_cast_button_summary_off">Tombol cast disembunyikan</string>
     <string name="revanced_cast_button_summary_on">Tombol cast ditampilkan</string>
     <string name="revanced_cast_button_title">Tombol cast</string>
+    <string name="revanced_comments_summary">Sembunyikan bagian atau komponen komentar</string>
+    <string name="revanced_comments_title">Komponen komentar</string>
     <string name="revanced_copy_video_url_summary_off">Tombol salin tautan disembunyikan</string>
     <string name="revanced_copy_video_url_summary_on">Tombol salin tautan ditampilkan</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">Tombol salin tautan dengan stempel waktu disembunyikan</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Tombol salin tautan dengan stempel waktu ditampilkan</string>
     <string name="revanced_copy_video_url_timestamp_title">Tombol salin tautan dengan stempel waktu</string>
     <string name="revanced_copy_video_url_title">Tombol salin tautan</string>
-    <string name="revanced_donation_companion_summary_off">Kotak donasi diaktifkan</string>
-    <string name="revanced_donation_companion_summary_on">Kotak donasi dinonaktifkan</string>
-    <string name="revanced_donation_companion_title">Kotak donasi</string>
+    <string name="revanced_crowdfunding_box_summary_off">Kotak penggalangan dana disembunyikan</string>
+    <string name="revanced_crowdfunding_box_summary_on">Kotak penggalangan dana ditampilkan</string>
+    <string name="revanced_crowdfunding_box_title">Kotak penggalangan dana</string>
     <string name="revanced_download_video_summary_off">Tombol download disembunyikan</string>
     <string name="revanced_download_video_summary_on">Tombol download ditampilkan</string>
     <string name="revanced_download_video_title">Tombol download</string>
@@ -195,9 +197,13 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_force_fullscreen_rotation_title">Aktifkan rotasi layar penuh (eksperimental)</string>
     <string name="revanced_fullscreen_button_container_summary_off">Tombol layar penuh ditampilkan</string>
     <string name="revanced_fullscreen_button_container_summary_on">Tombol layar penuh disembunyikan</string>
+    <string name="revanced_fullscreen_button_container_title">Tombol layar penuh</string>
     <string name="revanced_hdr_full_brightness_summary_off">Kecerahan video diatur ke maksimal pada video lanskap HDR</string>
     <string name="revanced_hdr_full_brightness_summary_on">Kecerahan video akan mengikuti kecerahan perangkat anda pada video lanskap HDR</string>
     <string name="revanced_hdr_full_brightness_title">Ganti kecerahan video HDR</string>
+    <string name="revanced_hide_comments_section_summary_off">Bagian komentar ditampilkan</string>
+    <string name="revanced_hide_comments_section_summary_on">Bagian komentar disembunyikan</string>
+    <string name="revanced_hide_comments_section_title">Sembunyikan bagian komentar</string>
     <string name="revanced_hide_create_clip_button_summary_off">Tombol klip ditampilkan</string>
     <string name="revanced_hide_create_clip_button_summary_on">Tombol klip disembunyikan</string>
     <string name="revanced_hide_create_clip_button_title">Sembunyikan tombol klip</string>
@@ -213,9 +219,6 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_hide_email_address_summary_off">Alamat email disembunyikan</string>
     <string name="revanced_hide_email_address_summary_on">Alamat email ditampilkan</string>
     <string name="revanced_hide_email_address_title">Alamat email</string>
-    <string name="revanced_hide_external_comment_box_summary_off">Kotak komentar eksternal ditampilkan</string>
-    <string name="revanced_hide_external_comment_box_summary_on">Kotak komentar eksternal disembunyikan</string>
-    <string name="revanced_hide_external_comment_box_title">Menyembunyikan kotak komentar eksternal</string>
     <string name="revanced_hide_like_button_summary_off">Tombol suka ditampilkan</string>
     <string name="revanced_hide_like_button_summary_on">Tombol suka disembunyikan</string>
     <string name="revanced_hide_like_button_title">Sembunyikan tombol suka</string>
@@ -225,21 +228,27 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_hide_playlist_button_summary_off">Tombol daftar putar ditampilkan</string>
     <string name="revanced_hide_playlist_button_summary_on">Tombol daftar putar disembunyikan</string>
     <string name="revanced_hide_playlist_button_title">Sembunyikan tombol daftar putar</string>
+    <string name="revanced_hide_preview_comment_off">Komentar pratinjau ditampilkan</string>
+    <string name="revanced_hide_preview_comment_on">Komentar pratinjau disembunyikan</string>
+    <string name="revanced_hide_preview_comment_title">Sembunyikan komentar pratinjau</string>
     <string name="revanced_hide_report_button_summary_off">Tombol laporan ditampilkan</string>
     <string name="revanced_hide_report_button_summary_on">Tombol laporan disembunyikan</string>
     <string name="revanced_hide_report_button_title">Sembunyikan tombol laporan</string>
     <string name="revanced_hide_share_button_summary_off">Tombol berbagi ditampilkan</string>
     <string name="revanced_hide_share_button_summary_on">Tombol berbagi disembunyikan</string>
     <string name="revanced_hide_share_button_title">Sembunyikan tombol berbagi</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">Bocoran komentar ditampilkan</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">Bocoran komentar disembunyikan</string>
-    <string name="revanced_hide_spoiler_comment_title">Sembunyikan bocoran komentar</string>
+    <string name="revanced_hide_shorts_comments_button_off">Tombol komentar shorts ditampilkan</string>
+    <string name="revanced_hide_shorts_comments_button_on">Tombol komentar shorts disembunyikan</string>
+    <string name="revanced_hide_shorts_comments_button_title">Sembunyikan tombol komentar shorts</string>
     <string name="revanced_hide_thanks_button_summary_off">Tombol terima kasih ditampilkan</string>
     <string name="revanced_hide_thanks_button_summary_on">Tombol terima kasih disembunyikan</string>
     <string name="revanced_hide_thanks_button_title">Sembunyikan tombol terima kasih</string>
     <string name="revanced_hide_time_and_seekbar_summary_off">Waktu and seek bar (bilah progres video) disembunyikan</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">Waktu and seek bar (bilah progres video) ditampilkan</string>
     <string name="revanced_hide_time_and_seekbar_title">Waktu and seek bar (bilah progres video)</string>
+    <string name="revanced_hide_watch_in_vr_summary_off">Tonton di item VR ditampilkan dari item menu</string>
+    <string name="revanced_hide_watch_in_vr_summary_on">Tonton di item VR disembunyikan dari item menu</string>
+    <string name="revanced_hide_watch_in_vr_title">Tonton di VR</string>
     <string name="revanced_home_ads_summary_off">Iklan beranda disembunyikan</string>
     <string name="revanced_home_ads_summary_on">Iklan beranda ditampilkan</string>
     <string name="revanced_home_ads_title">Iklan beranda</string>
@@ -260,6 +269,12 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_minimized_playback_on">Pemutaran latar belakang diaktifkan</string>
     <string name="revanced_misc_summary">Patch lainnya</string>
     <string name="revanced_misc_title">Lainnya</string>
+    <string name="revanced_mix_playlists_summary_off">Playlist mix disembunyikan</string>
+    <string name="revanced_mix_playlists_summary_on">Playlist mix ditampilkan</string>
+    <string name="revanced_mix_playlists_title">Playlist mix</string>
+    <string name="revanced_music_container_summary_off">Wadah musik ditampilkan</string>
+    <string name="revanced_music_container_summary_on">Wadah musik disembunyikan</string>
+    <string name="revanced_music_container_title">Wadah musik</string>
     <string name="revanced_new_actionbar_summary_off">Kotak pencarian lebar dinonaktifkan</string>
     <string name="revanced_new_actionbar_summary_on">Kotak pencarian lebar diaktifkan</string>
     <string name="revanced_new_actionbar_title">Kotak pencarian lebar</string>
@@ -292,6 +307,18 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_reboot_warning_ryd">"Terintegrasi dengan tombol like untuk menampilkan jumlah dislike dalam tata letak baru.
 Namun, karena ini masih merupakan fitur eksperimental, jumlah like mungkin tidak ditampilkan secara akurat.
 Apakah anda yakin ingin melanjutkan?"</string>
+    <string name="revanced_reboot_warning_tablet">"Trik dpi untuk menggunakan beberapa tata letak tablet.
+
+Jika anda mengaktifkan pengaturan ini, fitur berikut tersedia:
+- Pemutar shorts dikonversi ke pemutar standar
+- Urutkan berdasarkan 'tanggal ditambahkan (terlama)'
+
+Fitur berikut tidak tersedia:
+- Mode ambient
+- Postingan komunitas
+
+Karena ini masih merupakan fitur eksperimental, mungkin ada masalah lain yang tidak diketahui.
+Apakah Anda yakin ingin melanjutkannya?"</string>
     <string name="revanced_rebuffer_summary">Durasi media yang harus dimuat agar pemutaran dapat dilanjutkan setelah muat ulang (dalam milidetik). Sebuah rebuffer didefinisikan disebabkan oleh penipisan buffer daripada tindakan user Standar: 5000</string>
     <string name="revanced_rebuffer_title">Muat ulang</string>
     <string name="revanced_reel_summary_off">Stories disembunyikan</string>
@@ -341,7 +368,6 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_swipe_pts_summary_off">Kontrol gesek selalu aktif</string>
     <string name="revanced_swipe_pts_summary_on">Kontrol gesek perlu ditekan lama sebelum mengaktifkan</string>
     <string name="revanced_swipe_pts_title">Tekan untuk gesek</string>
-    <string name="revanced_swipe_screen_summary">Kontrol gesek untuk kecerahan dan volume</string>
     <string name="revanced_swipe_summary">Kontrol volume dan kecerahan</string>
     <string name="revanced_swipe_title">Kontrol gesek</string>
     <string name="revanced_swipe_volume_summary_off">Kontrol gesek untuk volume dinonaktifkan</string>
@@ -350,6 +376,11 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_tablet_miniplayer_summary_off">Tablet miniplayer dinonaktifkan</string>
     <string name="revanced_tablet_miniplayer_summary_on">Tablet miniplayer diaktifkan</string>
     <string name="revanced_tablet_miniplayer_title">Tablet miniplayer</string>
+    <string name="revanced_tablet_layout_summary">Trik dpi untuk menggunakan beberapa tata letak tablet</string>
+    <string name="revanced_tablet_layout_title">Tata letak tablet</string>
+    <string name="revanced_timed_reactions_summary_off">Reaksi jangka waktu ditampilkan</string>
+    <string name="revanced_timed_reactions_summary_on">Reaksi jangka waktu disembunyikan</string>
+    <string name="revanced_timed_reactions_title">Reaksi jangka waktu</string>
     <string name="revanced_tool_used">Alat yang digunakan</string>
     <string name="revanced_uri_redirect_summary_off">"Ikuti kebijakan pengalihan YouTube"</string>
     <string name="revanced_uri_redirect_summary_on">Buka url dengan melewati youtube.com/redirect</string>
@@ -368,6 +399,9 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_videoadwhitelisting_summary_off">Daftar putih iklan video dinonaktifkan</string>
     <string name="revanced_videoadwhitelisting_summary_on">Daftar putih iklan video diaktifkan. Gunakan tombol ADS di bawah pemutar untuk memasukkan saluran ke daftar putih</string>
     <string name="revanced_videoadwhitelisting_title">Daftar putih iklan video</string>
+    <string name="revanced_view_products_summary_off">Lihat spanduk produk ditampilkan</string>
+    <string name="revanced_view_products_summary_on">Lihat spanduk produk disembunyikan</string>
+    <string name="revanced_view_products_title">Lihat spanduk produk</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Gagal menambahkan channel %s ke daftar putih %s</string>
     <string name="revanced_whitelisting_added" formatted="false">Channel %s telah ditambahkan ke daftar putih %s</string>
     <string name="revanced_whitelisting_ads">Iklan</string>
@@ -461,4 +495,5 @@ Kuota dibatasi (terlalu banyak dari user atau IP yang sama)"</string>
     <string name="vote_started">Voting untuk segmen…</string>
     <string name="vote_succeeded">Voting berhasil</string>
     <string name="vote_upvote">Upvote</string>
+    <string name="website">Website</string>
 </resources>

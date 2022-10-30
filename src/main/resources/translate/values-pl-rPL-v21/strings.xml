@@ -50,9 +50,6 @@
     <string name="litho_channel_guidelines">Ukryj wytyczne kanału</string>
     <string name="litho_channel_guidelines_off">Wytyczne kanału są widoczne</string>
     <string name="litho_channel_guidelines_on">Wytyczne kanału są ukryte</string>
-    <string name="litho_comments">Usuń sekcję komentarzy</string>
-    <string name="litho_comments_off">Sekcja komentarzy jest widoczna</string>
-    <string name="litho_comments_on">Sekcja komentarzy jest ukryta</string>
     <string name="litho_community_guidelines">Usuń wiadomość o Wytycznych dla Społeczności</string>
     <string name="litho_community_guidelines_off">Wiadomość o Wytycznych dla Społeczności jest widoczna</string>
     <string name="litho_community_guidelines_on">Wiadomość o Wytycznych dla Społeczności jest ukryta</string>
@@ -139,7 +136,6 @@
     <string name="revanced_branding_watermark_title">Znak wodny</string>
     <string name="revanced_buffer_summary">Niestandardowe ustawienia bufora wideo</string>
     <string name="revanced_buffer_title">Ustawienia bufora wideo</string>
-    <string name="revanced_button_container_warning_summary">ta funkcja nie obsługuje w pełni nowego układu!</string>
     <string name="revanced_cast_button_summary_off">Przycisk przesyłania jest ukryty</string>
     <string name="revanced_cast_button_summary_on">Przycisk przesyłania jest widoczny</string>
     <string name="revanced_cast_button_title">Przycisk przesyłania</string>
@@ -149,9 +145,6 @@
     <string name="revanced_copy_video_url_timestamp_summary_on">Przycisk \'Kopiuj link ze znacznikiem czasu\' jest widoczny</string>
     <string name="revanced_copy_video_url_timestamp_title">Przycisk kopiowania linku ze znacznikiem czasu</string>
     <string name="revanced_copy_video_url_title">Przycisk kopiowania linku</string>
-    <string name="revanced_donation_companion_summary_off">Zbiórka pieniędzy jest widoczna</string>
-    <string name="revanced_donation_companion_summary_on">Zbiórka pieniędzy jest ukryta</string>
-    <string name="revanced_donation_companion_title">Zbiórka pieniędzy</string>
     <string name="revanced_download_video_summary_off">Przycisk pobierania jest ukryty</string>
     <string name="revanced_download_video_summary_on">Przycisk pobierania jest widoczny</string>
     <string name="revanced_download_video_title">Przycisk pobierania</string>
@@ -198,9 +191,6 @@
     <string name="revanced_hide_email_address_summary_off">Adres e-mail jest ukryty</string>
     <string name="revanced_hide_email_address_summary_on">Adres e-mail jest widoczny</string>
     <string name="revanced_hide_email_address_title">Adres e-mail</string>
-    <string name="revanced_hide_external_comment_box_summary_off">Zewnętrzne pole komentarza jest wyświetlane</string>
-    <string name="revanced_hide_external_comment_box_summary_on">Zewnętrzne pole komentarza jest ukryte</string>
-    <string name="revanced_hide_external_comment_box_title">Ukryj zewnętrzne pole komentarzy</string>
     <string name="revanced_hide_like_button_summary_off">Przycisk \"Podoba mi się\" jest widoczny</string>
     <string name="revanced_hide_like_button_summary_on">Przycisk \"Podoba mi się\" jest ukryty</string>
     <string name="revanced_hide_like_button_title">Ukryj przycisk \'Podoba mi się\'</string>
@@ -216,9 +206,6 @@
     <string name="revanced_hide_share_button_summary_off">Przycisk \'Udostępnij\' jest widoczny</string>
     <string name="revanced_hide_share_button_summary_on">Przycisk \'Udostępnij\' jest ukryty</string>
     <string name="revanced_hide_share_button_title">Ukryj przycisk \'Udostępnij\'</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">Komentarz Spoiler jest wyświetlony</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">Komentarz Spoiler jest ukryty</string>
-    <string name="revanced_hide_spoiler_comment_title">Ukryj komentarz spoiler</string>
     <string name="revanced_hide_thanks_button_summary_off">Przycisk \"Podziękuj\" jest widoczny</string>
     <string name="revanced_hide_thanks_button_summary_on">Przycisk \"Podziękuj\" jest ukryty</string>
     <string name="revanced_hide_thanks_button_title">Ukryj przycisk \'Podziękuj\'</string>
@@ -319,7 +306,6 @@ Czy na pewno chcesz kontynuować?"</string>
     <string name="revanced_swipe_pts_summary_off">Gest \'naciśnij, aby przesunąć\' jest wyłączony</string>
     <string name="revanced_swipe_pts_summary_on">Gest \'naciśnij, aby przesunąć\' jest włączony</string>
     <string name="revanced_swipe_pts_title">Włącz gest \'naciśnij, aby przesunąć\'</string>
-    <string name="revanced_swipe_screen_summary">Kontrolowanie jasności i głośności za pomocą gestów</string>
     <string name="revanced_swipe_summary">Regulacja głośności i jasności</string>
     <string name="revanced_swipe_title">Sterowanie gestami</string>
     <string name="revanced_swipe_volume_summary_off">Kontrola głośności poprzez gesty jest wyłączona</string>

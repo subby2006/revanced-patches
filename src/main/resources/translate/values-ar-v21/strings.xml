@@ -3,7 +3,8 @@
     <string name="about">لمحة</string>
     <string name="about_api">هذا التطبيق يستخدم واجهة برمجة التطبيقات من مانع الرعاة SponsorBlock</string>
     <string name="about_api_sum">انقر لمعرفة المزيد؛ والتنزيل لمنصات أخرى على:  sponsor.ajay.app</string>
-    <string name="about_madeby">تم الدمج بواسطة JakubWeg، تم إعادة الترميز بواسطة oSumAtrIX</string>
+    <string name="about_madeby">تم الدمج بواسطة JakubWeg،
+تم إعادة الترميز بواسطة oSumAtrIX</string>
     <string name="accessibility_settings_edu_opt_in_text">هل تريد تشغيل عناصر التحكم في إمكانية الوصول لمشغل الفيديو؟</string>
     <string name="accessibility_settings_edu_opt_out_text">تم تعديل عناصر التحكم الخاصة بك لأن خدمة إمكانية الوصول قيد التشغيل.</string>
     <string name="action_browser">مستعرض SB</string>
@@ -54,9 +55,6 @@
     <string name="litho_channel_guidelines">إخفاء إرشادات القناة</string>
     <string name="litho_channel_guidelines_off">يتم عرض إرشادات القناة</string>
     <string name="litho_channel_guidelines_on">تم إخفاء إرشادات القناة</string>
-    <string name="litho_comments">إزالة قسم التعليقات</string>
-    <string name="litho_comments_off">يتم عرض قسم التعليقات</string>
-    <string name="litho_comments_on">تم إخفاء قسم التعليقات</string>
     <string name="litho_community_guidelines">إزالة إرشادات المجتمع</string>
     <string name="litho_community_guidelines_off">يتم عرض إرشادات المجتمع</string>
     <string name="litho_community_guidelines_on">تم إخفاء إرشادات المجتمع</string>
@@ -142,23 +140,27 @@
     <string name="revanced_branding_watermark_summary_off">تم إخفاء علامة الفيديو المائية</string>
     <string name="revanced_branding_watermark_summary_on">يتم عرض علامة الفيديو المائية</string>
     <string name="revanced_branding_watermark_title">العلامة المائية على الفيديو</string>
+    <string name="revanced_breaking_news_panels_summary_off">يتم عرض لوحات الأخبار العاجلة</string>
+    <string name="revanced_breaking_news_panels_summary_on">تم إخفاء لوحات الأخبار العاجلة</string>
+    <string name="revanced_breaking_news_panels_title">لوحات الأخبار العاجلة</string>
     <string name="revanced_buffer_summary">الإعدادات المخصصة للتحميل المسبق</string>
     <string name="revanced_buffer_title">إعدادات التحميل المسبق</string>
     <string name="revanced_button_container_summary">إخفاء مكون حاوية الزر</string>
-    <string name="revanced_button_container_title">إخفاء حاوية الزر (تجريبي)</string>
-    <string name="revanced_button_container_warning_summary">هذه الميزة لا تدعم التصميم الجديد بشكل كامل!</string>
+    <string name="revanced_button_container_title">مكون حاوية الزر</string>
     <string name="revanced_cast_button_summary_off">تم إخفاء زر البث</string>
     <string name="revanced_cast_button_summary_on">يتم عرض زر البث</string>
     <string name="revanced_cast_button_title">زر البث</string>
+    <string name="revanced_comments_summary">يخفي قسم التعليقات أو المكون</string>
+    <string name="revanced_comments_title">مكون التعليقات</string>
     <string name="revanced_copy_video_url_summary_off">تم إخفاء زر نسخ الرابط</string>
     <string name="revanced_copy_video_url_summary_on">يتم عرض زر نسخ الرابط</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">تم إخفاء زر نسخ الرابط مع الوقت</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">يتم عرض زر نسخ الرابط مع الوقت</string>
     <string name="revanced_copy_video_url_timestamp_title">زر نسخ الرابط مع الوقت</string>
     <string name="revanced_copy_video_url_title">زر نسخ الرابط</string>
-    <string name="revanced_donation_companion_summary_off">يتم عرض جمع التبرُّعات</string>
-    <string name="revanced_donation_companion_summary_on">تم إخفاء جمع التبرُّعات</string>
-    <string name="revanced_donation_companion_title">جمع التبرُّعات</string>
+    <string name="revanced_crowdfunding_box_summary_off">تم إخفاء مربع التمويل الجماعي</string>
+    <string name="revanced_crowdfunding_box_summary_on">يتم عرض مربع التمويل الجماعي</string>
+    <string name="revanced_crowdfunding_box_title">مربع التمويل الجماعي</string>
     <string name="revanced_download_video_summary_off">تم إخفاء زر التنزيل</string>
     <string name="revanced_download_video_summary_on">يتم عرض زر التنزيل</string>
     <string name="revanced_download_video_title">زر التنزيل</string>
@@ -194,6 +196,9 @@
     <string name="revanced_hdr_full_brightness_summary_off">تم تعطيل سطوع HDR التلقائي</string>
     <string name="revanced_hdr_full_brightness_summary_on">تم تمكين سطوع HDR التلقائي</string>
     <string name="revanced_hdr_full_brightness_title">تمكين سطوع HDR التلقائي</string>
+    <string name="revanced_hide_comments_section_summary_off">يتم عرض قسم إضافة تعليق</string>
+    <string name="revanced_hide_comments_section_summary_on">تم إخفاء قسم إضافة تعليق</string>
+    <string name="revanced_hide_comments_section_title">إخفاء قسم إضافة تعليق</string>
     <string name="revanced_hide_create_clip_button_summary_off">يتم عرض زر إنشاء مقطع</string>
     <string name="revanced_hide_create_clip_button_summary_on">تم إخفاء زر إنشاء مقطع</string>
     <string name="revanced_hide_create_clip_button_title">إخفاء زر إنشاء مقطع</string>
@@ -209,9 +214,6 @@
     <string name="revanced_hide_email_address_summary_off">تم إخفاء عنوان البريد الإلكتروني</string>
     <string name="revanced_hide_email_address_summary_on">تم إظهار عنوان البريد الإلكتروني</string>
     <string name="revanced_hide_email_address_title">عنوان البريد الالكتروني</string>
-    <string name="revanced_hide_external_comment_box_summary_off">يتم عرض مربع إضافة تعليق</string>
-    <string name="revanced_hide_external_comment_box_summary_on">تم إخفاء مربع إضافة تعليق</string>
-    <string name="revanced_hide_external_comment_box_title">إخفاء مربع إضافة تعليق</string>
     <string name="revanced_hide_like_button_summary_off">يتم عرض زر \"أعجبني\"</string>
     <string name="revanced_hide_like_button_summary_on">تم إخفاء زر \"أعجبني\"</string>
     <string name="revanced_hide_like_button_title">إخفاء زر الإعجاب</string>
@@ -221,21 +223,27 @@
     <string name="revanced_hide_playlist_button_summary_off">يتم عرض زر قائمة التشغيل</string>
     <string name="revanced_hide_playlist_button_summary_on">تم إخفاء زر قائمة التشغيل</string>
     <string name="revanced_hide_playlist_button_title">إخفاء زر قائمة التشغيل</string>
+    <string name="revanced_hide_preview_comment_off">يتم عرض تعليق المعاينة</string>
+    <string name="revanced_hide_preview_comment_on">تم إخفاء تعليق المعاينة</string>
+    <string name="revanced_hide_preview_comment_title">إخفاء تعليق المعاينة</string>
     <string name="revanced_hide_report_button_summary_off">يتم عرض زر الإبلاغ</string>
     <string name="revanced_hide_report_button_summary_on">تم إخفاء زر الإبلاغ</string>
     <string name="revanced_hide_report_button_title">إخفاء زر الإبلاغ</string>
     <string name="revanced_hide_share_button_summary_off">يتم عرض زر مشاركة</string>
     <string name="revanced_hide_share_button_summary_on">تم إخفاء زر مشاركة</string>
     <string name="revanced_hide_share_button_title">إخفاء زر مشاركة</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">يتم عرض تعليق المفسد</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">تم إخفاء تعليق المفسد</string>
-    <string name="revanced_hide_spoiler_comment_title">إخفاء تعليق المفسد</string>
+    <string name="revanced_hide_shorts_comments_button_off">يتم عرض زر تعليقات فيديوهات Shorts</string>
+    <string name="revanced_hide_shorts_comments_button_on">تم إخفاء زر تعليقات فيديوهات Shorts</string>
+    <string name="revanced_hide_shorts_comments_button_title">إخفاء زر تعليقات Shorts</string>
     <string name="revanced_hide_thanks_button_summary_off">يتم عرض زر شكرًا</string>
     <string name="revanced_hide_thanks_button_summary_on">تم إخفاء زر شكرًا</string>
     <string name="revanced_hide_thanks_button_title">إخفاء زر شكرًا</string>
     <string name="revanced_hide_time_and_seekbar_summary_off">تم إخفاء الوقت وشريط تقدم الفيديو</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">يتم عرض الوقت وشريط تقدم الفيديو</string>
     <string name="revanced_hide_time_and_seekbar_title">الوقت وشريط تقدم الفيديو</string>
+    <string name="revanced_hide_watch_in_vr_summary_off">يتم عرض خيار المشاهدة في الواقع الافتراضي من عنصر القائمة</string>
+    <string name="revanced_hide_watch_in_vr_summary_on">تم إخفاء خيار المشاهدة في الواقع الافتراضي من عنصر القائمة</string>
+    <string name="revanced_hide_watch_in_vr_title">المشاهدة في الواقع الافتراضي</string>
     <string name="revanced_home_ads_summary_off">تم إخفاء إعلانات الصفحة الرئيسية</string>
     <string name="revanced_home_ads_summary_on">يتم عرض إعلانات الصفحة الرئيسية</string>
     <string name="revanced_home_ads_title">إزالة إعلانات الصفحة الرئيسية</string>
@@ -256,9 +264,9 @@
     <string name="revanced_minimized_playback_on">تم تمكين التشغيل في الخلفية</string>
     <string name="revanced_misc_summary">تعديلات متنوعة</string>
     <string name="revanced_misc_title">الخصائص المختلفة</string>
-    <string name="revanced_mix_playlists_summary_off">تم إخفاء قائمة التشغيل المختلطة</string>
-    <string name="revanced_mix_playlists_summary_on">يتم عرض قائمة التشغيل المختلطة</string>
-    <string name="revanced_mix_playlists_title">قائمة التشغيل المختلطة</string>
+    <string name="revanced_mix_playlists_summary_off">تم إخفاء قائمة تشغيل التشكيلة</string>
+    <string name="revanced_mix_playlists_summary_on">يتم عرض قائمة تشغيل التشكيلة</string>
+    <string name="revanced_mix_playlists_title">قائمة تشغيل التشكيلة</string>
     <string name="revanced_music_container_summary_off">يتم عرض حاوية الموسيقى</string>
     <string name="revanced_music_container_summary_on">تم إخفاء حاوية الموسيقى</string>
     <string name="revanced_music_container_title">حاوية الموسيقى</string>
@@ -289,6 +297,7 @@
     <string name="revanced_preferred_video_speed_title">سرعة الفيديو المفضلة</string>
     <string name="revanced_reboot_warning_fullscreen">"خداع إصدار YouTube ومحاولة تحديثه من سيرفر جانبي. قد لا يعمل هذا أحيانًا على النحو المنشود. في بعض الحالات، قد يكون من الضروري إعادة تثبيت ReVanced. هل أنت متأكد من أنك تريد المتابعة بالرغم من ذلك؟"</string>
     <string name="revanced_reboot_warning_ryd">"يتكامل مع زر الإعجاب لعرض عدد مرات عدم الإعجاب في التصميم الجديد. ومع ذلك، نظرًا لأن هذه الميزة لا تزال تجريبية، فقد لا يتم عرض العدد المتشابه بدقة. هل أنت متأكد أنك تريد المتابعة بالرغم من ذلك؟"</string>
+    <string name="revanced_reboot_warning_tablet">"حيَل dpi لتغيير بعض التصميمات إلى تصميمات الجهاز اللوحي. إذا قمت بتمكين هذا الإعداد ، فستتوفر الميزات التالية: - تحويل المشغل القصير إلى المشغل القياسي - الترتيب حسب\" تاريخ الإضافة (الأقدم) \"الميزات التالية غير متوفرة: - Ambient mode - مشاركات المنتدى - إخفاء قائمة تشغيل التشكيلة نظرًا لأن هذه لا تزال ميزة تجريبية ، فقد تكون هناك مشكلات أخرى غير معروفة. هل أنت متأكد أنك تريد المتابعة بالرغم من ذلك؟"</string>
     <string name="revanced_rebuffer_summary">المدة التي يجب تحميلها مسبقًا من الفيديو لإعادة التشغيل بعد إعادة التحميل (بالمللي ثانية). تم تعريف إعادة التحميل المسبق على إنها إنتهاء الجزء المُنَّزَّل من الفيديو وليست بسبب إجراءات المستخدم  الافتراضي: 5000</string>
     <string name="revanced_rebuffer_title">إعادة التحميل المسبق</string>
     <string name="revanced_reel_summary_off">تم إخفاء قصص يوتيوب</string>
@@ -338,7 +347,6 @@
     <string name="revanced_swipe_pts_summary_off">تنشيط عناصر التحكم عن طريق السحب عند الضغط مباشرة</string>
     <string name="revanced_swipe_pts_summary_on">يتم تنشيط عناصر التحكم عن طريق السحب فقط بضغطة طويلة</string>
     <string name="revanced_swipe_pts_title">الضغط للسحب</string>
-    <string name="revanced_swipe_screen_summary">التحكم بمستوى السطوع والصوت عن طريق السحب</string>
     <string name="revanced_swipe_summary">التحكم في مستوى الصوت والسطوع</string>
     <string name="revanced_swipe_title">التحكم عن طريق السحب</string>
     <string name="revanced_swipe_volume_summary_off">تم تعطيل التحكم بمستوى الصوت عن طريق السحب</string>
@@ -347,6 +355,11 @@
     <string name="revanced_tablet_miniplayer_summary_off">تم تعطيل لوح المشغل المصَّغَّر</string>
     <string name="revanced_tablet_miniplayer_summary_on">تم تمكين لوح المشغل المصَّغَّر</string>
     <string name="revanced_tablet_miniplayer_title">المُشَّغل المصَّغَّر</string>
+    <string name="revanced_tablet_layout_summary">حِيَل dpi لاستخدام بعض تصميمات الجهاز اللوحي</string>
+    <string name="revanced_tablet_layout_title">تصميم الجهاز اللوحي</string>
+    <string name="revanced_timed_reactions_summary_off">يتم عرض ردود الفعل المؤقتة</string>
+    <string name="revanced_timed_reactions_summary_on">تم إخفاء ردود الفعل المؤقتة</string>
+    <string name="revanced_timed_reactions_title">ردود الفعل المؤقتة</string>
     <string name="revanced_tool_used">الأداة المستخدمة</string>
     <string name="revanced_uri_redirect_summary_off">"اتِّباع سياسة إعادة التوجيه في YouTube"</string>
     <string name="revanced_uri_redirect_summary_on">فتح عنوان URL بتجاوز youtube.com/redirect</string>
@@ -365,6 +378,9 @@
     <string name="revanced_videoadwhitelisting_summary_off">تم إيقاف القائمة البيضاء لإعلان الفيديو</string>
     <string name="revanced_videoadwhitelisting_summary_on">تم تشغيل القائمة البيضاء لإعلان الفيديو. استخدم زر الإعلانات أسفل المشغل لإضافة قناة في القائمة البيضاء</string>
     <string name="revanced_videoadwhitelisting_title">القائمة البيضاء لإعلانات الفيديو</string>
+    <string name="revanced_view_products_summary_off">يتم عرض لافتة عرض المنتجات</string>
+    <string name="revanced_view_products_summary_on">تم إخفاء لافتة عرض المنتجات</string>
+    <string name="revanced_view_products_title">لافتة عرض المنتجات</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">فشل إضافة القناة %s إلى القائمة البيضاء %s</string>
     <string name="revanced_whitelisting_added" formatted="false">تمت إضافة القناة %s إلى القائمة البيضاء %s</string>
     <string name="revanced_whitelisting_ads">الإعلانات</string>
@@ -447,4 +463,5 @@
     <string name="vote_started">التصويت للمقطع…</string>
     <string name="vote_succeeded">تم التصويت بنجاح</string>
     <string name="vote_upvote">تأييد</string>
+    <string name="website">الموقع الإلكتروني</string>
 </resources>

@@ -51,9 +51,6 @@
     <string name="litho_channel_guidelines">Kanal təlimatlarının silinməsi</string>
     <string name="litho_channel_guidelines_off">Kanal təlimatlarının silinməsi söndürülüb</string>
     <string name="litho_channel_guidelines_on">Kanal təlimatlarının silinməsi aktivdir</string>
-    <string name="litho_comments">Şərhlərin silinməsi</string>
-    <string name="litho_comments_off">Şərh bölməsi göstərilir</string>
-    <string name="litho_comments_on">Şərh bölməsi gizlidir</string>
     <string name="litho_community_guidelines">İcma Qaydalarının silinməsi</string>
     <string name="litho_community_guidelines_off">İcma Qaydalarının silinməsi deaktiv edilib</string>
     <string name="litho_community_guidelines_on">İcma Qaydalarının silinməsi aktiv edilib</string>
@@ -145,7 +142,6 @@ Təqdim etməyə hazırdır?"</string>
     <string name="revanced_buffer_summary">Video bufer üçün fərdi parametrlər</string>
     <string name="revanced_buffer_title">Bufer parametrləri</string>
     <string name="revanced_button_container_summary">Düymə konteynerinin komponentini gizlədir</string>
-    <string name="revanced_button_container_warning_summary">bu funksiya yeni tərtibatı tam dəstəkləmir!</string>
     <string name="revanced_cast_button_summary_off">Yayım düyməsi gizlidir</string>
     <string name="revanced_cast_button_summary_on">Yayım düyməsi göstərilir</string>
     <string name="revanced_cast_button_title">Yayım düyməsi</string>
@@ -155,9 +151,6 @@ Təqdim etməyə hazırdır?"</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">Zaman möhürü ilə Linki Kopyalama Düyməsi pleyerin üst-üstə düşməsində göstərilir</string>
     <string name="revanced_copy_video_url_timestamp_title">Vaxt möhürü ilə keçid düyməsini kopyalayın</string>
     <string name="revanced_copy_video_url_title">Linki Kopyala Düyməsi</string>
-    <string name="revanced_donation_companion_summary_off">İanə yoldaşı göstərilir</string>
-    <string name="revanced_donation_companion_summary_on">İanə yoldaşı gizlidir</string>
-    <string name="revanced_donation_companion_title">İanə yoldaşı</string>
     <string name="revanced_download_video_summary_off">Yükləmə düyməsi gizlidir</string>
     <string name="revanced_download_video_summary_on">Yükləmə düyməsi görünür</string>
     <string name="revanced_download_video_title">Yükləmə düyməsi</string>
@@ -205,9 +198,6 @@ Təqdim etməyə hazırdır?"</string>
     <string name="revanced_hide_email_address_summary_off">E-poçt ünvanı gizlidir</string>
     <string name="revanced_hide_email_address_summary_on">E-poçt ünvanı görünür</string>
     <string name="revanced_hide_email_address_title">E-poçt ünvanı</string>
-    <string name="revanced_hide_external_comment_box_summary_off">Xarici şərh qutusu göstərilir</string>
-    <string name="revanced_hide_external_comment_box_summary_on">Xarici şərh qutusu gizlidir</string>
-    <string name="revanced_hide_external_comment_box_title">Xarici şərh qutusunu gizlədin</string>
     <string name="revanced_hide_like_button_summary_off">Bəyənmə düyməsi göstərilir</string>
     <string name="revanced_hide_like_button_summary_on">Bəyənmə düyməsi gizlidir</string>
     <string name="revanced_hide_like_button_title">Bəyən düyməsini gizlədin</string>
@@ -223,9 +213,6 @@ Təqdim etməyə hazırdır?"</string>
     <string name="revanced_hide_share_button_summary_off">Paylaş düyməsi göstərilir</string>
     <string name="revanced_hide_share_button_summary_on">Paylaş düyməsi gizlidir</string>
     <string name="revanced_hide_share_button_title">Paylaş düyməsini gizlət</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">Spoiler şərhi göstərilir</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">Spoiler şərhi gizlədilib</string>
-    <string name="revanced_hide_spoiler_comment_title">Spoiler şərhini gizlədin</string>
     <string name="revanced_hide_thanks_button_summary_off">Təşəkkür düyməsi göstərilir</string>
     <string name="revanced_hide_thanks_button_summary_on">Təşəkkür düyməsi gizlidir</string>
     <string name="revanced_hide_thanks_button_title">Təşəkkür düyməsini gizlədin</string>
@@ -330,7 +317,6 @@ Təqdim etməyə hazırdır?"</string>
     <string name="revanced_swipe_pts_summary_off">Sürüşmə nəzarətləri həmişə aktivdir</string>
     <string name="revanced_swipe_pts_summary_on">Sürüşmə idarəetmələri aktivləşdirmədən əvvəl uzun basmağı tələb edir</string>
     <string name="revanced_swipe_pts_title">Sürüşmək üçün basın</string>
-    <string name="revanced_swipe_screen_summary">Parlaqlıq və Səs səviyyəsi üçün sürüşdürün</string>
     <string name="revanced_swipe_summary">Səs səviyyəsini və parlaqlığı idarə edin</string>
     <string name="revanced_swipe_title">Sürüşdürmə idarəetmələri</string>
     <string name="revanced_swipe_volume_summary_off">Səs səviyyəsi üçün sürüşdürmə idarəetmələri deaktiv edilib</string>

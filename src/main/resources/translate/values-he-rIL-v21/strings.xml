@@ -51,9 +51,6 @@
     <string name="litho_channel_guidelines">הסתר הנחיות ערוץ</string>
     <string name="litho_channel_guidelines_off">הנחיות הערוץ מוצגות</string>
     <string name="litho_channel_guidelines_on">הנחיות הערוץ מוסתרות</string>
-    <string name="litho_comments">מחק את אזור התגובות</string>
-    <string name="litho_comments_off">אזור הסרטים מוצג</string>
-    <string name="litho_comments_on">אזור הסרטים מוסתר</string>
     <string name="litho_community_guidelines">מחק את הנחיות הקהילה</string>
     <string name="litho_community_guidelines_off">הנחיות הקהילה מוצגות</string>
     <string name="litho_community_guidelines_on">הנחיות הקהילה מוסתרות</string>

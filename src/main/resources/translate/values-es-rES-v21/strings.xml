@@ -51,9 +51,6 @@
     <string name="litho_channel_guidelines">Eliminación de Guías del Canal</string>
     <string name="litho_channel_guidelines_off">Eliminación de Guías del Canal está desactivada</string>
     <string name="litho_channel_guidelines_on">Eliminación de Guías del Canal está activada</string>
-    <string name="litho_comments">Eliminación de comentarios</string>
-    <string name="litho_comments_off">La eliminación de comentarios está desactivada (solo nuevos comentarios / teléfonos)</string>
-    <string name="litho_comments_on">La eliminación de comentarios está activada (solo nuevos comentarios / teléfonos)</string>
     <string name="litho_community_guidelines">Eliminación de Guías de la Comunidad</string>
     <string name="litho_community_guidelines_off">Eliminación de Guías de la Comunidad está desactivada</string>
     <string name="litho_community_guidelines_on">Eliminación de Guías de la Comunidad está activada</string>
@@ -145,7 +142,6 @@
     <string name="revanced_buffer_summary">Configuraciones personalizadas para el buffer de vídeo</string>
     <string name="revanced_buffer_title">Ajustes de búfer</string>
     <string name="revanced_button_container_summary">Oculta componentes en el contenedor de botones</string>
-    <string name="revanced_button_container_warning_summary">¡Esta característica no está completamente soportada en el nuevo diseño!</string>
     <string name="revanced_cast_button_summary_off">El botón de Cast está oculto</string>
     <string name="revanced_cast_button_summary_on">El botón de Cast está visible</string>
     <string name="revanced_cast_button_title">Botón de transmisión</string>
@@ -155,9 +151,6 @@
     <string name="revanced_copy_video_url_timestamp_summary_on">Botón para Copiar el Enlace con el Tiempo actual sobre el reproductor está visible</string>
     <string name="revanced_copy_video_url_timestamp_title">Botón para Copiar el Enlace con el Tiempo actual</string>
     <string name="revanced_copy_video_url_title">Botón para Copiar el Enlace</string>
-    <string name="revanced_donation_companion_summary_off">Se muestra el acompañante de la donación</string>
-    <string name="revanced_donation_companion_summary_on">El acompañante de la donación está oculto</string>
-    <string name="revanced_donation_companion_title">Acompañante de donación</string>
     <string name="revanced_download_video_summary_off">El botón de descarga está oculto</string>
     <string name="revanced_download_video_summary_on">El botón de descarga está visible</string>
     <string name="revanced_download_video_title">Botón de descarga</string>
@@ -205,9 +198,6 @@
     <string name="revanced_hide_email_address_summary_off">La dirección de correo electrónico está oculta</string>
     <string name="revanced_hide_email_address_summary_on">La dirección de correo electrónico está visible</string>
     <string name="revanced_hide_email_address_title">Dirección de correo electrónico</string>
-    <string name="revanced_hide_external_comment_box_summary_off">La caja de comentarios externa está visible</string>
-    <string name="revanced_hide_external_comment_box_summary_on">La caja de comentarios externa está oculta</string>
-    <string name="revanced_hide_external_comment_box_title">Ocultar caja de comentarios externos</string>
     <string name="revanced_hide_like_button_summary_off">El botón Me gusta está visible</string>
     <string name="revanced_hide_like_button_summary_on">El botón me gusta está oculto</string>
     <string name="revanced_hide_like_button_title">Ocultar el botón me gusta</string>
@@ -223,9 +213,6 @@
     <string name="revanced_hide_share_button_summary_off">El botón de compartir está visible</string>
     <string name="revanced_hide_share_button_summary_on">El botón compartir está oculto</string>
     <string name="revanced_hide_share_button_title">Ocultar el botón de compartir</string>
-    <string name="revanced_hide_spoiler_comment_summary_off">Los comentarios de Spoiler están visibles</string>
-    <string name="revanced_hide_spoiler_comment_summary_on">Los comentarios de Spoiler están ocultos</string>
-    <string name="revanced_hide_spoiler_comment_title">Ocultar comentarios de spoiler</string>
     <string name="revanced_hide_thanks_button_summary_off">El botón de Gracias está visible</string>
     <string name="revanced_hide_thanks_button_summary_on">El botón de Gracias está oculto</string>
     <string name="revanced_hide_thanks_button_title">Ocultar el botón de gracias</string>
@@ -327,7 +314,6 @@ Sin embargo, dado que se trata de una función todavía experimental, es posible
     <string name="revanced_swipe_pts_summary_off">Controles de Deslizamiento siempre activos</string>
     <string name="revanced_swipe_pts_summary_on">Controles de Deslizamiento requieren mantener pulsado antes de activarse</string>
     <string name="revanced_swipe_pts_title">Presionar-para-Deslizar</string>
-    <string name="revanced_swipe_screen_summary">Controles de Deslizamiento para Brillo y Volumen</string>
     <string name="revanced_swipe_summary">Controla el volumen y el brillo</string>
     <string name="revanced_swipe_title">Controles de Deslizamiento</string>
     <string name="revanced_swipe_volume_summary_off">Los Controles de Deslizamiento para el Volumen están desactivados</string>
