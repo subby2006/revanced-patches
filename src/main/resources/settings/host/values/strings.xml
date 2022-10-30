@@ -370,7 +370,6 @@ Are you sure you want to continue though?"</string>
     <string name="revanced_swipe_pts_summary_off">Press-to-swipe is disabled</string>
     <string name="revanced_swipe_pts_summary_on">Press-to-swipe is enabled</string>
     <string name="revanced_swipe_pts_title">Enable press-to-swipe gesture</string>
-    <string name="revanced_swipe_screen_summary">Swipe controls for Brightness and Volume</string>
     <string name="revanced_swipe_summary">Control volume and brightness</string>
     <string name="revanced_swipe_title">Swipe controls</string>
     <string name="revanced_swipe_volume_summary_off">Volume swipe is disabled</string>
