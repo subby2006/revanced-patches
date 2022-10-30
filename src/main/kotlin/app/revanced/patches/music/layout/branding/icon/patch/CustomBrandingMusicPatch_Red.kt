@@ -10,7 +10,7 @@ import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.*
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.extensions.YouTubeMusicCompatibility
+import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import java.io.ByteArrayOutputStream
 import java.io.File

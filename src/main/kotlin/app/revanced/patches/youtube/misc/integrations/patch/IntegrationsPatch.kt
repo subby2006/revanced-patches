@@ -13,7 +13,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
 import app.revanced.patcher.util.smali.toInstructions
-import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.integrations.fingerprints.InitFingerprint
 import app.revanced.patches.youtube.misc.integrations.fingerprints.ServiceFingerprint
 import app.revanced.patches.youtube.misc.integrations.fingerprints.StandalonePlayerFingerprint

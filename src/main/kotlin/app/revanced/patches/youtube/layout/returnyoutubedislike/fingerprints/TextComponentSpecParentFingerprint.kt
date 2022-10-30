@@ -3,7 +3,7 @@ package app.revanced.patches.youtube.layout.returnyoutubedislike.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.annotation.YouTubeCompatibility
 
 @Name("text-component-spec-parent-fingerprint")
 @YouTubeCompatibility

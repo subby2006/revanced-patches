@@ -10,7 +10,7 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.hidetimeandseekbar.fingerprints.TimeCounterFingerprint
 import app.revanced.patches.youtube.layout.sponsorblock.bytecode.fingerprints.CreateVideoPlayerSeekbarFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch

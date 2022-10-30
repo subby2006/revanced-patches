@@ -3,7 +3,7 @@ package app.revanced.patches.youtube.misc.clientspoof.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.extensions.YouTubeClientCompatibility
+import app.revanced.annotation.YouTubeClientCompatibility
 import org.jf.dexlib2.Opcode
 
 @Name("user-agent-header-builder-fingerprint")

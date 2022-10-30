@@ -3,7 +3,7 @@ package app.revanced.patches.youtube.layout.autoplaybutton.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.annotation.YouTubeCompatibility
 
 @Name("layout-constructor-fingerprint")
 @YouTubeCompatibility

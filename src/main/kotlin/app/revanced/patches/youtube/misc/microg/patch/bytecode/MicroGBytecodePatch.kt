@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patches.youtube.layout.castbutton.patch.HideCastButtonPatch
 import app.revanced.patches.youtube.misc.clientspoof.patch.ClientSpoofPatch
-import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.microg.fingerprints.*
 import app.revanced.patches.youtube.layout.sponsorblock.bytecode.fingerprints.WatchWhileActivityFingerprint
 import app.revanced.patches.youtube.misc.microg.patch.resource.MicroGResourcePatch

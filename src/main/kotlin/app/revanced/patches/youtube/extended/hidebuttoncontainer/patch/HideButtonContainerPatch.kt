@@ -14,7 +14,7 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.smali.toInstructions
-import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.extensions.MethodExtensions.addMethod
 import app.revanced.extensions.MethodExtensions.insertBlocks
 import app.revanced.extensions.MethodExtensions.toDescriptor

@@ -18,7 +18,7 @@ import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.
 import app.revanced.patcher.util.smali.toInstructions
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.videoid.patch.VideoIdPatch
-import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.extended.speed.fingerprints.VideoSpeedSetterFingerprint
 import app.revanced.patches.youtube.extended.speed.fingerprints.VideoUserSpeedChangeFingerprint
 import app.revanced.patches.youtube.extended.speed.fingerprints.VideoSpeedReferenceFingerprint

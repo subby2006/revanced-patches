@@ -4,7 +4,7 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.annotation.YouTubeCompatibility
 
 @Name("load-ads-fingerprint")
 @YouTubeCompatibility

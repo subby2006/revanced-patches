@@ -11,7 +11,7 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
-import app.revanced.extensions.YouTubeMusicCompatibility
+import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import app.revanced.util.resources.ResourceUtils
 import app.revanced.util.resources.ResourceUtils.copyXmlNode

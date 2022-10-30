@@ -9,7 +9,7 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patches.youtube.misc.packagename.patch.resource.CustomPackageNameResourcePatch
-import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.microg.fingerprints.*
 import app.revanced.patches.youtube.misc.microg.patch.bytecode.MicroGBytecodePatch
 import app.revanced.patches.youtube.misc.microg.shared.Constants.PACKAGE_NAME

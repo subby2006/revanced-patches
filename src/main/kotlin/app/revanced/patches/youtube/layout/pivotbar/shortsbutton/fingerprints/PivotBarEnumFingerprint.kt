@@ -3,7 +3,7 @@ package app.revanced.patches.youtube.layout.pivotbar.shortsbutton.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.annotation.YouTubeCompatibility
 import org.jf.dexlib2.Opcode
 
 @Name("pivot-bar-enum-fingerprint")

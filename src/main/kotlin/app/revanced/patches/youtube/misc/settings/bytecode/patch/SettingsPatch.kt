@@ -14,7 +14,7 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.smali.toInstruction
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
-import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.settings.bytecode.fingerprints.ThemeSetterFingerprint
 import app.revanced.patches.youtube.misc.settings.resource.patch.SettingsResourcePatch
 import org.jf.dexlib2.util.MethodUtil

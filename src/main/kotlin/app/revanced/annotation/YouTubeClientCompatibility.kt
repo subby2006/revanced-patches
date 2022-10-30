@@ -1,4 +1,4 @@
-package app.revanced.extensions
+package app.revanced.annotation
 
 import app.revanced.patcher.annotation.Compatibility
 import app.revanced.patcher.annotation.Package

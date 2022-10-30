@@ -4,7 +4,7 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.extensions.YouTubeMusicCompatibility
+import app.revanced.annotation.YouTubeMusicCompatibility
 import org.jf.dexlib2.AccessFlags
 
 @Name("google-play-utility-fingerprint")

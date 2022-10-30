@@ -12,7 +12,7 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
-import app.revanced.extensions.YouTubeCompatibility
+import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.videoid.fingerprint.NewVideoIdFingerprint
 import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 

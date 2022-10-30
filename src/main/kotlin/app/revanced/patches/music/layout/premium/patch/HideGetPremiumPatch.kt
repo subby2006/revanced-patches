@@ -11,7 +11,7 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.extensions.YouTubeMusicCompatibility
+import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patches.music.layout.premium.fingerprints.HideGetPremiumFingerprint
 import app.revanced.patches.music.layout.premium.fingerprints.HideGetPremiumParentFingerprint
 

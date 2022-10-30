@@ -7,7 +7,7 @@ import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.extensions.YouTubeMusicCompatibility
+import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patches.music.misc.microg.shared.Constants.MUSIC_PACKAGE_NAME
 import app.revanced.patches.music.misc.microg.shared.Constants.REVANCED_MUSIC_PACKAGE_NAME
 import app.revanced.patches.music.misc.microg.shared.Constants.SPOOFED_PACKAGE_NAME

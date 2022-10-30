@@ -10,7 +10,7 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.extensions.YouTubeClientCompatibility
+import app.revanced.annotation.YouTubeClientCompatibility
 import app.revanced.patches.youtube.misc.clientspoof.fingerprints.UserAgentHeaderBuilderFingerprint
 import org.jf.dexlib2.iface.instruction.FiveRegisterInstruction
 
