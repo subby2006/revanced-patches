@@ -77,6 +77,7 @@
             <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_comments_title" />
             <SwitchPreference android:title="@string/revanced_hide_comments_section_title" android:key="revanced_hide_comments_section" android:defaultValue="false" android:summaryOn="@string/revanced_hide_comments_section_summary_on" android:summaryOff="@string/revanced_hide_comments_section_summary_off" />
             <SwitchPreference android:title="@string/revanced_hide_preview_comment_title" android:key="revanced_hide_preview_comment" android:defaultValue="false" android:summaryOn="@string/revanced_hide_preview_comment_on" android:summaryOff="@string/revanced_hide_preview_comment_off" />
+            <SwitchPreference android:title="@string/revanced_hide_shorts_comments_button_title" android:key="revanced_hide_shorts_comments_button" android:defaultValue="false" android:summaryOn="@string/revanced_hide_shorts_comments_button_on" android:summaryOff="@string/revanced_hide_shorts_comments_button_off" />
         </PreferenceScreen>
     </PreferenceScreen>
     <PreferenceScreen android:title="@string/revanced_misc_title" android:key="misc" android:summary="@string/revanced_misc_summary">

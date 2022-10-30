@@ -56,7 +56,8 @@ class ExtendedPatch : BytecodePatch() {
         "ytPremiumWordmarkHeader",
         "Theme.YouTube.Light",
         "quick_actions_element_container",
-        "album_card"
+        "album_card",
+        "ic_right_comment_32c"
     ).map { name ->
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
@@ -169,6 +170,23 @@ class ExtendedPatch : BytecodePatch() {
                                         "invoke-static {p$viewRegister}, Lapp/revanced/integrations/patches/HideMusicContainerPatch;->hideMusicContainer(Landroid/view/View;)V"
                                     )
                                 }
+
+                                resourceIds[6] -> { // shorts comment
+                                    val insertIndex = index - 2
+                                    val invokeInstruction = instructions.elementAt(insertIndex)
+                                    if (invokeInstruction.opcode != Opcode.CONST_HIGH16) return@forEachIndexed
+
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
+                                    if (mutableMethod == null) mutableMethod =
+                                        mutableClass!!.findMutableMethodOf(method)
+
+                                    val viewRegister = (instructions.elementAt(index + 3) as OneRegisterInstruction).registerA
+                                    mutableMethod!!.addInstruction(
+                                        index + 4,
+                                        "invoke-static {v$viewRegister}, Lapp/revanced/integrations/patches/HideShortsCommentsButtonPatch;->hideShortsCommentsButton(Landroid/view/View;)V"
+                                    )
+                                }
+
                             }
                         }
                         else -> return@forEachIndexed
