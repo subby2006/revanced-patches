@@ -59,7 +59,8 @@ class ExtendedPatch : BytecodePatch() {
         "album_card",
         "ic_right_comment_32c",
         "shelf_header",
-        "horizontal_card_list"
+        "horizontal_card_list",
+        "bottom_panel_overlay_text"
     ).map { name ->
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
@@ -218,6 +219,22 @@ class ExtendedPatch : BytecodePatch() {
                                     mutableMethod!!.addInstruction(
                                         insertIndex,
                                         "invoke-static {v$viewRegister}, Lapp/revanced/integrations/patches/BreakingNewsPanelsRemoverPatch;->HideBreakingNewsPanels(Landroid/view/View;)V"
+                                    )
+                                }
+
+                                resourceIds[9] -> { // mix playlists (others)
+                                    val insertIndex = index - 17
+                                    val invokeInstruction = instructions.elementAt(insertIndex)
+                                    if (invokeInstruction.opcode != Opcode.MOVE_RESULT_OBJECT) return@forEachIndexed
+
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
+                                    if (mutableMethod == null) mutableMethod =
+                                        mutableClass!!.findMutableMethodOf(method)
+
+                                    val viewRegister = 2
+                                    mutableMethod!!.addInstruction(
+                                        insertIndex + 1,
+                                        "invoke-static {p$viewRegister}, Lapp/revanced/integrations/patches/HideMixPlaylistsPatch;->hideMixPlaylists(Landroid/view/View;)V"
                                     )
                                 }
 
