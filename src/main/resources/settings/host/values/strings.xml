@@ -318,7 +318,6 @@ If you enable this setting, the following features are available:
 The following features are not available:
 - Ambient mode
 - Community Posts
-- Hide Mix Playlist
 
 As this is still an experimental feature, there may be other unknown issues.
 Are you sure you want to continue though?"</string>
@@ -450,6 +449,7 @@ If you want to disable this, set the following to OFF:"</string>
     <string name="settings_import_failed">Failed to import settings</string>
     <string name="settings_import_successful">Settings were successfully imported</string>
     <string name="skip_automatically">Skip automatically</string>
+    <string name="skip_automatically_once">Skip automatically once</string>
     <string name="skip_ignore">"Don't do anything"</string>
     <string name="skip_showbutton">Show a skip button</string>
     <string name="skip_sponsor">Skip segment</string>
