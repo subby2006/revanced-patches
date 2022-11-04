@@ -38,7 +38,7 @@ class IntegrationsPatch : BytecodePatch(
         if (context.findClass(INTEGRATIONS_DESCRIPTOR) == null)
             return PatchResultError("Integrations have not been merged yet. This patch can not succeed without merging the integrations.")
 
-        arrayOf(InitFingerprint, StandalonePlayerFingerprint, ServiceFingerprint).map {
+        arrayOf(InitFingerprint, ServiceFingerprint).map {
             it to (it.result ?: return PatchResultError("${it.name} failed to resolve"))
         }.forEach { (fingerprint, result) ->
             with(result.mutableMethod) {
@@ -53,6 +53,11 @@ class IntegrationsPatch : BytecodePatch(
                 )
             }
         }
+
+        StandalonePlayerFingerprint.result!!.mutableMethod.addInstruction(
+            0,
+            "sput-object p0, $INTEGRATIONS_DESCRIPTOR->context:Landroid/content/Context;"
+        )
 
         return PatchResultSuccess()
     }

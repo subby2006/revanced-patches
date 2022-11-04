@@ -15,9 +15,10 @@ import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.ad.video.fingerprints.LoadVideoAdsFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
+import app.revanced.patches.youtube.misc.playback.patch.FixPlaybackPatch
 
 @Patch
-@DependsOn([IntegrationsPatch::class])
+@DependsOn([IntegrationsPatch::class, FixPlaybackPatch::class])
 @Name("video-ads")
 @Description("Removes ads in the video player.")
 @YouTubeCompatibility

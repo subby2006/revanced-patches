@@ -3,15 +3,15 @@ package app.revanced.patches.youtube.layout.pivotbar.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
-import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
+import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
+import app.revanced.annotation.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
 @Name("pivot-bar-fingerprint")
-@FuzzyPatternScanMethod(2)
-// TODO: This fingerprint is used in multiple patches, so technically two compatibilities are needed
-// @YouTubeCompatibility
+@FuzzyPatternScanMethod(2) // FIXME: Test this threshold and find the best value.
+@YouTubeCompatibility
 @Version("0.0.1")
 object PivotBarFingerprint : MethodFingerprint(
     "V",

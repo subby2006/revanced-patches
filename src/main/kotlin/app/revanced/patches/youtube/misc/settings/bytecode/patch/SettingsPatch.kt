@@ -15,7 +15,7 @@ import app.revanced.patcher.util.smali.toInstruction
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.annotation.YouTubeCompatibility
-import app.revanced.patches.youtube.misc.settings.bytecode.fingerprints.ThemeSetterFingerprint
+import app.revanced.patches.youtube.misc.settings.bytecode.fingerprints.*
 import app.revanced.patches.youtube.misc.settings.resource.patch.SettingsResourcePatch
 import org.jf.dexlib2.util.MethodUtil
 
@@ -32,60 +32,67 @@ import org.jf.dexlib2.util.MethodUtil
 @YouTubeCompatibility
 @Version("0.0.1")
 class SettingsPatch : BytecodePatch(
-    listOf(ThemeSetterFingerprint)
+    listOf(ThemeSetterAppFingerprint, ThemeSetterAppOldFingerprint, ThemeSetterSystemFingerprint)
 ) {
     override fun execute(context: BytecodeContext): PatchResult {
+        fun buildInvokeInstructionsString(
+            registers: String = "v0",
+            classDescriptor: String = "Lapp/revanced/integrations/utils/ThemeHelper;",
+            methodName: String = "setTheme",
+            parameters: String = "Ljava/lang/Object;"
+        ) = "invoke-static {$registers}, $classDescriptor->$methodName($parameters)V"
 
-        val themeSetterResult = ThemeSetterFingerprint.result!!
+        // apply the current theme of the settings page
+        with(ThemeSetterSystemFingerprint.result!!) {
+            with(mutableMethod) {
+                val call = buildInvokeInstructionsString()
 
-        val setThemeInstruction =
-            "invoke-static {v0}, Lapp/revanced/integrations/utils/ThemeHelper;->setTheme(Ljava/lang/Object;)V".toInstruction(
-                themeSetterResult.mutableMethod
-            )
+                addInstruction(
+                    scanResult.patternScanResult!!.startIndex,
+                    call
+                )
 
-        // add instructions to set the theme of the settings activity
-        themeSetterResult.mutableMethod.implementation!!.let {
-            it.addInstruction(
-                themeSetterResult.scanResult.patternScanResult!!.startIndex,
-                setThemeInstruction
-            )
-
-            it.addInstruction(
-                it.instructions.size - 1, // add before return
-                setThemeInstruction
-            )
+                addInstruction(
+                    mutableMethod.implementation!!.instructions.size - 1,
+                    call
+                )
+            }
         }
-        /*
-        try {
-            val licenseActivityResult = LicenseActivityFingerprint.result!!
-            val settingsResult = ReVancedSettingsActivityFingerprint.result!!
 
-            val licenseActivityClass = licenseActivityResult.mutableClass
-            val settingsClass = settingsResult.mutableClass
-
-            val onCreate = licenseActivityResult.mutableMethod
-            val setThemeMethodName = "setTheme"
-            val initializeSettings = settingsResult.mutableMethod
-
-            // add the setTheme call to the onCreate method to not affect the offsets.
-            onCreate.addInstructions(
-                1,
-                """
-                    invoke-static { p0 }, ${settingsClass.type}->${initializeSettings.name}(${licenseActivityClass.type})V
-                    return-void
-                """
-            )
-
-            // add the initializeSettings call to the onCreate method.
-            onCreate.addInstruction(
-                0,
-                "invoke-static { p0 }, ${settingsClass.type}->$setThemeMethodName(${licenseActivityClass.type})V"
-            )
-            licenseActivityResult.mutableClass.methods.removeIf { it.name != "onCreate" && !MethodUtil.isConstructor(it) }
+        val ThemeSetterAppFingerprintResult = try {
+            ThemeSetterAppFingerprint.result!!
         } catch (e: Exception) {
-            return PatchResultSuccess()
+            ThemeSetterAppOldFingerprint.result!!
         }
-        */
+
+        // set the theme based on the preference of the app
+        with(ThemeSetterAppFingerprintResult) {
+            with(mutableMethod) {
+                fun buildInstructionsString(theme: Int) = """
+                    const/4 v0, 0x$theme
+                    ${buildInvokeInstructionsString(parameters = "I")}
+                """
+
+                addInstructions(
+                    scanResult.patternScanResult!!.endIndex + 1,
+                    buildInstructionsString(1)
+                )
+                addInstructions(
+                    scanResult.patternScanResult!!.endIndex - 7,
+                    buildInstructionsString(0)
+                )
+
+                addInstructions(
+                    scanResult.patternScanResult!!.endIndex - 9,
+                    buildInstructionsString(1)
+                )
+                addInstructions(
+                    mutableMethod.implementation!!.instructions.size - 2,
+                    buildInstructionsString(0)
+                )
+            }
+        }
+
         return PatchResultSuccess()
     }
 

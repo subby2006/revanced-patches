@@ -4,63 +4,59 @@ import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
-import app.revanced.patcher.extensions.addInstruction
+import app.revanced.patcher.extensions.MethodFingerprintExtensions.name
+import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
+import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.annotation.YouTubeCompatibility
-import app.revanced.patches.youtube.layout.pivotbar.createbutton.fingerprints.CreateButtonFingerprint
+import app.revanced.patches.youtube.layout.pivotbar.createbutton.fingerprints.PivotBarCreateButtonViewFingerprint
+import app.revanced.patches.youtube.layout.pivotbar.fingerprints.PivotBarFingerprint
+import app.revanced.patches.youtube.layout.pivotbar.fingerprints.PivotBarNewFingerprint
+import app.revanced.patches.youtube.layout.pivotbar.utils.InjectionUtils.REGISTER_TEMPLATE_REPLACEMENT
+import app.revanced.patches.youtube.layout.pivotbar.utils.InjectionUtils.injectHook
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
-import org.jf.dexlib2.Opcode
-import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
-import org.jf.dexlib2.iface.instruction.ReferenceInstruction
-import org.jf.dexlib2.iface.instruction.WideLiteralInstruction
-import org.jf.dexlib2.iface.reference.MethodReference
 
 @Patch
 @DependsOn([IntegrationsPatch::class, ResourceMappingResourcePatch::class])
-@Name("disable-create-button")
+@Name("hide-create-button")
 @Description("Hides the create button in the navigation bar.")
 @YouTubeCompatibility
 @Version("0.0.1")
 class CreateButtonRemoverPatch : BytecodePatch(
-    listOf(
-        CreateButtonFingerprint
-    )
+    listOf(PivotBarFingerprint, PivotBarNewFingerprint)
 ) {
     override fun execute(context: BytecodeContext): PatchResult {
 
-        val result = CreateButtonFingerprint.result!!
+        /*
+         * Resolve fingerprints
+         */
 
-        // Get the required register which holds the view object we need to pass to the method hideCreateButton
-        val implementation = result.mutableMethod.implementation!!
+        val pivotBarResult = try {
+            PivotBarFingerprint.result!!
+        } catch (e: Exception) {
+            PivotBarNewFingerprint.result ?: return PatchResultError("PivotBarFingerprint failed")
+        }
 
-        val imageOnlyLayout =
-            ResourceMappingResourcePatch.resourceMappings.single { it.type == "layout" && it.name == "image_only_tab" }
+        if (!PivotBarCreateButtonViewFingerprint.resolve(context, pivotBarResult.mutableMethod, pivotBarResult.mutableClass))
+            return PatchResultError("${PivotBarCreateButtonViewFingerprint.name} failed")
 
-        val imageOnlyLayoutConstIndex =
-            implementation.instructions.indexOfFirst { (it as? WideLiteralInstruction)?.wideLiteral == imageOnlyLayout.id }
+        val createButtonResult = PivotBarCreateButtonViewFingerprint.result!!
+        val insertIndex = createButtonResult.scanResult.patternScanResult!!.endIndex
 
-        val (instructionIndex, instruction) = implementation.instructions.drop(imageOnlyLayoutConstIndex).withIndex()
-            .first {
-                (((it.value as? ReferenceInstruction)?.reference) as? MethodReference)?.definingClass?.contains("PivotBar")
-                    ?: false
-            }
+        /*
+         * Inject hooks
+         */
 
-        if (instruction.opcode != Opcode.INVOKE_VIRTUAL) return PatchResultError("Could not find the correct instruction")
+        val integrationsClass = "Lapp/revanced/integrations/patches/HideCreateButtonPatch;"
+        val hook =
+            "invoke-static { v$REGISTER_TEMPLATE_REPLACEMENT }, $integrationsClass->hideCreateButton(Landroid/view/View;)V"
 
-        val moveResultIndex = imageOnlyLayoutConstIndex + instructionIndex + 1
-        val moveResultInstruction = implementation.instructions[moveResultIndex] as OneRegisterInstruction
-
-        // Hide the button view via proxy by passing it to the hideCreateButton method
-        result.mutableMethod.addInstruction(
-            moveResultIndex + 1,
-            "invoke-static { v${moveResultInstruction.registerA} }, Lapp/revanced/integrations/patches/HideCreateButtonPatch;->hideCreateButton(Landroid/view/View;)V"
-        )
+        createButtonResult.mutableMethod.injectHook(hook, insertIndex)
 
         return PatchResultSuccess()
     }

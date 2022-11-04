@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.layout.pivotbar.createbutton.fingerprints
+package app.revanced.patches.youtube.layout.pivotbar.fingerprints
 
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
@@ -9,11 +9,11 @@ import app.revanced.annotation.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
-@Name("create-button-fingerprint")
+@Name("pivot-bar-new-fingerprint")
 @FuzzyPatternScanMethod(2) // FIXME: Test this threshold and find the best value.
 @YouTubeCompatibility
 @Version("0.0.1")
-object CreateButtonFingerprint : MethodFingerprint(
+object PivotBarNewFingerprint : MethodFingerprint(
     "V",
     AccessFlags.PUBLIC or AccessFlags.FINAL,
     listOf("Z"),
@@ -38,9 +38,9 @@ object CreateButtonFingerprint : MethodFingerprint(
         Opcode.INVOKE_STATIC,
         Opcode.MOVE_RESULT_OBJECT,
         Opcode.NEW_INSTANCE,
+        Opcode.CONST,
         Opcode.NEW_INSTANCE,
         Opcode.INVOKE_DIRECT,
-        Opcode.CONST,
         Opcode.INVOKE_STATIC,
         Opcode.MOVE_RESULT_OBJECT,
         Opcode.MOVE_OBJECT,

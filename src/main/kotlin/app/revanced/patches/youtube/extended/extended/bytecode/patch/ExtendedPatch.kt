@@ -54,7 +54,6 @@ class ExtendedPatch : BytecodePatch() {
         "suggested_action",
         "ytWordmarkHeader",
         "ytPremiumWordmarkHeader",
-        "Theme.YouTube.Light",
         "quick_actions_element_container",
         "album_card",
         "ic_right_comment_32c",
@@ -118,31 +117,7 @@ class ExtendedPatch : BytecodePatch() {
                                     )
                                 }
 
-                                resourceIds[3] -> { // theme
-                                    val insertIndex = index + 2
-                                    val invokeInstruction = instructions.elementAt(insertIndex)
-                                    if (invokeInstruction.opcode != Opcode.RETURN_OBJECT) return@forEachIndexed
-
-                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
-                                    if (mutableMethod == null) mutableMethod =
-                                        mutableClass!!.findMutableMethodOf(method)
-
-                                    mutableMethod!!.addInstructions(
-                                        index + 1, """
-                                                const/4 v0, 0x0
-                                                invoke-static {v0}, Lapp/revanced/integrations/utils/ThemeHelper;->setTheme(I)V
-												"""
-                                    )
-
-                                    mutableMethod!!.addInstructions(
-                                        index - 1, """
-                                                const/4 v0, 0x1
-                                                invoke-static {v0}, Lapp/revanced/integrations/utils/ThemeHelper;->setTheme(I)V
-												"""
-                                    )
-                                }
-
-                                resourceIds[4] -> { // fullscreen panel
+                                resourceIds[3] -> { // fullscreen panel
                                     val insertIndex = index + 3
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
@@ -158,7 +133,7 @@ class ExtendedPatch : BytecodePatch() {
                                     )
                                 }
 
-                                resourceIds[5] -> { // music container
+                                resourceIds[4] -> { // music container
                                     val insertIndex = index + 4
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
@@ -170,11 +145,11 @@ class ExtendedPatch : BytecodePatch() {
                                     val viewRegister = 2
                                     mutableMethod!!.addInstruction(
                                         insertIndex,
-                                        "invoke-static {p$viewRegister}, Lapp/revanced/integrations/patches/HideMusicContainerPatch;->hideMusicContainer(Landroid/view/View;)V"
+                                        "invoke-static {p$viewRegister}, Lapp/revanced/integrations/patches/HideAlbumCardsPatch;->hideAlbumCards(Landroid/view/View;)V"
                                     )
                                 }
 
-                                resourceIds[6] -> { // shorts comment
+                                resourceIds[5] -> { // shorts comment
                                     val insertIndex = index - 2
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.CONST_HIGH16) return@forEachIndexed
@@ -190,7 +165,7 @@ class ExtendedPatch : BytecodePatch() {
                                     )
                                 }
 
-                                resourceIds[7] -> { // layout switch
+                                resourceIds[6] -> { // layout switch
                                     val insertIndex = index + 3
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.MOVE_RESULT_OBJECT) return@forEachIndexed
@@ -206,7 +181,7 @@ class ExtendedPatch : BytecodePatch() {
                                     )
                                 }
 
-                                resourceIds[8] -> { // breaking news
+                                resourceIds[7] -> { // breaking news
                                     val insertIndex = index + 4
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
@@ -222,7 +197,7 @@ class ExtendedPatch : BytecodePatch() {
                                     )
                                 }
 
-                                resourceIds[9] -> { // mix playlists (others)
+                                resourceIds[8] -> { // mix playlists (others)
                                     val insertIndex = index - 17
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.MOVE_RESULT_OBJECT) return@forEachIndexed
