@@ -20,12 +20,6 @@
     <string name="downloader_not_installed_warning">is not installed. Please install it.</string>
     <string name="enable_sb">Enable SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock is a crowd-sourced system for skipping annoying parts in YouTube videos</string>
-    <string name="enable_sb_shorts">Enable SponsorBlock at Shorts (Alpha)</string>
-    <string name="enable_sb_shorts_content">"Enable Sponsorblock in YouTube Shorts.
-
-Since this feature is still Alpha, it only works in the 'Skip automatically' segment.
-"</string>
-    <string name="enable_sb_shorts_sum">Enable Sponsorblock in YouTube Shorts.</string>
     <string name="enable_segmadding">Enable new segment adding</string>
     <string name="enable_segmadding_sum">Switch this on to enable experimental segment adding (has button visibility issues)</string>
     <string name="enable_voting">Enable voting</string>
@@ -131,6 +125,9 @@ Is it ready to submit?"</string>
     <string name="reset">Reset</string>
     <string name="revanced_ad_settings_title">Ads settings</string>
     <string name="revanced_ad_settings_summary">Ad related settings</string>
+    <string name="revanced_album_card_in_search_summary_off">Album cards are hidden from search results</string>
+    <string name="revanced_album_card_in_search_summary_on">Album cards are shown from search results</string>
+    <string name="revanced_album_card_in_search_title">Album card from search results</string>
     <string name="revanced_auto_repeat_button_summary_off">Auto Repeat Button is hidden</string>
     <string name="revanced_auto_repeat_button_summary_on">Auto Repeat Button is visible</string>
     <string name="revanced_auto_repeat_button_title">Auto Repeat Button</string>
@@ -191,6 +188,9 @@ Is it ready to submit?"</string>
     <string name="revanced_extended_settings">ReVanced Extended settings</string>
     <string name="revanced_extended_summary">Extended related settings</string>
     <string name="revanced_extended_title">Extended settings</string>
+    <string name="revanced_fix_playback_summary_off">Fix video playback buffer issues turned off</string>
+    <string name="revanced_fix_playback_summary_on">Fix video playback buffer issues turned on</string>
+    <string name="revanced_fix_playback_title">Fix video playback buffer issues (Experimental)</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">Fullscreen rotation follows default YouTube policy</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Trick the YouTube version to enable fullscreen rotation</string>
     <string name="revanced_force_fullscreen_rotation_title">Enable Fullscreen Rotation (Experimental)</string>
@@ -271,14 +271,14 @@ Is it ready to submit?"</string>
     <string name="revanced_mix_playlists_summary_off">Mix playlist is hidden</string>
     <string name="revanced_mix_playlists_summary_on">Mix playlist is shown</string>
     <string name="revanced_mix_playlists_title">Mix playlist</string>
-    <string name="revanced_music_container_summary_off">Music Container is shown</string>
-    <string name="revanced_music_container_summary_on">Music Container is hidden</string>
-    <string name="revanced_music_container_title">Music Container</string>
     <string name="revanced_new_actionbar_summary_off">Wide search bar is disabled</string>
     <string name="revanced_new_actionbar_summary_on">Wide search bar is enabled</string>
     <string name="revanced_new_actionbar_title">Wide search bar</string>
     <string name="revanced_newpipe_sponsorblock_title">NewPipe x Sponsorblock</string>
     <string name="revanced_newpipe_title">NewPipe</string>
+    <string name="revanced_official_card_in_search_summary_off">Official cards are hidden from search results</string>
+    <string name="revanced_official_card_in_search_summary_on">Official cards are shown from search results</string>
+    <string name="revanced_official_card_in_search_title">Official card from search results</string>
     <string name="revanced_old_style_quality_settings_summary_off">New quality settings are shown</string>
     <string name="revanced_old_style_quality_settings_summary_on">Old quality settings are shown</string>
     <string name="revanced_old_style_quality_settings_title">Use old quality layout</string>
@@ -287,6 +287,8 @@ Is it ready to submit?"</string>
     <string name="revanced_override_premium_header_summary_off">Current Header: Default Header</string>
     <string name="revanced_override_premium_header_summary_on">Current Header: Premium Header</string>
     <string name="revanced_override_premium_header_title">Premium Header</string>
+    <string name="revanced_phone_layout_summary">Tricks the dpi to use some phone layouts</string>
+    <string name="revanced_phone_layout_title">Phone Layout</string>
     <string name="revanced_playback_start_summary">Maximum size of a buffer for playback</string>
     <string name="revanced_playback_start_title">Maximum buffer for playback</string>
     <string name="revanced_player_popup_panels_title">Player popup panels</string>
@@ -306,16 +308,27 @@ Is it ready to submit?"</string>
 This may sometimes not work as intended.
 In some cases, it may be necessary to reinstall ReVanced.
 Are you sure you want to continue though?"</string>
+    <string name="revanced_reboot_warning_phone">"Tricks the dpi to change some layouts to phone layouts.
+
+If you enable this setting, the following features are available:
+- Community Posts
+- Hide Mix playlist
+
+As this is still an experimental feature, there may be other unknown issues.
+Are you sure you want to continue though?"</string>
+    <string name="revanced_reboot_warning_playback">"Fix video playback buffer issues in some regions.
+
+This is a feature officially added by the ReVanced Team, but still issues have been reported in the following situations:
+- When playing a video in the playlist, the next track is automatically skipped when the video ends
+
+As this is still an experimental feature, there may be other unknown issues.
+Are you sure you want to continue though?"</string>
     <string name="revanced_reboot_warning_ryd">"Integrates with the like button to display dislike counts in a new layout.
 However, since this is still an experimental feature, the like count may not be displayed accurately.
 Are you sure you want to continue though?"</string>
     <string name="revanced_reboot_warning_tablet">"Tricks the dpi to change some layouts to tablet layouts.
 
-If you enable this setting, the following features are available:
-- Shorts Player converted to Standard Player
-- Sort by 'Date added (oldest)'
-
-The following features are not available:
+If you enable this setting, the following features are not available:
 - Ambient mode
 - Community Posts
 
@@ -424,7 +437,6 @@ If you want to disable this, set the following to OFF:"</string>
     <string name="sb_guidelines_preference_sum">Guidelines contain tips and rules about submitting segments</string>
     <string name="sb_guidelines_preference_title">View guidelines</string>
     <string name="sb_settings">SponsorBlock settings</string>
-    <string name="sb_shorts_example_video">Example Video</string>
     <string name="sb_summary">SponsorBlock related settings</string>
     <string name="segments_endcards">Endcards/Credits</string>
     <string name="segments_endcards_sum">Credits or when the YouTube endcards appear. Not for spoken conclusions</string>
