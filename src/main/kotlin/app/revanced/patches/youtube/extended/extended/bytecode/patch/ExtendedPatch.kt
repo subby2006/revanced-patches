@@ -190,7 +190,7 @@ class ExtendedPatch : BytecodePatch() {
                                     )
                                 }
 
-                                resourceIds[7] -> { // tablet layout
+                                resourceIds[7] -> { // layout switch
                                     val insertIndex = index + 3
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.MOVE_RESULT_OBJECT) return@forEachIndexed
@@ -202,7 +202,7 @@ class ExtendedPatch : BytecodePatch() {
                                     val viewRegister = 3
                                     mutableMethod!!.addInstruction(
                                         insertIndex + 1,
-                                        "invoke-static {p$viewRegister}, Lapp/revanced/integrations/patches/TabletLayoutOverridePatch;->hideShelfHeader(Landroid/view/View;)V"
+                                        "invoke-static {p$viewRegister}, Lapp/revanced/integrations/patches/HideMixPlaylistsPatch;->hideMixPlaylists(Landroid/view/View;)V"
                                     )
                                 }
 

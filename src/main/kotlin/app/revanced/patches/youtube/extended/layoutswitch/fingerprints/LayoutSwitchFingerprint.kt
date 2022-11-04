@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.extended.tabletlayout.fingerprints
+package app.revanced.patches.youtube.extended.layoutswitch.fingerprints
 
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
@@ -8,10 +8,10 @@ import app.revanced.annotation.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 
-@Name("tablet-layout-fingerprint")
+@Name("layout-switch-fingerprint")
 @YouTubeCompatibility
 @Version("0.0.1")
-object TabletLayoutFingerprint : MethodFingerprint(
+object LayoutSwitchFingerprint : MethodFingerprint(
     "I", AccessFlags.PUBLIC or AccessFlags.STATIC, listOf("L"), listOf(
         Opcode.INVOKE_VIRTUAL,
         Opcode.MOVE_RESULT_OBJECT,

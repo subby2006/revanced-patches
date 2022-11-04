@@ -60,7 +60,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `hide-email-address` | Hides the email address in the account switcher. | 17.42.35 |
 | `sponsorblock` | Integrate SponsorBlock. | 17.42.35 |
 | `enable-wide-searchbar` | Replaces the search icon with a wide search bar. This will hide the YouTube logo when active. | 17.42.35 |
-| `tablet-layout` | Tricks the dpi to use some tablet layouts. | 17.42.35 |
+| `layout-layout` | Tricks the dpi to use some tablet/phone layouts. | 17.42.35 |
 | `tablet-mini-player` | Enables the tablet mini player layout. | 17.42.35 |
 | `disable-auto-captions` | Disable forced captions from being automatically enabled. | 17.42.35 |
 | `minimized-playback` | Enables minimized and background playback. | 17.42.35 |
