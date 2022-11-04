@@ -129,6 +129,9 @@
     <string name="reset">রিসেট</string>
     <string name="revanced_ad_settings_title">বিজ্ঞাপন সেটিং</string>
     <string name="revanced_ad_settings_summary">বিজ্ঞাপন সম্পর্কিত সেটিং</string>
+    <string name="revanced_album_card_in_search_summary_off">সার্চ ফলাফল থেকে এ্যালবাম কার্ড লুকানো হয়েছে</string>
+    <string name="revanced_album_card_in_search_summary_on">সার্চ ফলাফলে এ্যালবাম কার্ড দৃশ্যমান আছে</string>
+    <string name="revanced_album_card_in_search_title">সার্চ ফলাফলে এ্যালবাম কার্ড</string>
     <string name="revanced_auto_repeat_button_summary_off">অটো রিপিট বাটনটি লুকানো আছে</string>
     <string name="revanced_auto_repeat_button_summary_on">অটো রিপিট বাটনটি দৃশ্যমান</string>
     <string name="revanced_auto_repeat_button_title">অটো রিপিট বাটন</string>
@@ -188,6 +191,9 @@
     <string name="revanced_extended_settings">রিভ্যান্সড এক্সটেন্ডেড সেটিং</string>
     <string name="revanced_extended_summary">এক্সটেন্ডেড সম্পর্কিত সেটিংস</string>
     <string name="revanced_extended_title">এক্সটেন্ডেড সেটিংস</string>
+    <string name="revanced_fix_playback_summary_off">ভিডিও প্লেব্যাক বাফারিং ঠিক করা বন্ধ আছে</string>
+    <string name="revanced_fix_playback_summary_on">ভিডিও প্লেব্যাক বাফারিং ঠিক করা চালু আছে</string>
+    <string name="revanced_fix_playback_title">ভিডিও প্লেব্যাক বাফারিং সমস্যা ঠিক করুন (পরীক্ষামূলক)</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">ফুল স্ক্রিন রোটেশন ইউটিউবের ডিফল্ট নীতি অনুসরণ করে</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">ফুল স্ক্রিন রোটেশন চালু করতে ইউটিউবের ভার্সন ট্রিক করুন</string>
     <string name="revanced_force_fullscreen_rotation_title">ফুল স্ক্রিন রোটেশন চালু করুন (পরীক্ষামূলক))</string>
@@ -271,6 +277,9 @@
     <string name="revanced_new_actionbar_summary_off">প্রশস্ত সার্চ বার বন্ধ করা হয়েছে</string>
     <string name="revanced_new_actionbar_summary_on">প্রশস্ত সার্চ বার চালু করা হয়েছে</string>
     <string name="revanced_new_actionbar_title">প্রশস্ত সার্চ বার</string>
+    <string name="revanced_official_card_in_search_summary_off">সার্চ ফলাফলে অফিশ্যাল কার্ডগুলো লুকানো আছে</string>
+    <string name="revanced_official_card_in_search_summary_on">সার্চ ফলাফলে অফিশ্যাল কার্ডগুলো দৃশ্যমান আছে</string>
+    <string name="revanced_official_card_in_search_title">সার্চ ফলাফলে অফিশ্যাল কার্ড</string>
     <string name="revanced_old_style_quality_settings_summary_off">নতুন ভিডিও কোয়ালিটি সেটিংস ব্যবহার হচ্ছে</string>
     <string name="revanced_old_style_quality_settings_summary_on">পূর্বের ভিডিও কোয়ালিটি সেটিংস ব্যাবহার হচ্ছে</string>
     <string name="revanced_old_style_quality_settings_title">পুরোনো কোয়ালিটি লেআউট ব্যবহার করুন</string>
@@ -279,6 +288,8 @@
     <string name="revanced_override_premium_header_summary_off">বর্তমান হেডার: ডিফল্ট হেডার</string>
     <string name="revanced_override_premium_header_summary_on">বর্তমান হেডার: প্রিমিয়াম হেডার</string>
     <string name="revanced_override_premium_header_title">প্রিমিয়াম হেডার</string>
+    <string name="revanced_phone_layout_summary">ফোনের কিছু লেআউট ব্যবহার করতে ডিপিআই ট্রিক করা</string>
+    <string name="revanced_phone_layout_title">ফোন লেআউট</string>
     <string name="revanced_playback_start_summary">প্লেব্যাক এর জন্য সর্বোচ্চ বাফারিং সময়</string>
     <string name="revanced_playback_start_title">প্লেব্যাক এর জন্য সর্বোচ্চ বাফারিং</string>
     <string name="revanced_player_popup_panels_title">প্লেয়ার পপ আপ প্যানেল</string>
@@ -297,15 +308,38 @@
 কখনো কখনো এটি উদ্দেশ্য অনুযায়ী কাজ নাও করতে পারে।
 কিছু ক্ষেত্রে, ReVanced পুনঃরায় ইনস্টল করতে প্রয়োজন হতে পারে।
 আপনি কি নিশ্চিত আপনি চালিয়ে যেতে চান?"</string>
+    <string name="revanced_reboot_warning_phone">"কিছু লেআউটকে ফোনের লেআউটে পরিবর্তন করতে ডিপিআই ট্রিক করা হয়।
+
+আপনি যদি এটি সচল করেন, নিচের ফিচারগুলো পাওয়া যাবে:
+- কমিউনিটি পোস্ট
+- মিক্স প্লেলিস্ট লুকানো
+
+যেহেতু এটি এখনো পরীক্ষামূলক ফিচার, কিছু অজানা সমস্যা থাকতে পারে।
+আপনি কি শিওর আপনি এগিয়ে যেতে চান?"</string>
+    <string name="revanced_reboot_warning_playback">"কিছু কিছু রিজিওনে থাকা ভিডিও প্লেব্যাক বাফারিং সমস্যা ঠিক করা হয়।
+
+এই ফিচারটি ReVanced টিম কর্তৃক অফিশ্যালি যুক্ত করা হয়েছে, তারপরও কিছু সমস্যা রিপোর্ট করা হয়েছে:
+- যখন প্লেলিস্টের একটি ভিডিও চালানো হয়, ভিডিও শেষে পরবর্তী ভিডিও স্বয়ংক্রিয়ভাবে এড়িয়ে যায়।
+
+যেহেতু এটি এখনো পরীক্ষামূলক ফিচার, কিছু অজানা সমস্যা থাকতে পারে।
+আপনি কি শিওর আপনি এগিয়ে যেতে চান?"</string>
     <string name="revanced_reboot_warning_ryd">"লাইক বাটনের সাথে একত্র হয়ে নতুন লে-আউটে ডিজলাইক সংখ্যা দেখাবে।
 যাইহোক, এটি এখনো একটি পরীক্ষামূলক ফিচার, লাইক কাউন্ট সঠিকভাবে নাও দেখাতে পারে।
 আপনি কি নিশ্চিত আপনি চালিয়ে যেতে চান?"</string>
+    <string name="revanced_reboot_warning_tablet">"কিছু লেআউটকে ট্যাবলেট লেআউটে পরিবর্তন করতে ডিপিআই ট্রিক করা হয়।
+
+আপনি যদি এটি সচল করেন, নিচেে ফিচারগুলো পাবেন না:
+- অ্যাম্বিয়েন্ট মোড
+- কমিউনিটি পোস্ট
+
+যেহেতু এটি এখনো পরীক্ষামূলক ফিচার, কিছু অজানা সমস্যা থাকতে পারে।
+আপনি কি শিওর আপনি এগিয়ে যেতে চান?"</string>
     <string name="revanced_rebuffer_summary">রিবাফারের পরে পুনরায় শুরু করার জন্য প্লেব্যাকের সর্বোচ্চ বাফার সময়কাল</string>
     <string name="revanced_rebuffer_title">রিবাফারের পরে প্লেব্যাকের জন্য সর্বোচ্চ বাফার</string>
     <string name="revanced_reel_summary_off">স্টোরিগুলো লুকানো আছে</string>
     <string name="revanced_reel_summary_on">স্টোরিগুলো প্রদর্শিত</string>
     <string name="revanced_reel_title">ইউটিউব স্টোরিগুলো</string>
-    <string name="revanced_ryd_new_layout_title">RYD ঠিক করুন (নতুন লে-আউট)</string>
+    <string name="revanced_ryd_new_layout_title">RYD ঠিক করুন (নতুন লেআউট)</string>
     <string name="revanced_ryd_new_layout_summary">নতুন লে-আউটে ডিসলাইক সংখ্যা দেখান</string>
     <string name="revanced_ryd_attribution_summary">এখানে RYD এর এপিআই ব্যাবহার হয়েছে। বিস্তারিত জানতে এখানে ক্লিক করুন https://returnyoutubedislike.com</string>
     <string name="revanced_ryd_attribution_title">ইউটিউব এর ডিসলাইক ফিরানো</string>
