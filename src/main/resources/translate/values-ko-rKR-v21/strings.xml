@@ -22,12 +22,6 @@
     <string name="downloader_not_installed_warning">가 설치되지 않았습니다. 다운로더를 설치해 주세요.</string>
     <string name="enable_sb">SponsorBlock 활성화</string>
     <string name="enable_sb_sum">SponsorBlock은 YouTube 동영상 내 성가신 구간을 건너뛰게 해주는 크라우드소싱 시스템입니다</string>
-    <string name="enable_sb_shorts">Shorts에서 SponsorBlock 활성화 (Alpha)</string>
-    <string name="enable_sb_shorts_content">"YouTube Shorts에서 SponsorBlock을 활성화합니다.
-
-이 기능은 여전히 Alpha 단계이기 때문에, 오직 '자동으로 스킵하기' 구간에서만 작동합니다.
-"</string>
-    <string name="enable_sb_shorts_sum">YouTube Shorts에서 SponsorBlock 활성화</string>
     <string name="enable_segmadding">새로운 구간 추가 버튼 활성화</string>
     <string name="enable_segmadding_sum">플레이어에 새로운 구간 추가 버튼을 추가합니다 (버튼이 잘 안 보일 수도 있습니다)</string>
     <string name="enable_voting">투표 버튼 활성화</string>
@@ -134,6 +128,9 @@
     <string name="reset">초기화</string>
     <string name="revanced_ad_settings_title">광고 설정</string>
     <string name="revanced_ad_settings_summary">광고 관련 설정입니다</string>
+    <string name="revanced_album_card_in_search_summary_off">검색결과의 앨범 카드를 숨깁니다</string>
+    <string name="revanced_album_card_in_search_summary_on">검색결과의 앨범 카드를 보여줍니다</string>
+    <string name="revanced_album_card_in_search_title">검색결과의 앨범 카드</string>
     <string name="revanced_auto_repeat_button_summary_off">자동 반복 버튼을 플레이어에서 숨깁니다</string>
     <string name="revanced_auto_repeat_button_summary_on">자동 반복 버튼을 플레이어에서 보여줍니다</string>
     <string name="revanced_auto_repeat_button_title">자동 반복 버튼</string>
@@ -193,6 +190,9 @@
     <string name="revanced_extended_settings">ReVanced Extended 설정</string>
     <string name="revanced_extended_summary">Extended 관련 설정입니다</string>
     <string name="revanced_extended_title">Extended 설정</string>
+    <string name="revanced_fix_playback_summary_off">비디오 재생중 버퍼링 이슈 수정을 비활성화 합니다</string>
+    <string name="revanced_fix_playback_summary_on">비디오 재생중 버퍼링 이슈 수정을 활성화 합니다</string>
+    <string name="revanced_fix_playback_title">비디오 재생중 버퍼링 이슈 수정 (실험적)</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">전체화면 회전 설정이 YouTube 기본 정책을 따릅니다</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">YouTube 버전을 속여서 강제로 전체화면 회전을 활성화 시킵니다</string>
     <string name="revanced_force_fullscreen_rotation_title">전체화면 회전 활성화 (실험적 플래그)</string>
@@ -202,9 +202,9 @@
     <string name="revanced_hdr_full_brightness_summary_off">가로 화면에서 HDR 영상 밝기가 기기의 현재 밝기로 자동 설정됩니다</string>
     <string name="revanced_hdr_full_brightness_summary_on">가로 화면에서 HDR 영상 밝기가 최대로 자동 설정됩니다</string>
     <string name="revanced_hdr_full_brightness_title">HDR 영상 최대 밝기 설정</string>
-    <string name="revanced_hide_comments_section_summary_off">Comment section is shown</string>
-    <string name="revanced_hide_comments_section_summary_on">Comment section is hidden</string>
-    <string name="revanced_hide_comments_section_title">Hide comments section</string>
+    <string name="revanced_hide_comments_section_summary_off">댓글 영역을 보여줍니다</string>
+    <string name="revanced_hide_comments_section_summary_on">댓글 영역을 숨깁니다</string>
+    <string name="revanced_hide_comments_section_title">댓글 영역</string>
     <string name="revanced_hide_create_clip_button_summary_off">클립 버튼을 보여줍니다</string>
     <string name="revanced_hide_create_clip_button_summary_on">클립 버튼을 숨깁니다</string>
     <string name="revanced_hide_create_clip_button_title">클립 버튼 제거</string>
@@ -247,9 +247,9 @@
     <string name="revanced_hide_time_and_seekbar_summary_off">시간 및 재생 바를 숨깁니다</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">시간 및 재생 바를 보여줍니다</string>
     <string name="revanced_hide_time_and_seekbar_title">시간 및 재생 바</string>
-    <string name="revanced_hide_watch_in_vr_summary_off">Watch in VR item is shown from menu item</string>
-    <string name="revanced_hide_watch_in_vr_summary_on">Watch in VR item is hidden from menu item</string>
-    <string name="revanced_hide_watch_in_vr_title">Watch in VR</string>
+    <string name="revanced_hide_watch_in_vr_summary_off">메뉴에서 VR로 보기를 보여줍니다</string>
+    <string name="revanced_hide_watch_in_vr_summary_on">메뉴에서 VR로 보기를 숨깁니다</string>
+    <string name="revanced_hide_watch_in_vr_title">VR로 보기</string>
     <string name="revanced_home_ads_summary_off">홈 화면 광고를 숨깁니다</string>
     <string name="revanced_home_ads_summary_on">홈 화면 광고를 보여줍니다</string>
     <string name="revanced_home_ads_title">홈 화면 광고 제거</string>
@@ -273,12 +273,12 @@
     <string name="revanced_mix_playlists_summary_off">Mix 플레이리스트를 숨깁니다</string>
     <string name="revanced_mix_playlists_summary_on">Mix 플레이리스트를 보여줍니다</string>
     <string name="revanced_mix_playlists_title">Mix 플레이리스트</string>
-    <string name="revanced_music_container_summary_off">음악 및 앨범 패널을 보여줍니다</string>
-    <string name="revanced_music_container_summary_on">음악 및 앨범 패널을 숨깁니다</string>
-    <string name="revanced_music_container_title">음악 및 앨범 패널</string>
     <string name="revanced_new_actionbar_summary_off">앱 상태에 따라 검색 바 스타일이 자동으로 결정됩니다</string>
     <string name="revanced_new_actionbar_summary_on">넓은 검색 바의 사용을 강제합니다</string>
     <string name="revanced_new_actionbar_title">넓은 검색 바</string>
+    <string name="revanced_official_card_in_search_summary_off">검색결과의 공식 카드를 숨깁니다</string>
+    <string name="revanced_official_card_in_search_summary_on">검색결과의 공식 카드를 보여줍니다</string>
+    <string name="revanced_official_card_in_search_title">검색결과의 공식 카드</string>
     <string name="revanced_old_style_quality_settings_summary_off">기본 동영상 품질 설정 사용</string>
     <string name="revanced_old_style_quality_settings_summary_on">이전 동영상 품질 설정 사용</string>
     <string name="revanced_old_style_quality_settings_title">품질 설정 스타일</string>
@@ -287,6 +287,8 @@
     <string name="revanced_override_premium_header_summary_off">현재 헤더: 기본 헤더</string>
     <string name="revanced_override_premium_header_summary_on">현재 헤더: 프리미엄 헤더</string>
     <string name="revanced_override_premium_header_title">프리미엄 헤더</string>
+    <string name="revanced_phone_layout_summary">dpi를 속여 일부 전화 레이아웃을 사용합니다</string>
+    <string name="revanced_phone_layout_title">전화 레이아웃</string>
     <string name="revanced_playback_start_summary">영상을 일시정지한 후 다시 재생하기 전에 미리 버퍼링할 영상의 길이로, 기본값은 2500밀리초입니다</string>
     <string name="revanced_playback_start_title">일시정지 후 버퍼링</string>
     <string name="revanced_player_popup_panels_title">플레이어 팝업 패널</string>
@@ -305,20 +307,31 @@
 이것은 때때로 의도한 대로 작동하지 않을 수 있습니다.
 경우에 따라서는 ReVanced를 다시 설치해야 할 수도 있습니다.
 그래도 계속하시겠습니까?"</string>
+    <string name="revanced_reboot_warning_phone">"dpi를 속여 일부 레이아웃을 전화 레이아웃으로 변경합니다.
+
+이 설정을 실행하면 다음 기능을 사용할 수 있습니다.
+- 커뮤니티 게시물
+- Mix 플레이리스트
+
+이것은 여전히 실험적인 특징이기 때문에, 다른 알려지지 않은 문제들이 있을 수 있다.
+그래도 계속하시겠습니까?"</string>
+    <string name="revanced_reboot_warning_playback">"일부 지역에서 비디오 재생시 버퍼링 문제를 수정합니다.
+
+이 기능은 ReVanced Team에서 공식적으로 추가했지만 다음과 같은 상황에서 여전히 문제가 보고되었습니다.
+- 재생 목록에서 비디오를 재생할 때 비디오가 끝날 때 다음 트랙을 자동으로 건너뜁니다.
+
+이것은 여전히 실험적인 기능이기 때문에, 다른 알려지지 않은 문제들이 있을 수 있습니다.
+그래도 계속하시겠습니까?"</string>
     <string name="revanced_reboot_warning_ryd">"새로운 레이아웃에서 싫어요 카운트를 표시하기 위해 좋아요 버튼과 통합합니다.
 이것은 여전히 실험적인 기능이기 때문에, 좋아요 카운트가 정확하게 표시되지 않을수도 있습니다.
 그래도 계속하시겠습니까?"</string>
     <string name="revanced_reboot_warning_tablet">"dpi를 속여 일부 레이아웃을 태블릿 레이아웃으로 변경합니다.
 
-이 설정을 활성화하면 다음 기능을 사용할 수 있습니다.
-- Shorts 플레이어를 일반 플레이어로 변환됨
-- '추가된 날짜 (오래된순)'으로 정렬 기능
-
-다음 기능은 사용할 수 없습니다.
+이 설정을 실행하면 다음 기능을 사용할 수 없습니다.
 - 영화 조명
 - 커뮤니티 게시물
 
-이것은 여전히 실험적인 기능이기 때문에, 알려지지 않은 다른 문제가 있을 수 있습니다.
+이 기능은 여전히 실험적인 기능이기 때문에 다른 알 수 없는 문제가 있을 수 있습니다.
 그래도 계속하시겠습니까?"</string>
     <string name="revanced_rebuffer_summary">영상 재생 중 버퍼링이 필요할 때 미리 가져올 영상의 길이로, 여기서 재버퍼링은 사용자 동작과 관계없이 미리 가져온 영상을 다 재생했을 때 이루어지는 것을 의미합니다 (기본값: 5000밀리초)</string>
     <string name="revanced_rebuffer_title">재버퍼링</string>
@@ -423,7 +436,6 @@
     <string name="sb_guidelines_preference_sum">구간 제출 시의 주의사항에 대한 내용이 포함되어 있습니다</string>
     <string name="sb_guidelines_preference_title">가이드라인 보기</string>
     <string name="sb_settings">SponsorBlock 설정</string>
-    <string name="sb_shorts_example_video">예제 비디오</string>
     <string name="sb_summary">sponsor.ajay.app의 API를 사용합니다</string>
     <string name="segments_endcards">최종 화면 / 크레딧</string>
     <string name="segments_endcards_sum">엔딩 크레딧이나 최종 화면이 나타나는 구간입니다. 단순히 결론을 말하는 부분은 여기에 포함되지 않습니다.</string>
@@ -447,6 +459,7 @@
     <string name="settings_import_failed">설정을 가져오는 데 실패했습니다</string>
     <string name="settings_import_successful">설정을 성공적으로 불러왔습니다</string>
     <string name="skip_automatically">자동으로 스킵하기</string>
+    <string name="skip_automatically_once">한 번에 자동으로 스킵하기</string>
     <string name="skip_ignore">"아무것도 하지 않기"</string>
     <string name="skip_showbutton">건너뛰기 버튼 표시하기</string>
     <string name="skip_sponsor">구간 건너뛰기</string>

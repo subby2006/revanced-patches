@@ -22,12 +22,6 @@
     <string name="downloader_not_installed_warning">belum terinstal. Mohon install aplikasi tersebut.</string>
     <string name="enable_sb">Aktifkan SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock adalah sistem crowd-source untuk melewatkan bagian yang mengganggu di video YouTube</string>
-    <string name="enable_sb_shorts">Aktifkan SponsorBlock di shorts (alpha)</string>
-    <string name="enable_sb_shorts_content">"Aktifkan Sponsorblock di YouTube Shorts.
-
-Karena fitur ini masih Alpha, hanya berfungsi di segmen 'Lewati secara otomatis'.
-"</string>
-    <string name="enable_sb_shorts_sum">Aktifkan Sponsorblock di YouTube Shorts.</string>
     <string name="enable_segmadding">Aktifkan penambahan segmen baru</string>
     <string name="enable_segmadding_sum">Aktifkan ini untuk mengaktifkan penambahan segmen eksperimental (memiliki masalah visibilitas tombol)</string>
     <string name="enable_voting">Aktifkan voting</string>
@@ -272,9 +266,6 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_mix_playlists_summary_off">Playlist mix disembunyikan</string>
     <string name="revanced_mix_playlists_summary_on">Playlist mix ditampilkan</string>
     <string name="revanced_mix_playlists_title">Playlist mix</string>
-    <string name="revanced_music_container_summary_off">Wadah musik ditampilkan</string>
-    <string name="revanced_music_container_summary_on">Wadah musik disembunyikan</string>
-    <string name="revanced_music_container_title">Wadah musik</string>
     <string name="revanced_new_actionbar_summary_off">Kotak pencarian lebar dinonaktifkan</string>
     <string name="revanced_new_actionbar_summary_on">Kotak pencarian lebar diaktifkan</string>
     <string name="revanced_new_actionbar_title">Kotak pencarian lebar</string>
@@ -307,18 +298,6 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_reboot_warning_ryd">"Terintegrasi dengan tombol like untuk menampilkan jumlah dislike dalam tata letak baru.
 Namun, karena ini masih merupakan fitur eksperimental, jumlah like mungkin tidak ditampilkan secara akurat.
 Apakah anda yakin ingin melanjutkan?"</string>
-    <string name="revanced_reboot_warning_tablet">"Trik dpi untuk menggunakan beberapa tata letak tablet.
-
-Jika anda mengaktifkan pengaturan ini, fitur berikut tersedia:
-- Pemutar shorts dikonversi ke pemutar standar
-- Urutkan berdasarkan 'tanggal ditambahkan (terlama)'
-
-Fitur berikut tidak tersedia:
-- Mode ambient
-- Postingan komunitas
-
-Karena ini masih merupakan fitur eksperimental, mungkin ada masalah lain yang tidak diketahui.
-Apakah Anda yakin ingin melanjutkannya?"</string>
     <string name="revanced_rebuffer_summary">Durasi media yang harus dimuat agar pemutaran dapat dilanjutkan setelah muat ulang (dalam milidetik). Sebuah rebuffer didefinisikan disebabkan oleh penipisan buffer daripada tindakan user Standar: 5000</string>
     <string name="revanced_rebuffer_title">Muat ulang</string>
     <string name="revanced_reel_summary_off">Stories disembunyikan</string>
@@ -422,7 +401,6 @@ Jika anda ingin menonaktifkan ini, atur yang berikut ke OFF:"</string>
     <string name="sb_guidelines_preference_sum">Pedoman berisi tips dan aturan tentang mengirimkan segmen</string>
     <string name="sb_guidelines_preference_title">Lihat pedoman</string>
     <string name="sb_settings">Pengaturan SponsorBlock</string>
-    <string name="sb_shorts_example_video">Example Video</string>
     <string name="sb_summary">Pengaturan yang berkaitan dengan SponsorBlock</string>
     <string name="segments_endcards">Kartu akhir/kredit</string>
     <string name="segments_endcards_sum">Kredit atau saat kartu akhir YouTube muncul. Bukan untuk kesimpulan lisan</string>

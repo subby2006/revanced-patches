@@ -22,12 +22,6 @@
     <string name="downloader_not_installed_warning">ইনস্টল করা হয়নি, অনুগ্রহপূর্বক ইনস্টল করুন</string>
     <string name="enable_sb">SponsorBlock চালু করুন</string>
     <string name="enable_sb_sum">SponsorBlock হল ইউটিউব ভিডিওতে বিরক্তিকর অংশ গুলো এড়িয়ে যাওয়ার জন্য একটি ক্রাউড-সোর্স পদ্ধতি</string>
-    <string name="enable_sb_shorts">শর্টস এ SponsorBlock চালু করুন (আলফা)</string>
-    <string name="enable_sb_shorts_content">"ইউটিউব শর্টস-এ SponsorBlock চালু করুন।
-
-যেহেতু এই ফিচারটি এখনো আফলা, এটি শুধুমাত্র 'স্বয়ংক্রিয়ভাবে এড়িয়ে যান' বিভাগে কাজ করে।
-"</string>
-    <string name="enable_sb_shorts_sum">ইউটিউব শর্টস-এ SponsorBlock চালু করুন।</string>
     <string name="enable_segmadding">নতুন সেগমেন্ট যুক্ত করার পদ্ধতি সক্ষম করুন</string>
     <string name="enable_segmadding_sum">পরীক্ষামূলক সেগমেন্ট যোগ করার জন্য এই বাটন টি চালু করুন (বাটন প্রদর্শনে সমস্যা রয়েছে)</string>
     <string name="enable_voting">ভোটিং চালু করুন</string>
@@ -147,18 +141,27 @@
     <string name="revanced_branding_watermark_summary_off">ব্র্যান্ডিং জলছাপ লুকানো আছে</string>
     <string name="revanced_branding_watermark_summary_on">ব্র্যান্ডিং জলছাপ প্রদর্শিত</string>
     <string name="revanced_branding_watermark_title">ব্র্যান্ডিং জলছাপ</string>
+    <string name="revanced_breaking_news_panels_summary_off">ব্রেকিং নিউজ প্যানেল প্রদর্শিত</string>
+    <string name="revanced_breaking_news_panels_summary_on">ব্রেকিং নিউজ প্যানেল লুকানো আছে</string>
+    <string name="revanced_breaking_news_panels_title">ব্রেকিং নিউজ প্যানেল</string>
     <string name="revanced_buffer_summary">ভিডিও বাফারিংএর জন্য কাস্টম সেটিং</string>
     <string name="revanced_buffer_title">ভিডিও বাফার সেটিংস</string>
     <string name="revanced_button_container_summary">বাটনে অধীনস্থ বিষয়বস্তু গুলিকে লুকিয়ে রাখে</string>
+    <string name="revanced_button_container_title">বাটনের অধীনস্থ বিষয়বস্তু</string>
     <string name="revanced_cast_button_summary_off">কাস্ট বাটন লুকানো আছে</string>
     <string name="revanced_cast_button_summary_on">কাস্ট বাটন প্রদর্শিত</string>
     <string name="revanced_cast_button_title">কাস্ট বাটন</string>
+    <string name="revanced_comments_summary">মন্তব্য বিভাগ বা এর বিষয়বস্তু লুকিয়ে রাখে</string>
+    <string name="revanced_comments_title">মন্তব্যের বিষয়বস্তু</string>
     <string name="revanced_copy_video_url_summary_off">কপি লিঙ্ক বাটন লুকানো আছে</string>
     <string name="revanced_copy_video_url_summary_on">কপি লিঙ্ক বাটন দৃশ্যমান</string>
     <string name="revanced_copy_video_url_timestamp_summary_off">টাইমস্ট্যাম্প সহ কপি লিঙ্ক বাটন লুকানো আছে</string>
     <string name="revanced_copy_video_url_timestamp_summary_on">টাইমস্ট্যাম্প সহ কপি লিঙ্ক বাটন দৃশ্যমান</string>
     <string name="revanced_copy_video_url_timestamp_title">টাইম স্ট্যাম্প সহ লিংক কপি বাটন</string>
     <string name="revanced_copy_video_url_title">কপি লিঙ্ক বাটন</string>
+    <string name="revanced_crowdfunding_box_summary_off">ক্রাউডফান্ডিং বাক্স লুকানো আছে</string>
+    <string name="revanced_crowdfunding_box_summary_on">ক্রাউডফান্ডিং বাক্স প্রদর্শিত</string>
+    <string name="revanced_crowdfunding_box_title">ক্রাউডফান্ডিং বাক্স</string>
     <string name="revanced_download_video_summary_off">ডাউনলোড বাটন লুকানো আছে</string>
     <string name="revanced_download_video_summary_on">ডাউনলোড বাটন দৃশ্যমান</string>
     <string name="revanced_download_video_title">ডাউনলোড বাটন</string>
@@ -194,6 +197,9 @@
     <string name="revanced_hdr_full_brightness_summary_off">HDR ল্যান্ডস্কেপ ভিডিওতে ভিডিওর উজ্জ্বলতা সর্বোচ্চ সেট করা হয়েছে</string>
     <string name="revanced_hdr_full_brightness_summary_on">ভিডিও উজ্জ্বলতা HDR ল্যান্ডস্কেপে আপনার ডিভাইসের উজ্জ্বলতা অনুসরণ করবে</string>
     <string name="revanced_hdr_full_brightness_title">HDR ভিডিও উজ্জ্বলতা ওভাররাইড করুন</string>
+    <string name="revanced_hide_comments_section_summary_off">মন্তব্য বিভাগ প্রদর্শিত</string>
+    <string name="revanced_hide_comments_section_summary_on">মন্তব্য বিভাগ লুকানো আছে</string>
+    <string name="revanced_hide_comments_section_title">মন্তব্য বিভাগ লুকান</string>
     <string name="revanced_hide_create_clip_button_summary_off">ক্লিপকাস্ট বাটন প্রদর্শিত</string>
     <string name="revanced_hide_create_clip_button_summary_on">ক্লিপ বাটন লুকানো আছে</string>
     <string name="revanced_hide_create_clip_button_title">ক্লিপ বাটন লুকান</string>
@@ -218,18 +224,27 @@
     <string name="revanced_hide_playlist_button_summary_off">প্লেলিস্ট বাটন প্রদর্শিত</string>
     <string name="revanced_hide_playlist_button_summary_on">প্লেলিস্ট বাটন লুকানো আছে</string>
     <string name="revanced_hide_playlist_button_title">প্লেলিস্ট বাটন লুকান</string>
+    <string name="revanced_hide_preview_comment_off">মন্তব্যের পূর্বরূপ প্রদর্শিত</string>
+    <string name="revanced_hide_preview_comment_on">মন্তব্যের পূর্বরূপ লুকানো আছে</string>
+    <string name="revanced_hide_preview_comment_title">মন্তব্যের পূর্বরূপ</string>
     <string name="revanced_hide_report_button_summary_off">রিপোর্ট বাটন প্রদর্শিত</string>
     <string name="revanced_hide_report_button_summary_on">রিপোর্ট বাটন লুকানো আছে</string>
     <string name="revanced_hide_report_button_title">রিপোর্ট বাটন লুকান</string>
     <string name="revanced_hide_share_button_summary_off">শেয়ার বাটন প্রদর্শিত</string>
     <string name="revanced_hide_share_button_summary_on">শেয়ার বাটন লুকানো আছে</string>
     <string name="revanced_hide_share_button_title">শেয়ার বাটন লুকান</string>
+    <string name="revanced_hide_shorts_comments_button_off">শর্টস মন্তব্য বাটন প্রদর্শিত</string>
+    <string name="revanced_hide_shorts_comments_button_on">শর্টস মন্তব্য বাটন লুকানো আছে</string>
+    <string name="revanced_hide_shorts_comments_button_title">শর্টস মন্তব্য বাটন লুকান</string>
     <string name="revanced_hide_thanks_button_summary_off">ধন্যবাদ বাটন প্রদর্শিত</string>
     <string name="revanced_hide_thanks_button_summary_on">ধন্যবাদ বাটন লুকানো আছে</string>
     <string name="revanced_hide_thanks_button_title">ধন্যবাদ বাটন লুকান</string>
     <string name="revanced_hide_time_and_seekbar_summary_off">ভিডিও সময় ও সীকবার লুকানো আছে</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">ভিডিও সময় ও সীকবার প্রদর্শিত</string>
     <string name="revanced_hide_time_and_seekbar_title">সময় ও সীকবার</string>
+    <string name="revanced_hide_watch_in_vr_summary_off">ভিআর এ দেখা মেনু আইটেমে প্রদর্শিত</string>
+    <string name="revanced_hide_watch_in_vr_summary_on">ভিআর এ দেখা মেনু আইটেমে লুকানো আছে</string>
+    <string name="revanced_hide_watch_in_vr_title">ভিআর এ দেখুন</string>
     <string name="revanced_home_ads_summary_off">হোম বিজ্ঞাপন লুকানো আছে</string>
     <string name="revanced_home_ads_summary_on">হোম বিজ্ঞাপন প্রদর্শিত</string>
     <string name="revanced_home_ads_title">হোম বিজ্ঞাপন সরান</string>
@@ -253,9 +268,6 @@
     <string name="revanced_mix_playlists_summary_off">মিক্স প্লেলিস্ট লুকানো আছে</string>
     <string name="revanced_mix_playlists_summary_on">মিক্স প্লেলিস্ট প্রদর্শিত</string>
     <string name="revanced_mix_playlists_title">মিক্স প্লেলিস্ট</string>
-    <string name="revanced_music_container_summary_off">সঙ্গীত কনটেইনার প্রদর্শিত</string>
-    <string name="revanced_music_container_summary_on">সঙ্গীত কনটেইনার লুকানো আছে</string>
-    <string name="revanced_music_container_title">সঙ্গীত কনটেইনার</string>
     <string name="revanced_new_actionbar_summary_off">প্রশস্ত সার্চ বার বন্ধ করা হয়েছে</string>
     <string name="revanced_new_actionbar_summary_on">প্রশস্ত সার্চ বার চালু করা হয়েছে</string>
     <string name="revanced_new_actionbar_title">প্রশস্ত সার্চ বার</string>
@@ -345,6 +357,11 @@
     <string name="revanced_tablet_miniplayer_summary_off">ট্যাবলেট মিনি প্লেয়ার বন্ধ করা আছে</string>
     <string name="revanced_tablet_miniplayer_summary_on">ট্যাবলেট মিনি প্লেয়ার চালু করা আছে</string>
     <string name="revanced_tablet_miniplayer_title">ট্যাবলেট মিনি প্লেয়ার</string>
+    <string name="revanced_tablet_layout_summary">কিছু ট্যাবলেট লেআউট ব্যবহার করতে ডিপিআই ট্রিক করুন</string>
+    <string name="revanced_tablet_layout_title">ট্যাবলেট লেআউট</string>
+    <string name="revanced_timed_reactions_summary_off">সময় অনুযায়ী প্রতিক্রিয়া দৃশ্যমান আছে</string>
+    <string name="revanced_timed_reactions_summary_on">সময় অনুযায়ী প্রতিক্রিয়া লুকানো আছে</string>
+    <string name="revanced_timed_reactions_title">সময় অনুযায়ী প্রতিক্রিয়া</string>
     <string name="revanced_tool_used">ব্যবহৃত টুল</string>
     <string name="revanced_uri_redirect_summary_off">"ইউটিউবের রিডাইরেক্ট নীতি অনুসরণ করুন"</string>
     <string name="revanced_uri_redirect_summary_on">youtube.com/redirect বাইপাস করে লিঙ্ক খুলুন</string>
@@ -363,6 +380,9 @@
     <string name="revanced_videoadwhitelisting_summary_off">ভিডিওর বিজ্ঞাপণ হোয়াইটলিস্টিং বন্ধ আছে</string>
     <string name="revanced_videoadwhitelisting_summary_on">ভিডিও বিজ্ঞাপন হোয়াইটলিস্টিং চালু আছে। একটি চ্যানেল হোয়াইটলিস্ট করতে প্লেয়ারের নীচে ADS বোতামটি ব্যবহার করুন</string>
     <string name="revanced_videoadwhitelisting_title">ভিডিওর বিজ্ঞাপণ হোয়াইটলিস্টিং</string>
+    <string name="revanced_view_products_summary_off">পণ্য দেখার ব্যানার প্রদর্শিত</string>
+    <string name="revanced_view_products_summary_on">পণ্য দেখার ব্যানার লুকানো আছে</string>
+    <string name="revanced_view_products_title">পণ্য দেখার ব্যানার</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">%s চ্যানেল %s হোয়াইটলিস্টে অ্যাড করতে ব্যর্থ হয়েছে</string>
     <string name="revanced_whitelisting_added" formatted="false">এই চ্যানেল %s টি হোয়াইটলিস্ট %s অ্যাড করা হয়েছে</string>
     <string name="revanced_whitelisting_ads">ADS</string>
@@ -383,7 +403,6 @@
     <string name="sb_guidelines_preference_sum">সেগমেন্ট সাবমিট করার জন্য গাইডলাইন যেতে টিপস আর রুলস লেখা আছে</string>
     <string name="sb_guidelines_preference_title">নির্দেশিকা দেখুন</string>
     <string name="sb_settings">SponsorBlock সেটিংস</string>
-    <string name="sb_shorts_example_video">ভিডিও উদাহরণ</string>
     <string name="sb_summary">SponsorBlock সম্পর্কিত সেটিংস</string>
     <string name="segments_endcards">এন্ডকার্ড/ক্রেডিট</string>
     <string name="segments_endcards_sum">ক্রেডিট বা যখন YouTube এন্ডকার্ড প্রদর্শিত হয়। উচ্চারিত সিদ্ধান্তের জন্য নয়</string>
@@ -407,6 +426,7 @@
     <string name="settings_import_failed">সেটিংস ইম্পোর্ট ব্যার্থ হয়েছে</string>
     <string name="settings_import_successful">সেটিংস সফলভাবে আমদানি করা হয়েছে</string>
     <string name="skip_automatically">স্বয়ংক্রিয়ভাবে এড়িয়ে যান</string>
+    <string name="skip_automatically_once">একবার স্বয়ংক্রিয়ভাবে এড়িয়ে যান</string>
     <string name="skip_ignore">"কিছুই করা লাগবে না"</string>
     <string name="skip_showbutton">এড়িয়ে যান বাটন দেখাবে</string>
     <string name="skip_sponsor">সেগমেন্ট এড়িয়ে যান</string>

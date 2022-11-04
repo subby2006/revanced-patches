@@ -22,9 +22,6 @@
     <string name="downloader_not_installed_warning">غير مثبت. الرجاء تثبيته.</string>
     <string name="enable_sb">تمكين مانِع الرُعَاة \"SponsorBlock\"</string>
     <string name="enable_sb_sum">مانِع الرُعَاة هو نظام جماعي لتخطي الأجزاء المُمِلَّة في مقاطع اليوتيوب</string>
-    <string name="enable_sb_shorts">تمكين SponsorBlock على Shorts (ٱلفا)</string>
-    <string name="enable_sb_shorts_content">"تمكين مانِع الرُعَاة في فيديوهات YouTube Shorts. نظرًا لأن هذه الميزة لا تزال (Alpha) ، فهي تعمل فقط بوضع\" التخطي تلقائيًا \" للمقطع."</string>
-    <string name="enable_sb_shorts_sum">تمكين SponsorBlock في فيديوهات YouTube Shorts</string>
     <string name="enable_segmadding">تمكين إضافة مقطع جديد</string>
     <string name="enable_segmadding_sum">قم بتشغيل هذا الخيار لتمكين إضافة مقطع (قد يوجد مشاكل في رؤية الزر!)</string>
     <string name="enable_voting">تمكين التصويت</string>
@@ -266,9 +263,6 @@
     <string name="revanced_mix_playlists_summary_off">تم إخفاء قائمة تشغيل التشكيلة</string>
     <string name="revanced_mix_playlists_summary_on">يتم عرض قائمة تشغيل التشكيلة</string>
     <string name="revanced_mix_playlists_title">قائمة تشغيل التشكيلة</string>
-    <string name="revanced_music_container_summary_off">يتم عرض حاوية الموسيقى</string>
-    <string name="revanced_music_container_summary_on">تم إخفاء حاوية الموسيقى</string>
-    <string name="revanced_music_container_title">حاوية الموسيقى</string>
     <string name="revanced_new_actionbar_summary_off">تم تعطيل شريط البحث العريض</string>
     <string name="revanced_new_actionbar_summary_on">تم تمكين شريط البحث العريض</string>
     <string name="revanced_new_actionbar_title">شريط البحث العريض</string>
@@ -296,20 +290,6 @@
     <string name="revanced_preferred_video_speed_title">سرعة الفيديو المفضلة</string>
     <string name="revanced_reboot_warning_fullscreen">"خداع إصدار YouTube ومحاولة تحديثه من سيرفر جانبي. قد لا يعمل هذا أحيانًا على النحو المنشود. في بعض الحالات، قد يكون من الضروري إعادة تثبيت ReVanced. هل أنت متأكد من أنك تريد المتابعة بالرغم من ذلك؟"</string>
     <string name="revanced_reboot_warning_ryd">"يتكامل مع زر الإعجاب لعرض عدد مرات عدم الإعجاب في التصميم الجديد. ومع ذلك، نظرًا لأن هذه الميزة لا تزال تجريبية، فقد لا يتم عرض العدد المتشابه بدقة. هل أنت متأكد أنك تريد المتابعة بالرغم من ذلك؟"</string>
-    <string name="revanced_reboot_warning_tablet">"\"حِيَل dpi لتغيير بعض التصميمات إلى تصميمات الجهاز اللوحي. إذا قمت بتمكين هذا الإعداد ، فستتوفر الميزات التالية:
-
-تحويل المشغل القصير إلى المشغل القياسي
-
-الترتيب حسب\" تاريخ الإضافة (الأقدم)
-
-الميزات التالية غير متوفرة:
--Ambient mode
-
-مشاركات المنتدى
-
-نظرًا لأن هذه لا تزال ميزة تجريبية ، فقد تكون هناك مشكلات أخرى غير معروفة. هل أنت متأكد أنك تريد المتابعة بالرغم من ذلك؟\"
-
-"</string>
     <string name="revanced_rebuffer_summary">المدة التي يجب تحميلها مسبقًا من الفيديو لإعادة التشغيل بعد إعادة التحميل (بالمللي ثانية). تم تعريف إعادة التحميل المسبق على إنها إنتهاء الجزء المُنَّزَّل من الفيديو وليست بسبب إجراءات المستخدم  الافتراضي: 5000</string>
     <string name="revanced_rebuffer_title">إعادة التحميل المسبق</string>
     <string name="revanced_reel_summary_off">تم إخفاء قصص يوتيوب</string>
@@ -409,7 +389,6 @@
     <string name="sb_guidelines_preference_sum">الإرشادات تحتوي على نصائح حول تقديم المقاطع</string>
     <string name="sb_guidelines_preference_title">عرض الإرشادات</string>
     <string name="sb_settings">SponsorBlock إعدادات مانِع الرُعَاة</string>
-    <string name="sb_shorts_example_video">مثال فيديو</string>
     <string name="sb_summary">SponsorBlock الإعدادات المتعلقة بــ</string>
     <string name="segments_endcards">الاعتمادات/تترات النهاية</string>
     <string name="segments_endcards_sum">تتر النهاية أو عندما تظهر بطاقات النهاية، نهايات غير منطوقة</string>

@@ -22,10 +22,6 @@
     <string name="downloader_not_installed_warning">não está instalado. Por favor, instale-o.</string>
     <string name="enable_sb">Habilitar SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock é uma ferramenta comunitária para pular anúncios no YouTube</string>
-    <string name="enable_sb_shorts_content">"Ative o Sponsorblock nos shorts do YouTube. 
-
-Como esse recurso ainda é Alpha, ele só funciona no segmento 'Pular automaticamente'.
-"</string>
     <string name="enable_segmadding">Habilitar envio de novos segmentos</string>
     <string name="enable_segmadding_sum">Ative isto para habilitar o envio de segmento -experimental (tem problemas de visibilidade do botão)</string>
     <string name="enable_voting">Habilitar votação</string>
@@ -248,9 +244,6 @@ Como esse recurso ainda é Alpha, ele só funciona no segmento 'Pular automatica
     <string name="revanced_mix_playlists_summary_off">Ordem aleatória da lista de reprodução está oculta</string>
     <string name="revanced_mix_playlists_summary_on">Ordem aleatória da lista de reprodução é exibida</string>
     <string name="revanced_mix_playlists_title">Ordem aleatória</string>
-    <string name="revanced_music_container_summary_off">O Contêiner de Música é mostrado</string>
-    <string name="revanced_music_container_summary_on">O Contêiner de Música está oculto</string>
-    <string name="revanced_music_container_title">Contêiner de Música</string>
     <string name="revanced_new_actionbar_summary_off">Estilo da barra de pesquisa é definido pelo aplicativo</string>
     <string name="revanced_new_actionbar_summary_on">Forçando a barra de pesquisa ampla</string>
     <string name="revanced_new_actionbar_title">Barra de pesquisa ampla</string>

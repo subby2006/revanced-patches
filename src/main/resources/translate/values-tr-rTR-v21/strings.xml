@@ -247,9 +247,6 @@ Gönderilmeye hazır mı?"</string>
     <string name="revanced_mix_playlists_summary_off">Kapalı</string>
     <string name="revanced_mix_playlists_summary_on">Açık</string>
     <string name="revanced_mix_playlists_title">Mix\'im çalma listesi</string>
-    <string name="revanced_music_container_summary_off">Müzik kabı gizlenmiyor</string>
-    <string name="revanced_music_container_summary_on">Müzik kabı gizlendi</string>
-    <string name="revanced_music_container_title">Müzik kabı</string>
     <string name="revanced_new_actionbar_summary_off">Kapalı</string>
     <string name="revanced_new_actionbar_summary_on">Açık</string>
     <string name="revanced_new_actionbar_title">Geniş arama çubuğu</string>

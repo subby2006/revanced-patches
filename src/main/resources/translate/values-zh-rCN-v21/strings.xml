@@ -22,12 +22,6 @@
     <string name="downloader_not_installed_warning">未安装，请先安装。</string>
     <string name="enable_sb">启用 SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock 是一个众包平台，旨在帮助人们跳过 YouTube 视频中烦人的部分</string>
-    <string name="enable_sb_shorts">在 Shorts 视频里启用 SponsorBlock（Alpha）</string>
-    <string name="enable_sb_shorts_content">"在 YouTube Shorts 视频里启用 SponsorBlock。
-
-由于此功能仍为 Alpha 测试，因此仅适用于“自动跳过”片段。
-"</string>
-    <string name="enable_sb_shorts_sum">在 YouTube Shorts 视频里启用 SponsorBlock。</string>
     <string name="enable_segmadding">启用新的片段添加</string>
     <string name="enable_segmadding_sum">开启此选项以启用片段添加实验性功能（有按钮可见性问题）</string>
     <string name="enable_voting">启用投票</string>
@@ -133,6 +127,9 @@
     <string name="reset">重置</string>
     <string name="revanced_ad_settings_title">广告设置</string>
     <string name="revanced_ad_settings_summary">广告相关设置</string>
+    <string name="revanced_album_card_in_search_summary_off">搜索结果中的专辑卡片已隐藏</string>
+    <string name="revanced_album_card_in_search_summary_on">搜索结果中的专辑卡片已显示</string>
+    <string name="revanced_album_card_in_search_title">搜索结果中的专辑卡片</string>
     <string name="revanced_auto_repeat_button_summary_off">自动重复播放按钮已隐藏</string>
     <string name="revanced_auto_repeat_button_summary_on">自动重复播放按钮已显示</string>
     <string name="revanced_auto_repeat_button_title">自动重复播放按钮</string>
@@ -192,6 +189,9 @@
     <string name="revanced_extended_settings">ReVanced Extended 设置</string>
     <string name="revanced_extended_summary">Extended 相关设置</string>
     <string name="revanced_extended_title">Extended 设置</string>
+    <string name="revanced_fix_playback_summary_off">修复视频播放缓冲问题已禁用</string>
+    <string name="revanced_fix_playback_summary_on">修复视频播放缓冲问题已启用</string>
+    <string name="revanced_fix_playback_title">修复视频播放缓冲问题（实验性）</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">全屏旋转遵循 YouTube 默认策略</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">伪装 YouTube 版本以启用全屏旋转</string>
     <string name="revanced_force_fullscreen_rotation_title">启用全屏旋转（实验性）</string>
@@ -246,8 +246,8 @@
     <string name="revanced_hide_time_and_seekbar_summary_off">进度条已隐藏</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">进度条已显示</string>
     <string name="revanced_hide_time_and_seekbar_title">进度条</string>
-    <string name="revanced_hide_watch_in_vr_summary_off">在 VR 模式下观看已在菜单项目显示</string>
-    <string name="revanced_hide_watch_in_vr_summary_on">在 VR 模式下观看已在菜单项目隐藏</string>
+    <string name="revanced_hide_watch_in_vr_summary_off">设置项“在 VR 模式下观看”已显示</string>
+    <string name="revanced_hide_watch_in_vr_summary_on">设置项“在 VR 模式下观看”已隐藏</string>
     <string name="revanced_hide_watch_in_vr_title">在 VR 模式下观看</string>
     <string name="revanced_home_ads_summary_off">首页广告已隐藏</string>
     <string name="revanced_home_ads_summary_on">首页广告已显示</string>
@@ -272,12 +272,12 @@
     <string name="revanced_mix_playlists_summary_off">合辑播放列表已隐藏</string>
     <string name="revanced_mix_playlists_summary_on">合辑播放列表已显示</string>
     <string name="revanced_mix_playlists_title">合辑播放列表</string>
-    <string name="revanced_music_container_summary_off">音乐面板已显示</string>
-    <string name="revanced_music_container_summary_on">音乐面板已隐藏</string>
-    <string name="revanced_music_container_title">音乐面板</string>
     <string name="revanced_new_actionbar_summary_off">宽搜索栏已禁用</string>
     <string name="revanced_new_actionbar_summary_on">宽搜索栏已启用</string>
     <string name="revanced_new_actionbar_title">宽搜索栏</string>
+    <string name="revanced_official_card_in_search_summary_off">搜索结果中的官方卡片已隐藏</string>
+    <string name="revanced_official_card_in_search_summary_on">搜索结果中的官方卡片已显示</string>
+    <string name="revanced_official_card_in_search_title">搜索结果中的官方卡片</string>
     <string name="revanced_old_style_quality_settings_summary_off">已使用新版画质设置</string>
     <string name="revanced_old_style_quality_settings_summary_on">已使用旧版画质设置</string>
     <string name="revanced_old_style_quality_settings_title">使用旧版画质设置</string>
@@ -286,6 +286,8 @@
     <string name="revanced_override_premium_header_summary_off">当前页眉：默认标志</string>
     <string name="revanced_override_premium_header_summary_on">当前页眉：Premium 标志</string>
     <string name="revanced_override_premium_header_title">Premium 标志</string>
+    <string name="revanced_phone_layout_summary">伪装 DPI 以使用一些手机布局</string>
+    <string name="revanced_phone_layout_title">手机布局</string>
     <string name="revanced_playback_start_summary">用户动作后恢复播放的缓冲区最大时长（毫秒）默认值：2500</string>
     <string name="revanced_playback_start_title">恢复播放缓冲区最大时长</string>
     <string name="revanced_player_popup_panels_title">播放器弹出面板</string>
@@ -304,20 +306,31 @@
 这有时可能无法按预期工作。
 在某些情况下，可能需要重新安装 ReVanced。
 您确定要继续吗？"</string>
+    <string name="revanced_reboot_warning_phone">"伪装 DPI 将一些布局改为手机布局。
+
+如果启用该项，以下功能可用：
+- 社区帖子
+- 隐藏合辑播放列表
+
+由于这仍然是一项实验性功能，可能还有其他未知问题。
+您确定要继续吗？"</string>
+    <string name="revanced_reboot_warning_playback">"修复部分地区的视频播放缓冲问题。
+
+这是由官方 ReVanced 团队添加的功能，但仍在以下情况收到问题报告：
+- 播放播放列表中的视频时，视频结束会自动跳过下一个节目
+
+由于这仍然是一项实验性功能，可能还有其他未知问题。
+您确定要继续吗？"</string>
     <string name="revanced_reboot_warning_ryd">"在新布局中显示点踩计数。
 但由于这仍然是一项实验性功能，因此可能无法准确显示点赞数。
 您确定要继续吗？"</string>
-    <string name="revanced_reboot_warning_tablet">"伪装 dpi 将某些布局更改为平板布局。
+    <string name="revanced_reboot_warning_tablet">"伪装 DPI 将一些布局改为平板布局。
 
-启用该设置，以下功能可用：
-- Shorts 播放器转换为标准播放器
-- 按“添加日期（最早）”排序
-
-以下功能不可用:
+如果启用该项，以下功能不可用：
 - 氛围模式
 - 社区帖子
 
-由于这仍然是一项实验性功能，可能还会导致其他问题。
+由于这仍然是一项实验性功能，可能还有其他未知问题。
 您确定要继续吗？"</string>
     <string name="revanced_rebuffer_summary">重新缓冲后播放缓冲区最大时长（毫秒）默认值：5000</string>
     <string name="revanced_rebuffer_title">重新缓冲后播放缓冲区最大时长</string>
@@ -376,7 +389,7 @@
     <string name="revanced_tablet_miniplayer_summary_off">平板迷你播放器已禁用</string>
     <string name="revanced_tablet_miniplayer_summary_on">平板迷你播放器已启用</string>
     <string name="revanced_tablet_miniplayer_title">平板迷你播放器</string>
-    <string name="revanced_tablet_layout_summary">伪装 dpi 以使用一些平板布局</string>
+    <string name="revanced_tablet_layout_summary">伪装 DPI 以使用一些平板布局</string>
     <string name="revanced_tablet_layout_title">平板布局</string>
     <string name="revanced_timed_reactions_summary_off">时间跳转已启用</string>
     <string name="revanced_timed_reactions_summary_on">时间跳转已禁用</string>
@@ -422,7 +435,6 @@
     <string name="sb_guidelines_preference_sum">指南中包含关于提交片段的提示和规则</string>
     <string name="sb_guidelines_preference_title">查看指南</string>
     <string name="sb_settings">SponsorBlock 设置</string>
-    <string name="sb_shorts_example_video">示例视频</string>
     <string name="sb_summary">SponsorBlock 相关设置</string>
     <string name="segments_endcards">结束画面/演职员表</string>
     <string name="segments_endcards_sum">当演职员表或出现 YouTube 结束画面时。不适用于语音结尾</string>

@@ -44,6 +44,7 @@ class TranslationsPatch : ResourcePatch {
                 "kn-rIN-v21",
                 "ko-rKR-v21",
                 "lt-rLT-v21",
+                "mk-rMK-v21",
                 "ml-rIN-v21",
                 "mr-rIN-v21",
                 "my-rMM-v21",

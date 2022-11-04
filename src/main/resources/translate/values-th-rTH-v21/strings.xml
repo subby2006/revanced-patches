@@ -22,12 +22,6 @@
     <string name="downloader_not_installed_warning">คำเตือนการดาวน์โหลดไม่ได้ติดตั้ง</string>
     <string name="enable_sb">เปิดใช้งาน SponsorBlock</string>
     <string name="enable_sb_sum">SponsorBlock เป็นระบบที่มาจากฝูงชนสำหรับการข้ามส่วนที่น่ารำคาญในวิดีโอ YouTube</string>
-    <string name="enable_sb_shorts">Enable SponsorBlock at Shorts (Alpha)</string>
-    <string name="enable_sb_shorts_content">"Enable Sponsorblock in YouTube Shorts.
-
-Since this feature is still Alpha, it only works in the 'Skip automatically' segment.
-"</string>
-    <string name="enable_sb_shorts_sum">Enable Sponsorblock in YouTube Shorts.</string>
     <string name="enable_segmadding">เปิดใช้งานการเพิ่มส่วนใหม่</string>
     <string name="enable_segmadding_sum">เปิดการใช้งานนี้เพื่อเพิ่มส่วนที่กำลังทดลอง (มีปัญหาในการมองเห็นปุ่ม)</string>
     <string name="enable_voting">เปิดใช้การโหวต</string>
@@ -272,9 +266,6 @@ Is it ready to submit?"</string>
     <string name="revanced_mix_playlists_summary_off">Mix playlist ซ่อนอยู่</string>
     <string name="revanced_mix_playlists_summary_on">Mix playlist จะปรากฏขึ้น</string>
     <string name="revanced_mix_playlists_title">Mix playlist</string>
-    <string name="revanced_music_container_summary_off">Music Container จะปรากฏขึ้น</string>
-    <string name="revanced_music_container_summary_on">Music Container ซ่อนอยู่</string>
-    <string name="revanced_music_container_title">Music Container</string>
     <string name="revanced_new_actionbar_summary_off">แถบค้นหาแบบกว้างปิดใช้งาน</string>
     <string name="revanced_new_actionbar_summary_on">แถบค้นหาแบบกว้างเปิดใช้งาน</string>
     <string name="revanced_new_actionbar_title">แถบค้นหาแบบกว้าง</string>
@@ -307,18 +298,6 @@ Is it ready to submit?"</string>
     <string name="revanced_reboot_warning_ryd">"\"ผสานรวมกับปุ่ม Like เพื่อแสดงจำนวน Dislike ในรูปแบบใหม่
  อย่างไรก็ตาม เนื่องจากคุณลักษณะนี้ยังคงเป็นคุณลักษณะทดลอง จำนวน Like จึงอาจแสดงไม่ถูกต้อง
  แน่ใจนะว่าจะไปต่อ?”"</string>
-    <string name="revanced_reboot_warning_tablet">"Tricks the dpi to change some layouts to tablet layouts.
-
-If you enable this setting, the following features are available:
-- Shorts Player converted to Standard Player
-- Sort by 'Date added (oldest)'
-
-The following features are not available:
-- Ambient mode
-- Community Posts
-
-As this is still an experimental feature, there may be other unknown issues.
-Are you sure you want to continue though?"</string>
     <string name="revanced_rebuffer_summary">Maximum size of a buffer for playback after rebuffering</string>
     <string name="revanced_rebuffer_title">Maximum buffer for playback after rebuffer</string>
     <string name="revanced_reel_summary_off">Stories ถูกซ่อน</string>
@@ -422,7 +401,6 @@ Are you sure you want to continue though?"</string>
     <string name="sb_guidelines_preference_sum">Guidelines contain tips and rules about submitting segments</string>
     <string name="sb_guidelines_preference_title">View guidelines</string>
     <string name="sb_settings">การตั้งค่า SponsorBlock</string>
-    <string name="sb_shorts_example_video">Example Video</string>
     <string name="sb_summary">SponsorBlock related settings</string>
     <string name="segments_endcards">Endcards/Credits</string>
     <string name="segments_endcards_sum">Credits or when the YouTube endcards appear. Not for spoken conclusions</string>
