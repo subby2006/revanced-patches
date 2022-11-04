@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.extended.watchinvr.patch
+package app.revanced.patches.youtube.layout.watchinvr.patch
 
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
@@ -11,7 +11,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.annotation.YouTubeCompatibility
-import app.revanced.patches.youtube.extended.watchinvr.fingerprints.WatchinVRFingerprint
+import app.revanced.patches.youtube.layout.watchinvr.fingerprints.WatchinVRFingerprint
 
 @Patch
 @Name("hide-watch-in-vr")

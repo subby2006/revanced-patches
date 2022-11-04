@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.extended.watchinvr.fingerprints
+package app.revanced.patches.youtube.layout.watchinvr.fingerprints
 
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
