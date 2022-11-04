@@ -3,7 +3,8 @@
     <string name="about">لمحة</string>
     <string name="about_api">هذا التطبيق يستخدم واجهة برمجة التطبيقات من مانع الرعاة SponsorBlock</string>
     <string name="about_api_sum">انقر لمعرفة المزيد؛ والتنزيل لمنصات أخرى على:  sponsor.ajay.app</string>
-    <string name="about_madeby">تم الدمج بواسطة JakubWeg،  تم إعادة الترميز بواسطة oSumAtrIX</string>
+    <string name="about_madeby">•تم الدمج بواسطة JakubWeg،
+•تم إعادة الترميز بواسطة oSumAtrIX</string>
     <string name="accessibility_settings_edu_opt_in_text">هل تريد تشغيل عناصر التحكم في إمكانية الوصول لمشغل الفيديو؟</string>
     <string name="accessibility_settings_edu_opt_out_text">تم تعديل عناصر التحكم الخاصة بك لأن خدمة إمكانية الوصول قيد التشغيل.</string>
     <string name="action_browser">مستعرض SB</string>
@@ -124,6 +125,9 @@
     <string name="reset">إعادة تعيين</string>
     <string name="revanced_ad_settings_title">الإعلانات</string>
     <string name="revanced_ad_settings_summary">إعدادات الإعلانات</string>
+    <string name="revanced_album_card_in_search_summary_off">تم إخفاء بطاقات الألبوم من نتائج البحث</string>
+    <string name="revanced_album_card_in_search_summary_on">يتم عرض بطاقات الألبوم من نتائج البحث</string>
+    <string name="revanced_album_card_in_search_title">بطاقة الألبوم من نتائج البحث</string>
     <string name="revanced_auto_repeat_button_summary_off">تم إخفاء زر التكرار التلقائي</string>
     <string name="revanced_auto_repeat_button_summary_on">تم إظهار زر التكرار التلقائي</string>
     <string name="revanced_auto_repeat_button_title">زر التكرار التلقائي</string>
@@ -183,6 +187,9 @@
     <string name="revanced_extended_settings">إعدادات ReVanced Extended</string>
     <string name="revanced_extended_summary">الإعدادات المتعلقة بــ Extended</string>
     <string name="revanced_extended_title">إعدادات Extended</string>
+    <string name="revanced_fix_playback_summary_off">تم إيقاف تشغيل إصلاح مشكلات التحميل المسبق لتشغيل الفيديو</string>
+    <string name="revanced_fix_playback_summary_on">تم تشغيل إصلاح مشكلات التحميل المسبق لتشغيل الفيديو</string>
+    <string name="revanced_fix_playback_title">إصلاح مشكلات التحميل المسبق لتشغيل الفيديو (تجريبي)</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">يتبع تدوير ملء الشاشة سياسة YouTube الافتراضية</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">خداع إصدار YouTube لتمكين التدوير بملء الشاشة</string>
     <string name="revanced_force_fullscreen_rotation_title">تمكين تدوير ملء الشاشة (تجريبي)</string>
@@ -192,9 +199,9 @@
     <string name="revanced_hdr_full_brightness_summary_off">تم تعطيل سطوع HDR التلقائي</string>
     <string name="revanced_hdr_full_brightness_summary_on">تم تمكين سطوع HDR التلقائي</string>
     <string name="revanced_hdr_full_brightness_title">تمكين سطوع HDR التلقائي</string>
-    <string name="revanced_hide_comments_section_summary_off">يتم عرض قسم إضافة تعليق</string>
-    <string name="revanced_hide_comments_section_summary_on">تم إخفاء قسم إضافة تعليق</string>
-    <string name="revanced_hide_comments_section_title">إخفاء قسم إضافة تعليق</string>
+    <string name="revanced_hide_comments_section_summary_off">يتم عرض قسم التعليق</string>
+    <string name="revanced_hide_comments_section_summary_on">تم إخفاء قسم التعليق</string>
+    <string name="revanced_hide_comments_section_title">إخفاء قسم التعليق</string>
     <string name="revanced_hide_create_clip_button_summary_off">يتم عرض زر إنشاء مقطع</string>
     <string name="revanced_hide_create_clip_button_summary_on">تم إخفاء زر إنشاء مقطع</string>
     <string name="revanced_hide_create_clip_button_title">إخفاء زر إنشاء مقطع</string>
@@ -266,6 +273,9 @@
     <string name="revanced_new_actionbar_summary_off">تم تعطيل شريط البحث العريض</string>
     <string name="revanced_new_actionbar_summary_on">تم تمكين شريط البحث العريض</string>
     <string name="revanced_new_actionbar_title">شريط البحث العريض</string>
+    <string name="revanced_official_card_in_search_summary_off">تم إخفاء البطاقات الرسمية من نتائج البحث</string>
+    <string name="revanced_official_card_in_search_summary_on">يتم عرض البطاقات الرسمية في نتائج البحث</string>
+    <string name="revanced_official_card_in_search_title">البطاقات الرسمية من نتائج البحث</string>
     <string name="revanced_old_style_quality_settings_summary_off">يتم عرض المظهر الجديد لإعدادات جودة الفيديو</string>
     <string name="revanced_old_style_quality_settings_summary_on">يتم عرض المظهر القديم لإعدادات جودة الفيديو</string>
     <string name="revanced_old_style_quality_settings_title">مظهر إعدادات جودة الفيديو</string>
@@ -274,6 +284,8 @@
     <string name="revanced_override_premium_header_summary_off">العنوان الحالي: الافتراضي</string>
     <string name="revanced_override_premium_header_summary_on">العنوان الحالي: Premium Header</string>
     <string name="revanced_override_premium_header_title">Premium Header</string>
+    <string name="revanced_phone_layout_summary">حِيَل نقاط لكل انش لاستخدام بعض تصميمات الجوال</string>
+    <string name="revanced_phone_layout_title">تصميم الجوال</string>
     <string name="revanced_playback_start_summary">المدة التي يجب تحميلها مسبقًا من الفيديو لكي يبدأ أو يستأنف بعد إجراء المستخدم مثل تقديم الفيديو، (بالمللي ثانية)  الافتراضي: 2500</string>
     <string name="revanced_playback_start_title">بداية التشغيل</string>
     <string name="revanced_player_popup_panels_title">لوحات المشغل المنبثقة</string>
@@ -289,7 +301,18 @@
     <string name="revanced_preferred_video_speed_summary">تحديد سرعة الفيديو المفضلة</string>
     <string name="revanced_preferred_video_speed_title">سرعة الفيديو المفضلة</string>
     <string name="revanced_reboot_warning_fullscreen">"خداع إصدار YouTube ومحاولة تحديثه من سيرفر جانبي. قد لا يعمل هذا أحيانًا على النحو المنشود. في بعض الحالات، قد يكون من الضروري إعادة تثبيت ReVanced. هل أنت متأكد من أنك تريد المتابعة بالرغم من ذلك؟"</string>
+    <string name="revanced_reboot_warning_phone">"حِيَل نقاط لكل انش لتغيير بعض التصميمات إلى تصميمات الجوال. إذا قمت بتمكين هذا الإعداد ، فستتوفر الميزات التالية:
+•مشاركات المجتمع 
+•إخفاء قائمة تشغيل التشكيلة
+نظرًا لأن هذه لا تزال ميزة تجريبية ، فقد تكون هناك مشكلات أخرى غير معروفة. هل أنت متأكد من أنك  هل تريد الاستمرار رغم ذلك؟"</string>
+    <string name="revanced_reboot_warning_playback">"إصلاح مشكلات التحميل المسبق لتشغيل الفيديو في بعض المناطق. هذه ميزة تمت إضافتها رسميًا بواسطة فريق ReVanced ، ولكن لا يزال يتم الإبلاغ عن المشكلات في المواقف التالية:
+•عند تشغيل مقطع فيديو في قائمة التشغيل ، يتم تخطي المسار التالي تلقائيًا عند انتهاء الفيديو.
+نظرًا لأن هذه لا تزال ميزة تجريبية ، فقد تكون هناك مشكلات أخرى غير معروفة. هل تريد بالتأكيد المتابعة بالرغم من ذلك؟"</string>
     <string name="revanced_reboot_warning_ryd">"يتكامل مع زر الإعجاب لعرض عدد مرات عدم الإعجاب في التصميم الجديد. ومع ذلك، نظرًا لأن هذه الميزة لا تزال تجريبية، فقد لا يتم عرض العدد المتشابه بدقة. هل أنت متأكد أنك تريد المتابعة بالرغم من ذلك؟"</string>
+    <string name="revanced_reboot_warning_tablet">"حِيَل نقاط لكل انش لتغيير بعض التنسيقات إلى تصميمات الجهاز اللوحي. إذا قمت بتمكين هذا الإعداد ، فلن تتوفر الميزات التالية:
+•الوضع المحيط 
+•مشاركات المجتمع
+نظرًا لأن هذه لا تزال ميزة تجريبية فقد تكون هناك مشكلات أخرى غير معروفة. هل أنت متأكد من أنك  هل تريد الاستمرار رغم ذلك؟"</string>
     <string name="revanced_rebuffer_summary">المدة التي يجب تحميلها مسبقًا من الفيديو لإعادة التشغيل بعد إعادة التحميل (بالمللي ثانية). تم تعريف إعادة التحميل المسبق على إنها إنتهاء الجزء المُنَّزَّل من الفيديو وليست بسبب إجراءات المستخدم  الافتراضي: 5000</string>
     <string name="revanced_rebuffer_title">إعادة التحميل المسبق</string>
     <string name="revanced_reel_summary_off">تم إخفاء قصص يوتيوب</string>
@@ -347,7 +370,7 @@
     <string name="revanced_tablet_miniplayer_summary_off">تم تعطيل لوح المشغل المصَّغَّر</string>
     <string name="revanced_tablet_miniplayer_summary_on">تم تمكين لوح المشغل المصَّغَّر</string>
     <string name="revanced_tablet_miniplayer_title">المُشَّغل المصَّغَّر</string>
-    <string name="revanced_tablet_layout_summary">حِيَل dpi لاستخدام بعض تصميمات الجهاز اللوحي</string>
+    <string name="revanced_tablet_layout_summary">حِيَل نقاط لكل إنش لاستخدام بعض تصميمات الجهاز اللوحي</string>
     <string name="revanced_tablet_layout_title">تصميم الجهاز اللوحي</string>
     <string name="revanced_timed_reactions_summary_off">يتم عرض ردود الفعل المؤقتة</string>
     <string name="revanced_timed_reactions_summary_on">تم إخفاء ردود الفعل المؤقتة</string>
@@ -428,10 +451,10 @@
     <string name="skipped_unsubmitted">تم تخطي المقطع الغير المرسل</string>
     <string name="stats">إحصائيات</string>
     <string name="stats_loading">جاري التحميل..</string>
-    <string name="stats_saved">"لقد قمت بحفظ الناس من &lt;b&gt;%s&lt;/b&gt; مقاطع."</string>
+    <string name="stats_saved">"لقد قمت بحفظ الناس من &lt;b&gt;%s&lt;/b&gt; مقطع."</string>
     <string name="stats_saved_sum">"هذا يساوي &lt;b&gt;%s&lt;/b&gt; من حياتهم. انقر لرؤية لوحة المتصدرين"</string>
     <string name="stats_sb_disabled">تم تعطيل مانِع الرُعَاة</string>
-    <string name="stats_self_saved">"لقد قمت بتخطي &lt;b&gt;%s&lt;/b&gt; مقاطع."</string>
+    <string name="stats_self_saved">"لقد قمت بتخطي &lt;b&gt;%s&lt;/b&gt; مقطع."</string>
     <string name="stats_self_saved_sum">"هذا يساوي &lt;b&gt;%s&lt;/b&gt;."</string>
     <string name="stats_submissions">المقاطع المرسلة: &lt;b&gt;%s&lt;/b&gt;</string>
     <string name="stats_username">اسم المستخدم الخاص بك: &lt;b&gt;%s&lt;/b&gt;</string>

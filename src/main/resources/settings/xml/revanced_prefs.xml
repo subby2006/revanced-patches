@@ -136,6 +136,6 @@
         <SwitchPreference android:title="@string/revanced_tablet_layout_title" android:key="revanced_tablet_layout" android:summary="@string/revanced_tablet_layout_summary" android:defaultValue="false" />
         <SwitchPreference android:title="@string/revanced_phone_layout_title" android:key="revanced_phone_layout" android:summary="@string/revanced_phone_layout_summary" android:defaultValue="false" />
         <Preference android:title=" " android:selectable="false" android:summary="@string/revanced_tool_used" />
-        <Preference android:title="revanced-patches" android:selectable="false" android:summary="2.102.0" />
+        <Preference android:title="revanced-patches" android:selectable="false" android:summary="2.102.1" />
     </PreferenceScreen>
 </PreferenceScreen>

@@ -247,8 +247,8 @@
     <string name="revanced_hide_time_and_seekbar_summary_off">Время и прогресс видео скрыты</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">Время и прогресс видео показаны</string>
     <string name="revanced_hide_time_and_seekbar_title">Время и прогресс видео</string>
-    <string name="revanced_hide_watch_in_vr_summary_off">Элемент просмотра в VR показан из элемента меню</string>
-    <string name="revanced_hide_watch_in_vr_summary_on">Элемент просмотра в VR скрыт из элемента меню</string>
+    <string name="revanced_hide_watch_in_vr_summary_off">Опция просмотра в VR показана в меню</string>
+    <string name="revanced_hide_watch_in_vr_summary_on">Опция просмотра в VR скрыта из меню</string>
     <string name="revanced_hide_watch_in_vr_title">Просмотр в VR</string>
     <string name="revanced_home_ads_summary_off">Реклама на главной странице скрыта</string>
     <string name="revanced_home_ads_summary_on">Реклама на главной странице показана</string>
@@ -270,8 +270,8 @@
     <string name="revanced_minimized_playback_on">Воспроизведение в фоне включено</string>
     <string name="revanced_misc_summary">Прочие настройки</string>
     <string name="revanced_misc_title">Разное</string>
-    <string name="revanced_mix_playlists_summary_off">Плейлист \"Джем\" показан</string>
-    <string name="revanced_mix_playlists_summary_on">Плейлист \"Джем\" скрыт</string>
+    <string name="revanced_mix_playlists_summary_off">Плейлист \"Джем\" скрыт</string>
+    <string name="revanced_mix_playlists_summary_on">Плейлист \"Джем\" показан</string>
     <string name="revanced_mix_playlists_title">Плейлист \"Джем\"</string>
     <string name="revanced_new_actionbar_summary_off">Широкая панель поиска отключена</string>
     <string name="revanced_new_actionbar_summary_on">Широкая панель поиска включена</string>
@@ -335,7 +335,7 @@
 
 Поскольку это все еще экспериментальная функция, могут возникнуть другие неизвестные проблемы.
 Вы уверены, что хотите продолжить?"</string>
-    <string name="revanced_rebuffer_summary">Продолжительность видео, которую необходимо буферизовать для возобновления воспроизведения после повторной буферизации (в миллисекундах). Ребуфер определяется как вызванный истощением буфера, а не действием пользователя. Стандартное: 5000</string>
+    <string name="revanced_rebuffer_summary">Продолжительность видео, которую необходимо буферизовать для возобновления воспроизведения после повторной буферизации (в миллисекундах). Ребуфер определяется как вызванный истощением буфера, а не действием пользователя. По умолчанию: 5000</string>
     <string name="revanced_rebuffer_title">Ребуферризация</string>
     <string name="revanced_reel_summary_off">Истории скрыты</string>
     <string name="revanced_reel_summary_on">Истории показаны</string>

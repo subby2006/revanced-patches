@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="about">關於 --譯者: 唐懂</string>
+    <string name="about">關於</string>
     <string name="about_api">此軟體使用 SponsorBlock 的API</string>
     <string name="about_api_sum">點擊以了解更多並檢視其他平台的下載： sponsor.ajay.app</string>
     <string name="about_madeby">由 JakubWeg 整合, 由 oSumAtrIX 重新編碼</string>
@@ -186,7 +186,7 @@
     <string name="revanced_disable_auto_captions_summary_on">"強制播放帶字幕的影片時不啟用字幕"</string>
     <string name="revanced_disable_auto_captions_title">停用自動字幕</string>
     <string name="revanced_experimental_flag">實驗性功能</string>
-    <string name="revanced_extended_settings">ReVanced Extended 設定 --譯者: 唐懂</string>
+    <string name="revanced_extended_settings">ReVanced Extended 設定</string>
     <string name="revanced_extended_summary">Extended 相關設定</string>
     <string name="revanced_extended_title">Extended 設定</string>
     <string name="revanced_fix_playback_summary_off">修復影片回放緩衝區 已關閉</string>
@@ -275,9 +275,9 @@
     <string name="revanced_new_actionbar_summary_off">寬搜尋欄已停用</string>
     <string name="revanced_new_actionbar_summary_on">寬搜尋欄已啟用</string>
     <string name="revanced_new_actionbar_title">寬搜尋欄</string>
-    <string name="revanced_official_card_in_search_summary_off">已隱藏Youtube搜尋介面的官方資訊卡</string>
-    <string name="revanced_official_card_in_search_summary_on">已顯示Youtube搜尋介面的官方資訊卡</string>
-    <string name="revanced_official_card_in_search_title">Youtube搜尋介面的官方資訊卡</string>
+    <string name="revanced_official_card_in_search_summary_off">已隱藏 Youtube 搜尋介面的官方資訊卡</string>
+    <string name="revanced_official_card_in_search_summary_on">已顯示 Youtube 搜尋介面的官方資訊卡</string>
+    <string name="revanced_official_card_in_search_title">Youtube 搜尋介面的官方資訊卡</string>
     <string name="revanced_old_style_quality_settings_summary_off">顯示新版品質設定</string>
     <string name="revanced_old_style_quality_settings_summary_on">顯示舊版品質設定</string>
     <string name="revanced_old_style_quality_settings_title">使用舊版品質設定</string>
@@ -339,17 +339,17 @@
     <string name="revanced_reel_summary_on">故事已顯示</string>
     <string name="revanced_reel_title">YouTube 故事</string>
     <string name="revanced_ryd_new_layout_title">修復 RYD（新佈局）</string>
-    <string name="revanced_ryd_new_layout_summary">在新佈局中顯示不喜歡的計數器</string>
+    <string name="revanced_ryd_new_layout_summary">在新佈局中顯示倒讚的計數器</string>
     <string name="revanced_ryd_attribution_summary">此整合使用來自 https://returnyoutubedislike.com 的 Return YouTube Dislike API。點按以了解更多訊息</string>
     <string name="revanced_ryd_attribution_title">Return YouTube Dislike 套件</string>
     <string name="revanced_ryd_settings_summary">Return YouTube Dislike 設定</string>
     <string name="revanced_ryd_settings_title">Return YouTube Dislike</string>
-    <string name="revanced_ryd_summary">開啟此選項以檢視不喜歡的數量</string>
+    <string name="revanced_ryd_summary">開啟此選項以檢視倒讚的數量</string>
     <string name="revanced_ryd_title">啟用 Return YouTube Dislike</string>
     <string name="revanced_seekbar_tapping">啟用進度條點擊</string>
     <string name="revanced_seekbar_tapping_off">進度條點擊已停用</string>
     <string name="revanced_seekbar_tapping_on">進度條點擊已啟用</string>
-    <string name="revanced_settings">Revanced 設定 --譯者: 唐懂</string>
+    <string name="revanced_settings">Revanced 設定</string>
     <string name="revanced_shorts_button_summary_off">Shorts 按鈕已隱藏</string>
     <string name="revanced_shorts_button_summary_on">Shorts 按鈕已顯示</string>
     <string name="revanced_shorts_button_title">Shorts 按鈕</string>
@@ -395,7 +395,7 @@
     <string name="revanced_timed_reactions_summary_off">即時互動已顯示</string>
     <string name="revanced_timed_reactions_summary_on">即時互動已隱藏</string>
     <string name="revanced_timed_reactions_title">即時互動</string>
-    <string name="revanced_tool_used">使用的工具 --譯者: 唐懂</string>
+    <string name="revanced_tool_used">使用的工具</string>
     <string name="revanced_uri_redirect_summary_off">"遵守 YouTube 的重新導向政策"</string>
     <string name="revanced_uri_redirect_summary_on">使用繞過 youtube.com/redirect 打開網址</string>
     <string name="revanced_uri_redirect_title">Youtube 連結重新導向</string>
