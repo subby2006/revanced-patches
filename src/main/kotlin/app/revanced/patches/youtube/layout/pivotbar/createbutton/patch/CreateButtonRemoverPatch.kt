@@ -23,7 +23,7 @@ import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePa
 
 @Patch
 @DependsOn([IntegrationsPatch::class, ResourceMappingResourcePatch::class])
-@Name("hide-create-button")
+@Name("disable-create-button")
 @Description("Hides the create button in the navigation bar.")
 @YouTubeCompatibility
 @Version("0.0.1")
