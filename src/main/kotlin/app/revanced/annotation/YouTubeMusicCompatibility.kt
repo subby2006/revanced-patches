@@ -5,7 +5,7 @@ import app.revanced.patcher.annotation.Package
 
 @Compatibility(
     [Package(
-        "com.google.android.apps.youtube.music", arrayOf("5.28.52", "5.29.53", "5.30.51")
+        "com.google.android.apps.youtube.music", arrayOf("5.28.52", "5.29.53", "5.30.52", "5.31.50")
     )]
 )
 @Target(AnnotationTarget.CLASS)
