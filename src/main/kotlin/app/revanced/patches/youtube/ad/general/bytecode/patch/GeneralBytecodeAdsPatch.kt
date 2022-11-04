@@ -49,6 +49,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
     private val resourceIds = arrayOf(
         "ad_attribution",
         "reel_multiple_items_shelf",
+        "reel_item_container",
         "info_cards_drawer_header",
         "endscreen_element_layout_video",
         "endscreen_element_layout_circle",
@@ -101,7 +102,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
 
                                 }
 
-                                resourceIds[1] -> { // reel ads
+                                resourceIds[1], resourceIds[2] -> { // reel ads
                                     //  and is followed by an instruction at insertIndex with the mnemonic IPUT_OBJECT
                                     val insertIndex = index + 4
                                     val iPutInstruction = instructions.elementAt(insertIndex)
@@ -116,7 +117,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                                     mutableMethod!!.implementation!!.injectHideCallReels(insertIndex, viewRegister)
                                 }
 
-                                resourceIds[2] -> { // info cards ads
+                                resourceIds[3] -> { // info cards ads
                                     //  and is followed by an instruction with the mnemonic INVOKE_VIRTUAL
                                     val removeIndex = index - 1
                                     val invokeInstruction = instructions.elementAt(removeIndex)
@@ -131,7 +132,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                                     mutableMethod!!.implementation!!.removeInstruction(removeIndex)
                                 }
 
-                                resourceIds[3], resourceIds[4], resourceIds[5] -> { // end screen ads
+                                resourceIds[4], resourceIds[5], resourceIds[6] -> { // end screen ads
                                     //  and is followed by an instruction with the mnemonic IPUT_OBJECT
                                     val insertIndex = index + 7
                                     //val invokeInstruction = instructions.elementAt(insertIndex)
@@ -152,7 +153,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                                     )
                                 }
 
-                                resourceIds[6] -> {
+                                resourceIds[7] -> {
                                     //  and is followed by an instruction with the mnemonic INVOKE_DIRECT
                                     val insertIndex = index + 3
                                     val invokeInstruction = instructions.elementAt(insertIndex)
@@ -168,7 +169,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                                     mutableMethod!!.implementation!!.injectHideCall(insertIndex, viewRegister)
                                 }
 
-                                resourceIds[7] -> {
+                                resourceIds[8] -> {
                                     // adapt the index to version 17.43.36 or later
                                     val iGetBooleanInstruction = instructions.elementAt(index - 1)
                                     var insertIndex = index + 2
@@ -192,7 +193,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                                     mutableMethod!!.implementation!!.injectHideCall(insertIndex + 2, viewRegister)
                                 }
 
-                                resourceIds[8] -> { // crowdfunding
+                                resourceIds[9] -> { // crowdfunding
                                     //  and is followed by an instruction at insertIndex with the mnemonic IPUT_OBJECT
                                     val insertIndex = index + 3
                                     val iPutInstruction = instructions.elementAt(insertIndex)
