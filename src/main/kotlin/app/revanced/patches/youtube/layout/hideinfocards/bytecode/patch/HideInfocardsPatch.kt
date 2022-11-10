@@ -7,14 +7,12 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.instruction
-import app.revanced.patcher.extensions.replaceInstruction
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
-import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.youtube.layout.hideinfocards.bytecode.fingerprints.InfocardsIncognitoFingerprint
 import app.revanced.patches.youtube.layout.hideinfocards.bytecode.fingerprints.InfocardsMethodCallFingerprint
 import app.revanced.patches.youtube.layout.hideinfocards.bytecode.fingerprints.InfocardsIncognitoParentFingerprint
@@ -45,25 +43,15 @@ class HideInfocardsPatch : BytecodePatch(
                         "Landroid/view/View;->setVisibility(I)V")
                 }
 
-                replaceInstruction(invokeInstructionIndex, """
-                    invoke-static {v${(instruction(invokeInstructionIndex) as? BuilderInstruction35c)?.registerC}}, Lapp/revanced/integrations/patches/HideInfocardsPatch;->hideInfocardsIncognito(Landroid/view/View;)V
-                    """
+                val register = (instruction(invokeInstructionIndex) as? BuilderInstruction35c)?.registerC
+
+                addInstructions(
+                invokeInstructionIndex, """
+                    invoke-static {}, Lapp/revanced/integrations/patches/HideInfocardsPatch;->hideInfoCard()I
+                    move-result v1
+                    invoke-virtual {v$register, v1}, Landroid/view/View;->setVisibility(I)V
+                """
                 )
-        }
-
-        with(InfocardsMethodCallFingerprint.result!!) {
-            val hideInfocardsCallMethod = mutableMethod
-
-            val invokeInterfaceIndex = scanResult.patternScanResult!!.endIndex
-            val toggleRegister = hideInfocardsCallMethod.implementation!!.registerCount - 1
-
-            hideInfocardsCallMethod.addInstructions(
-                invokeInterfaceIndex, """
-                    invoke-static {}, Lapp/revanced/integrations/patches/HideInfocardsPatch;->hideInfocardsMethodCall()Z
-                    move-result v$toggleRegister
-                    if-nez v$toggleRegister, :hide_info_cards
-                """, listOf(ExternalLabel("hide_info_cards", hideInfocardsCallMethod.instruction(invokeInterfaceIndex + 1)))
-            )
         }
 
         return PatchResultSuccess()
