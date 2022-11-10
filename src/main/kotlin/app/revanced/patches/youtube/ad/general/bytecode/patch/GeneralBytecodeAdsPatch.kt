@@ -50,10 +50,6 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
         "ad_attribution",
         "reel_multiple_items_shelf",
         "reel_item_container",
-        "info_cards_drawer_header",
-        "endscreen_element_layout_video",
-        "endscreen_element_layout_circle",
-        "endscreen_element_layout_icon",
         "promoted_video_item_land",
         "promoted_video_item_full_bleed",
         "donation_companion"
@@ -117,43 +113,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                                     mutableMethod!!.implementation!!.injectHideCallReels(insertIndex, viewRegister)
                                 }
 
-                                resourceIds[3] -> { // info cards ads
-                                    //  and is followed by an instruction with the mnemonic INVOKE_VIRTUAL
-                                    val removeIndex = index - 1
-                                    val invokeInstruction = instructions.elementAt(removeIndex)
-                                    if (invokeInstruction.opcode != Opcode.INVOKE_VIRTUAL) return@forEachIndexed
-
-                                    // create proxied method, make sure to not re-resolve() the current class
-                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
-                                    if (mutableMethod == null) mutableMethod =
-                                        mutableClass!!.findMutableMethodOf(method)
-
-                                    //ToDo: Add Settings toggle for whatever this is
-                                    mutableMethod!!.implementation!!.removeInstruction(removeIndex)
-                                }
-
-                                resourceIds[4], resourceIds[5], resourceIds[6] -> { // end screen ads
-                                    //  and is followed by an instruction with the mnemonic IPUT_OBJECT
-                                    val insertIndex = index + 7
-                                    //val invokeInstruction = instructions.elementAt(insertIndex)
-                                    //if (invokeInstruction.opcode != Opcode.IPUT_OBJECT) return@forEachIndexed
-
-                                    // create proxied method, make sure to not re-resolve() the current class
-                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
-                                    if (mutableMethod == null) mutableMethod =
-                                        mutableClass!!.findMutableMethodOf(method)
-
-                                    // TODO: dynamically get registers
-                                    mutableMethod!!.addInstructions(
-                                        insertIndex, """
-                                                invoke-static {}, Lapp/revanced/integrations/patches/HideInfoCardSuggestionsPatch;->hideInfoCardSuggestions()I
-                                                move-result v1
-                                                invoke-virtual {v0,v1}, Landroid/widget/FrameLayout;->setVisibility(I)V
-                                            """
-                                    )
-                                }
-
-                                resourceIds[7] -> {
+                                resourceIds[3] -> {
                                     //  and is followed by an instruction with the mnemonic INVOKE_DIRECT
                                     val insertIndex = index + 3
                                     val invokeInstruction = instructions.elementAt(insertIndex)
@@ -169,7 +129,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                                     mutableMethod!!.implementation!!.injectHideCall(insertIndex, viewRegister)
                                 }
 
-                                resourceIds[8] -> {
+                                resourceIds[4] -> {
                                     // adapt the index to version 17.43.36 or later
                                     val iGetBooleanInstruction = instructions.elementAt(index - 1)
                                     var insertIndex = index + 2
@@ -193,7 +153,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                                     mutableMethod!!.implementation!!.injectHideCall(insertIndex + 2, viewRegister)
                                 }
 
-                                resourceIds[9] -> { // crowdfunding
+                                resourceIds[5] -> { // crowdfunding
                                     //  and is followed by an instruction at insertIndex with the mnemonic IPUT_OBJECT
                                     val insertIndex = index + 3
                                     val iPutInstruction = instructions.elementAt(insertIndex)

@@ -83,6 +83,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `default-video-speed` | Adds the ability to set default video speed. | 17.43.36 |
 | `video-ads` | Removes ads in the video player. | 17.43.36 |
 | `general-ads` | Removes general ads. | 17.43.36 |
+| `hide-endscreen-cards` | Hides the suggested video cards at the end of a video in fullscreen. | 17.43.36 |
 | `hide-info-cards` | Hides info-cards in videos. | 17.43.36 |
 | `website` | Leave website URL in ReVanced settings. | all |
 </details>

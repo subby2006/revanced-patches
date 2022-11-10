@@ -184,6 +184,9 @@ Is it ready to submit?"</string>
     <string name="revanced_disable_auto_captions_summary_off">Captions are enabled when playing a video with captioning is enforced</string>
     <string name="revanced_disable_auto_captions_summary_on">"Captions aren't enabled when playing a video with captioning is enforced"</string>
     <string name="revanced_disable_auto_captions_title">Disable Auto captions</string>
+    <string name="revanced_endscreen_cards_summary_off">End-screen cards are hidden</string>
+    <string name="revanced_endscreen_cards_summary_on">End-screen cards are shown</string>
+    <string name="revanced_endscreen_cards_title">End-screen cards</string>
     <string name="revanced_experimental_flag">Experimental Flags</string>
     <string name="revanced_extended_settings">ReVanced Extended settings</string>
     <string name="revanced_extended_summary">Extended related settings</string>
@@ -254,9 +257,6 @@ Is it ready to submit?"</string>
     <string name="revanced_inapp_browser_summary_off">Open external links within the app</string>
     <string name="revanced_inapp_browser_summary_on">Open external links in an external browser</string>
     <string name="revanced_inapp_browser_title">In-app browser</string>
-    <string name="revanced_info_cards_summary_off">Info cards are hidden</string>
-    <string name="revanced_info_cards_summary_on">Info cards are shown</string>
-    <string name="revanced_info_cards_title">Info cards</string>
     <string name="revanced_interactions_summary">Settings related to interactions</string>
     <string name="revanced_interactions_title">Interaction settings</string>
     <string name="revanced_layout_settings_summary">Settings related to the layout</string>
