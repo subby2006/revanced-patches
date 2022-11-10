@@ -16,6 +16,8 @@ import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatc
 import app.revanced.util.resources.ResourceUtils
 import app.revanced.util.resources.ResourceUtils.copyResources
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
+import java.nio.file.Files
+import java.nio.file.StandardCopyOption
 import org.w3c.dom.Element
 
 @Patch(false)
@@ -26,6 +28,34 @@ import org.w3c.dom.Element
 @Version("0.0.1")
 class MaterialYouPatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
+
+        val drawables1 = "drawable-night-v31" to arrayOf(
+            "new_content_dot_background.xml"
+        )
+
+        val drawables2 = "drawable-v31" to arrayOf(
+            "new_content_count_background.xml",
+            "new_content_dot_background.xml"
+        )
+
+        val layout1 = "layout-v31" to arrayOf(
+            "new_content_count.xml"
+        )
+
+        val MonetResources = arrayOf(drawables1, drawables2, layout1)
+
+        MonetResources.forEach { (path, resourceNames) ->
+            Files.createDirectory(context["res"].resolve("$path").toPath())
+            resourceNames.forEach { name ->
+                val monetPath = "$path/$name"
+
+                Files.copy(
+                    this.javaClass.classLoader.getResourceAsStream("materialyou/$monetPath")!!,
+                    context["res"].resolve(monetPath).toPath(),
+                    StandardCopyOption.REPLACE_EXISTING
+                )
+            }
+        }
 
 		 val sourcePath = this.javaClass.classLoader.getResourceAsStream("materialyou/host/values-v31/colors.xml")!!
 		 val relativePath = context.xmlEditor["res/values-v31/colors.xml"]
