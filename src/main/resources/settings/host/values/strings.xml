@@ -161,6 +161,9 @@ Is it ready to submit?"</string>
     <string name="revanced_crowdfunding_box_summary_off">Crowdfunding box is hidden</string>
     <string name="revanced_crowdfunding_box_summary_on">Crowdfunding box is shown</string>
     <string name="revanced_crowdfunding_box_title">Crowdfunding box</string>
+    <string name="revanced_cutout_glitch_summary_off">Cutout Glitch is shown</string>
+    <string name="revanced_cutout_glitch_summary_on">Cutout Glitch is hidden</string>
+    <string name="revanced_cutout_glitch_title">Cutout Glitch</string>
     <string name="revanced_default_downloader">ussr.razar.youtube_dl</string>
     <string name="revanced_download_video_summary_off">Download Button is hidden</string>
     <string name="revanced_download_video_summary_on">Download Button is visible</string>
