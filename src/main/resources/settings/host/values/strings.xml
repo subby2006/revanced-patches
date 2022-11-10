@@ -326,9 +326,6 @@ This is a feature officially added by the ReVanced Team, but still issues have b
 
 As this is still an experimental feature, there may be other unknown issues.
 Are you sure you want to continue though?"</string>
-    <string name="revanced_reboot_warning_ryd">"Integrates with the like button to display dislike counts in a new layout.
-However, since this is still an experimental feature, the like count may not be displayed accurately.
-Are you sure you want to continue though?"</string>
     <string name="revanced_reboot_warning_tablet">"Tricks the dpi to change some layouts to tablet layouts.
 
 If you enable this setting, the following features are not available:
@@ -342,8 +339,6 @@ Are you sure you want to continue though?"</string>
     <string name="revanced_reel_summary_off">Stories are hidden</string>
     <string name="revanced_reel_summary_on">Stories are shown</string>
     <string name="revanced_reel_title">YouTube stories</string>
-    <string name="revanced_ryd_new_layout_title">Fix RYD (new layout)</string>
-    <string name="revanced_ryd_new_layout_summary">Show dislike count in new layout</string>
     <string name="revanced_ryd_attribution_summary">This integration uses the Return YouTube Dislike API from https://returnyoutubedislike.com. Tap to learn more</string>
     <string name="revanced_ryd_attribution_title">Return YouTube Dislike patch</string>
     <string name="revanced_ryd_settings_summary">Settings for Return YouTube Dislike</string>
