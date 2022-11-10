@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.layout.hideinfocards.fingerprints
+package app.revanced.patches.youtube.layout.hideinfocards.bytecode.fingerprints
 
 import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patcher.annotation.Name

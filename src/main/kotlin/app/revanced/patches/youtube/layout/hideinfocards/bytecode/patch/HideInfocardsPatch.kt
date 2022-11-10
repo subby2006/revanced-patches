@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.layout.hideinfocards.patch
+package app.revanced.patches.youtube.layout.hideinfocards.bytecode.patch
 
 import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patcher.annotation.Description
@@ -15,9 +15,9 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.util.smali.ExternalLabel
-import app.revanced.patches.youtube.layout.hideinfocards.fingerprints.InfocardsIncognitoFingerprint
-import app.revanced.patches.youtube.layout.hideinfocards.fingerprints.InfocardsMethodCallFingerprint
-import app.revanced.patches.youtube.layout.hideinfocards.fingerprints.InfocardsIncognitoParentFingerprint
+import app.revanced.patches.youtube.layout.hideinfocards.bytecode.fingerprints.InfocardsIncognitoFingerprint
+import app.revanced.patches.youtube.layout.hideinfocards.bytecode.fingerprints.InfocardsMethodCallFingerprint
+import app.revanced.patches.youtube.layout.hideinfocards.bytecode.fingerprints.InfocardsIncognitoParentFingerprint
 import app.revanced.patches.youtube.layout.hideinfocards.resource.patch.HideInfocardsResourcePatch
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import org.jf.dexlib2.Opcode
