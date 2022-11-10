@@ -59,7 +59,6 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
 
     private val stringReferences = arrayOf(
         "Claiming to use more elements than provided",
-        "loadVideo() called on LocalDirector in wrong state",
         "LoggingProperties are not in proto format"
     )
 
@@ -189,11 +188,7 @@ class GeneralBytecodeAdsPatch : BytecodePatch() {
                                     )
                                 }
 
-                                stringReferences[1] -> {
-                                    // TODO: migrate video ads patch to here if necessary
-                                }
-
-                                stringReferences[2] -> { // Litho ads
+                                stringReferences[1] -> { // Litho ads
                                     val proxy = context.proxy(classDef)
                                     val proxiedClass = proxy.mutableClass
 
