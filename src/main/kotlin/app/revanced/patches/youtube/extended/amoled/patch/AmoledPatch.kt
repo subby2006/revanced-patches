@@ -36,9 +36,6 @@ class AmoledPatch : ResourcePatch {
                     "material_grey_600", "material_grey_800", "material_grey_850", "material_grey_900",
                     "material_grey_white_1000", "sud_glif_v3_dialog_background_color_dark" -> "@android:color/black"
 
-                    "yt_white1", "yt_white1_opacity95", "yt_white1_opacity98", "yt_white2", "yt_white3", "yt_white4",
-                    "sud_glif_v3_dialog_background_color_light" -> "@android:color/white"
-
                     else -> continue
                 }
             }
