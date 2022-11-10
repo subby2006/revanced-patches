@@ -12,7 +12,7 @@ import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePa
 
 @Name("hide-endscreen-cards-resource-patch")
 @YouTubeCompatibility
-@DependsOn([SettingsPatch::class, ResourceMappingResourcePatch::class])
+@DependsOn([ResourceMappingResourcePatch::class])
 @Version("0.0.1")
 class HideEndscreenCardsResourcePatch : ResourcePatch {
     internal companion object {

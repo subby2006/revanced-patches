@@ -27,7 +27,7 @@ import org.jf.dexlib2.builder.instruction.BuilderInstruction35c
 @DependsOn([IntegrationsPatch::class, HideInfocardsResourcePatch::class])
 @Name("hide-info-cards")
 @Description("Hides info-cards in videos.")
-@HideInfocardsCompatibility
+@YouTubeCompatibility
 @Version("0.0.1")
 class HideInfocardsPatch : BytecodePatch(
     listOf(

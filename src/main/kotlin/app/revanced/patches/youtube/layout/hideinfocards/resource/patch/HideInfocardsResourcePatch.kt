@@ -1,6 +1,7 @@
 package app.revanced.patches.youtube.layout.hideinfocards.resource.patch
 
 import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
