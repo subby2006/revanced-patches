@@ -27,9 +27,6 @@ import org.jf.dexlib2.iface.instruction.formats.*
 @NewYouTubeCompatibility
 @Version("0.0.1")
 class NewAdsPatch : BytecodePatch() {
-    // a constant used by litho
-    private val lithoConstant = 0xaed2868
-
     // list of resource names to get the id of
     private val resourceIds = arrayOf(
         "promoted_video_item_land_stark_ad_badge"

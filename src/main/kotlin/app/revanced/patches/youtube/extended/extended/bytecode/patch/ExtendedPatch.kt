@@ -59,7 +59,11 @@ class ExtendedPatch : BytecodePatch() {
         "ic_right_comment_32c",
         "shelf_header",
         "horizontal_card_list",
-        "bottom_panel_overlay_text"
+        "bottom_panel_overlay_text",
+        "reel_player_paused_state_buttons",
+        "reel_dyn_remix",
+        "scrim_overlay",
+        "google_transparent"
     ).map { name ->
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
@@ -213,6 +217,64 @@ class ExtendedPatch : BytecodePatch() {
                                     )
                                 }
 
+                                resourceIds[9] -> { // subscriptions banner (shorts)
+                                    val insertIndex = index + 3
+                                    val invokeInstruction = instructions.elementAt(insertIndex)
+                                    if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
+
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
+                                    if (mutableMethod == null) mutableMethod =
+                                        mutableClass!!.findMutableMethodOf(method)
+
+                                    val viewRegister = (invokeInstruction as Instruction21c).registerA
+                                    mutableMethod!!.addInstruction(
+                                        insertIndex,
+                                        "invoke-static {v$viewRegister}, Lapp/revanced/integrations/patches/HideShortsPlayerSubscriptionsPatch;->hideSubscriptions(Landroid/view/View;)V"
+                                    )
+                                }
+
+                                resourceIds[10] -> { // remix button (shorts)
+                                    val insertIndex = index - 2
+                                    val invokeInstruction = instructions.elementAt(insertIndex)
+                                    if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
+
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
+                                    if (mutableMethod == null) mutableMethod =
+                                        mutableClass!!.findMutableMethodOf(method)
+
+                                    val viewRegister = (invokeInstruction as Instruction21c).registerA
+                                    mutableMethod!!.addInstruction(
+                                        index - 1,
+                                        "invoke-static {v$viewRegister}, Lapp/revanced/integrations/patches/HideShortsRemixButtonPatch;->hideShortsRemixButton(Landroid/view/View;)V"
+                                    )
+                                }
+
+                                resourceIds[11] -> { // player overlay background
+                                    val insertIndex = index + 3
+                                    val invokeInstruction = instructions.elementAt(insertIndex)
+                                    if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
+
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
+                                    if (mutableMethod == null) mutableMethod =
+                                        mutableClass!!.findMutableMethodOf(method)
+
+                                    val dummyRegister = (instructions.elementAt(index) as Instruction31i).registerA
+                                    val viewRegister = (invokeInstruction as Instruction21c).registerA
+
+									val transparent = resourceIds[12]
+
+                                    mutableMethod!!.addInstructions(
+                                        insertIndex + 1, """
+                                                invoke-static {}, Lapp/revanced/integrations/patches/PlayerOverlayBackgroundPatch;->getPlayerOverlaybackground()Z
+                                                move-result v$dummyRegister
+                                                if-eqz v$dummyRegister, :currentcolor
+                                                const v$dummyRegister, $transparent
+                                                invoke-virtual {v$viewRegister, v$dummyRegister}, Landroid/widget/ImageView;->setImageResource(I)V
+                                                :currentcolor
+                                                nop
+												"""
+                                    )
+                                }
                             }
                         }
                         else -> return@forEachIndexed
