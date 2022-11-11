@@ -93,9 +93,6 @@
     <string name="litho_paid_content">Remoção de conteúdo pago</string>
     <string name="litho_paid_content_off">A remoção de conteúdo pago está desligada</string>
     <string name="litho_paid_content_on">A remoção de conteúdo pago está ligada</string>
-    <string name="litho_shorts_shelf">Remoção da prateleira de Shorts</string>
-    <string name="litho_shorts_shelf_off">A remoção da prateleira de Shorts está desligada</string>
-    <string name="litho_shorts_shelf_on">A remoção da prateleira de Shorts está ligada</string>
     <string name="microg_not_installed_notice">Por favor, instale o MicroG</string>
     <string name="microg_not_installed_warning">O microG não foi encontrado</string>
     <string name="microg_notification_settings">Configurações de notificação</string>
@@ -274,17 +271,12 @@
 Isto pode não funcionar como esperado.
 Em alguns casos, pode ser necessário reinstalar o ReVanced.
 Você tem certeza que deseja continuar?"</string>
-    <string name="revanced_reboot_warning_ryd">"Integra com o botão de like para mostrar contagem de dislikes em um novo layout.
-No entanto, como ainda é um recurso experimental, a contagem de likes pode não ser exibida corretamente.
-Você tem certeza de que deseja continuar?"</string>
     <string name="revanced_rebuffer_summary">A duração da mídia que deve ser armazenada em buffer para a reprodução ser retomada após um rebuffer (em milissegundos). Um rebuffer é definido para ser causado por decréscimo do buffer ao invés de uma ação de usuário
         padrão: 5000</string>
     <string name="revanced_rebuffer_title">Rebuffer</string>
     <string name="revanced_reel_summary_off">Histórias estão ocultas</string>
     <string name="revanced_reel_summary_on">Histórias são exibidas</string>
     <string name="revanced_reel_title">Histórias do YouTube</string>
-    <string name="revanced_ryd_new_layout_title">Corrigir RYD (novo layout)</string>
-    <string name="revanced_ryd_new_layout_summary">Mostrar a contagem de dislike no novo layout</string>
     <string name="revanced_ryd_attribution_summary">Esta integração usa a API RYD de https://returnyoutubedislike.com. Toque para saber mais</string>
     <string name="revanced_ryd_attribution_title">Retornar integração \"Não gostei\" do YouTube</string>
     <string name="revanced_ryd_settings_summary">Usa a API RYD</string>
@@ -304,9 +296,6 @@ Você tem certeza de que deseja continuar?"</string>
     <string name="revanced_suggested_actions_summary_off">Ações sugeridas mostradas</string>
     <string name="revanced_suggested_actions_summary_on">Ações sugeridas ocultas</string>
     <string name="revanced_suggested_actions_title">Ações Sugeridas</string>
-    <string name="revanced_suggestion_summary_off">Telas finais estão ocultas</string>
-    <string name="revanced_suggestion_summary_on">Telas finais serão mostradas</string>
-    <string name="revanced_suggestion_title">Telas finais</string>
     <string name="revanced_swipe_auto_brightness_summary_off">O brilho automático ao deslizar está desativado</string>
     <string name="revanced_swipe_auto_brightness_summary_on">O brilho automático ao deslizar está ativado</string>
     <string name="revanced_swipe_auto_brightness_title">Brilho automático ao deslizar</string>

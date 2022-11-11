@@ -93,9 +93,6 @@
     <string name="litho_paid_content">পেইড কনটেন্ট সরান</string>
     <string name="litho_paid_content_off">পেইড কনটেন্ট প্রদর্শিত</string>
     <string name="litho_paid_content_on">পেইড কনটেন্ট লুকানো আছে</string>
-    <string name="litho_shorts_shelf">শর্ট শেলফ সরান</string>
-    <string name="litho_shorts_shelf_off">শর্টস শেলফগুলো প্রদর্শিত</string>
-    <string name="litho_shorts_shelf_on">শর্টস শেলফগুলো লুকানো আছে</string>
     <string name="microg_not_installed_notice">অনুগ্রহপূর্বক microG ইনস্টল করুন</string>
     <string name="microg_not_installed_warning">microG খুঁজে পাওয়া যায় নি</string>
     <string name="microg_notification_settings">বিজ্ঞপ্তির সেটিংস</string>
@@ -165,6 +162,9 @@
     <string name="revanced_crowdfunding_box_summary_off">ক্রাউডফান্ডিং বাক্স লুকানো আছে</string>
     <string name="revanced_crowdfunding_box_summary_on">ক্রাউডফান্ডিং বাক্স প্রদর্শিত</string>
     <string name="revanced_crowdfunding_box_title">ক্রাউডফান্ডিং বাক্স</string>
+    <string name="revanced_cutout_glitch_summary_off">Cutout Glitch is shown</string>
+    <string name="revanced_cutout_glitch_summary_on">Cutout Glitch is hidden</string>
+    <string name="revanced_cutout_glitch_title">Cutout Glitch</string>
     <string name="revanced_download_video_summary_off">ডাউনলোড বাটন লুকানো আছে</string>
     <string name="revanced_download_video_summary_on">ডাউনলোড বাটন দৃশ্যমান</string>
     <string name="revanced_download_video_title">ডাউনলোড বাটন</string>
@@ -187,6 +187,9 @@
     <string name="revanced_disable_auto_captions_summary_off">ক্যাপশন প্রয়োগ করা হলে ভিডিও চলার সময় ক্যাপশন সক্রিয় করা হয়</string>
     <string name="revanced_disable_auto_captions_summary_on">"ক্যাপশন প্রয়োগ করা হলে ভিডিও চলার সময় ক্যাপশন সক্রিয় করা হয় না"</string>
     <string name="revanced_disable_auto_captions_title">সংক্রিয় ক্যাপশন বন্ধ করুন</string>
+    <string name="revanced_endscreen_cards_summary_off">End screen cards are hidden</string>
+    <string name="revanced_endscreen_cards_summary_on">End screen cards are shown</string>
+    <string name="revanced_endscreen_cards_title">End screen cards</string>
     <string name="revanced_experimental_flag">পরীক্ষামূলক ফ্ল্যাগ</string>
     <string name="revanced_extended_settings">রিভ্যান্সড এক্সটেন্ডেড সেটিং</string>
     <string name="revanced_extended_summary">এক্সটেন্ডেড সম্পর্কিত সেটিংস</string>
@@ -239,9 +242,6 @@
     <string name="revanced_hide_share_button_summary_off">শেয়ার বাটন প্রদর্শিত</string>
     <string name="revanced_hide_share_button_summary_on">শেয়ার বাটন লুকানো আছে</string>
     <string name="revanced_hide_share_button_title">শেয়ার বাটন লুকান</string>
-    <string name="revanced_hide_shorts_comments_button_off">শর্টস মন্তব্য বাটন প্রদর্শিত</string>
-    <string name="revanced_hide_shorts_comments_button_on">শর্টস মন্তব্য বাটন লুকানো আছে</string>
-    <string name="revanced_hide_shorts_comments_button_title">শর্টস মন্তব্য বাটন লুকান</string>
     <string name="revanced_hide_thanks_button_summary_off">ধন্যবাদ বাটন প্রদর্শিত</string>
     <string name="revanced_hide_thanks_button_summary_on">ধন্যবাদ বাটন লুকানো আছে</string>
     <string name="revanced_hide_thanks_button_title">ধন্যবাদ বাটন লুকান</string>
@@ -292,6 +292,9 @@
     <string name="revanced_phone_layout_title">ফোন লেআউট</string>
     <string name="revanced_playback_start_summary">প্লেব্যাক এর জন্য সর্বোচ্চ বাফারিং সময়</string>
     <string name="revanced_playback_start_title">প্লেব্যাক এর জন্য সর্বোচ্চ বাফারিং</string>
+    <string name="revanced_player_overlay_background_summary_off">প্লেয়ার ওভারলে এর ব্যাকগ্রাউন্ড রং ইউটিউবের ডিফল্ট রং অনুসরণ করে</string>
+    <string name="revanced_player_overlay_background_summary_on">প্লেয়ার ওভারলে এর ব্যাকগ্রাউন্ড রং স্বচ্ছ সেট করা হয়</string>
+    <string name="revanced_player_overlay_background_title">প্লেয়ার ওভারলে ব্যাকগ্রাউন্ড</string>
     <string name="revanced_player_popup_panels_title">প্লেয়ার পপ আপ প্যানেল</string>
     <string name="revanced_player_popup_panels_summary_off">প্লেয়ার পপ-আপ প্যানেলসমূহ বন্ধ</string>
     <string name="revanced_player_popup_panels_summary_on">প্লেয়ার পপ-আপ প্যানেলসমূহ চালু</string>
@@ -323,9 +326,6 @@
 
 যেহেতু এটি এখনো পরীক্ষামূলক ফিচার, কিছু অজানা সমস্যা থাকতে পারে।
 আপনি কি শিওর আপনি এগিয়ে যেতে চান?"</string>
-    <string name="revanced_reboot_warning_ryd">"লাইক বাটনের সাথে একত্র হয়ে নতুন লে-আউটে ডিজলাইক সংখ্যা দেখাবে।
-যাইহোক, এটি এখনো একটি পরীক্ষামূলক ফিচার, লাইক কাউন্ট সঠিকভাবে নাও দেখাতে পারে।
-আপনি কি নিশ্চিত আপনি চালিয়ে যেতে চান?"</string>
     <string name="revanced_reboot_warning_tablet">"কিছু লেআউটকে ট্যাবলেট লেআউটে পরিবর্তন করতে ডিপিআই ট্রিক করা হয়।
 
 আপনি যদি এটি সচল করেন, নিচেে ফিচারগুলো পাবেন না:
@@ -339,8 +339,6 @@
     <string name="revanced_reel_summary_off">স্টোরিগুলো লুকানো আছে</string>
     <string name="revanced_reel_summary_on">স্টোরিগুলো প্রদর্শিত</string>
     <string name="revanced_reel_title">ইউটিউব স্টোরিগুলো</string>
-    <string name="revanced_ryd_new_layout_title">RYD ঠিক করুন (নতুন লেআউট)</string>
-    <string name="revanced_ryd_new_layout_summary">নতুন লে-আউটে ডিসলাইক সংখ্যা দেখান</string>
     <string name="revanced_ryd_attribution_summary">এখানে RYD এর এপিআই ব্যাবহার হয়েছে। বিস্তারিত জানতে এখানে ক্লিক করুন https://returnyoutubedislike.com</string>
     <string name="revanced_ryd_attribution_title">ইউটিউব এর ডিসলাইক ফিরানো</string>
     <string name="revanced_ryd_settings_summary">ইউটিউব এর ডিসলাইক ফিরানোর জন্য সেটিংস</string>
@@ -351,18 +349,32 @@
     <string name="revanced_seekbar_tapping_off">সিকবার ট্যাপিং বন্ধ আছে</string>
     <string name="revanced_seekbar_tapping_on">সিকবার ট্যাপিং চালু আছে</string>
     <string name="revanced_settings">রিভ্যান্সড সেটিংস</string>
+    <string name="revanced_shorts_summary">শর্টস বিভাগ বা শর্টস প্লেয়ার উপাদান লুকানো হয়t</string>
+    <string name="revanced_shorts_title">শর্টস উপাদান</string>
     <string name="revanced_shorts_button_summary_off">শর্টস বাটন লুকানো আছে</string>
     <string name="revanced_shorts_button_summary_on">শর্টস বাটন প্রদর্শিত</string>
     <string name="revanced_shorts_button_title">শর্টস বাটন</string>
+    <string name="revanced_shorts_comments_button_summary_off">শর্টস মন্তব্য বাটন লুকানো আছে</string>
+    <string name="revanced_shorts_comments_button_summary_on">শর্টস মন্তব্য বাটন প্রদর্শিত</string>
+    <string name="revanced_shorts_comments_button_title">শর্টস মন্তব্য বাটন</string>
+    <string name="revanced_shorts_player_subscriptions_summary_off">শর্টস সাবস্ক্রিপশন ব্যানার লুকানো আছে</string>
+    <string name="revanced_shorts_player_subscriptions_summary_on">শর্টস সাবস্ক্রিপশন ব্যানার প্রদর্শিত</string>
+    <string name="revanced_shorts_player_subscriptions_title">শর্টস সাবস্ক্রিপশন ব্যানার</string>
+    <string name="revanced_shorts_player_thanks_summary_off">শর্টস ধন্যবাদ ব্যানার লুকানো আছে</string>
+    <string name="revanced_shorts_player_thanks_summary_on">শর্টস ধন্যবাদ ব্যানার প্রদর্শিত</string>
+    <string name="revanced_shorts_player_thanks_title">শর্টস ধন্যবাদ ব্যানার</string>
+    <string name="revanced_shorts_shelf_summary_off">শর্টস শেলফ লুকানো আছে</string>
+    <string name="revanced_shorts_shelf_summary_on">শর্টস শেলফ প্রদর্শিত</string>
+    <string name="revanced_shorts_shelf">শর্টস শেলফ</string>
+    <string name="revanced_shorts_remix_button_summary_off">শর্টস রিমিক্স বাটন লুকানো আছে</string>
+    <string name="revanced_shorts_remix_button_summary_on">শর্টস রিমিক্স বাটন প্রদর্শিত</string>
+    <string name="revanced_shorts_remix_button_title">শর্টস রিমিক্স বাটন</string>
     <string name="revanced_startup_shorts_player_summary_off">অ্যাপ স্টার্টআপে শর্টস প্লেয়ার বন্ধ করা আছে</string>
     <string name="revanced_startup_shorts_player_summary_on">অ্যাপ স্টার্টআপে শর্টস প্লেয়ার চালু করা আছে</string>
     <string name="revanced_startup_shorts_player_title">অ্যাপ স্টার্টআপে শর্টস প্লেয়ার</string>
     <string name="revanced_suggested_actions_summary_off">প্রস্তাবিত কাজ প্রদর্শিত</string>
     <string name="revanced_suggested_actions_summary_on">প্রস্তাবিত কাজ লুকানো আছে</string>
     <string name="revanced_suggested_actions_title">প্রস্তাবিত কাজসমূহ</string>
-    <string name="revanced_suggestion_summary_off">শেষ পর্দা লুকানো আছে</string>
-    <string name="revanced_suggestion_summary_on">শেষ পাতা প্রদর্শিত</string>
-    <string name="revanced_suggestion_title">শেষ পাতা</string>
     <string name="revanced_swipe_auto_brightness_summary_off">সোয়াইপ করে স্বয়ংক্রিয় উজ্জ্বলতা বন্ধ করা হয়েছে</string>
     <string name="revanced_swipe_auto_brightness_summary_on">সোয়াইপ করে স্বয়ংক্রিয় উজ্জ্বলতা চালু করা হয়েছে</string>
     <string name="revanced_swipe_auto_brightness_title">সোয়াইপ করে স্বয়ংক্রিয় উজ্জ্বলতা</string>

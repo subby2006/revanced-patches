@@ -93,9 +93,6 @@
     <string name="litho_paid_content">有料コンテンツを削除</string>
     <string name="litho_paid_content_off">有料コンテンツを削除はオフです</string>
     <string name="litho_paid_content_on">有料コンテンツを削除はオンです</string>
-    <string name="litho_shorts_shelf">ショート欄を削除</string>
-    <string name="litho_shorts_shelf_off">ショート欄を削除はオフです</string>
-    <string name="litho_shorts_shelf_on">ショート欄を削除はオンです</string>
     <string name="microg_not_installed_notice">MicroGをインストールしてください</string>
     <string name="microg_not_installed_warning">MicroGが見つかりません</string>
     <string name="microg_notification_settings">通知の設定</string>
@@ -266,10 +263,6 @@
 この場合、意図したとおりに動作しないことがあります。
 場合によっては、ReVancedを再インストールする必要があるかもしれません。
 でも、本当に続けてもいいんですか？"</string>
-    <string name="revanced_reboot_warning_ryd">"高評価ボタンと連携して、新しいレイアウトで低評価のカウントを表示します.
-ただし、この機能は実験的な機能であるため、正確には同様のカウントが表示されない場合がある。 
-
-続行してもよろしいですか？"</string>
     <string name="revanced_rebuffer_summary">再度バッファリングする必要があるときに、バッファリングを行う時間 (ミリ秒)。これはユーザーの操作によるものではなく、バッファ不足によるものです
 
         デフォルト: 5000</string>
@@ -277,8 +270,6 @@
     <string name="revanced_reel_summary_off">ストーリーは非表示です</string>
     <string name="revanced_reel_summary_on">ストーリーは表示されます</string>
     <string name="revanced_reel_title">YouTubeストーリー</string>
-    <string name="revanced_ryd_new_layout_title">RYDを修正 (新しいレイアウト)</string>
-    <string name="revanced_ryd_new_layout_summary">新しいレイアウトで低評価の数を表示する</string>
     <string name="revanced_ryd_attribution_summary">この統合は、https://returnyoutubedislike.com の RYD API を使用しています。タップして詳細を確認します</string>
     <string name="revanced_ryd_attribution_title">YouTube の低評価機能を元に戻す</string>
     <string name="revanced_ryd_settings_summary">RYD APIを使用します</string>
@@ -298,9 +289,6 @@
     <string name="revanced_suggested_actions_summary_off">提案されたアクションを表示</string>
     <string name="revanced_suggested_actions_summary_on">提案されたアクションを非表示</string>
     <string name="revanced_suggested_actions_title">提案されたアクション</string>
-    <string name="revanced_suggestion_summary_off">終了画面は非表示です</string>
-    <string name="revanced_suggestion_summary_on">終了画面は表示されます</string>
-    <string name="revanced_suggestion_title">終了画面</string>
     <string name="revanced_swipe_auto_brightness_summary_off">スワイプによる明るさの自動調節は無効です</string>
     <string name="revanced_swipe_auto_brightness_summary_on">スワイプによる明るさの自動調節は有効です</string>
     <string name="revanced_swipe_auto_brightness_title">スワイプで明るさを自動調整</string>

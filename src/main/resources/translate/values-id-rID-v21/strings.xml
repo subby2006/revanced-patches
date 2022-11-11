@@ -93,9 +93,6 @@
     <string name="litho_paid_content">Penghapusan konten berbayar</string>
     <string name="litho_paid_content_off">Penghapusan konten berbayar dinonaktifkan</string>
     <string name="litho_paid_content_on">Penghapusan konten berbayar diaktifkan</string>
-    <string name="litho_shorts_shelf">Penghapusan rak shorts</string>
-    <string name="litho_shorts_shelf_off">Penghapusan rak shorts dinonaktifkan</string>
-    <string name="litho_shorts_shelf_on">Penghapusan rak shorts diaktifkan</string>
     <string name="microg_not_installed_notice">Silahkan instal MicroG</string>
     <string name="microg_not_installed_warning">MicroG tidak ditemukan</string>
     <string name="microg_notification_settings">Pengaturan notifikasi</string>
@@ -127,6 +124,9 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="reset">Atur ulang</string>
     <string name="revanced_ad_settings_title">iklan</string>
     <string name="revanced_ad_settings_summary">Pengaturan yang terkait dengan iklan</string>
+    <string name="revanced_album_card_in_search_summary_off">Kartu album disembunyikan dari hasil pencarian</string>
+    <string name="revanced_album_card_in_search_summary_on">Kartu album ditampilkan dari hasil pencarian</string>
+    <string name="revanced_album_card_in_search_title">Kartu album dari hasil pencarian</string>
     <string name="revanced_auto_repeat_button_summary_off">Tombol pengulangan otomatis disembunyikan</string>
     <string name="revanced_auto_repeat_button_summary_on">Tombol pengulangan otomatis ditampilkan</string>
     <string name="revanced_auto_repeat_button_title">Tombol pengulangan otomatis</string>
@@ -160,6 +160,9 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_crowdfunding_box_summary_off">Kotak penggalangan dana disembunyikan</string>
     <string name="revanced_crowdfunding_box_summary_on">Kotak penggalangan dana ditampilkan</string>
     <string name="revanced_crowdfunding_box_title">Kotak penggalangan dana</string>
+    <string name="revanced_cutout_glitch_summary_off">Glitch potongan ditampilkan</string>
+    <string name="revanced_cutout_glitch_summary_on">Glitch potongan disembunyikan</string>
+    <string name="revanced_cutout_glitch_title">Glitch potongan</string>
     <string name="revanced_download_video_summary_off">Tombol download disembunyikan</string>
     <string name="revanced_download_video_summary_on">Tombol download ditampilkan</string>
     <string name="revanced_download_video_title">Tombol download</string>
@@ -182,10 +185,16 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_disable_auto_captions_summary_off">Caption aktif saat memutar video dengan caption diaktifkan</string>
     <string name="revanced_disable_auto_captions_summary_on">"Caption nonaktif saat memutar video dengan caption diaktifkan"</string>
     <string name="revanced_disable_auto_captions_title">Nonaktifkan caption otomatis</string>
+    <string name="revanced_endscreen_cards_summary_off">Kartu layar akhir disembunyikan</string>
+    <string name="revanced_endscreen_cards_summary_on">Kartu layar akhir ditampilkan</string>
+    <string name="revanced_endscreen_cards_title">Kartu layar akhir</string>
     <string name="revanced_experimental_flag">Pengaturan eksperimental</string>
     <string name="revanced_extended_settings">Pengaturan ReVanced Extended</string>
     <string name="revanced_extended_summary">Pengaturan yang terkait dengan extended</string>
     <string name="revanced_extended_title">Pengaturan extended</string>
+    <string name="revanced_fix_playback_summary_off">Perbaikan masalah buffer pemutaran video dimatikan</string>
+    <string name="revanced_fix_playback_summary_on">Perbaikan masalah buffer pemutaran video diaktifkan</string>
+    <string name="revanced_fix_playback_title">Memperbaiki masalah buffer pemutaran video (eksperimental)</string>
     <string name="revanced_force_fullscreen_rotation_summary_off">Rotasi layar penuh mengikuti kebijakan default YouTube</string>
     <string name="revanced_force_fullscreen_rotation_summary_on">Trik versi YouTube untuk mengaktifkan rotasi layar penuh</string>
     <string name="revanced_force_fullscreen_rotation_title">Aktifkan rotasi layar penuh (eksperimental)</string>
@@ -231,9 +240,6 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_hide_share_button_summary_off">Tombol berbagi ditampilkan</string>
     <string name="revanced_hide_share_button_summary_on">Tombol berbagi disembunyikan</string>
     <string name="revanced_hide_share_button_title">Sembunyikan tombol berbagi</string>
-    <string name="revanced_hide_shorts_comments_button_off">Tombol komentar shorts ditampilkan</string>
-    <string name="revanced_hide_shorts_comments_button_on">Tombol komentar shorts disembunyikan</string>
-    <string name="revanced_hide_shorts_comments_button_title">Sembunyikan tombol komentar shorts</string>
     <string name="revanced_hide_thanks_button_summary_off">Tombol terima kasih ditampilkan</string>
     <string name="revanced_hide_thanks_button_summary_on">Tombol terima kasih disembunyikan</string>
     <string name="revanced_hide_thanks_button_title">Sembunyikan tombol terima kasih</string>
@@ -269,6 +275,9 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_new_actionbar_summary_off">Kotak pencarian lebar dinonaktifkan</string>
     <string name="revanced_new_actionbar_summary_on">Kotak pencarian lebar diaktifkan</string>
     <string name="revanced_new_actionbar_title">Kotak pencarian lebar</string>
+    <string name="revanced_official_card_in_search_summary_off">Kartu resmi disembunyikan dari hasil pencarian</string>
+    <string name="revanced_official_card_in_search_summary_on">Kartu resmi ditampilkan dari hasil pencarian</string>
+    <string name="revanced_official_card_in_search_title">Kartu resmi dari hasil penelusuran</string>
     <string name="revanced_old_style_quality_settings_summary_off">Menggunakan pengaturan kualitas video gaya default</string>
     <string name="revanced_old_style_quality_settings_summary_on">Menggunakan pengaturan kualitas video gaya lama</string>
     <string name="revanced_old_style_quality_settings_title">Gaya pengaturan kualitas video</string>
@@ -277,8 +286,13 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_override_premium_header_summary_off">Header saat ini: Header default</string>
     <string name="revanced_override_premium_header_summary_on">Header saat ini: Header premium</string>
     <string name="revanced_override_premium_header_title">Header premium</string>
+    <string name="revanced_phone_layout_summary">Trik dpi untuk menggunakan beberapa tata letak telepon</string>
+    <string name="revanced_phone_layout_title">Tata letak telepon</string>
     <string name="revanced_playback_start_summary">Durasi media yang harus dimuat agar pemutaran dapat dimulai atau dilanjutkan setelah tindakan user seperti mencari (dalam milidetik) Standar: 2500</string>
     <string name="revanced_playback_start_title">Mulai pemutaran</string>
+    <string name="revanced_player_overlay_background_summary_off">Warna latar belakang overlay pemutar mengikuti default YouTube</string>
+    <string name="revanced_player_overlay_background_summary_on">Warna latar belakang overlay pemutar diatur ke transparan</string>
+    <string name="revanced_player_overlay_background_title">Latar belakang overlay pemutar</string>
     <string name="revanced_player_popup_panels_title">Panel popup pemutar</string>
     <string name="revanced_player_popup_panels_summary_off">Panel popup pemutar dinonaktifkan</string>
     <string name="revanced_player_popup_panels_summary_on">Panel popup pemutar diaktifkan</string>
@@ -295,16 +309,34 @@ Apakah sudah siap untuk dikirim?"</string>
 Ini terkadang tidak berfungsi sebagaimana dimaksud.
 Dalam beberapa kasus, mungkin perlu menginstal ulang ReVanced.
 Apakah anda yakin ingin melanjutkan?"</string>
-    <string name="revanced_reboot_warning_ryd">"Terintegrasi dengan tombol like untuk menampilkan jumlah dislike dalam tata letak baru.
-Namun, karena ini masih merupakan fitur eksperimental, jumlah like mungkin tidak ditampilkan secara akurat.
+    <string name="revanced_reboot_warning_phone">"Trik dpi untuk mengubah beberapa tata letak ke tata letak telepon.
+
+Jika anda mengaktifkan pengaturan ini, fitur berikut tersedia:
+- Postingan komunitas
+- Sembunyikan playlist mix
+
+Karena ini masih merupakan fitur eksperimental, mungkin ada masalah lain yang tidak diketahui.
+Apakah anda yakin ingin melanjutkan?"</string>
+    <string name="revanced_reboot_warning_playback">"Perbaiki masalah buffer pemutaran video di beberapa wilayah.
+
+Ini adalah fitur yang secara resmi ditambahkan oleh Tim ReVanced, tetapi masih ada masalah yang dilaporkan dalam situasi berikut:
+- Saat memutar video di playlist, trek berikutnya secara otomatis dilewati saat video berakhir
+
+Karena ini masih merupakan fitur eksperimental, mungkin ada masalah lain yang tidak diketahui.
+Apakah anda yakin ingin melanjutkan?"</string>
+    <string name="revanced_reboot_warning_tablet">"Trik dpi untuk mengubah beberapa tata letak ke tata letak tablet.
+
+Jika Anda mengaktifkan pengaturan ini, fitur berikut tidak tersedia:
+- Mode ambient
+- Postingan komunitas
+
+Karena ini masih merupakan fitur eksperimental, mungkin ada masalah lain yang tidak diketahui.
 Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_rebuffer_summary">Durasi media yang harus dimuat agar pemutaran dapat dilanjutkan setelah muat ulang (dalam milidetik). Sebuah rebuffer didefinisikan disebabkan oleh penipisan buffer daripada tindakan user Standar: 5000</string>
     <string name="revanced_rebuffer_title">Muat ulang</string>
     <string name="revanced_reel_summary_off">Stories disembunyikan</string>
     <string name="revanced_reel_summary_on">Stories ditampilkan</string>
     <string name="revanced_reel_title">Stories YouTube</string>
-    <string name="revanced_ryd_new_layout_title">Perbaiki RYD (tata letak baru)</string>
-    <string name="revanced_ryd_new_layout_summary">Tampilkan jumlah dislike di tata letak baru</string>
     <string name="revanced_ryd_attribution_summary">Integrasi ini menggunakan API Return YouTube Dislike dari https://returnyoutubedislike.com. Tekan untuk mempelajari lebih lanjut</string>
     <string name="revanced_ryd_attribution_title">Patch Return Youtube Dislike</string>
     <string name="revanced_ryd_settings_summary">Pengaturan untuk Return YouTube Dislike</string>
@@ -315,18 +347,32 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_seekbar_tapping_off">Tekanan di seek bar (bilah progres video) dinonaktifkan</string>
     <string name="revanced_seekbar_tapping_on">Tekanan di seek bar (bilah progres video) diaktifkan</string>
     <string name="revanced_settings">Pengaturan ReVanced</string>
+    <string name="revanced_shorts_summary">Menyembunyikan bagian shorts atau komponen pemutar shorts</string>
+    <string name="revanced_shorts_title">Komponen shorts</string>
     <string name="revanced_shorts_button_summary_off">Tombol shorts disembunyikan</string>
     <string name="revanced_shorts_button_summary_on">Tombol shorts ditampilkan</string>
     <string name="revanced_shorts_button_title">Tombol shorts</string>
+    <string name="revanced_shorts_comments_button_summary_off">Tombol komentar shorts disembunyikan</string>
+    <string name="revanced_shorts_comments_button_summary_on">Tombol komentar shorts ditampilkan</string>
+    <string name="revanced_shorts_comments_button_title">Tombol komentar shorts</string>
+    <string name="revanced_shorts_player_subscriptions_summary_off">Spanduk berlangganan shorts disembunyikan</string>
+    <string name="revanced_shorts_player_subscriptions_summary_on">Spanduk berlangganan shorts ditampilkan</string>
+    <string name="revanced_shorts_player_subscriptions_title">Spanduk berlangganan shorts</string>
+    <string name="revanced_shorts_player_thanks_summary_off">Spanduk shorts terima kasih disembunyikan</string>
+    <string name="revanced_shorts_player_thanks_summary_on">Spanduk shorts terima kasih ditampilkan</string>
+    <string name="revanced_shorts_player_thanks_title">Spanduk shorts terima kasih</string>
+    <string name="revanced_shorts_shelf_summary_off">Rak shorts disembunyikan</string>
+    <string name="revanced_shorts_shelf_summary_on">Rak shorts ditampilkan</string>
+    <string name="revanced_shorts_shelf">Rak shorts</string>
+    <string name="revanced_shorts_remix_button_summary_off">Tombol remix shorts disembunyikan</string>
+    <string name="revanced_shorts_remix_button_summary_on">Tombol remix shorts ditampilkan</string>
+    <string name="revanced_shorts_remix_button_title">Tombol remix shorts</string>
     <string name="revanced_startup_shorts_player_summary_off">Pemutar shorts dinonaktifkan saat memulai aplikasi</string>
     <string name="revanced_startup_shorts_player_summary_on">Pemutar shorts diaktifkan saat memulai aplikasi</string>
     <string name="revanced_startup_shorts_player_title">Pemutar shorts saat memulai aplikasi</string>
     <string name="revanced_suggested_actions_summary_off">Tindakan yang disarankan ditampilkan</string>
     <string name="revanced_suggested_actions_summary_on">Tindakan yang disarankan disembunyikan</string>
     <string name="revanced_suggested_actions_title">Tindakan yang disarankan</string>
-    <string name="revanced_suggestion_summary_off">Layar akhir disembunyikan</string>
-    <string name="revanced_suggestion_summary_on">Layar akhir ditampilkan</string>
-    <string name="revanced_suggestion_title">Layar akhir</string>
     <string name="revanced_swipe_auto_brightness_summary_off">Kecerahan otomatis dengan menggesek dinonaktifkan</string>
     <string name="revanced_swipe_auto_brightness_summary_on">Kecerahan otomatis dengan menggesek dinoaktifkan</string>
     <string name="revanced_swipe_auto_brightness_title">Kecerahan otomatis dengan menggesek</string>
@@ -424,6 +470,7 @@ Jika anda ingin menonaktifkan ini, atur yang berikut ke OFF:"</string>
     <string name="settings_import_failed">Gagal mengimpor pengaturan</string>
     <string name="settings_import_successful">Pengaturan berhasil diimpor</string>
     <string name="skip_automatically">Lewati otomatis</string>
+    <string name="skip_automatically_once">Lewati secara otomatis sekali</string>
     <string name="skip_ignore">"Jangan lakukan apapun"</string>
     <string name="skip_showbutton">Tampilkan tombol lewati</string>
     <string name="skip_sponsor">Lewati segmen</string>

@@ -161,7 +161,6 @@ Is it ready to submit?"</string>
     <string name="revanced_cutout_glitch_summary_off">Cutout Glitch is shown</string>
     <string name="revanced_cutout_glitch_summary_on">Cutout Glitch is hidden</string>
     <string name="revanced_cutout_glitch_title">Cutout Glitch</string>
-    <string name="revanced_default_downloader">ussr.razar.youtube_dl</string>
     <string name="revanced_download_video_summary_off">Download Button is hidden</string>
     <string name="revanced_download_video_summary_on">Download Button is visible</string>
     <string name="revanced_download_video_title">Download Button</string>
@@ -274,8 +273,6 @@ Is it ready to submit?"</string>
     <string name="revanced_new_actionbar_summary_off">Wide search bar is disabled</string>
     <string name="revanced_new_actionbar_summary_on">Wide search bar is enabled</string>
     <string name="revanced_new_actionbar_title">Wide search bar</string>
-    <string name="revanced_newpipe_sponsorblock_title">NewPipe x Sponsorblock</string>
-    <string name="revanced_newpipe_title">NewPipe</string>
     <string name="revanced_official_card_in_search_summary_off">Official cards are hidden from search results</string>
     <string name="revanced_official_card_in_search_summary_on">Official cards are shown from search results</string>
     <string name="revanced_official_card_in_search_title">Official card from search results</string>
@@ -306,7 +303,6 @@ Is it ready to submit?"</string>
     <string name="revanced_preferred_video_quality_wifi_title">Preferred video quality Wi-Fi</string>
     <string name="revanced_preferred_video_speed_summary">Select preferred video speed</string>
     <string name="revanced_preferred_video_speed_title">Preferred video speed</string>
-    <string name="revanced_powertube_title">PowerTube</string>
     <string name="revanced_reboot_warning_fullscreen">"Trick the YouTube version and try to update it on the server side.
 This may sometimes not work as intended.
 In some cases, it may be necessary to reinstall ReVanced.

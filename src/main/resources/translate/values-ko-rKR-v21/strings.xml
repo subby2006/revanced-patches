@@ -93,16 +93,13 @@
     <string name="litho_paid_content">유료광고 포함 라벨 제거</string>
     <string name="litho_paid_content_off">유료광고 포함 라벨을 보여줍니다</string>
     <string name="litho_paid_content_on">유료광고 포함 라벨을 숨깁니다</string>
-    <string name="litho_shorts_shelf">Shorts 선반 제거</string>
-    <string name="litho_shorts_shelf_off">Shorts 선반을 보여줍니다</string>
-    <string name="litho_shorts_shelf_on">Shorts 선반을 숨깁니다</string>
     <string name="microg_not_installed_notice">MicroG를 설치해 주세요</string>
     <string name="microg_not_installed_warning">MicroG가 설치되지 않았습니다.</string>
     <string name="microg_notification_settings">알림 설정</string>
-    <string name="microg_notification_settings_summary">"1. Google device registration과 Google Cloud Messaging은 알림을 위해 활성화되어야 합니다.
-2. ReVanced는 Google Cloud Messaging에 등록되어 있는 것이 확인되어야 합니다.
-3. Google Cloud Messaging에서 현재 상태가 연결되지 않은 (Disconnected) 상태로 되어 있으면 안됩니다.
-4. Google Cloud Messaging -&gt; Advanced (오른쪽 위 점 3개)에서 Wi-Fi 메뉴의 핑 간격 (Ping interval) 을 아무 거나 눌렀다가 원래대로 바꾸면 다시 연결할 수 있습니다."</string>
+    <string name="microg_notification_settings_summary">"1. 알림을 받으려면 Google 기기 등록 및 클라우드 메시징을 활성화해야 합니다.
+2. ReVanced Extended가 클라우드 메시징에 등록된 앱으로 표시되어야 합니다.
+3. 클라우드 메시징의 현재 상태가 연결 상태여야 합니다.
+4. 클라우드 메시징의 고급 설정에서 Wi-Fi의 핑 간격을 아무거나 눌렀다가 기본값으로 바꾸면 재접속 합니다."</string>
     <string name="microg_settings">MicroG 설정</string>
     <string name="minutes">분</string>
     <string name="new_segment_choose_category">구간 카테고리를 선택해주세요</string>
@@ -164,6 +161,9 @@
     <string name="revanced_crowdfunding_box_summary_off">크라우드펀딩 박스를 숨깁니다</string>
     <string name="revanced_crowdfunding_box_summary_on">크라우드펀딩 박스를 보여줍니다</string>
     <string name="revanced_crowdfunding_box_title">크라우드펀딩 박스</string>
+    <string name="revanced_cutout_glitch_summary_off">영상 우측 하단 검은띠를 보여줍니다</string>
+    <string name="revanced_cutout_glitch_summary_on">영상 우측 하단 검은띠를 숨깁니다</string>
+    <string name="revanced_cutout_glitch_title">영상 우측 하단 검은띠 제거</string>
     <string name="revanced_download_video_summary_off">다운로드 버튼을 플레이어에서 숨깁니다</string>
     <string name="revanced_download_video_summary_on">다운로드 버튼을 플레이어에서 보여줍니다</string>
     <string name="revanced_download_video_title">다운로드 버튼</string>
@@ -186,6 +186,9 @@
     <string name="revanced_disable_auto_captions_summary_off">자막 사용이 강제된 동영상에서 자막을 보여줍니다</string>
     <string name="revanced_disable_auto_captions_summary_on">"자막 사용이 강제된 동영상에서 자막을 보여주지 않습니다"</string>
     <string name="revanced_disable_auto_captions_title">자동 자막 비활성화</string>
+    <string name="revanced_endscreen_cards_summary_off">최종 화면 카드를 숨깁니다</string>
+    <string name="revanced_endscreen_cards_summary_on">최종 화면 카드를 보여줍니다</string>
+    <string name="revanced_endscreen_cards_title">최종 화면 카드</string>
     <string name="revanced_experimental_flag">실험적 플래그</string>
     <string name="revanced_extended_settings">ReVanced Extended 설정</string>
     <string name="revanced_extended_summary">Extended 관련 설정입니다</string>
@@ -238,9 +241,6 @@
     <string name="revanced_hide_share_button_summary_off">공유 버튼을 보여줍니다</string>
     <string name="revanced_hide_share_button_summary_on">공유 버튼을 숨깁니다</string>
     <string name="revanced_hide_share_button_title">공유 버튼 숨기기</string>
-    <string name="revanced_hide_shorts_comments_button_off">Shorts 댓글 버튼을 보여줍니다</string>
-    <string name="revanced_hide_shorts_comments_button_on">Shorts 댓글 버튼을 숨깁니다</string>
-    <string name="revanced_hide_shorts_comments_button_title">Shorts 댓글 버튼</string>
     <string name="revanced_hide_thanks_button_summary_off">Thanks 버튼을 보여줍니다</string>
     <string name="revanced_hide_thanks_button_summary_on">Thanks 버튼을 숨깁니다</string>
     <string name="revanced_hide_thanks_button_title">Thanks 버튼 제거</string>
@@ -291,6 +291,9 @@
     <string name="revanced_phone_layout_title">폰 레이아웃</string>
     <string name="revanced_playback_start_summary">영상을 일시정지한 후 다시 재생하기 전에 미리 버퍼링할 영상의 길이로, 기본값은 2500밀리초 입니다</string>
     <string name="revanced_playback_start_title">일시정지 후 버퍼링</string>
+    <string name="revanced_player_overlay_background_summary_off">플레이어 오버레이 배경색이 YouTube 기본값을 따릅니다</string>
+    <string name="revanced_player_overlay_background_summary_on">플레이어 오버레이 배경색이 투명하게 설정됩니다</string>
+    <string name="revanced_player_overlay_background_title">플레이어 오버레이 배경색</string>
     <string name="revanced_player_popup_panels_title">플레이어 팝업 패널</string>
     <string name="revanced_player_popup_panels_summary_off">플레이어 팝업 패널을 비활성화합니다</string>
     <string name="revanced_player_popup_panels_summary_on">플레이어 팝업 패널을 활성화합니다</string>
@@ -322,9 +325,6 @@
 
 이것은 여전히 실험적인 기능이기 때문에, 다른 알려지지 다른 이슈가 있을 수 있습니다.
 그래도 계속하시겠습니까?"</string>
-    <string name="revanced_reboot_warning_ryd">"새로운 레이아웃에서 싫어요 카운트를 표시하기 위해 좋아요 버튼과 통합합니다.
-이것은 여전히 실험적인 기능이기 때문에, 좋아요 카운트가 정확하게 표시되지 않을수도 있습니다.
-그래도 계속하시겠습니까?"</string>
     <string name="revanced_reboot_warning_tablet">"dpi를 속여 일부 레이아웃을 태블릿 레이아웃으로 변경합니다.
 
 이 설정을 적용하면 다음 기능을 사용할 수 없습니다.
@@ -338,8 +338,6 @@
     <string name="revanced_reel_summary_off">스토리를 숨깁니다</string>
     <string name="revanced_reel_summary_on">스토리를 보여줍니다</string>
     <string name="revanced_reel_title">YouTube 스토리</string>
-    <string name="revanced_ryd_new_layout_title">RYD 이슈 해결 (새로운 레이아웃 전용)</string>
-    <string name="revanced_ryd_new_layout_summary">새로운 레이아웃에서 싫어요 카운트를 표시합니다</string>
     <string name="revanced_ryd_attribution_summary">이 기능은 https://returnyoutubedislike.com의 Return YouTube Dislike API를 사용합니다. 자세한 정보를 보려면 누르세요.</string>
     <string name="revanced_ryd_attribution_title">Return Youtube Dislike 기능</string>
     <string name="revanced_ryd_settings_summary">Return YouTube Dislike의 API를 사용합니다</string>
@@ -350,18 +348,32 @@
     <string name="revanced_seekbar_tapping_off">재생 바 (비디오 진행 상태 바) 터치 조작 기능이 비활성화되어 있습니다</string>
     <string name="revanced_seekbar_tapping_on">재생 바 (비디오 진행 상태 바) 터치 조작 기능이 활성화되어 있습니다</string>
     <string name="revanced_settings">ReVanced 설정</string>
-    <string name="revanced_shorts_button_summary_off">쇼츠 버튼을 강제로 비활성화합니다</string>
-    <string name="revanced_shorts_button_summary_on">쇼츠 버튼을 기본 설정대로 보여줍니다</string>
-    <string name="revanced_shorts_button_title">쇼츠 버튼</string>
+    <string name="revanced_shorts_summary">Shorts 영역 또는 Shorts 플레이어와 관련된 요소를 숨깁니다</string>
+    <string name="revanced_shorts_title">Shorts 설정</string>
+    <string name="revanced_shorts_button_summary_off">Shorts 버튼을 강제로 비활성화합니다</string>
+    <string name="revanced_shorts_button_summary_on">Shorts 버튼을 기본 설정대로 보여줍니다</string>
+    <string name="revanced_shorts_button_title">Shorts 버튼</string>
+    <string name="revanced_shorts_comments_button_summary_off">Shorts 플레이어에서 댓글 버튼을 숨깁니다</string>
+    <string name="revanced_shorts_comments_button_summary_on">Shorts 플레이어에서 댓글 버튼을 보여줍니다</string>
+    <string name="revanced_shorts_comments_button_title">Shorts 플레이어 댓글 버튼</string>
+    <string name="revanced_shorts_player_subscriptions_summary_off">Shorts 플레이어에서 구독 배너를 숨깁니다</string>
+    <string name="revanced_shorts_player_subscriptions_summary_on">Shorts 플레이어에서 구독 배너를 보여줍니다</string>
+    <string name="revanced_shorts_player_subscriptions_title">Shorts 플레이어 구독 배너</string>
+    <string name="revanced_shorts_player_thanks_summary_off">Shorts 플레이어에서 Thanks 배너를 숨깁니다</string>
+    <string name="revanced_shorts_player_thanks_summary_on">Shorts 플레이어에서 Thanks 배너를 보여줍니다</string>
+    <string name="revanced_shorts_player_thanks_title">Shorts 플레이어 Thanks 배너</string>
+    <string name="revanced_shorts_shelf_summary_off">Shorts 선반을 숨깁니다</string>
+    <string name="revanced_shorts_shelf_summary_on">Shorts 선반을 보여줍니다</string>
+    <string name="revanced_shorts_shelf">Shorts 선반</string>
+    <string name="revanced_shorts_remix_button_summary_off">Shorts 플레이어에서 리믹스 버튼을 숨깁니다</string>
+    <string name="revanced_shorts_remix_button_summary_on">Shorts 플레이어에서 리믹스 버튼을 보여줍니다</string>
+    <string name="revanced_shorts_remix_button_title">Shorts 플레이어 리믹스 버튼</string>
     <string name="revanced_startup_shorts_player_summary_off">앱 시작시 Shorts 플레이어가 비활성화됩니다</string>
     <string name="revanced_startup_shorts_player_summary_on">앱 시작시 Shorts 플레이어가 활성화됩니다</string>
     <string name="revanced_startup_shorts_player_title">앱 시작시 Shorts 플레이어 보이기</string>
     <string name="revanced_suggested_actions_summary_off">동작 추천바를 보여줍니다</string>
     <string name="revanced_suggested_actions_summary_on">동작 추천바를 숨깁니다</string>
     <string name="revanced_suggested_actions_title">동작 추천바</string>
-    <string name="revanced_suggestion_summary_off">영상 최종 화면을 숨깁니다</string>
-    <string name="revanced_suggestion_summary_on">영상 최종 화면을 보여줍니다</string>
-    <string name="revanced_suggestion_title">영상 최종 화면</string>
     <string name="revanced_swipe_auto_brightness_summary_off">밝기가 0일때 자동 밝기를 활성화하지 않습니다</string>
     <string name="revanced_swipe_auto_brightness_summary_on">밝기가 0일때 자동 밝기를 활성화합니다</string>
     <string name="revanced_swipe_auto_brightness_title">자동 밝기 활성화</string>
@@ -459,7 +471,7 @@
     <string name="settings_import_failed">설정을 가져오는 데 실패했습니다</string>
     <string name="settings_import_successful">설정을 성공적으로 불러왔습니다</string>
     <string name="skip_automatically">자동으로 스킵하기</string>
-    <string name="skip_automatically_once">한 번에 자동으로 스킵하기</string>
+    <string name="skip_automatically_once">한 번만 자동으로 스킵하기</string>
     <string name="skip_ignore">"아무것도 하지 않기"</string>
     <string name="skip_showbutton">건너뛰기 버튼 표시하기</string>
     <string name="skip_sponsor">구간 건너뛰기</string>

@@ -93,9 +93,6 @@
     <string name="litho_paid_content">付费内容</string>
     <string name="litho_paid_content_off">付费内容已显示</string>
     <string name="litho_paid_content_on">付费内容已隐藏</string>
-    <string name="litho_shorts_shelf">Shorts 架</string>
-    <string name="litho_shorts_shelf_off">Shorts 架已显示</string>
-    <string name="litho_shorts_shelf_on">Shorts 架已隐藏</string>
     <string name="microg_not_installed_notice">请安装 MicroG</string>
     <string name="microg_not_installed_warning">未找到 MicroG</string>
     <string name="microg_notification_settings">通知设置</string>
@@ -163,6 +160,9 @@
     <string name="revanced_crowdfunding_box_summary_off">众筹箱已隐藏</string>
     <string name="revanced_crowdfunding_box_summary_on">众筹箱已显示</string>
     <string name="revanced_crowdfunding_box_title">众筹箱</string>
+    <string name="revanced_cutout_glitch_summary_off">切角已显示</string>
+    <string name="revanced_cutout_glitch_summary_on">切角已隐藏</string>
+    <string name="revanced_cutout_glitch_title">切角问题</string>
     <string name="revanced_download_video_summary_off">下载按钮已隐藏</string>
     <string name="revanced_download_video_summary_on">下载按钮已显示</string>
     <string name="revanced_download_video_title">下载按钮</string>
@@ -185,6 +185,9 @@
     <string name="revanced_disable_auto_captions_summary_off">强制播放有字幕的视频时启用字幕</string>
     <string name="revanced_disable_auto_captions_summary_on">"强制播放有字幕的视频时禁用字幕"</string>
     <string name="revanced_disable_auto_captions_title">禁用自动字幕</string>
+    <string name="revanced_endscreen_cards_summary_off">结束界面卡片已隐藏</string>
+    <string name="revanced_endscreen_cards_summary_on">结束界面卡片已显示</string>
+    <string name="revanced_endscreen_cards_title">结束界面卡片</string>
     <string name="revanced_experimental_flag">实验性功能</string>
     <string name="revanced_extended_settings">ReVanced Extended 设置</string>
     <string name="revanced_extended_summary">Extended 相关设置</string>
@@ -237,9 +240,6 @@
     <string name="revanced_hide_share_button_summary_off">分享按钮已显示</string>
     <string name="revanced_hide_share_button_summary_on">分享按钮已隐藏</string>
     <string name="revanced_hide_share_button_title">分享按钮</string>
-    <string name="revanced_hide_shorts_comments_button_off">Shorts 评论按钮已显示</string>
-    <string name="revanced_hide_shorts_comments_button_on">Shorts 评论按钮已隐藏</string>
-    <string name="revanced_hide_shorts_comments_button_title">Shorts 评论按钮</string>
     <string name="revanced_hide_thanks_button_summary_off">感谢按钮已显示</string>
     <string name="revanced_hide_thanks_button_summary_on">感谢按钮已隐藏</string>
     <string name="revanced_hide_thanks_button_title">感谢按钮</string>
@@ -290,6 +290,9 @@
     <string name="revanced_phone_layout_title">手机布局</string>
     <string name="revanced_playback_start_summary">用户动作后恢复播放的缓冲区最大时长（毫秒）默认值：2500</string>
     <string name="revanced_playback_start_title">恢复播放缓冲区最大时长</string>
+    <string name="revanced_player_overlay_background_summary_off">当前播放器叠加层背景颜色：默认</string>
+    <string name="revanced_player_overlay_background_summary_on">当前播放器叠加层背景颜色：透明</string>
+    <string name="revanced_player_overlay_background_title">播放器叠加层背景</string>
     <string name="revanced_player_popup_panels_title">播放器弹出面板</string>
     <string name="revanced_player_popup_panels_summary_off">播放器弹出面板已禁用</string>
     <string name="revanced_player_popup_panels_summary_on">播放器弹出面板已启用</string>
@@ -321,9 +324,6 @@
 
 由于这仍然是一项实验性功能，可能还有其他未知问题。
 您确定要继续吗？"</string>
-    <string name="revanced_reboot_warning_ryd">"在新布局中显示点踩计数。
-但由于这仍然是一项实验性功能，因此可能无法准确显示点赞数。
-您确定要继续吗？"</string>
     <string name="revanced_reboot_warning_tablet">"伪装 DPI 将一些布局改为平板布局。
 
 如果启用该项，以下功能不可用：
@@ -337,8 +337,6 @@
     <string name="revanced_reel_summary_off">短片故事已隐藏</string>
     <string name="revanced_reel_summary_on">短片故事已显示</string>
     <string name="revanced_reel_title">YouTube 短片故事</string>
-    <string name="revanced_ryd_new_layout_title">修复 RYD（新布局）</string>
-    <string name="revanced_ryd_new_layout_summary">在新布局中显示点踩计数</string>
     <string name="revanced_ryd_attribution_summary">集成使用 https://returnyoutubedislike.com 的恢复 YouTube 点踩 API。点击以了解更多</string>
     <string name="revanced_ryd_attribution_title">恢复 YouTube 点踩功能</string>
     <string name="revanced_ryd_settings_summary">恢复 YouTube 点踩设置</string>
@@ -349,18 +347,32 @@
     <string name="revanced_seekbar_tapping_off">进度条点击已禁用</string>
     <string name="revanced_seekbar_tapping_on">进度条点击已启用</string>
     <string name="revanced_settings">ReVanced 设置</string>
+    <string name="revanced_shorts_summary">隐藏 Shorts 部分或 Shorts 播放器组件</string>
+    <string name="revanced_shorts_title">Shorts 组件</string>
     <string name="revanced_shorts_button_summary_off">Shorts 按钮已隐藏</string>
     <string name="revanced_shorts_button_summary_on">Shorts 按钮已显示</string>
     <string name="revanced_shorts_button_title">Shorts 按钮</string>
+    <string name="revanced_shorts_comments_button_summary_off">Shorts 评论按钮已隐藏</string>
+    <string name="revanced_shorts_comments_button_summary_on">Shorts 评论按钮已显示</string>
+    <string name="revanced_shorts_comments_button_title">Shorts 评论按钮</string>
+    <string name="revanced_shorts_player_subscriptions_summary_off">Shorts 订阅横幅已隐藏</string>
+    <string name="revanced_shorts_player_subscriptions_summary_on">Shorts 订阅横幅已显示</string>
+    <string name="revanced_shorts_player_subscriptions_title">Shorts 订阅横幅</string>
+    <string name="revanced_shorts_player_thanks_summary_off">Shorts 感谢横幅已隐藏</string>
+    <string name="revanced_shorts_player_thanks_summary_on">Shorts 感谢横幅已显示</string>
+    <string name="revanced_shorts_player_thanks_title">Shorts 感谢横幅</string>
+    <string name="revanced_shorts_shelf_summary_off">Shorts 架已隐藏</string>
+    <string name="revanced_shorts_shelf_summary_on">Shorts 架已显示</string>
+    <string name="revanced_shorts_shelf">Shorts 架</string>
+    <string name="revanced_shorts_remix_button_summary_off">Shorts 混合按钮已隐藏</string>
+    <string name="revanced_shorts_remix_button_summary_on">Shorts 混合按钮已显示</string>
+    <string name="revanced_shorts_remix_button_title">Shorts 混合按钮</string>
     <string name="revanced_startup_shorts_player_summary_off">应用启动时 Shorts 播放器已禁用</string>
     <string name="revanced_startup_shorts_player_summary_on">应用启动时 Shorts 播放器已启用</string>
     <string name="revanced_startup_shorts_player_title">应用启动时的 Shorts 播放器</string>
     <string name="revanced_suggested_actions_summary_off">操作建议已显示</string>
     <string name="revanced_suggested_actions_summary_on">操作建议已隐藏</string>
     <string name="revanced_suggested_actions_title">操作建议</string>
-    <string name="revanced_suggestion_summary_off">结束画面已隐藏</string>
-    <string name="revanced_suggestion_summary_on">结束画面已显示</string>
-    <string name="revanced_suggestion_title">结束画面</string>
     <string name="revanced_swipe_auto_brightness_summary_off">滑动自动亮度已禁用</string>
     <string name="revanced_swipe_auto_brightness_summary_on">滑动自动亮度已启用</string>
     <string name="revanced_swipe_auto_brightness_title">滑动自动亮度</string>
