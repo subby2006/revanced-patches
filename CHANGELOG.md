@@ -1,3 +1,66 @@
+## [2.106.1](https://github.com/revanced/revanced-patches/compare/v2.106.0...v2.106.1) (2022-11-11)
+
+
+### Bug Fixes
+
+* **youtube/custom-branding:** use high resolution icons ([#1018](https://github.com/revanced/revanced-patches/issues/1018)) ([1c9d1ac](https://github.com/revanced/revanced-patches/commit/1c9d1acf2b7aff4cd52d17009ff01246f74d2214))
+
+# [2.106.0](https://github.com/revanced/revanced-patches/compare/v2.105.0...v2.106.0) (2022-11-09)
+
+
+### Features
+
+* **youtube:** `open-links-directly` patch ([#999](https://github.com/revanced/revanced-patches/issues/999)) ([bf85f62](https://github.com/revanced/revanced-patches/commit/bf85f62f30242f91bdaf53b44ae6a9a2b3b6e1b4))
+
+# [2.105.0](https://github.com/revanced/revanced-patches/compare/v2.104.2...v2.105.0) (2022-11-09)
+
+
+### Features
+
+* **nyx:** `unlock-pro` patch ([#1004](https://github.com/revanced/revanced-patches/issues/1004)) ([9dd8239](https://github.com/revanced/revanced-patches/commit/9dd82391f3f97247224e09e0143b2272a3d47053))
+
+## [2.104.2](https://github.com/revanced/revanced-patches/compare/v2.104.1...v2.104.2) (2022-11-08)
+
+
+### Bug Fixes
+
+* **youtube/hide-endscreen-cards:** restore functionality ([#993](https://github.com/revanced/revanced-patches/issues/993)) ([eb1bae2](https://github.com/revanced/revanced-patches/commit/eb1bae2c55e65ad29030dce6746a18662dd0fe25))
+
+## [2.104.1](https://github.com/revanced/revanced-patches/compare/v2.104.0...v2.104.1) (2022-11-07)
+
+
+### Bug Fixes
+
+* **youtube/general-ads:** incorrect description for info panels ([77b029e](https://github.com/revanced/revanced-patches/commit/77b029e82e481a13516b1c8a888c42817507cdea))
+* **youtube/hide-info-cards:** remove initial popup of info-cards ([#992](https://github.com/revanced/revanced-patches/issues/992)) ([19f3f03](https://github.com/revanced/revanced-patches/commit/19f3f038585c313a969adf3d4095a60ab4c83ede))
+
+# [2.104.0](https://github.com/revanced/revanced-patches/compare/v2.103.0...v2.104.0) (2022-11-06)
+
+
+### Features
+
+* **hexeditor:** `disable-ads` patch ([#973](https://github.com/revanced/revanced-patches/issues/973)) ([a48e5fd](https://github.com/revanced/revanced-patches/commit/a48e5fd50dcf9ee061ffd5c5ed0b997067f40652))
+
+# [2.103.0](https://github.com/revanced/revanced-patches/compare/v2.102.1...v2.103.0) (2022-11-05)
+
+
+### Bug Fixes
+
+* apply multiple changes from integrations, refactor package structure, class names and implementations ([e756fac](https://github.com/revanced/revanced-patches/commit/e756face362e4abf2c7b17afa536feed9b0cd631))
+* **youtube/video-information:** use correct compatibility annotation ([b42e048](https://github.com/revanced/revanced-patches/commit/b42e04884bb9a60c3df30b668bfba55b1cf8eaa4))
+
+
+### Features
+
+* **debugging:** simplify patch name and description ([61762f7](https://github.com/revanced/revanced-patches/commit/61762f76c457f348ef599e146f3853e941d4c45c))
+
+## [2.102.1](https://github.com/revanced/revanced-patches/compare/v2.102.0...v2.102.1) (2022-11-04)
+
+
+### Bug Fixes
+
+* use original app name ([#977](https://github.com/revanced/revanced-patches/issues/977)) ([ffc3c08](https://github.com/revanced/revanced-patches/commit/ffc3c08d96734893121397d506a97bd50b06bc1d))
+
 # [2.102.0](https://github.com/revanced/revanced-patches/compare/v2.101.0...v2.102.0) (2022-11-03)
 
 
