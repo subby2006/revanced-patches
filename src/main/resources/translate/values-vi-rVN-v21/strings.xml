@@ -352,9 +352,6 @@ Bạn có chắc chắn muốn tiếp tục không?"</string>
     <string name="revanced_shorts_button_summary_off">Nút Shorts đã ẩn</string>
     <string name="revanced_shorts_button_summary_on">Nút Shorts được hiển thị</string>
     <string name="revanced_shorts_button_title">Nút Shorts</string>
-    <string name="revanced_shorts_comments_button_summary_off">Nút Bình luận (Shorts) đã ẩn</string>
-    <string name="revanced_shorts_comments_button_summary_on">Nút Bình luận (Shorts) được hiển thị</string>
-    <string name="revanced_shorts_comments_button_title">Nút Bình luận (Shorts)</string>
     <string name="revanced_shorts_player_subscriptions_summary_off">Biểu ngữ Kênh đăng ký (Shorts) đã ẩn</string>
     <string name="revanced_shorts_player_subscriptions_summary_on">Biểu ngữ Kênh đăng ký (Shorts) được hiển thị</string>
     <string name="revanced_shorts_player_subscriptions_title">Biểu ngữ Kênh đăng ký (Shorts)</string>
@@ -364,9 +361,6 @@ Bạn có chắc chắn muốn tiếp tục không?"</string>
     <string name="revanced_shorts_shelf_summary_off">Kệ Shorts đã ẩn</string>
     <string name="revanced_shorts_shelf_summary_on">Kệ Shorts được hiển thị</string>
     <string name="revanced_shorts_shelf">Kệ Shorts</string>
-    <string name="revanced_shorts_remix_button_summary_off">Nút Phối lại (Shorts) đã ẩn</string>
-    <string name="revanced_shorts_remix_button_summary_on">Nút Phối lại (Shorts) được hiển thị</string>
-    <string name="revanced_shorts_remix_button_title">Nút Phối lại (Shorts)</string>
     <string name="revanced_startup_shorts_player_summary_off">Phát YouTube Shorts bị vô hiệu hoá khi mở ứng dụng</string>
     <string name="revanced_startup_shorts_player_summary_on">Phát YouTube Shorts được kích hoạt khi mở ứng dụng</string>
     <string name="revanced_startup_shorts_player_title">Phát YouTube Shorts khi mở ứng dụng</string>

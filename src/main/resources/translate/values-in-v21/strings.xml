@@ -188,10 +188,16 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_endscreen_cards_summary_off">Kartu layar akhir disembunyikan</string>
     <string name="revanced_endscreen_cards_summary_on">Kartu layar akhir ditampilkan</string>
     <string name="revanced_endscreen_cards_title">Kartu layar akhir</string>
+    <string name="revanced_endscreen_overlay_summary_off">Endscreen overlay are visible</string>
+    <string name="revanced_endscreen_overlay_summary_on">Endscreen overlay are hidden</string>
+    <string name="revanced_endscreen_overlay_title">Endscreen overlay</string>
     <string name="revanced_experimental_flag">Pengaturan eksperimental</string>
     <string name="revanced_extended_settings">Pengaturan ReVanced Extended</string>
     <string name="revanced_extended_summary">Pengaturan yang terkait dengan extended</string>
     <string name="revanced_extended_title">Pengaturan extended</string>
+    <string name="revanced_expansion_card_summary_off">Expansion cards are shown</string>
+    <string name="revanced_expansion_card_summary_on">Expansion cards are hidden</string>
+    <string name="revanced_expansion_card_title">Expansion cards</string>
     <string name="revanced_fix_playback_summary_off">Perbaikan masalah buffer pemutaran video dimatikan</string>
     <string name="revanced_fix_playback_summary_on">Perbaikan masalah buffer pemutaran video diaktifkan</string>
     <string name="revanced_fix_playback_title">Memperbaiki masalah buffer pemutaran video (eksperimental)</string>
@@ -352,9 +358,13 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_shorts_button_summary_off">Tombol shorts disembunyikan</string>
     <string name="revanced_shorts_button_summary_on">Tombol shorts ditampilkan</string>
     <string name="revanced_shorts_button_title">Tombol shorts</string>
-    <string name="revanced_shorts_comments_button_summary_off">Tombol komentar shorts disembunyikan</string>
-    <string name="revanced_shorts_comments_button_summary_on">Tombol komentar shorts ditampilkan</string>
-    <string name="revanced_shorts_comments_button_title">Tombol komentar shorts</string>
+    <string name="revanced_shorts_player_comments_button_summary_off">Shorts player comments button is hidden</string>
+    <string name="revanced_shorts_player_comments_button_summary_on">Shorts player comments button is shown</string>
+    <string name="revanced_shorts_player_comments_button_title">Shorts player comments button</string>
+    <string name="revanced_shorts_player_title">Shorts player</string>
+    <string name="revanced_shorts_player_remix_button_summary_off">Shorts player remix button is hidden</string>
+    <string name="revanced_shorts_player_remix_button_summary_on">Shorts player remix button is shown</string>
+    <string name="revanced_shorts_player_remix_button_title">Shorts player remix button</string>
     <string name="revanced_shorts_player_subscriptions_summary_off">Spanduk berlangganan shorts disembunyikan</string>
     <string name="revanced_shorts_player_subscriptions_summary_on">Spanduk berlangganan shorts ditampilkan</string>
     <string name="revanced_shorts_player_subscriptions_title">Spanduk berlangganan shorts</string>
@@ -364,9 +374,6 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_shorts_shelf_summary_off">Rak shorts disembunyikan</string>
     <string name="revanced_shorts_shelf_summary_on">Rak shorts ditampilkan</string>
     <string name="revanced_shorts_shelf">Rak shorts</string>
-    <string name="revanced_shorts_remix_button_summary_off">Tombol remix shorts disembunyikan</string>
-    <string name="revanced_shorts_remix_button_summary_on">Tombol remix shorts ditampilkan</string>
-    <string name="revanced_shorts_remix_button_title">Tombol remix shorts</string>
     <string name="revanced_startup_shorts_player_summary_off">Pemutar shorts dinonaktifkan saat memulai aplikasi</string>
     <string name="revanced_startup_shorts_player_summary_on">Pemutar shorts diaktifkan saat memulai aplikasi</string>
     <string name="revanced_startup_shorts_player_title">Pemutar shorts saat memulai aplikasi</string>
@@ -427,6 +434,9 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_view_products_summary_off">Lihat spanduk produk ditampilkan</string>
     <string name="revanced_view_products_summary_on">Lihat spanduk produk disembunyikan</string>
     <string name="revanced_view_products_title">Lihat spanduk produk</string>
+    <string name="revanced_web_search_panels_summary_off">Web search panels is shown</string>
+    <string name="revanced_web_search_panels_summary_on">Web search panels is hidden</string>
+    <string name="revanced_web_search_panels_title">Web search panels</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Gagal menambahkan channel %s ke daftar putih %s</string>
     <string name="revanced_whitelisting_added" formatted="false">Channel %s telah ditambahkan ke daftar putih %s</string>
     <string name="revanced_whitelisting_ads">Iklan</string>
@@ -470,55 +480,51 @@ Jika anda ingin menonaktifkan ini, atur yang berikut ke OFF:"</string>
     <string name="settings_import_failed">Gagal mengimpor pengaturan</string>
     <string name="settings_import_successful">Pengaturan berhasil diimpor</string>
     <string name="skip_automatically">Lewati otomatis</string>
-    <string name="skip_automatically_once">Lewati secara otomatis sekali</string>
-    <string name="skip_ignore">"Jangan lakukan apapun"</string>
-    <string name="skip_showbutton">Tampilkan tombol lewati</string>
-    <string name="skip_sponsor">Lewati segmen</string>
-    <string name="skipped_endcard">Outro dilewati</string>
-    <string name="skipped_filler">Filler dilewati</string>
-    <string name="skipped_intermission">Intro dilewati</string>
-    <string name="skipped_nomusic">Bagian non-musik dilewati</string>
-    <string name="skipped_preview">Pratinjau dilewati</string>
-    <string name="skipped_segment">Segmen sponsor dilewati</string>
-    <string name="skipped_selfpromo">Promosi diri sendiri dilewati</string>
-    <string name="skipped_sponsor">Sponsor dilewati</string>
-    <string name="skipped_subscribe">Pengingat mengganggu dilewati</string>
-    <string name="skipped_unsubmitted">Melewati segmen yang belum dikirim</string>
+    <string name="skip_automatically_once">Lewati otomatis, hanya sekali</string>
+    <string name="skip_ignore">"Lewati penolakan"</string>
+    <string name="skip_showbutton">Lewati tombol show</string>
+    <string name="skip_sponsor">Lewati iklan</string>
+    <string name="skipped_endcard">Melawatkan sesi penutup</string>
+    <string name="skipped_filler">Melewatkan pengisi</string>
+    <string name="skipped_intermission">Melawatkan sesi pembuka</string>
+    <string name="skipped_nomusic">Melewatkan sesi tanpa musik</string>
+    <string name="skipped_preview">Melewatkan pratinjau</string>
+    <string name="skipped_segment">Melewatkan sesi ulasan</string>
+    <string name="skipped_selfpromo">Melewatkan promosi pribadi</string>
+    <string name="skipped_sponsor">Melewatkan iklan</string>
+    <string name="skipped_subscribe">Melewatkan untuk berlangganan</string>
+    <string name="skipped_unsubmitted">Melewatkan segmen yang belum dikirim</string>
     <string name="stats">Statistik</string>
     <string name="stats_loading">Memuat..</string>
-    <string name="stats_saved">"Anda telah menyelamatkan orang dari &lt;b&gt;%s&lt;/b&gt; segmen."</string>
-    <string name="stats_saved_sum">"Itu &lt;b&gt;%s&lt;/b&gt; dari kehidupan mereka. Tekan untuk melihat papan peringkat"</string>
+    <string name="stats_saved">"Statistik teraimpan"</string>
+    <string name="stats_saved_sum">"Rangkuman statistik tersimpan"</string>
     <string name="stats_sb_disabled">SponsorBlock dinonaktifkan</string>
-    <string name="stats_self_saved">"Anda telah melewati &lt;b&gt;%s&lt;/b&gt; segmen."</string>
-    <string name="stats_self_saved_sum">"Itu &lt;b&gt;%s&lt;/b&gt;."</string>
-    <string name="stats_submissions">Submisi: &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="stats_username">Username Anda: &lt;b&gt;%s&lt;/b&gt;</string>
-    <string name="stats_username_change">Tekan untuk mengubah username</string>
+    <string name="stats_self_saved">"Statistik pribadi tersimpan"</string>
+    <string name="stats_self_saved_sum">"Rangkuman statistik pribadi tersimpan"</string>
+    <string name="stats_submissions">Statistik submisi</string>
+    <string name="stats_username">Statistik username anda</string>
+    <string name="stats_username_change">Ganti nama user</string>
     <string name="stats_username_change_unknown_error" formatted="false">Tidak dapat mengubah nama user: Status: %d %s</string>
     <string name="stats_username_changed">Username berhasil diubah</string>
     <string name="submit_failed_duplicate">"Tidak dapat mengirimkan segmen.
 Sudah ada"</string>
-    <string name="submit_failed_forbidden">"Tidak dapat mengirimkan segmen.
-
-%s"</string>
+    <string name="submit_failed_forbidden">"Gagal, Dilarang mengirim segmen"</string>
     <string name="submit_failed_rate_limit">"Tidak dapat mengirimkan segmen.
 Kuota dibatasi (terlalu banyak dari user atau IP yang sama)"</string>
-    <string name="submit_failed_invalid">Tidak dapat mengirim segment: %s</string>
-    <string name="submit_failed_unknown_error" formatted="false">Tidak dapat mengirimkan segmen: Status: %d %s</string>
+    <string name="submit_failed_invalid">Tidak dapat mengirim segmen, tidak sah: Status: %s</string>
+    <string name="submit_failed_unknown_error" formatted="false">Tidak dapat mengirimkan segmen, masalah tidak diketahui: Status: %d %s</string>
     <string name="submit_started">Mengirim segmen…</string>
     <string name="submit_succeeded">Segmen berhasil dikirim</string>
     <string name="tap_skip">Tekan untuk melewati</string>
-    <string name="vote_category">Ubah kategori</string>
-    <string name="vote_downvote">Downvote</string>
-    <string name="vote_failed_forbidden">"Tidak dapat melakukan voting segmen.
-
-%s"</string>
+    <string name="vote_category">Pilih kategori</string>
+    <string name="vote_downvote">Menolak suara</string>
+    <string name="vote_failed_forbidden">"voting gagal, dilarang melakukan voting %s\""</string>
     <string name="vote_failed_rate_limit">"Tidak dapat melakukan voting segmen.
 Kuota dibatasi (terlalu banyak dari user atau IP yang sama)"</string>
     <string name="vote_failed_unknown_error" formatted="false">Tidak dapat melakukan voting segmen : Status: %d %s</string>
     <string name="vote_no_segments">Tidak ada segmen untuk divoting</string>
-    <string name="vote_started">Voting untuk segmen…</string>
-    <string name="vote_succeeded">Voting berhasil</string>
-    <string name="vote_upvote">Upvote</string>
-    <string name="website">Website</string>
+    <string name="vote_started">Voting dimulai…</string>
+    <string name="vote_succeeded">Pemilihan berhasil</string>
+    <string name="vote_upvote">Memilih suara</string>
+    <string name="website">Situs</string>
 </resources>

@@ -98,7 +98,7 @@
     <string name="microg_notification_settings">إعدادات الإشعارات</string>
     <string name="microg_notification_settings_summary">"1. يحتاج تسجيل جهاز Google و Google Cloud Messaging إلى تمكينهما للحصول على للإشعارات.  2. يحتاج ReVanced إلى أن يظهر كمسجل تحت المراسلة السحابية.  3. يجب عدم قطع الإتصال في المراسلة السحابية."</string>
     <string name="microg_settings">إعدادات MicroG</string>
-    <string name="minutes">دقيقة</string>
+    <string name="minutes">M</string>
     <string name="new_segment_choose_category">اختيار فئة المقطع</string>
     <string name="new_segment_confirm_content" formatted="false">"\"المقطع يستمر من %02d:%02d إلى %02d:%02d (%d دقيقة %02d ثانية) هل هو جاهز للإرسال؟\""</string>
     <string name="new_segment_confirm_title">هل الأوقات صحيحة؟</string>
@@ -185,10 +185,16 @@
     <string name="revanced_endscreen_cards_summary_off">تم إخفاء بطاقات شاشة النهاية</string>
     <string name="revanced_endscreen_cards_summary_on">يتم عرض بطاقات شاشة النهاية</string>
     <string name="revanced_endscreen_cards_title">بطاقات شاشة النهاية</string>
+    <string name="revanced_endscreen_overlay_summary_off">يتم عرض واجهة شاشة النهاية</string>
+    <string name="revanced_endscreen_overlay_summary_on">تم إخفاء واجهة شاشة النهاية</string>
+    <string name="revanced_endscreen_overlay_title">واجهة شاشة النهاية</string>
     <string name="revanced_experimental_flag">تعديلات تجريبية</string>
     <string name="revanced_extended_settings">إعدادات ReVanced Extended</string>
     <string name="revanced_extended_summary">الإعدادات المتعلقة بــ Extended</string>
     <string name="revanced_extended_title">إعدادات Extended</string>
+    <string name="revanced_expansion_card_summary_off">يتم عرض بطاقات التوسيع</string>
+    <string name="revanced_expansion_card_summary_on">تم إخفاء بطاقات التوسيع</string>
+    <string name="revanced_expansion_card_title">بطاقات التوسيع</string>
     <string name="revanced_fix_playback_summary_off">تم إيقاف تشغيل إصلاح مشكلات التحميل المسبق لتشغيل الفيديو</string>
     <string name="revanced_fix_playback_summary_on">تم تشغيل إصلاح مشكلات التحميل المسبق لتشغيل الفيديو</string>
     <string name="revanced_fix_playback_title">إصلاح مشكلات التحميل المسبق لتشغيل الفيديو (تجريبي)</string>
@@ -326,11 +332,15 @@
     <string name="revanced_shorts_button_summary_off">تم إخفاء زر Shorts</string>
     <string name="revanced_shorts_button_summary_on">تم إظهار زر Shorts</string>
     <string name="revanced_shorts_button_title">زر Shorts</string>
-    <string name="revanced_shorts_comments_button_summary_off">تم إخفاء زر تعليقات فيديوهات Shorts</string>
-    <string name="revanced_shorts_comments_button_summary_on">يتم عرض زر تعليقات فيديوهات Shorts</string>
-    <string name="revanced_shorts_comments_button_title">زر تعليقات فيديوهات Shorts</string>
-    <string name="revanced_shorts_player_subscriptions_summary_off">Shorts subscriptions banner is hidden</string>
-    <string name="revanced_shorts_player_subscriptions_summary_on">Shorts subscriptions banner is shown</string>
+    <string name="revanced_shorts_player_comments_button_summary_off">تم إخفاء زر تعليقات فيديوهات Shorts</string>
+    <string name="revanced_shorts_player_comments_button_summary_on">يتم عرض زر تعليقات فيديوهات Shorts</string>
+    <string name="revanced_shorts_player_comments_button_title">زر تعليقات فيديوهات Shorts</string>
+    <string name="revanced_shorts_player_title">مُشَغِل Shorts</string>
+    <string name="revanced_shorts_player_remix_button_summary_off">تم إخفاء زر ريمكس في مشغل Shorts</string>
+    <string name="revanced_shorts_player_remix_button_summary_on">يتم عرض زر ريمكس في مشغل Shorts</string>
+    <string name="revanced_shorts_player_remix_button_title">زر ريمكس في مشغل فيديوهات Shorts</string>
+    <string name="revanced_shorts_player_subscriptions_summary_off">تم إخفاء خيار الاشتراكات في فيديوهات Short</string>
+    <string name="revanced_shorts_player_subscriptions_summary_on">يتم عرض زر الاشتراكات في فيديوهات Short</string>
     <string name="revanced_shorts_player_subscriptions_title">زر الاشتراكات في فيديوهات Shorts</string>
     <string name="revanced_shorts_player_thanks_summary_off">تم إخفاء زر الاشتراكات في فيديوهات Shorts</string>
     <string name="revanced_shorts_player_thanks_summary_on">يتم عرض زر الاشتراكات في فيديوهات Shorts</string>
@@ -338,9 +348,6 @@
     <string name="revanced_shorts_shelf_summary_off">تم إخفاء صف الفيديوهات القصيرة (Shorts)</string>
     <string name="revanced_shorts_shelf_summary_on">يتم عرض صف الفيديوهات القصيرة (Shorts)</string>
     <string name="revanced_shorts_shelf">صف الفيديوهات القصيرة (Shorts)</string>
-    <string name="revanced_shorts_remix_button_summary_off">تم إخفاء زر ريمكس في فيديوهات Shorts</string>
-    <string name="revanced_shorts_remix_button_summary_on">يتم عرض زر ريمكس في فيديوهات Shorts</string>
-    <string name="revanced_shorts_remix_button_title">زر ريمكس في فيديوهات Shorts</string>
     <string name="revanced_startup_shorts_player_summary_off">تم تعطيل مشغل Shorts عند بدء تشغيل التطبيق</string>
     <string name="revanced_startup_shorts_player_summary_on">تم تمكين مشغل Shorts عند بدء تشغيل التطبيق</string>
     <string name="revanced_startup_shorts_player_title">مشغل Shorts عند بدء تشغيل التطبيق</string>
@@ -401,6 +408,9 @@
     <string name="revanced_view_products_summary_off">يتم عرض لافتة عرض المنتجات</string>
     <string name="revanced_view_products_summary_on">تم إخفاء لافتة عرض المنتجات</string>
     <string name="revanced_view_products_title">لافتة عرض المنتجات</string>
+    <string name="revanced_web_search_panels_summary_off">يتم عرض لوحات بحث الويب</string>
+    <string name="revanced_web_search_panels_summary_on">تم إخفاء لوحات بحث الويب</string>
+    <string name="revanced_web_search_panels_title">لوحات بحث الويب</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">فشل إضافة القناة %s إلى القائمة البيضاء %s</string>
     <string name="revanced_whitelisting_added" formatted="false">تمت إضافة القناة %s إلى القائمة البيضاء %s</string>
     <string name="revanced_whitelisting_ads">الإعلانات</string>
@@ -455,7 +465,7 @@
     <string name="skipped_subscribe">تم تخطي التذكير بالتفاعل</string>
     <string name="skipped_unsubmitted">تم تخطي المقطع الغير المرسل</string>
     <string name="stats">إحصائيات</string>
-    <string name="stats_loading">جاري التحميل..</string>
+    <string name="stats_loading">جارٍ التحميل...</string>
     <string name="stats_saved">"لقد قمت بحفظ الناس من &lt;b&gt;%s&lt;/b&gt; مقطع."</string>
     <string name="stats_saved_sum">"هذا يساوي &lt;b&gt;%s&lt;/b&gt; من حياتهم. انقر لرؤية لوحة المتصدرين"</string>
     <string name="stats_sb_disabled">تم تعطيل مانِع الرُعَاة</string>

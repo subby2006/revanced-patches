@@ -188,10 +188,16 @@ Gönderilmeye hazır mı?"</string>
     <string name="revanced_endscreen_cards_summary_off">Gizleniyor</string>
     <string name="revanced_endscreen_cards_summary_on">Gizlenmiyor</string>
     <string name="revanced_endscreen_cards_title">Bitiş ekranı kartları</string>
+    <string name="revanced_endscreen_overlay_summary_off">Gizlenmiyor</string>
+    <string name="revanced_endscreen_overlay_summary_on">Gizleniyor</string>
+    <string name="revanced_endscreen_overlay_title">Bitiş ekranı arayüzü</string>
     <string name="revanced_experimental_flag">Deneysel parametreler</string>
     <string name="revanced_extended_settings">ReVanced Gelişmiş ayarlar</string>
     <string name="revanced_extended_summary">Gelişmiş ayarlar</string>
     <string name="revanced_extended_title">Genişletilmiş Ayarlar</string>
+    <string name="revanced_expansion_card_summary_off">Gizlenmiyor</string>
+    <string name="revanced_expansion_card_summary_on">Gizleniyor</string>
+    <string name="revanced_expansion_card_title">Kart genişlemeleri</string>
     <string name="revanced_fix_playback_summary_off">Video oynatma arabelleği sorunlarını düzeltme kapalı</string>
     <string name="revanced_fix_playback_summary_on">Video oynatma arabelleği sorunlarını düzeltme açık</string>
     <string name="revanced_fix_playback_title">Video arabelleği sorunlarını düzeltin (Deneysel)</string>
@@ -363,9 +369,13 @@ Yine de devam etmek istediğinden emin misin?"</string>
     <string name="revanced_shorts_button_summary_off">Kapalı</string>
     <string name="revanced_shorts_button_summary_on">Açık</string>
     <string name="revanced_shorts_button_title">Shorts butonu</string>
-    <string name="revanced_shorts_comments_button_summary_off">Gizleniyor</string>
-    <string name="revanced_shorts_comments_button_summary_on">Gizlenmiyor</string>
-    <string name="revanced_shorts_comments_button_title">Shorts yorumlar butonu</string>
+    <string name="revanced_shorts_player_comments_button_summary_off">Gizleniyor</string>
+    <string name="revanced_shorts_player_comments_button_summary_on">Gizlenmiyor</string>
+    <string name="revanced_shorts_player_comments_button_title">Shorts oynatıcı yorumlar butonu</string>
+    <string name="revanced_shorts_player_title">Shorts oynatıcı</string>
+    <string name="revanced_shorts_player_remix_button_summary_off">Gizleniyor</string>
+    <string name="revanced_shorts_player_remix_button_summary_on">Gizlenmiyor</string>
+    <string name="revanced_shorts_player_remix_button_title">Shorts oynatıcı \"bu sesi kullan\" seçeneği</string>
     <string name="revanced_shorts_player_subscriptions_summary_off">Gizleniyor</string>
     <string name="revanced_shorts_player_subscriptions_summary_on">Gizlenmiyor</string>
     <string name="revanced_shorts_player_subscriptions_title">Shorts abonelikler afişi</string>
@@ -375,9 +385,6 @@ Yine de devam etmek istediğinden emin misin?"</string>
     <string name="revanced_shorts_shelf_summary_off">Gizleniyor</string>
     <string name="revanced_shorts_shelf_summary_on">Gizlenmiyor</string>
     <string name="revanced_shorts_shelf">Shorts rafları</string>
-    <string name="revanced_shorts_remix_button_summary_off">Gizleniyor</string>
-    <string name="revanced_shorts_remix_button_summary_on">Gizlenmiyor</string>
-    <string name="revanced_shorts_remix_button_title">Shorts \"bu müziği kullan\" seçeneği</string>
     <string name="revanced_startup_shorts_player_summary_off">Kapalı</string>
     <string name="revanced_startup_shorts_player_summary_on">Açık</string>
     <string name="revanced_startup_shorts_player_title">Shorts videolarını açılışta oynat</string>
@@ -438,6 +445,9 @@ Yine de devam etmek istediğinden emin misin?"</string>
     <string name="revanced_view_products_summary_off">Ürünleri görüntüle başlığı gizlenmiyor</string>
     <string name="revanced_view_products_summary_on">Ürünleri görüntüle başlığı gizlendi</string>
     <string name="revanced_view_products_title">Ürünler afişini görüntüle</string>
+    <string name="revanced_web_search_panels_summary_off">Gizlenmiyor</string>
+    <string name="revanced_web_search_panels_summary_on">Gizleniyor</string>
+    <string name="revanced_web_search_panels_title">Web arama sonuçları</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Kanal %s, %s beyaz listeye eklenemedi</string>
     <string name="revanced_whitelisting_added" formatted="false">Kanal %s, %s beyaz listeye eklendi</string>
     <string name="revanced_whitelisting_ads">Reklamlar</string>

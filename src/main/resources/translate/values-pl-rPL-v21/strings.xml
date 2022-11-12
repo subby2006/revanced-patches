@@ -339,9 +339,6 @@
     <string name="revanced_shorts_button_summary_off">Ukryty</string>
     <string name="revanced_shorts_button_summary_on">Widoczny</string>
     <string name="revanced_shorts_button_title">Przycisk „Shorty\"</string>
-    <string name="revanced_shorts_comments_button_summary_off">Ukryty</string>
-    <string name="revanced_shorts_comments_button_summary_on">Widoczny</string>
-    <string name="revanced_shorts_comments_button_title">Przycisk komentowania \"Shortów\"</string>
     <string name="revanced_shorts_player_subscriptions_summary_off">Ukryty</string>
     <string name="revanced_shorts_player_subscriptions_summary_on">Widoczny</string>
     <string name="revanced_shorts_player_subscriptions_title">Baner subskrypcji „Shortów\"</string>
@@ -351,9 +348,6 @@
     <string name="revanced_shorts_shelf_summary_off">Ukryta</string>
     <string name="revanced_shorts_shelf_summary_on">Widoczna</string>
     <string name="revanced_shorts_shelf">Półka z „Shortami\"</string>
-    <string name="revanced_shorts_remix_button_summary_off">Ukryty</string>
-    <string name="revanced_shorts_remix_button_summary_on">Widoczny</string>
-    <string name="revanced_shorts_remix_button_title">Przycisk mieszania „Shortów\"</string>
     <string name="revanced_startup_shorts_player_summary_off">Wyłączony</string>
     <string name="revanced_startup_shorts_player_summary_on">Włączony</string>
     <string name="revanced_startup_shorts_player_title">Odtwarzacz „Shortów\" przy starcie aplikacji</string>

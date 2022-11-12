@@ -343,16 +343,12 @@ Is it ready to submit?"</string>
     <string name="revanced_shorts_button_summary_off">ปุ่ม Shorts  ปิดใช้งาน</string>
     <string name="revanced_shorts_button_summary_on">ปุ่ม Shorts  เปิดใช้งาน</string>
     <string name="revanced_shorts_button_title">ปุ่ม Shorts</string>
-    <string name="revanced_shorts_comments_button_summary_off">Shorts comments button  ปิดใช้งาน</string>
-    <string name="revanced_shorts_comments_button_summary_on">Shorts comments button  เปิดใช้งาน</string>
     <string name="revanced_shorts_player_subscriptions_summary_off">Shorts subscriptions banner  ปิดใช้งาน</string>
     <string name="revanced_shorts_player_subscriptions_summary_on">Shorts subscriptions banner  เปิดใช้งาน</string>
     <string name="revanced_shorts_player_thanks_summary_off">Shorts thanks banner  ปิดใช้งาน</string>
     <string name="revanced_shorts_player_thanks_summary_on">Shorts thanks banner  เปิดใช้งาน</string>
     <string name="revanced_shorts_shelf_summary_off">Shorts shelves  ปิดใช้งาน</string>
     <string name="revanced_shorts_shelf_summary_on">Shorts shelves เปิดใช้งาน</string>
-    <string name="revanced_shorts_remix_button_summary_off">Shorts remix button  ปิดใช้งาน</string>
-    <string name="revanced_shorts_remix_button_summary_on">Shorts remix button  เปิดใช้งาน</string>
     <string name="revanced_startup_shorts_player_summary_off">Shorts player  ปิดใช้งานใน app startup</string>
     <string name="revanced_startup_shorts_player_summary_on">Shorts player เปิดใช้งานใน app startup</string>
     <string name="revanced_startup_shorts_player_title">Shorts player at app startup</string>

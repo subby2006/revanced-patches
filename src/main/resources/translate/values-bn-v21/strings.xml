@@ -354,9 +354,6 @@
     <string name="revanced_shorts_button_summary_off">শর্টস বাটন লুকানো আছে</string>
     <string name="revanced_shorts_button_summary_on">শর্টস বাটন প্রদর্শিত</string>
     <string name="revanced_shorts_button_title">শর্টস বাটন</string>
-    <string name="revanced_shorts_comments_button_summary_off">শর্টস মন্তব্য বাটন লুকানো আছে</string>
-    <string name="revanced_shorts_comments_button_summary_on">শর্টস মন্তব্য বাটন প্রদর্শিত</string>
-    <string name="revanced_shorts_comments_button_title">শর্টস মন্তব্য বাটন</string>
     <string name="revanced_shorts_player_subscriptions_summary_off">শর্টস সাবস্ক্রিপশন ব্যানার লুকানো আছে</string>
     <string name="revanced_shorts_player_subscriptions_summary_on">শর্টস সাবস্ক্রিপশন ব্যানার প্রদর্শিত</string>
     <string name="revanced_shorts_player_subscriptions_title">শর্টস সাবস্ক্রিপশন ব্যানার</string>
@@ -366,9 +363,6 @@
     <string name="revanced_shorts_shelf_summary_off">শর্টস শেলফ লুকানো আছে</string>
     <string name="revanced_shorts_shelf_summary_on">শর্টস শেলফ প্রদর্শিত</string>
     <string name="revanced_shorts_shelf">শর্টস শেলফ</string>
-    <string name="revanced_shorts_remix_button_summary_off">শর্টস রিমিক্স বাটন লুকানো আছে</string>
-    <string name="revanced_shorts_remix_button_summary_on">শর্টস রিমিক্স বাটন প্রদর্শিত</string>
-    <string name="revanced_shorts_remix_button_title">শর্টস রিমিক্স বাটন</string>
     <string name="revanced_startup_shorts_player_summary_off">অ্যাপ স্টার্টআপে শর্টস প্লেয়ার বন্ধ করা আছে</string>
     <string name="revanced_startup_shorts_player_summary_on">অ্যাপ স্টার্টআপে শর্টস প্লেয়ার চালু করা আছে</string>
     <string name="revanced_startup_shorts_player_title">অ্যাপ স্টার্টআপে শর্টস প্লেয়ার</string>

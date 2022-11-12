@@ -93,8 +93,8 @@
     <string name="litho_paid_content">सशुल्क सामग्री निकालना</string>
     <string name="litho_paid_content_off">सशुल्क सामग्री निकालना बंद है</string>
     <string name="litho_paid_content_on">सशुल्क सामग्री निकालना चालू है</string>
-    <string name="microg_not_installed_notice">कृपया MicroG इंस्टॉल करें</string>
-    <string name="microg_not_installed_warning">MicroG नहीं मिला</string>
+    <string name="microg_not_installed_notice">कृपया microG इंस्टॉल करें</string>
+    <string name="microg_not_installed_warning">microG नहीं मिला</string>
     <string name="microg_notification_settings">नोटिफिकेशन सेटिंग्स</string>
     <string name="microg_notification_settings_summary">"1. सूचनाओं के लिए Google डिवाइस पंजीकरण और क्लाउड मैसेजिंग को सक्षम करने की आवश्यकता है।
 2. ReVanced को Cloud Messaging के तहत पंजीकृत के रूप में दिखाया जाना चाहिए।
@@ -188,10 +188,16 @@
     <string name="revanced_endscreen_cards_summary_off">एंड स्क्रीन कार्ड छिपे हुए हैं</string>
     <string name="revanced_endscreen_cards_summary_on">एंड स्क्रीन कार्ड दिखाए जाते हैं</string>
     <string name="revanced_endscreen_cards_title">एंड स्क्रीन कार्ड</string>
+    <string name="revanced_endscreen_overlay_summary_off">एंडस्क्रीन ओवरले दिखाई दे रहे हैं</string>
+    <string name="revanced_endscreen_overlay_summary_on">एंडस्क्रीन ओवरले छिपे हुए हैं</string>
+    <string name="revanced_endscreen_overlay_title">एंडस्क्रीन ओवरले</string>
     <string name="revanced_experimental_flag">प्रायोगिक झंडे</string>
     <string name="revanced_extended_settings">ReVanced Extended सेटिंग्स</string>
     <string name="revanced_extended_summary">विस्तारित संबंधित सेटिंग्स</string>
     <string name="revanced_extended_title">विस्तारित सेटिंग्स</string>
+    <string name="revanced_expansion_card_summary_off">विस्तार कार्ड दिखाए गए हैं</string>
+    <string name="revanced_expansion_card_summary_on">विस्तार कार्ड छिपे हुए हैं</string>
+    <string name="revanced_expansion_card_title">विस्तार कार्ड</string>
     <string name="revanced_fix_playback_summary_off">वीडियो प्लेबैक बफ़र समस्याओं को ठीक करना बंद किया गया</string>
     <string name="revanced_fix_playback_summary_on">वीडियो प्लेबैक बफ़र समस्याओं को ठीक करें चालू किया गया</string>
     <string name="revanced_fix_playback_title">वीडियो प्लेबैक बफ़र समस्याओं को ठीक करें (प्रयोगात्मक)</string>
@@ -355,9 +361,13 @@
     <string name="revanced_shorts_button_summary_off">शॉर्ट्स बटन छिपा हुआ है</string>
     <string name="revanced_shorts_button_summary_on">शॉर्ट्स बटन दिखाया गया है</string>
     <string name="revanced_shorts_button_title">शॉर्ट्स बटन</string>
-    <string name="revanced_shorts_comments_button_summary_off">शॉर्ट्स टिप्पणी बटन छिपा हुआ है</string>
-    <string name="revanced_shorts_comments_button_summary_on">शॉर्ट्स टिप्पणी बटन दिखाया गया है</string>
-    <string name="revanced_shorts_comments_button_title">शॉर्ट कमेंट बटन</string>
+    <string name="revanced_shorts_player_comments_button_summary_off">शॉर्ट्स प्लेयर कमेंट बटन छिपा हुआ है </string>
+    <string name="revanced_shorts_player_comments_button_summary_on">शॉर्ट्स प्लेयर टिप्पणी बटन दिखाया गया है</string>
+    <string name="revanced_shorts_player_comments_button_title">शॉर्ट्स प्लेयर कमेंट बटन</string>
+    <string name="revanced_shorts_player_title">शॉर्ट्स प्लेयर</string>
+    <string name="revanced_shorts_player_remix_button_summary_off">शॉर्ट्स प्लेयर रीमिक्स बटन छिपा हुआ है</string>
+    <string name="revanced_shorts_player_remix_button_summary_on">शॉर्ट्स प्लेयर रीमिक्स बटन दिखाया गया है</string>
+    <string name="revanced_shorts_player_remix_button_title">शॉर्ट्स प्लेयर रीमिक्स बटन</string>
     <string name="revanced_shorts_player_subscriptions_summary_off">शॉर्ट्स सदस्यता बैनर छिपा हुआ है</string>
     <string name="revanced_shorts_player_subscriptions_summary_on">शॉर्ट्स सदस्यता बैनर दिखाया गया है</string>
     <string name="revanced_shorts_player_subscriptions_title">शॉर्ट्स सदस्यता बैनर</string>
@@ -367,9 +377,6 @@
     <string name="revanced_shorts_shelf_summary_off">शॉर्ट्स अलमारियों छिपी हुई हैं</string>
     <string name="revanced_shorts_shelf_summary_on">शॉर्ट्स अलमारियों को दिखाया गया है</string>
     <string name="revanced_shorts_shelf">शॉर्ट्स शेल्फ</string>
-    <string name="revanced_shorts_remix_button_summary_off">शॉर्ट्स रीमिक्स बटन छिपा हुआ है</string>
-    <string name="revanced_shorts_remix_button_summary_on">शॉर्ट्स रीमिक्स बटन दिखाया गया है</string>
-    <string name="revanced_shorts_remix_button_title">शॉर्ट्स रीमिक्स बटन</string>
     <string name="revanced_startup_shorts_player_summary_off">ऐप स्टार्टअप पर शॉर्ट्स प्लेयर अक्षम है</string>
     <string name="revanced_startup_shorts_player_summary_on">ऐप स्टार्टअप पर शॉर्ट्स प्लेयर सक्षम है</string>
     <string name="revanced_startup_shorts_player_title">ऐप स्टार्टअप पर शॉर्ट्स प्लेयर</string>
@@ -430,6 +437,9 @@
     <string name="revanced_view_products_summary_off">उत्पाद देखें बैनर दिखाया गया है</string>
     <string name="revanced_view_products_summary_on">उत्पाद देखें बैनर छिपा हुआ है</string>
     <string name="revanced_view_products_title">उत्पाद बैनर देखें</string>
+    <string name="revanced_web_search_panels_summary_off">वेब खोज पैनल दिखाए गए हैं</string>
+    <string name="revanced_web_search_panels_summary_on">वेब खोज पैनल छिपा हुआ है</string>
+    <string name="revanced_web_search_panels_title">वेब खोज पैनल</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">चैनल जोड़ने में विफल %s को %s श्वेत सूची</string>
     <string name="revanced_whitelisting_added" formatted="false">चैनल %s में जोड़ा गया था %s श्वेत सूची</string>
     <string name="revanced_whitelisting_ads">विज्ञापन</string>
