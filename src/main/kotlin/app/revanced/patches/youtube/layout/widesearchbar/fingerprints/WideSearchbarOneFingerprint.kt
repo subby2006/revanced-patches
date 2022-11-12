@@ -36,6 +36,6 @@ See:
  */
 
 object WideSearchbarOneFingerprint : MethodFingerprint(
-    "L", AccessFlags.PUBLIC or AccessFlags.FINAL, listOf("L", "L"), listOf(Opcode.IF_NEZ, Opcode.SGET_OBJECT, Opcode.IGET_OBJECT, Opcode.INVOKE_STATIC),
-    null, null
+    "L", AccessFlags.PUBLIC or AccessFlags.FINAL, listOf("L", "L"),
+    listOf(Opcode.IF_NEZ, Opcode.SGET_OBJECT, Opcode.IGET_OBJECT, Opcode.INVOKE_STATIC)
 )

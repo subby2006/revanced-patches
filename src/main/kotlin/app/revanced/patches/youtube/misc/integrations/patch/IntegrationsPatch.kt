@@ -1,5 +1,6 @@
 package app.revanced.patches.youtube.misc.integrations.patch
 
+import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
@@ -7,13 +8,12 @@ import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.MethodFingerprintExtensions.name
 import app.revanced.patcher.extensions.addInstruction
 import app.revanced.patcher.extensions.or
+import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
 import app.revanced.patcher.util.smali.toInstructions
-import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.integrations.fingerprints.InitFingerprint
 import app.revanced.patches.youtube.misc.integrations.fingerprints.ServiceFingerprint
 import app.revanced.patches.youtube.misc.integrations.fingerprints.StandalonePlayerFingerprint
@@ -38,7 +38,7 @@ class IntegrationsPatch : BytecodePatch(
         if (context.findClass(INTEGRATIONS_DESCRIPTOR) == null)
             return PatchResultError("Integrations have not been merged yet. This patch can not succeed without merging the integrations.")
 
-        arrayOf(InitFingerprint, ServiceFingerprint).map {
+        arrayOf(InitFingerprint, StandalonePlayerFingerprint, ServiceFingerprint).map {
             it to (it.result ?: return PatchResultError("${it.name} failed to resolve"))
         }.forEach { (fingerprint, result) ->
             with(result.mutableMethod) {
@@ -53,11 +53,6 @@ class IntegrationsPatch : BytecodePatch(
                 )
             }
         }
-
-        StandalonePlayerFingerprint.result!!.mutableMethod.addInstruction(
-            0,
-            "sput-object p0, $INTEGRATIONS_DESCRIPTOR->context:Landroid/content/Context;"
-        )
 
         return PatchResultSuccess()
     }

@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.layout.playerbuttonoverlay.patch
+package app.revanced.patches.youtube.extended.playerbuttonoverlay.patch
 
 import app.revanced.extensions.doRecursively
 import app.revanced.extensions.startsWithAny

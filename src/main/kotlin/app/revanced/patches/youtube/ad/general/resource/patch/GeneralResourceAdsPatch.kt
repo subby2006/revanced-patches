@@ -51,7 +51,7 @@ class GeneralResourceAdsPatch : ResourcePatch {
                         if (node !is Element) return@replacement
 
                         node.getAttributeNode("android:layout_$replacement")?.let { attribute ->
-                            attribute.textContent = "0.1dip"
+                            attribute.textContent = "0.0dip"
                         }
                     }
                 }
