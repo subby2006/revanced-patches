@@ -72,9 +72,9 @@ class DefaultVideoSpeedPatch : BytecodePatch(
         setterMutableMethod.addInstructions(
             0,
             """
-   		        invoke-static {p1, p2}, Lapp/revanced/integrations/patches/VideoSpeedPatch;->getSpeedValue([Ljava/lang/Object;I)F
-   		        move-result v0
-   		        invoke-direct {p0, v0}, ${setterMethod.classDef.type}->overrideSpeed(F)V
+                   invoke-static {p1, p2}, Lapp/revanced/integrations/patches/VideoSpeedPatch;->getSpeedValue([Ljava/lang/Object;I)F
+                   move-result v0
+                   invoke-direct {p0, v0}, ${setterMethod.classDef.type}->overrideSpeed(F)V
             """,
         )
 
@@ -93,19 +93,19 @@ class DefaultVideoSpeedPatch : BytecodePatch(
                         const/4 v0, 0x0
                         cmpg-float v0, p1, v0
                         if-gez v0, :cond_0
-						return-void
-						:cond_0
-						iget-object v0, p0, ${setterMethod.classDef.type}->${FirstReference.name}:${FirstReference.type}
-						check-cast v0, ${SecondReference.definingClass}
-						iget-object v1, v0, ${SecondReference.definingClass}->${SecondReference.name}:${SecondReference.type}
-						invoke-virtual {v1, p1}, $ThirdReference
-						return-void
+                        return-void
+                        :cond_0
+                        iget-object v0, p0, ${setterMethod.classDef.type}->${FirstReference.name}:${FirstReference.type}
+                        check-cast v0, ${SecondReference.definingClass}
+                        iget-object v1, v0, ${SecondReference.definingClass}->${SecondReference.name}:${SecondReference.type}
+                        invoke-virtual {v1, p1}, $ThirdReference
+                        return-void
                     """.toInstructions(), null, null
                 )
             ).toMutable()
         )
 
-		VideoIdPatch.injectCall("Lapp/revanced/integrations/patches/VideoSpeedPatch;->newVideoStarted(Ljava/lang/String;)V")
+        VideoIdPatch.injectCall("Lapp/revanced/integrations/patches/VideoSpeedPatch;->newVideoStarted(Ljava/lang/String;)V")
         return PatchResultSuccess()
     }
 }

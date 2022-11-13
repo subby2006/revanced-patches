@@ -2636,7 +2636,7 @@ class OptimizeResourcePatch : ResourcePatch {
                 val sourcePath = classLoader.getResourceAsStream("resource/host/$path/values-$name/strings.xml")!!
                 val relativePath = context.xmlEditor["res/values-$name/strings.xml"]
 
-				"resources".copyXmlNode(
+                "resources".copyXmlNode(
                         context.xmlEditor[sourcePath],
                         relativePath
                 ).also {}.close()

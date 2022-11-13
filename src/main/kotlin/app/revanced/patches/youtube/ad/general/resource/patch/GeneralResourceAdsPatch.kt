@@ -27,8 +27,8 @@ class GeneralResourceAdsPatch : ResourcePatch {
         "interstitial_promo_view.xml",
         "pip_ad_overlay.xml",
         "promoted_",
-		"compact_premium_",
-		"compact_promoted_",
+        "compact_premium_",
+        "compact_promoted_",
         "watch_metadata_companion_cards.xml",
         //"watch_while_activity.xml" // FIXME: find out why patching this resource fails
     )

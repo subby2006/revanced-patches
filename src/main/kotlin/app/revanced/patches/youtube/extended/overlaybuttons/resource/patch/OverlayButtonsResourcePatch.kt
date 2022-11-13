@@ -70,7 +70,7 @@ class OverlayButtonsResourcePatch : ResourcePatch {
         val container = context["res/layout/youtube_controls_bottom_ui_container.xml"]
         container.writeText(
             container.readText()
-			.replace(
+            .replace(
                 "yt:layout_constraintRight_toLeftOf=\"@id/fullscreen_button",
                 "yt:layout_constraintRight_toLeftOf=\"@+id/copy_button"
             )
