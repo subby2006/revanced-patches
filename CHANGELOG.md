@@ -1,3 +1,18 @@
+# [2.108.0](https://github.com/revanced/revanced-patches/compare/v2.107.0...v2.108.0) (2022-11-13)
+
+
+### Features
+
+* **twitch:** `debug-mode` patch ([#1031](https://github.com/revanced/revanced-patches/issues/1031)) ([c514860](https://github.com/revanced/revanced-patches/commit/c514860bc4a46295b11f09df9ffc1c556b798eb3))
+
+# [2.107.0](https://github.com/revanced/revanced-patches/compare/v2.106.1...v2.107.0) (2022-11-13)
+
+
+### Features
+
+* **ticktick:** `unlock-themes` patch ([#1028](https://github.com/revanced/revanced-patches/issues/1028)) ([7f1fedc](https://github.com/revanced/revanced-patches/commit/7f1fedcddd4330a5f884b813a20f2f8e84e2c9da))
+* **twitch/show-deleted-messages:** `show-deleted-messages` patch ([#1030](https://github.com/revanced/revanced-patches/issues/1030)) ([7e6b453](https://github.com/revanced/revanced-patches/commit/7e6b4534013a03ddc7eb11a1f911fa0564372118))
+
 ## [2.106.1](https://github.com/revanced/revanced-patches/compare/v2.106.0...v2.106.1) (2022-11-11)
 
 

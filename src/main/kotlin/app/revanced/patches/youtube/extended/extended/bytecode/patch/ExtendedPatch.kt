@@ -44,13 +44,14 @@ class ExtendedPatch : BytecodePatch() {
         "ytPremiumWordmarkHeader",
         "album_card",
         "ic_right_comment_32c",
-        "shelf_header",
+        "abc_list_menu_item_layout",
         "horizontal_card_list",
         "reel_player_paused_state_buttons",
         "reel_dyn_remix",
         "scrim_overlay",
         "google_transparent",
-        "app_related_endscreen_results"
+        "app_related_endscreen_results",
+        "bottom_panel_overlay_text"
     ).map { name ->
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
@@ -141,18 +142,19 @@ class ExtendedPatch : BytecodePatch() {
                                 }
 
                                 resourceIds[5] -> { // layout switch
-                                    val insertIndex = index + 3
+                                    val insertIndex = index + 5
                                     val invokeInstruction = instructions.elementAt(insertIndex)
-                                    if (invokeInstruction.opcode != Opcode.MOVE_RESULT_OBJECT) return@forEachIndexed
+                                    if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
 
                                     if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
                                     if (mutableMethod == null) mutableMethod =
                                         mutableClass!!.findMutableMethodOf(method)
 
-                                    val viewRegister = 3
-                                    mutableMethod!!.addInstruction(
-                                        insertIndex + 1,
-                                        "invoke-static {p$viewRegister}, Lapp/revanced/integrations/patches/HideMixPlaylistsPatch;->hideMixPlaylists(Landroid/view/View;)V"
+                                    mutableMethod!!.addInstructions(
+                                        insertIndex, """
+                                                invoke-static {p2}, Lapp/revanced/integrations/patches/HideMixPlaylistsPatch;->hideMixPlaylists(Landroid/view/View;)V
+                                                invoke-static {p3}, Lapp/revanced/integrations/patches/HideMixPlaylistsPatch;->hideMixPlaylists(Landroid/view/View;)V
+                                                """
                                     )
                                 }
 
@@ -251,6 +253,22 @@ class ExtendedPatch : BytecodePatch() {
                                                 :off
                                                 nop
                                                 """
+                                    )
+                                }
+
+                                resourceIds[12] -> { // mix playlists (others)
+                                    val insertIndex = index - 17
+                                    val invokeInstruction = instructions.elementAt(insertIndex)
+                                    if (invokeInstruction.opcode != Opcode.MOVE_RESULT_OBJECT) return@forEachIndexed
+
+                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
+                                    if (mutableMethod == null) mutableMethod =
+                                        mutableClass!!.findMutableMethodOf(method)
+
+                                    val viewRegister = 2
+                                    mutableMethod!!.addInstruction(
+                                        insertIndex + 1,
+                                        "invoke-static {p$viewRegister}, Lapp/revanced/integrations/patches/HideMixPlaylistsPatch;->hideMixPlaylists(Landroid/view/View;)V"
                                     )
                                 }
                             }
