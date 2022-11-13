@@ -162,9 +162,9 @@
     <string name="revanced_crowdfunding_box_summary_off">ক্রাউডফান্ডিং বাক্স লুকানো আছে</string>
     <string name="revanced_crowdfunding_box_summary_on">ক্রাউডফান্ডিং বাক্স প্রদর্শিত</string>
     <string name="revanced_crowdfunding_box_title">ক্রাউডফান্ডিং বাক্স</string>
-    <string name="revanced_cutout_glitch_summary_off">Cutout Glitch is shown</string>
-    <string name="revanced_cutout_glitch_summary_on">Cutout Glitch is hidden</string>
-    <string name="revanced_cutout_glitch_title">Cutout Glitch</string>
+    <string name="revanced_cutout_glitch_summary_off">কাটআউট গ্লিচ প্রদর্শিত</string>
+    <string name="revanced_cutout_glitch_summary_on">কাটআউট গ্লিচ লুকানো আছে</string>
+    <string name="revanced_cutout_glitch_title">কাটআউট গ্লিচ</string>
     <string name="revanced_download_video_summary_off">ডাউনলোড বাটন লুকানো আছে</string>
     <string name="revanced_download_video_summary_on">ডাউনলোড বাটন দৃশ্যমান</string>
     <string name="revanced_download_video_title">ডাউনলোড বাটন</string>
@@ -187,13 +187,19 @@
     <string name="revanced_disable_auto_captions_summary_off">ক্যাপশন প্রয়োগ করা হলে ভিডিও চলার সময় ক্যাপশন সক্রিয় করা হয়</string>
     <string name="revanced_disable_auto_captions_summary_on">"ক্যাপশন প্রয়োগ করা হলে ভিডিও চলার সময় ক্যাপশন সক্রিয় করা হয় না"</string>
     <string name="revanced_disable_auto_captions_title">সংক্রিয় ক্যাপশন বন্ধ করুন</string>
-    <string name="revanced_endscreen_cards_summary_off">End screen cards are hidden</string>
-    <string name="revanced_endscreen_cards_summary_on">End screen cards are shown</string>
-    <string name="revanced_endscreen_cards_title">End screen cards</string>
+    <string name="revanced_endscreen_cards_summary_off">শেষ স্ক্রীন কার্ড লুকানো আছে</string>
+    <string name="revanced_endscreen_cards_summary_on">শেষ স্ক্রীন কার্ড প্রদর্শিত</string>
+    <string name="revanced_endscreen_cards_title">শেষ স্ক্রীন কার্ড</string>
+    <string name="revanced_endscreen_overlay_summary_off">শেষ স্ক্রীন ওভারলে দৃশ্যমান</string>
+    <string name="revanced_endscreen_overlay_summary_on">শেষ স্ক্রীন ওভারলে লুকানো আছে</string>
+    <string name="revanced_endscreen_overlay_title">শেষ স্ক্রীণ ওভারলে</string>
     <string name="revanced_experimental_flag">পরীক্ষামূলক ফ্ল্যাগ</string>
     <string name="revanced_extended_settings">রিভ্যান্সড এক্সটেন্ডেড সেটিং</string>
     <string name="revanced_extended_summary">এক্সটেন্ডেড সম্পর্কিত সেটিংস</string>
     <string name="revanced_extended_title">এক্সটেন্ডেড সেটিংস</string>
+    <string name="revanced_expansion_card_summary_off">সম্প্রসারণ কার্ড প্রদর্শিত</string>
+    <string name="revanced_expansion_card_summary_on">সম্প্রসারণ কার্ড লুকানো আছে</string>
+    <string name="revanced_expansion_card_title">সম্প্রসারণ কার্ড</string>
     <string name="revanced_fix_playback_summary_off">ভিডিও প্লেব্যাক বাফারিং ঠিক করা বন্ধ আছে</string>
     <string name="revanced_fix_playback_summary_on">ভিডিও প্লেব্যাক বাফারিং ঠিক করা চালু আছে</string>
     <string name="revanced_fix_playback_title">ভিডিও প্লেব্যাক বাফারিং সমস্যা ঠিক করুন (পরীক্ষামূলক)</string>
@@ -354,6 +360,13 @@
     <string name="revanced_shorts_button_summary_off">শর্টস বাটন লুকানো আছে</string>
     <string name="revanced_shorts_button_summary_on">শর্টস বাটন প্রদর্শিত</string>
     <string name="revanced_shorts_button_title">শর্টস বাটন</string>
+    <string name="revanced_shorts_player_comments_button_summary_off">শর্টস প্লেয়ার কমেন্ট বাটন লুকানো আছে</string>
+    <string name="revanced_shorts_player_comments_button_summary_on">শর্টস প্লেয়ার কমেন্ট বাটন প্রদর্শিত</string>
+    <string name="revanced_shorts_player_comments_button_title">শর্টস প্লেয়ার কমেন্ট বাটন</string>
+    <string name="revanced_shorts_player_title">শর্টস প্লেয়ার</string>
+    <string name="revanced_shorts_player_remix_button_summary_off">শর্টস প্লেয়ার রিমিক্স বাটন লুকানো আছে</string>
+    <string name="revanced_shorts_player_remix_button_summary_on">শর্টস প্লেয়ার রিমিক্স বাটন প্রদর্শিত</string>
+    <string name="revanced_shorts_player_remix_button_title">শর্টস প্লেয়ার রিমিক্স বাটন</string>
     <string name="revanced_shorts_player_subscriptions_summary_off">শর্টস সাবস্ক্রিপশন ব্যানার লুকানো আছে</string>
     <string name="revanced_shorts_player_subscriptions_summary_on">শর্টস সাবস্ক্রিপশন ব্যানার প্রদর্শিত</string>
     <string name="revanced_shorts_player_subscriptions_title">শর্টস সাবস্ক্রিপশন ব্যানার</string>
@@ -423,9 +436,12 @@
     <string name="revanced_view_products_summary_off">পণ্য দেখার ব্যানার প্রদর্শিত</string>
     <string name="revanced_view_products_summary_on">পণ্য দেখার ব্যানার লুকানো আছে</string>
     <string name="revanced_view_products_title">পণ্য দেখার ব্যানার</string>
+    <string name="revanced_web_search_panels_summary_off">ওয়েব অনুসন্ধান প্যানেল প্রদর্শিত</string>
+    <string name="revanced_web_search_panels_summary_on">ওয়েব অনুসন্ধান প্যানেল  লুকানো আছে</string>
+    <string name="revanced_web_search_panels_title">ওয়েব অনুসন্ধান প্যানেল </string>
     <string name="revanced_whitelisting_add_failed" formatted="false">%s চ্যানেল %s হোয়াইটলিস্টে অ্যাড করতে ব্যর্থ হয়েছে</string>
     <string name="revanced_whitelisting_added" formatted="false">এই চ্যানেল %s টি হোয়াইটলিস্ট %s অ্যাড করা হয়েছে</string>
-    <string name="revanced_whitelisting_ads">ADS</string>
+    <string name="revanced_whitelisting_ads">বিজ্ঞাপন</string>
     <string name="revanced_whitelisting_fetch_failed">চ্যানেলের বিবরণ পুনরুদ্ধার করতে ব্যর্থ হয়েছে, %d কোড পেয়েছে</string>
     <string name="revanced_whitelisting_remove_failed" formatted="false">%s হোয়াইটলিস্ট থেকে চ্যানেল %s সরাতে ব্যর্থ হয়েছে৷</string>
     <string name="revanced_whitelisting_removed" formatted="false">চ্যানেল %s কে %s হোয়াইটলিস্ট থেকে সরানো হয়েছে</string>

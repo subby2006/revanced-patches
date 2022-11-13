@@ -189,10 +189,16 @@
     <string name="revanced_endscreen_cards_summary_off">Карточки в конце видео скрыты</string>
     <string name="revanced_endscreen_cards_summary_on">Карточки в конце видео показаны</string>
     <string name="revanced_endscreen_cards_title">Карточки в конце видео</string>
+    <string name="revanced_endscreen_overlay_summary_off">Наложение конечного экрана показано</string>
+    <string name="revanced_endscreen_overlay_summary_on">Наложение конечного скрыто</string>
+    <string name="revanced_endscreen_overlay_title">Наложение конечного экрана</string>
     <string name="revanced_experimental_flag">Экспериментальные опции</string>
     <string name="revanced_extended_settings">Настройки ReVanced Extended</string>
     <string name="revanced_extended_summary">Дополнительные настройки</string>
     <string name="revanced_extended_title">Настройки Extended</string>
+    <string name="revanced_expansion_card_summary_off">Карты расширения показаны</string>
+    <string name="revanced_expansion_card_summary_on">Карты расширения скрыты</string>
+    <string name="revanced_expansion_card_title">Карты расширения</string>
     <string name="revanced_fix_playback_summary_off">Исправление проблем с буфером воспроизведения видео отключено</string>
     <string name="revanced_fix_playback_summary_on">Исправление проблем с буфером воспроизведения видео включено</string>
     <string name="revanced_fix_playback_title">Исправление проблем с буфером воспроизведения видео (экспериментально)</string>
@@ -354,6 +360,13 @@
     <string name="revanced_shorts_button_summary_off">Кнопка \"Shorts\" скрыта</string>
     <string name="revanced_shorts_button_summary_on">Кнопка \"Shorts\" показана</string>
     <string name="revanced_shorts_button_title">Показывать кнопку \"Shorts\"</string>
+    <string name="revanced_shorts_player_comments_button_summary_off">Кнопка комментариев плеера \"Shorts\" скрыта</string>
+    <string name="revanced_shorts_player_comments_button_summary_on">Кнопка комментариев плеера \"Shorts\" показана</string>
+    <string name="revanced_shorts_player_comments_button_title">Кнопка комментариев плеера \"Shorts\"</string>
+    <string name="revanced_shorts_player_title">Плеер \"Shorts\"</string>
+    <string name="revanced_shorts_player_remix_button_summary_off">Кнопка ремикса плеера \"Shorts\" скрыта</string>
+    <string name="revanced_shorts_player_remix_button_summary_on">Кнопка ремикса плеера \"Shorts\" показана</string>
+    <string name="revanced_shorts_player_remix_button_title">Кнопка ремикса плеера \"Shorts\"</string>
     <string name="revanced_shorts_player_subscriptions_summary_off">Баннер подписки \"Shorts\" скрыт</string>
     <string name="revanced_shorts_player_subscriptions_summary_on">Баннер подписки \"Shorts\" показан</string>
     <string name="revanced_shorts_player_subscriptions_title">Баннер подписки \"Shorts\"</string>
@@ -423,6 +436,9 @@
     <string name="revanced_view_products_summary_off">Баннер товаров показан</string>
     <string name="revanced_view_products_summary_on">Баннер товаров скрыт</string>
     <string name="revanced_view_products_title">Баннер товаров</string>
+    <string name="revanced_web_search_panels_summary_off">Панели Веб поиска показаны</string>
+    <string name="revanced_web_search_panels_summary_on">Панели Веб поиска скрыты</string>
+    <string name="revanced_web_search_panels_title">Панели Веб поиска</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Не удалось добавить канал %s в белый список %s</string>
     <string name="revanced_whitelisting_added" formatted="false">Канал %s был добавлен в белый список %s</string>
     <string name="revanced_whitelisting_ads">Реклама</string>
