@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.layout.branding.icon.patch
+package app.revanced.patches.youtube.extended.branding.icon.patch
 
 import app.revanced.extensions.doRecursively
 import app.revanced.extensions.startsWithAny
