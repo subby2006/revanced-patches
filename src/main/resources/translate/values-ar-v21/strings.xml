@@ -293,9 +293,9 @@
     <string name="revanced_phone_layout_title">تصميم الجوال</string>
     <string name="revanced_playback_start_summary">المدة التي يجب تحميلها مسبقًا من الفيديو لكي يبدأ أو يستأنف بعد إجراء المستخدم مثل تقديم الفيديو، (بالمللي ثانية)  الافتراضي: 2500</string>
     <string name="revanced_playback_start_title">بداية التشغيل</string>
-    <string name="revanced_player_overlay_background_summary_off">يتبع لون خلفية أزرار المشغل الإعداد الافتراضي لـ YouTube</string>
-    <string name="revanced_player_overlay_background_summary_on">تم تعيين لون خلفية أزرار المشغل على شفاف</string>
-    <string name="revanced_player_overlay_background_title">شكل ازرار واجهة المشغل الخلفية</string>
+    <string name="revanced_player_overlay_background_summary_off">يتبع لون خلفية واجهة المشغل الإعداد الافتراضي لـ YouTube</string>
+    <string name="revanced_player_overlay_background_summary_on">تم تعيين لون خلفية واجهة المشغل على شفاف</string>
+    <string name="revanced_player_overlay_background_title">واجهة المشغل الخلفية</string>
     <string name="revanced_player_popup_panels_title">لوحات المشغل المنبثقة</string>
     <string name="revanced_player_popup_panels_summary_off">تم تعطيل لوحات المشغل المنبثقة</string>
     <string name="revanced_player_popup_panels_summary_on">تم تمكين لوحات المشغل المنبثقة</string>
@@ -328,7 +328,7 @@
     <string name="revanced_seekbar_tapping_on">تم تمكين النقر على شريط الوقت (شريط تقدم الفيديو)</string>
     <string name="revanced_settings">(ReVanced) إعدادات</string>
     <string name="revanced_shorts_summary">يخفي قسم فيديوهات Shorts أو عنصر مشغل Shorts</string>
-    <string name="revanced_shorts_title"> عنصر فيديوهات Shorts</string>
+    <string name="revanced_shorts_title">عنصر فيديوهات Shorts</string>
     <string name="revanced_shorts_button_summary_off">تم إخفاء زر Shorts</string>
     <string name="revanced_shorts_button_summary_on">تم إظهار زر Shorts</string>
     <string name="revanced_shorts_button_title">زر Shorts</string>
@@ -339,11 +339,11 @@
     <string name="revanced_shorts_player_remix_button_summary_off">تم إخفاء زر ريمكس في مشغل Shorts</string>
     <string name="revanced_shorts_player_remix_button_summary_on">يتم عرض زر ريمكس في مشغل Shorts</string>
     <string name="revanced_shorts_player_remix_button_title">زر ريمكس في مشغل فيديوهات Shorts</string>
-    <string name="revanced_shorts_player_subscriptions_summary_off">تم إخفاء خيار الاشتراكات في فيديوهات Short</string>
+    <string name="revanced_shorts_player_subscriptions_summary_off">تم إخفاء زر الاشتراكات في فيديوهات Short</string>
     <string name="revanced_shorts_player_subscriptions_summary_on">يتم عرض زر الاشتراكات في فيديوهات Short</string>
-    <string name="revanced_shorts_player_subscriptions_title">زر الاشتراكات في فيديوهات Shorts</string>
-    <string name="revanced_shorts_player_thanks_summary_off">تم إخفاء زر الاشتراكات في فيديوهات Shorts</string>
-    <string name="revanced_shorts_player_thanks_summary_on">يتم عرض زر الاشتراكات في فيديوهات Shorts</string>
+    <string name="revanced_shorts_player_subscriptions_title">زر الاشتراكات في مشغل فيديوهات Shorts</string>
+    <string name="revanced_shorts_player_thanks_summary_off">تم إخفاء زر شكرًا في فيديوهات Shorts</string>
+    <string name="revanced_shorts_player_thanks_summary_on">يتم عرض زر شكرًا في فيديوهات Shorts</string>
     <string name="revanced_shorts_player_thanks_title">زر شكرًا في فيديوهات Shorts</string>
     <string name="revanced_shorts_shelf_summary_off">تم إخفاء صف الفيديوهات القصيرة (Shorts)</string>
     <string name="revanced_shorts_shelf_summary_on">يتم عرض صف الفيديوهات القصيرة (Shorts)</string>

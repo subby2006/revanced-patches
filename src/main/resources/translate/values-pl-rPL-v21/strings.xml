@@ -249,7 +249,7 @@
     <string name="revanced_hide_thanks_button_title">Przycisk „Podziękuj\"</string>
     <string name="revanced_hide_time_and_seekbar_summary_off">Ukryty</string>
     <string name="revanced_hide_time_and_seekbar_summary_on">Wyświetlany</string>
-    <string name="revanced_hide_time_and_seekbar_title">Czas i pasek wyszukiwania</string>
+    <string name="revanced_hide_time_and_seekbar_title">Czas i pasek postępu wideo</string>
     <string name="revanced_hide_watch_in_vr_summary_off">Oglądaj w VR jest wyświetlane z pozycji menu</string>
     <string name="revanced_hide_watch_in_vr_summary_on">Oglądaj w VR jest ukryte z pozycji menu</string>
     <string name="revanced_hide_watch_in_vr_title">Oglądaj w googlach VR</string>
@@ -336,9 +336,9 @@
     <string name="revanced_ryd_settings_title">Przywróć „Nie podoba mi się\"</string>
     <string name="revanced_ryd_summary">Przywraca licznik łapek w dół</string>
     <string name="revanced_ryd_title">Return YouTube Dislike</string>
-    <string name="revanced_seekbar_tapping">Stukanie w pasek wyszukiwania</string>
-    <string name="revanced_seekbar_tapping_off">Wyłączone</string>
-    <string name="revanced_seekbar_tapping_on">Włączone</string>
+    <string name="revanced_seekbar_tapping">Stukanie w pasek postępu wideo</string>
+    <string name="revanced_seekbar_tapping_off">Przewinięcie wideo za pomocą stuknięcia na pasku postępu, jest wyłączone</string>
+    <string name="revanced_seekbar_tapping_on">Przewinięcie wideo nastąpi po stuknięciu w pasek postępu</string>
     <string name="revanced_settings">Ustawienia ReVanced</string>
     <string name="revanced_shorts_summary">Ukrywa sekcję „Shortów\" lub element odtwarzacza „Shortów\"</string>
     <string name="revanced_shorts_title">Ustawienia „Shortów\"</string>

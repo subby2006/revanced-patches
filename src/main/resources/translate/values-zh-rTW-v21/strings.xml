@@ -416,7 +416,7 @@
     <string name="revanced_timed_reactions_title">即時互動</string>
     <string name="revanced_tool_used">使用的工具</string>
     <string name="revanced_uri_redirect_summary_off">"遵守 YouTube 的重新導向政策"</string>
-    <string name="revanced_uri_redirect_summary_on">使用繞過 youtube.com/redirect 打開網址</string>
+    <string name="revanced_uri_redirect_summary_on">繞過 youtube.com/redirect 打開網址</string>
     <string name="revanced_uri_redirect_title">Youtube 連結重新導向</string>
     <string name="revanced_video_ads_summary_off">影片廣告已隱藏</string>
     <string name="revanced_video_ads_summary_on">影片廣告已顯示</string>

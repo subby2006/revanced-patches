@@ -400,8 +400,8 @@ Is it ready to submit?"</string>
     <string name="revanced_uri_redirect_summary_off">"ปฏิบัติตามนโยบายการเปลี่ยนเส้นทางของ YouTube"</string>
     <string name="revanced_uri_redirect_summary_on">เปิด url โดยข้าม youtube.com/redirect</string>
     <string name="revanced_uri_redirect_title">YouTube link redirect</string>
-    <string name="revanced_video_ads_summary_off">โฆษณาในวีดิโอจะซ่อน</string>
-    <string name="revanced_video_ads_summary_on">โฆษณาในวีดิโอจะแสดง</string>
+    <string name="revanced_video_ads_summary_off">โฆษณาในวีดิโอ ปิดใช้งาน</string>
+    <string name="revanced_video_ads_summary_on">โฆษณาในวีดิโอ เปิดใช้งาน</string>
     <string name="revanced_video_ads_title">ซ่อนโฆษณาในวิดีโอ</string>
     <string name="revanced_video_quality_common_error">กำหนดคุณภาพล้มเหลว</string>
     <string name="revanced_video_quality_internet_error">ไม่มีการเชื่อมต่ออินเทอร์เน็ต</string>
@@ -417,6 +417,8 @@ Is it ready to submit?"</string>
     <string name="revanced_view_products_summary_off">View products banner  เปิดใช้งาน</string>
     <string name="revanced_view_products_summary_on">View products banner   ปิดใช้งาน</string>
     <string name="revanced_view_products_title">View products banner</string>
+    <string name="revanced_web_search_panels_summary_off">Web search panels เปิดใช้งาน</string>
+    <string name="revanced_web_search_panels_summary_on">Web search panels  ปิดใช้งาน</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Failed to add channel %s to the %s whitelist</string>
     <string name="revanced_whitelisting_added" formatted="false">Channel %s was added to the %s whitelist</string>
     <string name="revanced_whitelisting_ads">โฆษณา</string>

@@ -355,8 +355,8 @@
     <string name="revanced_seekbar_tapping_off">Нажатие на строку перемотки в панели видео отключено</string>
     <string name="revanced_seekbar_tapping_on">Нажатие на строку перемотки в панели видео включено</string>
     <string name="revanced_settings">Настройки ReVanced</string>
-    <string name="revanced_shorts_summary">Скрывает раздел \"Shorts\" или компонент плеера \"Shorts\"</string>
-    <string name="revanced_shorts_title">Компонент \"Shorts\"</string>
+    <string name="revanced_shorts_summary">Скрывает раздел \"Shorts\" или компоненты плеера \"Shorts\"</string>
+    <string name="revanced_shorts_title">Компоненты \"Shorts\"</string>
     <string name="revanced_shorts_button_summary_off">Кнопка \"Shorts\" скрыта</string>
     <string name="revanced_shorts_button_summary_on">Кнопка \"Shorts\" показана</string>
     <string name="revanced_shorts_button_title">Показывать кнопку \"Shorts\"</string>
@@ -436,9 +436,9 @@
     <string name="revanced_view_products_summary_off">Баннер товаров показан</string>
     <string name="revanced_view_products_summary_on">Баннер товаров скрыт</string>
     <string name="revanced_view_products_title">Баннер товаров</string>
-    <string name="revanced_web_search_panels_summary_off">Панели Веб поиска показаны</string>
-    <string name="revanced_web_search_panels_summary_on">Панели Веб поиска скрыты</string>
-    <string name="revanced_web_search_panels_title">Панели Веб поиска</string>
+    <string name="revanced_web_search_panels_summary_off">Панели веб - поиска показаны</string>
+    <string name="revanced_web_search_panels_summary_on">Панели веб - поиска скрыты</string>
+    <string name="revanced_web_search_panels_title">Панели веб - поиска</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Не удалось добавить канал %s в белый список %s</string>
     <string name="revanced_whitelisting_added" formatted="false">Канал %s был добавлен в белый список %s</string>
     <string name="revanced_whitelisting_ads">Реклама</string>
