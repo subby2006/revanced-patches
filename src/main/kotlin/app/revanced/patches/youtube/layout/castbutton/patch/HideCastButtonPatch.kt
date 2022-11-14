@@ -10,14 +10,14 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.annotation.YouTubeUniversalCompatibility
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 
 @Patch
 @DependsOn([IntegrationsPatch::class])
 @Name("hide-cast-button")
 @Description("Hides the cast button in the video player.")
-@YouTubeCompatibility
+@YouTubeUniversalCompatibility
 @Version("0.0.1")
 class HideCastButtonPatch : BytecodePatch() {
     override fun execute(context: BytecodeContext): PatchResult {

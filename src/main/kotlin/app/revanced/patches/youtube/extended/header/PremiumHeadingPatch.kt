@@ -1,6 +1,6 @@
 package app.revanced.patches.youtube.extended.header.patch
 
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.annotation.YouTubeUniversalCompatibility
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
@@ -20,7 +20,7 @@ import kotlin.io.path.exists
 @DependsOn([FixLocaleConfigErrorPatch::class])
 @Name("premium-heading")
 @Description("Shows premium branding on the home screen.")
-@YouTubeCompatibility
+@YouTubeUniversalCompatibility
 @Version("0.0.1")
 class PremiumHeadingPatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {

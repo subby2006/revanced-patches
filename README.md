@@ -91,15 +91,6 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `website` | Leave website URL in ReVanced settings. | all |
 </details>
 
-### 📦 `com.vanced.android.youtube`
-<details>
-
-| 💊 Patch | 📜 Description | 🏹 Target Version |
-|:--------:|:--------------:|:-----------------:|
-| `client-spoof` | Spoofs the YouTube or Vanced client to prevent playback issues. | all |
-</details>
-
-
 
 ## 📝 JSON Format
 

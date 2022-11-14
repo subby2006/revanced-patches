@@ -11,7 +11,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.annotation.YouTubeUniversalCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import org.w3c.dom.Element
 import java.io.File
@@ -20,7 +20,7 @@ import java.io.File
 @DependsOn([FixLocaleConfigErrorPatch::class])
 @Name("remove-playerbutton-background")
 @Description("Disable Player Button Overlay Background")
-@YouTubeCompatibility
+@YouTubeUniversalCompatibility
 @Version("0.0.1")
 class PlayerButtonOverlayPatch : ResourcePatch {
     private val resourceFileNames = arrayOf(

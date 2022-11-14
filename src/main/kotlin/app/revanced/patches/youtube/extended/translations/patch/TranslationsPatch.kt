@@ -8,7 +8,7 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.annotation.YouTubeUniversalCompatibility
 import app.revanced.util.resources.ResourceUtils
 import app.revanced.util.resources.ResourceUtils.copyResources
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
@@ -18,7 +18,7 @@ import java.nio.file.StandardCopyOption
 @Patch
 @Name("translations")
 @Description("Add Crowdin Translations")
-@YouTubeCompatibility
+@YouTubeUniversalCompatibility
 @Version("0.0.1")
 class TranslationsPatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {

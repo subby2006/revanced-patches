@@ -10,7 +10,7 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.annotation.YouTubeUniversalCompatibility
 import app.revanced.patches.youtube.extended.theme.bytecode.patch.ThemePatch
 import app.revanced.patches.youtube.extended.theme.resource.patch.ThemeResourcePatch
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
@@ -19,7 +19,7 @@ import org.w3c.dom.Element
 @Patch
 @DependsOn([FixLocaleConfigErrorPatch::class, ThemePatch::class, ThemeResourcePatch::class])
 @Name("amoled")
-@YouTubeCompatibility
+@YouTubeUniversalCompatibility
 @Version("0.0.1")
 class AmoledPatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {

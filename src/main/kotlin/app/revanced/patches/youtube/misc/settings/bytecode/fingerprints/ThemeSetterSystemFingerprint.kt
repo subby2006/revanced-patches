@@ -1,6 +1,6 @@
 package app.revanced.patches.youtube.misc.settings.bytecode.fingerprints
 
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.annotation.YouTubeUniversalCompatibility
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
@@ -9,7 +9,7 @@ import org.jf.dexlib2.Opcode
 import org.jf.dexlib2.iface.instruction.WideLiteralInstruction
 
 @Name("theme-setter-system-fingerprint")
-@YouTubeCompatibility
+@YouTubeUniversalCompatibility
 @Version("0.0.1")
 object ThemeSetterSystemFingerprint : MethodFingerprint(
     "L",
