@@ -51,6 +51,9 @@
     <string name="litho_channel_guidelines">Penghapusan pedoman channel</string>
     <string name="litho_channel_guidelines_off">Penghapusan pedoman channel dinonaktifkan</string>
     <string name="litho_channel_guidelines_on">Penghapusan pedoman channel diaktifkan</string>
+    <string name="litho_chapter_teaser">Teaser chapter di bawah video</string>
+    <string name="litho_chapter_teaser_off">Teaser chapter ditampilkan</string>
+    <string name="litho_chapter_teaser_on">Teaser chapter disembunyikan</string>
     <string name="litho_community_guidelines">Penghapusan pedoman komunitas</string>
     <string name="litho_community_guidelines_off">Penghapusan pedoman komunitas dinonaktifkan</string>
     <string name="litho_community_guidelines_on">Penghapusan pedoman komunitas diaktifkan</string>
@@ -93,6 +96,9 @@
     <string name="litho_paid_content">Penghapusan konten berbayar</string>
     <string name="litho_paid_content_off">Penghapusan konten berbayar dinonaktifkan</string>
     <string name="litho_paid_content_on">Penghapusan konten berbayar diaktifkan</string>
+    <string name="litho_self_sponsor">Penghapusan kartu sponsor diri sendiri</string>
+    <string name="litho_self_sponsor_off">Kartu sponsor diri sendiri ditampilkan</string>
+    <string name="litho_self_sponsor_on">Kartu sponsor diri sendiri disembunyikan</string>
     <string name="microg_not_installed_notice">Silahkan instal MicroG</string>
     <string name="microg_not_installed_warning">MicroG tidak ditemukan</string>
     <string name="microg_notification_settings">Pengaturan notifikasi</string>
@@ -195,9 +201,6 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_extended_settings">Pengaturan ReVanced Extended</string>
     <string name="revanced_extended_summary">Pengaturan yang terkait dengan extended</string>
     <string name="revanced_extended_title">Pengaturan extended</string>
-    <string name="revanced_expansion_card_summary_off">Kartu ekspansi ditampilkan</string>
-    <string name="revanced_expansion_card_summary_on">Kartu ekspansi disembunyikan</string>
-    <string name="revanced_expansion_card_title">Kartu ekspansi</string>
     <string name="revanced_fix_playback_summary_off">Perbaikan masalah buffer pemutaran video dimatikan</string>
     <string name="revanced_fix_playback_summary_on">Perbaikan masalah buffer pemutaran video diaktifkan</string>
     <string name="revanced_fix_playback_title">Memperbaiki masalah buffer pemutaran video (eksperimental)</string>
@@ -437,6 +440,9 @@ Apakah anda yakin ingin melanjutkan?"</string>
     <string name="revanced_web_search_panels_summary_off">Panel pencarian web ditampilkan</string>
     <string name="revanced_web_search_panels_summary_on">Panel pencarian web disembunyikan</string>
     <string name="revanced_web_search_panels_title">Panel pencarian web</string>
+    <string name="revanced_welcome_panels_summary_off">Panel selamat datang ditampilkan</string>
+    <string name="revanced_welcome_panels_summary_on">Panel selamat datang disembunyikan</string>
+    <string name="revanced_welcome_panels_title">Panel selamat datang</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Gagal menambahkan channel %s ke daftar putih %s</string>
     <string name="revanced_whitelisting_added" formatted="false">Channel %s telah ditambahkan ke daftar putih %s</string>
     <string name="revanced_whitelisting_ads">Iklan</string>
@@ -480,18 +486,18 @@ Jika anda ingin menonaktifkan ini, atur yang berikut ke OFF:"</string>
     <string name="settings_import_failed">Gagal mengimpor pengaturan</string>
     <string name="settings_import_successful">Pengaturan berhasil diimpor</string>
     <string name="skip_automatically">Lewati otomatis</string>
-    <string name="skip_automatically_once">Lewati otomatis, hanya sekali</string>
+    <string name="skip_automatically_once">Lewati secara otomatis sekali</string>
     <string name="skip_ignore">"Penolakan dilewati"</string>
-    <string name="skip_showbutton">Lewati tombol show</string>
+    <string name="skip_showbutton">Tampilkan tombol lewati</string>
     <string name="skip_sponsor">Lewati sponsor</string>
     <string name="skipped_endcard">Sesi penutup (outro) dilewati</string>
     <string name="skipped_filler">Sesi isi (filler) dilewati</string>
     <string name="skipped_intermission">Sesi pembuka (intro) dilewati</string>
     <string name="skipped_nomusic">Sesi non-musik dilewati</string>
-    <string name="skipped_preview">Melewatkan pratinjau</string>
+    <string name="skipped_preview">Pratinjau dilewati</string>
     <string name="skipped_segment">Sesi ulasan dilewati</string>
     <string name="skipped_selfpromo">Promosi pribadi dilewati</string>
-    <string name="skipped_sponsor">Melewatkan iklan</string>
+    <string name="skipped_sponsor">Sponsor dilewati</string>
     <string name="skipped_subscribe">Pengingat berlangganan dilewati</string>
     <string name="skipped_unsubmitted">Segmen yang belum dikirim dilewati</string>
     <string name="stats">Statistik</string>
@@ -517,14 +523,14 @@ Kuota dibatasi (terlalu banyak dari user atau IP yang sama)"</string>
     <string name="submit_succeeded">Segmen berhasil dikirim</string>
     <string name="tap_skip">Tekan untuk melewati</string>
     <string name="vote_category">Pilih kategori</string>
-    <string name="vote_downvote">Menolak suara</string>
+    <string name="vote_downvote">Downvote</string>
     <string name="vote_failed_forbidden">"Tidak dapat melakukan voting segmen %s\""</string>
     <string name="vote_failed_rate_limit">"Tidak dapat melakukan voting segmen.
 Kuota dibatasi (terlalu banyak dari user atau IP yang sama)"</string>
     <string name="vote_failed_unknown_error" formatted="false">Tidak dapat melakukan voting segmen : Status: %d %s</string>
     <string name="vote_no_segments">Tidak ada segmen untuk divoting</string>
     <string name="vote_started">Voting dimulai…</string>
-    <string name="vote_succeeded">Pemilihan berhasil</string>
-    <string name="vote_upvote">Memilih suara</string>
-    <string name="website">Situs</string>
+    <string name="vote_succeeded">Voting berhasil</string>
+    <string name="vote_upvote">Upvote</string>
+    <string name="website">Website</string>
 </resources>
