@@ -50,7 +50,7 @@ class SponsorBlockResourcePatch : ResourcePatch {
                 val relativePath = "$path/$name.xml"
 
                 Files.copy(
-                    classLoader.getResourceAsStream("sponsorblock/$relativePath")!!,
+                    classLoader.getResourceAsStream("youtube/sponsorblock/$relativePath")!!,
                     context["res"].resolve(relativePath).toPath()
                 )
             }
@@ -66,7 +66,7 @@ class SponsorBlockResourcePatch : ResourcePatch {
         // copy nodes from host resources to their real xml files
         hostingXmlResources.forEach { (path, resources) ->
             resources.forEach { resource ->
-                val hostingResourceStream = classLoader.getResourceAsStream("sponsorblock/host/$path/$resource.xml")!!
+                val hostingResourceStream = classLoader.getResourceAsStream("youtube/sponsorblock/host/$path/$resource.xml")!!
 
                 val targetXmlEditor = context.xmlEditor["res/$path/$resource.xml"]
                 "RelativeLayout".copyXmlNode(

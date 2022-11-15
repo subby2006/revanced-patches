@@ -55,14 +55,14 @@ class CustomBrandingPatch_Revancify : ResourcePatch {
         ).forEach { (iconDirectory, size) ->
             AppiconNames.forEach iconLoop@{ iconName ->
                 Files.copy(
-                    classLoader.getResourceAsStream("branding/revancify/launchericon/$size/$iconName.png")!!,
+                    classLoader.getResourceAsStream("youtube/branding/revancify/launchericon/$size/$iconName.png")!!,
                     resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
             }
             SplashiconNames.forEach iconLoop@{ iconName ->
                 Files.copy(
-                    classLoader.getResourceAsStream("branding/revancify/splashicon/$size/$iconName.png")!!,
+                    classLoader.getResourceAsStream("youtube/branding/revancify/splashicon/$size/$iconName.png")!!,
                     resDirectory.resolve("drawable-$iconDirectory").resolve("$iconName.png").toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
@@ -94,7 +94,7 @@ class CustomBrandingPatch_Revancify : ResourcePatch {
                 val relativePath = "$path/$name.xml"
 
                 Files.copy(
-                    classLoader.getResourceAsStream("branding/revancify/monochromeicon/$relativePath")!!,
+                    classLoader.getResourceAsStream("youtube/branding/revancify/monochromeicon/$relativePath")!!,
                     context["res"].resolve(relativePath).toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )

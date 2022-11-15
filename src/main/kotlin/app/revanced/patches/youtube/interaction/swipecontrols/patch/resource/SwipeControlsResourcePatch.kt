@@ -16,7 +16,7 @@ import app.revanced.util.resources.ResourceUtils.copyResources
 class SwipeControlsResourcePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
         context.copyResources(
-            "swipecontrols",
+            "youtube/swipecontrols",
             ResourceUtils.ResourceGroup(
                 "drawable",
                 "ic_sc_brightness_auto.xml",

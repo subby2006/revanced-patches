@@ -2623,7 +2623,7 @@ class OptimizeResourcePatch : ResourcePatch {
                 val relativePath = "$path/$name"
 
                 Files.copy(
-                        classLoader.getResourceAsStream("resource/$relativePath")!!,
+                        classLoader.getResourceAsStream("youtube/resource/$relativePath")!!,
                         context["res"].resolve(relativePath).toPath(),
                         StandardCopyOption.REPLACE_EXISTING
                 )
@@ -2633,7 +2633,7 @@ class OptimizeResourcePatch : ResourcePatch {
         val SearchResources = arrayOf(language_search)
         SearchResources.forEach { (path, languageNames) ->
             languageNames.forEach { name ->
-                val sourcePath = classLoader.getResourceAsStream("resource/host/$path/values-$name/strings.xml")!!
+                val sourcePath = classLoader.getResourceAsStream("youtube/resource/host/$path/values-$name/strings.xml")!!
                 val relativePath = context.xmlEditor["res/values-$name/strings.xml"]
 
                 "resources".copyXmlNode(

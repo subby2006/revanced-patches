@@ -46,7 +46,7 @@ class OverlayButtonsAlternativePatch : ResourcePatch {
                 val relativePath = "$path/$name"
 
                 Files.copy(
-                        this.javaClass.classLoader.getResourceAsStream("overlaybuttons-alternative/$relativePath")!!,
+                        this.javaClass.classLoader.getResourceAsStream("youtube/overlaybuttons-alternative/$relativePath")!!,
                         context["res"].resolve(relativePath).toPath(),
                         StandardCopyOption.REPLACE_EXISTING
                 )

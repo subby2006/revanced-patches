@@ -70,7 +70,7 @@ class TranslationsPatch : ResourcePatch {
 
                 Files.createDirectory(resDirectory.toPath())
                 Files.copy(
-                        classLoader.getResourceAsStream("$path/$relativePath")!!,
+                        classLoader.getResourceAsStream("youtube/$path/$relativePath")!!,
                         context["res"].resolve(relativePath).toPath(),
                         StandardCopyOption.REPLACE_EXISTING
                 )

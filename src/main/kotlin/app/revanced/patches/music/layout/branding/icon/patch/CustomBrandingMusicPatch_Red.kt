@@ -48,7 +48,7 @@ class CustomBrandingMusicPatch_Red : ResourcePatch {
         ).forEach { (iconDirectory, size) ->
             AppiconNames.forEach iconLoop@{ iconName ->
                 Files.copy(
-                    classLoader.getResourceAsStream("branding-music/red/launchericon/$size/$iconName.png")!!,
+                    classLoader.getResourceAsStream("music/branding/red/launchericon/$size/$iconName.png")!!,
                     resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
@@ -108,7 +108,7 @@ class CustomBrandingMusicPatch_Red : ResourcePatch {
                 val relativePath = "$path/$name.png"
 
                 Files.copy(
-                    classLoader.getResourceAsStream("branding-music/red/resource/$relativePath")!!,
+                    classLoader.getResourceAsStream("music/branding/red/resource/$relativePath")!!,
                     context["res"].resolve(relativePath).toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )

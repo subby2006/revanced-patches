@@ -48,7 +48,7 @@ class CustomBrandingMusicPatch_Revancify : ResourcePatch {
         ).forEach { (iconDirectory, size) ->
             AppiconNames.forEach iconLoop@{ iconName ->
                 Files.copy(
-                    classLoader.getResourceAsStream("branding-music/revancify/launchericon/$size/$iconName.png")!!,
+                    classLoader.getResourceAsStream("music/branding/revancify/launchericon/$size/$iconName.png")!!,
                     resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
@@ -61,7 +61,7 @@ class CustomBrandingMusicPatch_Revancify : ResourcePatch {
                 val relativePath = "$path/$name.xml"
 
                 Files.copy(
-                    classLoader.getResourceAsStream("branding-music/revancify/monochromeicon/$relativePath")!!,
+                    classLoader.getResourceAsStream("music/branding/revancify/monochromeicon/$relativePath")!!,
                     context["res"].resolve(relativePath).toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )

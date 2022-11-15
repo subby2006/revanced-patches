@@ -50,14 +50,14 @@ class MaterialYouPatch : ResourcePatch {
                 val monetPath = "$path/$name"
 
                 Files.copy(
-                    this.javaClass.classLoader.getResourceAsStream("materialyou/$monetPath")!!,
+                    this.javaClass.classLoader.getResourceAsStream("youtube/materialyou/$monetPath")!!,
                     context["res"].resolve(monetPath).toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
             }
         }
 
-         val sourcePath = this.javaClass.classLoader.getResourceAsStream("materialyou/host/values-v31/colors.xml")!!
+         val sourcePath = this.javaClass.classLoader.getResourceAsStream("youtube/materialyou/host/values-v31/colors.xml")!!
          val relativePath = context.xmlEditor["res/values-v31/colors.xml"]
 
         "resources".copyXmlNode(

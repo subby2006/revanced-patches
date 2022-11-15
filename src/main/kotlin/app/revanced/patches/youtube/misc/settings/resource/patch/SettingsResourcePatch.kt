@@ -28,19 +28,19 @@ class SettingsResourcePatch : ResourcePatch {
          * Copy strings
          */
 
-        context.copyXmlNode("settings/host", "values/strings.xml", "resources")
+        context.copyXmlNode("youtube/settings/host", "values/strings.xml", "resources")
 
         /*
          * Copy drawables
          */
 
-        context.copyXmlNode("settings/host", "values/drawables.xml", "resources")
+        context.copyXmlNode("youtube/settings/host", "values/drawables.xml", "resources")
 
         /*
          * Copy preference fragments
          */
 
-        // context.copyXmlNode("settings/host", "xml/settings_fragment.xml", "PreferenceScreen")
+        // context.copyXmlNode("youtube/settings/host", "xml/settings_fragment.xml", "PreferenceScreen")
 
         val settingsFragment = context["res/xml/settings_fragment.xml"]
         settingsFragment.writeText(
@@ -86,7 +86,7 @@ class SettingsResourcePatch : ResourcePatch {
                 "ic_rvx_logo.xml"
             )
         ).forEach { resourceGroup ->
-            context.copyResources("settings", resourceGroup)
+            context.copyResources("youtube/settings", resourceGroup)
         }
 
         context.xmlEditor["AndroidManifest.xml"].use {
@@ -108,7 +108,7 @@ class SettingsResourcePatch : ResourcePatch {
 
                 Files.createDirectory(resDirectory.toPath())
                 Files.copy(
-                    this.javaClass.classLoader.getResourceAsStream("settings/$relativePath")!!,
+                    this.javaClass.classLoader.getResourceAsStream("youtube/settings/$relativePath")!!,
                     context["res"].resolve(relativePath).toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )

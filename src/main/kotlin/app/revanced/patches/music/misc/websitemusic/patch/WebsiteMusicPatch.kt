@@ -34,8 +34,8 @@ class WebsiteMusicPatch : ResourcePatch {
          * Copy preference fragments
          */
 
-        context.copyXmlNode("website-music/host", "xml/settings_headers.xml", "PreferenceScreen")
-        context.copyXmlNode("website-music/host", "xml/settings_prefs_compat.xml", "com.google.android.apps.youtube.music.ui.preference.PreferenceCategoryCompat")
+        context.copyXmlNode("music/website/host", "xml/settings_headers.xml", "PreferenceScreen")
+        context.copyXmlNode("music/website/host", "xml/settings_prefs_compat.xml", "com.google.android.apps.youtube.music.ui.preference.PreferenceCategoryCompat")
 
         val settingsheaders = context["res/xml/settings_headers.xml"]
         settingsheaders.writeText(

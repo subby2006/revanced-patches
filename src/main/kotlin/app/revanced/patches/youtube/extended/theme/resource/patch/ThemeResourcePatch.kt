@@ -52,7 +52,7 @@ class ThemeResourcePatch : ResourcePatch {
         }
 
         // copies the resource file to change the splash screen color
-        context.copyResources("theme",
+        context.copyResources("youtube/theme",
             ResourceUtils.ResourceGroup("values-night-v31", "styles.xml")
         )
 

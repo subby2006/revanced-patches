@@ -54,7 +54,7 @@ class OverlayButtonsResourcePatch : ResourcePatch {
                 val relativePath = "$path/$name"
 
                 Files.copy(
-                        this.javaClass.classLoader.getResourceAsStream("overlaybuttons/$relativePath")!!,
+                        this.javaClass.classLoader.getResourceAsStream("youtube/overlaybuttons/$relativePath")!!,
                         context["res"].resolve(relativePath).toPath(),
                         StandardCopyOption.REPLACE_EXISTING
                 )
@@ -65,7 +65,7 @@ class OverlayButtonsResourcePatch : ResourcePatch {
          * Copy preference fragments
          */
 
-        context.copyXmlNode("overlaybuttons/host", "layout/youtube_controls_bottom_ui_container.xml", "android.support.constraint.ConstraintLayout")
+        context.copyXmlNode("youtube/overlaybuttons/host", "layout/youtube_controls_bottom_ui_container.xml", "android.support.constraint.ConstraintLayout")
 
         val container = context["res/layout/youtube_controls_bottom_ui_container.xml"]
         container.writeText(
