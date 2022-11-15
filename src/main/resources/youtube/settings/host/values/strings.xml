@@ -49,6 +49,9 @@
     <string name="litho_channel_guidelines">Hide channel guidelines</string>
     <string name="litho_channel_guidelines_off">Channel guidelines are shown</string>
     <string name="litho_channel_guidelines_on">Channel guidelines are hidden</string>
+    <string name="litho_chapter_teaser">Chapter teaser under videos</string>
+    <string name="litho_chapter_teaser_off">Chapter teasers are shown</string>
+    <string name="litho_chapter_teaser_on">Chapter teasers are hidden</string>
     <string name="litho_community_guidelines">Remove community guidelines</string>
     <string name="litho_community_guidelines_off">Community guidelines are shown</string>
     <string name="litho_community_guidelines_on">Community guidelines are hidden</string>
@@ -91,6 +94,9 @@
     <string name="litho_paid_content">Remove paid content</string>
     <string name="litho_paid_content_off">Paid content is shown</string>
     <string name="litho_paid_content_on">Paid content is hidden</string>
+    <string name="litho_self_sponsor">Remove self sponsored cards</string>
+    <string name="litho_self_sponsor_off">Self sponsored cards are shown</string>
+    <string name="litho_self_sponsor_on">Self sponsored cards are hidden</string>
     <string name="microg_not_installed_notice">Please install MicroG</string>
     <string name="microg_not_installed_warning">MicroG is not found</string>
     <string name="microg_notification_settings">Notification settings</string>
@@ -194,9 +200,6 @@ Is it ready to submit?"</string>
     <string name="revanced_extended_settings">ReVanced Extended settings</string>
     <string name="revanced_extended_summary">Extended related settings</string>
     <string name="revanced_extended_title">Extended settings</string>
-    <string name="revanced_expansion_card_summary_off">Expansion cards are shown</string>
-    <string name="revanced_expansion_card_summary_on">Expansion cards are hidden</string>
-    <string name="revanced_expansion_card_title">Expansion cards</string>
     <string name="revanced_fix_playback_summary_off">Fix video playback buffer issues turned off</string>
     <string name="revanced_fix_playback_summary_on">Fix video playback buffer issues turned on</string>
     <string name="revanced_fix_playback_title">Fix video playback buffer issues (Experimental)</string>
@@ -436,6 +439,9 @@ Are you sure you want to continue though?"</string>
     <string name="revanced_web_search_panels_summary_off">Web search panels is shown</string>
     <string name="revanced_web_search_panels_summary_on">Web search panels is hidden</string>
     <string name="revanced_web_search_panels_title">Web search panels</string>
+    <string name="revanced_welcome_panels_summary_off">Welcome panels is shown</string>
+    <string name="revanced_welcome_panels_summary_on">Welcome panels is hidden</string>
+    <string name="revanced_welcome_panels_title">Welcome panels</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Failed to add channel %s to the %s whitelist</string>
     <string name="revanced_whitelisting_added" formatted="false">Channel %s was added to the %s whitelist</string>
     <string name="revanced_whitelisting_ads">ADS</string>
