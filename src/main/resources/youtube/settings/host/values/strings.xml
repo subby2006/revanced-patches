@@ -439,9 +439,6 @@ Are you sure you want to continue though?"</string>
     <string name="revanced_web_search_panels_summary_off">Web search panels is shown</string>
     <string name="revanced_web_search_panels_summary_on">Web search panels is hidden</string>
     <string name="revanced_web_search_panels_title">Web search panels</string>
-    <string name="revanced_welcome_panels_summary_off">Welcome panels is shown</string>
-    <string name="revanced_welcome_panels_summary_on">Welcome panels is hidden</string>
-    <string name="revanced_welcome_panels_title">Welcome panels</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Failed to add channel %s to the %s whitelist</string>
     <string name="revanced_whitelisting_added" formatted="false">Channel %s was added to the %s whitelist</string>
     <string name="revanced_whitelisting_ads">ADS</string>
