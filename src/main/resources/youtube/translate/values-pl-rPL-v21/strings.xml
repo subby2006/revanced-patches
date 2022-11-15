@@ -4,7 +4,6 @@
     <string name="about_api">Ta aplikacja używa API od SponsorBlock</string>
     <string name="about_api_sum">Dotknij, aby dowiedzieć się więcej i zobacz rozszerzenia na inne platformy na stronie: sponsor.ajay.app</string>
     <string name="about_madeby">Integracja wykonana przez JakubWeg, przepisana przez oSumAtrIX</string>
-    <string name="accessibility_settings_edu_opt_in_text">Ustawienia ułatwień dostępu edu włącz tekst?</string>
     <string name="action_browser">Przeglądarka SB</string>
     <string name="action_segments">Segmenty</string>
     <string name="api_url_changed">Link API został zmieniony</string>
@@ -34,7 +33,7 @@
     <string name="general_browser_button_sum">Kliknięcie tego przycisku pod odtwarzaczem otworzy sb.ltn.fi, gdzie możesz zobaczyć więcej szczegółów o segmentach.</string>
     <string name="general_cache">Trzymaj segmenty w pamięci podręcznej</string>
     <string name="general_cache_clear">Wyczyść pamięć podręczną segmentów SponsorBlock</string>
-    <string name="general_cache_sum">Często oglądane filmy (np. filmy muzyczne) mogą przechowywać segmenty w pamięci podręcznej aplikacji, aby przyspieszyć pomijanie segmentów</string>
+    <string name="general_cache_sum">Często oglądane wideo (np. teledyski) mogą przechowywać segmenty w pamięci podręcznej aplikacji, aby przyspieszyć pomijanie segmentów</string>
     <string name="general_min_duration">Minimalny czas segmentu</string>
     <string name="general_min_duration_sum">Segmenty krótsze niż ustawiona wartość (w sekundach) nie będą pomijane ani pokazywane w odtwarzaczu</string>
     <string name="general_skipcount">Śledzenie ilości pominięć</string>
@@ -195,7 +194,7 @@
     <string name="revanced_extended_title">Ustawienia Extended</string>
     <string name="revanced_expansion_card_summary_off">Wyświetlane</string>
     <string name="revanced_expansion_card_summary_on">Ukryte</string>
-    <string name="revanced_expansion_card_title">Karty rozszerzeń</string>
+    <string name="revanced_expansion_card_title">Rozdziały filmu (wyniki wyszukiwania)</string>
     <string name="revanced_fix_playback_summary_off">Wyłączona</string>
     <string name="revanced_fix_playback_summary_on">Włączona</string>
     <string name="revanced_fix_playback_title">Naprawa buforowania filmów (eksperymentalne)</string>
@@ -267,7 +266,7 @@
     <string name="revanced_layout_settings_summary">Ustawienia związane z układem</string>
     <string name="revanced_layout_settings_title">Ustawienia układu</string>
     <string name="revanced_maximum_buffer_summary">Maksymalny rozmiar bufora dla odtwarzania</string>
-    <string name="revanced_maximum_buffer_title">Maksymalny rozmiar bufora:</string>
+    <string name="revanced_maximum_buffer_title">Maksymalny rozmiar bufora</string>
     <string name="revanced_minimized_playback">Odtwarzanie w tle</string>
     <string name="revanced_minimized_playback_off">Wyłączone</string>
     <string name="revanced_minimized_playback_on">Włączone</string>
@@ -284,7 +283,7 @@
     <string name="revanced_official_card_in_search_title">Oficjalne karty w wynikach wyszukiwania</string>
     <string name="revanced_old_style_quality_settings_summary_off">Wyłączony</string>
     <string name="revanced_old_style_quality_settings_summary_on">Włączony</string>
-    <string name="revanced_old_style_quality_settings_title">Stary układ ustawień jakości filmu</string>
+    <string name="revanced_old_style_quality_settings_title">Stary układ ustawień jakości wideo</string>
     <string name="revanced_overlaybutton_summary">Ustawienia związane z przyciskiem nakładki</string>
     <string name="revanced_overlaybutton_title">Ustawienia przycisku nakładki</string>
     <string name="revanced_override_premium_header_summary_off">Bieżący nagłówek: Domyślny nagłówek</string>
@@ -331,9 +330,9 @@
     <string name="revanced_reel_summary_on">Wyświetlane</string>
     <string name="revanced_reel_title">Relacje</string>
     <string name="revanced_ryd_attribution_summary">Ta integracja używa API Return YouTube Dislike https://returnyoutubedislike.com. Dotknij, aby dowiedzieć się więcej</string>
-    <string name="revanced_ryd_attribution_title">Informacje o Return YouTube Dislike</string>
-    <string name="revanced_ryd_settings_summary">Ustawienia Return YouTube Dislike</string>
-    <string name="revanced_ryd_settings_title">Przywróć „Nie podoba mi się\"</string>
+    <string name="revanced_ryd_attribution_title">Strona domowa</string>
+    <string name="revanced_ryd_settings_summary">Return YouTube Dislike</string>
+    <string name="revanced_ryd_settings_title">Return YouTube Dislike</string>
     <string name="revanced_ryd_summary">Przywraca licznik łapek w dół</string>
     <string name="revanced_ryd_title">Return YouTube Dislike</string>
     <string name="revanced_seekbar_tapping">Stukanie w pasek postępu wideo</string>
@@ -423,7 +422,7 @@
     <string name="revanced_view_products_title">Baner produktów</string>
     <string name="revanced_web_search_panels_summary_off">Wyświetlane</string>
     <string name="revanced_web_search_panels_summary_on">Ukryte</string>
-    <string name="revanced_web_search_panels_title">Panele wyszukiwania stron internetowych</string>
+    <string name="revanced_web_search_panels_title">Panele wyszukiwania w sieci</string>
     <string name="revanced_whitelisting_add_failed" formatted="false">Nie udało się dodać kanału %s do białej listy %s</string>
     <string name="revanced_whitelisting_added" formatted="false">Kanał %s został dodany do białej listy %s</string>
     <string name="revanced_whitelisting_ads">Reklamy</string>
@@ -450,9 +449,9 @@
     <string name="segments_intermission">Przerywnik/Animowane intro</string>
     <string name="segments_intermission_sum">Fragment bez zawartości. Może być pauzą, przerywnikiem lub powtarzaną animacją</string>
     <string name="segments_nomusic">Muzyka: Sekcja niemuzyczna</string>
-    <string name="segments_nomusic_sum">Tylko do użytku w teledyskach. Pomija fragmenty filmu, które nie są muzyką</string>
+    <string name="segments_nomusic_sum">Tylko do użytku w teledyskach. Pomija fragmenty nagrania, które nie są muzyką</string>
     <string name="segments_preview">Zapowiedź/Podsumowanie</string>
-    <string name="segments_preview_sum">"Podsumowanie poprzednich odcinków lub zapowiedź tego, co pojawi się później w bieżącym filmie lub przyszłych filmach z tej samej serii. Klipy nie powinny dostarczać dodatkowych informacji."</string>
+    <string name="segments_preview_sum">Podsumowanie poprzednich odcinków lub zapowiedź tego, co pojawi się później w bieżącym nagraniu lub przyszłych filmach z tej samej serii. Klipy nie powinny dostarczać dodatkowych informacji.</string>
     <string name="segments_selfpromo">Nieopłacona/Własna promocja</string>
     <string name="segments_selfpromo_sum">Podobne do kategorii treści sponsorowanych z wyjątkiem nieodpłatnych lub własnych promocji. Obejmuje to sekcje o własnych produktach, dotacjach czy informacjach o tym, z kim współpracowali</string>
     <string name="segments_sponsor">Treści sponsorowane</string>
@@ -515,4 +514,5 @@ Przekroczono limit głosów (od tego samego użytkownika lub IP)"</string>
     <string name="vote_succeeded">Pomyślnie zagłosowano</string>
     <string name="vote_upvote">Głos za</string>
     <string name="website">Strona internetowa</string>
+    <string name="revanced_default_downloader">ussr.razar.youtube_dl</string>
 </resources>
