@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.extended.branding.icon.patch
+package app.revanced.patches.youtube.misc.branding.icon.patch
 
 import app.revanced.extensions.doRecursively
 import app.revanced.extensions.startsWithAny
@@ -19,12 +19,12 @@ import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 import org.w3c.dom.Element
 
-@Patch(false)
-@Name("custom-branding-icon-blue")
-@Description("Changes the YouTube launcher icon to your choice (ReVanced Blue).")
+@Patch
+@Name("custom-branding-icon-red")
+@Description("Changes the YouTube launcher icon to your choice (defaults to ReVanced Red).")
 @YouTubeUniversalCompatibility
 @Version("0.0.1")
-class CustomBrandingPatch_Blue : ResourcePatch {
+class CustomBrandingPatch_Red : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
         val classLoader = this.javaClass.classLoader
         val resDirectory = context["res"]
@@ -55,14 +55,14 @@ class CustomBrandingPatch_Blue : ResourcePatch {
         ).forEach { (iconDirectory, size) ->
             AppiconNames.forEach iconLoop@{ iconName ->
                 Files.copy(
-                    classLoader.getResourceAsStream("branding/blue/launchericon/$size/$iconName.png")!!,
+                    classLoader.getResourceAsStream("branding/red/launchericon/$size/$iconName.png")!!,
                     resDirectory.resolve("mipmap-$iconDirectory").resolve("$iconName.png").toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
             }
             SplashiconNames.forEach iconLoop@{ iconName ->
                 Files.copy(
-                    classLoader.getResourceAsStream("branding/blue/splashicon/$size/$iconName.png")!!,
+                    classLoader.getResourceAsStream("branding/red/splashicon/$size/$iconName.png")!!,
                     resDirectory.resolve("drawable-$iconDirectory").resolve("$iconName.png").toPath(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
@@ -100,6 +100,30 @@ class CustomBrandingPatch_Blue : ResourcePatch {
                 )
             }
         }
+
+        /*
+        val disableSplashAnimation1 = context["res/values-v31/styles.xml"]
+        if (!disableSplashAnimation1.isFile) return PatchResultError("Failed to disable Splash Animation.")
+
+        disableSplashAnimation1.writeText(
+                disableSplashAnimation1.readText()
+                        .replace(
+                                "<item name=\"android:windowSplashScreenAnimatedIcon\">@drawable/avd_anim</item>",
+                                ""
+                        )
+        )
+
+        val disableSplashAnimation2 = context["res/values-night-v31/styles.xml"]
+        if (!disableSplashAnimation2.isFile) return PatchResultError("Failed to disable Splash Animation.")
+
+        disableSplashAnimation2.writeText(
+                disableSplashAnimation2.readText()
+                        .replace(
+                                "<item name=\"android:windowSplashScreenAnimatedIcon\">@drawable/avd_anim</item>",
+                                ""
+                        )
+        )
+        */
 
         return PatchResultSuccess()
     }

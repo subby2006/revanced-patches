@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.extended.branding.name.patch
+package app.revanced.patches.youtube.misc.branding.name.patch
 
 import app.revanced.extensions.doRecursively
 import app.revanced.extensions.startsWithAny
