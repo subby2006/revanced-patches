@@ -6,7 +6,7 @@
     <string name="about_madeby">Intégration créée par JakubWeg, recodée par oSumAtrIX</string>
     <string name="accessibility_settings_edu_opt_in_text">Activer les contrôles d\'accessibilités pour le lecteur vidéo?</string>
     <string name="accessibility_settings_edu_opt_out_text">Vos contrôles sont modifiés car un service d\'accessibilité est activé.</string>
-    <string name="action_browser">SB Browser</string>
+    <string name="action_browser">Navigateur de recherche</string>
     <string name="action_segments">Moments</string>
     <string name="api_url_changed">URL de l\'API modifiée</string>
     <string name="api_url_invalid">L\'URL de l\'API fournie n\'est pas valide</string>
