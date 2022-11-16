@@ -1,26 +1,22 @@
 package app.revanced.patches.music.layout.blacknavbar.bytecode.patch
 
+import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
-import app.revanced.patcher.extensions.addInstruction
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.instruction
-import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
 import app.revanced.patcher.patch.PatchResult
-import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import app.revanced.patcher.util.smali.ExternalLabel
-import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.extensions.MethodExtensions.findMutableMethodOf
-import app.revanced.extensions.MethodExtensions.toDescriptor
+import app.revanced.patches.music.misc.integrations.patch.MusicIntegrationsPatch
+import app.revanced.patches.music.misc.settings.patch.MusicSettingsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import org.jf.dexlib2.Opcode
 import org.jf.dexlib2.iface.instruction.formats.Instruction11x
@@ -29,6 +25,8 @@ import org.jf.dexlib2.iface.instruction.formats.Instruction31i
 @Patch
 @DependsOn(
     [
+        MusicIntegrationsPatch::class,
+        MusicSettingsPatch::class,
         ResourceMappingResourcePatch::class
     ]
 )
@@ -71,7 +69,9 @@ class BlackNavbarPatch : BytecodePatch() {
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     val invokeInstruction2 = instructions.elementAt(insertIndex2)
                                     if (invokeInstruction.opcode != Opcode.MOVE_RESULT_OBJECT) return@forEachIndexed
-                                    val register = (invokeInstruction2 as Instruction11x).registerA
+
+                                    val register1 = (instructions.elementAt(index) as Instruction31i).registerA
+                                    val register2 = (invokeInstruction2 as Instruction11x).registerA
 
                                     // create proxied method, make sure to not re-resolve() the current class
                                     if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
@@ -79,8 +79,15 @@ class BlackNavbarPatch : BytecodePatch() {
                                         mutableClass!!.findMutableMethodOf(method)
 
                                     // TODO: dynamically get registers
-                                    mutableMethod!!.addInstruction(
-                                        index + 3, "const/high16 v${register}, -0x1000000"
+                                    mutableMethod!!.addInstructions(
+                                        index + 3, """
+                                            invoke-static {}, Lapp/revanced/integrations/settings/MusicSettings;->getBlackNavbar()Z
+                                            move-result v$register1
+                                            if-eqz v$register1, :default
+                                            const/high16 v$register2, -0x1000000
+                                            :default
+                                            nop
+                                            """
                                     )
                                 }
                             }

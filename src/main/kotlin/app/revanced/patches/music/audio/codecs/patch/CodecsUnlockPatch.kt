@@ -1,21 +1,25 @@
 package app.revanced.patches.music.audio.codecs.patch
 
+import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.data.toMethodWalker
+import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patcher.util.smali.toInstruction
-import app.revanced.annotation.YouTubeMusicCompatibility
+import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patches.music.audio.codecs.fingerprints.AllCodecsReferenceFingerprint
 import app.revanced.patches.music.audio.codecs.fingerprints.CodecsLockFingerprint
+import app.revanced.patches.music.misc.integrations.patch.MusicIntegrationsPatch
+import app.revanced.patches.music.misc.settings.patch.MusicSettingsPatch
 import org.jf.dexlib2.Opcode
 
 @Patch
+@DependsOn([MusicIntegrationsPatch::class, MusicSettingsPatch::class])
 @Name("codecs-unlock")
 @Description("Adds more audio codec options. The new audio codecs usually result in better audio quality.")
 @YouTubeMusicCompatibility
@@ -27,8 +31,9 @@ class CodecsUnlockPatch : BytecodePatch(
 ) {
     override fun execute(context: BytecodeContext): PatchResult {
         val codecsLockResult = CodecsLockFingerprint.result!!
+        val codecsLockMethod = codecsLockResult.mutableMethod
 
-        val implementation = codecsLockResult.mutableMethod.implementation!!
+        val implementation = codecsLockMethod.implementation!!
 
         val scanResultStartIndex = codecsLockResult.scanResult.patternScanResult!!.startIndex
         val instructionIndex = scanResultStartIndex +
@@ -46,9 +51,16 @@ class CodecsUnlockPatch : BytecodePatch(
                 .nextMethod(allCodecsResult.scanResult.patternScanResult!!.startIndex)
                 .getMethod()
 
-        implementation.replaceInstruction(
-            instructionIndex,
-            "invoke-static {}, ${allCodecsMethod.definingClass}->${allCodecsMethod.name}()Ljava/util/Set;".toInstruction()
+        codecsLockMethod.addInstructions(
+            instructionIndex + 2, """
+                invoke-static {}, Lapp/revanced/integrations/settings/MusicSettings;->getCodecsUnlock()Z
+                move-result v7
+                if-eqz v7, :mp4a
+                invoke-static {}, ${allCodecsMethod.definingClass}->${allCodecsMethod.name}()Ljava/util/Set;
+                move-result-object p4
+                :mp4a
+                nop
+            """
         )
 
         return PatchResultSuccess()

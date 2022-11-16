@@ -1,26 +1,22 @@
 package app.revanced.patches.music.layout.tabletmode.bytecode.patch
 
+import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
-import app.revanced.patcher.extensions.addInstruction
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.instruction
-import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
 import app.revanced.patcher.patch.PatchResult
-import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import app.revanced.patcher.util.smali.ExternalLabel
-import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.extensions.MethodExtensions.findMutableMethodOf
-import app.revanced.extensions.MethodExtensions.toDescriptor
+import app.revanced.patches.music.misc.integrations.patch.MusicIntegrationsPatch
+import app.revanced.patches.music.misc.settings.patch.MusicSettingsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import org.jf.dexlib2.Opcode
 import org.jf.dexlib2.iface.instruction.formats.Instruction31i
@@ -28,6 +24,8 @@ import org.jf.dexlib2.iface.instruction.formats.Instruction31i
 @Patch
 @DependsOn(
     [
+        MusicIntegrationsPatch::class,
+        MusicSettingsPatch::class,
         ResourceMappingResourcePatch::class
     ]
 )
@@ -66,6 +64,8 @@ class TabletModePatch : BytecodePatch() {
                                 resourceIds[0] -> { // tablet
                                     //  and is followed by an instruction with the mnemonic IPUT_OBJECT
                                     val insertIndex = index - 2
+                                    val invokeInstruction = instructions.elementAt(insertIndex)
+                                    if (invokeInstruction.opcode != Opcode.INVOKE_VIRTUAL) return@forEachIndexed
 
                                     // create proxied method, make sure to not re-resolve() the current class
                                     if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
@@ -74,10 +74,10 @@ class TabletModePatch : BytecodePatch() {
 
                                     // TODO: dynamically get registers
                                     mutableMethod!!.addInstructions(
-                                        insertIndex, """
-                                                const/4 v0, 0x1
-                                                return v0
-                                                """
+                                        index + 3, """
+                                            invoke-static {p0}, Lapp/revanced/integrations/settings/MusicSettings;->getTabletMode(Z)Z
+                                            move-result p0
+                                            """
                                     )
                                 }
                             }

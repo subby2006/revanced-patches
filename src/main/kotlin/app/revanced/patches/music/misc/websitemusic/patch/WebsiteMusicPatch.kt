@@ -10,6 +10,8 @@ import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patcher.patch.annotations.Patch
+import app.revanced.patches.music.misc.integrations.patch.MusicIntegrationsPatch
+import app.revanced.patches.music.misc.settings.patch.MusicSettingsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
@@ -20,6 +22,8 @@ import org.w3c.dom.Element
 @Patch (false)
 @DependsOn(
     [
+        MusicIntegrationsPatch::class,
+        MusicSettingsPatch::class,
         ResourceMappingResourcePatch::class
     ]
 )
