@@ -51,6 +51,9 @@
     <string name="litho_channel_guidelines">Ẩn Nguyên tắc kênh</string>
     <string name="litho_channel_guidelines_off">Nguyên tắc kênh được hiển thị</string>
     <string name="litho_channel_guidelines_on">Nguyên tắc kênh đã ẩn</string>
+    <string name="litho_chapter_teaser">Ẩn Giới thiệu phân cảnh bên dưới video</string>
+    <string name="litho_chapter_teaser_off">Giới thiệu phân cảnh bên dưới video được hiển thị</string>
+    <string name="litho_chapter_teaser_on">Giới thiệu phân cảnh bên dưới video đã ẩn</string>
     <string name="litho_community_guidelines">Ẩn Nguyên tắc cộng đồng</string>
     <string name="litho_community_guidelines_off">Nguyên tắc cộng đồng được hiển thị</string>
     <string name="litho_community_guidelines_on">Nguyên tắc cộng đồng đã ẩn</string>
@@ -72,9 +75,9 @@
     <string name="litho_hide_suggestions">Ẩn Đề xuất chung</string>
     <string name="litho_hide_suggestions_off">Đề xuất chung được hiển thị</string>
     <string name="litho_hide_suggestions_on">Đề xuất chung đã ẩn</string>
-    <string name="litho_image_shelf">Ẩn Kệ Hình ảnh</string>
-    <string name="litho_image_shelf_off">Kệ Hình ảnh được hiển thị</string>
-    <string name="litho_image_shelf_on">Kệ Hình ảnh đã ẩn</string>
+    <string name="litho_image_shelf">Ẩn Kệ hình ảnh</string>
+    <string name="litho_image_shelf_off">Kệ hình ảnh được hiển thị</string>
+    <string name="litho_image_shelf_on">Kệ hình ảnh đã ẩn</string>
     <string name="litho_in_feed_survey">Ẩn Khảo sát</string>
     <string name="litho_in_feed_survey_off">Khảo sát được hiển thị</string>
     <string name="litho_in_feed_survey_on">Khảo sát đã ẩn</string>
@@ -93,6 +96,9 @@
     <string name="litho_paid_content">Ẩn Nội dung trả phí</string>
     <string name="litho_paid_content_off">Nội dung trả phí được hiển thị</string>
     <string name="litho_paid_content_on">Nội dung trả phí đã ẩn</string>
+    <string name="litho_self_sponsor">Ẩn Thẻ tự tài trợ</string>
+    <string name="litho_self_sponsor_off">Thẻ tự tài trợ được hiển thị</string>
+    <string name="litho_self_sponsor_on">Thẻ tự tài trợ đã ẩn</string>
     <string name="microg_not_installed_notice">Vui lòng cài đặt MicroG</string>
     <string name="microg_not_installed_warning">MicroG chưa được cài đặt</string>
     <string name="microg_notification_settings">Nhận thông báo</string>
@@ -195,9 +201,6 @@ Bạn đã sẵn sàng để gửi đi chưa?"</string>
     <string name="revanced_extended_settings">Cài đặt ReVanced mở rộng</string>
     <string name="revanced_extended_summary">Các cài đặt mở rộng liên quan</string>
     <string name="revanced_extended_title">Mở rộng</string>
-    <string name="revanced_expansion_card_summary_off">Thẻ mở rộng được hiển thị</string>
-    <string name="revanced_expansion_card_summary_on">Thẻ mở rộng đã ẩn</string>
-    <string name="revanced_expansion_card_title">Thẻ mở rộng</string>
     <string name="revanced_fix_playback_summary_off">Sửa lỗi bộ đệm phát lại video đã tắt</string>
     <string name="revanced_fix_playback_summary_on">Sửa lỗi bộ đệm phát lại video đang bật</string>
     <string name="revanced_fix_playback_title">Sửa lỗi bộ đệm phát lại video (Thử nghiệm)</string>

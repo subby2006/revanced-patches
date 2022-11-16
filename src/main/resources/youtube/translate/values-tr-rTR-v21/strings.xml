@@ -51,6 +51,9 @@
     <string name="litho_channel_guidelines">Kanal yönergelerini gizle</string>
     <string name="litho_channel_guidelines_off">Gizlenmiyor</string>
     <string name="litho_channel_guidelines_on">Gizlendi</string>
+    <string name="litho_chapter_teaser">Açıklama kısmındaki \"transkripti göster\" seçeneği</string>
+    <string name="litho_chapter_teaser_off">Gizlenmiyor</string>
+    <string name="litho_chapter_teaser_on">Gizleniyor</string>
     <string name="litho_community_guidelines">Topluluk kurallarını gizle</string>
     <string name="litho_community_guidelines_off">Gizlenmiyor</string>
     <string name="litho_community_guidelines_on">Gizlendi</string>
@@ -93,6 +96,9 @@
     <string name="litho_paid_content">Ücretli içeriği gizle</string>
     <string name="litho_paid_content_off">Gizlenmiyor</string>
     <string name="litho_paid_content_on">Gizlendi</string>
+    <string name="litho_self_sponsor">Kendinden sponsorlu kartlar</string>
+    <string name="litho_self_sponsor_off">Gizlenmiyor</string>
+    <string name="litho_self_sponsor_on">Gizleniyor</string>
     <string name="microg_not_installed_notice">Lütfen MicroG yükleyin</string>
     <string name="microg_not_installed_warning">MicroG bulunamadı</string>
     <string name="microg_notification_settings">Bildirim ayarları</string>
@@ -195,9 +201,6 @@ Gönderilmeye hazır mı?"</string>
     <string name="revanced_extended_settings">ReVanced Gelişmiş ayarlar</string>
     <string name="revanced_extended_summary">Gelişmiş ayarlar</string>
     <string name="revanced_extended_title">Genişletilmiş Ayarlar</string>
-    <string name="revanced_expansion_card_summary_off">Gizlenmiyor</string>
-    <string name="revanced_expansion_card_summary_on">Gizleniyor</string>
-    <string name="revanced_expansion_card_title">Kart genişlemeleri</string>
     <string name="revanced_fix_playback_summary_off">Video oynatma arabelleği sorunlarını düzeltme kapalı</string>
     <string name="revanced_fix_playback_summary_on">Video oynatma arabelleği sorunlarını düzeltme açık</string>
     <string name="revanced_fix_playback_title">Video arabelleği sorunlarını düzeltin (Deneysel)</string>

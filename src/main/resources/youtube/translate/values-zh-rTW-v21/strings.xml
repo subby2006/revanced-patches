@@ -51,6 +51,9 @@
     <string name="litho_channel_guidelines">隱藏頻道指南</string>
     <string name="litho_channel_guidelines_off">頻道指南已顯示</string>
     <string name="litho_channel_guidelines_on">頻道指南已隱藏</string>
+    <string name="litho_chapter_teaser">影片下方的章節選單</string>
+    <string name="litho_chapter_teaser_off">影片下方的章節選單已顯示</string>
+    <string name="litho_chapter_teaser_on">影片下方的章節選單已隱藏</string>
     <string name="litho_community_guidelines">隱藏社群準則</string>
     <string name="litho_community_guidelines_off">社群準則已顯示</string>
     <string name="litho_community_guidelines_on">社群準則已隱藏</string>
@@ -93,6 +96,9 @@
     <string name="litho_paid_content">隱藏付費內容</string>
     <string name="litho_paid_content_off">付費內容已顯示</string>
     <string name="litho_paid_content_on">付費內容已隱藏</string>
+    <string name="litho_self_sponsor">移除自我推銷卡</string>
+    <string name="litho_self_sponsor_off">自我推銷卡已顯示</string>
+    <string name="litho_self_sponsor_on">自我推銷卡已隱藏</string>
     <string name="microg_not_installed_notice">請安裝 MicroG</string>
     <string name="microg_not_installed_warning">未找到 MicroG</string>
     <string name="microg_notification_settings">通知設定</string>
@@ -195,9 +201,6 @@
     <string name="revanced_extended_settings">ReVanced Extended 設定</string>
     <string name="revanced_extended_summary">Extended 相關設定</string>
     <string name="revanced_extended_title">Extended 設定</string>
-    <string name="revanced_expansion_card_summary_off">資訊卡片(重要時刻) 已顯示</string>
-    <string name="revanced_expansion_card_summary_on">資訊卡片(重要時刻) 已隱藏</string>
-    <string name="revanced_expansion_card_title">資訊卡片(重要時刻)</string>
     <string name="revanced_fix_playback_summary_off">修復影片回放緩衝區 已關閉</string>
     <string name="revanced_fix_playback_summary_on">修復影片回放緩衝區 已開啟</string>
     <string name="revanced_fix_playback_title">修復影片回放緩衝區 (實驗性)</string>

@@ -51,6 +51,9 @@
     <string name="litho_channel_guidelines">频道指南</string>
     <string name="litho_channel_guidelines_off">频道指南已显示</string>
     <string name="litho_channel_guidelines_on">频道指南已隐藏</string>
+    <string name="litho_chapter_teaser">视频下方的章节预告</string>
+    <string name="litho_chapter_teaser_off">章节预告已显示</string>
+    <string name="litho_chapter_teaser_on">章节预告已隐藏</string>
     <string name="litho_community_guidelines">社区指南</string>
     <string name="litho_community_guidelines_off">社区指南已显示</string>
     <string name="litho_community_guidelines_on">社区指南已隐藏</string>
@@ -93,6 +96,9 @@
     <string name="litho_paid_content">付费内容</string>
     <string name="litho_paid_content_off">付费内容已显示</string>
     <string name="litho_paid_content_on">付费内容已隐藏</string>
+    <string name="litho_self_sponsor">自我推广卡片</string>
+    <string name="litho_self_sponsor_off">自我推广卡片已显示</string>
+    <string name="litho_self_sponsor_on">自我推广卡片已隐藏</string>
     <string name="microg_not_installed_notice">请安装 MicroG</string>
     <string name="microg_not_installed_warning">未找到 MicroG</string>
     <string name="microg_notification_settings">通知设置</string>
@@ -195,9 +201,6 @@
     <string name="revanced_extended_settings">ReVanced Extended 设置</string>
     <string name="revanced_extended_summary">Extended 相关设置</string>
     <string name="revanced_extended_title">Extended 设置</string>
-    <string name="revanced_expansion_card_summary_off">（视频关键点）扩展面板已显示</string>
-    <string name="revanced_expansion_card_summary_on">（视频关键点）扩展面板已隐藏</string>
-    <string name="revanced_expansion_card_title">扩展面板</string>
     <string name="revanced_fix_playback_summary_off">修复视频播放缓冲问题已禁用</string>
     <string name="revanced_fix_playback_summary_on">修复视频播放缓冲问题已启用</string>
     <string name="revanced_fix_playback_title">修复视频播放缓冲问题（实验性）</string>

@@ -191,8 +191,6 @@ Is it ready to submit?"</string>
     <string name="revanced_extended_settings">การตั้งค่า ReVanced Extended</string>
     <string name="revanced_extended_summary">Extended related settings</string>
     <string name="revanced_extended_title">การตั้งค่า Extended</string>
-    <string name="revanced_expansion_card_summary_off">Expansion cards  เปิดใช้งาน</string>
-    <string name="revanced_expansion_card_summary_on">Expansion cards  ปิดใช้งาน</string>
     <string name="revanced_fix_playback_summary_off">แก้ไขปัญหาบัฟเฟอร์การเล่นวิดีโอที่ปิดอยู่</string>
     <string name="revanced_fix_playback_summary_on">แก้ไขปัญหาบัฟเฟอร์การเล่นวิดีโอที่เปิดอยู่</string>
     <string name="revanced_fix_playback_title">แก้ไขปัญหาบัฟเฟอร์การเล่นวิดีโอ (ทดลอง)</string>

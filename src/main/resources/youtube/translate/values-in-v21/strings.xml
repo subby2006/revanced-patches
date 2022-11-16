@@ -51,6 +51,9 @@
     <string name="litho_channel_guidelines">Penghapusan pedoman channel</string>
     <string name="litho_channel_guidelines_off">Penghapusan pedoman channel dinonaktifkan</string>
     <string name="litho_channel_guidelines_on">Penghapusan pedoman channel diaktifkan</string>
+    <string name="litho_chapter_teaser">Teaser chapter di bawah video</string>
+    <string name="litho_chapter_teaser_off">Teaser chapter ditampilkan</string>
+    <string name="litho_chapter_teaser_on">Teaser chapter disembunyikan</string>
     <string name="litho_community_guidelines">Penghapusan pedoman komunitas</string>
     <string name="litho_community_guidelines_off">Penghapusan pedoman komunitas dinonaktifkan</string>
     <string name="litho_community_guidelines_on">Penghapusan pedoman komunitas diaktifkan</string>
@@ -93,6 +96,9 @@
     <string name="litho_paid_content">Penghapusan konten berbayar</string>
     <string name="litho_paid_content_off">Penghapusan konten berbayar dinonaktifkan</string>
     <string name="litho_paid_content_on">Penghapusan konten berbayar diaktifkan</string>
+    <string name="litho_self_sponsor">Penghapusan kartu sponsor diri sendiri</string>
+    <string name="litho_self_sponsor_off">Kartu sponsor diri sendiri ditampilkan</string>
+    <string name="litho_self_sponsor_on">Kartu sponsor diri sendiri disembunyikan</string>
     <string name="microg_not_installed_notice">Silahkan instal MicroG</string>
     <string name="microg_not_installed_warning">MicroG tidak ditemukan</string>
     <string name="microg_notification_settings">Pengaturan notifikasi</string>
@@ -195,9 +201,6 @@ Apakah sudah siap untuk dikirim?"</string>
     <string name="revanced_extended_settings">Pengaturan ReVanced Extended</string>
     <string name="revanced_extended_summary">Pengaturan yang terkait dengan extended</string>
     <string name="revanced_extended_title">Pengaturan extended</string>
-    <string name="revanced_expansion_card_summary_off">Kartu ekspansi ditampilkan</string>
-    <string name="revanced_expansion_card_summary_on">Kartu ekspansi disembunyikan</string>
-    <string name="revanced_expansion_card_title">Kartu ekspansi</string>
     <string name="revanced_fix_playback_summary_off">Perbaikan masalah buffer pemutaran video dimatikan</string>
     <string name="revanced_fix_playback_summary_on">Perbaikan masalah buffer pemutaran video diaktifkan</string>
     <string name="revanced_fix_playback_title">Memperbaiki masalah buffer pemutaran video (eksperimental)</string>

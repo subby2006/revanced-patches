@@ -197,9 +197,6 @@
     <string name="revanced_extended_settings">রিভ্যান্সড এক্সটেন্ডেড সেটিং</string>
     <string name="revanced_extended_summary">এক্সটেন্ডেড সম্পর্কিত সেটিংস</string>
     <string name="revanced_extended_title">এক্সটেন্ডেড সেটিংস</string>
-    <string name="revanced_expansion_card_summary_off">সম্প্রসারণ কার্ড প্রদর্শিত</string>
-    <string name="revanced_expansion_card_summary_on">সম্প্রসারণ কার্ড লুকানো আছে</string>
-    <string name="revanced_expansion_card_title">সম্প্রসারণ কার্ড</string>
     <string name="revanced_fix_playback_summary_off">ভিডিও প্লেব্যাক বাফারিং ঠিক করা বন্ধ আছে</string>
     <string name="revanced_fix_playback_summary_on">ভিডিও প্লেব্যাক বাফারিং ঠিক করা চালু আছে</string>
     <string name="revanced_fix_playback_title">ভিডিও প্লেব্যাক বাফারিং সমস্যা ঠিক করুন (পরীক্ষামূলক)</string>

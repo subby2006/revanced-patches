@@ -196,9 +196,6 @@
     <string name="revanced_extended_settings">Настройки ReVanced Extended</string>
     <string name="revanced_extended_summary">Дополнительные настройки</string>
     <string name="revanced_extended_title">Настройки Extended</string>
-    <string name="revanced_expansion_card_summary_off">Карты расширения показаны</string>
-    <string name="revanced_expansion_card_summary_on">Карты расширения скрыты</string>
-    <string name="revanced_expansion_card_title">Карты расширения</string>
     <string name="revanced_fix_playback_summary_off">Исправление проблем с буфером воспроизведения видео отключено</string>
     <string name="revanced_fix_playback_summary_on">Исправление проблем с буфером воспроизведения видео включено</string>
     <string name="revanced_fix_playback_title">Исправление проблем с буфером воспроизведения видео (экспериментально)</string>

@@ -195,9 +195,6 @@
     <string name="revanced_extended_settings">ReVanced Extended सेटिंग्स</string>
     <string name="revanced_extended_summary">विस्तारित संबंधित सेटिंग्स</string>
     <string name="revanced_extended_title">विस्तारित सेटिंग्स</string>
-    <string name="revanced_expansion_card_summary_off">विस्तार कार्ड दिखाए गए हैं</string>
-    <string name="revanced_expansion_card_summary_on">विस्तार कार्ड छिपे हुए हैं</string>
-    <string name="revanced_expansion_card_title">विस्तार कार्ड</string>
     <string name="revanced_fix_playback_summary_off">वीडियो प्लेबैक बफ़र समस्याओं को ठीक करना बंद किया गया</string>
     <string name="revanced_fix_playback_summary_on">वीडियो प्लेबैक बफ़र समस्याओं को ठीक करें चालू किया गया</string>
     <string name="revanced_fix_playback_title">वीडियो प्लेबैक बफ़र समस्याओं को ठीक करें (प्रयोगात्मक)</string>

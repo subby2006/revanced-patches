@@ -51,6 +51,9 @@
     <string name="litho_channel_guidelines">إخفاء إرشادات القناة</string>
     <string name="litho_channel_guidelines_off">يتم عرض إرشادات القناة</string>
     <string name="litho_channel_guidelines_on">تم إخفاء إرشادات القناة</string>
+    <string name="litho_chapter_teaser">ملخص للفصول تحت مقاطع الفيديو</string>
+    <string name="litho_chapter_teaser_off">يتم عرض ملخص للفصول تحت مقاطع الفيديو </string>
+    <string name="litho_chapter_teaser_on">تم إخفاء ملخص للفصول تحت مقاطع الفيديو</string>
     <string name="litho_community_guidelines">إزالة إرشادات المجتمع</string>
     <string name="litho_community_guidelines_off">يتم عرض إرشادات المجتمع</string>
     <string name="litho_community_guidelines_on">تم إخفاء إرشادات المجتمع</string>
@@ -93,6 +96,9 @@
     <string name="litho_paid_content">إزالة المحتوى المدفوع</string>
     <string name="litho_paid_content_off">يتم عرض المحتوى المدفوع</string>
     <string name="litho_paid_content_on">تم إخفاء المحتوى المدفوع</string>
+    <string name="litho_self_sponsor">إزالة بطاقات الرعاية الذاتية</string>
+    <string name="litho_self_sponsor_off">يتم عرض بطاقات الرعاية الذاتية</string>
+    <string name="litho_self_sponsor_on">تم إخفاء بطاقات الرعاية الذاتية</string>
     <string name="microg_not_installed_notice">الرجاء تثبيت MicroG</string>
     <string name="microg_not_installed_warning">لم يتم العثور على MicroG</string>
     <string name="microg_notification_settings">إعدادات الإشعارات</string>
@@ -192,9 +198,6 @@
     <string name="revanced_extended_settings">إعدادات ReVanced Extended</string>
     <string name="revanced_extended_summary">الإعدادات المتعلقة بــ Extended</string>
     <string name="revanced_extended_title">إعدادات Extended</string>
-    <string name="revanced_expansion_card_summary_off">يتم عرض بطاقات التوسيع</string>
-    <string name="revanced_expansion_card_summary_on">تم إخفاء بطاقات التوسيع</string>
-    <string name="revanced_expansion_card_title">بطاقات التوسيع</string>
     <string name="revanced_fix_playback_summary_off">تم إيقاف تشغيل إصلاح مشكلات التحميل المسبق لتشغيل الفيديو</string>
     <string name="revanced_fix_playback_summary_on">تم تشغيل إصلاح مشكلات التحميل المسبق لتشغيل الفيديو</string>
     <string name="revanced_fix_playback_title">إصلاح مشكلات التحميل المسبق لتشغيل الفيديو (تجريبي)</string>
