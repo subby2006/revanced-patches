@@ -2,6 +2,7 @@ package app.revanced.patches.youtube.extended.amoled.patch
 
 import app.revanced.extensions.doRecursively
 import app.revanced.extensions.startsWithAny
+import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.ResourceContext
@@ -19,6 +20,7 @@ import org.w3c.dom.Element
 @Patch
 @DependsOn([FixLocaleConfigErrorPatch::class, ThemePatch::class, ThemeResourcePatch::class])
 @Name("amoled")
+@Description("Enables pure black theme.")
 @YouTubeUniversalCompatibility
 @Version("0.0.1")
 class AmoledPatch : ResourcePatch {

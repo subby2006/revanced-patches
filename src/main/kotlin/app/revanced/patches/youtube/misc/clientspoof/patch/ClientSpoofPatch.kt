@@ -1,5 +1,6 @@
 package app.revanced.patches.youtube.misc.clientspoof.patch
 
+import app.revanced.annotation.YouTubeUniversalCompatibility
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
@@ -10,13 +11,12 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.annotation.YouTubeUniversalCompatibility
 import app.revanced.patches.youtube.misc.clientspoof.fingerprints.UserAgentHeaderBuilderFingerprint
 import org.jf.dexlib2.iface.instruction.FiveRegisterInstruction
 
 @Patch
 @Name("client-spoof")
-@Description("Spoofs the YouTube or Vanced client to prevent playback issues.")
+@Description("Spoofs the YouTube client to prevent playback issues.")
 @YouTubeUniversalCompatibility
 @Version("0.0.1")
 class ClientSpoofPatch : BytecodePatch(
