@@ -192,9 +192,6 @@
     <string name="revanced_extended_settings">Ustawienia ReVanced Extended</string>
     <string name="revanced_extended_summary">Ustawienia powiązane z Extended</string>
     <string name="revanced_extended_title">Ustawienia Extended</string>
-    <string name="revanced_expansion_card_summary_off">Wyświetlane</string>
-    <string name="revanced_expansion_card_summary_on">Ukryte</string>
-    <string name="revanced_expansion_card_title">Rozdziały filmu (wyniki wyszukiwania)</string>
     <string name="revanced_fix_playback_summary_off">Wyłączona</string>
     <string name="revanced_fix_playback_summary_on">Włączona</string>
     <string name="revanced_fix_playback_title">Naprawa buforowania filmów (eksperymentalne)</string>
@@ -515,4 +512,10 @@ Przekroczono limit głosów (od tego samego użytkownika lub IP)"</string>
     <string name="vote_upvote">Głos za</string>
     <string name="website">Strona internetowa</string>
     <string name="revanced_default_downloader">ussr.razar.youtube_dl</string>
+    <string name="litho_chapter_teaser">Podgląd rozdziałów pod odtwarzaczem</string>
+    <string name="litho_self_sponsor_on">Ukryte</string>
+    <string name="litho_chapter_teaser_off">Widoczny</string>
+    <string name="litho_chapter_teaser_on">Ukryty</string>
+    <string name="litho_self_sponsor">Karty sponsorowane</string>
+    <string name="litho_self_sponsor_off">Widoczne</string>
 </resources>
