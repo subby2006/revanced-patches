@@ -79,7 +79,7 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `hide-music-cast-button` | Hides the cast button in the video player and header | all |
 | `minimized-playback-music` | Enables minimized playback on Kids music. | all |
 | `black-navbar` | Sets the navigation bar color to black. | all |
-| `miniplayer-color` | Adds the ability to set default video speed. | all |
+| `miniplayer-color` | Matches the fullscreen player color with the minimized one. | all |
 | `custom-branding-music-red` | Changes the YouTube Music launcher icon to your choice (defaults to ReVanced Red). | all |
 | `custom-branding-music-revancify` | Changes the YouTube Music launcher icon to your choice (Revancify). | all |
 | `compact-header` | Hides the music category bar at the top of the homepage. | all |

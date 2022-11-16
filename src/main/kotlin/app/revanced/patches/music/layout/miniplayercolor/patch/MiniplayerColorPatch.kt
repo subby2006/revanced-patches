@@ -26,7 +26,7 @@ import org.jf.dexlib2.iface.reference.MethodReference
 @Patch
 @DependsOn([MusicIntegrationsPatch::class, MusicSettingsPatch::class])
 @Name("miniplayer-color")
-@Description("Adds the ability to set default video speed.")
+@Description("Matches the fullscreen player color with the minimized one.")
 @YouTubeMusicCompatibility
 @Version("0.0.1")
 class MiniplayerColorPatch : BytecodePatch(

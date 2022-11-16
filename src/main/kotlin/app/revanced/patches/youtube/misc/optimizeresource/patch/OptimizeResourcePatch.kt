@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.extended.optimizeresource.patch
+package app.revanced.patches.youtube.misc.optimizeresource.patch
 
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
