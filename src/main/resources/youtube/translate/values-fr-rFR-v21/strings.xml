@@ -449,7 +449,7 @@ Tu es sûr de vouloir continuer ?"</string>
     <string name="revanced_whitelisting_fetch_failed">Impossible de récupérer les détails du canal, code reçu %d</string>
     <string name="revanced_whitelisting_remove_failed" formatted="false">Impossible de supprimer le canal %s de la liste blanche %s</string>
     <string name="revanced_whitelisting_removed" formatted="false">Le canal %s a été supprimé de la liste blanche %s</string>
-    <string name="revanced_whitelisting_sponsorblock">SponsorBlockLe canal %s a été supprimé de la liste blanche %s</string>
+    <string name="revanced_whitelisting_sponsorblock">SponsorBlock</string>
     <string name="rvx_dialog_message">"À partir de YouTube v17.33.xx, la rotation automatique en plein écran suit l'état de bascule de rotation automatique du système.
 Donc la version YouTube à v17.32.9 contourne le problème de rotation automatique en plein écran
 En conséquence, dans les informations de l'application, la version YouTube est affichée comme v17.32.39
