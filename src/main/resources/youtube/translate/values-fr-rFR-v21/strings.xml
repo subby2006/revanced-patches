@@ -167,7 +167,7 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_crowdfunding_box_summary_on">La boîte de financement participatif est affichée</string>
     <string name="revanced_crowdfunding_box_title">Boîte de financement participatif</string>
     <string name="revanced_cutout_glitch_summary_off">Le problème de découpage s’affiche</string>
-    <string name="revanced_cutout_glitch_summary_on">Problème de découpage caché</string>
+    <string name="revanced_cutout_glitch_summary_on">Le problème de découpage est caché</string>
     <string name="revanced_cutout_glitch_title">Problème de découpe</string>
     <string name="revanced_download_video_summary_off">Le bouton de téléchargement est caché</string>
     <string name="revanced_download_video_summary_on">Le bouton de téléchargement est affiché</string>
@@ -225,17 +225,17 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_hide_dislike_button_summary_off">Le bouton \"Je n\'aime pas\" est affiché</string>
     <string name="revanced_hide_dislike_button_summary_on">Le bouton \"Je n\'aime pas\" est masqué</string>
     <string name="revanced_hide_dislike_button_title">Masquer le bouton \"Je n\'aime pas\"</string>
-    <string name="revanced_hide_download_button_summary_off">Le bouton \"Télécharger\" est affiché</string>
-    <string name="revanced_hide_download_button_summary_on">Bouton de téléchargement masqué</string>
+    <string name="revanced_hide_download_button_summary_off">Le bouton de téléchargement est affiché</string>
+    <string name="revanced_hide_download_button_summary_on">Le bouton de téléchargement masqué</string>
     <string name="revanced_hide_download_button_title">Cacher le bouton de téléchargement</string>
     <string name="revanced_hide_email_address_summary_off">L\'adresse e-mail est masquée</string>
     <string name="revanced_hide_email_address_summary_on">L\'adresse e-mail est affichée</string>
     <string name="revanced_hide_email_address_title">Adresse e-mail</string>
-    <string name="revanced_hide_like_button_summary_off">Le bouton de like est affiché</string>
-    <string name="revanced_hide_like_button_summary_on">Le bouton de like est caché</string>
-    <string name="revanced_hide_like_button_title">Cacher le bouton de like</string>
-    <string name="revanced_hide_live_chat_button_summary_off">Le bouton tchat en direct est affiché</string>
-    <string name="revanced_hide_live_chat_button_summary_on">Le bouton tchat en direct est masqué. </string>
+    <string name="revanced_hide_like_button_summary_off">Le bouton J\'aime est affiché</string>
+    <string name="revanced_hide_like_button_summary_on">Le bouton J\'aime est caché</string>
+    <string name="revanced_hide_like_button_title">Cacher le bouton J\'aime</string>
+    <string name="revanced_hide_live_chat_button_summary_off">Le bouton discussion en direct est affiché</string>
+    <string name="revanced_hide_live_chat_button_summary_on">Le bouton discussion en direct est masqué. </string>
     <string name="revanced_hide_live_chat_button_title">Masquer le bouton discussion en direct.</string>
     <string name="revanced_hide_playlist_button_summary_off">Le bouton de la playlist est affiché</string>
     <string name="revanced_hide_playlist_button_summary_on">Le bouton de la playlist est caché</string>
@@ -243,9 +243,9 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_hide_preview_comment_off">Aperçu du commentaire affiché</string>
     <string name="revanced_hide_preview_comment_on">Aperçu du commentaire caché</string>
     <string name="revanced_hide_preview_comment_title">Apperçu des commentaires</string>
-    <string name="revanced_hide_report_button_summary_off">Le bouton de report est affiché</string>
-    <string name="revanced_hide_report_button_summary_on">Le bouton de report est caché</string>
-    <string name="revanced_hide_report_button_title">Cacher le bouton de report</string>
+    <string name="revanced_hide_report_button_summary_off">Le bouton de signalement est affiché</string>
+    <string name="revanced_hide_report_button_summary_on">Le bouton de signalement est caché</string>
+    <string name="revanced_hide_report_button_title">Cacher le bouton de signalement</string>
     <string name="revanced_hide_share_button_summary_off">Le bouton de partage est affiché</string>
     <string name="revanced_hide_share_button_summary_on">Le bouton de partage est caché</string>
     <string name="revanced_hide_share_button_title">Cacher le bouton de partage</string>
@@ -253,11 +253,11 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_hide_thanks_button_summary_on">Le bouton de remerciement est caché</string>
     <string name="revanced_hide_thanks_button_title">Cacher le bouton de remerciements</string>
     <string name="revanced_hide_time_and_seekbar_summary_off">Le temps et la barre de recherche sont cachés</string>
-    <string name="revanced_hide_time_and_seekbar_summary_on">Le temps et le seekbar sont affichés</string>
+    <string name="revanced_hide_time_and_seekbar_summary_on">Le temps et la barre de recherche sont affichés</string>
     <string name="revanced_hide_time_and_seekbar_title">Le temps et la barre de recherche</string>
-    <string name="revanced_hide_watch_in_vr_summary_off">Regarder en VR s’affiche à partir de l’élément de menu</string>
-    <string name="revanced_hide_watch_in_vr_summary_on">Regarder en VR est caché de l’élément de menu</string>
-    <string name="revanced_hide_watch_in_vr_title">Regarder en VR</string>
+    <string name="revanced_hide_watch_in_vr_summary_off">Regarder en VR (Réalité virtuelle) s’affiche à partir de l’élément de menu</string>
+    <string name="revanced_hide_watch_in_vr_summary_on">Regarder en VR (Réalité virtuelle)est caché de l’élément de menu</string>
+    <string name="revanced_hide_watch_in_vr_title">Regarder en VR (Réalité virtuelle)</string>
     <string name="revanced_home_ads_summary_off">Les annonces a l\'écran d\'accueil sont masquées</string>
     <string name="revanced_home_ads_summary_on">Les annonces a l\'écran d\'accueil sont affichées</string>
     <string name="revanced_home_ads_title">Annonces a l\'écran d\'accueil</string>
@@ -271,13 +271,13 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_interactions_title">Paramètres d\'interaction</string>
     <string name="revanced_layout_settings_summary">Les paramètres concernant le schéma </string>
     <string name="revanced_layout_settings_title">Paramètres de mise en page</string>
-    <string name="revanced_maximum_buffer_summary">La durée maximale des médias que le lecteur tentera de tamponner (in milliseconds)
+    <string name="revanced_maximum_buffer_summary">La durée maximale des médias que le lecteur tentera de tamponner (en milliseconds)
         Initial: 120000</string>
     <string name="revanced_maximum_buffer_title">Mémoire tampon maximum</string>
     <string name="revanced_minimized_playback">Lecture en arrière plan</string>
     <string name="revanced_minimized_playback_off">La lecture en arrière-plan est désactivée</string>
     <string name="revanced_minimized_playback_on">La lecture en arrière-plan est activée</string>
-    <string name="revanced_misc_summary">Patchs divers</string>
+    <string name="revanced_misc_summary">Divers options</string>
     <string name="revanced_misc_title">Autres Options</string>
     <string name="revanced_mix_playlists_summary_off">La sélection de mix est masquée</string>
     <string name="revanced_mix_playlists_summary_on">La sélection de mix est affichée</string>
@@ -293,9 +293,9 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_old_style_quality_settings_title">Affichage des paramètres de qualité vidéo </string>
     <string name="revanced_overlaybutton_summary">Paramètres liés au bouton de superposition</string>
     <string name="revanced_overlaybutton_title">Paramètres du bouton de superposition</string>
-    <string name="revanced_override_premium_header_summary_off">Entête actuel : Icon YT par défaut</string>
-    <string name="revanced_override_premium_header_summary_on">Entête actuel : Icon YT Premium</string>
-    <string name="revanced_override_premium_header_title">Icon YT Premium</string>
+    <string name="revanced_override_premium_header_summary_off">Entête actuel : Icône YT par défaut</string>
+    <string name="revanced_override_premium_header_summary_on">Entête actuel : Icône YT Premium</string>
+    <string name="revanced_override_premium_header_title">Icône YT Premium</string>
     <string name="revanced_phone_layout_summary"> Option pour le dpi pour utiliser certains agencements de téléphone</string>
     <string name="revanced_phone_layout_title">Mode téléphone</string>
     <string name="revanced_playback_start_summary">La durée des supports qui doivent être mis en mémoire tampon pour que la lecture commence ou reprenne après une action de l’utilisateur telle que la recherche(en milliseconds)
@@ -350,16 +350,16 @@ Tu es sûr de vouloir continuer ?"</string>
     <string name="revanced_reel_summary_on">Les stories sont affichées</string>
     <string name="revanced_reel_title">YouTube stories</string>
     <string name="revanced_ryd_attribution_summary">Cette intégration utilise l’API RYD de https://returnyoutubedislike.com. Touchez pour en savoir plus.</string>
-    <string name="revanced_ryd_attribution_title">Retour des dislikes</string>
+    <string name="revanced_ryd_attribution_title">Retour du nombre de gens qui on mis Je n\'aime pas</string>
     <string name="revanced_ryd_settings_summary">Utilise le RYD API</string>
-    <string name="revanced_ryd_settings_title">Paramètres de retour des dislikes (pouces rouges)</string>
+    <string name="revanced_ryd_settings_title">Paramètres du bouton Je n\'aime pas</string>
     <string name="revanced_ryd_summary">Allumez-le pour voir à nouveau le nombre d’aversions</string>
     <string name="revanced_ryd_title">Activer RYD</string>
     <string name="revanced_seekbar_tapping">Tapotements de la barre de recherche</string>
     <string name="revanced_seekbar_tapping_off">Tapotements de la barre de recherche (video en progression) est désactivé</string>
     <string name="revanced_seekbar_tapping_on">Tapotements (video en progression) est activé</string>
     <string name="revanced_settings">Paramètres Revanced</string>
-    <string name="revanced_shorts_summary">Cache la section Shorts ou le composant Shorts player</string>
+    <string name="revanced_shorts_summary">Cache la section Shorts ou le composant lecteur Shorts</string>
     <string name="revanced_shorts_title">Composant short</string>
     <string name="revanced_shorts_button_summary_off">Le bouton Shorts est masqué</string>
     <string name="revanced_shorts_button_summary_on">Le bouton Shorts est affiché</string>
@@ -370,7 +370,7 @@ Tu es sûr de vouloir continuer ?"</string>
     <string name="revanced_shorts_player_title">Lecteur Shorts</string>
     <string name="revanced_shorts_player_remix_button_summary_off">Le bouton de remix du lecteur Shorts est masqué</string>
     <string name="revanced_shorts_player_remix_button_summary_on">Le bouton de remix du lecteur Shorts est affiché</string>
-    <string name="revanced_shorts_player_remix_button_title">Lecteur Shorts remix button</string>
+    <string name="revanced_shorts_player_remix_button_title">Lecteur Shorts bouton de remix </string>
     <string name="revanced_shorts_player_subscriptions_summary_off">Bannière des abonnements du lecteur Shorts masquée</string>
     <string name="revanced_shorts_player_subscriptions_summary_on">Bannière des abonnements du lecteur Shorts affichée</string>
     <string name="revanced_shorts_player_subscriptions_title">Bannière des abonnements du lecteur Shorts</string>
@@ -435,7 +435,7 @@ Tu es sûr de vouloir continuer ?"</string>
     <string name="revanced_video_settings_summary">Paramètres liés à la vidéo</string>
     <string name="revanced_video_settings_title">Paramètres vidéo</string>
     <string name="revanced_videoadwhitelisting_summary_off">La liste blanche des annonces vidéo est désactivée</string>
-    <string name="revanced_videoadwhitelisting_summary_on">La liste blanche des annonces vidéo est activée. Utilisez le bouton ADS sous le lecteur pour afficher une liste blanche d’un canal</string>
+    <string name="revanced_videoadwhitelisting_summary_on">La liste blanche des annonces vidéo est activée. Utilisez le bouton ADS (annoces) sous le lecteur pour afficher une liste blanche d’un canal</string>
     <string name="revanced_videoadwhitelisting_title">Liste blanche des annonces vidéo</string>
     <string name="revanced_view_products_summary_off">Afficher la bannière des produits</string>
     <string name="revanced_view_products_summary_on">La bannière de la vue des produits est masquée</string>
@@ -449,7 +449,7 @@ Tu es sûr de vouloir continuer ?"</string>
     <string name="revanced_whitelisting_fetch_failed">Impossible de récupérer les détails du canal, code reçu %d</string>
     <string name="revanced_whitelisting_remove_failed" formatted="false">Impossible de supprimer le canal %s de la liste blanche %s</string>
     <string name="revanced_whitelisting_removed" formatted="false">Le canal %s a été supprimé de la liste blanche %s</string>
-    <string name="revanced_whitelisting_sponsorblock">SponsorBlock</string>
+    <string name="revanced_whitelisting_sponsorblock">SponsorBlockLe canal %s a été supprimé de la liste blanche %s</string>
     <string name="rvx_dialog_message">"À partir de YouTube v17.33.xx, la rotation automatique en plein écran suit l'état de bascule de rotation automatique du système.
 Donc la version YouTube à v17.32.9 contourne le problème de rotation automatique en plein écran
 En conséquence, dans les informations de l'application, la version YouTube est affichée comme v17.32.39
@@ -465,9 +465,9 @@ Si vous voulez désactiver ceci, mettez le bouton ci-dessous en \"désactivé\" 
     <string name="sb_settings">Paramètres SponsorBlock</string>
     <string name="sb_summary">Utilise l’API sponsor.ajay.app</string>
     <string name="segments_endcards">Credits</string>
-    <string name="segments_endcards_sum">Crédits ou lorsque les cartes de fin YouTube apparaissent. Pas pour les conclusions orales</string>
-    <string name="segments_filler">Tangente de remplissage/blagues</string>
-    <string name="segments_filler_sum">Scènes tangentielles ajoutées uniquement pour le remplissage ou l’humour qui ne sont pas nécessaires pour comprendre le contenu principal de la vidéo. Cela ne devrait pas inclure de détails contextuels ou contextuels.</string>
+    <string name="segments_endcards_sum">Crédits ou lorsque les cartes de fin YouTube apparaissent. (Pas pour les conclusions orales)</string>
+    <string name="segments_filler">Tangente de fillers/blagues</string>
+    <string name="segments_filler_sum">Scènes tangentielles ajoutées uniquement pour les fillers ou l’humour qui ne sont pas nécessaires pour comprendre le contenu principal de la vidéo. Cela ne devrait pas inclure de détails contextuels ou contextuels.</string>
     <string name="segments_intermission">Animation d’entracte/intro</string>
     <string name="segments_intermission_sum">Un intervalle sans contenu réel. Pourrait être une pause, image statique, animation répétée</string>
     <string name="segments_nomusic">Musique : Section non musicale</string>
@@ -488,7 +488,7 @@ Si vous voulez désactiver ceci, mettez le bouton ci-dessous en \"désactivé\" 
     <string name="skip_automatically">Passer automatiquement</string>
     <string name="skip_automatically_once">Passer automatiquement une fois</string>
     <string name="skip_ignore">"Ne pas passer"</string>
-    <string name="skip_showbutton">Affiché un bouton de saut</string>
+    <string name="skip_showbutton">Affiché un bouton de saut (passer le moment ect...)</string>
     <string name="skip_sponsor">Passer le moment</string>
     <string name="skipped_endcard">Passet l\'outro</string>
     <string name="skipped_filler">Passer le filler</string>

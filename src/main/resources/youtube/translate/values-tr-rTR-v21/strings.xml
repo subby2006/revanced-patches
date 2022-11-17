@@ -51,7 +51,7 @@
     <string name="litho_channel_guidelines">Kanal yönergelerini gizle</string>
     <string name="litho_channel_guidelines_off">Gizlenmiyor</string>
     <string name="litho_channel_guidelines_on">Gizlendi</string>
-    <string name="litho_chapter_teaser">Açıklama kısmındaki \"transkripti göster\" seçeneği</string>
+    <string name="litho_chapter_teaser">Bölüm fragmanı seçeneği</string>
     <string name="litho_chapter_teaser_off">Gizlenmiyor</string>
     <string name="litho_chapter_teaser_on">Gizleniyor</string>
     <string name="litho_community_guidelines">Topluluk kurallarını gizle</string>
@@ -378,7 +378,7 @@ Yine de devam etmek istediğinden emin misin?"</string>
     <string name="revanced_shorts_player_title">Shorts oynatıcı</string>
     <string name="revanced_shorts_player_remix_button_summary_off">Gizleniyor</string>
     <string name="revanced_shorts_player_remix_button_summary_on">Gizlenmiyor</string>
-    <string name="revanced_shorts_player_remix_button_title">Shorts oynatıcı \"bu sesi kullan\" seçeneği</string>
+    <string name="revanced_shorts_player_remix_button_title">Shorts oynatıcı remiks seçeneği</string>
     <string name="revanced_shorts_player_subscriptions_summary_off">Gizleniyor</string>
     <string name="revanced_shorts_player_subscriptions_summary_on">Gizlenmiyor</string>
     <string name="revanced_shorts_player_subscriptions_title">Shorts abonelikler afişi</string>

@@ -51,6 +51,7 @@ class TranslationsPatch : ResourcePatch {
                 "pl-rPL-v21",
                 "pt-rBR-v21",
                 "ru-rRU-v21",
+                "sk-rSK-v21",
                 "th-rTH-v21",
                 "tr-rTR-v21",
                 "uk-rUA-v21",

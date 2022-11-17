@@ -51,6 +51,9 @@
     <string name="litho_channel_guidelines">Скрыть правила канала</string>
     <string name="litho_channel_guidelines_off">Правила канала показаны</string>
     <string name="litho_channel_guidelines_on">Правила канала скрыты</string>
+    <string name="litho_chapter_teaser">Тизер главы под видео</string>
+    <string name="litho_chapter_teaser_off">Тизер главы под видео показан</string>
+    <string name="litho_chapter_teaser_on">Тизер главы под видео скрыт</string>
     <string name="litho_community_guidelines">Скрыть правила сообщества</string>
     <string name="litho_community_guidelines_off">Правила сообщества показаны</string>
     <string name="litho_community_guidelines_on">Правила сообщества скрыты</string>
@@ -93,6 +96,9 @@
     <string name="litho_paid_content">Скрыть баннер платного контента</string>
     <string name="litho_paid_content_off">Баннер платного контента показан</string>
     <string name="litho_paid_content_on">Баннер платного контента скрыт</string>
+    <string name="litho_self_sponsor">Удалить самоспонсированные карты</string>
+    <string name="litho_self_sponsor_off">Самоспонсированные карты показаны</string>
+    <string name="litho_self_sponsor_on">Самоспонсированные карты скрыты</string>
     <string name="microg_not_installed_notice">Пожалуйста, установите MicroG</string>
     <string name="microg_not_installed_warning">MicroG не найден</string>
     <string name="microg_notification_settings">Настройки уведомлений</string>
