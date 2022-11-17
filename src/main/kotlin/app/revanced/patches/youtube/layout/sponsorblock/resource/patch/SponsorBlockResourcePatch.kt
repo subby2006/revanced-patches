@@ -18,9 +18,6 @@ import java.nio.file.Files
 @DependsOn([FixLocaleConfigErrorPatch::class, ResourceMappingResourcePatch::class])
 @Version("0.0.1")
 class SponsorBlockResourcePatch : ResourcePatch {
-    companion object {
-        internal var reelButtonGroupResourceId: Long = 0
-    }
 
     override fun execute(context: ResourceContext): PatchResult {
         val classLoader = this.javaClass.classLoader
@@ -92,9 +89,15 @@ class SponsorBlockResourcePatch : ResourcePatch {
                 }.close() // close afterwards
             }
         }
-        reelButtonGroupResourceId = ResourceMappingResourcePatch.resourceMappings.single {
-            it.type == "id" && it.name == "reel_persistent_edu_button_group"
-        }.id
+
+        val settingsFragment = context["res/xml/settings_fragment.xml"]
+        settingsFragment.writeText(
+                settingsFragment.readText()
+                        .replace(
+                                "<Preference android:title=\"@string/pref_about_category\" android:key=\"@string/about_key\" android:fragment=\"com.google.android.apps.youtube.app.settings.AboutPrefsFragment\" app:iconSpaceReserved=\"false\" />",
+                                "<Preference android:title=\"@string/sb_settings\" android:summary=\"@string/sb_summary\"><intent android:targetPackage=\"com.google.android.youtube\" android:data=\"sponsorblock_settings\" android:targetClass=\"com.google.android.apps.youtube.app.settings.videoquality.VideoQualitySettingsActivity\" /></Preference><Preference android:title=\"@string/pref_about_category\" android:key=\"@string/about_key\" android:fragment=\"com.google.android.apps.youtube.app.settings.AboutPrefsFragment\" app:iconSpaceReserved=\"false\" />"
+                        )
+        )
         return PatchResultSuccess()
     }
 }

@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.layout.returnyoutubedislike.fingerprints
+package app.revanced.patches.youtube.layout.returnyoutubedislike.bytecode.fingerprints
 
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version

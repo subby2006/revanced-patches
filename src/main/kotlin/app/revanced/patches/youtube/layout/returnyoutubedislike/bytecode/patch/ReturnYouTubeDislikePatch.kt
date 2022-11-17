@@ -1,4 +1,4 @@
-package app.revanced.patches.youtube.layout.returnyoutubedislike.patch
+package app.revanced.patches.youtube.layout.returnyoutubedislike.bytecode.patch
 
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
@@ -12,15 +12,13 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.annotation.YouTubeCompatibility
-import app.revanced.patches.youtube.layout.returnyoutubedislike.fingerprints.TextComponentSpecParentFingerprint
-import app.revanced.patches.youtube.layout.returnyoutubedislike.fingerprints.DislikeFingerprint
-import app.revanced.patches.youtube.layout.returnyoutubedislike.fingerprints.LikeFingerprint
-import app.revanced.patches.youtube.layout.returnyoutubedislike.fingerprints.RemoveLikeFingerprint
+import app.revanced.patches.youtube.layout.returnyoutubedislike.bytecode.fingerprints.*
+import app.revanced.patches.youtube.layout.returnyoutubedislike.resource.patch.ReturnYouTubeDislikeResourcePatch
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.videoid.patch.VideoIdPatch
 
 @Patch
-@DependsOn([IntegrationsPatch::class, VideoIdPatch::class])
+@DependsOn([IntegrationsPatch::class, VideoIdPatch::class, ReturnYouTubeDislikeResourcePatch::class])
 @Name("return-youtube-dislike")
 @Description("Shows the dislike count of videos using the Return YouTube Dislike API.")
 @YouTubeCompatibility

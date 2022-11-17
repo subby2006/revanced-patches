@@ -47,19 +47,7 @@ class SettingsResourcePatch : ResourcePatch {
                 settingsFragment.readText()
                         .replace(
                                 "<Preference android:title=\"@string/pref_developer_category\" android:key=\"@string/developer_settings_key\" android:fragment=\"com.google.android.apps.youtube.app.settings.developer.DeveloperPrefsFragment\" app:iconSpaceReserved=\"false\" />",
-                                "<Preference android:title=\"@string/pref_developer_category\" android:key=\"@string/developer_settings_key\" android:fragment=\"com.google.android.apps.youtube.app.settings.developer.DeveloperPrefsFragment\" app:iconSpaceReserved=\"false\" />\n    TEMP1"
-                        ).replace(
-                                "TEMP1",
-                                "<Preference android:title=\"@string/revanced_settings\" android:summary=\"@string/rvx_dialog_title\">\n        TEMP2"
-                        ).replace(
-                                "TEMP2",
-                                "<intent android:targetPackage=\"com.google.android.youtube\" android:data=\"revanced_settings\" android:targetClass=\"com.google.android.apps.youtube.app.settings.videoquality.VideoQualitySettingsActivity\" />\n    </Preference>\n    TEMP3"
-                        ).replace(
-                                "TEMP3",
-                                "<Preference android:title=\"@string/revanced_ryd_settings_title\" android:summary=\"@string/revanced_ryd_settings_summary\">\n        <intent android:targetPackage=\"com.google.android.youtube\" android:data=\"ryd_settings\" android:targetClass=\"com.google.android.apps.youtube.app.settings.videoquality.VideoQualitySettingsActivity\" />\n    </Preference>\n    TEMP4"
-                        ).replace(
-                                "TEMP4",
-                                "<Preference android:title=\"@string/sb_settings\" android:summary=\"@string/sb_summary\">\n        <intent android:targetPackage=\"com.google.android.youtube\" android:data=\"sponsorblock_settings\" android:targetClass=\"com.google.android.apps.youtube.app.settings.videoquality.VideoQualitySettingsActivity\" />\n    </Preference>\n    "
+                                "<Preference android:title=\"@string/pref_developer_category\" android:key=\"@string/developer_settings_key\" android:fragment=\"com.google.android.apps.youtube.app.settings.developer.DeveloperPrefsFragment\" app:iconSpaceReserved=\"false\" /><Preference android:title=\"@string/revanced_settings\" android:summary=\"@string/rvx_dialog_title\"><intent android:targetPackage=\"com.google.android.youtube\" android:data=\"revanced_settings\" android:targetClass=\"com.google.android.apps.youtube.app.settings.videoquality.VideoQualitySettingsActivity\" /></Preference>"
                         )
         )
 
