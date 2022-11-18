@@ -15,6 +15,7 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
+import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.patches.youtube.misc.settings.resource.patch.SettingsResourcePatch
@@ -101,9 +102,7 @@ class ExtendedPatch : BytecodePatch() {
                                                 move-result v15
                                                 if-eqz v15, :currentheader
                                                 const v3, $premiumheader
-                                                :currentheader
-                                                nop
-                                                """
+                                                """, listOf(ExternalLabel("currentheader", mutableMethod!!.instruction(insertIndex + 2)))
                                     )
                                 }
 
@@ -208,9 +207,7 @@ class ExtendedPatch : BytecodePatch() {
                                                 if-eqz v$dummyRegister, :currentcolor
                                                 const v$dummyRegister, $transparent
                                                 invoke-virtual {v$viewRegister, v$dummyRegister}, Landroid/widget/ImageView;->setImageResource(I)V
-                                                :currentcolor
-                                                nop
-                                                """
+                                                """, listOf(ExternalLabel("currentcolor", mutableMethod!!.instruction(insertIndex + 1)))
                                     )
                                 }
 
@@ -231,9 +228,7 @@ class ExtendedPatch : BytecodePatch() {
                                                 move-result v$dummyRegister
                                                 if-eqz v$dummyRegister, :off
                                                 return-void
-                                                :off
-                                                nop
-                                                """
+                                                """, listOf(ExternalLabel("off", mutableMethod!!.instruction(insertIndex)))
                                     )
                                 }
                             }

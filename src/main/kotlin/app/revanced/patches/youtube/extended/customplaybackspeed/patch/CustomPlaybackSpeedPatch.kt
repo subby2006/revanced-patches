@@ -5,6 +5,7 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
+import app.revanced.patcher.extensions.instruction
 import app.revanced.patcher.extensions.replaceInstruction
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
@@ -12,6 +13,7 @@ import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
+import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.youtube.extended.customplaybackspeed.fingerprints.SpeedArrayGeneratorFingerprint
 import app.revanced.patches.youtube.extended.customplaybackspeed.fingerprints.SpeedLimiterFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
@@ -53,10 +55,9 @@ class CustomPlaybackSpeedPatch : BytecodePatch(
             move-result v9
             if-eqz v9, :bypasscustomplaybackspeed
             const/4 v$sizeCallResultRegister, 0x0
-            :bypasscustomplaybackspeed
-            nop
-            """
+            """, listOf(ExternalLabel("bypasscustomplaybackspeed", arrayGenMethod.instruction(sizeCallIndex + 2)))
         )
+
 
         val (arrayLengthConstIndex, arrayLengthConst) = arrayGenMethodImpl.instructions.withIndex()
             .first { (it.value as? NarrowLiteralInstruction)?.narrowLiteral == 7 }
@@ -71,9 +72,7 @@ class CustomPlaybackSpeedPatch : BytecodePatch(
             if-eqz v9, :bypasscustomplaybackspeed
             sget-object v$arrayLengthConstDestination, $videoSpeedsArrayType
             array-length v$arrayLengthConstDestination, v$arrayLengthConstDestination
-            :bypasscustomplaybackspeed
-            nop
-            """
+            """, listOf(ExternalLabel("bypasscustomplaybackspeed", arrayGenMethod.instruction(arrayLengthConstIndex + 1)))
         )
 
         val (originalArrayFetchIndex, originalArrayFetch) = arrayGenMethodImpl.instructions.withIndex()
@@ -90,9 +89,7 @@ class CustomPlaybackSpeedPatch : BytecodePatch(
             """
             if-eqz v9, :bypasscustomplaybackspeed
             sget-object v$originalArrayFetchDestination, $videoSpeedsArrayType
-            :bypasscustomplaybackspeed
-            nop
-            """
+            """, listOf(ExternalLabel("bypasscustomplaybackspeed", arrayGenMethod.instruction(originalArrayFetchIndex + 1)))
         )
 
         val limiterMethod = SpeedLimiterFingerprint.result?.mutableMethod!!;

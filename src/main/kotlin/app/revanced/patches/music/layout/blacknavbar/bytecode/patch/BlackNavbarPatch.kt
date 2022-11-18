@@ -14,6 +14,7 @@ import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
+import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.music.misc.integrations.patch.MusicIntegrationsPatch
 import app.revanced.patches.music.misc.settings.patch.MusicSettingsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
@@ -85,9 +86,7 @@ class BlackNavbarPatch : BytecodePatch() {
                                             move-result v$register1
                                             if-eqz v$register1, :default
                                             const/high16 v$register2, -0x1000000
-                                            :default
-                                            nop
-                                            """
+                                            """, listOf(ExternalLabel("default", mutableMethod!!.instruction(index + 3)))
                                     )
                                 }
                             }

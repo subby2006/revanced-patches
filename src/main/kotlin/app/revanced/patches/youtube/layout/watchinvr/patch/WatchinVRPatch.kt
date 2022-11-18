@@ -5,11 +5,13 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
+import app.revanced.patcher.extensions.instruction
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
+import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.youtube.layout.watchinvr.fingerprints.WatchinVRFingerprint
 import app.revanced.shared.annotation.YouTubeCompatibility
 
@@ -31,9 +33,7 @@ class WatchinVRPatch : BytecodePatch(
                 move-result v0
                 if-eqz v0, :shown
                 return-void
-                :shown
-                nop
-                """
+                """, listOf(ExternalLabel("shown", WatchinVRFingerprint.result!!.mutableMethod.instruction(0)))
         )
 
         return PatchResultSuccess()

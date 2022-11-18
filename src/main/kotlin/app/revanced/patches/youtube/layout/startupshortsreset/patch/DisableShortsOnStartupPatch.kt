@@ -5,11 +5,13 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
+import app.revanced.patcher.extensions.instruction
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
+import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.youtube.layout.startupshortsreset.fingerprints.UserWasInShortsFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.shared.annotation.YouTubeCompatibility
@@ -37,9 +39,7 @@ class DisableShortsOnStartupPatch : BytecodePatch(
             move-result v5
             if-eqz v5, :disable_shorts_player
             return-void
-            :disable_shorts_player
-            nop
-        """
+            """, listOf(ExternalLabel("disable_shorts_player", userWasInShortsMethod.instruction(moveResultIndex + 1)))
         )
 
         return PatchResultSuccess()

@@ -5,11 +5,13 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
+import app.revanced.patcher.extensions.instruction
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
+import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.youtube.layout.autocaptions.fingerprints.StartVideoInformerFingerprint
 import app.revanced.patches.youtube.layout.autocaptions.fingerprints.SubtitleButtonControllerFingerprint
 import app.revanced.patches.youtube.layout.autocaptions.fingerprints.SubtitleTrackFingerprint
@@ -57,9 +59,7 @@ class AutoCaptionsPatch : BytecodePatch(
             if-nez v0, :forced_captions
             const/4 v0, 0x1
             return v0
-            :forced_captions
-            nop
-        """
+            """, listOf(ExternalLabel("forced_captions", subtitleTrackMethod.instruction(0)))
         )
 
         return PatchResultSuccess()

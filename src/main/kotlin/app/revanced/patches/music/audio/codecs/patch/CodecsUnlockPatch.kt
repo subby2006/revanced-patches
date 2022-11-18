@@ -6,11 +6,13 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.data.toMethodWalker
 import app.revanced.patcher.extensions.addInstructions
+import app.revanced.patcher.extensions.instruction
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
+import app.revanced.patcher.util.smali.ExternalLabel
 import app.revanced.patches.music.audio.codecs.fingerprints.AllCodecsReferenceFingerprint
 import app.revanced.patches.music.audio.codecs.fingerprints.CodecsLockFingerprint
 import app.revanced.patches.music.misc.integrations.patch.MusicIntegrationsPatch
@@ -58,9 +60,7 @@ class CodecsUnlockPatch : BytecodePatch(
                 if-eqz v7, :mp4a
                 invoke-static {}, ${allCodecsMethod.definingClass}->${allCodecsMethod.name}()Ljava/util/Set;
                 move-result-object p4
-                :mp4a
-                nop
-            """
+                """, listOf(ExternalLabel("mp4a", codecsLockMethod.instruction(instructionIndex + 2)))
         )
 
         return PatchResultSuccess()
