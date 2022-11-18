@@ -3,7 +3,7 @@ package app.revanced.patches.youtube.misc.hdrbrightness.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.shared.annotation.YouTubeCompatibility
 import org.jf.dexlib2.Opcode
 
 @Name("hdr-brightness-fingerprint")

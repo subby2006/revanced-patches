@@ -3,18 +3,18 @@ package app.revanced.patches.youtube.misc.settings.resource.patch
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.ResourceContext
+import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
-import app.revanced.annotation.YouTubeUniversalCompatibility
+import app.revanced.shared.annotation.YouTubeUniversalCompatibility
 import app.revanced.util.resources.ResourceUtils
 import app.revanced.util.resources.ResourceUtils.copyResources
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
-import org.w3c.dom.Element
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
+import org.w3c.dom.Element
 
 
 @Name("settings-resource-patch")

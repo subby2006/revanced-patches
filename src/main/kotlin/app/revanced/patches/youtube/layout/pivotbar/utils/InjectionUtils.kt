@@ -3,8 +3,8 @@ package app.revanced.patches.youtube.layout.pivotbar.utils
 import app.revanced.patcher.extensions.addInstruction
 import app.revanced.patcher.extensions.instruction
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import org.jf.dexlib2.Opcode.MOVE_RESULT_OBJECT
 import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
+import org.jf.dexlib2.Opcode.MOVE_RESULT_OBJECT
 
 internal object InjectionUtils {
     const val REGISTER_TEMPLATE_REPLACEMENT: String = "REGISTER_INDEX"

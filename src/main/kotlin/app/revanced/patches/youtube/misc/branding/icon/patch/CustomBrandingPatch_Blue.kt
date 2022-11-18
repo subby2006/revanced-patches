@@ -1,7 +1,5 @@
 package app.revanced.patches.youtube.misc.branding.icon.patch
 
-import app.revanced.extensions.doRecursively
-import app.revanced.extensions.startsWithAny
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
@@ -9,15 +7,10 @@ import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.*
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.annotation.YouTubeUniversalCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
-import java.io.ByteArrayOutputStream
-import java.io.File
-import java.io.FileInputStream
-import java.io.InputStream
+import app.revanced.shared.annotation.YouTubeUniversalCompatibility
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
-import org.w3c.dom.Element
 
 @Patch(false)
 @Name("custom-branding-icon-blue")

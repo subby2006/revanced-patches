@@ -1,6 +1,5 @@
 package app.revanced.patches.youtube.layout.sponsorblock.bytecode.patch
 
-import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
@@ -11,12 +10,12 @@ import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.replaceInstruction
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
+import app.revanced.patcher.patch.annotations.DependsOn
+import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patcher.patch.annotations.DependsOn
-import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patches.youtube.layout.sponsorblock.bytecode.fingerprints.*
 import app.revanced.patches.youtube.layout.sponsorblock.resource.patch.SponsorBlockResourcePatch
@@ -25,12 +24,13 @@ import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePa
 import app.revanced.patches.youtube.misc.playercontroller.patch.PlayerControllerPatch
 import app.revanced.patches.youtube.misc.playercontrols.bytecode.patch.PlayerControlsBytecodePatch
 import app.revanced.patches.youtube.misc.videoid.patch.NewVideoIdPatch
-import org.jf.dexlib2.Opcode
+import app.revanced.shared.annotation.YouTubeCompatibility
 import org.jf.dexlib2.iface.instruction.*
 import org.jf.dexlib2.iface.instruction.formats.Instruction35c
 import org.jf.dexlib2.iface.reference.FieldReference
 import org.jf.dexlib2.iface.reference.MethodReference
 import org.jf.dexlib2.iface.reference.StringReference
+import org.jf.dexlib2.Opcode
 
 @Patch
 @DependsOn(

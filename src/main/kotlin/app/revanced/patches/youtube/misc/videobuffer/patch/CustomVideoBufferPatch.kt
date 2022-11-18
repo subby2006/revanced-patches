@@ -7,15 +7,15 @@ import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.instruction
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.patcher.patch.PatchResult
-import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
+import app.revanced.patcher.patch.PatchResult
+import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.videobuffer.fingerprints.MaxBufferFingerprint
 import app.revanced.patches.youtube.misc.videobuffer.fingerprints.PlaybackBufferFingerprint
 import app.revanced.patches.youtube.misc.videobuffer.fingerprints.ReBufferFingerprint
+import app.revanced.shared.annotation.YouTubeCompatibility
 import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
 
 @Patch

@@ -10,8 +10,8 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.annotation.YouTubeUniversalCompatibility
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
+import app.revanced.shared.annotation.YouTubeUniversalCompatibility
 
 @Patch
 @DependsOn([IntegrationsPatch::class])

@@ -2,7 +2,6 @@ package app.revanced.patches.youtube.ad.video.fingerprints
 
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 
 @Name("load-ads-fingerprint")

@@ -3,10 +3,10 @@ package app.revanced.patches.youtube.layout.hidecrowdfundingbox.bytecode.fingerp
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.layout.hidecrowdfundingbox.resource.patch.CrowdfundingBoxResourcePatch
-import org.jf.dexlib2.Opcode
+import app.revanced.shared.annotation.YouTubeCompatibility
 import org.jf.dexlib2.iface.instruction.WideLiteralInstruction
+import org.jf.dexlib2.Opcode
 
 @Name("crowdfunding-box-view-parent-fingerprint")
 @YouTubeCompatibility

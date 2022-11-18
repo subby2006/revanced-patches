@@ -3,13 +3,13 @@ package app.revanced.patches.youtube.layout.sponsorblock.resource.patch
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.ResourceContext
+import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
+import app.revanced.shared.annotation.YouTubeCompatibility
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
 import java.nio.file.Files
 

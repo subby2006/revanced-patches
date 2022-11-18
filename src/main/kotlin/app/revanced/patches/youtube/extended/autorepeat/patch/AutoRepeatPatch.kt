@@ -7,17 +7,17 @@ import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.removeInstruction
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
-import app.revanced.patcher.patch.PatchResult
-import app.revanced.patcher.patch.PatchResultError
-import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.patcher.patch.PatchResult
+import app.revanced.patcher.patch.PatchResultError
+import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patches.youtube.extended.autorepeat.fingerprints.AutoNavInformerFingerprint
 import app.revanced.patches.youtube.extended.autorepeat.fingerprints.AutoRepeatFingerprint
 import app.revanced.patches.youtube.extended.autorepeat.fingerprints.AutoRepeatParentFingerprint
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
+import app.revanced.shared.annotation.YouTubeCompatibility
 
 @Patch
 @DependsOn([IntegrationsPatch::class])

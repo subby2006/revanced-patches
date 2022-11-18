@@ -1,12 +1,12 @@
 package app.revanced.patches.youtube.layout.hideendscreencards.bytecode.fingerprints
 
-import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patches.youtube.layout.hideendscreencards.resource.patch.HideEndscreenCardsResourcePatch
-import org.jf.dexlib2.Opcode
+import app.revanced.shared.annotation.YouTubeCompatibility
 import org.jf.dexlib2.iface.instruction.WideLiteralInstruction
+import org.jf.dexlib2.Opcode
 
 @Name("layout-video-fingerprint")
 @YouTubeCompatibility

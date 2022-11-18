@@ -1,28 +1,28 @@
 package app.revanced.patches.music.misc.integrations.patch
 
-import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstruction
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
-import app.revanced.patcher.util.smali.toInstructions
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultError
 import app.revanced.patcher.patch.PatchResultSuccess
+import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
+import app.revanced.patcher.util.smali.toInstructions
 import app.revanced.patches.music.misc.integrations.fingerprints.InitFingerprint
 import app.revanced.patches.music.misc.integrations.fingerprints.MusicActivityFingerprint
+import app.revanced.shared.annotation.YouTubeMusicCompatibility
 import org.jf.dexlib2.AccessFlags
+import org.jf.dexlib2.iface.instruction.ReferenceInstruction
+import org.jf.dexlib2.iface.Method
+import org.jf.dexlib2.iface.reference.FieldReference
+import org.jf.dexlib2.iface.reference.MethodReference
 import org.jf.dexlib2.immutable.ImmutableField
 import org.jf.dexlib2.immutable.ImmutableMethod
 import org.jf.dexlib2.immutable.ImmutableMethodImplementation
 import org.jf.dexlib2.immutable.ImmutableMethodParameter
-import org.jf.dexlib2.iface.Method
-import org.jf.dexlib2.iface.instruction.ReferenceInstruction
-import org.jf.dexlib2.iface.reference.FieldReference
-import org.jf.dexlib2.iface.reference.MethodReference
 
 @Name("music-integrations")
 @Description("Applies mandatory patches to implement the ReVanced Music integrations into the application.")

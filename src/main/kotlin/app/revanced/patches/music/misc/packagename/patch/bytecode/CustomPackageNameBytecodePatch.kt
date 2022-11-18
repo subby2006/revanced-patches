@@ -8,14 +8,14 @@ import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patches.music.misc.packagename.patch.resource.CustomPackageNameResourcePatch
-import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patches.music.misc.microg.fingerprints.*
 import app.revanced.patches.music.misc.microg.patch.bytecode.MusicMicroGBytecodePatch
-import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
-import app.revanced.patches.music.misc.microg.shared.Constants.REVANCED_MUSIC_PACKAGE_NAME
 import app.revanced.patches.music.misc.microg.shared.Constants.REVANCED_EXTENDED_MUSIC_PACKAGE_NAME
+import app.revanced.patches.music.misc.microg.shared.Constants.REVANCED_MUSIC_PACKAGE_NAME
+import app.revanced.patches.music.misc.packagename.patch.resource.CustomPackageNameResourcePatch
+import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.patches.youtube.misc.microg.shared.Constants
+import app.revanced.shared.annotation.YouTubeMusicCompatibility
 import app.revanced.util.microg.MicroGBytecodeHelper
 
 @Patch(false)

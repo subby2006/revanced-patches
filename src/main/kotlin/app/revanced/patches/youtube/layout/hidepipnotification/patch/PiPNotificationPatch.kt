@@ -5,14 +5,15 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstruction
-import app.revanced.patcher.patch.PatchResult
-import app.revanced.patcher.patch.PatchResultSuccess
+import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.patcher.patch.PatchResult
+import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patches.youtube.layout.hidepipnotification.fingerprints.PiPNotificationFirstFingerprint
 import app.revanced.patches.youtube.layout.hidepipnotification.fingerprints.PiPNotificationSecondFingerprint
+import app.revanced.shared.annotation.YouTubeCompatibility
 
 @Patch
 @Name("hide-pip-notification")
@@ -26,19 +27,21 @@ class PiPNotificationPatch : BytecodePatch(
 ) {
     override fun execute(context: BytecodeContext): PatchResult {
 
-        val PiPNotificationFirstResult = PiPNotificationFirstFingerprint.result!!
-        val PiPNotificationSecondResult = PiPNotificationSecondFingerprint.result!!
-
-        PiPNotificationFirstResult.mutableMethod.addInstruction(
-            PiPNotificationFirstResult.scanResult.patternScanResult!!.startIndex + 1,
-            "return-void"
-        )
-
-        PiPNotificationSecondResult.mutableMethod.addInstruction(
-            PiPNotificationSecondResult.scanResult.patternScanResult!!.startIndex + 2,
-            "return-void"
-        )
+        PiPNotificationFirstFingerprint.hookNotificationParser(true)
+        PiPNotificationSecondFingerprint.hookNotificationParser(false)
 
         return PatchResultSuccess()
+    }
+}
+
+fun MethodFingerprint.hookNotificationParser(isPrimaryFingerprint: Boolean) {
+    with(this.result!!) {
+        val startIndex = scanResult.patternScanResult!!.startIndex
+        val insertIndex = if (isPrimaryFingerprint) 1 else 2
+
+        mutableMethod.addInstruction(
+            startIndex + insertIndex,
+            "return-void"
+        )
     }
 }

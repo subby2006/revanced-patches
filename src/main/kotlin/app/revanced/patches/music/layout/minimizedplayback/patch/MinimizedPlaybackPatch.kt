@@ -5,14 +5,14 @@ import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.data.toMethodWalker
-import app.revanced.patcher.extensions.addInstructions
-import app.revanced.patcher.patch.PatchResult
-import app.revanced.patcher.patch.PatchResultSuccess
+import app.revanced.patcher.extensions.addInstruction
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
+import app.revanced.patcher.patch.PatchResult
+import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patches.music.layout.minimizedplayback.fingerprints.MinimizedPlaybackManagerFingerprint
+import app.revanced.shared.annotation.YouTubeMusicCompatibility
 import org.jf.dexlib2.iface.instruction.ReferenceInstruction
 import org.jf.dexlib2.iface.reference.MethodReference
 
@@ -27,10 +27,8 @@ class MinimizedPlaybackPatch : BytecodePatch(
     )
 ) {
     override fun execute(context: BytecodeContext): PatchResult {
-        MinimizedPlaybackManagerFingerprint.result!!.mutableMethod.addInstructions(
-            0, """
-                return-void
-                """
+        MinimizedPlaybackManagerFingerprint.result!!.mutableMethod.addInstruction(
+            0, "return-void"
         )
 
         return PatchResultSuccess()

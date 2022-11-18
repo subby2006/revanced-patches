@@ -9,8 +9,8 @@ import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patches.music.layout.tastebuilder.fingerprints.TasteBuilderConstructorFingerprint
+import app.revanced.shared.annotation.YouTubeMusicCompatibility
 import org.jf.dexlib2.iface.instruction.formats.Instruction22c
 
 @Patch

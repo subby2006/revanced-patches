@@ -3,7 +3,7 @@ package app.revanced.patches.youtube.misc.playercontrols.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.shared.annotation.YouTubeCompatibility
 
 @Name("player-controls-visibility-fingerprint")
 @YouTubeCompatibility

@@ -4,15 +4,15 @@ import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.ResourceContext
+import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.ResourcePatch
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
-import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.microg.shared.Constants.PACKAGE_NAME
-import app.revanced.patches.youtube.misc.microg.shared.Constants.REVANCED_PACKAGE_NAME
 import app.revanced.patches.youtube.misc.microg.shared.Constants.REVANCED_EXTENDED_PACKAGE_NAME
+import app.revanced.patches.youtube.misc.microg.shared.Constants.REVANCED_PACKAGE_NAME
+import app.revanced.shared.annotation.YouTubeCompatibility
 import app.revanced.util.microg.MicroGResourceHelper
 
 @Name("custom-package-name-resource-patch")

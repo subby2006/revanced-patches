@@ -3,10 +3,10 @@ package app.revanced.patches.youtube.misc.playercontrols.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.playercontrols.bytecode.patch.PlayerControlsBytecodePatch
-import org.jf.dexlib2.Opcode
+import app.revanced.shared.annotation.YouTubeCompatibility
 import org.jf.dexlib2.iface.instruction.WideLiteralInstruction
+import org.jf.dexlib2.Opcode
 
 @Name("bottom-controls-inflate-fingerprint")
 @YouTubeCompatibility

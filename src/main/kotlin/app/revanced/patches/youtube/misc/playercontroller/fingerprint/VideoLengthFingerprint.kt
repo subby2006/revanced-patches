@@ -1,10 +1,9 @@
 package app.revanced.patches.youtube.misc.playercontroller.fingerprint
 
-import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
-
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
+import app.revanced.shared.annotation.YouTubeCompatibility
 import org.jf.dexlib2.Opcode
 
 @Name("video-length-fingerprint")

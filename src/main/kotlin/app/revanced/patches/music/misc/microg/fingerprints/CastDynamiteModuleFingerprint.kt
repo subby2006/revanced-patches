@@ -3,7 +3,7 @@ package app.revanced.patches.music.misc.microg.fingerprints
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.annotation.YouTubeMusicCompatibility
+import app.revanced.shared.annotation.YouTubeMusicCompatibility
 
 @Name("cast-module-fingerprint")
 @YouTubeMusicCompatibility

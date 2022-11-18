@@ -1,10 +1,10 @@
 package app.revanced.patches.youtube.misc.settings.bytecode.fingerprints
 
-import app.revanced.annotation.YouTubeUniversalCompatibility
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
+import app.revanced.shared.annotation.YouTubeUniversalCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.Opcode
 

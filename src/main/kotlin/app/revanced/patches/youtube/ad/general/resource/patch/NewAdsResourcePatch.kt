@@ -1,14 +1,14 @@
 package app.revanced.patches.youtube.ad.general.resource.patch
 
-import app.revanced.annotation.NewYouTubeCompatibility
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.ResourceContext
+import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
+import app.revanced.shared.annotation.NewYouTubeCompatibility
 
 @NewYouTubeCompatibility
 @DependsOn([ResourceMappingResourcePatch::class])

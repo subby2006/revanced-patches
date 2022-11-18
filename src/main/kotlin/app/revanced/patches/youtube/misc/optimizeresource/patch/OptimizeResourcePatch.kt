@@ -4,17 +4,17 @@ import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.ResourceContext
+import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.annotation.YouTubeUniversalCompatibility
+import app.revanced.shared.annotation.YouTubeUniversalCompatibility
 import app.revanced.util.resources.ResourceUtils.copyXmlNode
 import java.io.File
 import java.nio.file.Files
 import java.nio.file.Path
-import java.util.Comparator
 import java.nio.file.StandardCopyOption
+import java.util.Comparator
 
 @Patch
 @Name("optimize-resource")

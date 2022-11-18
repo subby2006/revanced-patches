@@ -5,11 +5,11 @@ import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.annotation.FuzzyPatternScanMethod
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.shared.annotation.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
-import org.jf.dexlib2.Opcode
 import org.jf.dexlib2.iface.instruction.ReferenceInstruction
 import org.jf.dexlib2.iface.reference.FieldReference
+import org.jf.dexlib2.Opcode
 
 @Name("hdr-brightness-old-fingerprint")
 @FuzzyPatternScanMethod(3)

@@ -1,6 +1,5 @@
 package app.revanced.patches.youtube.misc.playercontroller.patch
 
-import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
@@ -10,10 +9,10 @@ import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.instruction
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint.Companion.resolve
+import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod.Companion.toMutable
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
@@ -21,6 +20,7 @@ import app.revanced.patches.youtube.misc.playercontroller.fingerprint.CreateVide
 import app.revanced.patches.youtube.misc.playercontroller.fingerprint.PlayerInitFingerprint
 import app.revanced.patches.youtube.misc.playercontroller.fingerprint.SeekFingerprint
 import app.revanced.patches.youtube.misc.playercontroller.fingerprint.VideoLengthFingerprint
+import app.revanced.shared.annotation.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.builder.MutableMethodImplementation
 import org.jf.dexlib2.iface.instruction.OneRegisterInstruction

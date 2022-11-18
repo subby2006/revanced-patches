@@ -1,6 +1,6 @@
 package app.revanced.patches.youtube.extended.extended.bytecode.patch
 
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.extensions.MethodExtensions.findMutableMethodOf
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
@@ -8,20 +8,20 @@ import app.revanced.patcher.data.BytecodeContext
 import app.revanced.patcher.extensions.addInstruction
 import app.revanced.patcher.extensions.addInstructions
 import app.revanced.patcher.extensions.instruction
-import app.revanced.patcher.patch.PatchResult
-import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.annotations.Patch
 import app.revanced.patcher.patch.BytecodePatch
+import app.revanced.patcher.patch.PatchResult
+import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.util.proxy.mutableTypes.MutableClass
 import app.revanced.patcher.util.proxy.mutableTypes.MutableMethod
-import app.revanced.extensions.MethodExtensions.findMutableMethodOf
 import app.revanced.patches.youtube.misc.integrations.patch.IntegrationsPatch
 import app.revanced.patches.youtube.misc.mapping.patch.ResourceMappingResourcePatch
 import app.revanced.patches.youtube.misc.settings.resource.patch.SettingsResourcePatch
-import org.jf.dexlib2.Opcode
-import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
+import app.revanced.shared.annotation.YouTubeCompatibility
 import org.jf.dexlib2.iface.instruction.formats.*
+import org.jf.dexlib2.iface.instruction.OneRegisterInstruction
+import org.jf.dexlib2.Opcode
 
 @Patch
 @DependsOn(
@@ -44,14 +44,12 @@ class ExtendedPatch : BytecodePatch() {
         "ytPremiumWordmarkHeader",
         "album_card",
         "ic_right_comment_32c",
-        "abc_list_menu_item_layout",
         "horizontal_card_list",
         "reel_player_paused_state_buttons",
         "reel_dyn_remix",
         "scrim_overlay",
         "google_transparent",
-        "app_related_endscreen_results",
-        "bottom_panel_overlay_text"
+        "app_related_endscreen_results"
     ).map { name ->
         ResourceMappingResourcePatch.resourceMappings.single { it.name == name }.id
     }
@@ -141,24 +139,7 @@ class ExtendedPatch : BytecodePatch() {
                                     )
                                 }
 
-                                resourceIds[5] -> { // layout switch
-                                    val insertIndex = index + 5
-                                    val invokeInstruction = instructions.elementAt(insertIndex)
-                                    if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
-
-                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
-                                    if (mutableMethod == null) mutableMethod =
-                                        mutableClass!!.findMutableMethodOf(method)
-
-                                    mutableMethod!!.addInstructions(
-                                        insertIndex, """
-                                                invoke-static {p2}, Lapp/revanced/integrations/patches/HideMixPlaylistsPatch;->hideMixPlaylists(Landroid/view/View;)V
-                                                invoke-static {p3}, Lapp/revanced/integrations/patches/HideMixPlaylistsPatch;->hideMixPlaylists(Landroid/view/View;)V
-                                                """
-                                    )
-                                }
-
-                                resourceIds[6] -> { // breaking news
+                                resourceIds[5] -> { // breaking news
                                     val insertIndex = index + 4
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
@@ -174,7 +155,7 @@ class ExtendedPatch : BytecodePatch() {
                                     )
                                 }
 
-                                resourceIds[7] -> { // subscriptions banner (shorts)
+                                resourceIds[6] -> { // subscriptions banner (shorts)
                                     val insertIndex = index + 3
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
@@ -190,7 +171,7 @@ class ExtendedPatch : BytecodePatch() {
                                     )
                                 }
 
-                                resourceIds[8] -> { // remix button (shorts)
+                                resourceIds[7] -> { // remix button (shorts)
                                     val insertIndex = index - 2
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
@@ -206,7 +187,7 @@ class ExtendedPatch : BytecodePatch() {
                                     )
                                 }
 
-                                resourceIds[9] -> { // player overlay background
+                                resourceIds[8] -> { // player overlay background
                                     val insertIndex = index + 3
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.CHECK_CAST) return@forEachIndexed
@@ -218,7 +199,7 @@ class ExtendedPatch : BytecodePatch() {
                                     val dummyRegister = (instructions.elementAt(index) as Instruction31i).registerA
                                     val viewRegister = (invokeInstruction as Instruction21c).registerA
 
-                                    val transparent = resourceIds[10]
+                                    val transparent = resourceIds[9]
 
                                     mutableMethod!!.addInstructions(
                                         insertIndex + 1, """
@@ -233,7 +214,7 @@ class ExtendedPatch : BytecodePatch() {
                                     )
                                 }
 
-                                resourceIds[11] -> { // end screen result
+                                resourceIds[10] -> { // end screen result
                                     val insertIndex = index - 13
                                     val invokeInstruction = instructions.elementAt(insertIndex)
                                     if (invokeInstruction.opcode != Opcode.IF_NEZ) return@forEachIndexed
@@ -253,22 +234,6 @@ class ExtendedPatch : BytecodePatch() {
                                                 :off
                                                 nop
                                                 """
-                                    )
-                                }
-
-                                resourceIds[12] -> { // mix playlists (others)
-                                    val insertIndex = index - 17
-                                    val invokeInstruction = instructions.elementAt(insertIndex)
-                                    if (invokeInstruction.opcode != Opcode.MOVE_RESULT_OBJECT) return@forEachIndexed
-
-                                    if (mutableClass == null) mutableClass = context.proxy(classDef).mutableClass
-                                    if (mutableMethod == null) mutableMethod =
-                                        mutableClass!!.findMutableMethodOf(method)
-
-                                    val viewRegister = 2
-                                    mutableMethod!!.addInstruction(
-                                        insertIndex + 1,
-                                        "invoke-static {p$viewRegister}, Lapp/revanced/integrations/patches/HideMixPlaylistsPatch;->hideMixPlaylists(Landroid/view/View;)V"
                                     )
                                 }
                             }

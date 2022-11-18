@@ -1,11 +1,10 @@
 package app.revanced.patches.music.layout.castbutton.fingerprints
 
-import app.revanced.annotation.YouTubeMusicCompatibility
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.fingerprint.method.impl.MethodFingerprint
-import app.revanced.annotation.YouTubeCompatibility
+import app.revanced.shared.annotation.YouTubeMusicCompatibility
 import org.jf.dexlib2.AccessFlags
 
 @Name("hide-castbutton-parent-signature")

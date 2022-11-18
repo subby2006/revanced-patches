@@ -1,12 +1,11 @@
 package app.revanced.patches.youtube.misc.integrations.patch
 
-import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patcher.annotation.Description
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.BytecodeContext
-import app.revanced.patcher.extensions.MethodFingerprintExtensions.name
 import app.revanced.patcher.extensions.addInstruction
+import app.revanced.patcher.extensions.MethodFingerprintExtensions.name
 import app.revanced.patcher.extensions.or
 import app.revanced.patcher.patch.BytecodePatch
 import app.revanced.patcher.patch.PatchResult
@@ -17,6 +16,7 @@ import app.revanced.patcher.util.smali.toInstructions
 import app.revanced.patches.youtube.misc.integrations.fingerprints.InitFingerprint
 import app.revanced.patches.youtube.misc.integrations.fingerprints.ServiceFingerprint
 import app.revanced.patches.youtube.misc.integrations.fingerprints.StandalonePlayerFingerprint
+import app.revanced.shared.annotation.YouTubeCompatibility
 import org.jf.dexlib2.AccessFlags
 import org.jf.dexlib2.immutable.ImmutableMethod
 import org.jf.dexlib2.immutable.ImmutableMethodImplementation

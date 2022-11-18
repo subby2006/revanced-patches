@@ -7,10 +7,10 @@ import app.revanced.patcher.data.ResourceContext
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
 import app.revanced.patcher.patch.ResourcePatch
-import org.w3c.dom.Element
 import java.util.*
 import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
+import org.w3c.dom.Element
 
 
 @Name("resource-mapping")

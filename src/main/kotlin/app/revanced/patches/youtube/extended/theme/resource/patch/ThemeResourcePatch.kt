@@ -5,22 +5,21 @@ import app.revanced.extensions.startsWithAny
 import app.revanced.patcher.annotation.Name
 import app.revanced.patcher.annotation.Version
 import app.revanced.patcher.data.ResourceContext
+import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.PatchResult
 import app.revanced.patcher.patch.PatchResultSuccess
-import app.revanced.patcher.patch.annotations.DependsOn
 import app.revanced.patcher.patch.ResourcePatch
-import app.revanced.annotation.YouTubeCompatibility
 import app.revanced.patches.youtube.misc.manifest.patch.FixLocaleConfigErrorPatch
+import app.revanced.shared.annotation.YouTubeUniversalCompatibility
 import app.revanced.util.resources.ResourceUtils
 import app.revanced.util.resources.ResourceUtils.copyResources
-import java.io.File
 import java.nio.file.Files
 import java.nio.file.StandardCopyOption
 import org.w3c.dom.Element
 
 @DependsOn([FixLocaleConfigErrorPatch::class])
 @Name("theme-resource")
-@YouTubeCompatibility
+@YouTubeUniversalCompatibility
 @Version("0.0.1")
 class ThemeResourcePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
