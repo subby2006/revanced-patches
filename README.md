@@ -32,8 +32,8 @@ The unofficial Patch bundle provided by ReVanced Extended
 | `old-quality-layout` | Enables the original quality flyout menu. | 17.45.34 |
 | `extended` | Add ReVanced Extended Features. | 17.45.34 |
 | `hide-cast-button` | Hides the cast button in the video player. | all |
-| `optimize-resource` | Optimize resources to make your app lightweight, Add missing translations to YouTube | all |
-| `remove-playerbutton-background` | Disable Player Button Overlay Background | all |
+| `optimize-resource` | Optimize resources to make your app lightweight, Add missing translations to YouTube. | all |
+| `remove-player-button-background` | Removes the background from the video player buttons. | all |
 | `default-video-speed` | Adds the ability to set default video speed. | 17.45.34 |
 | `hide-fullscreen-buttoncontainer` | Hides fullscreen buttoncontainer. | 17.45.34 |
 | `always-autorepeat` | Always repeats the playing video again. | 17.45.34 |
