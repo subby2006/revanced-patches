@@ -154,7 +154,7 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_button_container_title">Composant de conteneur à boutons</string>
     <string name="revanced_cast_button_summary_off">Le bouton Cast est masqué</string>
     <string name="revanced_cast_button_summary_on">Le bouton Cast est affiché</string>
-    <string name="revanced_cast_button_title">Bouton de cast</string>
+    <string name="revanced_cast_button_title">Bouton de Cast</string>
     <string name="revanced_comments_summary">Masque la section des commentaires ou le composant</string>
     <string name="revanced_comments_title">Composant Commentaires</string>
     <string name="revanced_copy_video_url_summary_off">Le bouton Copier lien est masqué de la superposition du lecteur</string>
@@ -219,9 +219,9 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_hide_create_clip_button_summary_off">Le bouton Clip est affiché</string>
     <string name="revanced_hide_create_clip_button_summary_on">Le bouton Clip est masqué</string>
     <string name="revanced_hide_create_clip_button_title">Masquer le bouton Clip</string>
-    <string name="revanced_hide_create_short_button_summary_off">Le bouton Créer Short est affiché</string>
-    <string name="revanced_hide_create_short_button_summary_on">Le bouton Créer Short est masqué</string>
-    <string name="revanced_hide_create_short_button_title">Masquer le bouton Créer Short</string>
+    <string name="revanced_hide_create_short_button_summary_off">Le bouton Créer Shorts est affiché</string>
+    <string name="revanced_hide_create_short_button_summary_on">Le bouton Créer Shorts est masqué</string>
+    <string name="revanced_hide_create_short_button_title">Masquer le bouton Créer Shorts</string>
     <string name="revanced_hide_dislike_button_summary_off">Le bouton \"Je n\'aime pas\" est affiché</string>
     <string name="revanced_hide_dislike_button_summary_on">Le bouton \"Je n\'aime pas\" est masqué</string>
     <string name="revanced_hide_dislike_button_title">Masquer le bouton \"Je n\'aime pas\"</string>
@@ -277,7 +277,7 @@ Est-il prêt à être soumis ?"</string>
     <string name="revanced_minimized_playback">Lecture en arrière plan</string>
     <string name="revanced_minimized_playback_off">La lecture en arrière-plan est désactivée</string>
     <string name="revanced_minimized_playback_on">La lecture en arrière-plan est activée</string>
-    <string name="revanced_misc_summary">Divers options</string>
+    <string name="revanced_misc_summary">Divers patchs</string>
     <string name="revanced_misc_title">Autres Options</string>
     <string name="revanced_mix_playlists_summary_off">La sélection de mix est masquée</string>
     <string name="revanced_mix_playlists_summary_on">La sélection de mix est affichée</string>
@@ -348,7 +348,7 @@ Tu es sûr de vouloir continuer ?"</string>
     <string name="revanced_rebuffer_title">Rebuffer</string>
     <string name="revanced_reel_summary_off">Les stories sont cachées</string>
     <string name="revanced_reel_summary_on">Les stories sont affichées</string>
-    <string name="revanced_reel_title">YouTube stories</string>
+    <string name="revanced_reel_title">YouTube Stories</string>
     <string name="revanced_ryd_attribution_summary">Cette intégration utilise l’API RYD de https://returnyoutubedislike.com. Touchez pour en savoir plus.</string>
     <string name="revanced_ryd_attribution_title">Retour du nombre de gens qui on mis Je n\'aime pas</string>
     <string name="revanced_ryd_settings_summary">Utilise le RYD API</string>
@@ -360,7 +360,7 @@ Tu es sûr de vouloir continuer ?"</string>
     <string name="revanced_seekbar_tapping_on">Tapotements (video en progression) est activé</string>
     <string name="revanced_settings">Paramètres Revanced</string>
     <string name="revanced_shorts_summary">Cache la section Shorts ou le composant lecteur Shorts</string>
-    <string name="revanced_shorts_title">Composant short</string>
+    <string name="revanced_shorts_title">Composant Shorts</string>
     <string name="revanced_shorts_button_summary_off">Le bouton Shorts est masqué</string>
     <string name="revanced_shorts_button_summary_on">Le bouton Shorts est affiché</string>
     <string name="revanced_shorts_button_title">Bouton Shorts</string>
